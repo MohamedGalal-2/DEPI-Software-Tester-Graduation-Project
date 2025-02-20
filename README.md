@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/daf9c53c-930e-4115-b331-40695cb173cc)# Automated Testing Framework
+# Automated Testing Framework
 
 ## 📌 Project Overview
 This project aims to develop a comprehensive **Automated Testing Framework** for web applications. The framework integrates multiple testing tools to perform **UI, API, functional, and performance testing**, ensuring software reliability and efficiency.
