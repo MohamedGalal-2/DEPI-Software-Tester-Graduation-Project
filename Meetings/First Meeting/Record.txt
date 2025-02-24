@@ -1,0 +1,4 @@
+1. The next meeting is scheduled for Thursday, February 27th.
+2. Explanation of Jira.
+3. Study of Git & GitHub.
+4. Selected website for testing: DemoBlaze.
