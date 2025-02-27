@@ -1,0 +1,14 @@
+1. The weekly meeting in Ramadan gonna be on Thursdays after the coaching session.
+
+2. Finishing the testing & Bug Reports workshops.
+	1. Testing:
+	https://amitlearning1.sharepoint.com/sites/BNS2_SWD6_S1/_layouts/15/stream.aspx?id=%2Fsites%2FBNS2%5FSWD6%5FS1%2FShared%20Documents%	2FGeneral%2FRecordings%2FWorkshop%2FTesting%20%2D%20Workshop%20%2D%20Test%20Case%2D20250216%5F225630%2DMeeting%20Recording%2Emp4	&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2Ebb107c56%2Dada5%2D479e%2Dae42%2Dc99a455c9556
+
+	2. Bug Reports:
+	https://amitlearning1.sharepoint.com/sites/BNS2_SWD6_S1/_layouts/15/stream.aspx?id=%2Fsites%2FBNS2%5FSWD6%5FS1%2FShared%20Documents%	2FGeneral%2FRecordings%2FWorkshop%2FBug%20Reports%2D20250220%5F225955%2DMeeting%20Recording%2Emp4&referrer=StreamWebApp%	2EWeb&referrerScenario=AddressBarCopied%2Eview%2Ea902a0d3%2D7c95%2D4925%2D8390%2D0978cb8b3ca8 
+
+3. Writing simple UI test case.
+	Galal:   Navigation & Page Loading
+	Esraa:   Button Clicks & Interactions
+	Mohamed: Form Submissions & Validations
+	Jana:    UI Responsiveness & Performance
