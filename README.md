@@ -111,13 +111,16 @@ Refer to the [project documentation](docs/) for detailed instructions on usage a
 
 ## 👨‍💻 Contributors
 
-In this Scrum-based project, all team members are testers, sharing responsibilities equally while one member acts as the Scrum Master and team lead.
+In this Scrum-based project, all team members contribute equally to testing efforts, ensuring comprehensive coverage across different testing areas. One member also takes on the role of Scrum Master and Team Lead to facilitate the process and maintain alignment.
 
-- **[Mohamed Ahmed Galal]** - Scrum Master & Team Lead
-- **[Esraa Ahmed Ramdan]** - Tester
-- **[Jana Fouad Mohamed]** - Tester
-- **[Mohamed Ahmed Fathy]** - Tester
+- **[Mohamed Ahmed Galal]** - Scrum Master & Team Lead, responsible for coordination and removing blockers.
+- **[Esraa Ahmed Ramdan]** - Tester, focusing on UI automation and functional testing.
+- **[Jana Fouad Mohamed]** - Tester, specializing in API testing and integration validation.
+- **[Mohamed Ahmed Fathy]** - Tester, handling performance testing and optimization.
+
+All testers work collaboratively on bug tracking, test case execution, and continuous improvement of the testing framework.
 
 ## 📝 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
