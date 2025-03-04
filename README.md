@@ -32,6 +32,8 @@ We will be testing the following website: [DemoBlaze](https://www.demoblaze.com/
 ## 🏧 Project Structure
 ```
 📂 AutomatedTestingFramework
+│── 📂 config
+│   ├── 📂 jira
 │── 📂 tests
 │   ├── 📂 ui_tests
 │   ├── 📂 api_tests
