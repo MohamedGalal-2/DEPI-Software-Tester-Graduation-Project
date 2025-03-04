@@ -119,4 +119,3 @@ All testers work collaboratively on bug tracking, test case execution, and conti
 ## 📝 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-```
