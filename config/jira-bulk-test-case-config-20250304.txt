@@ -1,0 +1,116 @@
+{
+  "config.version" : "2.0",
+  "config.project.from.csv" : "false",
+  "config.encoding" : "UTF-8",
+  "config.file.id" : "07ac853a-f474-4181-b661-e117574517c5",
+  "config.email.suffix" : "@",
+  "config.file.name" : "Test & Bug Report.xlsx - TC (2).csv",
+  "config.field.mappings" : {
+    "Test Script Reference" : {
+      "userChanged" : "true",
+      "manualMapping" : "false",
+      "existing.custom.field" : "10048"
+    },
+    "Execution Date" : {
+      "userChanged" : "true",
+      "manualMapping" : "false",
+      "existing.custom.field" : "10049"
+    },
+    "Issue" : {
+      "jira.field" : "issuetype",
+      "userChanged" : "true",
+      "manualMapping" : "true"
+    },
+    "Description" : {
+      "jira.field" : "description",
+      "userChanged" : "true",
+      "manualMapping" : "false"
+    },
+    "Test Status" : {
+      "userChanged" : "true",
+      "manualMapping" : "false",
+      "existing.custom.field" : "10042"
+    },
+    "Priority" : {
+      "userChanged" : "true",
+      "manualMapping" : "false",
+      "existing.custom.field" : "10041"
+    },
+    "Comments" : {
+      "userChanged" : "true",
+      "manualMapping" : "false",
+      "existing.custom.field" : "10050"
+    },
+    "Test Case ID" : {
+      "userChanged" : "true",
+      "manualMapping" : "false",
+      "existing.custom.field" : "10037"
+    },
+    "Test Environment" : {
+      "userChanged" : "true",
+      "manualMapping" : "false",
+      "existing.custom.field" : "10075"
+    },
+    "Test Steps" : {
+      "userChanged" : "true",
+      "manualMapping" : "false",
+      "existing.custom.field" : "10038"
+    },
+    "Expected Result" : {
+      "userChanged" : "true",
+      "manualMapping" : "false",
+      "existing.custom.field" : "10039"
+    },
+    "Module/Feature" : {
+      "userChanged" : "true",
+      "manualMapping" : "false",
+      "existing.custom.field" : "10044"
+    },
+    "Preconditions" : {
+      "userChanged" : "true",
+      "manualMapping" : "false",
+      "existing.custom.field" : "10071"
+    },
+    "Automation Status" : {
+      "userChanged" : "true",
+      "manualMapping" : "false",
+      "existing.custom.field" : "10047"
+    },
+    "Summary" : {
+      "jira.field" : "summary",
+      "userChanged" : "true",
+      "manualMapping" : "false"
+    },
+    "Test Owner" : {
+      "userChanged" : "true",
+      "manualMapping" : "false",
+      "existing.custom.field" : "10045"
+    },
+    "Test Type" : {
+      "userChanged" : "true",
+      "manualMapping" : "false",
+      "existing.custom.field" : "10043"
+    },
+    "Actual Result" : {
+      "userChanged" : "true",
+      "manualMapping" : "false",
+      "existing.custom.field" : "10040"
+    }
+  },
+  "config.csv.file.id" : null,
+  "config.value.mappings" : {
+    "Issue" : {
+      "Test Case" : "10038"
+    }
+  },
+  "config.delimiter" : ",",
+  "config.project" : {
+    "project.type" : null,
+    "project.key" : "ATFFWA",
+    "project.description" : null,
+    "project.url" : null,
+    "project.name" : "Automated Testing Framework for a Web Application",
+    "project.lead" : "e93f7f2b-3f61-4a3a-b29c-f85db5c4e893"
+  },
+  "config.date.format" : "dd/MM/yyyy"
+}
