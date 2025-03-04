@@ -1,13 +1,22 @@
 # Automated Testing Framework
 
 ## 📌 Project Overview
+
 This project aims to develop a comprehensive **Automated Testing Framework** for web applications. The framework integrates multiple testing tools to perform **UI, API, functional, and performance testing**, ensuring software reliability and efficiency.
 
 ### 🔗 Test Website
+<<<<<<< HEAD
+=======
+
+>>>>>>> 6477f6b44227d3c7680fca6431da3fc0f6660eb5
 We will be testing the following website: [DemoBlaze](https://www.demoblaze.com/index.html)
 This project aims to develop a comprehensive **Automated Testing Framework** for web applications. The framework integrates multiple testing tools to perform **UI, API, functional, and performance testing**, ensuring software reliability and efficiency.
 
 ## 💑 Table of Contents
+<<<<<<< HEAD
+=======
+
+>>>>>>> 6477f6b44227d3c7680fca6431da3fc0f6660eb5
 - [📌 Project Overview](#-project-overview)
 - [🚀 Features](#-features)
 - [🏧 Project Structure](#-project-structure)
@@ -22,6 +31,7 @@ This project aims to develop a comprehensive **Automated Testing Framework** for
 - [📝 License](#-license)
 
 ## 🚀 Features
+
 - **UI Testing** using Selenium WebDriver.
 - **API Testing** using Postman.
 - **Performance Testing** with JMeter/Gatling.
@@ -30,6 +40,10 @@ This project aims to develop a comprehensive **Automated Testing Framework** for
 - **Continuous Integration** with Jenkins.
 
 ## 🏧 Project Structure
+<<<<<<< HEAD
+=======
+
+>>>>>>> 6477f6b44227d3c7680fca6431da3fc0f6660eb5
 ```
 📂 AutomatedTestingFramework
 │── 📂 tests
@@ -52,6 +66,7 @@ This project aims to develop a comprehensive **Automated Testing Framework** for
 ```
 
 ## 📅 Project Timeline
+<<<<<<< HEAD
 | Phase          | Tasks                                            | Duration |
 |----------------|--------------------------------------------------|----------|
 | Planning       | Define goals, set up tools, assign roles         | Week 1   |
@@ -60,14 +75,32 @@ This project aims to develop a comprehensive **Automated Testing Framework** for
 | Testing & Eval | Run tests, log issues, optimize framework        | Week 4   |
 
 ## 🛠️ Technologies Used
+=======
+
+| Phase          | Tasks                                            | Duration  |
+| -------------- | ------------------------------------------------ | --------- |
+| Planning       | Define goals, set up tools, assign roles         | Week 1    |
+| Design         | Define framework architecture, create test cases | Week 1    |
+| Implementation | Develop automated UI, API, and performance tests | Weeks 2-3 |
+| Testing & Eval | Run tests, log issues, optimize framework        | Week 4    |
+
+## 🛠️ Technologies Used
+
+>>>>>>> 6477f6b44227d3c7680fca6431da3fc0f6660eb5
 - **Programming Language:** Java
 - **Testing Frameworks:** Selenium, TestNG, JUnit, Postman, JMeter, Gatling
 - **Test Management:** JIRA
 - **CI/CD:** Jenkins
 
 ## ⚙️ Setup Instructions
+
 ### Prerequisites
+
 Ensure you have the following installed:
+<<<<<<< HEAD
+=======
+
+>>>>>>> 6477f6b44227d3c7680fca6431da3fc0f6660eb5
 - Java Development Kit (JDK)
 - Selenium WebDriver
 - Postman
@@ -75,6 +108,7 @@ Ensure you have the following installed:
 - JIRA API Access (if applicable)
 
 ### Installation
+
 ```bash
 # Clone the repository
 git clone https://github.com/your-repo-name.git
@@ -82,6 +116,7 @@ cd AutomatedTestingFramework
 ```
 
 ## 🏃 Running Tests
+
 - **UI Tests:**
   ```bash
   java -cp tests/ui_tests TestLogin
@@ -94,6 +129,7 @@ cd AutomatedTestingFramework
   ```
 
 ## 📝 Documentation
+<<<<<<< HEAD
 Refer to the [project documentation](docs/) for detailed instructions on usage and customization.
 
 ## 👨‍💻 Contributors
@@ -103,5 +139,23 @@ Refer to the [project documentation](docs/) for detailed instructions on usage a
 - **[Mohamed Ahmed Fathy]** -
 
 ## 📝 License
+=======
+
+Refer to the [project documentation](docs/) for detailed instructions on usage and customization.
+
+## 👨‍💻 Contributors
+
+In this Scrum-based project, all team members contribute equally to testing efforts, ensuring comprehensive coverage across different testing areas. One member also takes on the role of Scrum Master and Team Lead to facilitate the process and maintain alignment.
+
+- **[Mohamed Ahmed Galal]** - Scrum Master & Team Lead, responsible for coordination and removing blockers.
+- **[Esraa Ahmed Ramdan]** - Tester, focusing on UI automation and functional testing.
+- **[Jana Fouad Mohamed]** - Tester, specializing in API testing and integration validation.
+- **[Mohamed Ahmed Fathy]** - Tester, handling performance testing and optimization.
+
+All testers work collaboratively on bug tracking, test case execution, and continuous improvement of the testing framework.
+
+## 📝 License
+
+>>>>>>> 6477f6b44227d3c7680fca6431da3fc0f6660eb5
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
