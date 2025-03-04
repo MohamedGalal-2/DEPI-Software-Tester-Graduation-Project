@@ -1,6 +1,3 @@
-Apologies for the confusion earlier! Here’s the full `README.md` file in **one single message**:
-
-```markdown
 # Automated Testing Framework
 
 ## 📌 Project Overview
