@@ -2,7 +2,9 @@
 
 ## 📌 Project Overview
 
-This project aims to develop a comprehensive **Automated Testing Framework** for web applications. The framework integrates multiple testing tools to perform **UI, API, functional, and performance testing**, ensuring software reliability and efficiency.
+This is a Maven-based automated testing framework designed for UI, Functional, and API testing. The framework integrates a variety of testing tools, including Selenium for UI automation, TestNG for test execution and reporting, JMeter for performance testing, Postman for API request validation, and REST Assured for API testing.
+
+The framework also supports JIRA for test management, ensuring smooth collaboration and tracking of test cases.
 
 We will be testing the following website: [DemoBlaze](https://www.demoblaze.com/index.html)
 
@@ -23,34 +25,35 @@ We will be testing the following website: [DemoBlaze](https://www.demoblaze.com/
 ## 🚀 Features
 
 - **UI Testing** using Selenium WebDriver.
-- **API Testing** using Postman.
+- **API Testing** using Postman for manual and REST Assured for the automation.
 - **Performance Testing** with JMeter/Gatling.
 - **Test Case Management** via JIRA.
-- **Automated Reporting** using TestNG/JUnit.
+- **Automated Reporting** using TestNG.
 - **Continuous Integration** with Jenkins.
 
 ## 🏧 Project Structure
 ```
-📂 AutomatedTestingFramework
-│── 📂 config
-│   ├── 📂 jira
-│── 📂 tests
-│   ├── 📂 ui_tests
-│   ├── 📂 api_tests
-│   ├── 📂 performance_tests
-│── 📂 framework
-│   ├── 📂 pages    # Page Object Model (POM) classes
-│   ├── 📂 utils    # Helper functions, configurations
-│── 📂 reports
-│   ├── 📂 html_reports
-│   ├── 📂 logs
-│   ├── 📂 screenshots
-│── 📂 test_data
-│── 📂 docs
-│── requirements.txt
-│── README.md
-│── run_tests.java
-│── .gitignore
+📂 automation-framework              # Main framework directory
+│── 📂 config                        # Configuration files (test data, environment variables)
+│── 📂 docs                          # Documentation (test cases, guidelines, API references)
+│── 📂 meetings                      # Meeting notes and discussions
+│── 📂 logs                          # Execution logs for debugging
+│── 📂 postman                       # Postman collections for API testing
+│── 📂 reports                       # Test reports (TestNG, Allure, etc.)
+│── 📂 src                           # Source code directory
+│   ├── 📂 test
+│   │   ├── 📂 java
+│   │   │   ├── 📂 base              # Base classes (e.g., setup, teardown)
+│   │   │   ├── 📂 tests
+│   │   │   │   ├── 📂 ui           # UI tests (Selenium)
+│   │   │   │   ├── 📂 api          # API tests (Rest Assured)
+│   │   │   │   ├── 📂 performance  # Performance tests (JMeter)
+│   │   │   ├── 📂 utils            # Utility classes (e.g., helpers, configurations)
+│   ├── 📂 resources                 # Test resources (e.g., config files, test data)
+│── 📂 target                        # Compiled test results and build artifacts
+│── pom.xml                          # Maven project configuration
+│── .gitignore                       # Files to ignore in Git
+│── README.md                        # Project overview and setup guide
 ```
 
 ## 📅 Project Timeline
@@ -64,9 +67,10 @@ We will be testing the following website: [DemoBlaze](https://www.demoblaze.com/
 ## 🛠️ Technologies Used
 
 - **Programming Language:** Java
-- **Testing Frameworks:** Selenium, TestNG, JUnit, Postman, JMeter, Gatling
+- **Testing Frameworks:** Selenium WebDriver, TestNG, JMeter, Postman, Rest Assured.
 - **Test Management:** JIRA
 - **CI/CD:** Jenkins
+- **Dependency:** Management: Maven
 
 ## ⚙️ Setup Instructions
 
@@ -74,32 +78,52 @@ We will be testing the following website: [DemoBlaze](https://www.demoblaze.com/
 
 Ensure you have the following installed:
 
-- Java Development Kit (JDK)
-- Selenium WebDriver
-- Postman
-- JMeter or Gatling
-- JIRA API Access (if applicable)
+- **Java 11+** (check with java -version)
+- **Maven** (check with mvn -v)
+- **Selenium WebDriver**
+- **Postman**
+- **JMeter**
+- **IDE:** IntelliJ IDEA or VS Code
 
 ### Installation
 
 ```bash
 # Clone the repository
-git clone https://github.com/your-repo-name.git
-cd AutomatedTestingFramework
+git clone https://github.com/MohamedGalal-2/DEPI-Software-Tester-Graduation-Project
+cd DEPI-Software-Tester-Graduation-Project
+```
+
+**Install dependencies**
+
+```bash
+mvn clean install
 ```
 
 ## 🏃 Running Tests
 
-- **UI Tests:**
-  ```bash
-  java -cp tests/ui_tests TestLogin
-  ```
-- **API Tests:**
-  Run tests using Postman or Newman CLI.
-- **Performance Tests:**
-  ```bash
-  jmeter -n -t tests/performance_tests/LoadTest.jmx -l report.jtl
-  ```
+- **UI Tests:** Run **Selenium-based** UI tests:
+
+```bash
+  mvn test -Dtest=UITestClass
+```
+
+- **API Tests:** Run API tests using **REST Assured**:
+
+```bash
+ mvn test -Dtest=APITestClass
+```
+
+- **Performance Tests:** Run **JMeter** performance tests:
+
+```bash
+  jmeter -n -t tests/performance_tests/LoadTest.jmx -l results.jtl
+```
+
+- **Run All Tests:** Run all tests (UI, API, functional) together:
+
+```bash
+  mvn clean test
+```
 
 ## 📝 Documentation
 
