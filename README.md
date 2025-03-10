@@ -6,7 +6,7 @@ This is a Maven-based automated testing framework designed for UI, Functional, a
 
 The framework also supports JIRA for test management, ensuring smooth collaboration and tracking of test cases.
 
-We will be testing the following website: [DemoBlaze](https://www.demoblaze.com/index.html)
+We will be testing the following website: [nopcommerce demo](https://demo.nopcommerce.com/)
 
 ## 💑 Table of Contents
 - [📌 Project Overview](#-project-overview)
