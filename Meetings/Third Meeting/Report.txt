@@ -1,0 +1,18 @@
+Meeting outlines:
+1. Progress so far. DONE
+2. Readiness for the 2nd Sprint. DONE
+3. Git & GitHub summary. DONE
+4. Jira: Summary - Test cases & Bugs importing - Creating issues & tasks. DONE
+5. Writing TCs & Bug Reports summary. DONE
+6. TestIO summary. DONE 
+
+Deliverables:
+1. Postman & Selenium Slides. 
+2. API Testing Workshop.
+3. Writing simple test cases for API testing.
+4. Automate some of the UI test cases we previously wrote using Selenium.
+5. Sunday meeting at 9PM.
+
+Links:
+1. https://amitlearning1.sharepoint.com/sites/BNS2_SWD6_S1/_layouts/15/stream.aspx?id=%2Fsites%2FBNS2%5FSWD6%5FS1%2FShared%20Documents%2FGeneral%2FRecordings%2FTechnical%2FAMIT%5FBNS2%5FSWD6%5FS1%5FTechnical%20online%5F10022025%2D20250210%5F200117%2DMeeting%20Recording%2Emp4&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2Efdb5f967%2D611e%2D4116%2Da9f4%2Dbbb5bfc0c8f6
+2. https://amitlearning1.sharepoint.com/sites/BNS2_SWD6_S1/_layouts/15/stream.aspx?id=%2Fsites%2FBNS2%5FSWD6%5FS1%2FShared%20Documents%2FGeneral%2FRecordings%2FWorkshop%2FAPI%20%2D%20Testing%20%2D%20Workshop%2D20250223%5F225412%2DMeeting%20Recording%2Emp4&referrer=SharePoint&referrerScenario=OpenFile

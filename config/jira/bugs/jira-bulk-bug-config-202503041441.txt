@@ -1,0 +1,111 @@
+{
+  "config.version" : "2.0",
+  "config.project.from.csv" : "false",
+  "config.encoding" : "UTF-8",
+  "config.file.id" : "547f2358-0aad-4080-a653-fecb64d320b2",
+  "config.email.suffix" : "@",
+  "config.file.name" : "Test & Bug Report.xlsx - Bugs (1).csv",
+  "config.field.mappings" : {
+    "Issue" : {
+      "jira.field" : "issuetype",
+      "userChanged" : "false",
+      "manualMapping" : "true"
+    },
+    "Description" : {
+      "jira.field" : "description",
+      "userChanged" : "false",
+      "manualMapping" : "false"
+    },
+    "Priority" : {
+      "userChanged" : "false",
+      "manualMapping" : "false",
+      "existing.custom.field" : "10057"
+    },
+    "Comments" : {
+      "userChanged" : "false",
+      "manualMapping" : "false",
+      "existing.custom.field" : "10070"
+    },
+    "Test Environment" : {
+      "userChanged" : "false",
+      "manualMapping" : "false",
+      "existing.custom.field" : "10076"
+    },
+    "Severity" : {
+      "userChanged" : "false",
+      "manualMapping" : "false",
+      "existing.custom.field" : "10056"
+    },
+    "Bug Source" : {
+      "userChanged" : "false",
+      "manualMapping" : "false",
+      "existing.custom.field" : "10062"
+    },
+    "Expected Result" : {
+      "userChanged" : "false",
+      "manualMapping" : "false",
+      "existing.custom.field" : "10054"
+    },
+    "Test Case" : {
+      "userChanged" : "false",
+      "manualMapping" : "false",
+      "existing.custom.field" : "10078"
+    },
+    "Defect Type" : {
+      "userChanged" : "false",
+      "manualMapping" : "false",
+      "existing.custom.field" : "10061"
+    },
+    "Reproducibility" : {
+      "userChanged" : "false",
+      "manualMapping" : "false",
+      "existing.custom.field" : "10058"
+    },
+    "Bug ID" : {
+      "userChanged" : "false",
+      "manualMapping" : "false",
+      "existing.custom.field" : "10051"
+    },
+    "Summary" : {
+      "jira.field" : "summary",
+      "userChanged" : "false",
+      "manualMapping" : "false"
+    },
+    "Steps to Reproduce" : {
+      "userChanged" : "false",
+      "manualMapping" : "false",
+      "existing.custom.field" : "10053"
+    },
+    "Affected Component/Module" : {
+      "userChanged" : "false",
+      "manualMapping" : "false",
+      "existing.custom.field" : "10077"
+    },
+    "Bug Reporter" : {
+      "userChanged" : "false",
+      "manualMapping" : "false",
+      "existing.custom.field" : "10060"
+    },
+    "Actual Result" : {
+      "userChanged" : "false",
+      "manualMapping" : "false",
+      "existing.custom.field" : "10055"
+    }
+  },
+  "config.csv.file.id" : null,
+  "config.value.mappings" : {
+    "Issue" : {
+      "Bug" : "10005"
+    }
+  },
+  "config.delimiter" : ",",
+  "config.project" : {
+    "project.type" : null,
+    "project.key" : "ATFFWA",
+    "project.description" : null,
+    "project.url" : null,
+    "project.name" : "Automated Testing Framework for a Web Application",
+    "project.lead" : "e93f7f2b-3f61-4a3a-b29c-f85db5c4e893"
+  },
+  "config.date.format" : "dd/MM/yyyy"
+}
