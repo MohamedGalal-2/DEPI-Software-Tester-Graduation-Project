@@ -1,0 +1,45 @@
+2025-03-15 17:51:58 [main] INFO  verifyProductPageLoadsCorrectly - Starting test setup for: verifyProductPageLoadsCorrectly
+2025-03-15 17:51:58 [main] INFO  verifyProductPageLoadsCorrectly - Setting up Chrome browser...
+2025-03-15 17:52:00 [main] INFO  verifyProductPageLoadsCorrectly - Browser setup complete.
+2025-03-15 17:52:00 [main] INFO  verifyProductPageLoadsCorrectly - Navigating to: https://demo.nopcommerce.com/
+2025-03-15 17:52:10 [main] INFO  verifyProductPageLoadsCorrectly - Closing the browser for test: verifyProductPageLoadsCorrectly
+2025-03-15 17:52:10 [main] INFO  verifyProductPageLoadsCorrectly - Browser closed.
+2025-03-15 17:54:48 [main] INFO  verifyProductPageLoadsCorrectly - Starting test setup for: verifyProductPageLoadsCorrectly
+2025-03-15 17:54:48 [main] INFO  verifyProductPageLoadsCorrectly - Setting up Chrome browser...
+2025-03-15 17:54:50 [main] INFO  verifyProductPageLoadsCorrectly - Browser setup complete.
+2025-03-15 17:54:50 [main] INFO  verifyProductPageLoadsCorrectly - Navigating to: https://demo.nopcommerce.com/
+2025-03-15 17:54:53 [main] INFO  verifyProductPageLoadsCorrectly - Product page loaded successfully.
+2025-03-15 17:54:58 [main] ERROR verifyProductPageLoadsCorrectly - Error verifying product title: invalid session id: session deleted as the browser has closed the connection
+from disconnected: unable to send message to renderer
+  (Session info: chrome=134.0.6998.89)
+Build info: version: '4.29.0', revision: '5fc1ec94cb'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f89fb1bb240032d68fe36844361234a5, findElement {using=css selector, value=h1.product-title}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.89, chrome: {chromedriverVersion: 134.0.6998.88 (7e3d5c978c6d..., userDataDir: C:\Users\MOHAME~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57924}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57924/devtoo..., se:cdpVersion: 134.0.6998.89, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f89fb1bb240032d68fe36844361234a5
+2025-03-15 17:54:58 [main] INFO  verifyProductPageLoadsCorrectly - Closing the browser for test: verifyProductPageLoadsCorrectly
+2025-03-15 17:54:58 [main] INFO  verifyProductPageLoadsCorrectly - Browser closed.
+2025-03-15 17:57:20 [main] INFO  verifyProductPageLoadsCorrectly - Starting test setup for: verifyProductPageLoadsCorrectly
+2025-03-15 17:57:20 [main] INFO  verifyProductPageLoadsCorrectly - Setting up Chrome browser...
+2025-03-15 17:57:21 [main] INFO  verifyProductPageLoadsCorrectly - Browser setup complete.
+2025-03-15 17:57:21 [main] INFO  verifyProductPageLoadsCorrectly - Navigating to: https://demo.nopcommerce.com/
+2025-03-15 17:57:27 [main] INFO  verifyProductPageLoadsCorrectly - Closing the browser for test: verifyProductPageLoadsCorrectly
+2025-03-15 17:57:27 [main] INFO  verifyProductPageLoadsCorrectly - Browser closed.
+2025-03-15 17:59:02 [main] INFO  verifyProductPageLoadsCorrectly - Starting test setup for: verifyProductPageLoadsCorrectly
+2025-03-15 17:59:02 [main] INFO  verifyProductPageLoadsCorrectly - Setting up Chrome browser...
+2025-03-15 17:59:03 [main] INFO  verifyProductPageLoadsCorrectly - Browser setup complete.
+2025-03-15 17:59:03 [main] INFO  verifyProductPageLoadsCorrectly - Navigating to: https://demo.nopcommerce.com/
+2025-03-15 17:59:05 [main] INFO  verifyProductPageLoadsCorrectly - Search term 'Laptop' entered in the search box.
+2025-03-15 17:59:05 [main] INFO  verifyProductPageLoadsCorrectly - Search button clicked.
+2025-03-15 17:59:06 [main] INFO  verifyProductPageLoadsCorrectly - Waited for search results to load.
+2025-03-15 17:59:07 [main] INFO  verifyProductPageLoadsCorrectly - Clicked on the first product.
+2025-03-15 17:59:10 [main] INFO  verifyProductPageLoadsCorrectly - Closing the browser for test: verifyProductPageLoadsCorrectly
+2025-03-15 17:59:10 [main] INFO  verifyProductPageLoadsCorrectly - Browser closed.
+2025-03-15 17:59:40 [main] INFO  verifyProductPageLoadsCorrectly - Starting test setup for: verifyProductPageLoadsCorrectly
+2025-03-15 17:59:40 [main] INFO  verifyProductPageLoadsCorrectly - Setting up Chrome browser...
+2025-03-15 17:59:41 [main] INFO  verifyProductPageLoadsCorrectly - Browser setup complete.
+2025-03-15 17:59:41 [main] INFO  verifyProductPageLoadsCorrectly - Navigating to: https://demo.nopcommerce.com/
+2025-03-15 17:59:45 [main] INFO  verifyProductPageLoadsCorrectly - Product page loaded successfully.
+2025-03-15 17:59:45 [main] INFO  verifyProductPageLoadsCorrectly - Closing the browser for test: verifyProductPageLoadsCorrectly
+2025-03-15 17:59:45 [main] INFO  verifyProductPageLoadsCorrectly - Browser closed.

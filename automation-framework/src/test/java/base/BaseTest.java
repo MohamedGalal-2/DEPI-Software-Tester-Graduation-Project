@@ -1,5 +1,7 @@
 package base;
 
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -29,26 +31,21 @@ public class BaseTest {
 
     @BeforeMethod
     public void setUp(ITestResult result) {
-        // Get test name and create log file dynamically
         String testName = result.getMethod().getMethodName();
         String logFilePath = "logs/" + testName + ".log";
 
-        // Ensure the logs directory exists
         try {
             Files.createDirectories(Paths.get("logs"));
         } catch (Exception e) {
             e.printStackTrace();
         }
 
-        // Configure Log4j2 dynamically for each test case
         configureLogger(testName, logFilePath);
-
         logger = LogManager.getLogger(testName);
         logger.info("Starting test setup for: " + testName);
 
-        // Set up WebDriver
-        String browser = System.getProperty("browser", "chrome"); // Default is Chrome
-        String timeout = System.getProperty("timeout", "5"); // Default timeout is 5 sec
+        String browser = System.getProperty("browser", "chrome");
+        String timeout = System.getProperty("timeout", "5");
 
         try {
             switch (browser.toLowerCase()) {
@@ -66,8 +63,28 @@ public class BaseTest {
                 default:
                     logger.info("Setting up Chrome browser...");
                     WebDriverManager.chromedriver().setup();
-                    driver = new ChromeDriver();
+                    ChromeOptions options = new ChromeOptions();
+
+                    // Prevent bot detection
+                    options.addArguments("--disable-blink-features=AutomationControlled");
+                    options.addArguments("user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36");
+                    options.addArguments("--disable-popup-blocking");
+                    options.addArguments("--disable-infobars");
+                    options.addArguments("start-maximized");
+                    options.addArguments("--disable-blink-features=AutomationControlled");
+                    options.setExperimentalOption("excludeSwitches", new String[]{"enable-automation"});
+                    options.setExperimentalOption("useAutomationExtension", false);
+
+
+                    // Dynamically fetch the latest User-Agent string
+                    String userAgent = System.getProperty("user.agent",
+                            "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36");
+
+                    options.addArguments("user-agent=" + userAgent);
+
+                    driver = new ChromeDriver(options);
                     break;
+
             }
 
             driver.manage().window().maximize();
