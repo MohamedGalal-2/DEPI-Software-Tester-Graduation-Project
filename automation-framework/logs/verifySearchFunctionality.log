@@ -1,0 +1,7 @@
+2025-03-15 14:59:28 [main] INFO  verifySearchFunctionality - Starting test setup for: verifySearchFunctionality
+2025-03-15 14:59:28 [main] INFO  verifySearchFunctionality - Setting up Chrome browser...
+2025-03-15 14:59:29 [main] INFO  verifySearchFunctionality - Browser setup complete.
+2025-03-15 14:59:29 [main] INFO  verifySearchFunctionality - Navigating to: https://demo.nopcommerce.com/
+2025-03-15 14:59:32 [main] INFO  verifySearchFunctionality - Search functionality verified successfully.
+2025-03-15 14:59:32 [main] INFO  verifySearchFunctionality - Closing the browser for test: verifySearchFunctionality
+2025-03-15 14:59:32 [main] INFO  verifySearchFunctionality - Browser closed.

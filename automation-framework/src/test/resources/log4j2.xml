@@ -1,16 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Configuration status="WARN">
+    <Properties>
+        <Property name="LOG_PATTERN">%d [%t] %-5level %c{1} - %msg%n</Property>
+        <Property name="logFilename">logs/default.log</Property>
+    </Properties>
+
     <Appenders>
-        <File name="File" fileName="logs/test-log.log">
+        <!-- Console Appender -->
+        <Console name="Console" target="SYSTEM_OUT">
+            <PatternLayout pattern="${LOG_PATTERN}" />
+        </Console>
+
+        <!-- File Appender for Each Test -->
+        <RollingFile name="FileAppender" fileName="${logFilename}"
+                     filePattern="logs/%d{yyyy-MM-dd}/test-%i.log.gz">
             <PatternLayout>
-                <Pattern>%d{yyyy-MM-dd HH:mm:ss} %-5p [%t] %c{1}:%L - %m%n</Pattern>
+                <Pattern>${LOG_PATTERN}</Pattern>
             </PatternLayout>
-        </File>
+            <Policies>
+                <SizeBasedTriggeringPolicy size="10MB"/>
+            </Policies>
+        </RollingFile>
     </Appenders>
 
     <Loggers>
         <Root level="info">
-            <AppenderRef ref="File"/>
+            <AppenderRef ref="Console"/>
+            <AppenderRef ref="FileAppender"/>
         </Root>
     </Loggers>
 </Configuration>
