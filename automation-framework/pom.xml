@@ -84,6 +84,18 @@
             <version>2.20.0</version>
         </dependency>
 
+		<dependency>
+			<groupId>com.codeborne</groupId>
+			<artifactId>selenide</artifactId>
+			<version>7.7.3</version>
+		</dependency>
+		
+		<dependency>
+        	<groupId>org.apache.httpcomponents.client5</groupId>
+        	<artifactId>httpclient5</artifactId>
+        	<version>5.4.2</version>
+    	</dependency>
+
     </dependencies>
 
     <build>

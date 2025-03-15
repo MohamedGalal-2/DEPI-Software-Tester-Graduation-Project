@@ -1,35 +1,28 @@
 package tests.ui;
 
 import base.BaseTest;
+import utils.SeleniumHelper;
 import org.testng.Assert;
 import org.testng.annotations.Test;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
-import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.support.ui.WebDriverWait;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import java.time.Duration;
-
 
 public class HomePageTest extends BaseTest {
-    String url = "https://demo.nopcommerce.com/";
+    private final String url = "https://demo.nopcommerce.com/";
 
     @Test
     public void verifyHomePageLoads() {
-
         logger.info("Navigating to: " + url);
-
         driver.get(url);
 
-        // Wait for the page title to load
-        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(5));
-        wait.until(ExpectedConditions.titleContains("nopCommerce"));
+        // Create an instance of SeleniumHelper
+        SeleniumHelper seleniumHelper = new SeleniumHelper(driver);
 
-        String actualTitle = driver.getTitle();
+        // Use SeleniumHelper to wait for title and get the actual title
+        seleniumHelper.waitForTitleContains("nopCommerce", 5);
+        String actualTitle = seleniumHelper.getPageTitle();
+
         logger.info("Actual Page Title: " + actualTitle);
 
-        // Use contains() to avoid exact match issues
+        // Assert using helper method
         Assert.assertTrue(actualTitle.contains("nopCommerce demo store"), "Homepage title is incorrect!");
     }
-
 }
