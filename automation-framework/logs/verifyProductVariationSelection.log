@@ -1,0 +1,477 @@
+2025-03-15 22:37:34 [main] INFO  verifyProductVariationSelection - Starting test setup for: verifyProductVariationSelection
+2025-03-15 22:37:34 [main] INFO  verifyProductVariationSelection - Setting up Chrome browser...
+2025-03-15 22:37:34 [main] INFO  verifyProductVariationSelection - Browser setup complete with ZenRows proxy.
+2025-03-15 22:37:34 [main] INFO  verifyProductVariationSelection - Navigating to: https://demo.nopcommerce.com/
+2025-03-15 22:37:40 [main] INFO  verifyProductVariationSelection - Closing the browser for test: verifyProductVariationSelection
+2025-03-15 22:37:40 [main] INFO  verifyProductVariationSelection - Browser closed.
+2025-03-15 22:39:57 [main] INFO  verifyProductVariationSelection - Starting test setup for: verifyProductVariationSelection
+2025-03-15 22:39:57 [main] INFO  verifyProductVariationSelection - Setting up Chrome browser...
+2025-03-15 22:39:58 [main] INFO  verifyProductVariationSelection - Browser setup complete with ZenRows proxy.
+2025-03-15 22:39:58 [main] INFO  verifyProductVariationSelection - Navigating to: https://demo.nopcommerce.com/
+2025-03-15 22:40:04 [main] INFO  verifyProductVariationSelection - Closing the browser for test: verifyProductVariationSelection
+2025-03-15 22:41:51 [main] INFO  verifyProductVariationSelection - Starting test setup for: verifyProductVariationSelection
+2025-03-15 22:41:51 [main] INFO  verifyProductVariationSelection - Setting up Chrome browser...
+2025-03-15 22:41:52 [main] INFO  verifyProductVariationSelection - Browser setup complete with ZenRows proxy.
+2025-03-15 22:41:52 [main] INFO  verifyProductVariationSelection - Navigating to: https://demo.nopcommerce.com/
+2025-03-15 22:41:55 [main] INFO  verifyProductVariationSelection - Product page loaded successfully.
+2025-03-15 22:41:56 [main] INFO  verifyProductVariationSelection - Selected variations are reflected in the cart.
+2025-03-15 22:41:56 [main] INFO  verifyProductVariationSelection - Closing the browser for test: verifyProductVariationSelection
+2025-03-15 22:41:56 [main] INFO  verifyProductVariationSelection - Browser closed.
+2025-03-15 23:06:05 [main] INFO  verifyProductVariationSelection - Starting test setup for: verifyProductVariationSelection
+2025-03-15 23:06:05 [main] INFO  verifyProductVariationSelection - Setting up Chrome browser...
+2025-03-15 23:06:05 [main] INFO  verifyProductVariationSelection - Browser setup complete with ZenRows proxy.
+2025-03-15 23:06:05 [main] INFO  verifyProductVariationSelection - Navigating to: https://demo.nopcommerce.com/
+2025-03-15 23:06:09 [main] INFO  verifyProductVariationSelection - Product page loaded successfully.
+2025-03-15 23:06:09 [main] INFO  verifyProductVariationSelection - Selected variations are reflected in the cart.
+2025-03-15 23:06:09 [main] INFO  verifyProductVariationSelection - Closing the browser for test: verifyProductVariationSelection
+2025-03-15 23:06:09 [main] INFO  verifyProductVariationSelection - Browser closed.
+2025-03-15 23:08:11 [main] INFO  verifyProductVariationSelection - Starting test setup for: verifyProductVariationSelection
+2025-03-15 23:08:11 [main] INFO  verifyProductVariationSelection - Setting up Chrome browser...
+2025-03-15 23:08:11 [main] INFO  verifyProductVariationSelection - Browser setup complete with ZenRows proxy.
+2025-03-15 23:08:11 [main] INFO  verifyProductVariationSelection - Navigating to: https://demo.nopcommerce.com/
+2025-03-15 23:08:15 [main] INFO  verifyProductVariationSelection - Product page loaded successfully.
+2025-03-15 23:08:16 [main] INFO  verifyProductVariationSelection - Selected variations are reflected in the cart.
+2025-03-15 23:08:16 [main] INFO  verifyProductVariationSelection - Closing the browser for test: verifyProductVariationSelection
+2025-03-15 23:08:16 [main] INFO  verifyProductVariationSelection - Browser closed.
+2025-03-15 23:15:22 [main] INFO  verifyProductVariationSelection - Starting test setup for: verifyProductVariationSelection
+2025-03-15 23:15:22 [main] INFO  verifyProductVariationSelection - Setting up Chrome browser...
+2025-03-15 23:15:22 [main] INFO  verifyProductVariationSelection - Browser setup complete with ZenRows proxy.
+2025-03-15 23:15:22 [main] INFO  verifyProductVariationSelection - Navigating to: https://demo.nopcommerce.com/
+2025-03-15 23:15:26 [main] INFO  verifyProductVariationSelection - Product page loaded successfully.
+2025-03-15 23:15:26 [main] INFO  verifyProductVariationSelection - Selected variations are reflected in the cart.
+2025-03-15 23:15:26 [main] INFO  verifyProductVariationSelection - Closing the browser for test: verifyProductVariationSelection
+2025-03-15 23:15:26 [main] INFO  verifyProductVariationSelection - Browser closed.
+2025-03-15 23:23:50 [main] INFO  verifyProductVariationSelection - Starting test setup for: verifyProductVariationSelection
+2025-03-15 23:23:50 [main] INFO  verifyProductVariationSelection - Setting up Chrome browser...
+2025-03-15 23:23:51 [main] INFO  verifyProductVariationSelection - Browser setup complete with ZenRows proxy.
+2025-03-15 23:23:51 [main] INFO  verifyProductVariationSelection - Navigating to: https://demo.nopcommerce.com/
+2025-03-15 23:23:58 [main] INFO  verifyProductVariationSelection - Closing the browser for test: verifyProductVariationSelection
+2025-03-15 23:23:58 [main] INFO  verifyProductVariationSelection - Browser closed.
+2025-03-15 23:24:55 [main] INFO  verifyProductVariationSelection - Starting test setup for: verifyProductVariationSelection
+2025-03-15 23:24:55 [main] INFO  verifyProductVariationSelection - Setting up Chrome browser...
+2025-03-15 23:24:55 [main] INFO  verifyProductVariationSelection - Browser setup complete with ZenRows proxy.
+2025-03-15 23:24:55 [main] INFO  verifyProductVariationSelection - Navigating to: https://demo.nopcommerce.com/
+2025-03-15 23:25:04 [main] INFO  verifyProductVariationSelection - Closing the browser for test: verifyProductVariationSelection
+2025-03-15 23:25:04 [main] INFO  verifyProductVariationSelection - Browser closed.
+2025-03-15 23:33:45 [main] INFO  verifyProductVariationSelection - Starting test setup for: verifyProductVariationSelection
+2025-03-15 23:33:45 [main] INFO  verifyProductVariationSelection - Setting up Chrome browser...
+2025-03-15 23:33:45 [main] INFO  verifyProductVariationSelection - Browser setup complete with ZenRows proxy.
+2025-03-15 23:33:45 [main] INFO  verifyProductVariationSelection - Navigating to: https://demo.nopcommerce.com/
+2025-03-16 07:27:09 [main] INFO  verifyProductVariationSelection - Starting test setup for: verifyProductVariationSelection
+2025-03-16 07:27:27 [main] INFO  verifyProductVariationSelection - Navigated to the site: https://demo.nopcommerce.com
+2025-03-16 07:27:27 [main] INFO  verifyProductVariationSelection - Injected cookie: cf_clearance
+2025-03-16 07:27:27 [main] INFO  verifyProductVariationSelection - Injected cookie: _ga
+2025-03-16 07:27:27 [main] INFO  verifyProductVariationSelection - Injected cookie: .Nop.Antiforgery
+2025-03-16 07:27:27 [main] INFO  verifyProductVariationSelection - Injected cookie: .Nop.Customer
+2025-03-16 07:27:27 [main] INFO  verifyProductVariationSelection - Injected cookie: .Nop.Culture
+2025-03-16 07:27:27 [main] INFO  verifyProductVariationSelection - Injected cookie: _ga_SCT41TW89V
+2025-03-16 07:27:27 [main] INFO  verifyProductVariationSelection - Page refreshed with bypassed cookies.
+2025-03-16 07:27:27 [main] INFO  verifyProductVariationSelection - Navigating to: https://demo.nopcommerce.com/
+2025-03-16 07:27:29 [main] INFO  verifyProductVariationSelection - Product page loaded successfully.
+2025-03-16 07:27:30 [main] INFO  verifyProductVariationSelection - Selected variations are reflected in the cart.
+2025-03-16 07:27:30 [main] INFO  verifyProductVariationSelection - Closing the browser for test: verifyProductVariationSelection
+2025-03-16 07:27:30 [main] INFO  verifyProductVariationSelection - Browser closed.
+2025-03-16 07:35:06 [main] INFO  verifyProductVariationSelection - Starting test setup for: verifyProductVariationSelection
+2025-03-16 07:35:24 [main] INFO  verifyProductVariationSelection - Navigated to the site: https://demo.nopcommerce.com
+2025-03-16 07:35:24 [main] INFO  verifyProductVariationSelection - Injected cookie: _ga
+2025-03-16 07:35:24 [main] INFO  verifyProductVariationSelection - Injected cookie: cf_clearance
+2025-03-16 07:35:24 [main] INFO  verifyProductVariationSelection - Injected cookie: .Nop.Antiforgery
+2025-03-16 07:35:24 [main] INFO  verifyProductVariationSelection - Injected cookie: .Nop.Customer
+2025-03-16 07:35:24 [main] INFO  verifyProductVariationSelection - Injected cookie: .Nop.Culture
+2025-03-16 07:35:24 [main] INFO  verifyProductVariationSelection - Injected cookie: _ga_SCT41TW89V
+2025-03-16 07:35:25 [main] INFO  verifyProductVariationSelection - Page refreshed with bypassed cookies.
+2025-03-16 07:35:25 [main] INFO  verifyProductVariationSelection - Navigating to: https://demo.nopcommerce.com/
+2025-03-16 07:35:49 [main] INFO  verifyProductVariationSelection - Closing the browser for test: verifyProductVariationSelection
+2025-03-16 07:35:49 [main] INFO  verifyProductVariationSelection - Browser closed.
+2025-03-16 07:39:56 [main] INFO  verifyProductVariationSelection - Starting test setup for: verifyProductVariationSelection
+2025-03-16 07:40:14 [main] INFO  verifyProductVariationSelection - Navigated to the site: https://demo.nopcommerce.com
+2025-03-16 07:40:14 [main] INFO  verifyProductVariationSelection - Injected cookie: cf_clearance
+2025-03-16 07:40:14 [main] INFO  verifyProductVariationSelection - Injected cookie: _ga
+2025-03-16 07:40:14 [main] INFO  verifyProductVariationSelection - Injected cookie: .Nop.Antiforgery
+2025-03-16 07:40:14 [main] INFO  verifyProductVariationSelection - Injected cookie: .Nop.Customer
+2025-03-16 07:40:14 [main] INFO  verifyProductVariationSelection - Injected cookie: .Nop.Culture
+2025-03-16 07:40:14 [main] INFO  verifyProductVariationSelection - Injected cookie: _ga_SCT41TW89V
+2025-03-16 07:40:15 [main] INFO  verifyProductVariationSelection - Page refreshed with bypassed cookies.
+2025-03-16 07:40:15 [main] INFO  verifyProductVariationSelection - Navigating to: https://demo.nopcommerce.com/
+2025-03-16 07:40:22 [main] INFO  verifyProductVariationSelection - Closing the browser for test: verifyProductVariationSelection
+2025-03-16 07:40:22 [main] INFO  verifyProductVariationSelection - Browser closed.
+2025-03-16 07:45:44 [main] INFO  verifyProductVariationSelection - Starting test setup for: verifyProductVariationSelection
+2025-03-16 07:46:01 [main] INFO  verifyProductVariationSelection - Navigated to the site: https://demo.nopcommerce.com
+2025-03-16 07:46:01 [main] INFO  verifyProductVariationSelection - Injected cookie: cf_clearance
+2025-03-16 07:46:01 [main] INFO  verifyProductVariationSelection - Injected cookie: _ga
+2025-03-16 07:46:01 [main] INFO  verifyProductVariationSelection - Injected cookie: .Nop.Antiforgery
+2025-03-16 07:46:01 [main] INFO  verifyProductVariationSelection - Injected cookie: .Nop.Customer
+2025-03-16 07:46:01 [main] INFO  verifyProductVariationSelection - Injected cookie: .Nop.Culture
+2025-03-16 07:46:01 [main] INFO  verifyProductVariationSelection - Injected cookie: _ga_SCT41TW89V
+2025-03-16 07:46:02 [main] INFO  verifyProductVariationSelection - Page refreshed with bypassed cookies.
+2025-03-16 07:46:02 [main] INFO  verifyProductVariationSelection - Navigating to: https://demo.nopcommerce.com/
+2025-03-16 07:46:19 [main] INFO  verifyProductVariationSelection - Closing the browser for test: verifyProductVariationSelection
+2025-03-16 07:46:19 [main] INFO  verifyProductVariationSelection - Browser closed.
+2025-03-16 07:49:50 [main] INFO  verifyProductVariationSelection - Starting test setup for: verifyProductVariationSelection
+2025-03-16 07:50:07 [main] INFO  verifyProductVariationSelection - Navigated to the site: https://demo.nopcommerce.com
+2025-03-16 07:50:07 [main] INFO  verifyProductVariationSelection - Injected cookie: cf_clearance
+2025-03-16 07:50:07 [main] INFO  verifyProductVariationSelection - Injected cookie: _ga
+2025-03-16 07:50:07 [main] INFO  verifyProductVariationSelection - Injected cookie: .Nop.Antiforgery
+2025-03-16 07:50:07 [main] INFO  verifyProductVariationSelection - Injected cookie: .Nop.Customer
+2025-03-16 07:50:07 [main] INFO  verifyProductVariationSelection - Injected cookie: .Nop.Culture
+2025-03-16 07:50:07 [main] INFO  verifyProductVariationSelection - Injected cookie: _ga_SCT41TW89V
+2025-03-16 07:50:08 [main] INFO  verifyProductVariationSelection - Page refreshed with bypassed cookies.
+2025-03-16 07:50:08 [main] INFO  verifyProductVariationSelection - Navigating to: https://demo.nopcommerce.com/
+2025-03-16 07:50:15 [main] INFO  verifyProductVariationSelection - Closing the browser for test: verifyProductVariationSelection
+2025-03-16 07:50:15 [main] INFO  verifyProductVariationSelection - Browser closed.
+2025-03-16 07:51:36 [main] INFO  verifyProductVariationSelection - Starting test setup for: verifyProductVariationSelection
+2025-03-16 07:51:54 [main] INFO  verifyProductVariationSelection - Navigated to the site: https://demo.nopcommerce.com
+2025-03-16 07:51:54 [main] INFO  verifyProductVariationSelection - Injected cookie: cf_clearance
+2025-03-16 07:51:54 [main] INFO  verifyProductVariationSelection - Injected cookie: _ga
+2025-03-16 07:51:54 [main] INFO  verifyProductVariationSelection - Injected cookie: .Nop.Antiforgery
+2025-03-16 07:51:54 [main] INFO  verifyProductVariationSelection - Injected cookie: .Nop.Customer
+2025-03-16 07:51:54 [main] INFO  verifyProductVariationSelection - Injected cookie: .Nop.Culture
+2025-03-16 07:51:54 [main] INFO  verifyProductVariationSelection - Injected cookie: _ga_SCT41TW89V
+2025-03-16 07:51:55 [main] INFO  verifyProductVariationSelection - Page refreshed with bypassed cookies.
+2025-03-16 07:51:55 [main] INFO  verifyProductVariationSelection - Navigating directly to the product page.
+2025-03-16 07:51:59 [main] INFO  verifyProductVariationSelection - Closing the browser for test: verifyProductVariationSelection
+2025-03-16 07:51:59 [main] INFO  verifyProductVariationSelection - Browser closed.
+2025-03-16 07:54:30 [main] INFO  verifyProductVariationSelection - Starting test setup for: verifyProductVariationSelection
+2025-03-16 07:54:48 [main] INFO  verifyProductVariationSelection - Navigated to the site: https://demo.nopcommerce.com
+2025-03-16 07:54:48 [main] INFO  verifyProductVariationSelection - Injected cookie: cf_clearance
+2025-03-16 07:54:48 [main] INFO  verifyProductVariationSelection - Injected cookie: _ga
+2025-03-16 07:54:48 [main] INFO  verifyProductVariationSelection - Injected cookie: .Nop.Antiforgery
+2025-03-16 07:54:48 [main] INFO  verifyProductVariationSelection - Injected cookie: .Nop.Customer
+2025-03-16 07:54:48 [main] INFO  verifyProductVariationSelection - Injected cookie: .Nop.Culture
+2025-03-16 07:54:48 [main] INFO  verifyProductVariationSelection - Injected cookie: _ga_SCT41TW89V
+2025-03-16 07:54:49 [main] INFO  verifyProductVariationSelection - Page refreshed with bypassed cookies.
+2025-03-16 07:54:49 [main] INFO  verifyProductVariationSelection - Navigating directly to the product page.
+2025-03-16 07:54:55 [main] INFO  verifyProductVariationSelection - Closing the browser for test: verifyProductVariationSelection
+2025-03-16 07:54:55 [main] INFO  verifyProductVariationSelection - Browser closed.
+2025-03-16 07:55:45 [main] INFO  verifyProductVariationSelection - Starting test setup for: verifyProductVariationSelection
+2025-03-16 07:56:03 [main] INFO  verifyProductVariationSelection - Navigated to the site: https://demo.nopcommerce.com
+2025-03-16 07:56:03 [main] INFO  verifyProductVariationSelection - Injected cookie: cf_clearance
+2025-03-16 07:56:03 [main] INFO  verifyProductVariationSelection - Injected cookie: _ga
+2025-03-16 07:56:03 [main] INFO  verifyProductVariationSelection - Injected cookie: .Nop.Antiforgery
+2025-03-16 07:56:03 [main] INFO  verifyProductVariationSelection - Injected cookie: .Nop.Customer
+2025-03-16 07:56:03 [main] INFO  verifyProductVariationSelection - Injected cookie: .Nop.Culture
+2025-03-16 07:56:03 [main] INFO  verifyProductVariationSelection - Injected cookie: _ga_SCT41TW89V
+2025-03-16 07:56:03 [main] INFO  verifyProductVariationSelection - Page refreshed with bypassed cookies.
+2025-03-16 07:56:03 [main] INFO  verifyProductVariationSelection - Navigating directly to the product page.
+2025-03-16 07:56:04 [main] INFO  verifyProductVariationSelection - Product page loaded successfully.
+2025-03-16 07:56:20 [main] INFO  verifyProductVariationSelection - Product added to the cart successfully.
+2025-03-16 07:56:43 [main] INFO  verifyProductVariationSelection - Closing the browser for test: verifyProductVariationSelection
+2025-03-16 07:56:43 [main] INFO  verifyProductVariationSelection - Browser closed.
+2025-03-16 07:57:20 [main] INFO  verifyProductVariationSelection - Starting test setup for: verifyProductVariationSelection
+2025-03-16 07:57:37 [main] INFO  verifyProductVariationSelection - Navigated to the site: https://demo.nopcommerce.com
+2025-03-16 07:57:37 [main] INFO  verifyProductVariationSelection - Injected cookie: cf_clearance
+2025-03-16 07:57:37 [main] INFO  verifyProductVariationSelection - Injected cookie: _ga
+2025-03-16 07:57:37 [main] INFO  verifyProductVariationSelection - Injected cookie: .Nop.Antiforgery
+2025-03-16 07:57:37 [main] INFO  verifyProductVariationSelection - Injected cookie: .Nop.Customer
+2025-03-16 07:57:37 [main] INFO  verifyProductVariationSelection - Injected cookie: .Nop.Culture
+2025-03-16 07:57:37 [main] INFO  verifyProductVariationSelection - Injected cookie: _ga_SCT41TW89V
+2025-03-16 07:57:37 [main] INFO  verifyProductVariationSelection - Page refreshed with bypassed cookies.
+2025-03-16 07:57:37 [main] INFO  verifyProductVariationSelection - Navigating to: https://demo.nopcommerce.com/
+2025-03-16 07:57:41 [main] INFO  verifyProductVariationSelection - Product page loaded successfully.
+2025-03-16 07:57:59 [main] INFO  verifyProductVariationSelection - Product added to the cart successfully.
+2025-03-16 07:58:06 [main] INFO  verifyProductVariationSelection - Closing the browser for test: verifyProductVariationSelection
+2025-03-16 07:58:06 [main] INFO  verifyProductVariationSelection - Browser closed.
+2025-03-16 07:59:17 [main] INFO  verifyProductVariationSelection - Starting test setup for: verifyProductVariationSelection
+2025-03-16 07:59:34 [main] INFO  verifyProductVariationSelection - Navigated to the site: https://demo.nopcommerce.com
+2025-03-16 07:59:34 [main] INFO  verifyProductVariationSelection - Injected cookie: cf_clearance
+2025-03-16 07:59:34 [main] INFO  verifyProductVariationSelection - Injected cookie: _ga
+2025-03-16 07:59:34 [main] INFO  verifyProductVariationSelection - Injected cookie: .Nop.Antiforgery
+2025-03-16 07:59:34 [main] INFO  verifyProductVariationSelection - Injected cookie: .Nop.Customer
+2025-03-16 07:59:34 [main] INFO  verifyProductVariationSelection - Injected cookie: .Nop.Culture
+2025-03-16 07:59:34 [main] INFO  verifyProductVariationSelection - Injected cookie: _ga_SCT41TW89V
+2025-03-16 07:59:34 [main] INFO  verifyProductVariationSelection - Page refreshed with bypassed cookies.
+2025-03-16 07:59:34 [main] INFO  verifyProductVariationSelection - Navigating directly to the product page.
+2025-03-16 07:59:35 [main] INFO  verifyProductVariationSelection - Product page loaded successfully.
+2025-03-16 07:59:46 [main] INFO  verifyProductVariationSelection - Closing the browser for test: verifyProductVariationSelection
+2025-03-16 07:59:46 [main] INFO  verifyProductVariationSelection - Browser closed.
+2025-03-16 08:00:52 [main] INFO  verifyProductVariationSelection - Starting test setup for: verifyProductVariationSelection
+2025-03-16 08:01:09 [main] INFO  verifyProductVariationSelection - Navigated to the site: https://demo.nopcommerce.com
+2025-03-16 08:01:09 [main] INFO  verifyProductVariationSelection - Injected cookie: cf_clearance
+2025-03-16 08:01:09 [main] INFO  verifyProductVariationSelection - Injected cookie: _ga
+2025-03-16 08:01:09 [main] INFO  verifyProductVariationSelection - Injected cookie: .Nop.Antiforgery
+2025-03-16 08:01:09 [main] INFO  verifyProductVariationSelection - Injected cookie: .Nop.Customer
+2025-03-16 08:01:09 [main] INFO  verifyProductVariationSelection - Injected cookie: .Nop.Culture
+2025-03-16 08:01:09 [main] INFO  verifyProductVariationSelection - Injected cookie: _ga_SCT41TW89V
+2025-03-16 08:01:10 [main] INFO  verifyProductVariationSelection - Page refreshed with bypassed cookies.
+2025-03-16 08:01:10 [main] INFO  verifyProductVariationSelection - Navigating directly to the product page.
+2025-03-16 08:01:10 [main] INFO  verifyProductVariationSelection - Product page loaded successfully.
+2025-03-16 08:01:30 [main] INFO  verifyProductVariationSelection - Product added to the cart successfully.
+2025-03-16 08:01:37 [main] INFO  verifyProductVariationSelection - Closing the browser for test: verifyProductVariationSelection
+2025-03-16 08:01:37 [main] INFO  verifyProductVariationSelection - Browser closed.
+2025-03-16 08:03:15 [main] INFO  verifyProductVariationSelection - Starting test setup for: verifyProductVariationSelection
+2025-03-16 08:03:32 [main] INFO  verifyProductVariationSelection - Navigated to the site: https://demo.nopcommerce.com
+2025-03-16 08:03:32 [main] INFO  verifyProductVariationSelection - Injected cookie: cf_clearance
+2025-03-16 08:03:32 [main] INFO  verifyProductVariationSelection - Injected cookie: _ga
+2025-03-16 08:03:32 [main] INFO  verifyProductVariationSelection - Injected cookie: .Nop.Antiforgery
+2025-03-16 08:03:32 [main] INFO  verifyProductVariationSelection - Injected cookie: .Nop.Customer
+2025-03-16 08:03:32 [main] INFO  verifyProductVariationSelection - Injected cookie: .Nop.Culture
+2025-03-16 08:03:32 [main] INFO  verifyProductVariationSelection - Injected cookie: _ga_SCT41TW89V
+2025-03-16 08:03:32 [main] INFO  verifyProductVariationSelection - Page refreshed with bypassed cookies.
+2025-03-16 08:03:32 [main] INFO  verifyProductVariationSelection - Navigating directly to the product page.
+2025-03-16 08:03:33 [main] INFO  verifyProductVariationSelection - Product page loaded successfully.
+2025-03-16 08:03:48 [main] INFO  verifyProductVariationSelection - Product added to the cart successfully.
+2025-03-16 08:04:10 [main] INFO  verifyProductVariationSelection - Closing the browser for test: verifyProductVariationSelection
+2025-03-16 08:04:10 [main] INFO  verifyProductVariationSelection - Browser closed.
+2025-03-16 08:05:17 [main] INFO  verifyProductVariationSelection - Starting test setup for: verifyProductVariationSelection
+2025-03-16 08:05:35 [main] INFO  verifyProductVariationSelection - Navigated to the site: https://demo.nopcommerce.com
+2025-03-16 08:05:35 [main] INFO  verifyProductVariationSelection - Injected cookie: cf_clearance
+2025-03-16 08:05:35 [main] INFO  verifyProductVariationSelection - Injected cookie: _ga
+2025-03-16 08:05:35 [main] INFO  verifyProductVariationSelection - Injected cookie: .Nop.Antiforgery
+2025-03-16 08:05:35 [main] INFO  verifyProductVariationSelection - Injected cookie: .Nop.Customer
+2025-03-16 08:05:35 [main] INFO  verifyProductVariationSelection - Injected cookie: .Nop.Culture
+2025-03-16 08:05:35 [main] INFO  verifyProductVariationSelection - Injected cookie: _ga_SCT41TW89V
+2025-03-16 08:05:35 [main] INFO  verifyProductVariationSelection - Page refreshed with bypassed cookies.
+2025-03-16 08:05:35 [main] INFO  verifyProductVariationSelection - Navigating directly to the product page.
+2025-03-16 08:05:36 [main] INFO  verifyProductVariationSelection - Product page loaded successfully.
+2025-03-16 08:05:54 [main] INFO  verifyProductVariationSelection - Product added to the cart successfully.
+2025-03-16 08:06:16 [main] INFO  verifyProductVariationSelection - Closing the browser for test: verifyProductVariationSelection
+2025-03-16 08:06:16 [main] INFO  verifyProductVariationSelection - Browser closed.
+2025-03-16 08:11:10 [main] INFO  verifyProductVariationSelection - Starting test setup for: verifyProductVariationSelection
+2025-03-16 08:11:28 [main] INFO  verifyProductVariationSelection - Navigated to the site: https://demo.nopcommerce.com
+2025-03-16 08:11:28 [main] INFO  verifyProductVariationSelection - Injected cookie: cf_clearance
+2025-03-16 08:11:28 [main] INFO  verifyProductVariationSelection - Injected cookie: _ga
+2025-03-16 08:11:28 [main] INFO  verifyProductVariationSelection - Injected cookie: .Nop.Antiforgery
+2025-03-16 08:11:28 [main] INFO  verifyProductVariationSelection - Injected cookie: .Nop.Customer
+2025-03-16 08:11:28 [main] INFO  verifyProductVariationSelection - Injected cookie: .Nop.Culture
+2025-03-16 08:11:28 [main] INFO  verifyProductVariationSelection - Injected cookie: _ga_SCT41TW89V
+2025-03-16 08:11:29 [main] INFO  verifyProductVariationSelection - Page refreshed with bypassed cookies.
+2025-03-16 08:11:29 [main] INFO  verifyProductVariationSelection - Navigating directly to the product page.
+2025-03-16 08:11:30 [main] INFO  verifyProductVariationSelection - Product page loaded successfully.
+2025-03-16 08:11:36 [main] INFO  verifyProductVariationSelection - Closing the browser for test: verifyProductVariationSelection
+2025-03-16 08:11:36 [main] INFO  verifyProductVariationSelection - Browser closed.
+2025-03-16 08:13:26 [main] INFO  verifyProductVariationSelection - Starting test setup for: verifyProductVariationSelection
+2025-03-16 08:13:44 [main] INFO  verifyProductVariationSelection - Navigated to the site: https://demo.nopcommerce.com
+2025-03-16 08:13:44 [main] INFO  verifyProductVariationSelection - Injected cookie: cf_clearance
+2025-03-16 08:13:44 [main] INFO  verifyProductVariationSelection - Injected cookie: _ga
+2025-03-16 08:13:44 [main] INFO  verifyProductVariationSelection - Injected cookie: .Nop.Antiforgery
+2025-03-16 08:13:44 [main] INFO  verifyProductVariationSelection - Injected cookie: .Nop.Customer
+2025-03-16 08:13:44 [main] INFO  verifyProductVariationSelection - Injected cookie: .Nop.Culture
+2025-03-16 08:13:44 [main] INFO  verifyProductVariationSelection - Injected cookie: _ga_SCT41TW89V
+2025-03-16 08:13:44 [main] INFO  verifyProductVariationSelection - Page refreshed with bypassed cookies.
+2025-03-16 08:13:44 [main] INFO  verifyProductVariationSelection - Navigating directly to the product page.
+2025-03-16 08:13:45 [main] INFO  verifyProductVariationSelection - Product page loaded successfully.
+2025-03-16 08:14:01 [main] INFO  verifyProductVariationSelection - Product added to the cart successfully.
+2025-03-16 08:14:26 [main] INFO  verifyProductVariationSelection - Closing the browser for test: verifyProductVariationSelection
+2025-03-16 08:14:26 [main] INFO  verifyProductVariationSelection - Browser closed.
+2025-03-16 08:18:19 [main] INFO  verifyProductVariationSelection - Starting test setup for: verifyProductVariationSelection
+2025-03-16 08:18:37 [main] INFO  verifyProductVariationSelection - Navigated to the site: https://demo.nopcommerce.com
+2025-03-16 08:18:37 [main] INFO  verifyProductVariationSelection - Injected cookie: cf_clearance
+2025-03-16 08:18:37 [main] INFO  verifyProductVariationSelection - Injected cookie: _ga
+2025-03-16 08:18:37 [main] INFO  verifyProductVariationSelection - Injected cookie: .Nop.Antiforgery
+2025-03-16 08:18:37 [main] INFO  verifyProductVariationSelection - Injected cookie: .Nop.Customer
+2025-03-16 08:18:37 [main] INFO  verifyProductVariationSelection - Injected cookie: .Nop.Culture
+2025-03-16 08:18:37 [main] INFO  verifyProductVariationSelection - Injected cookie: _ga_SCT41TW89V
+2025-03-16 08:18:37 [main] INFO  verifyProductVariationSelection - Page refreshed with bypassed cookies.
+2025-03-16 08:18:37 [main] INFO  verifyProductVariationSelection - Navigating directly to the product page.
+2025-03-16 08:18:38 [main] INFO  verifyProductVariationSelection - Product page loaded successfully.
+2025-03-16 08:18:52 [main] INFO  verifyProductVariationSelection - Product added to the cart successfully.
+2025-03-16 08:19:17 [main] INFO  verifyProductVariationSelection - Closing the browser for test: verifyProductVariationSelection
+2025-03-16 08:19:17 [main] INFO  verifyProductVariationSelection - Browser closed.
+2025-03-16 08:21:59 [main] INFO  verifyProductVariationSelection - Starting test setup for: verifyProductVariationSelection
+2025-03-16 08:22:16 [main] INFO  verifyProductVariationSelection - Navigated to the site: https://demo.nopcommerce.com
+2025-03-16 08:22:16 [main] INFO  verifyProductVariationSelection - Injected cookie: cf_clearance
+2025-03-16 08:22:16 [main] INFO  verifyProductVariationSelection - Injected cookie: _ga
+2025-03-16 08:22:16 [main] INFO  verifyProductVariationSelection - Injected cookie: .Nop.Antiforgery
+2025-03-16 08:22:16 [main] INFO  verifyProductVariationSelection - Injected cookie: .Nop.Customer
+2025-03-16 08:22:16 [main] INFO  verifyProductVariationSelection - Injected cookie: .Nop.Culture
+2025-03-16 08:22:16 [main] INFO  verifyProductVariationSelection - Injected cookie: _ga_SCT41TW89V
+2025-03-16 08:22:17 [main] INFO  verifyProductVariationSelection - Page refreshed with bypassed cookies.
+2025-03-16 08:22:17 [main] INFO  verifyProductVariationSelection - Navigating directly to the product page.
+2025-03-16 08:22:18 [main] INFO  verifyProductVariationSelection - Product page loaded successfully.
+2025-03-16 08:22:37 [main] INFO  verifyProductVariationSelection - Product added to the cart successfully.
+2025-03-16 08:23:00 [main] INFO  verifyProductVariationSelection - Closing the browser for test: verifyProductVariationSelection
+2025-03-16 08:23:00 [main] INFO  verifyProductVariationSelection - Browser closed.
+2025-03-16 08:23:26 [main] INFO  verifyProductVariationSelection - Starting test setup for: verifyProductVariationSelection
+2025-03-16 08:23:44 [main] INFO  verifyProductVariationSelection - Navigated to the site: https://demo.nopcommerce.com
+2025-03-16 08:23:44 [main] INFO  verifyProductVariationSelection - Injected cookie: _ga
+2025-03-16 08:23:44 [main] INFO  verifyProductVariationSelection - Injected cookie: cf_clearance
+2025-03-16 08:23:44 [main] INFO  verifyProductVariationSelection - Injected cookie: .Nop.Antiforgery
+2025-03-16 08:23:44 [main] INFO  verifyProductVariationSelection - Injected cookie: .Nop.Customer
+2025-03-16 08:23:44 [main] INFO  verifyProductVariationSelection - Injected cookie: .Nop.Culture
+2025-03-16 08:23:44 [main] INFO  verifyProductVariationSelection - Injected cookie: _ga_SCT41TW89V
+2025-03-16 08:23:45 [main] INFO  verifyProductVariationSelection - Page refreshed with bypassed cookies.
+2025-03-16 08:23:45 [main] INFO  verifyProductVariationSelection - Navigating directly to the product page.
+2025-03-16 08:23:45 [main] INFO  verifyProductVariationSelection - Product page loaded successfully.
+2025-03-16 08:24:03 [main] INFO  verifyProductVariationSelection - Product added to the cart successfully.
+2025-03-16 08:24:25 [main] INFO  verifyProductVariationSelection - Closing the browser for test: verifyProductVariationSelection
+2025-03-16 08:24:25 [main] INFO  verifyProductVariationSelection - Browser closed.
+2025-03-16 08:26:25 [main] INFO  verifyProductVariationSelection - Starting test setup for: verifyProductVariationSelection
+2025-03-16 08:26:42 [main] INFO  verifyProductVariationSelection - Navigated to the site: https://demo.nopcommerce.com
+2025-03-16 08:26:42 [main] INFO  verifyProductVariationSelection - Injected cookie: cf_clearance
+2025-03-16 08:26:42 [main] INFO  verifyProductVariationSelection - Injected cookie: _ga
+2025-03-16 08:26:42 [main] INFO  verifyProductVariationSelection - Injected cookie: .Nop.Antiforgery
+2025-03-16 08:26:42 [main] INFO  verifyProductVariationSelection - Injected cookie: .Nop.Customer
+2025-03-16 08:26:42 [main] INFO  verifyProductVariationSelection - Injected cookie: .Nop.Culture
+2025-03-16 08:26:42 [main] INFO  verifyProductVariationSelection - Injected cookie: _ga_SCT41TW89V
+2025-03-16 08:26:43 [main] INFO  verifyProductVariationSelection - Page refreshed with bypassed cookies.
+2025-03-16 08:26:43 [main] INFO  verifyProductVariationSelection - Navigating directly to the product page.
+2025-03-16 08:26:44 [main] INFO  verifyProductVariationSelection - Product page loaded successfully.
+2025-03-16 08:27:00 [main] INFO  verifyProductVariationSelection - Product added to the cart successfully.
+2025-03-16 08:27:13 [main] INFO  verifyProductVariationSelection - Closing the browser for test: verifyProductVariationSelection
+2025-03-16 08:27:13 [main] INFO  verifyProductVariationSelection - Browser closed.
+2025-03-16 08:30:38 [main] INFO  verifyProductVariationSelection - Starting test setup for: verifyProductVariationSelection
+2025-03-16 08:30:56 [main] INFO  verifyProductVariationSelection - Navigated to the site: https://demo.nopcommerce.com
+2025-03-16 08:30:56 [main] INFO  verifyProductVariationSelection - Injected cookie: cf_clearance
+2025-03-16 08:30:56 [main] INFO  verifyProductVariationSelection - Injected cookie: _ga
+2025-03-16 08:30:56 [main] INFO  verifyProductVariationSelection - Injected cookie: .Nop.Antiforgery
+2025-03-16 08:30:56 [main] INFO  verifyProductVariationSelection - Injected cookie: .Nop.Customer
+2025-03-16 08:30:56 [main] INFO  verifyProductVariationSelection - Injected cookie: .Nop.Culture
+2025-03-16 08:30:56 [main] INFO  verifyProductVariationSelection - Injected cookie: _ga_SCT41TW89V
+2025-03-16 08:30:57 [main] INFO  verifyProductVariationSelection - Page refreshed with bypassed cookies.
+2025-03-16 08:30:57 [main] INFO  verifyProductVariationSelection - Navigating directly to the product page.
+2025-03-16 08:30:57 [main] INFO  verifyProductVariationSelection - Product page loaded successfully.
+2025-03-16 08:31:30 [main] INFO  verifyProductVariationSelection - Starting test setup for: verifyProductVariationSelection
+2025-03-16 08:31:48 [main] INFO  verifyProductVariationSelection - Navigated to the site: https://demo.nopcommerce.com
+2025-03-16 08:31:48 [main] INFO  verifyProductVariationSelection - Injected cookie: cf_clearance
+2025-03-16 08:31:48 [main] INFO  verifyProductVariationSelection - Injected cookie: _ga
+2025-03-16 08:31:48 [main] INFO  verifyProductVariationSelection - Injected cookie: .Nop.Antiforgery
+2025-03-16 08:31:48 [main] INFO  verifyProductVariationSelection - Injected cookie: .Nop.Customer
+2025-03-16 08:31:48 [main] INFO  verifyProductVariationSelection - Injected cookie: .Nop.Culture
+2025-03-16 08:31:48 [main] INFO  verifyProductVariationSelection - Injected cookie: _ga_SCT41TW89V
+2025-03-16 08:31:49 [main] INFO  verifyProductVariationSelection - Page refreshed with bypassed cookies.
+2025-03-16 08:31:49 [main] INFO  verifyProductVariationSelection - Navigating directly to the product page.
+2025-03-16 08:31:49 [main] INFO  verifyProductVariationSelection - Product page loaded successfully.
+2025-03-16 08:31:51 [main] INFO  verifyProductVariationSelection - Closing the browser for test: verifyProductVariationSelection
+2025-03-16 08:31:51 [main] INFO  verifyProductVariationSelection - Browser closed.
+2025-03-16 08:32:23 [main] INFO  verifyProductVariationSelection - Starting test setup for: verifyProductVariationSelection
+2025-03-16 08:32:40 [main] INFO  verifyProductVariationSelection - Navigated to the site: https://demo.nopcommerce.com
+2025-03-16 08:32:40 [main] INFO  verifyProductVariationSelection - Injected cookie: _ga
+2025-03-16 08:32:40 [main] INFO  verifyProductVariationSelection - Injected cookie: cf_clearance
+2025-03-16 08:32:40 [main] INFO  verifyProductVariationSelection - Injected cookie: .Nop.Antiforgery
+2025-03-16 08:32:40 [main] INFO  verifyProductVariationSelection - Injected cookie: .Nop.Customer
+2025-03-16 08:32:40 [main] INFO  verifyProductVariationSelection - Injected cookie: .Nop.Culture
+2025-03-16 08:32:40 [main] INFO  verifyProductVariationSelection - Injected cookie: _ga_SCT41TW89V
+2025-03-16 08:32:41 [main] INFO  verifyProductVariationSelection - Page refreshed with bypassed cookies.
+2025-03-16 08:32:41 [main] INFO  verifyProductVariationSelection - Navigating directly to the product page.
+2025-03-16 08:32:42 [main] INFO  verifyProductVariationSelection - Product page loaded successfully.
+2025-03-16 08:33:01 [main] INFO  verifyProductVariationSelection - Product added to the cart successfully.
+2025-03-16 08:33:01 [main] INFO  verifyProductVariationSelection - Cart data extracted successfully.
+2025-03-16 08:33:01 [main] INFO  verifyProductVariationSelection - Closing the browser for test: verifyProductVariationSelection
+2025-03-16 08:33:02 [main] INFO  verifyProductVariationSelection - Browser closed.
+2025-03-16 08:33:56 [main] INFO  verifyProductVariationSelection - Starting test setup for: verifyProductVariationSelection
+2025-03-16 08:34:14 [main] INFO  verifyProductVariationSelection - Navigated to the site: https://demo.nopcommerce.com
+2025-03-16 08:34:14 [main] INFO  verifyProductVariationSelection - Injected cookie: cf_clearance
+2025-03-16 08:34:14 [main] INFO  verifyProductVariationSelection - Injected cookie: _ga
+2025-03-16 08:34:14 [main] INFO  verifyProductVariationSelection - Injected cookie: .Nop.Antiforgery
+2025-03-16 08:34:14 [main] INFO  verifyProductVariationSelection - Injected cookie: .Nop.Customer
+2025-03-16 08:34:14 [main] INFO  verifyProductVariationSelection - Injected cookie: .Nop.Culture
+2025-03-16 08:34:14 [main] INFO  verifyProductVariationSelection - Injected cookie: _ga_SCT41TW89V
+2025-03-16 08:34:15 [main] INFO  verifyProductVariationSelection - Page refreshed with bypassed cookies.
+2025-03-16 08:34:15 [main] INFO  verifyProductVariationSelection - Navigating directly to the product page.
+2025-03-16 08:34:16 [main] INFO  verifyProductVariationSelection - Product page loaded successfully.
+2025-03-16 08:34:27 [main] INFO  verifyProductVariationSelection - Closing the browser for test: verifyProductVariationSelection
+2025-03-16 08:34:27 [main] INFO  verifyProductVariationSelection - Browser closed.
+2025-03-16 08:35:36 [main] INFO  verifyProductVariationSelection - Starting test setup for: verifyProductVariationSelection
+2025-03-16 08:35:54 [main] INFO  verifyProductVariationSelection - Navigated to the site: https://demo.nopcommerce.com
+2025-03-16 08:35:54 [main] INFO  verifyProductVariationSelection - Injected cookie: cf_clearance
+2025-03-16 08:35:54 [main] INFO  verifyProductVariationSelection - Injected cookie: _ga
+2025-03-16 08:35:54 [main] INFO  verifyProductVariationSelection - Injected cookie: .Nop.Antiforgery
+2025-03-16 08:35:54 [main] INFO  verifyProductVariationSelection - Injected cookie: .Nop.Customer
+2025-03-16 08:35:54 [main] INFO  verifyProductVariationSelection - Injected cookie: .Nop.Culture
+2025-03-16 08:35:54 [main] INFO  verifyProductVariationSelection - Injected cookie: _ga_SCT41TW89V
+2025-03-16 08:35:54 [main] INFO  verifyProductVariationSelection - Page refreshed with bypassed cookies.
+2025-03-16 08:35:54 [main] INFO  verifyProductVariationSelection - Navigating directly to the product page.
+2025-03-16 08:35:55 [main] INFO  verifyProductVariationSelection - Product page loaded successfully.
+2025-03-16 08:36:00 [main] INFO  verifyProductVariationSelection - Closing the browser for test: verifyProductVariationSelection
+2025-03-16 08:36:00 [main] INFO  verifyProductVariationSelection - Browser closed.
+2025-03-16 08:36:40 [main] INFO  verifyProductVariationSelection - Starting test setup for: verifyProductVariationSelection
+2025-03-16 08:36:57 [main] INFO  verifyProductVariationSelection - Navigated to the site: https://demo.nopcommerce.com
+2025-03-16 08:36:57 [main] INFO  verifyProductVariationSelection - Injected cookie: cf_clearance
+2025-03-16 08:36:57 [main] INFO  verifyProductVariationSelection - Injected cookie: _ga
+2025-03-16 08:36:57 [main] INFO  verifyProductVariationSelection - Injected cookie: .Nop.Antiforgery
+2025-03-16 08:36:57 [main] INFO  verifyProductVariationSelection - Injected cookie: .Nop.Customer
+2025-03-16 08:36:57 [main] INFO  verifyProductVariationSelection - Injected cookie: .Nop.Culture
+2025-03-16 08:36:57 [main] INFO  verifyProductVariationSelection - Injected cookie: _ga_SCT41TW89V
+2025-03-16 08:36:58 [main] INFO  verifyProductVariationSelection - Page refreshed with bypassed cookies.
+2025-03-16 08:36:58 [main] INFO  verifyProductVariationSelection - Navigating directly to the product page.
+2025-03-16 08:36:59 [main] INFO  verifyProductVariationSelection - Product page loaded successfully.
+2025-03-16 08:37:24 [main] INFO  verifyProductVariationSelection - Starting test setup for: verifyProductVariationSelection
+2025-03-16 08:37:50 [main] INFO  verifyProductVariationSelection - Navigated to the site: https://demo.nopcommerce.com
+2025-03-16 08:37:50 [main] INFO  verifyProductVariationSelection - Injected cookie: _ga
+2025-03-16 08:37:50 [main] INFO  verifyProductVariationSelection - Injected cookie: cf_clearance
+2025-03-16 08:37:50 [main] INFO  verifyProductVariationSelection - Injected cookie: .Nop.Antiforgery
+2025-03-16 08:37:50 [main] INFO  verifyProductVariationSelection - Injected cookie: .Nop.Customer
+2025-03-16 08:37:50 [main] INFO  verifyProductVariationSelection - Injected cookie: .Nop.Culture
+2025-03-16 08:37:50 [main] INFO  verifyProductVariationSelection - Injected cookie: _ga_SCT41TW89V
+2025-03-16 08:37:51 [main] INFO  verifyProductVariationSelection - Page refreshed with bypassed cookies.
+2025-03-16 08:37:51 [main] INFO  verifyProductVariationSelection - Navigating directly to the product page.
+2025-03-16 08:37:53 [main] INFO  verifyProductVariationSelection - Product page loaded successfully.
+2025-03-16 08:38:13 [main] INFO  verifyProductVariationSelection - Product added to the cart successfully.
+2025-03-16 08:38:15 [main] INFO  verifyProductVariationSelection - Cart data extracted successfully.
+2025-03-16 08:38:15 [main] INFO  verifyProductVariationSelection - Closing the browser for test: verifyProductVariationSelection
+2025-03-16 08:38:15 [main] INFO  verifyProductVariationSelection - Browser closed.
+2025-03-16 08:40:31 [main] INFO  verifyProductVariationSelection - Starting test setup for: verifyProductVariationSelection
+2025-03-16 08:40:56 [main] INFO  verifyProductVariationSelection - Navigated to the site: https://demo.nopcommerce.com
+2025-03-16 08:40:56 [main] INFO  verifyProductVariationSelection - Injected cookie: _ga
+2025-03-16 08:40:56 [main] INFO  verifyProductVariationSelection - Injected cookie: cf_clearance
+2025-03-16 08:40:56 [main] INFO  verifyProductVariationSelection - Injected cookie: .Nop.Antiforgery
+2025-03-16 08:40:56 [main] INFO  verifyProductVariationSelection - Injected cookie: .Nop.Customer
+2025-03-16 08:40:56 [main] INFO  verifyProductVariationSelection - Injected cookie: .Nop.Culture
+2025-03-16 08:40:56 [main] INFO  verifyProductVariationSelection - Injected cookie: _ga_SCT41TW89V
+2025-03-16 08:40:57 [main] INFO  verifyProductVariationSelection - Page refreshed with bypassed cookies.
+2025-03-16 08:40:57 [main] INFO  verifyProductVariationSelection - Navigating directly to the product page.
+2025-03-16 08:40:58 [main] INFO  verifyProductVariationSelection - Product page loaded successfully.
+2025-03-16 08:41:19 [main] INFO  verifyProductVariationSelection - Product added to the cart successfully.
+2025-03-16 08:41:20 [main] INFO  verifyProductVariationSelection - SKU: COMP_CUST
+2025-03-16 08:41:20 [main] INFO  verifyProductVariationSelection - Product Name: Build your own computer
+2025-03-16 08:41:20 [main] INFO  verifyProductVariationSelection - Attributes: Processor: 2.5 GHz Intel Pentium Dual-Core E2200 [+$15.00]
+RAM: 4GB [+$20.00]
+HDD: 400 GB [+$100.00]
+OS: Vista Premium [+$60.00]
+Software: Microsoft Office [+$50.00]
+2025-03-16 08:41:20 [main] INFO  verifyProductVariationSelection - Unit Price: $1,445.00
+2025-03-16 08:41:20 [main] INFO  verifyProductVariationSelection - Quantity: 1
+2025-03-16 08:41:20 [main] INFO  verifyProductVariationSelection - Total: $1,445.00
+2025-03-16 08:41:20 [main] INFO  verifyProductVariationSelection - Cart validation successful! Product attributes match the selection.
+2025-03-16 08:41:20 [main] INFO  verifyProductVariationSelection - Closing the browser for test: verifyProductVariationSelection
+2025-03-16 08:41:21 [main] INFO  verifyProductVariationSelection - Browser closed.
+2025-03-16 08:44:58 [main] INFO  verifyProductVariationSelection - Starting test setup for: verifyProductVariationSelection
+2025-03-16 08:45:23 [main] INFO  verifyProductVariationSelection - Navigated to the site: https://demo.nopcommerce.com
+2025-03-16 08:45:23 [main] INFO  verifyProductVariationSelection - Injected cookie: _ga
+2025-03-16 08:45:23 [main] INFO  verifyProductVariationSelection - Injected cookie: cf_clearance
+2025-03-16 08:45:23 [main] INFO  verifyProductVariationSelection - Injected cookie: .Nop.Antiforgery
+2025-03-16 08:45:23 [main] INFO  verifyProductVariationSelection - Injected cookie: .Nop.Customer
+2025-03-16 08:45:23 [main] INFO  verifyProductVariationSelection - Injected cookie: .Nop.Culture
+2025-03-16 08:45:23 [main] INFO  verifyProductVariationSelection - Injected cookie: _ga_SCT41TW89V
+2025-03-16 08:45:23 [main] INFO  verifyProductVariationSelection - Page refreshed with bypassed cookies.
+2025-03-16 08:45:23 [main] INFO  verifyProductVariationSelection - Navigating directly to the product page.
+2025-03-16 08:45:25 [main] INFO  verifyProductVariationSelection - Product page loaded successfully.
+2025-03-16 08:45:45 [main] INFO  verifyProductVariationSelection - Product added to the cart successfully.
+2025-03-16 08:45:47 [main] INFO  verifyProductVariationSelection - SKU: COMP_CUST
+2025-03-16 08:45:47 [main] INFO  verifyProductVariationSelection - Product Name: Build your own computer
+2025-03-16 08:45:47 [main] INFO  verifyProductVariationSelection - Attributes: Processor: 2.5 GHz Intel Pentium Dual-Core E2200 [+$15.00]
+RAM: 4GB [+$20.00]
+HDD: 400 GB [+$100.00]
+OS: Vista Premium [+$60.00]
+Software: Microsoft Office [+$50.00]
+2025-03-16 08:45:47 [main] INFO  verifyProductVariationSelection - Unit Price: $1,445.00
+2025-03-16 08:45:47 [main] INFO  verifyProductVariationSelection - Quantity: 1
+2025-03-16 08:45:47 [main] INFO  verifyProductVariationSelection - Total: $1,445.00
+2025-03-16 08:45:47 [main] INFO  verifyProductVariationSelection - Cart validation successful! Product attributes match the selection.
+2025-03-16 08:45:47 [main] INFO  verifyProductVariationSelection - Closing the browser for test: verifyProductVariationSelection
+2025-03-16 08:45:47 [main] INFO  verifyProductVariationSelection - Browser closed.
+2025-03-16 09:18:41 [main] INFO  verifyProductVariationSelection - Starting test setup for: verifyProductVariationSelection
+2025-03-16 09:19:05 [main] INFO  verifyProductVariationSelection - Navigated to the site: https://demo.nopcommerce.com
+2025-03-16 09:19:05 [main] INFO  verifyProductVariationSelection - Injected cookie: _ga
+2025-03-16 09:19:05 [main] INFO  verifyProductVariationSelection - Injected cookie: cf_clearance
+2025-03-16 09:19:05 [main] INFO  verifyProductVariationSelection - Injected cookie: .Nop.Antiforgery
+2025-03-16 09:19:05 [main] INFO  verifyProductVariationSelection - Injected cookie: .Nop.Customer
+2025-03-16 09:19:05 [main] INFO  verifyProductVariationSelection - Injected cookie: .Nop.Culture
+2025-03-16 09:19:05 [main] INFO  verifyProductVariationSelection - Injected cookie: _ga_SCT41TW89V
+2025-03-16 09:19:06 [main] INFO  verifyProductVariationSelection - Page refreshed with bypassed cookies.
+2025-03-16 09:19:06 [main] INFO  verifyProductVariationSelection - Navigating directly to the product page.
+2025-03-16 09:19:08 [main] INFO  verifyProductVariationSelection - Product page loaded successfully.
+2025-03-16 09:19:31 [main] INFO  verifyProductVariationSelection - Product added to the cart successfully.
+2025-03-16 09:19:33 [main] INFO  verifyProductVariationSelection - SKU: COMP_CUST
+2025-03-16 09:19:33 [main] INFO  verifyProductVariationSelection - Product Name: Build your own computer
+2025-03-16 09:19:33 [main] INFO  verifyProductVariationSelection - Attributes: Processor: 2.5 GHz Intel Pentium Dual-Core E2200 [+$15.00]
+RAM: 4GB [+$20.00]
+HDD: 400 GB [+$100.00]
+OS: Vista Premium [+$60.00]
+Software: Microsoft Office [+$50.00]
+2025-03-16 09:19:33 [main] INFO  verifyProductVariationSelection - Unit Price: $1,445.00
+2025-03-16 09:19:33 [main] INFO  verifyProductVariationSelection - Quantity: 1
+2025-03-16 09:19:33 [main] INFO  verifyProductVariationSelection - Total: $1,445.00
+2025-03-16 09:19:33 [main] INFO  verifyProductVariationSelection - Cart validation successful! Product attributes match the selection.
+2025-03-16 09:19:33 [main] INFO  verifyProductVariationSelection - Closing the browser for test: verifyProductVariationSelection
+2025-03-16 09:19:33 [main] INFO  verifyProductVariationSelection - Browser closed.

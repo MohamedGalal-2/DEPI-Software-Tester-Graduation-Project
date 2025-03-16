@@ -1,0 +1,13 @@
+2025-03-16 00:36:13 [main] INFO  verifyProductsAddedToCompareList - Starting test setup for: verifyProductsAddedToCompareList
+2025-03-16 00:36:13 [main] INFO  verifyProductsAddedToCompareList - Setting up Chrome browser...
+2025-03-16 00:36:14 [main] INFO  verifyProductsAddedToCompareList - Browser setup complete with ZenRows proxy.
+2025-03-16 00:36:14 [main] INFO  verifyProductsAddedToCompareList - Navigating to: https://demo.nopcommerce.com/
+2025-03-16 00:36:26 [main] INFO  verifyProductsAddedToCompareList - Closing the browser for test: verifyProductsAddedToCompareList
+2025-03-16 00:36:26 [main] INFO  verifyProductsAddedToCompareList - Browser closed.
+2025-03-16 00:40:24 [main] INFO  verifyProductsAddedToCompareList - Starting test setup for: verifyProductsAddedToCompareList
+2025-03-16 00:40:24 [main] INFO  verifyProductsAddedToCompareList - Setting up Chrome browser...
+2025-03-16 00:40:25 [main] INFO  verifyProductsAddedToCompareList - Browser setup complete with ZenRows proxy.
+2025-03-16 00:40:25 [main] INFO  verifyProductsAddedToCompareList - Navigating to: https://demo.nopcommerce.com/
+2025-03-16 00:40:28 [main] INFO  verifyProductsAddedToCompareList - Added Apple iPhone 16 128GB to compare list.
+2025-03-16 00:40:39 [main] INFO  verifyProductsAddedToCompareList - Closing the browser for test: verifyProductsAddedToCompareList
+2025-03-16 00:40:39 [main] INFO  verifyProductsAddedToCompareList - Browser closed.

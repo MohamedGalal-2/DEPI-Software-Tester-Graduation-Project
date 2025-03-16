@@ -295,8 +295,4 @@ public class SearchTest extends BaseTest {
 
         Assert.assertTrue(true, "Test Passed");
     }
-
-
-
-
 }

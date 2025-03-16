@@ -1,0 +1,17 @@
+2025-03-15 23:32:34,315 [main] INFO  verifyProductPageLoadsCorrectly - Starting test setup for: verifyProductPageLoadsCorrectly
+2025-03-15 23:32:34,318 [main] INFO  verifyProductPageLoadsCorrectly - Setting up Chrome browser...
+2025-03-15 23:32:35,437 [main] INFO  verifyProductPageLoadsCorrectly - Browser setup complete with ZenRows proxy.
+2025-03-15 23:32:35,439 [main] INFO  verifyProductPageLoadsCorrectly - Navigating to: https://demo.nopcommerce.com/
+2025-03-15 23:32:37,867 [main] INFO  verifyProductPageLoadsCorrectly - Product page loaded successfully.
+2025-03-15 23:32:37,871 [main] INFO  verifyProductPageLoadsCorrectly - Closing the browser for test: verifyProductPageLoadsCorrectly
+2025-03-15 23:32:38,009 [main] INFO  verifyProductPageLoadsCorrectly - Browser closed.
+2025-03-15 23:32:39,022 [main] INFO  verifyProductVariationSelection - Starting test setup for: verifyProductVariationSelection
+2025-03-15 23:32:39,022 [main] INFO  verifyProductVariationSelection - Setting up Chrome browser...
+2025-03-15 23:32:39,712 [main] INFO  verifyProductVariationSelection - Browser setup complete with ZenRows proxy.
+2025-03-15 23:32:39,712 [main] INFO  verifyProductVariationSelection - Navigating to: https://demo.nopcommerce.com/
+2025-03-16 01:27:05,046 [main] INFO  verifyHeaderLinks - Starting test setup for: verifyHeaderLinks
+2025-03-16 01:27:05,050 [main] INFO  verifyHeaderLinks - Setting up Chrome browser...
+2025-03-16 01:27:06,202 [main] INFO  verifyHeaderLinks - Browser setup complete with ZenRows proxy.
+2025-03-16 01:27:06,204 [main] INFO  verifyHeaderLinks - Navigating to: https://demo.nopcommerce.com
+2025-03-16 01:27:23,654 [main] INFO  verifyHeaderLinks - Closing the browser for test: verifyHeaderLinks
+2025-03-16 01:27:23,659 [main] INFO  verifyHeaderLinks - Browser closed.
