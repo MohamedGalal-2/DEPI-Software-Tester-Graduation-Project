@@ -1,0 +1,92 @@
+2025-03-17 06:37:15 [main] INFO  verifyInvalidAddressPreventsCheckout - Starting test setup for: verifyInvalidAddressPreventsCheckout
+2025-03-17 06:37:42 [main] INFO  verifyInvalidAddressPreventsCheckout - Navigated to the site: https://demo.nopcommerce.com
+2025-03-17 06:37:42 [main] INFO  verifyInvalidAddressPreventsCheckout - Injected cookie: _ga
+2025-03-17 06:37:42 [main] INFO  verifyInvalidAddressPreventsCheckout - Injected cookie: cf_clearance
+2025-03-17 06:37:42 [main] INFO  verifyInvalidAddressPreventsCheckout - Injected cookie: .Nop.Antiforgery
+2025-03-17 06:37:42 [main] INFO  verifyInvalidAddressPreventsCheckout - Injected cookie: .Nop.Customer
+2025-03-17 06:37:42 [main] INFO  verifyInvalidAddressPreventsCheckout - Injected cookie: .Nop.Culture
+2025-03-17 06:37:42 [main] INFO  verifyInvalidAddressPreventsCheckout - Injected cookie: _ga_SCT41TW89V
+2025-03-17 06:37:43 [main] INFO  verifyInvalidAddressPreventsCheckout - Page refreshed with bypassed cookies.
+2025-03-17 06:37:43 [main] INFO  verifyInvalidAddressPreventsCheckout - Navigating to product page: https://demo.nopcommerce.com/adobe-photoshop
+2025-03-17 06:37:47 [main] INFO  verifyInvalidAddressPreventsCheckout - Clicked 'Add to Cart' button.
+2025-03-17 06:37:48 [main] INFO  verifyInvalidAddressPreventsCheckout - Product successfully added to cart.
+2025-03-17 06:37:48 [main] INFO  verifyInvalidAddressPreventsCheckout - Cart quantity updated to: 1
+2025-03-17 06:37:50 [main] INFO  verifyInvalidAddressPreventsCheckout - Cart page loaded successfully.
+2025-03-17 06:37:50 [main] INFO  verifyInvalidAddressPreventsCheckout - Accepted terms of service.
+2025-03-17 06:37:54 [main] INFO  verifyInvalidAddressPreventsCheckout - Selected 'Checkout as Guest' option.
+2025-03-17 06:37:55 [main] INFO  verifyInvalidAddressPreventsCheckout - Checkout page loaded successfully.
+2025-03-17 06:37:58 [main] INFO  verifyInvalidAddressPreventsCheckout - Closing the browser for test: verifyInvalidAddressPreventsCheckout
+2025-03-17 06:37:58 [main] INFO  verifyInvalidAddressPreventsCheckout - Browser closed.
+2025-03-17 06:43:01 [main] INFO  verifyInvalidAddressPreventsCheckout - Starting test setup for: verifyInvalidAddressPreventsCheckout
+2025-03-17 06:43:19 [main] INFO  verifyInvalidAddressPreventsCheckout - Navigated to the site: https://demo.nopcommerce.com
+2025-03-17 06:43:19 [main] INFO  verifyInvalidAddressPreventsCheckout - Injected cookie: _ga
+2025-03-17 06:43:19 [main] INFO  verifyInvalidAddressPreventsCheckout - Injected cookie: cf_clearance
+2025-03-17 06:43:19 [main] INFO  verifyInvalidAddressPreventsCheckout - Injected cookie: .Nop.Antiforgery
+2025-03-17 06:43:19 [main] INFO  verifyInvalidAddressPreventsCheckout - Injected cookie: .Nop.Customer
+2025-03-17 06:43:19 [main] INFO  verifyInvalidAddressPreventsCheckout - Injected cookie: .Nop.Culture
+2025-03-17 06:43:19 [main] INFO  verifyInvalidAddressPreventsCheckout - Injected cookie: _ga_SCT41TW89V
+2025-03-17 06:43:19 [main] INFO  verifyInvalidAddressPreventsCheckout - Page refreshed with bypassed cookies.
+2025-03-17 06:43:19 [main] INFO  verifyInvalidAddressPreventsCheckout - Navigating to product page: https://demo.nopcommerce.com/adobe-photoshop
+2025-03-17 06:43:21 [main] INFO  verifyInvalidAddressPreventsCheckout - Clicked 'Add to Cart' button.
+2025-03-17 06:43:22 [main] INFO  verifyInvalidAddressPreventsCheckout - Product successfully added to cart.
+2025-03-17 06:43:22 [main] INFO  verifyInvalidAddressPreventsCheckout - Cart quantity updated to: 1
+2025-03-17 06:43:22 [main] INFO  verifyInvalidAddressPreventsCheckout - Cart page loaded successfully.
+2025-03-17 06:43:22 [main] INFO  verifyInvalidAddressPreventsCheckout - Accepted terms of service.
+2025-03-17 06:43:24 [main] INFO  verifyInvalidAddressPreventsCheckout - Selected 'Checkout as Guest' option.
+2025-03-17 06:43:25 [main] INFO  verifyInvalidAddressPreventsCheckout - Checkout page loaded successfully.
+2025-03-17 06:43:27 [main] WARN  verifyInvalidAddressPreventsCheckout - Validation alert found: City is required, Email is required., Street address is required, Country is required., Zip / postal code is required
+2025-03-17 06:43:32 [main] INFO  verifyInvalidAddressPreventsCheckout - Closing the browser for test: verifyInvalidAddressPreventsCheckout
+2025-03-17 06:43:32 [main] INFO  verifyInvalidAddressPreventsCheckout - Browser closed.
+2025-03-17 06:45:02 [main] INFO  verifyInvalidAddressPreventsCheckout - Starting test setup for: verifyInvalidAddressPreventsCheckout
+2025-03-17 06:45:20 [main] INFO  verifyInvalidAddressPreventsCheckout - Navigated to the site: https://demo.nopcommerce.com
+2025-03-17 06:45:20 [main] INFO  verifyInvalidAddressPreventsCheckout - Injected cookie: cf_clearance
+2025-03-17 06:45:20 [main] INFO  verifyInvalidAddressPreventsCheckout - Injected cookie: _ga
+2025-03-17 06:45:20 [main] INFO  verifyInvalidAddressPreventsCheckout - Injected cookie: .Nop.Antiforgery
+2025-03-17 06:45:20 [main] INFO  verifyInvalidAddressPreventsCheckout - Injected cookie: .Nop.Customer
+2025-03-17 06:45:20 [main] INFO  verifyInvalidAddressPreventsCheckout - Injected cookie: .Nop.Culture
+2025-03-17 06:45:20 [main] INFO  verifyInvalidAddressPreventsCheckout - Injected cookie: _ga_SCT41TW89V
+2025-03-17 06:45:20 [main] INFO  verifyInvalidAddressPreventsCheckout - Page refreshed with bypassed cookies.
+2025-03-17 06:45:20 [main] INFO  verifyInvalidAddressPreventsCheckout - Navigating to product page: https://demo.nopcommerce.com/adobe-photoshop
+2025-03-17 06:45:22 [main] INFO  verifyInvalidAddressPreventsCheckout - Clicked 'Add to Cart' button.
+2025-03-17 06:45:22 [main] INFO  verifyInvalidAddressPreventsCheckout - Product successfully added to cart.
+2025-03-17 06:45:23 [main] INFO  verifyInvalidAddressPreventsCheckout - Cart quantity updated to: 1
+2025-03-17 06:45:23 [main] INFO  verifyInvalidAddressPreventsCheckout - Cart page loaded successfully.
+2025-03-17 06:45:23 [main] INFO  verifyInvalidAddressPreventsCheckout - Accepted terms of service.
+2025-03-17 06:45:25 [main] INFO  verifyInvalidAddressPreventsCheckout - Selected 'Checkout as Guest' option.
+2025-03-17 06:45:26 [main] INFO  verifyInvalidAddressPreventsCheckout - Checkout page loaded successfully.
+2025-03-17 06:45:27 [main] WARN  verifyInvalidAddressPreventsCheckout - Validation alert found: City is required, Email is required., Street address is required, Country is required., Zip / postal code is required
+2025-03-17 06:45:33 [main] INFO  verifyInvalidAddressPreventsCheckout - Closing the browser for test: verifyInvalidAddressPreventsCheckout
+2025-03-17 06:45:33 [main] INFO  verifyInvalidAddressPreventsCheckout - Browser closed.
+2025-03-17 06:46:39 [main] INFO  verifyInvalidAddressPreventsCheckout - Starting test setup for: verifyInvalidAddressPreventsCheckout
+2025-03-17 06:46:57 [main] INFO  verifyInvalidAddressPreventsCheckout - Navigated to the site: https://demo.nopcommerce.com
+2025-03-17 06:46:57 [main] INFO  verifyInvalidAddressPreventsCheckout - Injected cookie: cf_clearance
+2025-03-17 06:46:57 [main] INFO  verifyInvalidAddressPreventsCheckout - Injected cookie: _ga
+2025-03-17 06:46:57 [main] INFO  verifyInvalidAddressPreventsCheckout - Injected cookie: .Nop.Antiforgery
+2025-03-17 06:46:57 [main] INFO  verifyInvalidAddressPreventsCheckout - Injected cookie: .Nop.Customer
+2025-03-17 06:46:57 [main] INFO  verifyInvalidAddressPreventsCheckout - Injected cookie: .Nop.Culture
+2025-03-17 06:46:57 [main] INFO  verifyInvalidAddressPreventsCheckout - Injected cookie: _ga_SCT41TW89V
+2025-03-17 06:46:58 [main] INFO  verifyInvalidAddressPreventsCheckout - Page refreshed with bypassed cookies.
+2025-03-17 06:46:58 [main] INFO  verifyInvalidAddressPreventsCheckout - Navigating to product page: https://demo.nopcommerce.com/adobe-photoshop
+2025-03-17 06:47:01 [main] INFO  verifyInvalidAddressPreventsCheckout - Closing the browser for test: verifyInvalidAddressPreventsCheckout
+2025-03-17 06:47:01 [main] INFO  verifyInvalidAddressPreventsCheckout - Browser closed.
+2025-03-17 06:47:09 [main] INFO  verifyInvalidAddressPreventsCheckout - Starting test setup for: verifyInvalidAddressPreventsCheckout
+2025-03-17 06:47:37 [main] INFO  verifyInvalidAddressPreventsCheckout - Navigated to the site: https://demo.nopcommerce.com
+2025-03-17 06:47:37 [main] INFO  verifyInvalidAddressPreventsCheckout - Injected cookie: _ga
+2025-03-17 06:47:37 [main] INFO  verifyInvalidAddressPreventsCheckout - Injected cookie: cf_clearance
+2025-03-17 06:47:37 [main] INFO  verifyInvalidAddressPreventsCheckout - Injected cookie: .Nop.Antiforgery
+2025-03-17 06:47:37 [main] INFO  verifyInvalidAddressPreventsCheckout - Injected cookie: .Nop.Customer
+2025-03-17 06:47:37 [main] INFO  verifyInvalidAddressPreventsCheckout - Injected cookie: .Nop.Culture
+2025-03-17 06:47:37 [main] INFO  verifyInvalidAddressPreventsCheckout - Injected cookie: _ga_SCT41TW89V
+2025-03-17 06:47:39 [main] INFO  verifyInvalidAddressPreventsCheckout - Page refreshed with bypassed cookies.
+2025-03-17 06:47:39 [main] INFO  verifyInvalidAddressPreventsCheckout - Navigating to product page: https://demo.nopcommerce.com/adobe-photoshop
+2025-03-17 06:47:42 [main] INFO  verifyInvalidAddressPreventsCheckout - Clicked 'Add to Cart' button.
+2025-03-17 06:47:43 [main] INFO  verifyInvalidAddressPreventsCheckout - Product successfully added to cart.
+2025-03-17 06:47:43 [main] INFO  verifyInvalidAddressPreventsCheckout - Cart quantity updated to: 1
+2025-03-17 06:47:44 [main] INFO  verifyInvalidAddressPreventsCheckout - Cart page loaded successfully.
+2025-03-17 06:47:44 [main] INFO  verifyInvalidAddressPreventsCheckout - Accepted terms of service.
+2025-03-17 06:47:48 [main] INFO  verifyInvalidAddressPreventsCheckout - Selected 'Checkout as Guest' option.
+2025-03-17 06:47:49 [main] INFO  verifyInvalidAddressPreventsCheckout - Checkout page loaded successfully.
+2025-03-17 06:47:52 [main] INFO  verifyInvalidAddressPreventsCheckout - Validation alert found: City is required, Email is required., Street address is required, Country is required., Zip / postal code is required
+2025-03-17 06:47:52 [main] INFO  verifyInvalidAddressPreventsCheckout - Test passed: Validation alert appeared as expected.
+2025-03-17 06:47:52 [main] INFO  verifyInvalidAddressPreventsCheckout - Closing the browser for test: verifyInvalidAddressPreventsCheckout
+2025-03-17 06:47:52 [main] INFO  verifyInvalidAddressPreventsCheckout - Browser closed.

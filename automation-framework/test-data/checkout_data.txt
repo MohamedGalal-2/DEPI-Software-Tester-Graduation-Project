@@ -1,0 +1,18 @@
+First Name: Maegan 
+Last Name: Rolfson
+Email: 48dd6282b6@emaily.pro
+Country: USA
+State: Alaska
+City: Anchorage
+Address 1: PO Box 242941
+Zip/Postal: 99524
+Phone Number: 9072430988
+
+Credit Card Info:
+Brand: JCB
+
+Select credit card: Visa
+Cardholder Name: Maegan Rolfson
+Card number: 3595972973139459
+Expiration date: 2029/10
+Card code: 469

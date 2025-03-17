@@ -1,0 +1,22 @@
+2025-03-17 07:12:26 [main] INFO  verifyOrderIsGenerated - Starting test setup for: verifyOrderIsGenerated
+2025-03-17 07:12:51 [main] INFO  verifyOrderIsGenerated - Navigated to the site: https://demo.nopcommerce.com
+2025-03-17 07:12:51 [main] INFO  verifyOrderIsGenerated - Injected cookie: _ga
+2025-03-17 07:12:51 [main] INFO  verifyOrderIsGenerated - Injected cookie: cf_clearance
+2025-03-17 07:12:51 [main] INFO  verifyOrderIsGenerated - Injected cookie: .Nop.Antiforgery
+2025-03-17 07:12:51 [main] INFO  verifyOrderIsGenerated - Injected cookie: .Nop.Customer
+2025-03-17 07:12:51 [main] INFO  verifyOrderIsGenerated - Injected cookie: .Nop.Culture
+2025-03-17 07:12:51 [main] INFO  verifyOrderIsGenerated - Injected cookie: _ga_SCT41TW89V
+2025-03-17 07:12:52 [main] INFO  verifyOrderIsGenerated - Page refreshed with bypassed cookies.
+2025-03-17 07:13:09 [main] INFO  verifyOrderIsGenerated - Closing the browser for test: verifyOrderIsGenerated
+2025-03-17 07:13:09 [main] INFO  verifyOrderIsGenerated - Browser closed.
+2025-03-17 07:14:39 [main] INFO  verifyOrderIsGenerated - Starting test setup for: verifyOrderIsGenerated
+2025-03-17 07:15:05 [main] INFO  verifyOrderIsGenerated - Navigated to the site: https://demo.nopcommerce.com
+2025-03-17 07:15:05 [main] INFO  verifyOrderIsGenerated - Injected cookie: _ga
+2025-03-17 07:15:05 [main] INFO  verifyOrderIsGenerated - Injected cookie: cf_clearance
+2025-03-17 07:15:05 [main] INFO  verifyOrderIsGenerated - Injected cookie: .Nop.Antiforgery
+2025-03-17 07:15:05 [main] INFO  verifyOrderIsGenerated - Injected cookie: .Nop.Customer
+2025-03-17 07:15:05 [main] INFO  verifyOrderIsGenerated - Injected cookie: .Nop.Culture
+2025-03-17 07:15:05 [main] INFO  verifyOrderIsGenerated - Injected cookie: _ga_SCT41TW89V
+2025-03-17 07:15:06 [main] INFO  verifyOrderIsGenerated - Page refreshed with bypassed cookies.
+2025-03-17 07:15:23 [main] INFO  verifyOrderIsGenerated - Closing the browser for test: verifyOrderIsGenerated
+2025-03-17 07:15:23 [main] INFO  verifyOrderIsGenerated - Browser closed.

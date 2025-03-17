@@ -41,6 +41,7 @@ public class BaseTest {
 
         configureLogger(testName, logFilePath);
         logger = LogManager.getLogger(testName);
+        logger.info("\n================================================================================================================================ NEW TEST RUN ================================================================================================================================");
         logger.info("Starting test setup for: " + testName);
 
         try {

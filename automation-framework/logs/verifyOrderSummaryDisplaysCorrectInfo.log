@@ -1,0 +1,198 @@
+2025-03-17 07:30:24 [main] INFO  verifyOrderSummaryDisplaysCorrectInfo - Starting test setup for: verifyOrderSummaryDisplaysCorrectInfo
+2025-03-17 07:30:50 [main] INFO  verifyOrderSummaryDisplaysCorrectInfo - Navigated to the site: https://demo.nopcommerce.com
+2025-03-17 07:30:50 [main] INFO  verifyOrderSummaryDisplaysCorrectInfo - Injected cookie: _ga
+2025-03-17 07:30:50 [main] INFO  verifyOrderSummaryDisplaysCorrectInfo - Injected cookie: cf_clearance
+2025-03-17 07:30:50 [main] INFO  verifyOrderSummaryDisplaysCorrectInfo - Injected cookie: .Nop.Antiforgery
+2025-03-17 07:30:50 [main] INFO  verifyOrderSummaryDisplaysCorrectInfo - Injected cookie: .Nop.Customer
+2025-03-17 07:30:50 [main] INFO  verifyOrderSummaryDisplaysCorrectInfo - Injected cookie: .Nop.Culture
+2025-03-17 07:30:50 [main] INFO  verifyOrderSummaryDisplaysCorrectInfo - Injected cookie: _ga_SCT41TW89V
+2025-03-17 07:30:51 [main] INFO  verifyOrderSummaryDisplaysCorrectInfo - Page refreshed with bypassed cookies.
+2025-03-17 07:31:00 [main] INFO  verifyOrderSummaryDisplaysCorrectInfo - Closing the browser for test: verifyOrderSummaryDisplaysCorrectInfo
+2025-03-17 07:31:00 [main] INFO  verifyOrderSummaryDisplaysCorrectInfo - Browser closed.
+2025-03-17 07:34:48 [main] INFO  verifyOrderSummaryDisplaysCorrectInfo - Starting test setup for: verifyOrderSummaryDisplaysCorrectInfo
+2025-03-17 07:35:12 [main] INFO  verifyOrderSummaryDisplaysCorrectInfo - Navigated to the site: https://demo.nopcommerce.com
+2025-03-17 07:35:12 [main] INFO  verifyOrderSummaryDisplaysCorrectInfo - Injected cookie: _ga
+2025-03-17 07:35:12 [main] INFO  verifyOrderSummaryDisplaysCorrectInfo - Injected cookie: cf_clearance
+2025-03-17 07:35:12 [main] INFO  verifyOrderSummaryDisplaysCorrectInfo - Injected cookie: .Nop.Antiforgery
+2025-03-17 07:35:12 [main] INFO  verifyOrderSummaryDisplaysCorrectInfo - Injected cookie: .Nop.Customer
+2025-03-17 07:35:12 [main] INFO  verifyOrderSummaryDisplaysCorrectInfo - Injected cookie: .Nop.Culture
+2025-03-17 07:35:12 [main] INFO  verifyOrderSummaryDisplaysCorrectInfo - Injected cookie: _ga_SCT41TW89V
+2025-03-17 07:35:13 [main] INFO  verifyOrderSummaryDisplaysCorrectInfo - Page refreshed with bypassed cookies.
+2025-03-17 07:35:28 [main] INFO  verifyOrderSummaryDisplaysCorrectInfo - Closing the browser for test: verifyOrderSummaryDisplaysCorrectInfo
+2025-03-17 07:35:28 [main] INFO  verifyOrderSummaryDisplaysCorrectInfo - Browser closed.
+2025-03-17 07:35:55 [main] INFO  verifyOrderSummaryDisplaysCorrectInfo - Starting test setup for: verifyOrderSummaryDisplaysCorrectInfo
+2025-03-17 07:36:19 [main] INFO  verifyOrderSummaryDisplaysCorrectInfo - Navigated to the site: https://demo.nopcommerce.com
+2025-03-17 07:36:19 [main] INFO  verifyOrderSummaryDisplaysCorrectInfo - Injected cookie: _ga
+2025-03-17 07:36:19 [main] INFO  verifyOrderSummaryDisplaysCorrectInfo - Injected cookie: cf_clearance
+2025-03-17 07:36:19 [main] INFO  verifyOrderSummaryDisplaysCorrectInfo - Injected cookie: .Nop.Antiforgery
+2025-03-17 07:36:19 [main] INFO  verifyOrderSummaryDisplaysCorrectInfo - Injected cookie: .Nop.Customer
+2025-03-17 07:36:19 [main] INFO  verifyOrderSummaryDisplaysCorrectInfo - Injected cookie: .Nop.Culture
+2025-03-17 07:36:19 [main] INFO  verifyOrderSummaryDisplaysCorrectInfo - Injected cookie: _ga_SCT41TW89V
+2025-03-17 07:36:20 [main] INFO  verifyOrderSummaryDisplaysCorrectInfo - Page refreshed with bypassed cookies.
+2025-03-17 07:36:32 [main] INFO  verifyOrderSummaryDisplaysCorrectInfo - Closing the browser for test: verifyOrderSummaryDisplaysCorrectInfo
+2025-03-17 07:36:32 [main] INFO  verifyOrderSummaryDisplaysCorrectInfo - Browser closed.
+2025-03-17 07:37:23 [main] INFO  verifyOrderSummaryDisplaysCorrectInfo - Starting test setup for: verifyOrderSummaryDisplaysCorrectInfo
+2025-03-17 07:37:50 [main] INFO  verifyOrderSummaryDisplaysCorrectInfo - Navigated to the site: https://demo.nopcommerce.com
+2025-03-17 07:37:50 [main] INFO  verifyOrderSummaryDisplaysCorrectInfo - Injected cookie: _ga
+2025-03-17 07:37:50 [main] INFO  verifyOrderSummaryDisplaysCorrectInfo - Injected cookie: cf_clearance
+2025-03-17 07:37:50 [main] INFO  verifyOrderSummaryDisplaysCorrectInfo - Injected cookie: .Nop.Antiforgery
+2025-03-17 07:37:50 [main] INFO  verifyOrderSummaryDisplaysCorrectInfo - Injected cookie: .Nop.Customer
+2025-03-17 07:37:50 [main] INFO  verifyOrderSummaryDisplaysCorrectInfo - Injected cookie: .Nop.Culture
+2025-03-17 07:37:50 [main] INFO  verifyOrderSummaryDisplaysCorrectInfo - Injected cookie: _ga_SCT41TW89V
+2025-03-17 07:37:51 [main] INFO  verifyOrderSummaryDisplaysCorrectInfo - Page refreshed with bypassed cookies.
+2025-03-17 07:38:19 [main] INFO  verifyOrderSummaryDisplaysCorrectInfo - Closing the browser for test: verifyOrderSummaryDisplaysCorrectInfo
+2025-03-17 07:38:19 [main] INFO  verifyOrderSummaryDisplaysCorrectInfo - Browser closed.
+2025-03-17 07:38:37 [main] INFO  verifyOrderSummaryDisplaysCorrectInfo - Starting test setup for: verifyOrderSummaryDisplaysCorrectInfo
+2025-03-17 07:39:02 [main] INFO  verifyOrderSummaryDisplaysCorrectInfo - Navigated to the site: https://demo.nopcommerce.com
+2025-03-17 07:39:02 [main] INFO  verifyOrderSummaryDisplaysCorrectInfo - Injected cookie: _ga
+2025-03-17 07:39:02 [main] INFO  verifyOrderSummaryDisplaysCorrectInfo - Injected cookie: cf_clearance
+2025-03-17 07:39:02 [main] INFO  verifyOrderSummaryDisplaysCorrectInfo - Injected cookie: .Nop.Antiforgery
+2025-03-17 07:39:02 [main] INFO  verifyOrderSummaryDisplaysCorrectInfo - Injected cookie: .Nop.Customer
+2025-03-17 07:39:02 [main] INFO  verifyOrderSummaryDisplaysCorrectInfo - Injected cookie: .Nop.Culture
+2025-03-17 07:39:02 [main] INFO  verifyOrderSummaryDisplaysCorrectInfo - Injected cookie: _ga_SCT41TW89V
+2025-03-17 07:39:03 [main] INFO  verifyOrderSummaryDisplaysCorrectInfo - Page refreshed with bypassed cookies.
+2025-03-17 07:39:31 [main] INFO  verifyOrderSummaryDisplaysCorrectInfo - Closing the browser for test: verifyOrderSummaryDisplaysCorrectInfo
+2025-03-17 07:39:32 [main] INFO  verifyOrderSummaryDisplaysCorrectInfo - Browser closed.
+2025-03-17 07:40:15 [main] INFO  verifyOrderSummaryDisplaysCorrectInfo - Starting test setup for: verifyOrderSummaryDisplaysCorrectInfo
+2025-03-17 07:40:41 [main] INFO  verifyOrderSummaryDisplaysCorrectInfo - Navigated to the site: https://demo.nopcommerce.com
+2025-03-17 07:40:41 [main] INFO  verifyOrderSummaryDisplaysCorrectInfo - Injected cookie: _ga
+2025-03-17 07:40:41 [main] INFO  verifyOrderSummaryDisplaysCorrectInfo - Injected cookie: cf_clearance
+2025-03-17 07:40:41 [main] INFO  verifyOrderSummaryDisplaysCorrectInfo - Injected cookie: .Nop.Antiforgery
+2025-03-17 07:40:41 [main] INFO  verifyOrderSummaryDisplaysCorrectInfo - Injected cookie: .Nop.Customer
+2025-03-17 07:40:41 [main] INFO  verifyOrderSummaryDisplaysCorrectInfo - Injected cookie: .Nop.Culture
+2025-03-17 07:40:41 [main] INFO  verifyOrderSummaryDisplaysCorrectInfo - Injected cookie: _ga_SCT41TW89V
+2025-03-17 07:40:41 [main] INFO  verifyOrderSummaryDisplaysCorrectInfo - Page refreshed with bypassed cookies.
+2025-03-17 07:41:27 [main] INFO  verifyOrderSummaryDisplaysCorrectInfo - Closing the browser for test: verifyOrderSummaryDisplaysCorrectInfo
+2025-03-17 07:41:27 [main] INFO  verifyOrderSummaryDisplaysCorrectInfo - Browser closed.
+2025-03-17 07:47:19 [main] INFO  verifyOrderSummaryDisplaysCorrectInfo - Starting test setup for: verifyOrderSummaryDisplaysCorrectInfo
+2025-03-17 07:47:44 [main] INFO  verifyOrderSummaryDisplaysCorrectInfo - Navigated to the site: https://demo.nopcommerce.com
+2025-03-17 07:47:44 [main] INFO  verifyOrderSummaryDisplaysCorrectInfo - Injected cookie: _ga
+2025-03-17 07:47:44 [main] INFO  verifyOrderSummaryDisplaysCorrectInfo - Injected cookie: cf_clearance
+2025-03-17 07:47:44 [main] INFO  verifyOrderSummaryDisplaysCorrectInfo - Injected cookie: .Nop.Antiforgery
+2025-03-17 07:47:44 [main] INFO  verifyOrderSummaryDisplaysCorrectInfo - Injected cookie: .Nop.Customer
+2025-03-17 07:47:44 [main] INFO  verifyOrderSummaryDisplaysCorrectInfo - Injected cookie: .Nop.Culture
+2025-03-17 07:47:44 [main] INFO  verifyOrderSummaryDisplaysCorrectInfo - Injected cookie: _ga_SCT41TW89V
+2025-03-17 07:47:44 [main] INFO  verifyOrderSummaryDisplaysCorrectInfo - Page refreshed with bypassed cookies.
+2025-03-17 07:48:00 [main] INFO  verifyOrderSummaryDisplaysCorrectInfo - Closing the browser for test: verifyOrderSummaryDisplaysCorrectInfo
+2025-03-17 07:48:00 [main] INFO  verifyOrderSummaryDisplaysCorrectInfo - Browser closed.
+2025-03-17 07:54:11 [main] INFO  verifyOrderSummaryDisplaysCorrectInfo - Starting test setup for: verifyOrderSummaryDisplaysCorrectInfo
+2025-03-17 07:54:35 [main] INFO  verifyOrderSummaryDisplaysCorrectInfo - Navigated to the site: https://demo.nopcommerce.com
+2025-03-17 07:54:35 [main] INFO  verifyOrderSummaryDisplaysCorrectInfo - Injected cookie: _ga
+2025-03-17 07:54:35 [main] INFO  verifyOrderSummaryDisplaysCorrectInfo - Injected cookie: cf_clearance
+2025-03-17 07:54:35 [main] INFO  verifyOrderSummaryDisplaysCorrectInfo - Injected cookie: .Nop.Antiforgery
+2025-03-17 07:54:35 [main] INFO  verifyOrderSummaryDisplaysCorrectInfo - Injected cookie: .Nop.Customer
+2025-03-17 07:54:35 [main] INFO  verifyOrderSummaryDisplaysCorrectInfo - Injected cookie: .Nop.Culture
+2025-03-17 07:54:35 [main] INFO  verifyOrderSummaryDisplaysCorrectInfo - Injected cookie: _ga_SCT41TW89V
+2025-03-17 07:54:36 [main] INFO  verifyOrderSummaryDisplaysCorrectInfo - Page refreshed with bypassed cookies.
+2025-03-17 07:54:47 [main] INFO  verifyOrderSummaryDisplaysCorrectInfo - Closing the browser for test: verifyOrderSummaryDisplaysCorrectInfo
+2025-03-17 07:54:47 [main] INFO  verifyOrderSummaryDisplaysCorrectInfo - Browser closed.
+2025-03-17 07:57:10 [main] INFO  verifyOrderSummaryDisplaysCorrectInfo - Starting test setup for: verifyOrderSummaryDisplaysCorrectInfo
+2025-03-17 07:57:34 [main] INFO  verifyOrderSummaryDisplaysCorrectInfo - Navigated to the site: https://demo.nopcommerce.com
+2025-03-17 07:57:34 [main] INFO  verifyOrderSummaryDisplaysCorrectInfo - Injected cookie: _ga
+2025-03-17 07:57:34 [main] INFO  verifyOrderSummaryDisplaysCorrectInfo - Injected cookie: cf_clearance
+2025-03-17 07:57:34 [main] INFO  verifyOrderSummaryDisplaysCorrectInfo - Injected cookie: .Nop.Antiforgery
+2025-03-17 07:57:34 [main] INFO  verifyOrderSummaryDisplaysCorrectInfo - Injected cookie: .Nop.Customer
+2025-03-17 07:57:34 [main] INFO  verifyOrderSummaryDisplaysCorrectInfo - Injected cookie: .Nop.Culture
+2025-03-17 07:57:34 [main] INFO  verifyOrderSummaryDisplaysCorrectInfo - Injected cookie: _ga_SCT41TW89V
+2025-03-17 07:57:35 [main] INFO  verifyOrderSummaryDisplaysCorrectInfo - Page refreshed with bypassed cookies.
+2025-03-17 07:57:52 [main] INFO  verifyOrderSummaryDisplaysCorrectInfo - Closing the browser for test: verifyOrderSummaryDisplaysCorrectInfo
+2025-03-17 07:57:52 [main] INFO  verifyOrderSummaryDisplaysCorrectInfo - Browser closed.
+2025-03-17 08:00:46 [main] INFO  verifyOrderSummaryDisplaysCorrectInfo - Starting test setup for: verifyOrderSummaryDisplaysCorrectInfo
+2025-03-17 08:01:11 [main] INFO  verifyOrderSummaryDisplaysCorrectInfo - Navigated to the site: https://demo.nopcommerce.com
+2025-03-17 08:01:11 [main] INFO  verifyOrderSummaryDisplaysCorrectInfo - Injected cookie: _ga
+2025-03-17 08:01:11 [main] INFO  verifyOrderSummaryDisplaysCorrectInfo - Injected cookie: cf_clearance
+2025-03-17 08:01:11 [main] INFO  verifyOrderSummaryDisplaysCorrectInfo - Injected cookie: .Nop.Antiforgery
+2025-03-17 08:01:11 [main] INFO  verifyOrderSummaryDisplaysCorrectInfo - Injected cookie: .Nop.Customer
+2025-03-17 08:01:11 [main] INFO  verifyOrderSummaryDisplaysCorrectInfo - Injected cookie: .Nop.Culture
+2025-03-17 08:01:11 [main] INFO  verifyOrderSummaryDisplaysCorrectInfo - Injected cookie: _ga_SCT41TW89V
+2025-03-17 08:01:12 [main] INFO  verifyOrderSummaryDisplaysCorrectInfo - Page refreshed with bypassed cookies.
+2025-03-17 08:01:27 [main] INFO  verifyOrderSummaryDisplaysCorrectInfo - Closing the browser for test: verifyOrderSummaryDisplaysCorrectInfo
+2025-03-17 08:01:27 [main] INFO  verifyOrderSummaryDisplaysCorrectInfo - Browser closed.
+2025-03-17 08:01:55 [main] INFO  verifyOrderSummaryDisplaysCorrectInfo - Starting test setup for: verifyOrderSummaryDisplaysCorrectInfo
+2025-03-17 08:02:23 [main] INFO  verifyOrderSummaryDisplaysCorrectInfo - Starting test setup for: verifyOrderSummaryDisplaysCorrectInfo
+2025-03-17 08:02:47 [main] INFO  verifyOrderSummaryDisplaysCorrectInfo - Navigated to the site: https://demo.nopcommerce.com
+2025-03-17 08:02:47 [main] INFO  verifyOrderSummaryDisplaysCorrectInfo - Injected cookie: _ga
+2025-03-17 08:02:47 [main] INFO  verifyOrderSummaryDisplaysCorrectInfo - Injected cookie: cf_clearance
+2025-03-17 08:02:47 [main] INFO  verifyOrderSummaryDisplaysCorrectInfo - Injected cookie: .Nop.Antiforgery
+2025-03-17 08:02:47 [main] INFO  verifyOrderSummaryDisplaysCorrectInfo - Injected cookie: .Nop.Customer
+2025-03-17 08:02:47 [main] INFO  verifyOrderSummaryDisplaysCorrectInfo - Injected cookie: .Nop.Culture
+2025-03-17 08:02:47 [main] INFO  verifyOrderSummaryDisplaysCorrectInfo - Injected cookie: _ga_SCT41TW89V
+2025-03-17 08:02:48 [main] INFO  verifyOrderSummaryDisplaysCorrectInfo - Page refreshed with bypassed cookies.
+2025-03-17 08:03:14 [main] INFO  verifyOrderSummaryDisplaysCorrectInfo - Closing the browser for test: verifyOrderSummaryDisplaysCorrectInfo
+2025-03-17 08:03:14 [main] INFO  verifyOrderSummaryDisplaysCorrectInfo - Browser closed.
+2025-03-17 08:03:59 [main] INFO  verifyOrderSummaryDisplaysCorrectInfo - Starting test setup for: verifyOrderSummaryDisplaysCorrectInfo
+2025-03-17 08:04:23 [main] INFO  verifyOrderSummaryDisplaysCorrectInfo - Navigated to the site: https://demo.nopcommerce.com
+2025-03-17 08:04:23 [main] INFO  verifyOrderSummaryDisplaysCorrectInfo - Injected cookie: _ga
+2025-03-17 08:04:23 [main] INFO  verifyOrderSummaryDisplaysCorrectInfo - Injected cookie: cf_clearance
+2025-03-17 08:04:23 [main] INFO  verifyOrderSummaryDisplaysCorrectInfo - Injected cookie: .Nop.Antiforgery
+2025-03-17 08:04:23 [main] INFO  verifyOrderSummaryDisplaysCorrectInfo - Injected cookie: .Nop.Customer
+2025-03-17 08:04:23 [main] INFO  verifyOrderSummaryDisplaysCorrectInfo - Injected cookie: .Nop.Culture
+2025-03-17 08:04:23 [main] INFO  verifyOrderSummaryDisplaysCorrectInfo - Injected cookie: _ga_SCT41TW89V
+2025-03-17 08:04:24 [main] INFO  verifyOrderSummaryDisplaysCorrectInfo - Page refreshed with bypassed cookies.
+2025-03-17 08:04:34 [main] INFO  verifyOrderSummaryDisplaysCorrectInfo - Closing the browser for test: verifyOrderSummaryDisplaysCorrectInfo
+2025-03-17 08:04:34 [main] INFO  verifyOrderSummaryDisplaysCorrectInfo - Browser closed.
+2025-03-17 08:06:22 [main] INFO  verifyOrderSummaryDisplaysCorrectInfo - Starting test setup for: verifyOrderSummaryDisplaysCorrectInfo
+2025-03-17 08:06:49 [main] INFO  verifyOrderSummaryDisplaysCorrectInfo - Navigated to the site: https://demo.nopcommerce.com
+2025-03-17 08:06:49 [main] INFO  verifyOrderSummaryDisplaysCorrectInfo - Injected cookie: _ga
+2025-03-17 08:06:49 [main] INFO  verifyOrderSummaryDisplaysCorrectInfo - Injected cookie: cf_clearance
+2025-03-17 08:06:49 [main] INFO  verifyOrderSummaryDisplaysCorrectInfo - Injected cookie: .Nop.Antiforgery
+2025-03-17 08:06:49 [main] INFO  verifyOrderSummaryDisplaysCorrectInfo - Injected cookie: .Nop.Customer
+2025-03-17 08:06:49 [main] INFO  verifyOrderSummaryDisplaysCorrectInfo - Injected cookie: .Nop.Culture
+2025-03-17 08:06:49 [main] INFO  verifyOrderSummaryDisplaysCorrectInfo - Injected cookie: _ga_SCT41TW89V
+2025-03-17 08:06:50 [main] INFO  verifyOrderSummaryDisplaysCorrectInfo - Page refreshed with bypassed cookies.
+2025-03-17 08:07:28 [main] INFO  verifyOrderSummaryDisplaysCorrectInfo - Closing the browser for test: verifyOrderSummaryDisplaysCorrectInfo
+2025-03-17 08:07:28 [main] INFO  verifyOrderSummaryDisplaysCorrectInfo - Browser closed.
+2025-03-17 08:08:30 [main] INFO  verifyOrderSummaryDisplaysCorrectInfo - Starting test setup for: verifyOrderSummaryDisplaysCorrectInfo
+2025-03-17 08:08:55 [main] INFO  verifyOrderSummaryDisplaysCorrectInfo - Navigated to the site: https://demo.nopcommerce.com
+2025-03-17 08:08:55 [main] INFO  verifyOrderSummaryDisplaysCorrectInfo - Injected cookie: _ga
+2025-03-17 08:08:55 [main] INFO  verifyOrderSummaryDisplaysCorrectInfo - Injected cookie: cf_clearance
+2025-03-17 08:08:55 [main] INFO  verifyOrderSummaryDisplaysCorrectInfo - Injected cookie: .Nop.Antiforgery
+2025-03-17 08:08:55 [main] INFO  verifyOrderSummaryDisplaysCorrectInfo - Injected cookie: .Nop.Customer
+2025-03-17 08:08:55 [main] INFO  verifyOrderSummaryDisplaysCorrectInfo - Injected cookie: .Nop.Culture
+2025-03-17 08:08:55 [main] INFO  verifyOrderSummaryDisplaysCorrectInfo - Injected cookie: _ga_SCT41TW89V
+2025-03-17 08:08:56 [main] INFO  verifyOrderSummaryDisplaysCorrectInfo - Page refreshed with bypassed cookies.
+2025-03-17 08:09:23 [main] INFO  verifyOrderSummaryDisplaysCorrectInfo - Closing the browser for test: verifyOrderSummaryDisplaysCorrectInfo
+2025-03-17 08:09:23 [main] INFO  verifyOrderSummaryDisplaysCorrectInfo - Browser closed.
+2025-03-17 08:15:58 [main] INFO  verifyOrderSummaryDisplaysCorrectInfo - Starting test setup for: verifyOrderSummaryDisplaysCorrectInfo
+2025-03-17 08:16:23 [main] INFO  verifyOrderSummaryDisplaysCorrectInfo - Navigated to the site: https://demo.nopcommerce.com
+2025-03-17 08:16:23 [main] INFO  verifyOrderSummaryDisplaysCorrectInfo - Injected cookie: _ga
+2025-03-17 08:16:23 [main] INFO  verifyOrderSummaryDisplaysCorrectInfo - Injected cookie: cf_clearance
+2025-03-17 08:16:23 [main] INFO  verifyOrderSummaryDisplaysCorrectInfo - Injected cookie: .Nop.Antiforgery
+2025-03-17 08:16:23 [main] INFO  verifyOrderSummaryDisplaysCorrectInfo - Injected cookie: .Nop.Customer
+2025-03-17 08:16:23 [main] INFO  verifyOrderSummaryDisplaysCorrectInfo - Injected cookie: .Nop.Culture
+2025-03-17 08:16:23 [main] INFO  verifyOrderSummaryDisplaysCorrectInfo - Injected cookie: _ga_SCT41TW89V
+2025-03-17 08:16:24 [main] INFO  verifyOrderSummaryDisplaysCorrectInfo - Page refreshed with bypassed cookies.
+2025-03-17 08:16:52 [main] INFO  verifyOrderSummaryDisplaysCorrectInfo - Closing the browser for test: verifyOrderSummaryDisplaysCorrectInfo
+2025-03-17 08:16:52 [main] INFO  verifyOrderSummaryDisplaysCorrectInfo - Browser closed.
+2025-03-17 08:20:04 [main] INFO  verifyOrderSummaryDisplaysCorrectInfo - Starting test setup for: verifyOrderSummaryDisplaysCorrectInfo
+2025-03-17 08:20:29 [main] INFO  verifyOrderSummaryDisplaysCorrectInfo - Navigated to the site: https://demo.nopcommerce.com
+2025-03-17 08:20:29 [main] INFO  verifyOrderSummaryDisplaysCorrectInfo - Injected cookie: _ga
+2025-03-17 08:20:29 [main] INFO  verifyOrderSummaryDisplaysCorrectInfo - Injected cookie: cf_clearance
+2025-03-17 08:20:29 [main] INFO  verifyOrderSummaryDisplaysCorrectInfo - Injected cookie: .Nop.Antiforgery
+2025-03-17 08:20:29 [main] INFO  verifyOrderSummaryDisplaysCorrectInfo - Injected cookie: .Nop.Customer
+2025-03-17 08:20:29 [main] INFO  verifyOrderSummaryDisplaysCorrectInfo - Injected cookie: .Nop.Culture
+2025-03-17 08:20:29 [main] INFO  verifyOrderSummaryDisplaysCorrectInfo - Injected cookie: _ga_SCT41TW89V
+2025-03-17 08:20:30 [main] INFO  verifyOrderSummaryDisplaysCorrectInfo - Page refreshed with bypassed cookies.
+2025-03-17 08:20:30 [main] INFO  verifyOrderSummaryDisplaysCorrectInfo - Navigating to login page: https://demo.nopcommerce.com/login
+2025-03-17 08:20:34 [main] INFO  verifyOrderSummaryDisplaysCorrectInfo - User logged in successfully.
+2025-03-17 08:20:34 [main] INFO  verifyOrderSummaryDisplaysCorrectInfo - Navigating to cart page to check if it's empty: https://demo.nopcommerce.com/cart
+2025-03-17 08:20:41 [main] INFO  verifyOrderSummaryDisplaysCorrectInfo - Cart is not empty. Removing all items...
+2025-03-17 08:20:43 [main] INFO  verifyOrderSummaryDisplaysCorrectInfo - Cart is now empty.
+2025-03-17 08:20:43 [main] INFO  verifyOrderSummaryDisplaysCorrectInfo - Navigating to product page: https://demo.nopcommerce.com/apple-iphone-16-128gb
+2025-03-17 08:20:45 [main] INFO  verifyOrderSummaryDisplaysCorrectInfo - Clicked 'Add to Cart' button.
+2025-03-17 08:20:46 [main] INFO  verifyOrderSummaryDisplaysCorrectInfo - Product successfully added to cart.
+2025-03-17 08:20:46 [main] INFO  verifyOrderSummaryDisplaysCorrectInfo - Navigating to cart page: https://demo.nopcommerce.com/cart
+2025-03-17 08:20:47 [main] INFO  verifyOrderSummaryDisplaysCorrectInfo - Cart page loaded successfully.
+2025-03-17 08:20:47 [main] INFO  verifyOrderSummaryDisplaysCorrectInfo - Accepted terms of service.
+2025-03-17 08:20:52 [main] INFO  verifyOrderSummaryDisplaysCorrectInfo - Shipping method selected.
+2025-03-17 08:20:53 [main] INFO  verifyOrderSummaryDisplaysCorrectInfo - Payment method selected.
+2025-03-17 08:20:54 [main] INFO  verifyOrderSummaryDisplaysCorrectInfo - Payment details entered successfully.
+2025-03-17 08:20:55 [main] INFO  verifyOrderSummaryDisplaysCorrectInfo - Order summary section is displayed.
+2025-03-17 08:20:55 [main] INFO  verifyOrderSummaryDisplaysCorrectInfo - Product name matches in order summary: Apple iPhone 16 128GB
+2025-03-17 08:20:55 [main] INFO  verifyOrderSummaryDisplaysCorrectInfo - Product price matches in order summary: $799.00
+2025-03-17 08:20:55 [main] INFO  verifyOrderSummaryDisplaysCorrectInfo - Product quantity matches in order summary: 1
+2025-03-17 08:20:55 [main] INFO  verifyOrderSummaryDisplaysCorrectInfo - Order subtotal matches in order summary: $799.00
+2025-03-17 08:20:55 [main] INFO  verifyOrderSummaryDisplaysCorrectInfo - Shipping cost matches in order summary: $0.00
+2025-03-17 08:20:55 [main] INFO  verifyOrderSummaryDisplaysCorrectInfo - Order total matches in order summary: $799.00
+2025-03-17 08:20:55 [main] INFO  verifyOrderSummaryDisplaysCorrectInfo - Closing the browser for test: verifyOrderSummaryDisplaysCorrectInfo
+2025-03-17 08:20:55 [main] INFO  verifyOrderSummaryDisplaysCorrectInfo - Browser closed.
