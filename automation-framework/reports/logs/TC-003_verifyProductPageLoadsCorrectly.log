@@ -1,0 +1,36 @@
+2025-03-18 03:47:20 [main] INFO  TC-003_verifyProductPageLoadsCorrectly - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-03-18 03:47:20 [main] INFO  TC-003_verifyProductPageLoadsCorrectly - Logger initialized and writing to: E:/Folder/Galal/Courses/Digital Egypt Pioneers Initiative (DEPI) - Software Testing/DEPI Software Tester Graduation Project/automation-framework/reports/logs/TC-003_verifyProductPageLoadsCorrectly.log
+2025-03-18 03:47:20 [main] INFO  TC-003_verifyProductPageLoadsCorrectly - Starting test setup for: verifyProductPageLoadsCorrectly (🔢 Test Case ID: TC-003)
+2025-03-18 03:47:38 [main] INFO  TC-003_verifyProductPageLoadsCorrectly - Navigated to the site: https://demo.nopcommerce.com
+2025-03-18 03:47:38 [main] INFO  TC-003_verifyProductPageLoadsCorrectly - Injected cookie: _ga
+2025-03-18 03:47:38 [main] INFO  TC-003_verifyProductPageLoadsCorrectly - Injected cookie: cf_clearance
+2025-03-18 03:47:38 [main] INFO  TC-003_verifyProductPageLoadsCorrectly - Injected cookie: .Nop.Antiforgery
+2025-03-18 03:47:38 [main] INFO  TC-003_verifyProductPageLoadsCorrectly - Injected cookie: .Nop.Customer
+2025-03-18 03:47:38 [main] INFO  TC-003_verifyProductPageLoadsCorrectly - Injected cookie: .Nop.Culture
+2025-03-18 03:47:38 [main] INFO  TC-003_verifyProductPageLoadsCorrectly - Injected cookie: _ga_SCT41TW89V
+2025-03-18 03:47:38 [main] INFO  TC-003_verifyProductPageLoadsCorrectly - Page refreshed with bypassed cookies.
+2025-03-18 03:47:38 [main] INFO  TC-003_verifyProductPageLoadsCorrectly - 🟢 Starting test: verifyProductPageLoadsCorrectly (🔢 Test Case ID: TC-003)
+2025-03-18 03:47:38 [main] INFO  TC-003_verifyProductPageLoadsCorrectly - Navigating to: https://demo.nopcommerce.com/
+2025-03-18 03:47:40 [main] INFO  TC-003_verifyProductPageLoadsCorrectly - Product page loaded successfully.
+2025-03-18 03:47:40 [main] INFO  listeners.TestListener - ✅ Test PASSED: verifyProductPageLoadsCorrectly (Duration: 1975ms)
+2025-03-18 03:47:40 [main] INFO  TC-003_verifyProductPageLoadsCorrectly - Closing the browser for test: verifyProductPageLoadsCorrectly
+2025-03-18 03:47:40 [main] INFO  TC-003_verifyProductPageLoadsCorrectly - Browser closed.
+2025-03-18 04:04:23 [main] INFO  TC-003_verifyProductPageLoadsCorrectly - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-03-18 04:04:23 [main] INFO  TC-003_verifyProductPageLoadsCorrectly - Logger initialized and writing to: E:/Folder/Galal/Courses/Digital Egypt Pioneers Initiative (DEPI) - Software Testing/DEPI Software Tester Graduation Project/automation-framework/reports/logs/TC-003_verifyProductPageLoadsCorrectly.log
+2025-03-18 04:04:23 [main] INFO  TC-003_verifyProductPageLoadsCorrectly - Starting test setup for: verifyProductPageLoadsCorrectly (🔢 Test Case ID: TC-003)
+2025-03-18 04:04:39 [main] INFO  TC-003_verifyProductPageLoadsCorrectly - Navigated to the site: https://demo.nopcommerce.com
+2025-03-18 04:04:39 [main] INFO  TC-003_verifyProductPageLoadsCorrectly - Injected cookie: _ga
+2025-03-18 04:04:39 [main] INFO  TC-003_verifyProductPageLoadsCorrectly - Injected cookie: cf_clearance
+2025-03-18 04:04:39 [main] INFO  TC-003_verifyProductPageLoadsCorrectly - Injected cookie: .Nop.Antiforgery
+2025-03-18 04:04:39 [main] INFO  TC-003_verifyProductPageLoadsCorrectly - Injected cookie: .Nop.Customer
+2025-03-18 04:04:39 [main] INFO  TC-003_verifyProductPageLoadsCorrectly - Injected cookie: .Nop.Culture
+2025-03-18 04:04:39 [main] INFO  TC-003_verifyProductPageLoadsCorrectly - Injected cookie: _ga_SCT41TW89V
+2025-03-18 04:04:40 [main] INFO  TC-003_verifyProductPageLoadsCorrectly - Page refreshed with bypassed cookies.
+2025-03-18 04:04:40 [main] INFO  TC-003_verifyProductPageLoadsCorrectly - 🟢 Starting test: verifyProductPageLoadsCorrectly (🔢 Test Case ID: TC-003)
+2025-03-18 04:04:40 [main] INFO  TC-003_verifyProductPageLoadsCorrectly - Navigating to: https://demo.nopcommerce.com/
+2025-03-18 04:04:42 [main] INFO  TC-003_verifyProductPageLoadsCorrectly - Product page loaded successfully.
+2025-03-18 04:04:42 [main] INFO  listeners.TestListener - ✅ Test PASSED: verifyProductPageLoadsCorrectly (Duration: 1712ms)
+2025-03-18 04:04:42 [main] INFO  TC-003_verifyProductPageLoadsCorrectly - Closing the browser for test: verifyProductPageLoadsCorrectly
+2025-03-18 04:04:42 [main] INFO  TC-003_verifyProductPageLoadsCorrectly - Browser closed.

@@ -1,0 +1,230 @@
+2025-03-15 23:32:34,315 [main] INFO  verifyProductPageLoadsCorrectly - Starting test setup for: verifyProductPageLoadsCorrectly
+2025-03-15 23:32:34,318 [main] INFO  verifyProductPageLoadsCorrectly - Setting up Chrome browser...
+2025-03-15 23:32:35,437 [main] INFO  verifyProductPageLoadsCorrectly - Browser setup complete with ZenRows proxy.
+2025-03-15 23:32:35,439 [main] INFO  verifyProductPageLoadsCorrectly - Navigating to: https://demo.nopcommerce.com/
+2025-03-15 23:32:37,867 [main] INFO  verifyProductPageLoadsCorrectly - Product page loaded successfully.
+2025-03-15 23:32:37,871 [main] INFO  verifyProductPageLoadsCorrectly - Closing the browser for test: verifyProductPageLoadsCorrectly
+2025-03-15 23:32:38,009 [main] INFO  verifyProductPageLoadsCorrectly - Browser closed.
+2025-03-15 23:32:39,022 [main] INFO  verifyProductVariationSelection - Starting test setup for: verifyProductVariationSelection
+2025-03-15 23:32:39,022 [main] INFO  verifyProductVariationSelection - Setting up Chrome browser...
+2025-03-15 23:32:39,712 [main] INFO  verifyProductVariationSelection - Browser setup complete with ZenRows proxy.
+2025-03-15 23:32:39,712 [main] INFO  verifyProductVariationSelection - Navigating to: https://demo.nopcommerce.com/
+2025-03-16 01:27:05,046 [main] INFO  verifyHeaderLinks - Starting test setup for: verifyHeaderLinks
+2025-03-16 01:27:05,050 [main] INFO  verifyHeaderLinks - Setting up Chrome browser...
+2025-03-16 01:27:06,202 [main] INFO  verifyHeaderLinks - Browser setup complete with ZenRows proxy.
+2025-03-16 01:27:06,204 [main] INFO  verifyHeaderLinks - Navigating to: https://demo.nopcommerce.com
+2025-03-16 01:27:23,654 [main] INFO  verifyHeaderLinks - Closing the browser for test: verifyHeaderLinks
+2025-03-16 01:27:23,659 [main] INFO  verifyHeaderLinks - Browser closed.
+2025-03-17 21:39:10,967 [main] INFO  TestListener - 🚀 Starting Test Suite: Surefire test
+2025-03-17 21:41:12,117 [main] INFO  TestListener - 🚀 Starting Test Suite: Surefire test
+2025-03-17 21:45:21,583 [main] INFO  TestListener - 🚀 Starting Test Suite: Surefire test
+2025-03-17 21:47:44,872 [main] INFO  TestListener - 🚀 Starting Test Suite: Surefire test
+2025-03-17 21:48:59,984 [main] INFO  TestListener - 🚀 Starting Test Suite: Surefire test
+2025-03-17 21:59:44,997 [main] INFO  TestListener - 🚀 Starting Test Suite: Surefire test
+2025-03-17 22:03:11,092 [main] INFO  TestListener - 🚀 Starting Test Suite: Surefire test
+2025-03-17 22:12:44,735 [main] INFO  TestListener - 🚀 Starting Test Suite: Surefire test
+2025-03-17 22:17:32,332 [main] INFO  TestListener - 🚀 Starting Test Suite: Surefire test
+2025-03-17 22:17:32,337 [main] INFO  TestListener - 
+🌍 Test Environment:
+🖥️ OS: Windows 11 10.0
+☕ Java Version: 23.0.1
+🌐 Browser: Unknown
+
+2025-03-17 22:23:59,739 [main] INFO  TestListener - 🚀 Starting Test Suite: Surefire test
+2025-03-17 22:23:59,743 [main] INFO  TestListener - 
+🌍 Test Environment:
+🖥️ OS: Windows 11 10.0
+☕ Java Version: 23.0.1
+🌐 Browser: Unknown
+
+2025-03-17 22:23:59,774 [main] INFO  TestListener - 🟢 Starting test: verifyHeaderLinks
+2025-03-17 22:23:59,785 [main] INFO  TestListener - 🟢 Starting test: verifyHomePageLoads
+2025-03-17 22:23:59,788 [main] INFO  TestListener - 🏁 Finished Test Suite: Surefire test
+2025-03-17 22:24:40,606 [main] INFO  TestListener - 🚀 Starting Test Suite: Surefire test
+2025-03-17 22:24:40,610 [main] INFO  TestListener - 
+🌍 Test Environment:
+🖥️ OS: Windows 11 10.0
+☕ Java Version: 23.0.1
+🌐 Browser: Unknown
+
+2025-03-17 22:24:40,645 [main] INFO  TestListener - 🟢 Starting test: verifyHeaderLinks
+2025-03-17 22:24:40,654 [main] INFO  TestListener - 🟢 Starting test: verifyHomePageLoads
+2025-03-17 22:24:40,657 [main] INFO  TestListener - 🏁 Finished Test Suite: Surefire test
+2025-03-17 22:27:11,900 [main] INFO  TestListener - 🚀 Starting Test Suite: Surefire test
+2025-03-17 22:27:11,904 [main] INFO  TestListener - 
+🌍 Test Environment:
+🖥️ OS: Windows 11 10.0
+☕ Java Version: 23.0.1
+🌐 Browser: Unknown
+
+2025-03-17 22:36:09,516 [main] INFO  TestListener - 🚀 Starting Test Suite: Surefire test
+2025-03-17 22:36:09,520 [main] INFO  TestListener - 
+🌍 Test Environment:
+🖥️ OS: Windows 11 10.0
+☕ Java Version: 23.0.1
+🌐 Browser: Chrome
+
+2025-03-17 22:42:04,946 [main] INFO  TestListener - 🚀 Starting Test Suite: Surefire test
+2025-03-17 22:54:22,416 [main] INFO  TestListener - 🚀 Starting Test Suite: Surefire test
+2025-03-17 23:01:59,217 [main] INFO  TestListener - 🚀 Starting Test Suite: Surefire test
+2025-03-17 23:06:10,276 [main] INFO  TestListener - 🚀 Starting Test Suite: Surefire test
+2025-03-17 23:08:25,584 [main] INFO  TestListener - 🚀 Starting Test Suite: Surefire test
+2025-03-17 23:30:21,918 [main] INFO  TestListener - 🚀 Starting Test Suite: Surefire test
+2025-03-17 23:31:13,159 [main] INFO  TestListener - 🚀 Starting Test Suite: Surefire test
+2025-03-17 23:38:12,072 [main] INFO  TestListener - 🚀 Starting Test Suite: Surefire test
+2025-03-18 00:15:00,953 [main] INFO  TestListener - 🚀 Starting Test Suite: Surefire test
+2025-03-18 00:19:39,692 [main] INFO  TestListener - 🚀 Starting Test Suite: Surefire test
+2025-03-18 00:25:39,961 [main] INFO  TestListener - 🚀 Starting Test Suite: Surefire test
+2025-03-18 00:27:00,928 [main] INFO  TestListener - 🚀 Starting Test Suite: Surefire test
+2025-03-18 00:34:06,390 [main] INFO  TestListener - 🚀 Starting Test Suite: Surefire test
+2025-03-18 00:38:39,415 [main] INFO  TestListener - 🚀 Starting Test Suite: Surefire test
+2025-03-18 00:41:55,460 [main] INFO  TestListener - 🚀 Starting Test Suite: Surefire test
+2025-03-18 00:43:56,582 [main] INFO  TestListener - 🚀 Starting Test Suite: Surefire test
+2025-03-18 01:16:04,330 [main] INFO  TestListener - 🚀 Starting Test Suite: Surefire test
+2025-03-18 01:16:04,369 [main] INFO  UnknownTC_verifyHeaderLinks - 🟢 Starting test: verifyHeaderLinks (Test Case ID: UnknownTC)
+2025-03-18 01:16:04,382 [main] INFO  UnknownTC_verifyHomePageLoads - 🟢 Starting test: verifyHomePageLoads (Test Case ID: UnknownTC)
+2025-03-18 01:16:04,387 [main] INFO  TestListener - 🏁 Finished Test Suite: Surefire test
+2025-03-18 01:18:24,737 [main] INFO  TestListener - 🚀 Starting Test Suite: Surefire test
+2025-03-18 01:23:17,208 [main] INFO  TestListener - 🚀 Starting Test Suite: Surefire test
+2025-03-18 01:33:06,983 [main] INFO  TestListener - 🚀 Starting Test Suite: Surefire test
+2025-03-18 01:39:16,005 [main] INFO  TestListener - 🚀 Starting Test Suite: Surefire test
+2025-03-18 01:43:35,651 [main] INFO  TestListener - 🚀 Starting Test Suite: Surefire test
+2025-03-18 02:05:19,682 [main] INFO  TestListener - 🚀 Starting Test Suite: Surefire test
+2025-03-18 02:15:13,303 [main] INFO  TestListener - 🚀 Starting Test Suite: Surefire test
+2025-03-18 02:15:13,337 [main] INFO  UnknownTC_verifyHeaderLinks - 🚀 Test Setup Started for: verifyHeaderLinks (🔢 Test Case ID: UnknownTC)
+2025-03-18 02:15:13,337 [main] INFO  UnknownTC_verifyHeaderLinks - 🔄 Initializing new WebDriver instance...
+2025-03-18 02:15:15,659 [main] INFO  UnknownTC_verifyHeaderLinks - ✅ WebDriver stored in context.
+2025-03-18 02:15:17,601 [main] INFO  UnknownTC_verifyHeaderLinks - 🌍 Navigated to: https://demo.nopcommerce.com
+2025-03-18 02:15:32,284 [main] ERROR UnknownTC_verifyHeaderLinks - ❌ Failed to inject cookies!
+org.openqa.selenium.NoSuchSessionException: invalid session id: session deleted as the browser has closed the connection
+from disconnected: not connected to DevTools
+  (Session info: chrome=134.0.6998.89)
+Build info: version: '4.29.0', revision: '5fc1ec94cb'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [347ba77b608a5661882cc54f48ad4ff8, addCookie {cookie=cf_clearance=..TF1T_nT8_S2m9k874qnF.CIjtDnnGBHACk2FFzywc-1742256921-1.2.1.1-ZjVBL8M3rRFWXEsxr4rOnoY9MBreDH2v4rWx7Kx0hoqu3dE7COIy4sHLm1EyKUa0Yl.TwHTHdw42je7BJV6y8je3E2YiDzYgJwnodcca4GpV74YOmqB8fk6z1BKAJkw_TyPnQRGwZGy6w7VykBe60OM8MyyXLXuGJiyB0aeTVkR6_EVKnoDGYKtkwxk9yliePEN5SbH0XxW4jQ3viK34wHGTyAr8n2hsz8da2oByJ6ip14MheCMh25nY9UBhCsMDUGBLZBzSUN1CE8eFV6rfS8nxMxAiMW4Z7PL5GV91alRJ_cMPmi0u5LPzdgFd_foakFuaFJ8oQbCDcMRJvJZ54omMDtKDMtgqF8YqWTy0ATY; path=/; domain=.nopcommerce.com;secure;}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.89, chrome: {chromedriverVersion: 134.0.6998.88 (7e3d5c978c6d..., userDataDir: C:\Users\MOHAME~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49680}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49680/devtoo..., se:cdpVersion: 134.0.6998.89, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 347ba77b608a5661882cc54f48ad4ff8
+	at jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62) ~[?:?]
+	at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501) ~[?:?]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:485) ~[?:?]
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167) ~[selenium-remote-driver-4.29.0.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138) ~[selenium-remote-driver-4.29.0.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50) ~[selenium-remote-driver-4.29.0.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215) ~[selenium-remote-driver-4.29.0.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216) ~[selenium-remote-driver-4.29.0.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174) ~[selenium-remote-driver-4.29.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545) ~[selenium-remote-driver-4.29.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions.addCookie(RemoteWebDriver.java:867) ~[selenium-remote-driver-4.29.0.jar:?]
+	at base.BaseTest.injectCookies(BaseTest.java:125) ~[test-classes/:?]
+	at base.BaseTest.setUp(BaseTest.java:74) ~[test-classes/:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:836) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:601) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) ~[testng-7.11.0.jar:7.11.0]
+	at java.util.ArrayList.forEach(ArrayList.java:1597) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:741) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestRunner.run(TestRunner.java:616) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuites(TestNG.java:1112) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.run(TestNG.java:1079) [testng-7.11.0.jar:7.11.0]
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155) [surefire-testng-3.5.2.jar:3.5.2]
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeSingleClass(TestNGDirectoryTestSuite.java:102) [surefire-testng-3.5.2.jar:3.5.2]
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:91) [surefire-testng-3.5.2.jar:3.5.2]
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137) [surefire-testng-3.5.2.jar:3.5.2]
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385) [surefire-booter-3.5.2.jar:3.5.2]
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162) [surefire-booter-3.5.2.jar:3.5.2]
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507) [surefire-booter-3.5.2.jar:3.5.2]
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495) [surefire-booter-3.5.2.jar:3.5.2]
+2025-03-18 02:15:32,338 [main] ERROR UnknownTC_verifyHeaderLinks - ❌ WebDriver setup failed!
+org.openqa.selenium.NoSuchSessionException: invalid session id
+Build info: version: '4.29.0', revision: '5fc1ec94cb'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [347ba77b608a5661882cc54f48ad4ff8, refresh {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.89, chrome: {chromedriverVersion: 134.0.6998.88 (7e3d5c978c6d..., userDataDir: C:\Users\MOHAME~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49680}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49680/devtoo..., se:cdpVersion: 134.0.6998.89, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 347ba77b608a5661882cc54f48ad4ff8
+	at jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62) ~[?:?]
+	at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501) ~[?:?]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:485) ~[?:?]
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167) ~[selenium-remote-driver-4.29.0.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138) ~[selenium-remote-driver-4.29.0.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50) ~[selenium-remote-driver-4.29.0.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215) ~[selenium-remote-driver-4.29.0.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216) ~[selenium-remote-driver-4.29.0.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174) ~[selenium-remote-driver-4.29.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545) ~[selenium-remote-driver-4.29.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:618) ~[selenium-remote-driver-4.29.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:622) ~[selenium-remote-driver-4.29.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteNavigation.refresh(RemoteWebDriver.java:1100) ~[selenium-remote-driver-4.29.0.jar:?]
+	at base.BaseTest.setUp(BaseTest.java:75) ~[test-classes/:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:836) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:601) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) ~[testng-7.11.0.jar:7.11.0]
+	at java.util.ArrayList.forEach(ArrayList.java:1597) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:741) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestRunner.run(TestRunner.java:616) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuites(TestNG.java:1112) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.run(TestNG.java:1079) [testng-7.11.0.jar:7.11.0]
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155) [surefire-testng-3.5.2.jar:3.5.2]
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeSingleClass(TestNGDirectoryTestSuite.java:102) [surefire-testng-3.5.2.jar:3.5.2]
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:91) [surefire-testng-3.5.2.jar:3.5.2]
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137) [surefire-testng-3.5.2.jar:3.5.2]
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385) [surefire-booter-3.5.2.jar:3.5.2]
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162) [surefire-booter-3.5.2.jar:3.5.2]
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507) [surefire-booter-3.5.2.jar:3.5.2]
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495) [surefire-booter-3.5.2.jar:3.5.2]
+2025-03-18 02:15:32,348 [main] INFO  UnknownTC_verifyHeaderLinks - 🟢 Starting test: verifyHeaderLinks (🔢 Test Case ID: UnknownTC)
+2025-03-18 02:15:32,360 [main] INFO  UnknownTC_verifyHomePageLoads - 🟢 Starting test: verifyHomePageLoads (🔢 Test Case ID: UnknownTC)
+2025-03-18 02:15:32,365 [main] INFO  TestListener - 🏁 Finished Test Suite: Surefire test
+2025-03-18 02:16:00,728 [main] INFO  TestListener - 🚀 Starting Test Suite: Surefire test
+2025-03-18 02:23:58,357 [main] INFO  TestListener - 🚀 Starting Test Suite: Surefire test
+2025-03-18 02:25:42,832 [main] INFO  TestListener - 🚀 Starting Test Suite: Surefire test
+2025-03-18 02:27:08,013 [main] INFO  TestListener - 🚀 Starting Test Suite: Surefire test
+2025-03-18 02:30:11,738 [main] INFO  TestListener - 🚀 Starting Test Suite: Surefire test
+2025-03-18 02:35:27,010 [main] INFO  TestListener - 🚀 Starting Test Suite: Surefire test
+2025-03-18 02:43:26,601 [main] INFO  TestListener - 🚀 Starting Test Suite: Surefire test
+2025-03-18 02:47:30,794 [main] INFO  TestListener - 🚀 Starting Test Suite: Surefire test
+2025-03-18 02:50:34,284 [main] INFO  TestListener - 🚀 Starting Test Suite: Surefire test
+2025-03-18 02:58:01,736 [main] INFO  TestListener - 🚀 Starting Test Suite: Surefire test
+2025-03-18 02:58:48,713 [main] INFO  TestListener - 🚀 Starting Test Suite: Surefire test
+2025-03-18 03:08:28,939 [main] INFO  TestListener - 🚀 Starting Test Suite: Surefire test
+2025-03-18 03:09:53,379 [main] INFO  TestListener - 🚀 Starting Test Suite: Surefire test
+2025-03-18 03:12:22,768 [main] INFO  TestListener - 🚀 Starting Test Suite: Surefire test
+2025-03-18 03:15:19,168 [main] INFO  TestListener - 🚀 Starting Test Suite: Surefire test

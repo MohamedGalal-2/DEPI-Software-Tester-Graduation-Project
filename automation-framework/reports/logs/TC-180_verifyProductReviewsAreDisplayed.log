@@ -1,0 +1,38 @@
+2025-03-18 03:47:40 [main] INFO  TC-180_verifyProductReviewsAreDisplayed - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-03-18 03:47:40 [main] INFO  TC-180_verifyProductReviewsAreDisplayed - Logger initialized and writing to: E:/Folder/Galal/Courses/Digital Egypt Pioneers Initiative (DEPI) - Software Testing/DEPI Software Tester Graduation Project/automation-framework/reports/logs/TC-180_verifyProductReviewsAreDisplayed.log
+2025-03-18 03:47:40 [main] INFO  TC-180_verifyProductReviewsAreDisplayed - Starting test setup for: verifyProductReviewsAreDisplayed (🔢 Test Case ID: TC-180)
+2025-03-18 03:47:58 [main] INFO  TC-180_verifyProductReviewsAreDisplayed - Navigated to the site: https://demo.nopcommerce.com
+2025-03-18 03:47:58 [main] INFO  TC-180_verifyProductReviewsAreDisplayed - Injected cookie: _ga
+2025-03-18 03:47:58 [main] INFO  TC-180_verifyProductReviewsAreDisplayed - Injected cookie: cf_clearance
+2025-03-18 03:47:58 [main] INFO  TC-180_verifyProductReviewsAreDisplayed - Injected cookie: .Nop.Antiforgery
+2025-03-18 03:47:58 [main] INFO  TC-180_verifyProductReviewsAreDisplayed - Injected cookie: .Nop.Customer
+2025-03-18 03:47:58 [main] INFO  TC-180_verifyProductReviewsAreDisplayed - Injected cookie: .Nop.Culture
+2025-03-18 03:47:58 [main] INFO  TC-180_verifyProductReviewsAreDisplayed - Injected cookie: _ga_SCT41TW89V
+2025-03-18 03:47:58 [main] INFO  TC-180_verifyProductReviewsAreDisplayed - Page refreshed with bypassed cookies.
+2025-03-18 03:47:58 [main] INFO  TC-180_verifyProductReviewsAreDisplayed - 🟢 Starting test: verifyProductReviewsAreDisplayed (🔢 Test Case ID: TC-180)
+2025-03-18 03:47:58 [main] INFO  TC-180_verifyProductReviewsAreDisplayed - Navigating to: https://demo.nopcommerce.com/
+2025-03-18 03:48:01 [main] INFO  TC-180_verifyProductReviewsAreDisplayed - Product page loaded successfully.
+2025-03-18 03:48:01 [main] INFO  TC-180_verifyProductReviewsAreDisplayed - Product reviews are displayed successfully.
+2025-03-18 03:48:01 [main] INFO  listeners.TestListener - ✅ Test PASSED: verifyProductReviewsAreDisplayed (Duration: 3157ms)
+2025-03-18 03:48:01 [main] INFO  TC-180_verifyProductReviewsAreDisplayed - Closing the browser for test: verifyProductReviewsAreDisplayed
+2025-03-18 03:48:01 [main] INFO  TC-180_verifyProductReviewsAreDisplayed - Browser closed.
+2025-03-18 04:04:42 [main] INFO  TC-180_verifyProductReviewsAreDisplayed - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-03-18 04:04:42 [main] INFO  TC-180_verifyProductReviewsAreDisplayed - Logger initialized and writing to: E:/Folder/Galal/Courses/Digital Egypt Pioneers Initiative (DEPI) - Software Testing/DEPI Software Tester Graduation Project/automation-framework/reports/logs/TC-180_verifyProductReviewsAreDisplayed.log
+2025-03-18 04:04:42 [main] INFO  TC-180_verifyProductReviewsAreDisplayed - Starting test setup for: verifyProductReviewsAreDisplayed (🔢 Test Case ID: TC-180)
+2025-03-18 04:04:58 [main] INFO  TC-180_verifyProductReviewsAreDisplayed - Navigated to the site: https://demo.nopcommerce.com
+2025-03-18 04:04:58 [main] INFO  TC-180_verifyProductReviewsAreDisplayed - Injected cookie: _ga
+2025-03-18 04:04:59 [main] INFO  TC-180_verifyProductReviewsAreDisplayed - Injected cookie: cf_clearance
+2025-03-18 04:04:59 [main] INFO  TC-180_verifyProductReviewsAreDisplayed - Injected cookie: .Nop.Antiforgery
+2025-03-18 04:04:59 [main] INFO  TC-180_verifyProductReviewsAreDisplayed - Injected cookie: .Nop.Customer
+2025-03-18 04:04:59 [main] INFO  TC-180_verifyProductReviewsAreDisplayed - Injected cookie: .Nop.Culture
+2025-03-18 04:04:59 [main] INFO  TC-180_verifyProductReviewsAreDisplayed - Injected cookie: _ga_SCT41TW89V
+2025-03-18 04:04:59 [main] INFO  TC-180_verifyProductReviewsAreDisplayed - Page refreshed with bypassed cookies.
+2025-03-18 04:04:59 [main] INFO  TC-180_verifyProductReviewsAreDisplayed - 🟢 Starting test: verifyProductReviewsAreDisplayed (🔢 Test Case ID: TC-180)
+2025-03-18 04:04:59 [main] INFO  TC-180_verifyProductReviewsAreDisplayed - Navigating to: https://demo.nopcommerce.com/
+2025-03-18 04:05:02 [main] INFO  TC-180_verifyProductReviewsAreDisplayed - Product page loaded successfully.
+2025-03-18 04:05:02 [main] INFO  TC-180_verifyProductReviewsAreDisplayed - Product reviews are displayed successfully.
+2025-03-18 04:05:02 [main] INFO  listeners.TestListener - ✅ Test PASSED: verifyProductReviewsAreDisplayed (Duration: 3246ms)
+2025-03-18 04:05:02 [main] INFO  TC-180_verifyProductReviewsAreDisplayed - Closing the browser for test: verifyProductReviewsAreDisplayed
+2025-03-18 04:05:03 [main] INFO  TC-180_verifyProductReviewsAreDisplayed - Browser closed.

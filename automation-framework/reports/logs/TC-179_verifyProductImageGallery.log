@@ -1,0 +1,36 @@
+2025-03-18 03:46:59 [main] INFO  TC-179_verifyProductImageGallery - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-03-18 03:46:59 [main] INFO  TC-179_verifyProductImageGallery - Logger initialized and writing to: E:/Folder/Galal/Courses/Digital Egypt Pioneers Initiative (DEPI) - Software Testing/DEPI Software Tester Graduation Project/automation-framework/reports/logs/TC-179_verifyProductImageGallery.log
+2025-03-18 03:46:59 [main] INFO  TC-179_verifyProductImageGallery - Starting test setup for: verifyProductImageGallery (🔢 Test Case ID: TC-179)
+2025-03-18 03:47:17 [main] INFO  TC-179_verifyProductImageGallery - Navigated to the site: https://demo.nopcommerce.com
+2025-03-18 03:47:17 [main] INFO  TC-179_verifyProductImageGallery - Injected cookie: _ga
+2025-03-18 03:47:17 [main] INFO  TC-179_verifyProductImageGallery - Injected cookie: cf_clearance
+2025-03-18 03:47:17 [main] INFO  TC-179_verifyProductImageGallery - Injected cookie: .Nop.Antiforgery
+2025-03-18 03:47:17 [main] INFO  TC-179_verifyProductImageGallery - Injected cookie: .Nop.Customer
+2025-03-18 03:47:17 [main] INFO  TC-179_verifyProductImageGallery - Injected cookie: .Nop.Culture
+2025-03-18 03:47:17 [main] INFO  TC-179_verifyProductImageGallery - Injected cookie: _ga_SCT41TW89V
+2025-03-18 03:47:17 [main] INFO  TC-179_verifyProductImageGallery - Page refreshed with bypassed cookies.
+2025-03-18 03:47:17 [main] INFO  TC-179_verifyProductImageGallery - 🟢 Starting test: verifyProductImageGallery (🔢 Test Case ID: TC-179)
+2025-03-18 03:47:17 [main] INFO  TC-179_verifyProductImageGallery - Navigating to: https://demo.nopcommerce.com/
+2025-03-18 03:47:20 [main] INFO  TC-179_verifyProductImageGallery - Product image gallery allows browsing images successfully.
+2025-03-18 03:47:20 [main] INFO  listeners.TestListener - ✅ Test PASSED: verifyProductImageGallery (Duration: 2943ms)
+2025-03-18 03:47:20 [main] INFO  TC-179_verifyProductImageGallery - Closing the browser for test: verifyProductImageGallery
+2025-03-18 03:47:20 [main] INFO  TC-179_verifyProductImageGallery - Browser closed.
+2025-03-18 04:04:01 [main] INFO  TC-179_verifyProductImageGallery - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-03-18 04:04:01 [main] INFO  TC-179_verifyProductImageGallery - Logger initialized and writing to: E:/Folder/Galal/Courses/Digital Egypt Pioneers Initiative (DEPI) - Software Testing/DEPI Software Tester Graduation Project/automation-framework/reports/logs/TC-179_verifyProductImageGallery.log
+2025-03-18 04:04:01 [main] INFO  TC-179_verifyProductImageGallery - Starting test setup for: verifyProductImageGallery (🔢 Test Case ID: TC-179)
+2025-03-18 04:04:19 [main] INFO  TC-179_verifyProductImageGallery - Navigated to the site: https://demo.nopcommerce.com
+2025-03-18 04:04:19 [main] INFO  TC-179_verifyProductImageGallery - Injected cookie: _ga
+2025-03-18 04:04:19 [main] INFO  TC-179_verifyProductImageGallery - Injected cookie: cf_clearance
+2025-03-18 04:04:19 [main] INFO  TC-179_verifyProductImageGallery - Injected cookie: .Nop.Antiforgery
+2025-03-18 04:04:19 [main] INFO  TC-179_verifyProductImageGallery - Injected cookie: .Nop.Customer
+2025-03-18 04:04:19 [main] INFO  TC-179_verifyProductImageGallery - Injected cookie: .Nop.Culture
+2025-03-18 04:04:19 [main] INFO  TC-179_verifyProductImageGallery - Injected cookie: _ga_SCT41TW89V
+2025-03-18 04:04:20 [main] INFO  TC-179_verifyProductImageGallery - Page refreshed with bypassed cookies.
+2025-03-18 04:04:20 [main] INFO  TC-179_verifyProductImageGallery - 🟢 Starting test: verifyProductImageGallery (🔢 Test Case ID: TC-179)
+2025-03-18 04:04:20 [main] INFO  TC-179_verifyProductImageGallery - Navigating to: https://demo.nopcommerce.com/
+2025-03-18 04:04:22 [main] INFO  TC-179_verifyProductImageGallery - Product image gallery allows browsing images successfully.
+2025-03-18 04:04:22 [main] INFO  listeners.TestListener - ✅ Test PASSED: verifyProductImageGallery (Duration: 2929ms)
+2025-03-18 04:04:22 [main] INFO  TC-179_verifyProductImageGallery - Closing the browser for test: verifyProductImageGallery
+2025-03-18 04:04:23 [main] INFO  TC-179_verifyProductImageGallery - Browser closed.

@@ -1,0 +1,746 @@
+2025-03-15 22:37:12 [main] INFO  verifyHomePageLoads - Starting test setup for: verifyHomePageLoads
+2025-03-15 22:37:12 [main] INFO  verifyHomePageLoads - Setting up Chrome browser...
+2025-03-15 22:37:13 [main] INFO  verifyHomePageLoads - Browser setup complete with ZenRows proxy.
+2025-03-15 22:37:13 [main] INFO  verifyHomePageLoads - Navigating to: https://demo.nopcommerce.com/
+2025-03-15 22:37:15 [main] INFO  verifyHomePageLoads - Actual Page Title: nopCommerce demo store. Home page title
+2025-03-15 22:37:15 [main] INFO  verifyHomePageLoads - Closing the browser for test: verifyHomePageLoads
+2025-03-15 22:37:15 [main] INFO  verifyHomePageLoads - Browser closed.
+2025-03-15 23:05:33 [main] INFO  verifyHomePageLoads - Starting test setup for: verifyHomePageLoads
+2025-03-15 23:05:33 [main] INFO  verifyHomePageLoads - Setting up Chrome browser...
+2025-03-15 23:05:35 [main] INFO  verifyHomePageLoads - Browser setup complete with ZenRows proxy.
+2025-03-15 23:05:35 [main] INFO  verifyHomePageLoads - Navigating to: https://demo.nopcommerce.com/
+2025-03-15 23:05:39 [main] INFO  verifyHomePageLoads - Actual Page Title: nopCommerce demo store. Home page title
+2025-03-15 23:05:39 [main] INFO  verifyHomePageLoads - Closing the browser for test: verifyHomePageLoads
+2025-03-15 23:05:39 [main] INFO  verifyHomePageLoads - Browser closed.
+2025-03-15 23:08:04 [main] INFO  verifyHomePageLoads - Starting test setup for: verifyHomePageLoads
+2025-03-15 23:08:04 [main] INFO  verifyHomePageLoads - Setting up Chrome browser...
+2025-03-15 23:08:05 [main] INFO  verifyHomePageLoads - Browser setup complete with ZenRows proxy.
+2025-03-15 23:08:05 [main] INFO  verifyHomePageLoads - Navigating to: https://demo.nopcommerce.com/
+2025-03-15 23:08:06 [main] INFO  verifyHomePageLoads - Actual Page Title: nopCommerce demo store. Home page title
+2025-03-15 23:08:06 [main] INFO  verifyHomePageLoads - Closing the browser for test: verifyHomePageLoads
+2025-03-15 23:08:06 [main] INFO  verifyHomePageLoads - Browser closed.
+2025-03-15 23:33:28 [main] INFO  verifyHomePageLoads - Starting test setup for: verifyHomePageLoads
+2025-03-15 23:33:28 [main] INFO  verifyHomePageLoads - Setting up Chrome browser...
+2025-03-15 23:33:29 [main] INFO  verifyHomePageLoads - Browser setup complete with ZenRows proxy.
+2025-03-15 23:33:29 [main] INFO  verifyHomePageLoads - Navigating to: https://demo.nopcommerce.com/
+2025-03-15 23:33:30 [main] INFO  verifyHomePageLoads - Actual Page Title: nopCommerce demo store. Home page title
+2025-03-15 23:33:30 [main] INFO  verifyHomePageLoads - Closing the browser for test: verifyHomePageLoads
+2025-03-15 23:33:30 [main] INFO  verifyHomePageLoads - Browser closed.
+2025-03-15 23:38:00 [main] INFO  verifyHomePageLoads - Starting test setup for: verifyHomePageLoads
+2025-03-15 23:38:00 [main] INFO  verifyHomePageLoads - Setting up Chrome browser...
+2025-03-15 23:38:02 [main] INFO  verifyHomePageLoads - Browser setup complete with ZenRows proxy.
+2025-03-15 23:38:02 [main] INFO  verifyHomePageLoads - Navigating to: https://demo.nopcommerce.com/
+2025-03-15 23:38:04 [main] INFO  verifyHomePageLoads - Actual Page Title: nopCommerce demo store. Home page title
+2025-03-15 23:38:04 [main] INFO  verifyHomePageLoads - Closing the browser for test: verifyHomePageLoads
+2025-03-15 23:38:04 [main] INFO  verifyHomePageLoads - Browser closed.
+2025-03-16 01:36:07 [main] INFO  verifyHomePageLoads - Starting test setup for: verifyHomePageLoads
+2025-03-16 01:36:07 [main] INFO  verifyHomePageLoads - Setting up Chrome browser...
+2025-03-16 01:36:08 [main] INFO  verifyHomePageLoads - Browser setup complete without proxy.
+2025-03-16 01:36:08 [main] INFO  verifyHomePageLoads - Navigating to: https://demo.nopcommerce.com/
+2025-03-16 01:36:13 [main] INFO  verifyHomePageLoads - Actual Page Title: nopCommerce demo store. Home page title
+2025-03-16 01:36:13 [main] INFO  verifyHomePageLoads - Closing the browser for test: verifyHomePageLoads
+2025-03-16 01:36:13 [main] INFO  verifyHomePageLoads - Browser closed.
+2025-03-16 06:35:21 [main] INFO  verifyHomePageLoads - Starting test setup for: verifyHomePageLoads
+2025-03-16 06:35:21 [main] INFO  verifyHomePageLoads - Setting up Chrome browser...
+2025-03-16 06:35:24 [main] INFO  verifyHomePageLoads - Successfully loaded the bypassed HTML into Selenium.
+2025-03-16 06:35:24 [main] INFO  verifyHomePageLoads - Navigating to: https://demo.nopcommerce.com/
+2025-03-16 06:35:26 [main] INFO  verifyHomePageLoads - Actual Page Title: nopCommerce demo store. Home page title
+2025-03-16 06:35:26 [main] INFO  verifyHomePageLoads - Closing the browser for test: verifyHomePageLoads
+2025-03-16 06:35:26 [main] INFO  verifyHomePageLoads - Browser closed.
+2025-03-16 06:41:30 [main] INFO  verifyHomePageLoads - Starting test setup for: verifyHomePageLoads
+2025-03-16 06:41:30 [main] ERROR verifyHomePageLoads - Failed to set up the browser
+java.lang.RuntimeException: Failed to retrieve bypassed HTML.
+	at base.BaseTest.setUp(BaseTest.java:52) ~[test-classes/:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:836) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:601) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) ~[testng-7.11.0.jar:7.11.0]
+	at java.util.ArrayList.forEach(ArrayList.java:1597) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:741) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestRunner.run(TestRunner.java:616) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuites(TestNG.java:1112) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.run(TestNG.java:1079) [testng-7.11.0.jar:7.11.0]
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65) [testng-rt.jar:?]
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105) [testng-rt.jar:?]
+2025-03-16 06:43:05 [main] INFO  verifyHomePageLoads - Starting test setup for: verifyHomePageLoads
+2025-03-16 06:43:05 [main] ERROR verifyHomePageLoads - Failed to set up the browser
+java.lang.RuntimeException: Failed to retrieve bypassed HTML.
+	at base.BaseTest.setUp(BaseTest.java:52) ~[test-classes/:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:836) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:601) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) ~[testng-7.11.0.jar:7.11.0]
+	at java.util.ArrayList.forEach(ArrayList.java:1597) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:741) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestRunner.run(TestRunner.java:616) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuites(TestNG.java:1112) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.run(TestNG.java:1079) [testng-7.11.0.jar:7.11.0]
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65) [testng-rt.jar:?]
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105) [testng-rt.jar:?]
+2025-03-16 06:44:17 [main] INFO  verifyHomePageLoads - Starting test setup for: verifyHomePageLoads
+2025-03-16 06:44:25 [main] ERROR verifyHomePageLoads - Failed to set up the browser
+java.lang.RuntimeException: Failed to retrieve bypassed HTML.
+	at base.BaseTest.setUp(BaseTest.java:52) ~[test-classes/:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:836) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:601) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) ~[testng-7.11.0.jar:7.11.0]
+	at java.util.ArrayList.forEach(ArrayList.java:1597) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:741) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestRunner.run(TestRunner.java:616) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuites(TestNG.java:1112) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.run(TestNG.java:1079) [testng-7.11.0.jar:7.11.0]
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65) [testng-rt.jar:?]
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105) [testng-rt.jar:?]
+2025-03-16 06:44:53 [main] INFO  verifyHomePageLoads - Starting test setup for: verifyHomePageLoads
+2025-03-16 06:44:58 [main] ERROR verifyHomePageLoads - Failed to set up the browser
+java.lang.RuntimeException: Failed to retrieve bypassed HTML.
+	at base.BaseTest.setUp(BaseTest.java:52) ~[test-classes/:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:836) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:601) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) ~[testng-7.11.0.jar:7.11.0]
+	at java.util.ArrayList.forEach(ArrayList.java:1597) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:741) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestRunner.run(TestRunner.java:616) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuites(TestNG.java:1112) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.run(TestNG.java:1079) [testng-7.11.0.jar:7.11.0]
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65) [testng-rt.jar:?]
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105) [testng-rt.jar:?]
+2025-03-16 06:48:26 [main] INFO  verifyHomePageLoads - Starting test setup for: verifyHomePageLoads
+2025-03-16 06:48:40 [main] ERROR verifyHomePageLoads - Failed to set up the browser
+java.lang.RuntimeException: Failed to retrieve bypassed HTML.
+	at base.BaseTest.setUp(BaseTest.java:52) ~[test-classes/:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:836) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:601) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) ~[testng-7.11.0.jar:7.11.0]
+	at java.util.ArrayList.forEach(ArrayList.java:1597) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:741) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestRunner.run(TestRunner.java:616) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuites(TestNG.java:1112) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.run(TestNG.java:1079) [testng-7.11.0.jar:7.11.0]
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65) [testng-rt.jar:?]
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105) [testng-rt.jar:?]
+2025-03-16 06:50:33 [main] INFO  verifyHomePageLoads - Starting test setup for: verifyHomePageLoads
+2025-03-16 06:50:40 [main] ERROR verifyHomePageLoads - Failed to set up the browser
+java.lang.RuntimeException: Failed to retrieve bypassed HTML.
+	at base.BaseTest.setUp(BaseTest.java:52) ~[test-classes/:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:836) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:601) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) ~[testng-7.11.0.jar:7.11.0]
+	at java.util.ArrayList.forEach(ArrayList.java:1597) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:741) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestRunner.run(TestRunner.java:616) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuites(TestNG.java:1112) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.run(TestNG.java:1079) [testng-7.11.0.jar:7.11.0]
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65) [testng-rt.jar:?]
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105) [testng-rt.jar:?]
+2025-03-16 06:52:09 [main] INFO  verifyHomePageLoads - Starting test setup for: verifyHomePageLoads
+2025-03-16 06:52:28 [main] INFO  verifyHomePageLoads - Navigated to the site: https://demo.nopcommerce.com
+2025-03-16 06:52:28 [main] INFO  verifyHomePageLoads - Injected cookie: cf_clearance
+2025-03-16 06:52:28 [main] INFO  verifyHomePageLoads - Injected cookie: _ga
+2025-03-16 06:52:28 [main] INFO  verifyHomePageLoads - Injected cookie: .Nop.Antiforgery
+2025-03-16 06:52:28 [main] INFO  verifyHomePageLoads - Injected cookie: .Nop.Customer
+2025-03-16 06:52:28 [main] INFO  verifyHomePageLoads - Injected cookie: .Nop.Culture
+2025-03-16 06:52:28 [main] INFO  verifyHomePageLoads - Injected cookie: _ga_SCT41TW89V
+2025-03-16 06:52:28 [main] INFO  verifyHomePageLoads - Page refreshed with bypassed cookies.
+2025-03-16 06:52:28 [main] INFO  verifyHomePageLoads - Navigating to: https://demo.nopcommerce.com/
+2025-03-16 06:52:29 [main] INFO  verifyHomePageLoads - Actual Page Title: nopCommerce demo store. Home page title
+2025-03-16 06:52:29 [main] INFO  verifyHomePageLoads - Closing the browser for test: verifyHomePageLoads
+2025-03-16 06:52:29 [main] INFO  verifyHomePageLoads - Browser closed.
+2025-03-16 06:55:47 [main] INFO  verifyHomePageLoads - Starting test setup for: verifyHomePageLoads
+2025-03-16 06:56:04 [main] INFO  verifyHomePageLoads - Navigated to the site: https://demo.nopcommerce.com
+2025-03-16 06:56:04 [main] INFO  verifyHomePageLoads - Injected cookie: cf_clearance
+2025-03-16 06:56:04 [main] INFO  verifyHomePageLoads - Injected cookie: _ga
+2025-03-16 06:56:04 [main] INFO  verifyHomePageLoads - Injected cookie: .Nop.Antiforgery
+2025-03-16 06:56:04 [main] INFO  verifyHomePageLoads - Injected cookie: .Nop.Customer
+2025-03-16 06:56:04 [main] INFO  verifyHomePageLoads - Injected cookie: .Nop.Culture
+2025-03-16 06:56:04 [main] INFO  verifyHomePageLoads - Injected cookie: _ga_SCT41TW89V
+2025-03-16 06:56:05 [main] INFO  verifyHomePageLoads - Page refreshed with bypassed cookies.
+2025-03-16 06:56:05 [main] INFO  verifyHomePageLoads - Navigating to: https://demo.nopcommerce.com/
+2025-03-16 06:56:06 [main] INFO  verifyHomePageLoads - Actual Page Title: nopCommerce demo store. Home page title
+2025-03-16 06:56:06 [main] INFO  verifyHomePageLoads - Closing the browser for test: verifyHomePageLoads
+2025-03-16 06:56:06 [main] INFO  verifyHomePageLoads - Browser closed.
+2025-03-16 06:59:06 [main] INFO  verifyHomePageLoads - Starting test setup for: verifyHomePageLoads
+2025-03-16 06:59:24 [main] INFO  verifyHomePageLoads - Navigated to the site: https://demo.nopcommerce.com
+2025-03-16 06:59:24 [main] INFO  verifyHomePageLoads - Injected cookie: cf_clearance
+2025-03-16 06:59:24 [main] INFO  verifyHomePageLoads - Injected cookie: _ga
+2025-03-16 06:59:24 [main] INFO  verifyHomePageLoads - Injected cookie: .Nop.Antiforgery
+2025-03-16 06:59:24 [main] INFO  verifyHomePageLoads - Injected cookie: .Nop.Customer
+2025-03-16 06:59:24 [main] INFO  verifyHomePageLoads - Injected cookie: .Nop.Culture
+2025-03-16 06:59:24 [main] INFO  verifyHomePageLoads - Injected cookie: _ga_SCT41TW89V
+2025-03-16 06:59:25 [main] INFO  verifyHomePageLoads - Page refreshed with bypassed cookies.
+2025-03-16 06:59:25 [main] INFO  verifyHomePageLoads - Navigating to: https://demo.nopcommerce.com/
+2025-03-16 06:59:28 [main] INFO  verifyHomePageLoads - Closing the browser for test: verifyHomePageLoads
+2025-03-16 06:59:28 [main] INFO  verifyHomePageLoads - Browser closed.
+2025-03-16 06:59:47 [main] INFO  verifyHomePageLoads - Starting test setup for: verifyHomePageLoads
+2025-03-16 07:00:04 [main] INFO  verifyHomePageLoads - Navigated to the site: https://demo.nopcommerce.com
+2025-03-16 07:00:04 [main] INFO  verifyHomePageLoads - Injected cookie: cf_clearance
+2025-03-16 07:00:04 [main] INFO  verifyHomePageLoads - Injected cookie: _ga
+2025-03-16 07:00:04 [main] INFO  verifyHomePageLoads - Injected cookie: .Nop.Antiforgery
+2025-03-16 07:00:04 [main] INFO  verifyHomePageLoads - Injected cookie: .Nop.Customer
+2025-03-16 07:00:04 [main] INFO  verifyHomePageLoads - Injected cookie: .Nop.Culture
+2025-03-16 07:00:04 [main] INFO  verifyHomePageLoads - Injected cookie: _ga_SCT41TW89V
+2025-03-16 07:00:05 [main] INFO  verifyHomePageLoads - Page refreshed with bypassed cookies.
+2025-03-16 07:00:05 [main] INFO  verifyHomePageLoads - Navigating to: https://demo.nopcommerce.com/
+2025-03-16 07:00:05 [main] INFO  verifyHomePageLoads - Actual Page Title: nopCommerce demo store. Home page title
+2025-03-16 07:00:06 [main] INFO  verifyHomePageLoads - Closing the browser for test: verifyHomePageLoads
+2025-03-16 07:00:06 [main] INFO  verifyHomePageLoads - Browser closed.
+2025-03-16 07:06:09 [main] INFO  verifyHomePageLoads - Starting test setup for: verifyHomePageLoads
+2025-03-16 07:06:27 [main] INFO  verifyHomePageLoads - Navigated to the site: https://demo.nopcommerce.com
+2025-03-16 07:06:27 [main] INFO  verifyHomePageLoads - Injected cookie: cf_clearance
+2025-03-16 07:06:27 [main] INFO  verifyHomePageLoads - Injected cookie: _ga
+2025-03-16 07:06:27 [main] INFO  verifyHomePageLoads - Injected cookie: .Nop.Antiforgery
+2025-03-16 07:06:27 [main] INFO  verifyHomePageLoads - Injected cookie: .Nop.Customer
+2025-03-16 07:06:27 [main] INFO  verifyHomePageLoads - Injected cookie: .Nop.Culture
+2025-03-16 07:06:27 [main] INFO  verifyHomePageLoads - Injected cookie: _ga_SCT41TW89V
+2025-03-16 07:06:28 [main] INFO  verifyHomePageLoads - Page refreshed with bypassed cookies.
+2025-03-16 07:06:28 [main] INFO  verifyHomePageLoads - Navigating to: https://demo.nopcommerce.com/
+2025-03-16 07:06:34 [main] INFO  verifyHomePageLoads - Closing the browser for test: verifyHomePageLoads
+2025-03-16 07:06:34 [main] INFO  verifyHomePageLoads - Browser closed.
+2025-03-16 07:07:42 [main] INFO  verifyHomePageLoads - Starting test setup for: verifyHomePageLoads
+2025-03-16 07:07:59 [main] INFO  verifyHomePageLoads - Navigated to the site: https://demo.nopcommerce.com
+2025-03-16 07:07:59 [main] INFO  verifyHomePageLoads - Injected cookie: cf_clearance
+2025-03-16 07:07:59 [main] INFO  verifyHomePageLoads - Injected cookie: _ga
+2025-03-16 07:07:59 [main] INFO  verifyHomePageLoads - Injected cookie: .Nop.Antiforgery
+2025-03-16 07:07:59 [main] INFO  verifyHomePageLoads - Injected cookie: .Nop.Customer
+2025-03-16 07:07:59 [main] INFO  verifyHomePageLoads - Injected cookie: .Nop.Culture
+2025-03-16 07:07:59 [main] INFO  verifyHomePageLoads - Injected cookie: _ga_SCT41TW89V
+2025-03-16 07:08:00 [main] INFO  verifyHomePageLoads - Page refreshed with bypassed cookies.
+2025-03-16 07:08:00 [main] INFO  verifyHomePageLoads - Navigating to: https://demo.nopcommerce.com/
+2025-03-16 07:08:04 [main] INFO  verifyHomePageLoads - Closing the browser for test: verifyHomePageLoads
+2025-03-16 07:08:04 [main] INFO  verifyHomePageLoads - Browser closed.
+2025-03-16 07:11:00 [main] INFO  verifyHomePageLoads - Starting test setup for: verifyHomePageLoads
+2025-03-16 07:11:16 [main] INFO  verifyHomePageLoads - Navigated to the site: https://demo.nopcommerce.com
+2025-03-16 07:11:16 [main] INFO  verifyHomePageLoads - Injected cookie: cf_clearance
+2025-03-16 07:11:16 [main] INFO  verifyHomePageLoads - Injected cookie: .Nop.Culture
+2025-03-16 07:11:16 [main] INFO  verifyHomePageLoads - Injected cookie: .Nop.Customer
+2025-03-16 07:11:16 [main] INFO  verifyHomePageLoads - Injected cookie: _ga_SCT41TW89V
+2025-03-16 07:11:16 [main] INFO  verifyHomePageLoads - Injected cookie: _ga
+2025-03-16 07:11:16 [main] INFO  verifyHomePageLoads - Injected cookie: .Nop.Antiforgery
+2025-03-16 07:11:17 [main] INFO  verifyHomePageLoads - Page refreshed with bypassed cookies.
+2025-03-16 07:11:17 [main] INFO  verifyHomePageLoads - Navigating to: https://demo.nopcommerce.com/
+2025-03-16 07:11:17 [main] INFO  verifyHomePageLoads - Actual Page Title: nopCommerce demo store. Home page title
+2025-03-16 07:11:17 [main] INFO  verifyHomePageLoads - Closing the browser for test: verifyHomePageLoads
+2025-03-16 07:11:17 [main] INFO  verifyHomePageLoads - Browser closed.
+2025-03-16 07:13:24 [main] INFO  verifyHomePageLoads - Starting test setup for: verifyHomePageLoads
+2025-03-16 07:13:42 [main] INFO  verifyHomePageLoads - Navigated to the site: https://demo.nopcommerce.com
+2025-03-16 07:13:42 [main] INFO  verifyHomePageLoads - Injected cookie: _ga
+2025-03-16 07:13:42 [main] INFO  verifyHomePageLoads - Injected cookie: cf_clearance
+2025-03-16 07:13:42 [main] INFO  verifyHomePageLoads - Injected cookie: .Nop.Antiforgery
+2025-03-16 07:13:42 [main] INFO  verifyHomePageLoads - Injected cookie: .Nop.Customer
+2025-03-16 07:13:42 [main] INFO  verifyHomePageLoads - Injected cookie: .Nop.Culture
+2025-03-16 07:13:42 [main] INFO  verifyHomePageLoads - Injected cookie: _ga_SCT41TW89V
+2025-03-16 07:13:42 [main] INFO  verifyHomePageLoads - Page refreshed with bypassed cookies.
+2025-03-16 07:13:42 [main] INFO  verifyHomePageLoads - Navigating to: https://demo.nopcommerce.com/
+2025-03-16 07:13:43 [main] INFO  verifyHomePageLoads - Actual Page Title: nopCommerce demo store. Home page title
+2025-03-16 07:13:43 [main] INFO  verifyHomePageLoads - Closing the browser for test: verifyHomePageLoads
+2025-03-16 07:13:43 [main] INFO  verifyHomePageLoads - Browser closed.
+2025-03-16 08:55:09 [main] INFO  verifyHomePageLoads - Starting test setup for: verifyHomePageLoads
+2025-03-16 08:55:32 [main] INFO  verifyHomePageLoads - Navigated to the site: https://demo.nopcommerce.com
+2025-03-16 08:55:32 [main] INFO  verifyHomePageLoads - Injected cookie: _ga
+2025-03-16 08:55:32 [main] INFO  verifyHomePageLoads - Injected cookie: cf_clearance
+2025-03-16 08:55:32 [main] INFO  verifyHomePageLoads - Injected cookie: .Nop.Antiforgery
+2025-03-16 08:55:32 [main] INFO  verifyHomePageLoads - Injected cookie: .Nop.Customer
+2025-03-16 08:55:32 [main] INFO  verifyHomePageLoads - Injected cookie: .Nop.Culture
+2025-03-16 08:55:32 [main] INFO  verifyHomePageLoads - Injected cookie: _ga_SCT41TW89V
+2025-03-16 08:55:33 [main] INFO  verifyHomePageLoads - Page refreshed with bypassed cookies.
+2025-03-16 08:55:33 [main] INFO  verifyHomePageLoads - Navigating to: https://demo.nopcommerce.com/
+2025-03-16 08:55:34 [main] INFO  verifyHomePageLoads - Actual Page Title: nopCommerce demo store. Home page title
+2025-03-16 08:55:34 [main] INFO  verifyHomePageLoads - Closing the browser for test: verifyHomePageLoads
+2025-03-16 08:55:34 [main] INFO  verifyHomePageLoads - Browser closed.
+2025-03-16 09:15:35 [main] INFO  verifyHomePageLoads - Starting test setup for: verifyHomePageLoads
+2025-03-16 09:15:58 [main] INFO  verifyHomePageLoads - Navigated to the site: https://demo.nopcommerce.com
+2025-03-16 09:15:58 [main] INFO  verifyHomePageLoads - Injected cookie: _ga
+2025-03-16 09:15:58 [main] INFO  verifyHomePageLoads - Injected cookie: cf_clearance
+2025-03-16 09:15:58 [main] INFO  verifyHomePageLoads - Injected cookie: .Nop.Antiforgery
+2025-03-16 09:15:58 [main] INFO  verifyHomePageLoads - Injected cookie: .Nop.Customer
+2025-03-16 09:15:58 [main] INFO  verifyHomePageLoads - Injected cookie: .Nop.Culture
+2025-03-16 09:15:58 [main] INFO  verifyHomePageLoads - Injected cookie: _ga_SCT41TW89V
+2025-03-16 09:15:59 [main] INFO  verifyHomePageLoads - Page refreshed with bypassed cookies.
+2025-03-16 09:15:59 [main] INFO  verifyHomePageLoads - Navigating to: https://demo.nopcommerce.com/
+2025-03-16 09:16:00 [main] INFO  verifyHomePageLoads - Actual Page Title: nopCommerce demo store. Home page title
+2025-03-16 09:16:00 [main] INFO  verifyHomePageLoads - Closing the browser for test: verifyHomePageLoads
+2025-03-16 09:16:00 [main] INFO  verifyHomePageLoads - Browser closed.
+2025-03-17 10:05:16 [main] INFO  verifyHomePageLoads - 
+================================================================================================================================ NEW TEST RUN ================================================================================================================================
+2025-03-17 10:05:16 [main] INFO  verifyHomePageLoads - Starting test setup for: verifyHomePageLoads
+2025-03-17 10:05:36 [main] INFO  verifyHomePageLoads - Navigated to the site: https://demo.nopcommerce.com
+2025-03-17 10:05:36 [main] INFO  verifyHomePageLoads - Injected cookie: _ga
+2025-03-17 10:05:36 [main] INFO  verifyHomePageLoads - Injected cookie: cf_clearance
+2025-03-17 10:05:36 [main] INFO  verifyHomePageLoads - Injected cookie: .Nop.Antiforgery
+2025-03-17 10:05:36 [main] INFO  verifyHomePageLoads - Injected cookie: .Nop.Customer
+2025-03-17 10:05:36 [main] INFO  verifyHomePageLoads - Injected cookie: .Nop.Culture
+2025-03-17 10:05:36 [main] INFO  verifyHomePageLoads - Injected cookie: _ga_SCT41TW89V
+2025-03-17 10:05:37 [main] INFO  verifyHomePageLoads - Page refreshed with bypassed cookies.
+2025-03-17 10:05:37 [main] INFO  verifyHomePageLoads - Navigating to: https://demo.nopcommerce.com/
+2025-03-17 10:05:38 [main] INFO  verifyHomePageLoads - Actual Page Title: nopCommerce demo store. Home page title
+2025-03-17 10:05:38 [main] INFO  verifyHomePageLoads - Closing the browser for test: verifyHomePageLoads
+2025-03-17 10:05:38 [main] INFO  verifyHomePageLoads - Browser closed.
+2025-03-17 18:18:07 [main] INFO  verifyHomePageLoads - 
+================================================================================================================================ NEW TEST RUN ================================================================================================================================
+2025-03-17 18:18:07 [main] INFO  verifyHomePageLoads - Starting test setup for: verifyHomePageLoads
+2025-03-17 18:18:32 [main] INFO  verifyHomePageLoads - Navigated to the site: https://demo.nopcommerce.com
+2025-03-17 18:18:32 [main] INFO  verifyHomePageLoads - Injected cookie: _ga
+2025-03-17 18:18:32 [main] INFO  verifyHomePageLoads - Injected cookie: cf_clearance
+2025-03-17 18:18:32 [main] INFO  verifyHomePageLoads - Injected cookie: .Nop.Antiforgery
+2025-03-17 18:18:32 [main] INFO  verifyHomePageLoads - Injected cookie: .Nop.Customer
+2025-03-17 18:18:32 [main] INFO  verifyHomePageLoads - Injected cookie: .Nop.Culture
+2025-03-17 18:18:32 [main] INFO  verifyHomePageLoads - Injected cookie: _ga_SCT41TW89V
+2025-03-17 18:18:33 [main] INFO  verifyHomePageLoads - Page refreshed with bypassed cookies.
+2025-03-17 18:18:33 [main] INFO  verifyHomePageLoads - Navigating to: https://demo.nopcommerce.com/
+2025-03-17 18:18:34 [main] INFO  verifyHomePageLoads - Actual Page Title: nopCommerce demo store. Home page title
+2025-03-17 18:18:34 [main] INFO  verifyHomePageLoads - Closing the browser for test: verifyHomePageLoads
+2025-03-17 18:18:34 [main] INFO  verifyHomePageLoads - Browser closed.
+2025-03-17 18:44:50 [main] INFO  verifyHomePageLoads - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-03-17 18:44:50 [main] INFO  verifyHomePageLoads - Starting test setup for: verifyHomePageLoads
+2025-03-17 18:45:12 [main] INFO  verifyHomePageLoads - Navigated to the site: https://demo.nopcommerce.com
+2025-03-17 18:45:12 [main] INFO  verifyHomePageLoads - Injected cookie: _ga
+2025-03-17 18:45:12 [main] INFO  verifyHomePageLoads - Injected cookie: cf_clearance
+2025-03-17 18:45:12 [main] INFO  verifyHomePageLoads - Injected cookie: .Nop.Antiforgery
+2025-03-17 18:45:12 [main] INFO  verifyHomePageLoads - Injected cookie: .Nop.Customer
+2025-03-17 18:45:12 [main] INFO  verifyHomePageLoads - Injected cookie: .Nop.Culture
+2025-03-17 18:45:12 [main] INFO  verifyHomePageLoads - Injected cookie: _ga_SCT41TW89V
+2025-03-17 18:45:13 [main] INFO  verifyHomePageLoads - Page refreshed with bypassed cookies.
+2025-03-17 18:45:13 [main] INFO  verifyHomePageLoads - Navigating to: https://demo.nopcommerce.com/
+2025-03-17 18:45:14 [main] INFO  verifyHomePageLoads - Actual Page Title: nopCommerce demo store. Home page title
+2025-03-17 18:45:14 [main] INFO  verifyHomePageLoads - Closing the browser for test: verifyHomePageLoads
+2025-03-17 18:45:14 [main] INFO  verifyHomePageLoads - Browser closed.
+2025-03-17 20:44:37 [main] INFO  verifyHomePageLoads - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-03-17 20:44:37 [main] INFO  verifyHomePageLoads - Starting test setup for: verifyHomePageLoads
+2025-03-17 20:45:02 [main] INFO  verifyHomePageLoads - Navigated to the site: https://demo.nopcommerce.com
+2025-03-17 20:45:02 [main] INFO  verifyHomePageLoads - Injected cookie: cf_clearance
+2025-03-17 20:45:02 [main] INFO  verifyHomePageLoads - Injected cookie: _ga
+2025-03-17 20:45:02 [main] INFO  verifyHomePageLoads - Injected cookie: .Nop.Antiforgery
+2025-03-17 20:45:02 [main] INFO  verifyHomePageLoads - Injected cookie: .Nop.Customer
+2025-03-17 20:45:02 [main] INFO  verifyHomePageLoads - Injected cookie: .Nop.Culture
+2025-03-17 20:45:02 [main] INFO  verifyHomePageLoads - Injected cookie: _ga_SCT41TW89V
+2025-03-17 20:45:03 [main] INFO  verifyHomePageLoads - Page refreshed with bypassed cookies.
+2025-03-17 20:45:03 [main] INFO  verifyHomePageLoads - Navigating to: https://demo.nopcommerce.com/
+2025-03-17 20:45:04 [main] INFO  verifyHomePageLoads - Actual Page Title: nopCommerce demo store. Home page title
+2025-03-17 20:45:04 [main] INFO  verifyHomePageLoads - Closing the browser for test: verifyHomePageLoads
+2025-03-17 20:45:05 [main] INFO  verifyHomePageLoads - Browser closed.
+2025-03-17 20:49:11 [main] INFO  verifyHomePageLoads - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-03-17 20:49:11 [main] INFO  verifyHomePageLoads - Starting test setup for: verifyHomePageLoads
+2025-03-17 20:49:39 [main] INFO  verifyHomePageLoads - Navigated to the site: https://demo.nopcommerce.com
+2025-03-17 20:49:39 [main] INFO  verifyHomePageLoads - Injected cookie: _ga
+2025-03-17 20:49:39 [main] INFO  verifyHomePageLoads - Injected cookie: cf_clearance
+2025-03-17 20:49:39 [main] INFO  verifyHomePageLoads - Injected cookie: .Nop.Antiforgery
+2025-03-17 20:49:39 [main] INFO  verifyHomePageLoads - Injected cookie: .Nop.Customer
+2025-03-17 20:49:39 [main] INFO  verifyHomePageLoads - Injected cookie: .Nop.Culture
+2025-03-17 20:49:39 [main] INFO  verifyHomePageLoads - Injected cookie: _ga_SCT41TW89V
+2025-03-17 20:49:40 [main] INFO  verifyHomePageLoads - Page refreshed with bypassed cookies.
+2025-03-17 20:49:40 [main] INFO  verifyHomePageLoads - Navigating to: https://demo.nopcommerce.com/
+2025-03-17 20:49:41 [main] INFO  verifyHomePageLoads - Actual Page Title: nopCommerce demo store. Home page title
+2025-03-17 20:49:41 [main] INFO  verifyHomePageLoads - Closing the browser for test: verifyHomePageLoads
+2025-03-17 20:49:41 [main] INFO  verifyHomePageLoads - Browser closed.
+2025-03-17 21:10:18 [main] INFO  verifyHomePageLoads - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-03-17 21:10:18 [main] INFO  verifyHomePageLoads - Starting test setup for: verifyHomePageLoads
+2025-03-17 21:10:43 [main] INFO  verifyHomePageLoads - Navigated to the site: https://demo.nopcommerce.com
+2025-03-17 21:10:43 [main] INFO  verifyHomePageLoads - Injected cookie: _ga
+2025-03-17 21:10:43 [main] INFO  verifyHomePageLoads - Injected cookie: cf_clearance
+2025-03-17 21:10:43 [main] INFO  verifyHomePageLoads - Injected cookie: .Nop.Antiforgery
+2025-03-17 21:10:43 [main] INFO  verifyHomePageLoads - Injected cookie: .Nop.Customer
+2025-03-17 21:10:44 [main] INFO  verifyHomePageLoads - Injected cookie: .Nop.Culture
+2025-03-17 21:10:44 [main] INFO  verifyHomePageLoads - Injected cookie: _ga_SCT41TW89V
+2025-03-17 21:10:45 [main] INFO  verifyHomePageLoads - Page refreshed with bypassed cookies.
+2025-03-17 21:10:45 [main] INFO  verifyHomePageLoads - Navigating to: https://demo.nopcommerce.com/
+2025-03-17 21:10:46 [main] INFO  verifyHomePageLoads - Actual Page Title: nopCommerce demo store. Home page title
+2025-03-17 21:10:46 [main] INFO  verifyHomePageLoads - Closing the browser for test: verifyHomePageLoads
+2025-03-17 21:10:46 [main] INFO  verifyHomePageLoads - Browser closed.
+2025-03-17 21:15:39 [main] INFO  verifyHomePageLoads - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-03-17 21:15:39 [main] INFO  verifyHomePageLoads - Starting test setup for: verifyHomePageLoads
+2025-03-17 21:16:06 [main] INFO  verifyHomePageLoads - Navigated to the site: https://demo.nopcommerce.com
+2025-03-17 21:16:06 [main] INFO  verifyHomePageLoads - Injected cookie: cf_clearance
+2025-03-17 21:16:06 [main] INFO  verifyHomePageLoads - Injected cookie: _ga
+2025-03-17 21:16:06 [main] INFO  verifyHomePageLoads - Injected cookie: .Nop.Antiforgery
+2025-03-17 21:16:06 [main] INFO  verifyHomePageLoads - Injected cookie: .Nop.Customer
+2025-03-17 21:16:06 [main] INFO  verifyHomePageLoads - Injected cookie: .Nop.Culture
+2025-03-17 21:16:06 [main] INFO  verifyHomePageLoads - Injected cookie: _ga_SCT41TW89V
+2025-03-17 21:16:08 [main] INFO  verifyHomePageLoads - Page refreshed with bypassed cookies.
+2025-03-17 21:16:08 [main] INFO  verifyHomePageLoads - Navigating to: https://demo.nopcommerce.com/
+2025-03-17 21:16:09 [main] INFO  verifyHomePageLoads - Actual Page Title: nopCommerce demo store. Home page title
+2025-03-17 21:16:09 [main] INFO  verifyHomePageLoads - Closing the browser for test: verifyHomePageLoads
+2025-03-17 21:16:09 [main] INFO  verifyHomePageLoads - Browser closed.
+2025-03-17 21:33:42 [main] INFO  verifyHomePageLoads - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-03-17 21:33:42 [main] INFO  verifyHomePageLoads - Starting test setup for: verifyHomePageLoads
+2025-03-17 21:34:06 [main] INFO  verifyHomePageLoads - Navigated to the site: https://demo.nopcommerce.com
+2025-03-17 21:34:06 [main] INFO  verifyHomePageLoads - Injected cookie: cf_clearance
+2025-03-17 21:34:06 [main] INFO  verifyHomePageLoads - Injected cookie: _ga
+2025-03-17 21:34:06 [main] INFO  verifyHomePageLoads - Injected cookie: .Nop.Antiforgery
+2025-03-17 21:34:06 [main] INFO  verifyHomePageLoads - Injected cookie: .Nop.Customer
+2025-03-17 21:34:06 [main] INFO  verifyHomePageLoads - Injected cookie: .Nop.Culture
+2025-03-17 21:34:06 [main] INFO  verifyHomePageLoads - Injected cookie: _ga_SCT41TW89V
+2025-03-17 21:34:07 [main] INFO  verifyHomePageLoads - Page refreshed with bypassed cookies.
+2025-03-17 21:34:07 [main] INFO  verifyHomePageLoads - Navigating to: https://demo.nopcommerce.com/
+2025-03-17 21:34:08 [main] INFO  verifyHomePageLoads - Actual Page Title: nopCommerce demo store. Home page title
+2025-03-17 21:34:08 [main] INFO  verifyHomePageLoads - Closing the browser for test: verifyHomePageLoads
+2025-03-17 21:34:08 [main] INFO  verifyHomePageLoads - Browser closed.
+2025-03-17 21:39:33 [main] INFO  verifyHomePageLoads - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-03-17 21:39:33 [main] INFO  verifyHomePageLoads - Starting test setup for: verifyHomePageLoads
+2025-03-17 21:39:50 [main] INFO  verifyHomePageLoads - Navigated to the site: https://demo.nopcommerce.com
+2025-03-17 21:39:50 [main] INFO  verifyHomePageLoads - Injected cookie: cf_clearance
+2025-03-17 21:39:50 [main] INFO  verifyHomePageLoads - Injected cookie: _ga
+2025-03-17 21:39:50 [main] INFO  verifyHomePageLoads - Injected cookie: .Nop.Antiforgery
+2025-03-17 21:39:50 [main] INFO  verifyHomePageLoads - Injected cookie: .Nop.Customer
+2025-03-17 21:39:50 [main] INFO  verifyHomePageLoads - Injected cookie: .Nop.Culture
+2025-03-17 21:39:50 [main] INFO  verifyHomePageLoads - Injected cookie: _ga_SCT41TW89V
+2025-03-17 21:39:51 [main] INFO  verifyHomePageLoads - Page refreshed with bypassed cookies.
+2025-03-17 21:39:51 [main] INFO  verifyHomePageLoads - Navigating to: https://demo.nopcommerce.com/
+2025-03-17 21:39:51 [main] INFO  verifyHomePageLoads - Actual Page Title: nopCommerce demo store. Home page title
+2025-03-17 21:39:51 [main] INFO  verifyHomePageLoads - Closing the browser for test: verifyHomePageLoads
+2025-03-17 21:39:52 [main] INFO  verifyHomePageLoads - Browser closed.
+2025-03-17 21:41:34 [main] INFO  verifyHomePageLoads - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-03-17 21:41:34 [main] INFO  verifyHomePageLoads - Starting test setup for: verifyHomePageLoads
+2025-03-17 21:41:53 [main] INFO  verifyHomePageLoads - Navigated to the site: https://demo.nopcommerce.com
+2025-03-17 21:41:53 [main] INFO  verifyHomePageLoads - Injected cookie: _ga
+2025-03-17 21:41:53 [main] INFO  verifyHomePageLoads - Injected cookie: cf_clearance
+2025-03-17 21:41:53 [main] INFO  verifyHomePageLoads - Injected cookie: .Nop.Antiforgery
+2025-03-17 21:41:53 [main] INFO  verifyHomePageLoads - Injected cookie: .Nop.Customer
+2025-03-17 21:41:53 [main] INFO  verifyHomePageLoads - Injected cookie: .Nop.Culture
+2025-03-17 21:41:53 [main] INFO  verifyHomePageLoads - Injected cookie: _ga_SCT41TW89V
+2025-03-17 21:41:53 [main] INFO  verifyHomePageLoads - Page refreshed with bypassed cookies.
+2025-03-17 21:41:53 [main] INFO  verifyHomePageLoads - Navigating to: https://demo.nopcommerce.com/
+2025-03-17 21:41:59 [main] INFO  verifyHomePageLoads - Closing the browser for test: verifyHomePageLoads
+2025-03-17 21:42:00 [main] INFO  verifyHomePageLoads - Browser closed.
+2025-03-17 21:45:54 [main] INFO  verifyHomePageLoads - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-03-17 21:45:54 [main] INFO  verifyHomePageLoads - Starting test setup for: verifyHomePageLoads
+2025-03-17 21:46:11 [main] INFO  verifyHomePageLoads - Navigated to the site: https://demo.nopcommerce.com
+2025-03-17 21:46:11 [main] INFO  verifyHomePageLoads - Injected cookie: cf_clearance
+2025-03-17 21:46:11 [main] INFO  verifyHomePageLoads - Injected cookie: _ga
+2025-03-17 21:46:11 [main] INFO  verifyHomePageLoads - Injected cookie: .Nop.Antiforgery
+2025-03-17 21:46:11 [main] INFO  verifyHomePageLoads - Injected cookie: .Nop.Customer
+2025-03-17 21:46:11 [main] INFO  verifyHomePageLoads - Injected cookie: .Nop.Culture
+2025-03-17 21:46:11 [main] INFO  verifyHomePageLoads - Injected cookie: _ga_SCT41TW89V
+2025-03-17 21:46:11 [main] INFO  verifyHomePageLoads - Page refreshed with bypassed cookies.
+2025-03-17 21:46:11 [main] INFO  verifyHomePageLoads - Navigating to: https://demo.nopcommerce.com/
+2025-03-17 21:46:12 [main] INFO  verifyHomePageLoads - Actual Page Title: nopCommerce demo store. Home page title
+2025-03-17 21:46:12 [main] INFO  verifyHomePageLoads - Closing the browser for test: verifyHomePageLoads
+2025-03-17 21:46:12 [main] INFO  verifyHomePageLoads - Browser closed.
+2025-03-17 21:48:22 [main] INFO  verifyHomePageLoads - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-03-17 21:48:22 [main] INFO  verifyHomePageLoads - Starting test setup for: verifyHomePageLoads
+2025-03-17 21:49:22 [main] INFO  verifyHomePageLoads - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-03-17 21:49:22 [main] INFO  verifyHomePageLoads - Starting test setup for: verifyHomePageLoads
+2025-03-17 21:49:39 [main] INFO  verifyHomePageLoads - Navigated to the site: https://demo.nopcommerce.com
+2025-03-17 21:49:39 [main] INFO  verifyHomePageLoads - Injected cookie: _ga
+2025-03-17 21:49:39 [main] INFO  verifyHomePageLoads - Injected cookie: cf_clearance
+2025-03-17 21:49:39 [main] INFO  verifyHomePageLoads - Injected cookie: .Nop.Antiforgery
+2025-03-17 21:49:39 [main] INFO  verifyHomePageLoads - Injected cookie: .Nop.Customer
+2025-03-17 21:49:39 [main] INFO  verifyHomePageLoads - Injected cookie: .Nop.Culture
+2025-03-17 21:49:39 [main] INFO  verifyHomePageLoads - Injected cookie: _ga_SCT41TW89V
+2025-03-17 21:49:40 [main] INFO  verifyHomePageLoads - Page refreshed with bypassed cookies.
+2025-03-17 21:49:40 [main] INFO  verifyHomePageLoads - Navigating to: https://demo.nopcommerce.com/
+2025-03-17 21:49:40 [main] INFO  verifyHomePageLoads - Actual Page Title: nopCommerce demo store. Home page title
+2025-03-17 21:49:40 [main] INFO  verifyHomePageLoads - Closing the browser for test: verifyHomePageLoads
+2025-03-17 21:49:41 [main] INFO  verifyHomePageLoads - Browser closed.
+2025-03-17 22:00:06 [main] INFO  verifyHomePageLoads - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-03-17 22:00:06 [main] INFO  verifyHomePageLoads - Starting test setup for: verifyHomePageLoads
+2025-03-17 22:00:23 [main] INFO  verifyHomePageLoads - Navigated to the site: https://demo.nopcommerce.com
+2025-03-17 22:00:23 [main] INFO  verifyHomePageLoads - Injected cookie: cf_clearance
+2025-03-17 22:00:23 [main] INFO  verifyHomePageLoads - Injected cookie: _ga
+2025-03-17 22:00:23 [main] INFO  verifyHomePageLoads - Injected cookie: .Nop.Antiforgery
+2025-03-17 22:00:23 [main] INFO  verifyHomePageLoads - Injected cookie: .Nop.Customer
+2025-03-17 22:00:23 [main] INFO  verifyHomePageLoads - Injected cookie: .Nop.Culture
+2025-03-17 22:00:23 [main] INFO  verifyHomePageLoads - Injected cookie: _ga_SCT41TW89V
+2025-03-17 22:00:24 [main] INFO  verifyHomePageLoads - Page refreshed with bypassed cookies.
+2025-03-17 22:00:24 [main] INFO  verifyHomePageLoads - Navigating to: https://demo.nopcommerce.com/
+2025-03-17 22:00:30 [main] INFO  verifyHomePageLoads - Closing the browser for test: verifyHomePageLoads
+2025-03-17 22:00:30 [main] INFO  verifyHomePageLoads - Browser closed.
+2025-03-17 22:03:41 [main] INFO  verifyHomePageLoads - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-03-17 22:03:41 [main] INFO  verifyHomePageLoads - Starting test setup for: verifyHomePageLoads
+2025-03-17 22:03:57 [main] INFO  verifyHomePageLoads - Navigated to the site: https://demo.nopcommerce.com
+2025-03-17 22:03:57 [main] INFO  verifyHomePageLoads - Injected cookie: cf_clearance
+2025-03-17 22:03:57 [main] INFO  verifyHomePageLoads - Injected cookie: _ga
+2025-03-17 22:03:57 [main] INFO  verifyHomePageLoads - Injected cookie: .Nop.Antiforgery
+2025-03-17 22:03:57 [main] INFO  verifyHomePageLoads - Injected cookie: .Nop.Customer
+2025-03-17 22:03:57 [main] INFO  verifyHomePageLoads - Injected cookie: .Nop.Culture
+2025-03-17 22:03:57 [main] INFO  verifyHomePageLoads - Injected cookie: _ga_SCT41TW89V
+2025-03-17 22:03:58 [main] INFO  verifyHomePageLoads - Page refreshed with bypassed cookies.
+2025-03-17 22:03:58 [main] INFO  verifyHomePageLoads - Navigating to: https://demo.nopcommerce.com/
+2025-03-17 22:03:58 [main] INFO  verifyHomePageLoads - Actual Page Title: nopCommerce demo store. Home page title
+2025-03-17 22:03:58 [main] INFO  verifyHomePageLoads - Closing the browser for test: verifyHomePageLoads
+2025-03-17 22:03:59 [main] INFO  verifyHomePageLoads - Browser closed.
+2025-03-17 22:13:07 [main] INFO  verifyHomePageLoads - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-03-17 22:13:07 [main] INFO  verifyHomePageLoads - Starting test setup for: verifyHomePageLoads
+2025-03-17 22:13:24 [main] INFO  verifyHomePageLoads - Navigated to the site: https://demo.nopcommerce.com
+2025-03-17 22:13:24 [main] INFO  verifyHomePageLoads - Injected cookie: _ga
+2025-03-17 22:13:24 [main] INFO  verifyHomePageLoads - Injected cookie: cf_clearance
+2025-03-17 22:13:24 [main] INFO  verifyHomePageLoads - Injected cookie: .Nop.Antiforgery
+2025-03-17 22:13:24 [main] INFO  verifyHomePageLoads - Injected cookie: .Nop.Customer
+2025-03-17 22:13:24 [main] INFO  verifyHomePageLoads - Injected cookie: .Nop.Culture
+2025-03-17 22:13:24 [main] INFO  verifyHomePageLoads - Injected cookie: _ga_SCT41TW89V
+2025-03-17 22:13:25 [main] INFO  verifyHomePageLoads - Page refreshed with bypassed cookies.
+2025-03-17 22:13:25 [main] INFO  verifyHomePageLoads - Navigating to: https://demo.nopcommerce.com/
+2025-03-17 22:13:25 [main] INFO  verifyHomePageLoads - Actual Page Title: nopCommerce demo store. Home page title
+2025-03-17 22:13:25 [main] INFO  verifyHomePageLoads - Closing the browser for test: verifyHomePageLoads
+2025-03-17 22:13:25 [main] INFO  verifyHomePageLoads - Browser closed.
+2025-03-17 22:17:53 [main] INFO  verifyHomePageLoads - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-03-17 22:17:53 [main] INFO  verifyHomePageLoads - Starting test setup for: verifyHomePageLoads
+2025-03-17 22:18:11 [main] INFO  verifyHomePageLoads - Navigated to the site: https://demo.nopcommerce.com
+2025-03-17 22:18:11 [main] INFO  verifyHomePageLoads - Injected cookie: _ga
+2025-03-17 22:18:11 [main] INFO  verifyHomePageLoads - Injected cookie: cf_clearance
+2025-03-17 22:18:11 [main] INFO  verifyHomePageLoads - Injected cookie: .Nop.Antiforgery
+2025-03-17 22:18:11 [main] INFO  verifyHomePageLoads - Injected cookie: .Nop.Customer
+2025-03-17 22:18:11 [main] INFO  verifyHomePageLoads - Injected cookie: .Nop.Culture
+2025-03-17 22:18:11 [main] INFO  verifyHomePageLoads - Injected cookie: _ga_SCT41TW89V
+2025-03-17 22:18:12 [main] INFO  verifyHomePageLoads - Page refreshed with bypassed cookies.
+2025-03-17 22:18:12 [main] INFO  verifyHomePageLoads - Navigating to: https://demo.nopcommerce.com/
+2025-03-17 22:18:18 [main] INFO  verifyHomePageLoads - Closing the browser for test: verifyHomePageLoads
+2025-03-17 22:18:18 [main] INFO  verifyHomePageLoads - Browser closed.
+2025-03-17 22:27:33 [main] INFO  verifyHomePageLoads - Starting test setup for: verifyHomePageLoads
+2025-03-17 22:27:50 [main] INFO  verifyHomePageLoads - Navigated to the site: https://demo.nopcommerce.com
+2025-03-17 22:27:50 [main] INFO  verifyHomePageLoads - Injected cookie: cf_clearance
+2025-03-17 22:27:50 [main] INFO  verifyHomePageLoads - Injected cookie: _ga
+2025-03-17 22:27:50 [main] INFO  verifyHomePageLoads - Injected cookie: .Nop.Antiforgery
+2025-03-17 22:27:50 [main] INFO  verifyHomePageLoads - Injected cookie: .Nop.Customer
+2025-03-17 22:27:50 [main] INFO  verifyHomePageLoads - Injected cookie: .Nop.Culture
+2025-03-17 22:27:50 [main] INFO  verifyHomePageLoads - Injected cookie: _ga_SCT41TW89V
+2025-03-17 22:27:50 [main] INFO  verifyHomePageLoads - Page refreshed with bypassed cookies.
+2025-03-17 22:27:50 [main] INFO  verifyHomePageLoads - Navigating to: https://demo.nopcommerce.com/
+2025-03-17 22:27:51 [main] INFO  verifyHomePageLoads - Actual Page Title: nopCommerce demo store. Home page title
+2025-03-17 22:27:51 [main] INFO  verifyHomePageLoads - Closing the browser for test: verifyHomePageLoads
+2025-03-17 22:27:51 [main] INFO  verifyHomePageLoads - Browser closed.
+2025-03-17 22:36:40 [main] INFO  verifyHomePageLoads - ===================================================================================== NEW TEST RUN =====================================================================================
+
+2025-03-17 22:36:40 [main] INFO  verifyHomePageLoads - Starting test setup for: verifyHomePageLoads
+2025-03-17 22:36:59 [main] INFO  verifyHomePageLoads - Navigated to the site: https://demo.nopcommerce.com
+2025-03-17 22:36:59 [main] INFO  verifyHomePageLoads - Injected cookie: cf_clearance
+2025-03-17 22:36:59 [main] INFO  verifyHomePageLoads - Injected cookie: _ga
+2025-03-17 22:36:59 [main] INFO  verifyHomePageLoads - Injected cookie: .Nop.Antiforgery
+2025-03-17 22:36:59 [main] INFO  verifyHomePageLoads - Injected cookie: .Nop.Customer
+2025-03-17 22:36:59 [main] INFO  verifyHomePageLoads - Injected cookie: .Nop.Culture
+2025-03-17 22:36:59 [main] INFO  verifyHomePageLoads - Injected cookie: _ga_SCT41TW89V
+2025-03-17 22:36:59 [main] INFO  verifyHomePageLoads - Page refreshed with bypassed cookies.
+2025-03-17 22:36:59 [main] INFO  verifyHomePageLoads - Navigating to: https://demo.nopcommerce.com/
+2025-03-17 22:37:00 [main] INFO  verifyHomePageLoads - Actual Page Title: nopCommerce demo store. Home page title
+2025-03-17 22:37:00 [main] INFO  verifyHomePageLoads - Closing the browser for test: verifyHomePageLoads
+2025-03-17 22:37:00 [main] INFO  verifyHomePageLoads - Browser closed.
+2025-03-17 22:42:26 [main] INFO  verifyHomePageLoads - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-03-17 22:42:26 [main] INFO  verifyHomePageLoads - Starting test setup for: verifyHomePageLoads
+2025-03-17 22:42:44 [main] INFO  verifyHomePageLoads - Navigated to the site: https://demo.nopcommerce.com
+2025-03-17 22:42:44 [main] INFO  verifyHomePageLoads - Injected cookie: _ga
+2025-03-17 22:42:44 [main] INFO  verifyHomePageLoads - Injected cookie: cf_clearance
+2025-03-17 22:42:44 [main] INFO  verifyHomePageLoads - Injected cookie: .Nop.Antiforgery
+2025-03-17 22:42:44 [main] INFO  verifyHomePageLoads - Injected cookie: .Nop.Customer
+2025-03-17 22:42:44 [main] INFO  verifyHomePageLoads - Injected cookie: .Nop.Culture
+2025-03-17 22:42:44 [main] INFO  verifyHomePageLoads - Injected cookie: _ga_SCT41TW89V
+2025-03-17 22:42:44 [main] INFO  verifyHomePageLoads - Page refreshed with bypassed cookies.
+2025-03-17 22:42:44 [main] INFO  verifyHomePageLoads - Navigating to: https://demo.nopcommerce.com/
+2025-03-17 22:42:45 [main] INFO  verifyHomePageLoads - Actual Page Title: nopCommerce demo store. Home page title
+2025-03-17 22:42:45 [main] INFO  verifyHomePageLoads - Closing the browser for test: verifyHomePageLoads
+2025-03-17 22:42:45 [main] INFO  verifyHomePageLoads - Browser closed.
+2025-03-17 22:54:55 [main] INFO  verifyHomePageLoads - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-03-17 22:54:55 [main] INFO  verifyHomePageLoads - Starting test setup for: verifyHomePageLoads
+2025-03-17 22:55:12 [main] INFO  verifyHomePageLoads - Navigated to the site: https://demo.nopcommerce.com
+2025-03-17 22:55:12 [main] INFO  verifyHomePageLoads - Injected cookie: cf_clearance
+2025-03-17 22:55:12 [main] INFO  verifyHomePageLoads - Injected cookie: _ga
+2025-03-17 22:55:12 [main] INFO  verifyHomePageLoads - Injected cookie: .Nop.Antiforgery
+2025-03-17 22:55:13 [main] INFO  verifyHomePageLoads - Injected cookie: .Nop.Customer
+2025-03-17 22:55:13 [main] INFO  verifyHomePageLoads - Injected cookie: .Nop.Culture
+2025-03-17 22:55:13 [main] INFO  verifyHomePageLoads - Injected cookie: _ga_SCT41TW89V
+2025-03-17 22:55:13 [main] INFO  verifyHomePageLoads - Page refreshed with bypassed cookies.
+2025-03-17 22:55:13 [main] INFO  verifyHomePageLoads - Navigating to: https://demo.nopcommerce.com/
+2025-03-17 22:55:14 [main] INFO  verifyHomePageLoads - Actual Page Title: nopCommerce demo store. Home page title
+2025-03-17 22:55:14 [main] INFO  verifyHomePageLoads - Closing the browser for test: verifyHomePageLoads
+2025-03-17 22:55:14 [main] INFO  verifyHomePageLoads - Browser closed.
+2025-03-17 23:02:20 [main] INFO  verifyHomePageLoads - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-03-17 23:02:20 [main] INFO  verifyHomePageLoads - Starting test setup for: verifyHomePageLoads
+2025-03-17 23:02:38 [main] INFO  verifyHomePageLoads - Navigated to the site: https://demo.nopcommerce.com
+2025-03-17 23:02:38 [main] INFO  verifyHomePageLoads - Injected cookie: cf_clearance
+2025-03-17 23:02:38 [main] INFO  verifyHomePageLoads - Injected cookie: _ga
+2025-03-17 23:02:38 [main] INFO  verifyHomePageLoads - Injected cookie: .Nop.Antiforgery
+2025-03-17 23:02:38 [main] INFO  verifyHomePageLoads - Injected cookie: .Nop.Customer
+2025-03-17 23:02:38 [main] INFO  verifyHomePageLoads - Injected cookie: .Nop.Culture
+2025-03-17 23:02:38 [main] INFO  verifyHomePageLoads - Injected cookie: _ga_SCT41TW89V
+2025-03-17 23:02:39 [main] INFO  verifyHomePageLoads - Page refreshed with bypassed cookies.
+2025-03-17 23:02:39 [main] INFO  verifyHomePageLoads - Navigating to: https://demo.nopcommerce.com/
+2025-03-17 23:02:39 [main] INFO  verifyHomePageLoads - Actual Page Title: nopCommerce demo store. Home page title
+2025-03-17 23:02:39 [main] INFO  verifyHomePageLoads - Closing the browser for test: verifyHomePageLoads
+2025-03-17 23:02:39 [main] INFO  verifyHomePageLoads - Browser closed.
+2025-03-17 23:06:31 [main] INFO  verifyHomePageLoads - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-03-17 23:06:31 [main] INFO  verifyHomePageLoads - Starting test setup for: verifyHomePageLoads
+2025-03-17 23:06:48 [main] INFO  verifyHomePageLoads - Navigated to the site: https://demo.nopcommerce.com
+2025-03-17 23:06:48 [main] INFO  verifyHomePageLoads - Injected cookie: cf_clearance
+2025-03-17 23:06:48 [main] INFO  verifyHomePageLoads - Injected cookie: _ga
+2025-03-17 23:06:48 [main] INFO  verifyHomePageLoads - Injected cookie: .Nop.Antiforgery
+2025-03-17 23:06:48 [main] INFO  verifyHomePageLoads - Injected cookie: .Nop.Customer
+2025-03-17 23:06:48 [main] INFO  verifyHomePageLoads - Injected cookie: .Nop.Culture
+2025-03-17 23:06:48 [main] INFO  verifyHomePageLoads - Injected cookie: _ga_SCT41TW89V
+2025-03-17 23:06:49 [main] INFO  verifyHomePageLoads - Page refreshed with bypassed cookies.
+2025-03-17 23:06:49 [main] INFO  verifyHomePageLoads - Navigating to: https://demo.nopcommerce.com/
+2025-03-17 23:06:49 [main] INFO  verifyHomePageLoads - Actual Page Title: nopCommerce demo store. Home page title
+2025-03-17 23:06:49 [main] INFO  verifyHomePageLoads - Closing the browser for test: verifyHomePageLoads
+2025-03-17 23:06:49 [main] INFO  verifyHomePageLoads - Browser closed.
+2025-03-17 23:08:55 [main] INFO  verifyHomePageLoads - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-03-17 23:08:55 [main] INFO  verifyHomePageLoads - Starting test setup for: verifyHomePageLoads
+2025-03-17 23:09:13 [main] INFO  verifyHomePageLoads - Navigated to the site: https://demo.nopcommerce.com
+2025-03-17 23:09:13 [main] INFO  verifyHomePageLoads - Injected cookie: cf_clearance
+2025-03-17 23:09:13 [main] INFO  verifyHomePageLoads - Injected cookie: _ga
+2025-03-17 23:09:13 [main] INFO  verifyHomePageLoads - Injected cookie: .Nop.Antiforgery
+2025-03-17 23:09:13 [main] INFO  verifyHomePageLoads - Injected cookie: .Nop.Customer
+2025-03-17 23:09:13 [main] INFO  verifyHomePageLoads - Injected cookie: .Nop.Culture
+2025-03-17 23:09:13 [main] INFO  verifyHomePageLoads - Injected cookie: _ga_SCT41TW89V
+2025-03-17 23:09:14 [main] INFO  verifyHomePageLoads - Page refreshed with bypassed cookies.
+2025-03-17 23:09:14 [main] INFO  verifyHomePageLoads - Navigating to: https://demo.nopcommerce.com/
+2025-03-17 23:09:15 [main] INFO  verifyHomePageLoads - Actual Page Title: nopCommerce demo store. Home page title
+2025-03-17 23:09:15 [main] INFO  verifyHomePageLoads - Closing the browser for test: verifyHomePageLoads
+2025-03-17 23:09:15 [main] INFO  verifyHomePageLoads - Browser closed.
+2025-03-17 23:30:44 [main] INFO  verifyHomePageLoads - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-03-17 23:30:44 [main] INFO  verifyHomePageLoads - Starting test setup for: verifyHomePageLoads
+2025-03-17 23:31:01 [main] INFO  verifyHomePageLoads - Navigated to the site: https://demo.nopcommerce.com
+2025-03-17 23:31:01 [main] INFO  verifyHomePageLoads - Injected cookie: cf_clearance
+2025-03-17 23:31:01 [main] INFO  verifyHomePageLoads - Injected cookie: _ga
+2025-03-17 23:31:01 [main] INFO  verifyHomePageLoads - Injected cookie: .Nop.Antiforgery
+2025-03-17 23:31:01 [main] INFO  verifyHomePageLoads - Injected cookie: .Nop.Customer
+2025-03-17 23:31:01 [main] INFO  verifyHomePageLoads - Injected cookie: .Nop.Culture
+2025-03-17 23:31:01 [main] INFO  verifyHomePageLoads - Injected cookie: _ga_SCT41TW89V
+2025-03-17 23:31:01 [main] INFO  verifyHomePageLoads - Page refreshed with bypassed cookies.
+2025-03-17 23:31:01 [main] INFO  verifyHomePageLoads - Navigating to: https://demo.nopcommerce.com/
+2025-03-17 23:31:02 [main] INFO  verifyHomePageLoads - Actual Page Title: nopCommerce demo store. Home page title
+2025-03-17 23:31:02 [main] INFO  verifyHomePageLoads - Closing the browser for test: verifyHomePageLoads
+2025-03-17 23:31:02 [main] INFO  verifyHomePageLoads - Browser closed.
+2025-03-17 23:31:33 [main] INFO  verifyHomePageLoads - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-03-17 23:31:33 [main] INFO  verifyHomePageLoads - Starting test setup for: verifyHomePageLoads
+2025-03-17 23:31:50 [main] INFO  verifyHomePageLoads - Navigated to the site: https://demo.nopcommerce.com
+2025-03-17 23:31:50 [main] INFO  verifyHomePageLoads - Injected cookie: _ga
+2025-03-17 23:31:50 [main] INFO  verifyHomePageLoads - Injected cookie: cf_clearance
+2025-03-17 23:31:50 [main] INFO  verifyHomePageLoads - Injected cookie: .Nop.Antiforgery
+2025-03-17 23:31:50 [main] INFO  verifyHomePageLoads - Injected cookie: .Nop.Customer
+2025-03-17 23:31:50 [main] INFO  verifyHomePageLoads - Injected cookie: .Nop.Culture
+2025-03-17 23:31:50 [main] INFO  verifyHomePageLoads - Injected cookie: _ga_SCT41TW89V
+2025-03-17 23:31:51 [main] INFO  verifyHomePageLoads - Page refreshed with bypassed cookies.
+2025-03-17 23:31:51 [main] INFO  verifyHomePageLoads - Navigating to: https://demo.nopcommerce.com/
+2025-03-17 23:31:57 [main] INFO  verifyHomePageLoads - Closing the browser for test: verifyHomePageLoads
+2025-03-17 23:31:57 [main] INFO  verifyHomePageLoads - Browser closed.

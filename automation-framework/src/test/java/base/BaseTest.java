@@ -10,6 +10,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.ITestResult;
+import org.testng.ITestContext;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -24,39 +25,52 @@ import java.time.Duration;
 import java.util.Map;
 
 public class BaseTest {
+    private static ThreadLocal<WebDriver> driverThreadLocal = new ThreadLocal<>();
     protected WebDriver driver;
     protected Logger logger;
 
     @BeforeMethod
-    public void setUp(ITestResult result) {
+    public void setUp(ITestResult result, ITestContext context) {
         String testName = result.getMethod().getMethodName();
-        String logFilePath = "logs/" + testName + ".log";
+        String testCaseID = result.getMethod().getDescription(); // Extracts @Test description
 
-        // Create logs directory if it doesn't exist
+        if (testCaseID == null || testCaseID.isEmpty()) {
+            testCaseID = "UnknownTC";
+        }
+
+        // Pass the Test Case ID to context
+        context.setAttribute("TestCaseID", testCaseID);
+
+        // 📝 Change Log File Location
+        String logDirectoryPath = "E:/Folder/Galal/Courses/Digital Egypt Pioneers Initiative (DEPI) - Software Testing/DEPI Software Tester Graduation Project/automation-framework/reports/logs";
+        String logFilePath = logDirectoryPath + "/" + testCaseID + "_" + testName + ".log";
+
         try {
-            Files.createDirectories(Paths.get("logs"));
+            Files.createDirectories(Paths.get(logDirectoryPath)); // Ensure directory exists
         } catch (Exception e) {
             e.printStackTrace();
         }
 
-        configureLogger(testName, logFilePath);
-        logger = LogManager.getLogger(testName);
-        logger.info("\n================================================================================================================================ NEW TEST RUN ================================================================================================================================");
-        logger.info("Starting test setup for: " + testName);
+        configureLogger(testCaseID + "_" + testName, logFilePath);
+        logger = LogManager.getLogger(testCaseID + "_" + testName);
+
+        logger.info("\n===================================================================================== NEW TEST RUN =====================================================================================");
+        logger.info("Logger initialized");
+        logger.info("Starting test setup for: " + testName + " (🔢 Test Case ID: " + testCaseID + ")");
+
 
         try {
-            // Fetch Cloudflare-bypassed HTML and cookies using Puppeteer
             String url = "https://demo.nopcommerce.com";
             Map<String, String> bypassedData = CloudflareBypass.getBypassedData(url);
 
             if (bypassedData == null || bypassedData.isEmpty()) {
+                logger.error("Cloudflare bypass data retrieval failed!");
                 throw new RuntimeException("Failed to retrieve bypassed HTML.");
             }
 
             String bypassedHTML = bypassedData.get("content");
             String cookiesJson = bypassedData.get("cookies");
 
-            // Set up Selenium with stealth mode
             ChromeOptions options = new ChromeOptions();
             options.addArguments("--disable-blink-features=AutomationControlled");
             options.addArguments("user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36");
@@ -64,14 +78,16 @@ public class BaseTest {
             options.setExperimentalOption("useAutomationExtension", false);
 
             driver = WebDriverManager.chromedriver().capabilities(options).create();
+
+            // Store driver in local tread after initialization**
+            driverThreadLocal.set(driver);
+
             driver.manage().window().maximize();
             driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
 
-            // Navigate to the site normally
             driver.get(url);
             logger.info("Navigated to the site: " + url);
 
-            // Inject bypassed cookies
             JSONArray cookiesArray;
             try {
                 cookiesArray = new JSONArray(cookiesJson);
@@ -90,7 +106,6 @@ public class BaseTest {
                 logger.info("Injected cookie: " + jsonObject.getString("name"));
             }
 
-            // Reload the page with the bypassed cookies
             driver.navigate().refresh();
             logger.info("Page refreshed with bypassed cookies.");
 
@@ -98,6 +113,10 @@ public class BaseTest {
             logger.error("Failed to set up the browser", e);
             throw new RuntimeException("Browser setup failed!", e);
         }
+    }
+
+    public static WebDriver getDriver() {
+        return driverThreadLocal.get();
     }
 
     @AfterMethod
@@ -113,14 +132,21 @@ public class BaseTest {
         LoggerContext context = (LoggerContext) LogManager.getContext(false);
         ConfigurationBuilder<BuiltConfiguration> builder = ConfigurationBuilderFactory.newConfigurationBuilder();
 
-        builder.add(builder.newAppender(loggerName, "File")
+        // Create File Appender
+        builder.add(builder.newAppender("FileAppender", "File")
                 .addAttribute("fileName", logFilePath)
-                .add(builder.newLayout("PatternLayout").addAttribute("pattern", "%d{yyyy-MM-dd HH:mm:ss} [%t] %-5level %logger{36} - %msg%n")));
+                .add(builder.newLayout("PatternLayout")
+                        .addAttribute("pattern", "%d{yyyy-MM-dd HH:mm:ss} [%t] %-5level %logger{36} - %msg%n")));
 
-        builder.add(builder.newLogger(loggerName, org.apache.logging.log4j.Level.INFO)
-                .add(builder.newAppenderRef(loggerName))
-                .addAttribute("additivity", false));
+        // Create Root Logger
+        builder.add(builder.newRootLogger(org.apache.logging.log4j.Level.INFO)
+                .add(builder.newAppenderRef("FileAppender")));
 
+        // Apply Configuration
         context.start(builder.build());
+        context.updateLoggers();
     }
+
+
+
 }

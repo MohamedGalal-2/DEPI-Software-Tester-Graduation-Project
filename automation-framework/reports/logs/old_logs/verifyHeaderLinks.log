@@ -1,0 +1,796 @@
+2025-03-16 01:12:58 [main] INFO  verifyHeaderLinks - Starting test setup for: verifyHeaderLinks
+2025-03-16 01:12:58 [main] INFO  verifyHeaderLinks - Setting up Chrome browser...
+2025-03-16 01:12:59 [main] INFO  verifyHeaderLinks - Browser setup complete with ZenRows proxy.
+2025-03-16 01:13:00 [main] INFO  verifyHeaderLinks - Closing the browser for test: verifyHeaderLinks
+2025-03-16 01:13:00 [main] INFO  verifyHeaderLinks - Browser closed.
+2025-03-16 01:15:20 [main] INFO  verifyHeaderLinks - Starting test setup for: verifyHeaderLinks
+2025-03-16 01:15:20 [main] INFO  verifyHeaderLinks - Setting up Chrome browser...
+2025-03-16 01:15:22 [main] INFO  verifyHeaderLinks - Browser setup complete with ZenRows proxy.
+2025-03-16 01:15:22 [main] INFO  verifyHeaderLinks - Navigating to: https://demo.nopcommerce.com
+2025-03-16 01:15:23 [main] INFO  verifyHeaderLinks - Closing the browser for test: verifyHeaderLinks
+2025-03-16 01:15:23 [main] INFO  verifyHeaderLinks - Browser closed.
+2025-03-16 01:16:27 [main] INFO  verifyHeaderLinks - Starting test setup for: verifyHeaderLinks
+2025-03-16 01:16:27 [main] INFO  verifyHeaderLinks - Setting up Chrome browser...
+2025-03-16 01:16:28 [main] INFO  verifyHeaderLinks - Browser setup complete with ZenRows proxy.
+2025-03-16 01:16:28 [main] INFO  verifyHeaderLinks - Navigating to: https://demo.nopcommerce.com
+2025-03-16 01:16:30 [main] INFO  verifyHeaderLinks - Closing the browser for test: verifyHeaderLinks
+2025-03-16 01:16:30 [main] INFO  verifyHeaderLinks - Browser closed.
+2025-03-16 01:18:06 [main] INFO  verifyHeaderLinks - Starting test setup for: verifyHeaderLinks
+2025-03-16 01:18:06 [main] INFO  verifyHeaderLinks - Setting up Chrome browser...
+2025-03-16 01:18:07 [main] INFO  verifyHeaderLinks - Browser setup complete with ZenRows proxy.
+2025-03-16 01:18:07 [main] INFO  verifyHeaderLinks - Navigating to: https://demo.nopcommerce.com
+2025-03-16 01:18:17 [main] INFO  verifyHeaderLinks - Closing the browser for test: verifyHeaderLinks
+2025-03-16 01:18:17 [main] INFO  verifyHeaderLinks - Browser closed.
+2025-03-16 01:19:00 [main] INFO  verifyHeaderLinks - Starting test setup for: verifyHeaderLinks
+2025-03-16 01:19:00 [main] INFO  verifyHeaderLinks - Setting up Chrome browser...
+2025-03-16 01:19:01 [main] INFO  verifyHeaderLinks - Browser setup complete with ZenRows proxy.
+2025-03-16 01:19:01 [main] INFO  verifyHeaderLinks - Navigating to: https://demo.nopcommerce.com
+2025-03-16 01:19:09 [main] INFO  verifyHeaderLinks - Closing the browser for test: verifyHeaderLinks
+2025-03-16 01:19:09 [main] INFO  verifyHeaderLinks - Browser closed.
+2025-03-16 01:19:20 [main] INFO  verifyHeaderLinks - Starting test setup for: verifyHeaderLinks
+2025-03-16 01:19:20 [main] INFO  verifyHeaderLinks - Setting up Chrome browser...
+2025-03-16 01:19:21 [main] INFO  verifyHeaderLinks - Browser setup complete with ZenRows proxy.
+2025-03-16 01:19:21 [main] INFO  verifyHeaderLinks - Navigating to: https://demo.nopcommerce.com
+2025-03-16 01:19:39 [main] INFO  verifyHeaderLinks - Starting test setup for: verifyHeaderLinks
+2025-03-16 01:19:39 [main] INFO  verifyHeaderLinks - Setting up Chrome browser...
+2025-03-16 01:19:40 [main] INFO  verifyHeaderLinks - Browser setup complete with ZenRows proxy.
+2025-03-16 01:19:40 [main] INFO  verifyHeaderLinks - Navigating to: https://demo.nopcommerce.com
+2025-03-16 01:20:32 [main] INFO  verifyHeaderLinks - Starting test setup for: verifyHeaderLinks
+2025-03-16 01:20:32 [main] INFO  verifyHeaderLinks - Setting up Chrome browser...
+2025-03-16 01:20:33 [main] INFO  verifyHeaderLinks - Browser setup complete with ZenRows proxy.
+2025-03-16 01:20:33 [main] INFO  verifyHeaderLinks - Navigating to: https://demo.nopcommerce.com
+2025-03-16 01:20:37 [main] INFO  verifyHeaderLinks - Closing the browser for test: verifyHeaderLinks
+2025-03-16 01:20:37 [main] INFO  verifyHeaderLinks - Browser closed.
+2025-03-16 01:20:51 [main] INFO  verifyHeaderLinks - Starting test setup for: verifyHeaderLinks
+2025-03-16 01:20:51 [main] INFO  verifyHeaderLinks - Setting up Chrome browser...
+2025-03-16 01:20:53 [main] INFO  verifyHeaderLinks - Browser setup complete with ZenRows proxy.
+2025-03-16 01:20:53 [main] INFO  verifyHeaderLinks - Navigating to: https://demo.nopcommerce.com
+2025-03-16 01:21:43 [main] INFO  verifyHeaderLinks - Starting test setup for: verifyHeaderLinks
+2025-03-16 01:21:43 [main] INFO  verifyHeaderLinks - Setting up Chrome browser...
+2025-03-16 01:21:44 [main] INFO  verifyHeaderLinks - Browser setup complete with ZenRows proxy.
+2025-03-16 01:21:44 [main] INFO  verifyHeaderLinks - Navigating to: https://demo.nopcommerce.com
+2025-03-16 01:22:32 [main] INFO  verifyHeaderLinks - Starting test setup for: verifyHeaderLinks
+2025-03-16 01:22:32 [main] INFO  verifyHeaderLinks - Setting up Chrome browser...
+2025-03-16 01:22:33 [main] INFO  verifyHeaderLinks - Browser setup complete with ZenRows proxy.
+2025-03-16 01:22:33 [main] INFO  verifyHeaderLinks - Navigating to: https://demo.nopcommerce.com
+2025-03-16 01:23:00 [main] INFO  verifyHeaderLinks - Starting test setup for: verifyHeaderLinks
+2025-03-16 01:23:00 [main] INFO  verifyHeaderLinks - Setting up Chrome browser...
+2025-03-16 01:23:01 [main] INFO  verifyHeaderLinks - Browser setup complete with ZenRows proxy.
+2025-03-16 01:23:01 [main] INFO  verifyHeaderLinks - Navigating to: https://demo.nopcommerce.com
+2025-03-16 01:23:19 [main] INFO  verifyHeaderLinks - Closing the browser for test: verifyHeaderLinks
+2025-03-16 01:23:19 [main] INFO  verifyHeaderLinks - Browser closed.
+2025-03-16 01:32:29 [main] INFO  verifyHeaderLinks - Starting test setup for: verifyHeaderLinks
+2025-03-16 01:32:29 [main] INFO  verifyHeaderLinks - Setting up Chrome browser...
+2025-03-16 01:32:30 [main] INFO  verifyHeaderLinks - Browser setup complete without proxy.
+2025-03-16 01:32:30 [main] INFO  verifyHeaderLinks - Navigating to: https://demo.nopcommerce.com
+2025-03-16 01:32:38 [main] INFO  verifyHeaderLinks - Closing the browser for test: verifyHeaderLinks
+2025-03-16 01:32:38 [main] INFO  verifyHeaderLinks - Browser closed.
+2025-03-16 01:33:09 [main] INFO  verifyHeaderLinks - Starting test setup for: verifyHeaderLinks
+2025-03-16 01:33:09 [main] INFO  verifyHeaderLinks - Setting up Chrome browser...
+2025-03-16 01:33:10 [main] INFO  verifyHeaderLinks - Browser setup complete without proxy.
+2025-03-16 01:33:10 [main] INFO  verifyHeaderLinks - Navigating to: https://demo.nopcommerce.com
+2025-03-16 01:33:14 [main] INFO  verifyHeaderLinks - Closing the browser for test: verifyHeaderLinks
+2025-03-16 01:33:14 [main] INFO  verifyHeaderLinks - Browser closed.
+2025-03-16 01:33:28 [main] INFO  verifyHeaderLinks - Starting test setup for: verifyHeaderLinks
+2025-03-16 01:33:28 [main] INFO  verifyHeaderLinks - Setting up Chrome browser...
+2025-03-16 01:33:29 [main] INFO  verifyHeaderLinks - Browser setup complete without proxy.
+2025-03-16 01:33:29 [main] INFO  verifyHeaderLinks - Navigating to: https://demo.nopcommerce.com
+2025-03-16 01:33:52 [main] INFO  verifyHeaderLinks - Closing the browser for test: verifyHeaderLinks
+2025-03-16 01:33:52 [main] INFO  verifyHeaderLinks - Browser closed.
+2025-03-16 01:35:45 [main] INFO  verifyHeaderLinks - Starting test setup for: verifyHeaderLinks
+2025-03-16 01:35:45 [main] INFO  verifyHeaderLinks - Setting up Chrome browser...
+2025-03-16 01:35:46 [main] INFO  verifyHeaderLinks - Browser setup complete without proxy.
+2025-03-16 01:35:46 [main] INFO  verifyHeaderLinks - Navigating to: https://demo.nopcommerce.com
+2025-03-16 01:37:32 [main] INFO  verifyHeaderLinks - Starting test setup for: verifyHeaderLinks
+2025-03-16 01:37:32 [main] INFO  verifyHeaderLinks - Setting up Chrome browser...
+2025-03-16 01:37:33 [main] INFO  verifyHeaderLinks - Navigating to: https://demo.nopcommerce.com
+2025-03-16 01:40:21 [main] INFO  verifyHeaderLinks - Starting test setup for: verifyHeaderLinks
+2025-03-16 01:40:21 [main] INFO  verifyHeaderLinks - Setting up Chrome browser...
+2025-03-16 01:40:22 [main] INFO  verifyHeaderLinks - Navigating to: https://demo.nopcommerce.com
+2025-03-16 01:40:27 [main] INFO  verifyHeaderLinks - Verifying Register link...
+2025-03-16 01:40:29 [main] INFO  verifyHeaderLinks - Register link verification successful!
+2025-03-16 01:40:29 [main] INFO  verifyHeaderLinks - Verifying Login link...
+2025-03-16 01:40:30 [main] INFO  verifyHeaderLinks - Login link verification successful!
+2025-03-16 01:40:30 [main] INFO  verifyHeaderLinks - Verifying Wishlist link...
+2025-03-16 01:43:36 [main] INFO  verifyHeaderLinks - Starting test setup for: verifyHeaderLinks
+2025-03-16 01:43:36 [main] INFO  verifyHeaderLinks - Setting up Chrome browser...
+2025-03-16 01:43:37 [main] INFO  verifyHeaderLinks - Navigating to: https://demo.nopcommerce.com
+2025-03-16 01:43:41 [main] INFO  verifyHeaderLinks - Verifying Register link...
+2025-03-16 01:43:43 [main] INFO  verifyHeaderLinks - Register link verification successful!
+2025-03-16 01:43:43 [main] INFO  verifyHeaderLinks - Verifying Login link...
+2025-03-16 01:43:46 [main] INFO  verifyHeaderLinks - Login link verification successful!
+2025-03-16 01:43:46 [main] INFO  verifyHeaderLinks - Verifying Wishlist link...
+2025-03-16 01:43:50 [main] INFO  verifyHeaderLinks - Wishlist link verification successful!
+2025-03-16 01:43:50 [main] INFO  verifyHeaderLinks - Verifying Shopping Cart link...
+2025-03-16 01:44:01 [main] INFO  verifyHeaderLinks - Closing the browser for test: verifyHeaderLinks
+2025-03-16 01:44:01 [main] INFO  verifyHeaderLinks - Browser closed.
+2025-03-16 05:39:38 [main] INFO  verifyHeaderLinks - Starting test setup for: verifyHeaderLinks
+2025-03-16 05:39:38 [main] INFO  verifyHeaderLinks - Setting up Chrome browser...
+2025-03-16 05:39:41 [main] INFO  verifyHeaderLinks - Navigating to: https://demo.nopcommerce.com
+2025-03-16 05:39:43 [main] INFO  verifyHeaderLinks - Verifying Register link...
+2025-03-16 05:39:44 [main] INFO  verifyHeaderLinks - Register link verification successful!
+2025-03-16 05:39:44 [main] INFO  verifyHeaderLinks - Verifying Login link...
+2025-03-16 05:39:45 [main] INFO  verifyHeaderLinks - Login link verification successful!
+2025-03-16 05:39:45 [main] INFO  verifyHeaderLinks - Verifying Wishlist link...
+2025-03-16 05:39:46 [main] INFO  verifyHeaderLinks - Wishlist link verification successful!
+2025-03-16 05:39:46 [main] INFO  verifyHeaderLinks - Verifying Shopping Cart link...
+2025-03-16 05:48:51 [main] INFO  verifyHeaderLinks - Starting test setup for: verifyHeaderLinks
+2025-03-16 05:48:51 [main] INFO  verifyHeaderLinks - Setting up Chrome browser...
+2025-03-16 05:48:53 [main] INFO  verifyHeaderLinks - Navigating to: https://demo.nopcommerce.com
+2025-03-16 05:48:55 [main] INFO  verifyHeaderLinks - Verifying Register link...
+2025-03-16 05:48:56 [main] INFO  verifyHeaderLinks - Register link verification successful!
+2025-03-16 05:48:56 [main] INFO  verifyHeaderLinks - Verifying Login link...
+2025-03-16 05:48:56 [main] INFO  verifyHeaderLinks - Login link verification successful!
+2025-03-16 05:48:56 [main] INFO  verifyHeaderLinks - Verifying Wishlist link...
+2025-03-16 05:48:59 [main] INFO  verifyHeaderLinks - Closing the browser for test: verifyHeaderLinks
+2025-03-16 05:48:59 [main] INFO  verifyHeaderLinks - Browser closed.
+2025-03-16 06:35:54 [main] INFO  verifyHeaderLinks - Starting test setup for: verifyHeaderLinks
+2025-03-16 06:35:54 [main] INFO  verifyHeaderLinks - Setting up Chrome browser...
+2025-03-16 06:35:55 [main] INFO  verifyHeaderLinks - Successfully loaded the bypassed HTML into Selenium.
+2025-03-16 06:35:55 [main] INFO  verifyHeaderLinks - Navigating to: https://demo.nopcommerce.com
+2025-03-16 06:35:56 [main] INFO  verifyHeaderLinks - Verifying Register link...
+2025-03-16 06:36:07 [main] INFO  verifyHeaderLinks - Closing the browser for test: verifyHeaderLinks
+2025-03-16 06:36:07 [main] INFO  verifyHeaderLinks - Browser closed.
+2025-03-16 06:36:31 [main] INFO  verifyHeaderLinks - Starting test setup for: verifyHeaderLinks
+2025-03-16 06:36:31 [main] INFO  verifyHeaderLinks - Setting up Chrome browser...
+2025-03-16 06:36:33 [main] INFO  verifyHeaderLinks - Successfully loaded the bypassed HTML into Selenium.
+2025-03-16 06:36:33 [main] INFO  verifyHeaderLinks - Navigating to: https://demo.nopcommerce.com
+2025-03-16 06:36:34 [main] INFO  verifyHeaderLinks - Verifying Register link...
+2025-03-16 06:36:47 [main] INFO  verifyHeaderLinks - Closing the browser for test: verifyHeaderLinks
+2025-03-16 06:36:47 [main] INFO  verifyHeaderLinks - Browser closed.
+2025-03-16 06:53:25 [main] INFO  verifyHeaderLinks - Starting test setup for: verifyHeaderLinks
+2025-03-16 06:53:43 [main] INFO  verifyHeaderLinks - Navigated to the site: https://demo.nopcommerce.com
+2025-03-16 06:53:43 [main] INFO  verifyHeaderLinks - Injected cookie: cf_clearance
+2025-03-16 06:53:43 [main] INFO  verifyHeaderLinks - Injected cookie: _ga
+2025-03-16 06:53:43 [main] INFO  verifyHeaderLinks - Injected cookie: .Nop.Antiforgery
+2025-03-16 06:53:43 [main] INFO  verifyHeaderLinks - Injected cookie: .Nop.Customer
+2025-03-16 06:53:43 [main] INFO  verifyHeaderLinks - Injected cookie: .Nop.Culture
+2025-03-16 06:53:43 [main] INFO  verifyHeaderLinks - Injected cookie: _ga_SCT41TW89V
+2025-03-16 06:53:44 [main] INFO  verifyHeaderLinks - Page refreshed with bypassed cookies.
+2025-03-16 06:53:44 [main] INFO  verifyHeaderLinks - Navigating to: https://demo.nopcommerce.com
+2025-03-16 06:53:45 [main] INFO  verifyHeaderLinks - Verifying Register link...
+2025-03-16 06:53:45 [main] INFO  verifyHeaderLinks - Register link verification successful!
+2025-03-16 06:53:45 [main] INFO  verifyHeaderLinks - Verifying Login link...
+2025-03-16 06:53:46 [main] INFO  verifyHeaderLinks - Login link verification successful!
+2025-03-16 06:53:46 [main] INFO  verifyHeaderLinks - Verifying Wishlist link...
+2025-03-16 06:53:46 [main] INFO  verifyHeaderLinks - Wishlist link verification successful!
+2025-03-16 06:53:46 [main] INFO  verifyHeaderLinks - Verifying Shopping Cart link...
+2025-03-16 06:53:47 [main] INFO  verifyHeaderLinks - Shopping Cart link verification successful!
+2025-03-16 06:53:47 [main] INFO  verifyHeaderLinks - All header links are verified and clickable!
+2025-03-16 06:53:47 [main] INFO  verifyHeaderLinks - Closing the browser for test: verifyHeaderLinks
+2025-03-16 06:53:47 [main] INFO  verifyHeaderLinks - Browser closed.
+2025-03-16 07:14:01 [main] INFO  verifyHeaderLinks - Starting test setup for: verifyHeaderLinks
+2025-03-16 07:14:18 [main] INFO  verifyHeaderLinks - Navigated to the site: https://demo.nopcommerce.com
+2025-03-16 07:14:18 [main] INFO  verifyHeaderLinks - Injected cookie: cf_clearance
+2025-03-16 07:14:18 [main] INFO  verifyHeaderLinks - Injected cookie: _ga
+2025-03-16 07:14:18 [main] INFO  verifyHeaderLinks - Injected cookie: .Nop.Antiforgery
+2025-03-16 07:14:18 [main] INFO  verifyHeaderLinks - Injected cookie: .Nop.Customer
+2025-03-16 07:14:18 [main] INFO  verifyHeaderLinks - Injected cookie: .Nop.Culture
+2025-03-16 07:14:18 [main] INFO  verifyHeaderLinks - Injected cookie: _ga_SCT41TW89V
+2025-03-16 07:14:18 [main] INFO  verifyHeaderLinks - Page refreshed with bypassed cookies.
+2025-03-16 07:14:18 [main] INFO  verifyHeaderLinks - Navigating to: https://demo.nopcommerce.com
+2025-03-16 07:14:19 [main] INFO  verifyHeaderLinks - Verifying Register link...
+2025-03-16 07:14:19 [main] INFO  verifyHeaderLinks - Register link verification successful!
+2025-03-16 07:14:19 [main] INFO  verifyHeaderLinks - Verifying Login link...
+2025-03-16 07:14:20 [main] INFO  verifyHeaderLinks - Login link verification successful!
+2025-03-16 07:14:20 [main] INFO  verifyHeaderLinks - Verifying Wishlist link...
+2025-03-16 07:14:21 [main] INFO  verifyHeaderLinks - Wishlist link verification successful!
+2025-03-16 07:14:21 [main] INFO  verifyHeaderLinks - Verifying Shopping Cart link...
+2025-03-16 07:14:21 [main] INFO  verifyHeaderLinks - Shopping Cart link verification successful!
+2025-03-16 07:14:21 [main] INFO  verifyHeaderLinks - All header links are verified and clickable!
+2025-03-16 07:14:21 [main] INFO  verifyHeaderLinks - Closing the browser for test: verifyHeaderLinks
+2025-03-16 07:14:21 [main] INFO  verifyHeaderLinks - Browser closed.
+2025-03-16 08:53:40 [main] INFO  verifyHeaderLinks - Starting test setup for: verifyHeaderLinks
+2025-03-16 08:54:05 [main] INFO  verifyHeaderLinks - Navigated to the site: https://demo.nopcommerce.com
+2025-03-16 08:54:05 [main] INFO  verifyHeaderLinks - Injected cookie: _ga
+2025-03-16 08:54:05 [main] INFO  verifyHeaderLinks - Injected cookie: cf_clearance
+2025-03-16 08:54:05 [main] INFO  verifyHeaderLinks - Injected cookie: .Nop.Antiforgery
+2025-03-16 08:54:05 [main] INFO  verifyHeaderLinks - Injected cookie: .Nop.Customer
+2025-03-16 08:54:05 [main] INFO  verifyHeaderLinks - Injected cookie: .Nop.Culture
+2025-03-16 08:54:05 [main] INFO  verifyHeaderLinks - Injected cookie: _ga_SCT41TW89V
+2025-03-16 08:54:06 [main] INFO  verifyHeaderLinks - Page refreshed with bypassed cookies.
+2025-03-16 08:54:06 [main] INFO  verifyHeaderLinks - Navigating to: https://demo.nopcommerce.com
+2025-03-16 08:54:07 [main] INFO  verifyHeaderLinks - Verifying Register link...
+2025-03-16 08:54:08 [main] INFO  verifyHeaderLinks - Register link verification successful!
+2025-03-16 08:54:08 [main] INFO  verifyHeaderLinks - Verifying Login link...
+2025-03-16 08:54:10 [main] INFO  verifyHeaderLinks - Login link verification successful!
+2025-03-16 08:54:10 [main] INFO  verifyHeaderLinks - Verifying Wishlist link...
+2025-03-16 08:54:10 [main] INFO  verifyHeaderLinks - Wishlist link verification successful!
+2025-03-16 08:54:10 [main] INFO  verifyHeaderLinks - Verifying Shopping Cart link...
+2025-03-16 08:54:11 [main] INFO  verifyHeaderLinks - Shopping Cart link verification successful!
+2025-03-16 08:54:11 [main] INFO  verifyHeaderLinks - All header links are verified and clickable!
+2025-03-16 08:54:11 [main] INFO  verifyHeaderLinks - Closing the browser for test: verifyHeaderLinks
+2025-03-16 08:54:11 [main] INFO  verifyHeaderLinks - Browser closed.
+2025-03-16 08:54:38 [main] INFO  verifyHeaderLinks - Starting test setup for: verifyHeaderLinks
+2025-03-16 08:55:03 [main] INFO  verifyHeaderLinks - Navigated to the site: https://demo.nopcommerce.com
+2025-03-16 08:55:03 [main] INFO  verifyHeaderLinks - Injected cookie: _ga
+2025-03-16 08:55:03 [main] INFO  verifyHeaderLinks - Injected cookie: cf_clearance
+2025-03-16 08:55:03 [main] INFO  verifyHeaderLinks - Injected cookie: .Nop.Antiforgery
+2025-03-16 08:55:03 [main] INFO  verifyHeaderLinks - Injected cookie: .Nop.Customer
+2025-03-16 08:55:03 [main] INFO  verifyHeaderLinks - Injected cookie: .Nop.Culture
+2025-03-16 08:55:03 [main] INFO  verifyHeaderLinks - Injected cookie: _ga_SCT41TW89V
+2025-03-16 08:55:04 [main] INFO  verifyHeaderLinks - Page refreshed with bypassed cookies.
+2025-03-16 08:55:04 [main] INFO  verifyHeaderLinks - Navigating to: https://demo.nopcommerce.com
+2025-03-16 08:55:05 [main] INFO  verifyHeaderLinks - Verifying Register link...
+2025-03-16 08:55:06 [main] INFO  verifyHeaderLinks - Register link verification successful!
+2025-03-16 08:55:06 [main] INFO  verifyHeaderLinks - Verifying Login link...
+2025-03-16 08:55:08 [main] INFO  verifyHeaderLinks - Login link verification successful!
+2025-03-16 08:55:08 [main] INFO  verifyHeaderLinks - Verifying Wishlist link...
+2025-03-16 08:55:08 [main] INFO  verifyHeaderLinks - Wishlist link verification successful!
+2025-03-16 08:55:08 [main] INFO  verifyHeaderLinks - Verifying Shopping Cart link...
+2025-03-16 08:55:09 [main] INFO  verifyHeaderLinks - Shopping Cart link verification successful!
+2025-03-16 08:55:09 [main] INFO  verifyHeaderLinks - All header links are verified and clickable!
+2025-03-16 08:55:09 [main] INFO  verifyHeaderLinks - Closing the browser for test: verifyHeaderLinks
+2025-03-16 08:55:09 [main] INFO  verifyHeaderLinks - Browser closed.
+2025-03-16 09:15:05 [main] INFO  verifyHeaderLinks - Starting test setup for: verifyHeaderLinks
+2025-03-16 09:15:29 [main] INFO  verifyHeaderLinks - Navigated to the site: https://demo.nopcommerce.com
+2025-03-16 09:15:29 [main] INFO  verifyHeaderLinks - Injected cookie: _ga
+2025-03-16 09:15:29 [main] INFO  verifyHeaderLinks - Injected cookie: cf_clearance
+2025-03-16 09:15:29 [main] INFO  verifyHeaderLinks - Injected cookie: .Nop.Antiforgery
+2025-03-16 09:15:29 [main] INFO  verifyHeaderLinks - Injected cookie: .Nop.Customer
+2025-03-16 09:15:29 [main] INFO  verifyHeaderLinks - Injected cookie: .Nop.Culture
+2025-03-16 09:15:29 [main] INFO  verifyHeaderLinks - Injected cookie: _ga_SCT41TW89V
+2025-03-16 09:15:29 [main] INFO  verifyHeaderLinks - Page refreshed with bypassed cookies.
+2025-03-16 09:15:29 [main] INFO  verifyHeaderLinks - Navigating to: https://demo.nopcommerce.com
+2025-03-16 09:15:30 [main] INFO  verifyHeaderLinks - Verifying Register link...
+2025-03-16 09:15:32 [main] INFO  verifyHeaderLinks - Register link verification successful!
+2025-03-16 09:15:32 [main] INFO  verifyHeaderLinks - Verifying Login link...
+2025-03-16 09:15:33 [main] INFO  verifyHeaderLinks - Login link verification successful!
+2025-03-16 09:15:33 [main] INFO  verifyHeaderLinks - Verifying Wishlist link...
+2025-03-16 09:15:34 [main] INFO  verifyHeaderLinks - Wishlist link verification successful!
+2025-03-16 09:15:34 [main] INFO  verifyHeaderLinks - Verifying Shopping Cart link...
+2025-03-16 09:15:35 [main] INFO  verifyHeaderLinks - Shopping Cart link verification successful!
+2025-03-16 09:15:35 [main] INFO  verifyHeaderLinks - All header links are verified and clickable!
+2025-03-16 09:15:35 [main] INFO  verifyHeaderLinks - Closing the browser for test: verifyHeaderLinks
+2025-03-16 09:15:35 [main] INFO  verifyHeaderLinks - Browser closed.
+2025-03-17 10:04:46 [main] INFO  verifyHeaderLinks - 
+================================================================================================================================ NEW TEST RUN ================================================================================================================================
+2025-03-17 10:04:46 [main] INFO  verifyHeaderLinks - Starting test setup for: verifyHeaderLinks
+2025-03-17 10:05:09 [main] INFO  verifyHeaderLinks - Navigated to the site: https://demo.nopcommerce.com
+2025-03-17 10:05:09 [main] INFO  verifyHeaderLinks - Injected cookie: cf_clearance
+2025-03-17 10:05:09 [main] INFO  verifyHeaderLinks - Injected cookie: _ga
+2025-03-17 10:05:09 [main] INFO  verifyHeaderLinks - Injected cookie: .Nop.Antiforgery
+2025-03-17 10:05:09 [main] INFO  verifyHeaderLinks - Injected cookie: .Nop.Customer
+2025-03-17 10:05:09 [main] INFO  verifyHeaderLinks - Injected cookie: .Nop.Culture
+2025-03-17 10:05:09 [main] INFO  verifyHeaderLinks - Injected cookie: _ga_SCT41TW89V
+2025-03-17 10:05:09 [main] INFO  verifyHeaderLinks - Page refreshed with bypassed cookies.
+2025-03-17 10:05:09 [main] INFO  verifyHeaderLinks - Navigating to: https://demo.nopcommerce.com
+2025-03-17 10:05:10 [main] INFO  verifyHeaderLinks - Verifying Register link...
+2025-03-17 10:05:12 [main] INFO  verifyHeaderLinks - Register link verification successful!
+2025-03-17 10:05:12 [main] INFO  verifyHeaderLinks - Verifying Login link...
+2025-03-17 10:05:14 [main] INFO  verifyHeaderLinks - Login link verification successful!
+2025-03-17 10:05:14 [main] INFO  verifyHeaderLinks - Verifying Wishlist link...
+2025-03-17 10:05:15 [main] INFO  verifyHeaderLinks - Wishlist link verification successful!
+2025-03-17 10:05:15 [main] INFO  verifyHeaderLinks - Verifying Shopping Cart link...
+2025-03-17 10:05:15 [main] INFO  verifyHeaderLinks - Shopping Cart link verification successful!
+2025-03-17 10:05:15 [main] INFO  verifyHeaderLinks - All header links are verified and clickable!
+2025-03-17 10:05:15 [main] INFO  verifyHeaderLinks - Closing the browser for test: verifyHeaderLinks
+2025-03-17 10:05:16 [main] INFO  verifyHeaderLinks - Browser closed.
+2025-03-17 18:17:37 [main] INFO  verifyHeaderLinks - 
+================================================================================================================================ NEW TEST RUN ================================================================================================================================
+2025-03-17 18:17:37 [main] INFO  verifyHeaderLinks - Starting test setup for: verifyHeaderLinks
+2025-03-17 18:18:01 [main] INFO  verifyHeaderLinks - Navigated to the site: https://demo.nopcommerce.com
+2025-03-17 18:18:01 [main] INFO  verifyHeaderLinks - Injected cookie: cf_clearance
+2025-03-17 18:18:01 [main] INFO  verifyHeaderLinks - Injected cookie: _ga
+2025-03-17 18:18:01 [main] INFO  verifyHeaderLinks - Injected cookie: .Nop.Antiforgery
+2025-03-17 18:18:01 [main] INFO  verifyHeaderLinks - Injected cookie: .Nop.Customer
+2025-03-17 18:18:01 [main] INFO  verifyHeaderLinks - Injected cookie: .Nop.Culture
+2025-03-17 18:18:01 [main] INFO  verifyHeaderLinks - Injected cookie: _ga_SCT41TW89V
+2025-03-17 18:18:02 [main] INFO  verifyHeaderLinks - Page refreshed with bypassed cookies.
+2025-03-17 18:18:02 [main] INFO  verifyHeaderLinks - Navigating to: https://demo.nopcommerce.com
+2025-03-17 18:18:02 [main] INFO  verifyHeaderLinks - Verifying Register link...
+2025-03-17 18:18:04 [main] INFO  verifyHeaderLinks - Register link verification successful!
+2025-03-17 18:18:04 [main] INFO  verifyHeaderLinks - Verifying Login link...
+2025-03-17 18:18:05 [main] INFO  verifyHeaderLinks - Login link verification successful!
+2025-03-17 18:18:05 [main] INFO  verifyHeaderLinks - Verifying Wishlist link...
+2025-03-17 18:18:06 [main] INFO  verifyHeaderLinks - Wishlist link verification successful!
+2025-03-17 18:18:06 [main] INFO  verifyHeaderLinks - Verifying Shopping Cart link...
+2025-03-17 18:18:07 [main] INFO  verifyHeaderLinks - Shopping Cart link verification successful!
+2025-03-17 18:18:07 [main] INFO  verifyHeaderLinks - All header links are verified and clickable!
+2025-03-17 18:18:07 [main] INFO  verifyHeaderLinks - Closing the browser for test: verifyHeaderLinks
+2025-03-17 18:18:07 [main] INFO  verifyHeaderLinks - Browser closed.
+2025-03-17 18:44:21 [main] INFO  verifyHeaderLinks - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-03-17 18:44:21 [main] INFO  verifyHeaderLinks - Starting test setup for: verifyHeaderLinks
+2025-03-17 18:44:43 [main] INFO  verifyHeaderLinks - Navigated to the site: https://demo.nopcommerce.com
+2025-03-17 18:44:43 [main] INFO  verifyHeaderLinks - Injected cookie: _ga
+2025-03-17 18:44:43 [main] INFO  verifyHeaderLinks - Injected cookie: cf_clearance
+2025-03-17 18:44:43 [main] INFO  verifyHeaderLinks - Injected cookie: .Nop.Antiforgery
+2025-03-17 18:44:43 [main] INFO  verifyHeaderLinks - Injected cookie: .Nop.Customer
+2025-03-17 18:44:43 [main] INFO  verifyHeaderLinks - Injected cookie: .Nop.Culture
+2025-03-17 18:44:43 [main] INFO  verifyHeaderLinks - Injected cookie: _ga_SCT41TW89V
+2025-03-17 18:44:44 [main] INFO  verifyHeaderLinks - Page refreshed with bypassed cookies.
+2025-03-17 18:44:44 [main] INFO  verifyHeaderLinks - Navigating to: https://demo.nopcommerce.com
+2025-03-17 18:44:45 [main] INFO  verifyHeaderLinks - Verifying Register link...
+2025-03-17 18:44:46 [main] INFO  verifyHeaderLinks - Register link verification successful!
+2025-03-17 18:44:46 [main] INFO  verifyHeaderLinks - Verifying Login link...
+2025-03-17 18:44:47 [main] INFO  verifyHeaderLinks - Login link verification successful!
+2025-03-17 18:44:47 [main] INFO  verifyHeaderLinks - Verifying Wishlist link...
+2025-03-17 18:44:49 [main] INFO  verifyHeaderLinks - Wishlist link verification successful!
+2025-03-17 18:44:49 [main] INFO  verifyHeaderLinks - Verifying Shopping Cart link...
+2025-03-17 18:44:50 [main] INFO  verifyHeaderLinks - Shopping Cart link verification successful!
+2025-03-17 18:44:50 [main] INFO  verifyHeaderLinks - All header links are verified and clickable!
+2025-03-17 18:44:50 [main] INFO  verifyHeaderLinks - Closing the browser for test: verifyHeaderLinks
+2025-03-17 18:44:50 [main] INFO  verifyHeaderLinks - Browser closed.
+2025-03-17 20:44:01 [main] INFO  verifyHeaderLinks - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-03-17 20:44:01 [main] INFO  verifyHeaderLinks - Starting test setup for: verifyHeaderLinks
+2025-03-17 20:44:29 [main] INFO  verifyHeaderLinks - Navigated to the site: https://demo.nopcommerce.com
+2025-03-17 20:44:29 [main] INFO  verifyHeaderLinks - Injected cookie: _ga
+2025-03-17 20:44:29 [main] INFO  verifyHeaderLinks - Injected cookie: cf_clearance
+2025-03-17 20:44:29 [main] INFO  verifyHeaderLinks - Injected cookie: .Nop.Antiforgery
+2025-03-17 20:44:29 [main] INFO  verifyHeaderLinks - Injected cookie: .Nop.Customer
+2025-03-17 20:44:29 [main] INFO  verifyHeaderLinks - Injected cookie: .Nop.Culture
+2025-03-17 20:44:29 [main] INFO  verifyHeaderLinks - Injected cookie: _ga_SCT41TW89V
+2025-03-17 20:44:30 [main] INFO  verifyHeaderLinks - Page refreshed with bypassed cookies.
+2025-03-17 20:44:30 [main] INFO  verifyHeaderLinks - Navigating to: https://demo.nopcommerce.com
+2025-03-17 20:44:31 [main] INFO  verifyHeaderLinks - Verifying Register link...
+2025-03-17 20:44:33 [main] INFO  verifyHeaderLinks - Register link verification successful!
+2025-03-17 20:44:33 [main] INFO  verifyHeaderLinks - Verifying Login link...
+2025-03-17 20:44:35 [main] INFO  verifyHeaderLinks - Login link verification successful!
+2025-03-17 20:44:35 [main] INFO  verifyHeaderLinks - Verifying Wishlist link...
+2025-03-17 20:44:36 [main] INFO  verifyHeaderLinks - Wishlist link verification successful!
+2025-03-17 20:44:36 [main] INFO  verifyHeaderLinks - Verifying Shopping Cart link...
+2025-03-17 20:44:36 [main] INFO  verifyHeaderLinks - Shopping Cart link verification successful!
+2025-03-17 20:44:36 [main] INFO  verifyHeaderLinks - All header links are verified and clickable!
+2025-03-17 20:44:36 [main] INFO  verifyHeaderLinks - Closing the browser for test: verifyHeaderLinks
+2025-03-17 20:44:37 [main] INFO  verifyHeaderLinks - Browser closed.
+2025-03-17 20:48:33 [main] INFO  verifyHeaderLinks - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-03-17 20:48:33 [main] INFO  verifyHeaderLinks - Starting test setup for: verifyHeaderLinks
+2025-03-17 20:49:03 [main] INFO  verifyHeaderLinks - Navigated to the site: https://demo.nopcommerce.com
+2025-03-17 20:49:03 [main] INFO  verifyHeaderLinks - Injected cookie: cf_clearance
+2025-03-17 20:49:03 [main] INFO  verifyHeaderLinks - Injected cookie: _ga
+2025-03-17 20:49:03 [main] INFO  verifyHeaderLinks - Injected cookie: .Nop.Antiforgery
+2025-03-17 20:49:03 [main] INFO  verifyHeaderLinks - Injected cookie: .Nop.Customer
+2025-03-17 20:49:03 [main] INFO  verifyHeaderLinks - Injected cookie: .Nop.Culture
+2025-03-17 20:49:03 [main] INFO  verifyHeaderLinks - Injected cookie: _ga_SCT41TW89V
+2025-03-17 20:49:04 [main] INFO  verifyHeaderLinks - Page refreshed with bypassed cookies.
+2025-03-17 20:49:04 [main] INFO  verifyHeaderLinks - Navigating to: https://demo.nopcommerce.com
+2025-03-17 20:49:05 [main] INFO  verifyHeaderLinks - Verifying Register link...
+2025-03-17 20:49:07 [main] INFO  verifyHeaderLinks - Register link verification successful!
+2025-03-17 20:49:07 [main] INFO  verifyHeaderLinks - Verifying Login link...
+2025-03-17 20:49:09 [main] INFO  verifyHeaderLinks - Login link verification successful!
+2025-03-17 20:49:09 [main] INFO  verifyHeaderLinks - Verifying Wishlist link...
+2025-03-17 20:49:10 [main] INFO  verifyHeaderLinks - Wishlist link verification successful!
+2025-03-17 20:49:10 [main] INFO  verifyHeaderLinks - Verifying Shopping Cart link...
+2025-03-17 20:49:11 [main] INFO  verifyHeaderLinks - Shopping Cart link verification successful!
+2025-03-17 20:49:11 [main] INFO  verifyHeaderLinks - All header links are verified and clickable!
+2025-03-17 20:49:11 [main] INFO  verifyHeaderLinks - Closing the browser for test: verifyHeaderLinks
+2025-03-17 20:49:11 [main] INFO  verifyHeaderLinks - Browser closed.
+2025-03-17 21:09:41 [main] INFO  verifyHeaderLinks - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-03-17 21:09:41 [main] INFO  verifyHeaderLinks - Starting test setup for: verifyHeaderLinks
+2025-03-17 21:10:09 [main] INFO  verifyHeaderLinks - Navigated to the site: https://demo.nopcommerce.com
+2025-03-17 21:10:09 [main] INFO  verifyHeaderLinks - Injected cookie: cf_clearance
+2025-03-17 21:10:09 [main] INFO  verifyHeaderLinks - Injected cookie: _ga
+2025-03-17 21:10:09 [main] INFO  verifyHeaderLinks - Injected cookie: .Nop.Antiforgery
+2025-03-17 21:10:09 [main] INFO  verifyHeaderLinks - Injected cookie: .Nop.Customer
+2025-03-17 21:10:09 [main] INFO  verifyHeaderLinks - Injected cookie: .Nop.Culture
+2025-03-17 21:10:09 [main] INFO  verifyHeaderLinks - Injected cookie: _ga_SCT41TW89V
+2025-03-17 21:10:10 [main] INFO  verifyHeaderLinks - Page refreshed with bypassed cookies.
+2025-03-17 21:10:10 [main] INFO  verifyHeaderLinks - Navigating to: https://demo.nopcommerce.com
+2025-03-17 21:10:12 [main] INFO  verifyHeaderLinks - Verifying Register link...
+2025-03-17 21:10:14 [main] INFO  verifyHeaderLinks - Register link verification successful!
+2025-03-17 21:10:14 [main] INFO  verifyHeaderLinks - Verifying Login link...
+2025-03-17 21:10:16 [main] INFO  verifyHeaderLinks - Login link verification successful!
+2025-03-17 21:10:16 [main] INFO  verifyHeaderLinks - Verifying Wishlist link...
+2025-03-17 21:10:17 [main] INFO  verifyHeaderLinks - Wishlist link verification successful!
+2025-03-17 21:10:17 [main] INFO  verifyHeaderLinks - Verifying Shopping Cart link...
+2025-03-17 21:10:18 [main] INFO  verifyHeaderLinks - Shopping Cart link verification successful!
+2025-03-17 21:10:18 [main] INFO  verifyHeaderLinks - All header links are verified and clickable!
+2025-03-17 21:10:18 [main] INFO  verifyHeaderLinks - Closing the browser for test: verifyHeaderLinks
+2025-03-17 21:10:18 [main] INFO  verifyHeaderLinks - Browser closed.
+2025-03-17 21:15:07 [main] INFO  verifyHeaderLinks - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-03-17 21:15:07 [main] INFO  verifyHeaderLinks - Starting test setup for: verifyHeaderLinks
+2025-03-17 21:15:32 [main] INFO  verifyHeaderLinks - Navigated to the site: https://demo.nopcommerce.com
+2025-03-17 21:15:32 [main] INFO  verifyHeaderLinks - Injected cookie: _ga
+2025-03-17 21:15:32 [main] INFO  verifyHeaderLinks - Injected cookie: cf_clearance
+2025-03-17 21:15:32 [main] INFO  verifyHeaderLinks - Injected cookie: .Nop.Antiforgery
+2025-03-17 21:15:32 [main] INFO  verifyHeaderLinks - Injected cookie: .Nop.Customer
+2025-03-17 21:15:32 [main] INFO  verifyHeaderLinks - Injected cookie: .Nop.Culture
+2025-03-17 21:15:32 [main] INFO  verifyHeaderLinks - Injected cookie: _ga_SCT41TW89V
+2025-03-17 21:15:33 [main] INFO  verifyHeaderLinks - Page refreshed with bypassed cookies.
+2025-03-17 21:15:33 [main] INFO  verifyHeaderLinks - Navigating to: https://demo.nopcommerce.com
+2025-03-17 21:15:34 [main] INFO  verifyHeaderLinks - Verifying Register link...
+2025-03-17 21:15:36 [main] INFO  verifyHeaderLinks - Register link verification successful!
+2025-03-17 21:15:36 [main] INFO  verifyHeaderLinks - Verifying Login link...
+2025-03-17 21:15:37 [main] INFO  verifyHeaderLinks - Login link verification successful!
+2025-03-17 21:15:37 [main] INFO  verifyHeaderLinks - Verifying Wishlist link...
+2025-03-17 21:15:38 [main] INFO  verifyHeaderLinks - Wishlist link verification successful!
+2025-03-17 21:15:38 [main] INFO  verifyHeaderLinks - Verifying Shopping Cart link...
+2025-03-17 21:15:39 [main] INFO  verifyHeaderLinks - Shopping Cart link verification successful!
+2025-03-17 21:15:39 [main] INFO  verifyHeaderLinks - All header links are verified and clickable!
+2025-03-17 21:15:39 [main] INFO  verifyHeaderLinks - Closing the browser for test: verifyHeaderLinks
+2025-03-17 21:15:39 [main] INFO  verifyHeaderLinks - Browser closed.
+2025-03-17 21:33:07 [main] INFO  verifyHeaderLinks - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-03-17 21:33:07 [main] INFO  verifyHeaderLinks - Starting test setup for: verifyHeaderLinks
+2025-03-17 21:33:35 [main] INFO  verifyHeaderLinks - Navigated to the site: https://demo.nopcommerce.com
+2025-03-17 21:33:35 [main] INFO  verifyHeaderLinks - Injected cookie: _ga
+2025-03-17 21:33:35 [main] INFO  verifyHeaderLinks - Injected cookie: cf_clearance
+2025-03-17 21:33:35 [main] INFO  verifyHeaderLinks - Injected cookie: .Nop.Antiforgery
+2025-03-17 21:33:35 [main] INFO  verifyHeaderLinks - Injected cookie: .Nop.Customer
+2025-03-17 21:33:35 [main] INFO  verifyHeaderLinks - Injected cookie: .Nop.Culture
+2025-03-17 21:33:35 [main] INFO  verifyHeaderLinks - Injected cookie: _ga_SCT41TW89V
+2025-03-17 21:33:36 [main] INFO  verifyHeaderLinks - Page refreshed with bypassed cookies.
+2025-03-17 21:33:36 [main] INFO  verifyHeaderLinks - Navigating to: https://demo.nopcommerce.com
+2025-03-17 21:33:37 [main] INFO  verifyHeaderLinks - Verifying Register link...
+2025-03-17 21:33:39 [main] INFO  verifyHeaderLinks - Register link verification successful!
+2025-03-17 21:33:39 [main] INFO  verifyHeaderLinks - Verifying Login link...
+2025-03-17 21:33:40 [main] INFO  verifyHeaderLinks - Login link verification successful!
+2025-03-17 21:33:40 [main] INFO  verifyHeaderLinks - Verifying Wishlist link...
+2025-03-17 21:33:41 [main] INFO  verifyHeaderLinks - Wishlist link verification successful!
+2025-03-17 21:33:41 [main] INFO  verifyHeaderLinks - Verifying Shopping Cart link...
+2025-03-17 21:33:42 [main] INFO  verifyHeaderLinks - Shopping Cart link verification successful!
+2025-03-17 21:33:42 [main] INFO  verifyHeaderLinks - All header links are verified and clickable!
+2025-03-17 21:33:42 [main] INFO  verifyHeaderLinks - Closing the browser for test: verifyHeaderLinks
+2025-03-17 21:33:42 [main] INFO  verifyHeaderLinks - Browser closed.
+2025-03-17 21:39:11 [main] INFO  verifyHeaderLinks - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-03-17 21:39:11 [main] INFO  verifyHeaderLinks - Starting test setup for: verifyHeaderLinks
+2025-03-17 21:39:30 [main] INFO  verifyHeaderLinks - Navigated to the site: https://demo.nopcommerce.com
+2025-03-17 21:39:30 [main] INFO  verifyHeaderLinks - Injected cookie: cf_clearance
+2025-03-17 21:39:30 [main] INFO  verifyHeaderLinks - Injected cookie: _ga
+2025-03-17 21:39:30 [main] INFO  verifyHeaderLinks - Injected cookie: .Nop.Antiforgery
+2025-03-17 21:39:30 [main] INFO  verifyHeaderLinks - Injected cookie: .Nop.Customer
+2025-03-17 21:39:30 [main] INFO  verifyHeaderLinks - Injected cookie: .Nop.Culture
+2025-03-17 21:39:30 [main] INFO  verifyHeaderLinks - Injected cookie: _ga_SCT41TW89V
+2025-03-17 21:39:30 [main] INFO  verifyHeaderLinks - Page refreshed with bypassed cookies.
+2025-03-17 21:39:30 [main] INFO  verifyHeaderLinks - Navigating to: https://demo.nopcommerce.com
+2025-03-17 21:39:31 [main] INFO  verifyHeaderLinks - Verifying Register link...
+2025-03-17 21:39:31 [main] INFO  verifyHeaderLinks - Register link verification successful!
+2025-03-17 21:39:31 [main] INFO  verifyHeaderLinks - Verifying Login link...
+2025-03-17 21:39:32 [main] INFO  verifyHeaderLinks - Login link verification successful!
+2025-03-17 21:39:32 [main] INFO  verifyHeaderLinks - Verifying Wishlist link...
+2025-03-17 21:39:33 [main] INFO  verifyHeaderLinks - Wishlist link verification successful!
+2025-03-17 21:39:33 [main] INFO  verifyHeaderLinks - Verifying Shopping Cart link...
+2025-03-17 21:39:33 [main] INFO  verifyHeaderLinks - Shopping Cart link verification successful!
+2025-03-17 21:39:33 [main] INFO  verifyHeaderLinks - All header links are verified and clickable!
+2025-03-17 21:39:33 [main] INFO  verifyHeaderLinks - Closing the browser for test: verifyHeaderLinks
+2025-03-17 21:39:33 [main] INFO  verifyHeaderLinks - Browser closed.
+2025-03-17 21:41:12 [main] INFO  verifyHeaderLinks - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-03-17 21:41:12 [main] INFO  verifyHeaderLinks - Starting test setup for: verifyHeaderLinks
+2025-03-17 21:41:30 [main] INFO  verifyHeaderLinks - Navigated to the site: https://demo.nopcommerce.com
+2025-03-17 21:41:30 [main] INFO  verifyHeaderLinks - Injected cookie: cf_clearance
+2025-03-17 21:41:30 [main] INFO  verifyHeaderLinks - Injected cookie: _ga
+2025-03-17 21:41:30 [main] INFO  verifyHeaderLinks - Injected cookie: .Nop.Antiforgery
+2025-03-17 21:41:30 [main] INFO  verifyHeaderLinks - Injected cookie: .Nop.Customer
+2025-03-17 21:41:30 [main] INFO  verifyHeaderLinks - Injected cookie: .Nop.Culture
+2025-03-17 21:41:30 [main] INFO  verifyHeaderLinks - Injected cookie: _ga_SCT41TW89V
+2025-03-17 21:41:30 [main] INFO  verifyHeaderLinks - Page refreshed with bypassed cookies.
+2025-03-17 21:41:30 [main] INFO  verifyHeaderLinks - Navigating to: https://demo.nopcommerce.com
+2025-03-17 21:41:31 [main] INFO  verifyHeaderLinks - Verifying Register link...
+2025-03-17 21:41:32 [main] INFO  verifyHeaderLinks - Register link verification successful!
+2025-03-17 21:41:32 [main] INFO  verifyHeaderLinks - Verifying Login link...
+2025-03-17 21:41:32 [main] INFO  verifyHeaderLinks - Login link verification successful!
+2025-03-17 21:41:32 [main] INFO  verifyHeaderLinks - Verifying Wishlist link...
+2025-03-17 21:41:33 [main] INFO  verifyHeaderLinks - Wishlist link verification successful!
+2025-03-17 21:41:33 [main] INFO  verifyHeaderLinks - Verifying Shopping Cart link...
+2025-03-17 21:41:33 [main] INFO  verifyHeaderLinks - Shopping Cart link verification successful!
+2025-03-17 21:41:33 [main] INFO  verifyHeaderLinks - All header links are verified and clickable!
+2025-03-17 21:41:33 [main] INFO  verifyHeaderLinks - Closing the browser for test: verifyHeaderLinks
+2025-03-17 21:41:34 [main] INFO  verifyHeaderLinks - Browser closed.
+2025-03-17 21:45:21 [main] INFO  verifyHeaderLinks - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-03-17 21:45:21 [main] INFO  verifyHeaderLinks - Starting test setup for: verifyHeaderLinks
+2025-03-17 21:45:39 [main] INFO  verifyHeaderLinks - Navigated to the site: https://demo.nopcommerce.com
+2025-03-17 21:45:39 [main] INFO  verifyHeaderLinks - Injected cookie: cf_clearance
+2025-03-17 21:45:39 [main] INFO  verifyHeaderLinks - Injected cookie: _ga
+2025-03-17 21:45:39 [main] INFO  verifyHeaderLinks - Injected cookie: .Nop.Antiforgery
+2025-03-17 21:45:39 [main] INFO  verifyHeaderLinks - Injected cookie: .Nop.Customer
+2025-03-17 21:45:39 [main] INFO  verifyHeaderLinks - Injected cookie: .Nop.Culture
+2025-03-17 21:45:39 [main] INFO  verifyHeaderLinks - Injected cookie: _ga_SCT41TW89V
+2025-03-17 21:45:40 [main] INFO  verifyHeaderLinks - Page refreshed with bypassed cookies.
+2025-03-17 21:45:40 [main] INFO  verifyHeaderLinks - Navigating to: https://demo.nopcommerce.com
+2025-03-17 21:45:41 [main] INFO  verifyHeaderLinks - Verifying Register link...
+2025-03-17 21:45:52 [main] INFO  verifyHeaderLinks - Closing the browser for test: verifyHeaderLinks
+2025-03-17 21:45:54 [main] INFO  verifyHeaderLinks - Browser closed.
+2025-03-17 21:47:44 [main] INFO  verifyHeaderLinks - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-03-17 21:47:44 [main] INFO  verifyHeaderLinks - Starting test setup for: verifyHeaderLinks
+2025-03-17 21:48:12 [main] INFO  verifyHeaderLinks - Navigated to the site: https://demo.nopcommerce.com
+2025-03-17 21:48:12 [main] INFO  verifyHeaderLinks - Injected cookie: cf_clearance
+2025-03-17 21:48:12 [main] INFO  verifyHeaderLinks - Injected cookie: _ga
+2025-03-17 21:48:12 [main] INFO  verifyHeaderLinks - Injected cookie: .Nop.Antiforgery
+2025-03-17 21:48:12 [main] INFO  verifyHeaderLinks - Injected cookie: .Nop.Customer
+2025-03-17 21:48:12 [main] INFO  verifyHeaderLinks - Injected cookie: .Nop.Culture
+2025-03-17 21:48:12 [main] INFO  verifyHeaderLinks - Injected cookie: _ga_SCT41TW89V
+2025-03-17 21:48:16 [main] INFO  verifyHeaderLinks - Page refreshed with bypassed cookies.
+2025-03-17 21:48:16 [main] INFO  verifyHeaderLinks - Navigating to: https://demo.nopcommerce.com
+2025-03-17 21:48:18 [main] INFO  verifyHeaderLinks - Verifying Register link...
+2025-03-17 21:48:22 [main] INFO  verifyHeaderLinks - Closing the browser for test: verifyHeaderLinks
+2025-03-17 21:48:22 [main] INFO  verifyHeaderLinks - Browser closed.
+2025-03-17 21:49:00 [main] INFO  verifyHeaderLinks - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-03-17 21:49:00 [main] INFO  verifyHeaderLinks - Starting test setup for: verifyHeaderLinks
+2025-03-17 21:49:17 [main] INFO  verifyHeaderLinks - Navigated to the site: https://demo.nopcommerce.com
+2025-03-17 21:49:17 [main] INFO  verifyHeaderLinks - Injected cookie: _ga
+2025-03-17 21:49:18 [main] INFO  verifyHeaderLinks - Injected cookie: cf_clearance
+2025-03-17 21:49:18 [main] INFO  verifyHeaderLinks - Injected cookie: .Nop.Antiforgery
+2025-03-17 21:49:18 [main] INFO  verifyHeaderLinks - Injected cookie: .Nop.Customer
+2025-03-17 21:49:18 [main] INFO  verifyHeaderLinks - Injected cookie: .Nop.Culture
+2025-03-17 21:49:18 [main] INFO  verifyHeaderLinks - Injected cookie: _ga_SCT41TW89V
+2025-03-17 21:49:18 [main] INFO  verifyHeaderLinks - Page refreshed with bypassed cookies.
+2025-03-17 21:49:18 [main] INFO  verifyHeaderLinks - Navigating to: https://demo.nopcommerce.com
+2025-03-17 21:49:19 [main] INFO  verifyHeaderLinks - Verifying Register link...
+2025-03-17 21:49:20 [main] INFO  verifyHeaderLinks - Register link verification successful!
+2025-03-17 21:49:20 [main] INFO  verifyHeaderLinks - Verifying Login link...
+2025-03-17 21:49:20 [main] INFO  verifyHeaderLinks - Login link verification successful!
+2025-03-17 21:49:20 [main] INFO  verifyHeaderLinks - Verifying Wishlist link...
+2025-03-17 21:49:21 [main] INFO  verifyHeaderLinks - Wishlist link verification successful!
+2025-03-17 21:49:21 [main] INFO  verifyHeaderLinks - Verifying Shopping Cart link...
+2025-03-17 21:49:22 [main] INFO  verifyHeaderLinks - Shopping Cart link verification successful!
+2025-03-17 21:49:22 [main] INFO  verifyHeaderLinks - All header links are verified and clickable!
+2025-03-17 21:49:22 [main] INFO  verifyHeaderLinks - Closing the browser for test: verifyHeaderLinks
+2025-03-17 21:49:22 [main] INFO  verifyHeaderLinks - Browser closed.
+2025-03-17 21:59:45 [main] INFO  verifyHeaderLinks - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-03-17 21:59:45 [main] INFO  verifyHeaderLinks - Starting test setup for: verifyHeaderLinks
+2025-03-17 22:00:02 [main] INFO  verifyHeaderLinks - Navigated to the site: https://demo.nopcommerce.com
+2025-03-17 22:00:02 [main] INFO  verifyHeaderLinks - Injected cookie: cf_clearance
+2025-03-17 22:00:02 [main] INFO  verifyHeaderLinks - Injected cookie: _ga
+2025-03-17 22:00:02 [main] INFO  verifyHeaderLinks - Injected cookie: .Nop.Antiforgery
+2025-03-17 22:00:02 [main] INFO  verifyHeaderLinks - Injected cookie: .Nop.Customer
+2025-03-17 22:00:02 [main] INFO  verifyHeaderLinks - Injected cookie: .Nop.Culture
+2025-03-17 22:00:02 [main] INFO  verifyHeaderLinks - Injected cookie: _ga_SCT41TW89V
+2025-03-17 22:00:03 [main] INFO  verifyHeaderLinks - Page refreshed with bypassed cookies.
+2025-03-17 22:00:03 [main] INFO  verifyHeaderLinks - Navigating to: https://demo.nopcommerce.com
+2025-03-17 22:00:03 [main] INFO  verifyHeaderLinks - Verifying Register link...
+2025-03-17 22:00:04 [main] INFO  verifyHeaderLinks - Register link verification successful!
+2025-03-17 22:00:04 [main] INFO  verifyHeaderLinks - Verifying Login link...
+2025-03-17 22:00:05 [main] INFO  verifyHeaderLinks - Login link verification successful!
+2025-03-17 22:00:05 [main] INFO  verifyHeaderLinks - Verifying Wishlist link...
+2025-03-17 22:00:05 [main] INFO  verifyHeaderLinks - Wishlist link verification successful!
+2025-03-17 22:00:05 [main] INFO  verifyHeaderLinks - Verifying Shopping Cart link...
+2025-03-17 22:00:06 [main] INFO  verifyHeaderLinks - Shopping Cart link verification successful!
+2025-03-17 22:00:06 [main] INFO  verifyHeaderLinks - All header links are verified and clickable!
+2025-03-17 22:00:06 [main] INFO  verifyHeaderLinks - Closing the browser for test: verifyHeaderLinks
+2025-03-17 22:00:06 [main] INFO  verifyHeaderLinks - Browser closed.
+2025-03-17 22:03:11 [main] INFO  verifyHeaderLinks - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-03-17 22:03:11 [main] INFO  verifyHeaderLinks - Starting test setup for: verifyHeaderLinks
+2025-03-17 22:03:29 [main] INFO  verifyHeaderLinks - Navigated to the site: https://demo.nopcommerce.com
+2025-03-17 22:03:29 [main] INFO  verifyHeaderLinks - Injected cookie: _ga
+2025-03-17 22:03:29 [main] INFO  verifyHeaderLinks - Injected cookie: cf_clearance
+2025-03-17 22:03:29 [main] INFO  verifyHeaderLinks - Injected cookie: .Nop.Antiforgery
+2025-03-17 22:03:29 [main] INFO  verifyHeaderLinks - Injected cookie: .Nop.Customer
+2025-03-17 22:03:29 [main] INFO  verifyHeaderLinks - Injected cookie: .Nop.Culture
+2025-03-17 22:03:29 [main] INFO  verifyHeaderLinks - Injected cookie: _ga_SCT41TW89V
+2025-03-17 22:03:30 [main] INFO  verifyHeaderLinks - Page refreshed with bypassed cookies.
+2025-03-17 22:03:30 [main] INFO  verifyHeaderLinks - Navigating to: https://demo.nopcommerce.com
+2025-03-17 22:03:30 [main] INFO  verifyHeaderLinks - Verifying Register link...
+2025-03-17 22:03:41 [main] INFO  verifyHeaderLinks - Closing the browser for test: verifyHeaderLinks
+2025-03-17 22:03:41 [main] INFO  verifyHeaderLinks - Browser closed.
+2025-03-17 22:12:44 [main] INFO  verifyHeaderLinks - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-03-17 22:12:44 [main] INFO  verifyHeaderLinks - Starting test setup for: verifyHeaderLinks
+2025-03-17 22:13:03 [main] INFO  verifyHeaderLinks - Navigated to the site: https://demo.nopcommerce.com
+2025-03-17 22:13:03 [main] INFO  verifyHeaderLinks - Injected cookie: cf_clearance
+2025-03-17 22:13:03 [main] INFO  verifyHeaderLinks - Injected cookie: _ga
+2025-03-17 22:13:03 [main] INFO  verifyHeaderLinks - Injected cookie: .Nop.Antiforgery
+2025-03-17 22:13:03 [main] INFO  verifyHeaderLinks - Injected cookie: .Nop.Customer
+2025-03-17 22:13:03 [main] INFO  verifyHeaderLinks - Injected cookie: .Nop.Culture
+2025-03-17 22:13:03 [main] INFO  verifyHeaderLinks - Injected cookie: _ga_SCT41TW89V
+2025-03-17 22:13:04 [main] INFO  verifyHeaderLinks - Page refreshed with bypassed cookies.
+2025-03-17 22:13:04 [main] INFO  verifyHeaderLinks - Navigating to: https://demo.nopcommerce.com
+2025-03-17 22:13:04 [main] INFO  verifyHeaderLinks - Verifying Register link...
+2025-03-17 22:13:05 [main] INFO  verifyHeaderLinks - Register link verification successful!
+2025-03-17 22:13:05 [main] INFO  verifyHeaderLinks - Verifying Login link...
+2025-03-17 22:13:06 [main] INFO  verifyHeaderLinks - Login link verification successful!
+2025-03-17 22:13:06 [main] INFO  verifyHeaderLinks - Verifying Wishlist link...
+2025-03-17 22:13:06 [main] INFO  verifyHeaderLinks - Wishlist link verification successful!
+2025-03-17 22:13:06 [main] INFO  verifyHeaderLinks - Verifying Shopping Cart link...
+2025-03-17 22:13:07 [main] INFO  verifyHeaderLinks - Shopping Cart link verification successful!
+2025-03-17 22:13:07 [main] INFO  verifyHeaderLinks - All header links are verified and clickable!
+2025-03-17 22:13:07 [main] INFO  verifyHeaderLinks - Closing the browser for test: verifyHeaderLinks
+2025-03-17 22:13:07 [main] INFO  verifyHeaderLinks - Browser closed.
+2025-03-17 22:17:32 [main] INFO  verifyHeaderLinks - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-03-17 22:17:32 [main] INFO  verifyHeaderLinks - Starting test setup for: verifyHeaderLinks
+2025-03-17 22:17:50 [main] INFO  verifyHeaderLinks - Navigated to the site: https://demo.nopcommerce.com
+2025-03-17 22:17:50 [main] INFO  verifyHeaderLinks - Injected cookie: cf_clearance
+2025-03-17 22:17:50 [main] INFO  verifyHeaderLinks - Injected cookie: _ga
+2025-03-17 22:17:50 [main] INFO  verifyHeaderLinks - Injected cookie: .Nop.Antiforgery
+2025-03-17 22:17:50 [main] INFO  verifyHeaderLinks - Injected cookie: .Nop.Customer
+2025-03-17 22:17:50 [main] INFO  verifyHeaderLinks - Injected cookie: .Nop.Culture
+2025-03-17 22:17:50 [main] INFO  verifyHeaderLinks - Injected cookie: _ga_SCT41TW89V
+2025-03-17 22:17:50 [main] INFO  verifyHeaderLinks - Page refreshed with bypassed cookies.
+2025-03-17 22:17:50 [main] INFO  verifyHeaderLinks - Navigating to: https://demo.nopcommerce.com
+2025-03-17 22:17:51 [main] INFO  verifyHeaderLinks - Verifying Register link...
+2025-03-17 22:17:51 [main] INFO  verifyHeaderLinks - Register link verification successful!
+2025-03-17 22:17:51 [main] INFO  verifyHeaderLinks - Verifying Login link...
+2025-03-17 22:17:52 [main] INFO  verifyHeaderLinks - Login link verification successful!
+2025-03-17 22:17:52 [main] INFO  verifyHeaderLinks - Verifying Wishlist link...
+2025-03-17 22:17:53 [main] INFO  verifyHeaderLinks - Wishlist link verification successful!
+2025-03-17 22:17:53 [main] INFO  verifyHeaderLinks - Verifying Shopping Cart link...
+2025-03-17 22:17:53 [main] INFO  verifyHeaderLinks - Shopping Cart link verification successful!
+2025-03-17 22:17:53 [main] INFO  verifyHeaderLinks - All header links are verified and clickable!
+2025-03-17 22:17:53 [main] INFO  verifyHeaderLinks - Closing the browser for test: verifyHeaderLinks
+2025-03-17 22:17:53 [main] INFO  verifyHeaderLinks - Browser closed.
+2025-03-17 22:27:11 [main] INFO  verifyHeaderLinks - Starting test setup for: verifyHeaderLinks
+2025-03-17 22:27:29 [main] INFO  verifyHeaderLinks - Navigated to the site: https://demo.nopcommerce.com
+2025-03-17 22:27:29 [main] INFO  verifyHeaderLinks - Injected cookie: cf_clearance
+2025-03-17 22:27:29 [main] INFO  verifyHeaderLinks - Injected cookie: _ga
+2025-03-17 22:27:29 [main] INFO  verifyHeaderLinks - Injected cookie: .Nop.Antiforgery
+2025-03-17 22:27:29 [main] INFO  verifyHeaderLinks - Injected cookie: .Nop.Customer
+2025-03-17 22:27:29 [main] INFO  verifyHeaderLinks - Injected cookie: .Nop.Culture
+2025-03-17 22:27:29 [main] INFO  verifyHeaderLinks - Injected cookie: _ga_SCT41TW89V
+2025-03-17 22:27:30 [main] INFO  verifyHeaderLinks - Page refreshed with bypassed cookies.
+2025-03-17 22:27:30 [main] INFO  verifyHeaderLinks - Navigating to: https://demo.nopcommerce.com
+2025-03-17 22:27:30 [main] INFO  verifyHeaderLinks - Verifying Register link...
+2025-03-17 22:27:31 [main] INFO  verifyHeaderLinks - Register link verification successful!
+2025-03-17 22:27:31 [main] INFO  verifyHeaderLinks - Verifying Login link...
+2025-03-17 22:27:31 [main] INFO  verifyHeaderLinks - Login link verification successful!
+2025-03-17 22:27:31 [main] INFO  verifyHeaderLinks - Verifying Wishlist link...
+2025-03-17 22:27:32 [main] INFO  verifyHeaderLinks - Wishlist link verification successful!
+2025-03-17 22:27:32 [main] INFO  verifyHeaderLinks - Verifying Shopping Cart link...
+2025-03-17 22:27:32 [main] INFO  verifyHeaderLinks - Shopping Cart link verification successful!
+2025-03-17 22:27:32 [main] INFO  verifyHeaderLinks - All header links are verified and clickable!
+2025-03-17 22:27:32 [main] INFO  verifyHeaderLinks - Closing the browser for test: verifyHeaderLinks
+2025-03-17 22:27:33 [main] INFO  verifyHeaderLinks - Browser closed.
+2025-03-17 22:36:09 [main] INFO  verifyHeaderLinks - ===================================================================================== NEW TEST RUN =====================================================================================
+
+2025-03-17 22:36:09 [main] INFO  verifyHeaderLinks - Starting test setup for: verifyHeaderLinks
+2025-03-17 22:36:28 [main] INFO  verifyHeaderLinks - Navigated to the site: https://demo.nopcommerce.com
+2025-03-17 22:36:28 [main] INFO  verifyHeaderLinks - Injected cookie: cf_clearance
+2025-03-17 22:36:28 [main] INFO  verifyHeaderLinks - Injected cookie: _ga
+2025-03-17 22:36:28 [main] INFO  verifyHeaderLinks - Injected cookie: .Nop.Antiforgery
+2025-03-17 22:36:28 [main] INFO  verifyHeaderLinks - Injected cookie: .Nop.Customer
+2025-03-17 22:36:28 [main] INFO  verifyHeaderLinks - Injected cookie: .Nop.Culture
+2025-03-17 22:36:28 [main] INFO  verifyHeaderLinks - Injected cookie: _ga_SCT41TW89V
+2025-03-17 22:36:29 [main] INFO  verifyHeaderLinks - Page refreshed with bypassed cookies.
+2025-03-17 22:36:29 [main] INFO  verifyHeaderLinks - Navigating to: https://demo.nopcommerce.com
+2025-03-17 22:36:30 [main] INFO  verifyHeaderLinks - Verifying Register link...
+2025-03-17 22:36:40 [main] INFO  verifyHeaderLinks - Closing the browser for test: verifyHeaderLinks
+2025-03-17 22:36:40 [main] INFO  verifyHeaderLinks - Browser closed.
+2025-03-17 22:42:04 [main] INFO  verifyHeaderLinks - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-03-17 22:42:04 [main] INFO  verifyHeaderLinks - Starting test setup for: verifyHeaderLinks
+2025-03-17 22:42:23 [main] INFO  verifyHeaderLinks - Navigated to the site: https://demo.nopcommerce.com
+2025-03-17 22:42:23 [main] INFO  verifyHeaderLinks - Injected cookie: cf_clearance
+2025-03-17 22:42:23 [main] INFO  verifyHeaderLinks - Injected cookie: _ga
+2025-03-17 22:42:23 [main] INFO  verifyHeaderLinks - Injected cookie: .Nop.Antiforgery
+2025-03-17 22:42:23 [main] INFO  verifyHeaderLinks - Injected cookie: .Nop.Customer
+2025-03-17 22:42:23 [main] INFO  verifyHeaderLinks - Injected cookie: .Nop.Culture
+2025-03-17 22:42:23 [main] INFO  verifyHeaderLinks - Injected cookie: _ga_SCT41TW89V
+2025-03-17 22:42:23 [main] INFO  verifyHeaderLinks - Page refreshed with bypassed cookies.
+2025-03-17 22:42:23 [main] INFO  verifyHeaderLinks - Navigating to: https://demo.nopcommerce.com
+2025-03-17 22:42:24 [main] INFO  verifyHeaderLinks - Verifying Register link...
+2025-03-17 22:42:25 [main] INFO  verifyHeaderLinks - Register link verification successful!
+2025-03-17 22:42:25 [main] INFO  verifyHeaderLinks - Verifying Login link...
+2025-03-17 22:42:25 [main] INFO  verifyHeaderLinks - Login link verification successful!
+2025-03-17 22:42:25 [main] INFO  verifyHeaderLinks - Verifying Wishlist link...
+2025-03-17 22:42:26 [main] INFO  verifyHeaderLinks - Wishlist link verification successful!
+2025-03-17 22:42:26 [main] INFO  verifyHeaderLinks - Verifying Shopping Cart link...
+2025-03-17 22:42:26 [main] INFO  verifyHeaderLinks - Shopping Cart link verification successful!
+2025-03-17 22:42:26 [main] INFO  verifyHeaderLinks - All header links are verified and clickable!
+2025-03-17 22:42:26 [main] INFO  verifyHeaderLinks - Closing the browser for test: verifyHeaderLinks
+2025-03-17 22:42:26 [main] INFO  verifyHeaderLinks - Browser closed.
+2025-03-17 22:54:22 [main] INFO  verifyHeaderLinks - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-03-17 22:54:22 [main] INFO  verifyHeaderLinks - Starting test setup for: verifyHeaderLinks
+2025-03-17 22:54:41 [main] INFO  verifyHeaderLinks - Navigated to the site: https://demo.nopcommerce.com
+2025-03-17 22:54:41 [main] INFO  verifyHeaderLinks - Injected cookie: _ga
+2025-03-17 22:54:41 [main] INFO  verifyHeaderLinks - Injected cookie: cf_clearance
+2025-03-17 22:54:41 [main] INFO  verifyHeaderLinks - Injected cookie: .Nop.Antiforgery
+2025-03-17 22:54:41 [main] INFO  verifyHeaderLinks - Injected cookie: .Nop.Customer
+2025-03-17 22:54:41 [main] INFO  verifyHeaderLinks - Injected cookie: .Nop.Culture
+2025-03-17 22:54:41 [main] INFO  verifyHeaderLinks - Injected cookie: _ga_SCT41TW89V
+2025-03-17 22:54:41 [main] INFO  verifyHeaderLinks - Page refreshed with bypassed cookies.
+2025-03-17 22:54:41 [main] INFO  verifyHeaderLinks - Navigating to: https://demo.nopcommerce.com
+2025-03-17 22:54:43 [main] INFO  verifyHeaderLinks - Verifying Register link...
+2025-03-17 22:54:55 [main] INFO  verifyHeaderLinks - Closing the browser for test: verifyHeaderLinks
+2025-03-17 22:54:55 [main] INFO  verifyHeaderLinks - Browser closed.
+2025-03-17 23:01:59 [main] INFO  verifyHeaderLinks - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-03-17 23:01:59 [main] INFO  verifyHeaderLinks - Starting test setup for: verifyHeaderLinks
+2025-03-17 23:02:17 [main] INFO  verifyHeaderLinks - Navigated to the site: https://demo.nopcommerce.com
+2025-03-17 23:02:17 [main] INFO  verifyHeaderLinks - Injected cookie: _ga
+2025-03-17 23:02:17 [main] INFO  verifyHeaderLinks - Injected cookie: cf_clearance
+2025-03-17 23:02:17 [main] INFO  verifyHeaderLinks - Injected cookie: .Nop.Antiforgery
+2025-03-17 23:02:17 [main] INFO  verifyHeaderLinks - Injected cookie: .Nop.Customer
+2025-03-17 23:02:17 [main] INFO  verifyHeaderLinks - Injected cookie: .Nop.Culture
+2025-03-17 23:02:17 [main] INFO  verifyHeaderLinks - Injected cookie: _ga_SCT41TW89V
+2025-03-17 23:02:18 [main] INFO  verifyHeaderLinks - Page refreshed with bypassed cookies.
+2025-03-17 23:02:18 [main] INFO  verifyHeaderLinks - Navigating to: https://demo.nopcommerce.com
+2025-03-17 23:02:18 [main] INFO  verifyHeaderLinks - Verifying Register link...
+2025-03-17 23:02:19 [main] INFO  verifyHeaderLinks - Register link verification successful!
+2025-03-17 23:02:19 [main] INFO  verifyHeaderLinks - Verifying Login link...
+2025-03-17 23:02:19 [main] INFO  verifyHeaderLinks - Login link verification successful!
+2025-03-17 23:02:19 [main] INFO  verifyHeaderLinks - Verifying Wishlist link...
+2025-03-17 23:02:20 [main] INFO  verifyHeaderLinks - Wishlist link verification successful!
+2025-03-17 23:02:20 [main] INFO  verifyHeaderLinks - Verifying Shopping Cart link...
+2025-03-17 23:02:20 [main] INFO  verifyHeaderLinks - Shopping Cart link verification successful!
+2025-03-17 23:02:20 [main] INFO  verifyHeaderLinks - All header links are verified and clickable!
+2025-03-17 23:02:20 [main] INFO  verifyHeaderLinks - Closing the browser for test: verifyHeaderLinks
+2025-03-17 23:02:20 [main] INFO  verifyHeaderLinks - Browser closed.
+2025-03-17 23:06:10 [main] INFO  verifyHeaderLinks - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-03-17 23:06:10 [main] INFO  verifyHeaderLinks - Starting test setup for: verifyHeaderLinks
+2025-03-17 23:06:27 [main] INFO  verifyHeaderLinks - Navigated to the site: https://demo.nopcommerce.com
+2025-03-17 23:06:27 [main] INFO  verifyHeaderLinks - Injected cookie: cf_clearance
+2025-03-17 23:06:27 [main] INFO  verifyHeaderLinks - Injected cookie: _ga
+2025-03-17 23:06:27 [main] INFO  verifyHeaderLinks - Injected cookie: .Nop.Antiforgery
+2025-03-17 23:06:27 [main] INFO  verifyHeaderLinks - Injected cookie: .Nop.Customer
+2025-03-17 23:06:27 [main] INFO  verifyHeaderLinks - Injected cookie: .Nop.Culture
+2025-03-17 23:06:27 [main] INFO  verifyHeaderLinks - Injected cookie: _ga_SCT41TW89V
+2025-03-17 23:06:28 [main] INFO  verifyHeaderLinks - Page refreshed with bypassed cookies.
+2025-03-17 23:06:28 [main] INFO  verifyHeaderLinks - Navigating to: https://demo.nopcommerce.com
+2025-03-17 23:06:28 [main] INFO  verifyHeaderLinks - Verifying Register link...
+2025-03-17 23:06:29 [main] INFO  verifyHeaderLinks - Register link verification successful!
+2025-03-17 23:06:29 [main] INFO  verifyHeaderLinks - Verifying Login link...
+2025-03-17 23:06:30 [main] INFO  verifyHeaderLinks - Login link verification successful!
+2025-03-17 23:06:30 [main] INFO  verifyHeaderLinks - Verifying Wishlist link...
+2025-03-17 23:06:30 [main] INFO  verifyHeaderLinks - Wishlist link verification successful!
+2025-03-17 23:06:30 [main] INFO  verifyHeaderLinks - Verifying Shopping Cart link...
+2025-03-17 23:06:31 [main] INFO  verifyHeaderLinks - Shopping Cart link verification successful!
+2025-03-17 23:06:31 [main] INFO  verifyHeaderLinks - All header links are verified and clickable!
+2025-03-17 23:06:31 [main] INFO  verifyHeaderLinks - Closing the browser for test: verifyHeaderLinks
+2025-03-17 23:06:31 [main] INFO  verifyHeaderLinks - Browser closed.
+2025-03-17 23:08:25 [main] INFO  verifyHeaderLinks - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-03-17 23:08:25 [main] INFO  verifyHeaderLinks - Starting test setup for: verifyHeaderLinks
+2025-03-17 23:08:43 [main] INFO  verifyHeaderLinks - Navigated to the site: https://demo.nopcommerce.com
+2025-03-17 23:08:43 [main] INFO  verifyHeaderLinks - Injected cookie: cf_clearance
+2025-03-17 23:08:43 [main] INFO  verifyHeaderLinks - Injected cookie: _ga
+2025-03-17 23:08:43 [main] INFO  verifyHeaderLinks - Injected cookie: .Nop.Antiforgery
+2025-03-17 23:08:43 [main] INFO  verifyHeaderLinks - Injected cookie: .Nop.Customer
+2025-03-17 23:08:43 [main] INFO  verifyHeaderLinks - Injected cookie: .Nop.Culture
+2025-03-17 23:08:43 [main] INFO  verifyHeaderLinks - Injected cookie: _ga_SCT41TW89V
+2025-03-17 23:08:44 [main] INFO  verifyHeaderLinks - Page refreshed with bypassed cookies.
+2025-03-17 23:08:44 [main] INFO  verifyHeaderLinks - Navigating to: https://demo.nopcommerce.com
+2025-03-17 23:08:45 [main] INFO  verifyHeaderLinks - Verifying Register link...
+2025-03-17 23:08:55 [main] INFO  verifyHeaderLinks - Closing the browser for test: verifyHeaderLinks
+2025-03-17 23:08:55 [main] INFO  verifyHeaderLinks - Browser closed.
+2025-03-17 23:30:21 [main] INFO  verifyHeaderLinks - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-03-17 23:30:21 [main] INFO  verifyHeaderLinks - Starting test setup for: verifyHeaderLinks
+2025-03-17 23:30:40 [main] INFO  verifyHeaderLinks - Navigated to the site: https://demo.nopcommerce.com
+2025-03-17 23:30:40 [main] INFO  verifyHeaderLinks - Injected cookie: _ga
+2025-03-17 23:30:40 [main] INFO  verifyHeaderLinks - Injected cookie: cf_clearance
+2025-03-17 23:30:40 [main] INFO  verifyHeaderLinks - Injected cookie: .Nop.Antiforgery
+2025-03-17 23:30:40 [main] INFO  verifyHeaderLinks - Injected cookie: .Nop.Customer
+2025-03-17 23:30:40 [main] INFO  verifyHeaderLinks - Injected cookie: .Nop.Culture
+2025-03-17 23:30:40 [main] INFO  verifyHeaderLinks - Injected cookie: _ga_SCT41TW89V
+2025-03-17 23:30:40 [main] INFO  verifyHeaderLinks - Page refreshed with bypassed cookies.
+2025-03-17 23:30:40 [main] INFO  verifyHeaderLinks - Navigating to: https://demo.nopcommerce.com
+2025-03-17 23:30:41 [main] INFO  verifyHeaderLinks - Verifying Register link...
+2025-03-17 23:30:42 [main] INFO  verifyHeaderLinks - Register link verification successful!
+2025-03-17 23:30:42 [main] INFO  verifyHeaderLinks - Verifying Login link...
+2025-03-17 23:30:42 [main] INFO  verifyHeaderLinks - Login link verification successful!
+2025-03-17 23:30:42 [main] INFO  verifyHeaderLinks - Verifying Wishlist link...
+2025-03-17 23:30:43 [main] INFO  verifyHeaderLinks - Wishlist link verification successful!
+2025-03-17 23:30:43 [main] INFO  verifyHeaderLinks - Verifying Shopping Cart link...
+2025-03-17 23:30:43 [main] INFO  verifyHeaderLinks - Shopping Cart link verification successful!
+2025-03-17 23:30:43 [main] INFO  verifyHeaderLinks - All header links are verified and clickable!
+2025-03-17 23:30:43 [main] INFO  verifyHeaderLinks - Closing the browser for test: verifyHeaderLinks
+2025-03-17 23:30:44 [main] INFO  verifyHeaderLinks - Browser closed.
+2025-03-17 23:31:13 [main] INFO  verifyHeaderLinks - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-03-17 23:31:13 [main] INFO  verifyHeaderLinks - Starting test setup for: verifyHeaderLinks
+2025-03-17 23:31:30 [main] INFO  verifyHeaderLinks - Navigated to the site: https://demo.nopcommerce.com
+2025-03-17 23:31:30 [main] INFO  verifyHeaderLinks - Injected cookie: _ga
+2025-03-17 23:31:30 [main] INFO  verifyHeaderLinks - Injected cookie: cf_clearance
+2025-03-17 23:31:30 [main] INFO  verifyHeaderLinks - Injected cookie: .Nop.Antiforgery
+2025-03-17 23:31:30 [main] INFO  verifyHeaderLinks - Injected cookie: .Nop.Customer
+2025-03-17 23:31:30 [main] INFO  verifyHeaderLinks - Injected cookie: .Nop.Culture
+2025-03-17 23:31:30 [main] INFO  verifyHeaderLinks - Injected cookie: _ga_SCT41TW89V
+2025-03-17 23:31:31 [main] INFO  verifyHeaderLinks - Page refreshed with bypassed cookies.
+2025-03-17 23:31:31 [main] INFO  verifyHeaderLinks - Navigating to: https://demo.nopcommerce.com
+2025-03-17 23:31:31 [main] INFO  verifyHeaderLinks - Verifying Register link...
+2025-03-17 23:31:32 [main] INFO  verifyHeaderLinks - Register link verification successful!
+2025-03-17 23:31:32 [main] INFO  verifyHeaderLinks - Verifying Login link...
+2025-03-17 23:31:32 [main] INFO  verifyHeaderLinks - Login link verification successful!
+2025-03-17 23:31:32 [main] INFO  verifyHeaderLinks - Verifying Wishlist link...
+2025-03-17 23:31:33 [main] INFO  verifyHeaderLinks - Wishlist link verification successful!
+2025-03-17 23:31:33 [main] INFO  verifyHeaderLinks - Verifying Shopping Cart link...
+2025-03-17 23:31:33 [main] INFO  verifyHeaderLinks - Shopping Cart link verification successful!
+2025-03-17 23:31:33 [main] INFO  verifyHeaderLinks - All header links are verified and clickable!
+2025-03-17 23:31:33 [main] INFO  verifyHeaderLinks - Closing the browser for test: verifyHeaderLinks
+2025-03-17 23:31:33 [main] INFO  verifyHeaderLinks - Browser closed.
+2025-03-17 23:38:12 [main] INFO  verifyHeaderLinks - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-03-17 23:38:12 [main] INFO  verifyHeaderLinks - Starting test setup for: verifyHeaderLinks

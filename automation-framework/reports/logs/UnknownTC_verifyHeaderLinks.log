@@ -1,0 +1,186 @@
+2025-03-18 03:12:22 [main] INFO  UnknownTC_verifyHeaderLinks - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-03-18 03:12:22 [main] INFO  UnknownTC_verifyHeaderLinks - Logger initialized and writing to: E:/Folder/Galal/Courses/Digital Egypt Pioneers Initiative (DEPI) - Software Testing/DEPI Software Tester Graduation Project/automation-framework/reports/logs/UnknownTC_verifyHeaderLinks.log
+2025-03-18 03:12:22 [main] INFO  UnknownTC_verifyHeaderLinks - Starting test setup for: verifyHeaderLinks (🔢 Test Case ID: UnknownTC)
+2025-03-18 03:12:39 [main] INFO  UnknownTC_verifyHeaderLinks - Navigated to the site: https://demo.nopcommerce.com
+2025-03-18 03:12:39 [main] INFO  UnknownTC_verifyHeaderLinks - Injected cookie: cf_clearance
+2025-03-18 03:12:39 [main] INFO  UnknownTC_verifyHeaderLinks - Injected cookie: _ga
+2025-03-18 03:12:39 [main] INFO  UnknownTC_verifyHeaderLinks - Injected cookie: .Nop.Antiforgery
+2025-03-18 03:12:39 [main] INFO  UnknownTC_verifyHeaderLinks - Injected cookie: .Nop.Customer
+2025-03-18 03:12:39 [main] INFO  UnknownTC_verifyHeaderLinks - Injected cookie: .Nop.Culture
+2025-03-18 03:12:39 [main] INFO  UnknownTC_verifyHeaderLinks - Injected cookie: _ga_SCT41TW89V
+2025-03-18 03:12:40 [main] INFO  UnknownTC_verifyHeaderLinks - Page refreshed with bypassed cookies.
+2025-03-18 03:12:40 [main] INFO  UnknownTC_verifyHeaderLinks - 🟢 Starting test: verifyHeaderLinks (🔢 Test Case ID: UnknownTC)
+2025-03-18 03:12:40 [main] INFO  UnknownTC_verifyHeaderLinks - Navigating to: https://demo.nopcommerce.com
+2025-03-18 03:12:40 [main] INFO  UnknownTC_verifyHeaderLinks - Verifying Register link...
+2025-03-18 03:12:41 [main] INFO  UnknownTC_verifyHeaderLinks - Register link verification successful!
+2025-03-18 03:12:41 [main] INFO  UnknownTC_verifyHeaderLinks - Verifying Login link...
+2025-03-18 03:12:41 [main] INFO  UnknownTC_verifyHeaderLinks - Login link verification successful!
+2025-03-18 03:12:41 [main] INFO  UnknownTC_verifyHeaderLinks - Verifying Wishlist link...
+2025-03-18 03:12:42 [main] INFO  UnknownTC_verifyHeaderLinks - Wishlist link verification successful!
+2025-03-18 03:12:42 [main] INFO  UnknownTC_verifyHeaderLinks - Verifying Shopping Cart link...
+2025-03-18 03:12:43 [main] INFO  UnknownTC_verifyHeaderLinks - Shopping Cart link verification successful!
+2025-03-18 03:12:43 [main] INFO  UnknownTC_verifyHeaderLinks - All header links are verified and clickable!
+2025-03-18 03:12:43 [main] INFO  listeners.TestListener - ✅ Test PASSED: verifyHeaderLinks (Duration: 2868ms)
+2025-03-18 03:12:43 [main] INFO  UnknownTC_verifyHeaderLinks - Closing the browser for test: verifyHeaderLinks
+2025-03-18 03:12:43 [main] INFO  UnknownTC_verifyHeaderLinks - Browser closed.
+2025-03-18 03:15:19 [main] INFO  UnknownTC_verifyHeaderLinks - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-03-18 03:15:19 [main] INFO  UnknownTC_verifyHeaderLinks - Logger initialized and writing to: E:/Folder/Galal/Courses/Digital Egypt Pioneers Initiative (DEPI) - Software Testing/DEPI Software Tester Graduation Project/automation-framework/reports/logs/UnknownTC_verifyHeaderLinks.log
+2025-03-18 03:15:19 [main] INFO  UnknownTC_verifyHeaderLinks - Starting test setup for: verifyHeaderLinks (🔢 Test Case ID: UnknownTC)
+2025-03-18 03:15:36 [main] INFO  UnknownTC_verifyHeaderLinks - Navigated to the site: https://demo.nopcommerce.com
+2025-03-18 03:15:36 [main] INFO  UnknownTC_verifyHeaderLinks - Injected cookie: cf_clearance
+2025-03-18 03:15:36 [main] INFO  UnknownTC_verifyHeaderLinks - Injected cookie: _ga
+2025-03-18 03:15:36 [main] INFO  UnknownTC_verifyHeaderLinks - Injected cookie: .Nop.Antiforgery
+2025-03-18 03:15:36 [main] INFO  UnknownTC_verifyHeaderLinks - Injected cookie: .Nop.Customer
+2025-03-18 03:15:37 [main] INFO  UnknownTC_verifyHeaderLinks - Injected cookie: .Nop.Culture
+2025-03-18 03:15:37 [main] INFO  UnknownTC_verifyHeaderLinks - Injected cookie: _ga_SCT41TW89V
+2025-03-18 03:15:37 [main] INFO  UnknownTC_verifyHeaderLinks - Page refreshed with bypassed cookies.
+2025-03-18 03:15:37 [main] INFO  UnknownTC_verifyHeaderLinks - 🟢 Starting test: verifyHeaderLinks (🔢 Test Case ID: UnknownTC)
+2025-03-18 03:15:37 [main] INFO  UnknownTC_verifyHeaderLinks - Navigating to: https://demo.nopcommerce.com
+2025-03-18 03:15:38 [main] INFO  UnknownTC_verifyHeaderLinks - Verifying Register link...
+2025-03-18 03:15:38 [main] INFO  UnknownTC_verifyHeaderLinks - Register link verification successful!
+2025-03-18 03:15:38 [main] INFO  UnknownTC_verifyHeaderLinks - Verifying Login link...
+2025-03-18 03:15:39 [main] INFO  UnknownTC_verifyHeaderLinks - Login link verification successful!
+2025-03-18 03:15:39 [main] INFO  UnknownTC_verifyHeaderLinks - Verifying Wishlist link...
+2025-03-18 03:15:39 [main] INFO  UnknownTC_verifyHeaderLinks - Wishlist link verification successful!
+2025-03-18 03:15:39 [main] INFO  UnknownTC_verifyHeaderLinks - Verifying Shopping Cart link...
+2025-03-18 03:15:40 [main] INFO  UnknownTC_verifyHeaderLinks - Shopping Cart link verification successful!
+2025-03-18 03:15:40 [main] INFO  UnknownTC_verifyHeaderLinks - All header links are verified and clickable!
+2025-03-18 03:15:40 [main] INFO  listeners.TestListener - ✅ Test PASSED: verifyHeaderLinks (Duration: 2728ms)
+2025-03-18 03:15:40 [main] INFO  UnknownTC_verifyHeaderLinks - Closing the browser for test: verifyHeaderLinks
+2025-03-18 03:15:40 [main] INFO  UnknownTC_verifyHeaderLinks - Browser closed.
+2025-03-18 03:23:54 [main] INFO  UnknownTC_verifyHeaderLinks - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-03-18 03:23:54 [main] INFO  UnknownTC_verifyHeaderLinks - Logger initialized and writing to: E:/Folder/Galal/Courses/Digital Egypt Pioneers Initiative (DEPI) - Software Testing/DEPI Software Tester Graduation Project/automation-framework/reports/logs/UnknownTC_verifyHeaderLinks.log
+2025-03-18 03:23:54 [main] INFO  UnknownTC_verifyHeaderLinks - Starting test setup for: verifyHeaderLinks (🔢 Test Case ID: UnknownTC)
+2025-03-18 03:29:32 [main] INFO  UnknownTC_verifyHeaderLinks - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-03-18 03:29:32 [main] INFO  UnknownTC_verifyHeaderLinks - Logger initialized and writing to: E:/Folder/Galal/Courses/Digital Egypt Pioneers Initiative (DEPI) - Software Testing/DEPI Software Tester Graduation Project/automation-framework/reports/logs/UnknownTC_verifyHeaderLinks.log
+2025-03-18 03:29:32 [main] INFO  UnknownTC_verifyHeaderLinks - Starting test setup for: verifyHeaderLinks (🔢 Test Case ID: UnknownTC)
+2025-03-18 03:29:51 [main] INFO  UnknownTC_verifyHeaderLinks - Navigated to the site: https://demo.nopcommerce.com
+2025-03-18 03:29:51 [main] INFO  UnknownTC_verifyHeaderLinks - Injected cookie: cf_clearance
+2025-03-18 03:29:51 [main] INFO  UnknownTC_verifyHeaderLinks - Injected cookie: _ga
+2025-03-18 03:29:51 [main] INFO  UnknownTC_verifyHeaderLinks - Injected cookie: .Nop.Antiforgery
+2025-03-18 03:29:51 [main] INFO  UnknownTC_verifyHeaderLinks - Injected cookie: .Nop.Customer
+2025-03-18 03:29:51 [main] INFO  UnknownTC_verifyHeaderLinks - Injected cookie: .Nop.Culture
+2025-03-18 03:29:51 [main] INFO  UnknownTC_verifyHeaderLinks - Injected cookie: _ga_SCT41TW89V
+2025-03-18 03:29:51 [main] INFO  UnknownTC_verifyHeaderLinks - Page refreshed with bypassed cookies.
+2025-03-18 03:29:51 [main] INFO  UnknownTC_verifyHeaderLinks - 🟢 Starting test: verifyHeaderLinks (🔢 Test Case ID: UnknownTC)
+2025-03-18 03:29:51 [main] INFO  UnknownTC_verifyHeaderLinks - Navigating to: https://demo.nopcommerce.com
+2025-03-18 03:29:52 [main] INFO  UnknownTC_verifyHeaderLinks - Verifying Register link...
+2025-03-18 03:29:53 [main] INFO  UnknownTC_verifyHeaderLinks - Register link verification successful!
+2025-03-18 03:29:53 [main] INFO  UnknownTC_verifyHeaderLinks - Verifying Login link...
+2025-03-18 03:29:54 [main] INFO  UnknownTC_verifyHeaderLinks - Login link verification successful!
+2025-03-18 03:29:54 [main] INFO  UnknownTC_verifyHeaderLinks - Verifying Wishlist link...
+2025-03-18 03:29:54 [main] INFO  UnknownTC_verifyHeaderLinks - Wishlist link verification successful!
+2025-03-18 03:29:54 [main] INFO  UnknownTC_verifyHeaderLinks - Verifying Shopping Cart link...
+2025-03-18 03:29:55 [main] INFO  UnknownTC_verifyHeaderLinks - Shopping Cart link verification successful!
+2025-03-18 03:29:55 [main] INFO  UnknownTC_verifyHeaderLinks - All header links are verified and clickable!
+2025-03-18 03:29:55 [main] INFO  listeners.TestListener - ✅ Test PASSED: verifyHeaderLinks (Duration: 3576ms)
+2025-03-18 03:29:55 [main] INFO  UnknownTC_verifyHeaderLinks - Closing the browser for test: verifyHeaderLinks
+2025-03-18 03:29:55 [main] INFO  UnknownTC_verifyHeaderLinks - Browser closed.
+2025-03-18 03:34:09 [main] INFO  UnknownTC_verifyHeaderLinks - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-03-18 03:34:09 [main] INFO  UnknownTC_verifyHeaderLinks - Logger initialized and writing to: E:/Folder/Galal/Courses/Digital Egypt Pioneers Initiative (DEPI) - Software Testing/DEPI Software Tester Graduation Project/automation-framework/reports/logs/UnknownTC_verifyHeaderLinks.log
+2025-03-18 03:34:09 [main] INFO  UnknownTC_verifyHeaderLinks - Starting test setup for: verifyHeaderLinks (🔢 Test Case ID: UnknownTC)
+2025-03-18 03:34:27 [main] INFO  UnknownTC_verifyHeaderLinks - Navigated to the site: https://demo.nopcommerce.com
+2025-03-18 03:34:27 [main] INFO  UnknownTC_verifyHeaderLinks - Injected cookie: _ga
+2025-03-18 03:34:27 [main] INFO  UnknownTC_verifyHeaderLinks - Injected cookie: cf_clearance
+2025-03-18 03:34:27 [main] INFO  UnknownTC_verifyHeaderLinks - Injected cookie: .Nop.Antiforgery
+2025-03-18 03:34:27 [main] INFO  UnknownTC_verifyHeaderLinks - Injected cookie: .Nop.Customer
+2025-03-18 03:34:27 [main] INFO  UnknownTC_verifyHeaderLinks - Injected cookie: .Nop.Culture
+2025-03-18 03:34:27 [main] INFO  UnknownTC_verifyHeaderLinks - Injected cookie: _ga_SCT41TW89V
+2025-03-18 03:34:28 [main] INFO  UnknownTC_verifyHeaderLinks - Page refreshed with bypassed cookies.
+2025-03-18 03:34:28 [main] INFO  UnknownTC_verifyHeaderLinks - 🟢 Starting test: verifyHeaderLinks (🔢 Test Case ID: UnknownTC)
+2025-03-18 03:34:28 [main] INFO  UnknownTC_verifyHeaderLinks - Navigating to: https://demo.nopcommerce.com
+2025-03-18 03:34:29 [main] INFO  UnknownTC_verifyHeaderLinks - Verifying Register link...
+2025-03-18 03:34:29 [main] INFO  UnknownTC_verifyHeaderLinks - Register link verification successful!
+2025-03-18 03:34:29 [main] INFO  UnknownTC_verifyHeaderLinks - Verifying Login link...
+2025-03-18 03:34:30 [main] INFO  UnknownTC_verifyHeaderLinks - Login link verification successful!
+2025-03-18 03:34:30 [main] INFO  UnknownTC_verifyHeaderLinks - Verifying Wishlist link...
+2025-03-18 03:34:31 [main] INFO  UnknownTC_verifyHeaderLinks - Wishlist link verification successful!
+2025-03-18 03:34:31 [main] INFO  UnknownTC_verifyHeaderLinks - Verifying Shopping Cart link...
+2025-03-18 03:34:31 [main] INFO  UnknownTC_verifyHeaderLinks - Shopping Cart link verification successful!
+2025-03-18 03:34:31 [main] INFO  UnknownTC_verifyHeaderLinks - All header links are verified and clickable!
+2025-03-18 03:34:31 [main] INFO  listeners.TestListener - ✅ Test PASSED: verifyHeaderLinks (Duration: 3364ms)
+2025-03-18 03:34:31 [main] INFO  UnknownTC_verifyHeaderLinks - Closing the browser for test: verifyHeaderLinks
+2025-03-18 03:34:32 [main] INFO  UnknownTC_verifyHeaderLinks - Browser closed.
+2025-03-18 03:36:37 [main] INFO  UnknownTC_verifyHeaderLinks - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-03-18 03:36:37 [main] INFO  UnknownTC_verifyHeaderLinks - Logger initialized and writing to: E:/Folder/Galal/Courses/Digital Egypt Pioneers Initiative (DEPI) - Software Testing/DEPI Software Tester Graduation Project/automation-framework/reports/logs/UnknownTC_verifyHeaderLinks.log
+2025-03-18 03:36:37 [main] INFO  UnknownTC_verifyHeaderLinks - Starting test setup for: verifyHeaderLinks (🔢 Test Case ID: UnknownTC)
+2025-03-18 03:36:55 [main] INFO  UnknownTC_verifyHeaderLinks - Navigated to the site: https://demo.nopcommerce.com
+2025-03-18 03:36:55 [main] INFO  UnknownTC_verifyHeaderLinks - Injected cookie: _ga
+2025-03-18 03:36:55 [main] INFO  UnknownTC_verifyHeaderLinks - Injected cookie: cf_clearance
+2025-03-18 03:36:55 [main] INFO  UnknownTC_verifyHeaderLinks - Injected cookie: .Nop.Antiforgery
+2025-03-18 03:36:55 [main] INFO  UnknownTC_verifyHeaderLinks - Injected cookie: .Nop.Customer
+2025-03-18 03:36:55 [main] INFO  UnknownTC_verifyHeaderLinks - Injected cookie: .Nop.Culture
+2025-03-18 03:36:55 [main] INFO  UnknownTC_verifyHeaderLinks - Injected cookie: _ga_SCT41TW89V
+2025-03-18 03:36:55 [main] INFO  UnknownTC_verifyHeaderLinks - Page refreshed with bypassed cookies.
+2025-03-18 03:36:55 [main] INFO  UnknownTC_verifyHeaderLinks - 🟢 Starting test: verifyHeaderLinks (🔢 Test Case ID: UnknownTC)
+2025-03-18 03:36:55 [main] INFO  UnknownTC_verifyHeaderLinks - Navigating to: https://demo.nopcommerce.com
+2025-03-18 03:36:56 [main] INFO  UnknownTC_verifyHeaderLinks - Verifying Register link...
+2025-03-18 03:36:57 [main] INFO  UnknownTC_verifyHeaderLinks - Register link verification successful!
+2025-03-18 03:36:57 [main] INFO  UnknownTC_verifyHeaderLinks - Verifying Login link...
+2025-03-18 03:36:57 [main] INFO  UnknownTC_verifyHeaderLinks - Login link verification successful!
+2025-03-18 03:36:57 [main] INFO  UnknownTC_verifyHeaderLinks - Verifying Wishlist link...
+2025-03-18 03:36:58 [main] INFO  UnknownTC_verifyHeaderLinks - Wishlist link verification successful!
+2025-03-18 03:36:58 [main] INFO  UnknownTC_verifyHeaderLinks - Verifying Shopping Cart link...
+2025-03-18 03:36:58 [main] INFO  UnknownTC_verifyHeaderLinks - Shopping Cart link verification successful!
+2025-03-18 03:36:58 [main] INFO  UnknownTC_verifyHeaderLinks - All header links are verified and clickable!
+2025-03-18 03:36:58 [main] INFO  listeners.TestListener - ✅ Test PASSED: verifyHeaderLinks (Duration: 3283ms)
+2025-03-18 03:36:58 [main] INFO  UnknownTC_verifyHeaderLinks - Closing the browser for test: verifyHeaderLinks
+2025-03-18 03:36:59 [main] INFO  UnknownTC_verifyHeaderLinks - Browser closed.
+2025-03-18 03:45:07 [main] INFO  UnknownTC_verifyHeaderLinks - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-03-18 03:45:07 [main] INFO  UnknownTC_verifyHeaderLinks - Logger initialized and writing to: E:/Folder/Galal/Courses/Digital Egypt Pioneers Initiative (DEPI) - Software Testing/DEPI Software Tester Graduation Project/automation-framework/reports/logs/UnknownTC_verifyHeaderLinks.log
+2025-03-18 03:45:07 [main] INFO  UnknownTC_verifyHeaderLinks - Starting test setup for: verifyHeaderLinks (🔢 Test Case ID: UnknownTC)
+2025-03-18 03:45:25 [main] INFO  UnknownTC_verifyHeaderLinks - Navigated to the site: https://demo.nopcommerce.com
+2025-03-18 03:45:25 [main] INFO  UnknownTC_verifyHeaderLinks - Injected cookie: cf_clearance
+2025-03-18 03:45:25 [main] INFO  UnknownTC_verifyHeaderLinks - Injected cookie: _ga
+2025-03-18 03:45:25 [main] INFO  UnknownTC_verifyHeaderLinks - Injected cookie: .Nop.Antiforgery
+2025-03-18 03:45:25 [main] INFO  UnknownTC_verifyHeaderLinks - Injected cookie: .Nop.Customer
+2025-03-18 03:45:25 [main] INFO  UnknownTC_verifyHeaderLinks - Injected cookie: .Nop.Culture
+2025-03-18 03:45:25 [main] INFO  UnknownTC_verifyHeaderLinks - Injected cookie: _ga_SCT41TW89V
+2025-03-18 03:45:26 [main] INFO  UnknownTC_verifyHeaderLinks - Page refreshed with bypassed cookies.
+2025-03-18 03:45:26 [main] INFO  UnknownTC_verifyHeaderLinks - 🟢 Starting test: verifyHeaderLinks (🔢 Test Case ID: UnknownTC)
+2025-03-18 03:45:26 [main] INFO  UnknownTC_verifyHeaderLinks - Navigating to: https://demo.nopcommerce.com
+2025-03-18 03:45:26 [main] INFO  UnknownTC_verifyHeaderLinks - Verifying Register link...
+2025-03-18 03:45:27 [main] INFO  UnknownTC_verifyHeaderLinks - Register link verification successful!
+2025-03-18 03:45:27 [main] INFO  UnknownTC_verifyHeaderLinks - Verifying Login link...
+2025-03-18 03:45:28 [main] INFO  UnknownTC_verifyHeaderLinks - Login link verification successful!
+2025-03-18 03:45:28 [main] INFO  UnknownTC_verifyHeaderLinks - Verifying Wishlist link...
+2025-03-18 03:45:28 [main] INFO  UnknownTC_verifyHeaderLinks - Wishlist link verification successful!
+2025-03-18 03:45:28 [main] INFO  UnknownTC_verifyHeaderLinks - Verifying Shopping Cart link...
+2025-03-18 03:45:29 [main] INFO  UnknownTC_verifyHeaderLinks - Shopping Cart link verification successful!
+2025-03-18 03:45:29 [main] INFO  UnknownTC_verifyHeaderLinks - All header links are verified and clickable!
+2025-03-18 03:45:29 [main] INFO  listeners.TestListener - ✅ Test PASSED: verifyHeaderLinks (Duration: 3304ms)
+2025-03-18 03:45:29 [main] INFO  UnknownTC_verifyHeaderLinks - Closing the browser for test: verifyHeaderLinks
+2025-03-18 03:45:29 [main] INFO  UnknownTC_verifyHeaderLinks - Browser closed.
+2025-03-18 04:02:13 [main] INFO  UnknownTC_verifyHeaderLinks - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-03-18 04:02:13 [main] INFO  UnknownTC_verifyHeaderLinks - Logger initialized and writing to: E:/Folder/Galal/Courses/Digital Egypt Pioneers Initiative (DEPI) - Software Testing/DEPI Software Tester Graduation Project/automation-framework/reports/logs/UnknownTC_verifyHeaderLinks.log
+2025-03-18 04:02:13 [main] INFO  UnknownTC_verifyHeaderLinks - Starting test setup for: verifyHeaderLinks (🔢 Test Case ID: UnknownTC)
+2025-03-18 04:02:30 [main] INFO  UnknownTC_verifyHeaderLinks - Navigated to the site: https://demo.nopcommerce.com
+2025-03-18 04:02:30 [main] INFO  UnknownTC_verifyHeaderLinks - Injected cookie: _ga
+2025-03-18 04:02:30 [main] INFO  UnknownTC_verifyHeaderLinks - Injected cookie: cf_clearance
+2025-03-18 04:02:30 [main] INFO  UnknownTC_verifyHeaderLinks - Injected cookie: .Nop.Antiforgery
+2025-03-18 04:02:30 [main] INFO  UnknownTC_verifyHeaderLinks - Injected cookie: .Nop.Customer
+2025-03-18 04:02:30 [main] INFO  UnknownTC_verifyHeaderLinks - Injected cookie: .Nop.Culture
+2025-03-18 04:02:30 [main] INFO  UnknownTC_verifyHeaderLinks - Injected cookie: _ga_SCT41TW89V
+2025-03-18 04:02:31 [main] INFO  UnknownTC_verifyHeaderLinks - Page refreshed with bypassed cookies.
+2025-03-18 04:02:31 [main] INFO  UnknownTC_verifyHeaderLinks - 🟢 Starting test: verifyHeaderLinks (🔢 Test Case ID: UnknownTC)
+2025-03-18 04:02:31 [main] INFO  UnknownTC_verifyHeaderLinks - Navigating to: https://demo.nopcommerce.com
+2025-03-18 04:02:32 [main] INFO  UnknownTC_verifyHeaderLinks - Verifying Register link...
+2025-03-18 04:02:33 [main] INFO  UnknownTC_verifyHeaderLinks - Register link verification successful!
+2025-03-18 04:02:33 [main] INFO  UnknownTC_verifyHeaderLinks - Verifying Login link...
+2025-03-18 04:02:33 [main] INFO  UnknownTC_verifyHeaderLinks - Login link verification successful!
+2025-03-18 04:02:33 [main] INFO  UnknownTC_verifyHeaderLinks - Verifying Wishlist link...
+2025-03-18 04:02:34 [main] INFO  UnknownTC_verifyHeaderLinks - Wishlist link verification successful!
+2025-03-18 04:02:34 [main] INFO  UnknownTC_verifyHeaderLinks - Verifying Shopping Cart link...
+2025-03-18 04:02:35 [main] INFO  UnknownTC_verifyHeaderLinks - Shopping Cart link verification successful!
+2025-03-18 04:02:35 [main] INFO  UnknownTC_verifyHeaderLinks - All header links are verified and clickable!
+2025-03-18 04:02:35 [main] INFO  listeners.TestListener - ✅ Test PASSED: verifyHeaderLinks (Duration: 3316ms)
+2025-03-18 04:02:35 [main] INFO  UnknownTC_verifyHeaderLinks - Closing the browser for test: verifyHeaderLinks
+2025-03-18 04:02:35 [main] INFO  UnknownTC_verifyHeaderLinks - Browser closed.

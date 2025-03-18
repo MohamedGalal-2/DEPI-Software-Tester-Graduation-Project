@@ -1,0 +1,36 @@
+2025-03-18 03:50:21 [main] INFO  TC-042_verifyPaginationInSearchResults - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-03-18 03:50:21 [main] INFO  TC-042_verifyPaginationInSearchResults - Logger initialized and writing to: E:/Folder/Galal/Courses/Digital Egypt Pioneers Initiative (DEPI) - Software Testing/DEPI Software Tester Graduation Project/automation-framework/reports/logs/TC-042_verifyPaginationInSearchResults.log
+2025-03-18 03:50:21 [main] INFO  TC-042_verifyPaginationInSearchResults - Starting test setup for: verifyPaginationInSearchResults (🔢 Test Case ID: TC-042)
+2025-03-18 03:50:39 [main] INFO  TC-042_verifyPaginationInSearchResults - Navigated to the site: https://demo.nopcommerce.com
+2025-03-18 03:50:39 [main] INFO  TC-042_verifyPaginationInSearchResults - Injected cookie: cf_clearance
+2025-03-18 03:50:39 [main] INFO  TC-042_verifyPaginationInSearchResults - Injected cookie: _ga
+2025-03-18 03:50:39 [main] INFO  TC-042_verifyPaginationInSearchResults - Injected cookie: .Nop.Antiforgery
+2025-03-18 03:50:39 [main] INFO  TC-042_verifyPaginationInSearchResults - Injected cookie: .Nop.Customer
+2025-03-18 03:50:39 [main] INFO  TC-042_verifyPaginationInSearchResults - Injected cookie: .Nop.Culture
+2025-03-18 03:50:39 [main] INFO  TC-042_verifyPaginationInSearchResults - Injected cookie: _ga_SCT41TW89V
+2025-03-18 03:50:40 [main] INFO  TC-042_verifyPaginationInSearchResults - Page refreshed with bypassed cookies.
+2025-03-18 03:50:40 [main] INFO  TC-042_verifyPaginationInSearchResults - 🟢 Starting test: verifyPaginationInSearchResults (🔢 Test Case ID: TC-042)
+2025-03-18 03:50:40 [main] INFO  TC-042_verifyPaginationInSearchResults - Navigating to: https://demo.nopcommerce.com/
+2025-03-18 03:50:47 [main] WARN  TC-042_verifyPaginationInSearchResults - Pagination is not available due to limited results.
+2025-03-18 03:50:47 [main] INFO  listeners.TestListener - ✅ Test PASSED: verifyPaginationInSearchResults (Duration: 6742ms)
+2025-03-18 03:50:47 [main] INFO  TC-042_verifyPaginationInSearchResults - Closing the browser for test: verifyPaginationInSearchResults
+2025-03-18 03:50:47 [main] INFO  TC-042_verifyPaginationInSearchResults - Browser closed.
+2025-03-18 04:07:21 [main] INFO  TC-042_verifyPaginationInSearchResults - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-03-18 04:07:21 [main] INFO  TC-042_verifyPaginationInSearchResults - Logger initialized and writing to: E:/Folder/Galal/Courses/Digital Egypt Pioneers Initiative (DEPI) - Software Testing/DEPI Software Tester Graduation Project/automation-framework/reports/logs/TC-042_verifyPaginationInSearchResults.log
+2025-03-18 04:07:21 [main] INFO  TC-042_verifyPaginationInSearchResults - Starting test setup for: verifyPaginationInSearchResults (🔢 Test Case ID: TC-042)
+2025-03-18 04:07:38 [main] INFO  TC-042_verifyPaginationInSearchResults - Navigated to the site: https://demo.nopcommerce.com
+2025-03-18 04:07:38 [main] INFO  TC-042_verifyPaginationInSearchResults - Injected cookie: _ga
+2025-03-18 04:07:38 [main] INFO  TC-042_verifyPaginationInSearchResults - Injected cookie: cf_clearance
+2025-03-18 04:07:38 [main] INFO  TC-042_verifyPaginationInSearchResults - Injected cookie: .Nop.Antiforgery
+2025-03-18 04:07:38 [main] INFO  TC-042_verifyPaginationInSearchResults - Injected cookie: .Nop.Customer
+2025-03-18 04:07:38 [main] INFO  TC-042_verifyPaginationInSearchResults - Injected cookie: .Nop.Culture
+2025-03-18 04:07:38 [main] INFO  TC-042_verifyPaginationInSearchResults - Injected cookie: _ga_SCT41TW89V
+2025-03-18 04:07:38 [main] INFO  TC-042_verifyPaginationInSearchResults - Page refreshed with bypassed cookies.
+2025-03-18 04:07:38 [main] INFO  TC-042_verifyPaginationInSearchResults - 🟢 Starting test: verifyPaginationInSearchResults (🔢 Test Case ID: TC-042)
+2025-03-18 04:07:38 [main] INFO  TC-042_verifyPaginationInSearchResults - Navigating to: https://demo.nopcommerce.com/
+2025-03-18 04:07:45 [main] WARN  TC-042_verifyPaginationInSearchResults - Pagination is not available due to limited results.
+2025-03-18 04:07:45 [main] INFO  listeners.TestListener - ✅ Test PASSED: verifyPaginationInSearchResults (Duration: 6708ms)
+2025-03-18 04:07:45 [main] INFO  TC-042_verifyPaginationInSearchResults - Closing the browser for test: verifyPaginationInSearchResults
+2025-03-18 04:07:45 [main] INFO  TC-042_verifyPaginationInSearchResults - Browser closed.

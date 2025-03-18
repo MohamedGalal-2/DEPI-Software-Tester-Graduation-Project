@@ -1,8 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Configuration status="WARN">
-    <Properties>
-		<Property name="LOG_PATTERN">%d [%t] %-5level %c{1} - %msg%n</Property>
-        <Property name="logFilename">logs/default.log</Property>
+   <Properties>
+        <Property name="LOG_PATTERN">%d [%t] %-5level %c{1} - %msg%n</Property>
+
+        <!-- Change log location to the new folder -->
+        <Property name="logDir">E:/Folder/Galal/Courses/Digital Egypt Pioneers Initiative (DEPI) - Software Testing/DEPI Software Tester Graduation Project/automation-framework/reports/logs</Property>
+        
+        <!-- Default log file -->
+        <Property name="logFilename">${logDir}/default.log</Property>
     </Properties>
 
     <Appenders>

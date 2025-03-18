@@ -1,0 +1,81 @@
+2025-03-17 09:59:52 [main] INFO  testCheckoutProcessAsGuest - 
+================================================================================================================================ NEW TEST RUN ================================================================================================================================
+2025-03-17 09:59:52 [main] INFO  testCheckoutProcessAsGuest - Starting test setup for: testCheckoutProcessAsGuest
+2025-03-17 10:00:19 [main] INFO  testCheckoutProcessAsGuest - Navigated to the site: https://demo.nopcommerce.com
+2025-03-17 10:00:19 [main] INFO  testCheckoutProcessAsGuest - Injected cookie: cf_clearance
+2025-03-17 10:00:19 [main] INFO  testCheckoutProcessAsGuest - Injected cookie: _ga
+2025-03-17 10:00:19 [main] INFO  testCheckoutProcessAsGuest - Injected cookie: .Nop.Antiforgery
+2025-03-17 10:00:19 [main] INFO  testCheckoutProcessAsGuest - Injected cookie: .Nop.Customer
+2025-03-17 10:00:19 [main] INFO  testCheckoutProcessAsGuest - Injected cookie: .Nop.Culture
+2025-03-17 10:00:19 [main] INFO  testCheckoutProcessAsGuest - Injected cookie: _ga_SCT41TW89V
+2025-03-17 10:00:20 [main] INFO  testCheckoutProcessAsGuest - Page refreshed with bypassed cookies.
+2025-03-17 10:00:20 [main] INFO  testCheckoutProcessAsGuest - Navigating to product page: https://demo.nopcommerce.com/adobe-photoshop
+2025-03-17 10:00:23 [main] INFO  testCheckoutProcessAsGuest - Clicked 'Add to Cart' button.
+2025-03-17 10:00:24 [main] INFO  testCheckoutProcessAsGuest - Product successfully added to cart.
+2025-03-17 10:00:24 [main] INFO  testCheckoutProcessAsGuest - Cart quantity updated to: 1
+2025-03-17 10:00:25 [main] INFO  testCheckoutProcessAsGuest - Cart page loaded successfully.
+2025-03-17 10:00:25 [main] INFO  testCheckoutProcessAsGuest - Accepted terms of service.
+2025-03-17 10:00:28 [main] INFO  testCheckoutProcessAsGuest - Selected 'Checkout as Guest' option.
+2025-03-17 10:00:29 [main] INFO  testCheckoutProcessAsGuest - Checkout page loaded successfully.
+2025-03-17 10:00:32 [main] INFO  testCheckoutProcessAsGuest - Checked 'Ship to the same address' option.
+2025-03-17 10:00:32 [main] INFO  testCheckoutProcessAsGuest - Shipping method selected.
+2025-03-17 10:00:33 [main] INFO  testCheckoutProcessAsGuest - Payment method selected.
+2025-03-17 10:00:34 [main] INFO  testCheckoutProcessAsGuest - Payment details entered.
+2025-03-17 10:00:35 [main] INFO  testCheckoutProcessAsGuest - Order confirmed.
+2025-03-17 10:00:39 [main] INFO  testCheckoutProcessAsGuest - Order placed successfully!
+2025-03-17 10:00:39 [main] INFO  testCheckoutProcessAsGuest - Closing the browser for test: testCheckoutProcessAsGuest
+2025-03-17 10:00:39 [main] INFO  testCheckoutProcessAsGuest - Browser closed.
+2025-03-17 18:12:12 [main] INFO  testCheckoutProcessAsGuest - 
+================================================================================================================================ NEW TEST RUN ================================================================================================================================
+2025-03-17 18:12:12 [main] INFO  testCheckoutProcessAsGuest - Starting test setup for: testCheckoutProcessAsGuest
+2025-03-17 18:12:40 [main] INFO  testCheckoutProcessAsGuest - Navigated to the site: https://demo.nopcommerce.com
+2025-03-17 18:12:40 [main] INFO  testCheckoutProcessAsGuest - Injected cookie: cf_clearance
+2025-03-17 18:12:40 [main] INFO  testCheckoutProcessAsGuest - Injected cookie: _ga
+2025-03-17 18:12:40 [main] INFO  testCheckoutProcessAsGuest - Injected cookie: .Nop.Antiforgery
+2025-03-17 18:12:40 [main] INFO  testCheckoutProcessAsGuest - Injected cookie: .Nop.Customer
+2025-03-17 18:12:40 [main] INFO  testCheckoutProcessAsGuest - Injected cookie: .Nop.Culture
+2025-03-17 18:12:40 [main] INFO  testCheckoutProcessAsGuest - Injected cookie: _ga_SCT41TW89V
+2025-03-17 18:12:41 [main] INFO  testCheckoutProcessAsGuest - Page refreshed with bypassed cookies.
+2025-03-17 18:12:41 [main] INFO  testCheckoutProcessAsGuest - Navigating to product page: https://demo.nopcommerce.com/adobe-photoshop
+2025-03-17 18:12:44 [main] INFO  testCheckoutProcessAsGuest - Clicked 'Add to Cart' button.
+2025-03-17 18:12:45 [main] INFO  testCheckoutProcessAsGuest - Product successfully added to cart.
+2025-03-17 18:12:45 [main] INFO  testCheckoutProcessAsGuest - Cart quantity updated to: 1
+2025-03-17 18:12:46 [main] INFO  testCheckoutProcessAsGuest - Cart page loaded successfully.
+2025-03-17 18:12:47 [main] INFO  testCheckoutProcessAsGuest - Accepted terms of service.
+2025-03-17 18:12:51 [main] INFO  testCheckoutProcessAsGuest - Selected 'Checkout as Guest' option.
+2025-03-17 18:12:51 [main] INFO  testCheckoutProcessAsGuest - Checkout page loaded successfully.
+2025-03-17 18:12:54 [main] INFO  testCheckoutProcessAsGuest - Checked 'Ship to the same address' option.
+2025-03-17 18:12:54 [main] INFO  testCheckoutProcessAsGuest - Shipping method selected.
+2025-03-17 18:12:55 [main] INFO  testCheckoutProcessAsGuest - Payment method selected.
+2025-03-17 18:12:57 [main] INFO  testCheckoutProcessAsGuest - Payment details entered.
+2025-03-17 18:12:58 [main] INFO  testCheckoutProcessAsGuest - Order confirmed.
+2025-03-17 18:13:01 [main] INFO  testCheckoutProcessAsGuest - Order placed successfully!
+2025-03-17 18:13:01 [main] INFO  testCheckoutProcessAsGuest - Closing the browser for test: testCheckoutProcessAsGuest
+2025-03-17 18:13:01 [main] INFO  testCheckoutProcessAsGuest - Browser closed.
+2025-03-17 18:39:57 [main] INFO  testCheckoutProcessAsGuest - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-03-17 18:39:57 [main] INFO  testCheckoutProcessAsGuest - Starting test setup for: testCheckoutProcessAsGuest
+2025-03-17 18:40:20 [main] INFO  testCheckoutProcessAsGuest - Navigated to the site: https://demo.nopcommerce.com
+2025-03-17 18:40:20 [main] INFO  testCheckoutProcessAsGuest - Injected cookie: _ga
+2025-03-17 18:40:20 [main] INFO  testCheckoutProcessAsGuest - Injected cookie: cf_clearance
+2025-03-17 18:40:20 [main] INFO  testCheckoutProcessAsGuest - Injected cookie: .Nop.Antiforgery
+2025-03-17 18:40:20 [main] INFO  testCheckoutProcessAsGuest - Injected cookie: .Nop.Customer
+2025-03-17 18:40:20 [main] INFO  testCheckoutProcessAsGuest - Injected cookie: .Nop.Culture
+2025-03-17 18:40:20 [main] INFO  testCheckoutProcessAsGuest - Injected cookie: _ga_SCT41TW89V
+2025-03-17 18:40:21 [main] INFO  testCheckoutProcessAsGuest - Page refreshed with bypassed cookies.
+2025-03-17 18:40:21 [main] INFO  testCheckoutProcessAsGuest - Navigating to product page: https://demo.nopcommerce.com/adobe-photoshop
+2025-03-17 18:40:24 [main] INFO  testCheckoutProcessAsGuest - Clicked 'Add to Cart' button.
+2025-03-17 18:40:25 [main] INFO  testCheckoutProcessAsGuest - Product successfully added to cart.
+2025-03-17 18:40:25 [main] INFO  testCheckoutProcessAsGuest - Cart quantity updated to: 1
+2025-03-17 18:40:26 [main] INFO  testCheckoutProcessAsGuest - Cart page loaded successfully.
+2025-03-17 18:40:26 [main] INFO  testCheckoutProcessAsGuest - Accepted terms of service.
+2025-03-17 18:40:30 [main] INFO  testCheckoutProcessAsGuest - Selected 'Checkout as Guest' option.
+2025-03-17 18:40:31 [main] INFO  testCheckoutProcessAsGuest - Checkout page loaded successfully.
+2025-03-17 18:40:34 [main] INFO  testCheckoutProcessAsGuest - Checked 'Ship to the same address' option.
+2025-03-17 18:40:34 [main] INFO  testCheckoutProcessAsGuest - Shipping method selected.
+2025-03-17 18:40:35 [main] INFO  testCheckoutProcessAsGuest - Payment method selected.
+2025-03-17 18:40:36 [main] INFO  testCheckoutProcessAsGuest - Payment details entered.
+2025-03-17 18:40:37 [main] INFO  testCheckoutProcessAsGuest - Order confirmed.
+2025-03-17 18:40:40 [main] INFO  testCheckoutProcessAsGuest - Order placed successfully!
+2025-03-17 18:40:40 [main] INFO  testCheckoutProcessAsGuest - Closing the browser for test: testCheckoutProcessAsGuest
+2025-03-17 18:40:40 [main] INFO  testCheckoutProcessAsGuest - Browser closed.

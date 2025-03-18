@@ -1,0 +1,103 @@
+2025-03-15 22:38:10 [main] INFO  verifyPaginationInSearchResults - Starting test setup for: verifyPaginationInSearchResults
+2025-03-15 22:38:10 [main] INFO  verifyPaginationInSearchResults - Setting up Chrome browser...
+2025-03-15 22:38:10 [main] INFO  verifyPaginationInSearchResults - Browser setup complete with ZenRows proxy.
+2025-03-15 22:38:10 [main] INFO  verifyPaginationInSearchResults - Navigating to: https://demo.nopcommerce.com/
+2025-03-15 22:38:18 [main] WARN  verifyPaginationInSearchResults - Pagination is not available due to limited results.
+2025-03-15 22:38:18 [main] INFO  verifyPaginationInSearchResults - Closing the browser for test: verifyPaginationInSearchResults
+2025-03-15 22:38:18 [main] INFO  verifyPaginationInSearchResults - Browser closed.
+2025-03-15 23:02:14 [main] INFO  verifyPaginationInSearchResults - Starting test setup for: verifyPaginationInSearchResults
+2025-03-15 23:02:14 [main] INFO  verifyPaginationInSearchResults - Setting up Chrome browser...
+2025-03-15 23:02:15 [main] INFO  verifyPaginationInSearchResults - Browser setup complete with ZenRows proxy.
+2025-03-15 23:02:15 [main] INFO  verifyPaginationInSearchResults - Navigating to: https://demo.nopcommerce.com/
+2025-03-15 23:02:22 [main] WARN  verifyPaginationInSearchResults - Pagination is not available due to limited results.
+2025-03-15 23:02:22 [main] INFO  verifyPaginationInSearchResults - Closing the browser for test: verifyPaginationInSearchResults
+2025-03-15 23:02:22 [main] INFO  verifyPaginationInSearchResults - Browser closed.
+2025-03-15 23:06:38 [main] INFO  verifyPaginationInSearchResults - Starting test setup for: verifyPaginationInSearchResults
+2025-03-15 23:06:38 [main] INFO  verifyPaginationInSearchResults - Setting up Chrome browser...
+2025-03-15 23:06:39 [main] INFO  verifyPaginationInSearchResults - Browser setup complete with ZenRows proxy.
+2025-03-15 23:06:39 [main] INFO  verifyPaginationInSearchResults - Navigating to: https://demo.nopcommerce.com/
+2025-03-15 23:06:46 [main] WARN  verifyPaginationInSearchResults - Pagination is not available due to limited results.
+2025-03-15 23:06:46 [main] INFO  verifyPaginationInSearchResults - Closing the browser for test: verifyPaginationInSearchResults
+2025-03-15 23:06:46 [main] INFO  verifyPaginationInSearchResults - Browser closed.
+2025-03-15 23:08:46 [main] INFO  verifyPaginationInSearchResults - Starting test setup for: verifyPaginationInSearchResults
+2025-03-15 23:08:46 [main] INFO  verifyPaginationInSearchResults - Setting up Chrome browser...
+2025-03-15 23:08:47 [main] INFO  verifyPaginationInSearchResults - Browser setup complete with ZenRows proxy.
+2025-03-15 23:08:47 [main] INFO  verifyPaginationInSearchResults - Navigating to: https://demo.nopcommerce.com/
+2025-03-15 23:08:54 [main] WARN  verifyPaginationInSearchResults - Pagination is not available due to limited results.
+2025-03-15 23:08:54 [main] INFO  verifyPaginationInSearchResults - Closing the browser for test: verifyPaginationInSearchResults
+2025-03-15 23:08:54 [main] INFO  verifyPaginationInSearchResults - Browser closed.
+2025-03-16 01:38:48 [main] INFO  verifyPaginationInSearchResults - Starting test setup for: verifyPaginationInSearchResults
+2025-03-16 01:38:48 [main] INFO  verifyPaginationInSearchResults - Setting up Chrome browser...
+2025-03-16 01:38:48 [main] INFO  verifyPaginationInSearchResults - Navigating to: https://demo.nopcommerce.com/
+2025-03-16 01:39:01 [main] WARN  verifyPaginationInSearchResults - Pagination is not available due to limited results.
+2025-03-16 01:39:01 [main] INFO  verifyPaginationInSearchResults - Closing the browser for test: verifyPaginationInSearchResults
+2025-03-16 01:39:01 [main] INFO  verifyPaginationInSearchResults - Browser closed.
+2025-03-16 07:01:54 [main] INFO  verifyPaginationInSearchResults - Starting test setup for: verifyPaginationInSearchResults
+2025-03-16 07:02:11 [main] INFO  verifyPaginationInSearchResults - Navigated to the site: https://demo.nopcommerce.com
+2025-03-16 07:02:11 [main] INFO  verifyPaginationInSearchResults - Injected cookie: cf_clearance
+2025-03-16 07:02:11 [main] INFO  verifyPaginationInSearchResults - Injected cookie: _ga
+2025-03-16 07:02:11 [main] INFO  verifyPaginationInSearchResults - Injected cookie: .Nop.Antiforgery
+2025-03-16 07:02:11 [main] INFO  verifyPaginationInSearchResults - Injected cookie: .Nop.Customer
+2025-03-16 07:02:11 [main] INFO  verifyPaginationInSearchResults - Injected cookie: .Nop.Culture
+2025-03-16 07:02:11 [main] INFO  verifyPaginationInSearchResults - Injected cookie: _ga_SCT41TW89V
+2025-03-16 07:02:11 [main] INFO  verifyPaginationInSearchResults - Page refreshed with bypassed cookies.
+2025-03-16 07:02:11 [main] INFO  verifyPaginationInSearchResults - Navigating to: https://demo.nopcommerce.com/
+2025-03-16 07:02:18 [main] WARN  verifyPaginationInSearchResults - Pagination is not available due to limited results.
+2025-03-16 07:02:18 [main] INFO  verifyPaginationInSearchResults - Closing the browser for test: verifyPaginationInSearchResults
+2025-03-16 07:02:18 [main] INFO  verifyPaginationInSearchResults - Browser closed.
+2025-03-16 08:48:25 [main] INFO  verifyPaginationInSearchResults - Starting test setup for: verifyPaginationInSearchResults
+2025-03-16 08:48:50 [main] INFO  verifyPaginationInSearchResults - Navigated to the site: https://demo.nopcommerce.com
+2025-03-16 08:48:50 [main] INFO  verifyPaginationInSearchResults - Injected cookie: _ga
+2025-03-16 08:48:50 [main] INFO  verifyPaginationInSearchResults - Injected cookie: cf_clearance
+2025-03-16 08:48:50 [main] INFO  verifyPaginationInSearchResults - Injected cookie: .Nop.Antiforgery
+2025-03-16 08:48:50 [main] INFO  verifyPaginationInSearchResults - Injected cookie: .Nop.Customer
+2025-03-16 08:48:50 [main] INFO  verifyPaginationInSearchResults - Injected cookie: .Nop.Culture
+2025-03-16 08:48:50 [main] INFO  verifyPaginationInSearchResults - Injected cookie: _ga_SCT41TW89V
+2025-03-16 08:48:51 [main] INFO  verifyPaginationInSearchResults - Page refreshed with bypassed cookies.
+2025-03-16 08:48:51 [main] INFO  verifyPaginationInSearchResults - Navigating to: https://demo.nopcommerce.com/
+2025-03-16 08:48:59 [main] WARN  verifyPaginationInSearchResults - Pagination is not available due to limited results.
+2025-03-16 08:48:59 [main] INFO  verifyPaginationInSearchResults - Closing the browser for test: verifyPaginationInSearchResults
+2025-03-16 08:48:59 [main] INFO  verifyPaginationInSearchResults - Browser closed.
+2025-03-16 09:21:53 [main] INFO  verifyPaginationInSearchResults - Starting test setup for: verifyPaginationInSearchResults
+2025-03-16 09:22:15 [main] INFO  verifyPaginationInSearchResults - Navigated to the site: https://demo.nopcommerce.com
+2025-03-16 09:22:15 [main] INFO  verifyPaginationInSearchResults - Injected cookie: _ga
+2025-03-16 09:22:15 [main] INFO  verifyPaginationInSearchResults - Injected cookie: cf_clearance
+2025-03-16 09:22:15 [main] INFO  verifyPaginationInSearchResults - Injected cookie: .Nop.Antiforgery
+2025-03-16 09:22:15 [main] INFO  verifyPaginationInSearchResults - Injected cookie: .Nop.Customer
+2025-03-16 09:22:16 [main] INFO  verifyPaginationInSearchResults - Injected cookie: .Nop.Culture
+2025-03-16 09:22:16 [main] INFO  verifyPaginationInSearchResults - Injected cookie: _ga_SCT41TW89V
+2025-03-16 09:22:16 [main] INFO  verifyPaginationInSearchResults - Page refreshed with bypassed cookies.
+2025-03-16 09:22:16 [main] INFO  verifyPaginationInSearchResults - Navigating to: https://demo.nopcommerce.com/
+2025-03-16 09:22:24 [main] WARN  verifyPaginationInSearchResults - Pagination is not available due to limited results.
+2025-03-16 09:22:24 [main] INFO  verifyPaginationInSearchResults - Closing the browser for test: verifyPaginationInSearchResults
+2025-03-16 09:22:24 [main] INFO  verifyPaginationInSearchResults - Browser closed.
+2025-03-17 18:24:35 [main] INFO  verifyPaginationInSearchResults - 
+================================================================================================================================ NEW TEST RUN ================================================================================================================================
+2025-03-17 18:24:35 [main] INFO  verifyPaginationInSearchResults - Starting test setup for: verifyPaginationInSearchResults
+2025-03-17 18:25:00 [main] INFO  verifyPaginationInSearchResults - Navigated to the site: https://demo.nopcommerce.com
+2025-03-17 18:25:00 [main] INFO  verifyPaginationInSearchResults - Injected cookie: _ga
+2025-03-17 18:25:00 [main] INFO  verifyPaginationInSearchResults - Injected cookie: cf_clearance
+2025-03-17 18:25:00 [main] INFO  verifyPaginationInSearchResults - Injected cookie: .Nop.Antiforgery
+2025-03-17 18:25:00 [main] INFO  verifyPaginationInSearchResults - Injected cookie: .Nop.Customer
+2025-03-17 18:25:00 [main] INFO  verifyPaginationInSearchResults - Injected cookie: .Nop.Culture
+2025-03-17 18:25:00 [main] INFO  verifyPaginationInSearchResults - Injected cookie: _ga_SCT41TW89V
+2025-03-17 18:25:01 [main] INFO  verifyPaginationInSearchResults - Page refreshed with bypassed cookies.
+2025-03-17 18:25:01 [main] INFO  verifyPaginationInSearchResults - Navigating to: https://demo.nopcommerce.com/
+2025-03-17 18:25:09 [main] WARN  verifyPaginationInSearchResults - Pagination is not available due to limited results.
+2025-03-17 18:25:09 [main] INFO  verifyPaginationInSearchResults - Closing the browser for test: verifyPaginationInSearchResults
+2025-03-17 18:25:09 [main] INFO  verifyPaginationInSearchResults - Browser closed.
+2025-03-17 18:50:45 [main] INFO  verifyPaginationInSearchResults - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-03-17 18:50:45 [main] INFO  verifyPaginationInSearchResults - Starting test setup for: verifyPaginationInSearchResults
+2025-03-17 18:51:08 [main] INFO  verifyPaginationInSearchResults - Navigated to the site: https://demo.nopcommerce.com
+2025-03-17 18:51:08 [main] INFO  verifyPaginationInSearchResults - Injected cookie: cf_clearance
+2025-03-17 18:51:08 [main] INFO  verifyPaginationInSearchResults - Injected cookie: _ga
+2025-03-17 18:51:08 [main] INFO  verifyPaginationInSearchResults - Injected cookie: .Nop.Antiforgery
+2025-03-17 18:51:08 [main] INFO  verifyPaginationInSearchResults - Injected cookie: .Nop.Customer
+2025-03-17 18:51:08 [main] INFO  verifyPaginationInSearchResults - Injected cookie: .Nop.Culture
+2025-03-17 18:51:08 [main] INFO  verifyPaginationInSearchResults - Injected cookie: _ga_SCT41TW89V
+2025-03-17 18:51:09 [main] INFO  verifyPaginationInSearchResults - Page refreshed with bypassed cookies.
+2025-03-17 18:51:09 [main] INFO  verifyPaginationInSearchResults - Navigating to: https://demo.nopcommerce.com/
+2025-03-17 18:51:17 [main] WARN  verifyPaginationInSearchResults - Pagination is not available due to limited results.
+2025-03-17 18:51:17 [main] INFO  verifyPaginationInSearchResults - Closing the browser for test: verifyPaginationInSearchResults
+2025-03-17 18:51:17 [main] INFO  verifyPaginationInSearchResults - Browser closed.

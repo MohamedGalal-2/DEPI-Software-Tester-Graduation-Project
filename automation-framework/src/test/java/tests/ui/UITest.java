@@ -3,6 +3,8 @@
 package tests.ui;
 
 import base.BaseTest;
+import utils.SeleniumHelper;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
@@ -20,6 +22,8 @@ import java.util.List;
 public class UITest extends BaseTest {
     String cartUrl = "https://demo.nopcommerce.com/cart";
     String loginUrl = "https://demo.nopcommerce.com/login";
+
+
 
 
 

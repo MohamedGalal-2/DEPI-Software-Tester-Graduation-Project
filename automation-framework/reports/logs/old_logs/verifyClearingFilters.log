@@ -1,0 +1,119 @@
+2025-03-15 22:37:55 [main] INFO  verifyClearingFilters - Starting test setup for: verifyClearingFilters
+2025-03-15 22:37:55 [main] INFO  verifyClearingFilters - Setting up Chrome browser...
+2025-03-15 22:37:55 [main] INFO  verifyClearingFilters - Browser setup complete with ZenRows proxy.
+2025-03-15 22:37:55 [main] INFO  verifyClearingFilters - Navigating to: https://demo.nopcommerce.com/
+2025-03-15 22:37:59 [main] INFO  verifyClearingFilters - Filtering by manufacturer HP verified successfully.
+2025-03-15 22:37:59 [main] INFO  verifyClearingFilters - Clearing filters and verifying reset results successful.
+2025-03-15 22:37:59 [main] INFO  verifyClearingFilters - Closing the browser for test: verifyClearingFilters
+2025-03-15 22:37:59 [main] INFO  verifyClearingFilters - Browser closed.
+2025-03-15 22:41:17 [main] INFO  verifyClearingFilters - Starting test setup for: verifyClearingFilters
+2025-03-15 22:41:17 [main] INFO  verifyClearingFilters - Setting up Chrome browser...
+2025-03-15 22:41:18 [main] INFO  verifyClearingFilters - Browser setup complete with ZenRows proxy.
+2025-03-15 22:41:18 [main] INFO  verifyClearingFilters - Navigating to: https://demo.nopcommerce.com/
+2025-03-15 22:41:21 [main] INFO  verifyClearingFilters - Filtering by manufacturer HP verified successfully.
+2025-03-15 22:41:21 [main] INFO  verifyClearingFilters - Clearing filters and verifying reset results successful.
+2025-03-15 22:41:21 [main] INFO  verifyClearingFilters - Closing the browser for test: verifyClearingFilters
+2025-03-15 22:41:21 [main] INFO  verifyClearingFilters - Browser closed.
+2025-03-15 23:02:02 [main] INFO  verifyClearingFilters - Starting test setup for: verifyClearingFilters
+2025-03-15 23:02:02 [main] INFO  verifyClearingFilters - Setting up Chrome browser...
+2025-03-15 23:02:03 [main] INFO  verifyClearingFilters - Browser setup complete with ZenRows proxy.
+2025-03-15 23:02:03 [main] INFO  verifyClearingFilters - Navigating to: https://demo.nopcommerce.com/
+2025-03-15 23:02:05 [main] INFO  verifyClearingFilters - Filtering by manufacturer HP verified successfully.
+2025-03-15 23:02:05 [main] INFO  verifyClearingFilters - Clearing filters and verifying reset results successful.
+2025-03-15 23:02:05 [main] INFO  verifyClearingFilters - Closing the browser for test: verifyClearingFilters
+2025-03-15 23:02:05 [main] INFO  verifyClearingFilters - Browser closed.
+2025-03-15 23:06:24 [main] INFO  verifyClearingFilters - Starting test setup for: verifyClearingFilters
+2025-03-15 23:06:24 [main] INFO  verifyClearingFilters - Setting up Chrome browser...
+2025-03-15 23:06:25 [main] INFO  verifyClearingFilters - Browser setup complete with ZenRows proxy.
+2025-03-15 23:06:25 [main] INFO  verifyClearingFilters - Navigating to: https://demo.nopcommerce.com/
+2025-03-15 23:06:28 [main] INFO  verifyClearingFilters - Filtering by manufacturer HP verified successfully.
+2025-03-15 23:06:28 [main] INFO  verifyClearingFilters - Clearing filters and verifying reset results successful.
+2025-03-15 23:06:28 [main] INFO  verifyClearingFilters - Closing the browser for test: verifyClearingFilters
+2025-03-15 23:06:28 [main] INFO  verifyClearingFilters - Browser closed.
+2025-03-15 23:08:31 [main] INFO  verifyClearingFilters - Starting test setup for: verifyClearingFilters
+2025-03-15 23:08:31 [main] INFO  verifyClearingFilters - Setting up Chrome browser...
+2025-03-15 23:08:32 [main] INFO  verifyClearingFilters - Browser setup complete with ZenRows proxy.
+2025-03-15 23:08:32 [main] INFO  verifyClearingFilters - Navigating to: https://demo.nopcommerce.com/
+2025-03-15 23:08:35 [main] INFO  verifyClearingFilters - Filtering by manufacturer HP verified successfully.
+2025-03-15 23:08:35 [main] INFO  verifyClearingFilters - Clearing filters and verifying reset results successful.
+2025-03-15 23:08:35 [main] INFO  verifyClearingFilters - Closing the browser for test: verifyClearingFilters
+2025-03-15 23:08:35 [main] INFO  verifyClearingFilters - Browser closed.
+2025-03-16 01:38:15 [main] INFO  verifyClearingFilters - Starting test setup for: verifyClearingFilters
+2025-03-16 01:38:15 [main] INFO  verifyClearingFilters - Setting up Chrome browser...
+2025-03-16 01:38:16 [main] INFO  verifyClearingFilters - Navigating to: https://demo.nopcommerce.com/
+2025-03-16 01:38:25 [main] INFO  verifyClearingFilters - Filtering by manufacturer HP verified successfully.
+2025-03-16 01:38:25 [main] INFO  verifyClearingFilters - Clearing filters and verifying reset results successful.
+2025-03-16 01:38:25 [main] INFO  verifyClearingFilters - Closing the browser for test: verifyClearingFilters
+2025-03-16 01:38:25 [main] INFO  verifyClearingFilters - Browser closed.
+2025-03-16 07:00:34 [main] INFO  verifyClearingFilters - Starting test setup for: verifyClearingFilters
+2025-03-16 07:00:52 [main] INFO  verifyClearingFilters - Navigated to the site: https://demo.nopcommerce.com
+2025-03-16 07:00:52 [main] INFO  verifyClearingFilters - Injected cookie: _ga
+2025-03-16 07:00:52 [main] INFO  verifyClearingFilters - Injected cookie: cf_clearance
+2025-03-16 07:00:52 [main] INFO  verifyClearingFilters - Injected cookie: .Nop.Antiforgery
+2025-03-16 07:00:52 [main] INFO  verifyClearingFilters - Injected cookie: .Nop.Customer
+2025-03-16 07:00:52 [main] INFO  verifyClearingFilters - Injected cookie: .Nop.Culture
+2025-03-16 07:00:52 [main] INFO  verifyClearingFilters - Injected cookie: _ga_SCT41TW89V
+2025-03-16 07:00:52 [main] INFO  verifyClearingFilters - Page refreshed with bypassed cookies.
+2025-03-16 07:00:52 [main] INFO  verifyClearingFilters - Navigating to: https://demo.nopcommerce.com/
+2025-03-16 07:01:04 [main] INFO  verifyClearingFilters - Closing the browser for test: verifyClearingFilters
+2025-03-16 07:01:04 [main] INFO  verifyClearingFilters - Browser closed.
+2025-03-16 08:46:57 [main] INFO  verifyClearingFilters - Starting test setup for: verifyClearingFilters
+2025-03-16 08:47:22 [main] INFO  verifyClearingFilters - Navigated to the site: https://demo.nopcommerce.com
+2025-03-16 08:47:22 [main] INFO  verifyClearingFilters - Injected cookie: _ga
+2025-03-16 08:47:22 [main] INFO  verifyClearingFilters - Injected cookie: cf_clearance
+2025-03-16 08:47:22 [main] INFO  verifyClearingFilters - Injected cookie: .Nop.Antiforgery
+2025-03-16 08:47:22 [main] INFO  verifyClearingFilters - Injected cookie: .Nop.Customer
+2025-03-16 08:47:22 [main] INFO  verifyClearingFilters - Injected cookie: .Nop.Culture
+2025-03-16 08:47:22 [main] INFO  verifyClearingFilters - Injected cookie: _ga_SCT41TW89V
+2025-03-16 08:47:22 [main] INFO  verifyClearingFilters - Page refreshed with bypassed cookies.
+2025-03-16 08:47:22 [main] INFO  verifyClearingFilters - Navigating to: https://demo.nopcommerce.com/
+2025-03-16 08:47:26 [main] INFO  verifyClearingFilters - Filtering by manufacturer HP verified successfully.
+2025-03-16 08:47:26 [main] INFO  verifyClearingFilters - Clearing filters and verifying reset results successful.
+2025-03-16 08:47:26 [main] INFO  verifyClearingFilters - Closing the browser for test: verifyClearingFilters
+2025-03-16 08:47:27 [main] INFO  verifyClearingFilters - Browser closed.
+2025-03-16 09:20:29 [main] INFO  verifyClearingFilters - Starting test setup for: verifyClearingFilters
+2025-03-16 09:20:53 [main] INFO  verifyClearingFilters - Navigated to the site: https://demo.nopcommerce.com
+2025-03-16 09:20:53 [main] INFO  verifyClearingFilters - Injected cookie: _ga
+2025-03-16 09:20:53 [main] INFO  verifyClearingFilters - Injected cookie: cf_clearance
+2025-03-16 09:20:53 [main] INFO  verifyClearingFilters - Injected cookie: .Nop.Antiforgery
+2025-03-16 09:20:53 [main] INFO  verifyClearingFilters - Injected cookie: .Nop.Customer
+2025-03-16 09:20:53 [main] INFO  verifyClearingFilters - Injected cookie: .Nop.Culture
+2025-03-16 09:20:53 [main] INFO  verifyClearingFilters - Injected cookie: _ga_SCT41TW89V
+2025-03-16 09:20:53 [main] INFO  verifyClearingFilters - Page refreshed with bypassed cookies.
+2025-03-16 09:20:53 [main] INFO  verifyClearingFilters - Navigating to: https://demo.nopcommerce.com/
+2025-03-16 09:20:57 [main] INFO  verifyClearingFilters - Filtering by manufacturer HP verified successfully.
+2025-03-16 09:20:57 [main] INFO  verifyClearingFilters - Clearing filters and verifying reset results successful.
+2025-03-16 09:20:57 [main] INFO  verifyClearingFilters - Closing the browser for test: verifyClearingFilters
+2025-03-16 09:20:57 [main] INFO  verifyClearingFilters - Browser closed.
+2025-03-17 18:23:09 [main] INFO  verifyClearingFilters - 
+================================================================================================================================ NEW TEST RUN ================================================================================================================================
+2025-03-17 18:23:09 [main] INFO  verifyClearingFilters - Starting test setup for: verifyClearingFilters
+2025-03-17 18:23:33 [main] INFO  verifyClearingFilters - Navigated to the site: https://demo.nopcommerce.com
+2025-03-17 18:23:33 [main] INFO  verifyClearingFilters - Injected cookie: _ga
+2025-03-17 18:23:33 [main] INFO  verifyClearingFilters - Injected cookie: cf_clearance
+2025-03-17 18:23:33 [main] INFO  verifyClearingFilters - Injected cookie: .Nop.Antiforgery
+2025-03-17 18:23:33 [main] INFO  verifyClearingFilters - Injected cookie: .Nop.Customer
+2025-03-17 18:23:33 [main] INFO  verifyClearingFilters - Injected cookie: .Nop.Culture
+2025-03-17 18:23:33 [main] INFO  verifyClearingFilters - Injected cookie: _ga_SCT41TW89V
+2025-03-17 18:23:34 [main] INFO  verifyClearingFilters - Page refreshed with bypassed cookies.
+2025-03-17 18:23:34 [main] INFO  verifyClearingFilters - Navigating to: https://demo.nopcommerce.com/
+2025-03-17 18:23:39 [main] INFO  verifyClearingFilters - Filtering by manufacturer HP verified successfully.
+2025-03-17 18:23:39 [main] INFO  verifyClearingFilters - Clearing filters and verifying reset results successful.
+2025-03-17 18:23:39 [main] INFO  verifyClearingFilters - Closing the browser for test: verifyClearingFilters
+2025-03-17 18:23:39 [main] INFO  verifyClearingFilters - Browser closed.
+2025-03-17 18:49:22 [main] INFO  verifyClearingFilters - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-03-17 18:49:22 [main] INFO  verifyClearingFilters - Starting test setup for: verifyClearingFilters
+2025-03-17 18:49:46 [main] INFO  verifyClearingFilters - Navigated to the site: https://demo.nopcommerce.com
+2025-03-17 18:49:46 [main] INFO  verifyClearingFilters - Injected cookie: cf_clearance
+2025-03-17 18:49:46 [main] INFO  verifyClearingFilters - Injected cookie: _ga
+2025-03-17 18:49:46 [main] INFO  verifyClearingFilters - Injected cookie: .Nop.Antiforgery
+2025-03-17 18:49:46 [main] INFO  verifyClearingFilters - Injected cookie: .Nop.Customer
+2025-03-17 18:49:46 [main] INFO  verifyClearingFilters - Injected cookie: .Nop.Culture
+2025-03-17 18:49:46 [main] INFO  verifyClearingFilters - Injected cookie: _ga_SCT41TW89V
+2025-03-17 18:49:46 [main] INFO  verifyClearingFilters - Page refreshed with bypassed cookies.
+2025-03-17 18:49:46 [main] INFO  verifyClearingFilters - Navigating to: https://demo.nopcommerce.com/
+2025-03-17 18:49:50 [main] INFO  verifyClearingFilters - Filtering by manufacturer HP verified successfully.
+2025-03-17 18:49:50 [main] INFO  verifyClearingFilters - Clearing filters and verifying reset results successful.
+2025-03-17 18:49:50 [main] INFO  verifyClearingFilters - Closing the browser for test: verifyClearingFilters
+2025-03-17 18:49:50 [main] INFO  verifyClearingFilters - Browser closed.

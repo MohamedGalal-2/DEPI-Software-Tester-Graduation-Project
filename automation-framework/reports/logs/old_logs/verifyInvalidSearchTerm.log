@@ -1,0 +1,102 @@
+2025-03-15 22:38:05 [main] INFO  verifyInvalidSearchTerm - Starting test setup for: verifyInvalidSearchTerm
+2025-03-15 22:38:05 [main] INFO  verifyInvalidSearchTerm - Setting up Chrome browser...
+2025-03-15 22:38:06 [main] INFO  verifyInvalidSearchTerm - Browser setup complete with ZenRows proxy.
+2025-03-15 22:38:06 [main] INFO  verifyInvalidSearchTerm - Navigating to: https://demo.nopcommerce.com/
+2025-03-15 22:38:08 [main] INFO  verifyInvalidSearchTerm - Invalid search term verification completed successfully.
+2025-03-15 22:38:08 [main] INFO  verifyInvalidSearchTerm - Closing the browser for test: verifyInvalidSearchTerm
+2025-03-15 22:38:09 [main] INFO  verifyInvalidSearchTerm - Browser closed.
+2025-03-15 23:02:11 [main] INFO  verifyInvalidSearchTerm - Starting test setup for: verifyInvalidSearchTerm
+2025-03-15 23:02:11 [main] INFO  verifyInvalidSearchTerm - Setting up Chrome browser...
+2025-03-15 23:02:11 [main] INFO  verifyInvalidSearchTerm - Browser setup complete with ZenRows proxy.
+2025-03-15 23:02:11 [main] INFO  verifyInvalidSearchTerm - Navigating to: https://demo.nopcommerce.com/
+2025-03-15 23:02:13 [main] INFO  verifyInvalidSearchTerm - Invalid search term verification completed successfully.
+2025-03-15 23:02:13 [main] INFO  verifyInvalidSearchTerm - Closing the browser for test: verifyInvalidSearchTerm
+2025-03-15 23:02:13 [main] INFO  verifyInvalidSearchTerm - Browser closed.
+2025-03-15 23:06:34 [main] INFO  verifyInvalidSearchTerm - Starting test setup for: verifyInvalidSearchTerm
+2025-03-15 23:06:34 [main] INFO  verifyInvalidSearchTerm - Setting up Chrome browser...
+2025-03-15 23:06:35 [main] INFO  verifyInvalidSearchTerm - Browser setup complete with ZenRows proxy.
+2025-03-15 23:06:35 [main] INFO  verifyInvalidSearchTerm - Navigating to: https://demo.nopcommerce.com/
+2025-03-15 23:06:37 [main] INFO  verifyInvalidSearchTerm - Invalid search term verification completed successfully.
+2025-03-15 23:06:37 [main] INFO  verifyInvalidSearchTerm - Closing the browser for test: verifyInvalidSearchTerm
+2025-03-15 23:06:37 [main] INFO  verifyInvalidSearchTerm - Browser closed.
+2025-03-15 23:08:41 [main] INFO  verifyInvalidSearchTerm - Starting test setup for: verifyInvalidSearchTerm
+2025-03-15 23:08:41 [main] INFO  verifyInvalidSearchTerm - Setting up Chrome browser...
+2025-03-15 23:08:42 [main] INFO  verifyInvalidSearchTerm - Browser setup complete with ZenRows proxy.
+2025-03-15 23:08:42 [main] INFO  verifyInvalidSearchTerm - Navigating to: https://demo.nopcommerce.com/
+2025-03-15 23:08:45 [main] INFO  verifyInvalidSearchTerm - Invalid search term verification completed successfully.
+2025-03-15 23:08:45 [main] INFO  verifyInvalidSearchTerm - Closing the browser for test: verifyInvalidSearchTerm
+2025-03-15 23:08:45 [main] INFO  verifyInvalidSearchTerm - Browser closed.
+2025-03-16 01:38:39 [main] INFO  verifyInvalidSearchTerm - Starting test setup for: verifyInvalidSearchTerm
+2025-03-16 01:38:39 [main] INFO  verifyInvalidSearchTerm - Setting up Chrome browser...
+2025-03-16 01:38:39 [main] INFO  verifyInvalidSearchTerm - Navigating to: https://demo.nopcommerce.com/
+2025-03-16 01:38:47 [main] INFO  verifyInvalidSearchTerm - Invalid search term verification completed successfully.
+2025-03-16 01:38:47 [main] INFO  verifyInvalidSearchTerm - Closing the browser for test: verifyInvalidSearchTerm
+2025-03-16 01:38:47 [main] INFO  verifyInvalidSearchTerm - Browser closed.
+2025-03-16 07:01:24 [main] INFO  verifyInvalidSearchTerm - Starting test setup for: verifyInvalidSearchTerm
+2025-03-16 07:01:41 [main] INFO  verifyInvalidSearchTerm - Navigated to the site: https://demo.nopcommerce.com
+2025-03-16 07:01:41 [main] INFO  verifyInvalidSearchTerm - Injected cookie: cf_clearance
+2025-03-16 07:01:41 [main] INFO  verifyInvalidSearchTerm - Injected cookie: _ga
+2025-03-16 07:01:41 [main] INFO  verifyInvalidSearchTerm - Injected cookie: .Nop.Antiforgery
+2025-03-16 07:01:41 [main] INFO  verifyInvalidSearchTerm - Injected cookie: .Nop.Customer
+2025-03-16 07:01:41 [main] INFO  verifyInvalidSearchTerm - Injected cookie: .Nop.Culture
+2025-03-16 07:01:41 [main] INFO  verifyInvalidSearchTerm - Injected cookie: _ga_SCT41TW89V
+2025-03-16 07:01:42 [main] INFO  verifyInvalidSearchTerm - Page refreshed with bypassed cookies.
+2025-03-16 07:01:42 [main] INFO  verifyInvalidSearchTerm - Navigating to: https://demo.nopcommerce.com/
+2025-03-16 07:01:54 [main] INFO  verifyInvalidSearchTerm - Closing the browser for test: verifyInvalidSearchTerm
+2025-03-16 07:01:54 [main] INFO  verifyInvalidSearchTerm - Browser closed.
+2025-03-16 08:47:56 [main] INFO  verifyInvalidSearchTerm - Starting test setup for: verifyInvalidSearchTerm
+2025-03-16 08:48:21 [main] INFO  verifyInvalidSearchTerm - Navigated to the site: https://demo.nopcommerce.com
+2025-03-16 08:48:21 [main] INFO  verifyInvalidSearchTerm - Injected cookie: _ga
+2025-03-16 08:48:21 [main] INFO  verifyInvalidSearchTerm - Injected cookie: cf_clearance
+2025-03-16 08:48:21 [main] INFO  verifyInvalidSearchTerm - Injected cookie: .Nop.Antiforgery
+2025-03-16 08:48:21 [main] INFO  verifyInvalidSearchTerm - Injected cookie: .Nop.Customer
+2025-03-16 08:48:21 [main] INFO  verifyInvalidSearchTerm - Injected cookie: .Nop.Culture
+2025-03-16 08:48:21 [main] INFO  verifyInvalidSearchTerm - Injected cookie: _ga_SCT41TW89V
+2025-03-16 08:48:22 [main] INFO  verifyInvalidSearchTerm - Page refreshed with bypassed cookies.
+2025-03-16 08:48:22 [main] INFO  verifyInvalidSearchTerm - Navigating to: https://demo.nopcommerce.com/
+2025-03-16 08:48:24 [main] INFO  verifyInvalidSearchTerm - Invalid search term verification completed successfully.
+2025-03-16 08:48:24 [main] INFO  verifyInvalidSearchTerm - Closing the browser for test: verifyInvalidSearchTerm
+2025-03-16 08:48:25 [main] INFO  verifyInvalidSearchTerm - Browser closed.
+2025-03-16 09:21:26 [main] INFO  verifyInvalidSearchTerm - Starting test setup for: verifyInvalidSearchTerm
+2025-03-16 09:21:49 [main] INFO  verifyInvalidSearchTerm - Navigated to the site: https://demo.nopcommerce.com
+2025-03-16 09:21:49 [main] INFO  verifyInvalidSearchTerm - Injected cookie: _ga
+2025-03-16 09:21:49 [main] INFO  verifyInvalidSearchTerm - Injected cookie: cf_clearance
+2025-03-16 09:21:49 [main] INFO  verifyInvalidSearchTerm - Injected cookie: .Nop.Antiforgery
+2025-03-16 09:21:49 [main] INFO  verifyInvalidSearchTerm - Injected cookie: .Nop.Customer
+2025-03-16 09:21:49 [main] INFO  verifyInvalidSearchTerm - Injected cookie: .Nop.Culture
+2025-03-16 09:21:49 [main] INFO  verifyInvalidSearchTerm - Injected cookie: _ga_SCT41TW89V
+2025-03-16 09:21:50 [main] INFO  verifyInvalidSearchTerm - Page refreshed with bypassed cookies.
+2025-03-16 09:21:50 [main] INFO  verifyInvalidSearchTerm - Navigating to: https://demo.nopcommerce.com/
+2025-03-16 09:21:52 [main] INFO  verifyInvalidSearchTerm - Invalid search term verification completed successfully.
+2025-03-16 09:21:52 [main] INFO  verifyInvalidSearchTerm - Closing the browser for test: verifyInvalidSearchTerm
+2025-03-16 09:21:53 [main] INFO  verifyInvalidSearchTerm - Browser closed.
+2025-03-17 18:24:09 [main] INFO  verifyInvalidSearchTerm - 
+================================================================================================================================ NEW TEST RUN ================================================================================================================================
+2025-03-17 18:24:09 [main] INFO  verifyInvalidSearchTerm - Starting test setup for: verifyInvalidSearchTerm
+2025-03-17 18:24:32 [main] INFO  verifyInvalidSearchTerm - Navigated to the site: https://demo.nopcommerce.com
+2025-03-17 18:24:32 [main] INFO  verifyInvalidSearchTerm - Injected cookie: _ga
+2025-03-17 18:24:32 [main] INFO  verifyInvalidSearchTerm - Injected cookie: cf_clearance
+2025-03-17 18:24:32 [main] INFO  verifyInvalidSearchTerm - Injected cookie: .Nop.Antiforgery
+2025-03-17 18:24:32 [main] INFO  verifyInvalidSearchTerm - Injected cookie: .Nop.Customer
+2025-03-17 18:24:32 [main] INFO  verifyInvalidSearchTerm - Injected cookie: .Nop.Culture
+2025-03-17 18:24:32 [main] INFO  verifyInvalidSearchTerm - Injected cookie: _ga_SCT41TW89V
+2025-03-17 18:24:33 [main] INFO  verifyInvalidSearchTerm - Page refreshed with bypassed cookies.
+2025-03-17 18:24:33 [main] INFO  verifyInvalidSearchTerm - Navigating to: https://demo.nopcommerce.com/
+2025-03-17 18:24:35 [main] INFO  verifyInvalidSearchTerm - Invalid search term verification completed successfully.
+2025-03-17 18:24:35 [main] INFO  verifyInvalidSearchTerm - Closing the browser for test: verifyInvalidSearchTerm
+2025-03-17 18:24:35 [main] INFO  verifyInvalidSearchTerm - Browser closed.
+2025-03-17 18:50:19 [main] INFO  verifyInvalidSearchTerm - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-03-17 18:50:19 [main] INFO  verifyInvalidSearchTerm - Starting test setup for: verifyInvalidSearchTerm
+2025-03-17 18:50:41 [main] INFO  verifyInvalidSearchTerm - Navigated to the site: https://demo.nopcommerce.com
+2025-03-17 18:50:41 [main] INFO  verifyInvalidSearchTerm - Injected cookie: cf_clearance
+2025-03-17 18:50:41 [main] INFO  verifyInvalidSearchTerm - Injected cookie: _ga
+2025-03-17 18:50:41 [main] INFO  verifyInvalidSearchTerm - Injected cookie: .Nop.Antiforgery
+2025-03-17 18:50:41 [main] INFO  verifyInvalidSearchTerm - Injected cookie: .Nop.Customer
+2025-03-17 18:50:41 [main] INFO  verifyInvalidSearchTerm - Injected cookie: .Nop.Culture
+2025-03-17 18:50:41 [main] INFO  verifyInvalidSearchTerm - Injected cookie: _ga_SCT41TW89V
+2025-03-17 18:50:42 [main] INFO  verifyInvalidSearchTerm - Page refreshed with bypassed cookies.
+2025-03-17 18:50:42 [main] INFO  verifyInvalidSearchTerm - Navigating to: https://demo.nopcommerce.com/
+2025-03-17 18:50:44 [main] INFO  verifyInvalidSearchTerm - Invalid search term verification completed successfully.
+2025-03-17 18:50:44 [main] INFO  verifyInvalidSearchTerm - Closing the browser for test: verifyInvalidSearchTerm
+2025-03-17 18:50:45 [main] INFO  verifyInvalidSearchTerm - Browser closed.

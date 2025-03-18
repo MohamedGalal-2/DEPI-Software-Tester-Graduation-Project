@@ -11,7 +11,7 @@ import org.json.JSONArray;
 
 public class CloudflareBypass {
 
-    private static final String LOG_FILE_PATH = "logs/json_log.log"; // Log file path
+    private static final String LOG_FILE_PATH = "reports/logs/json_log.log"; // Log file path
 
     public static Map<String, String> getBypassedData(String url) {
         Map<String, String> data = new HashMap<>();

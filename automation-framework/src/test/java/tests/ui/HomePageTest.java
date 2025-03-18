@@ -15,7 +15,7 @@ import java.util.List;
 public class HomePageTest extends BaseTest {
     private final String url = "https://demo.nopcommerce.com/";
 
-    @Test
+    @Test(groups = {"smoke"}, description = "TC-001")
     public void verifyHomePageLoads() {
         logger.info("Navigating to: " + url);
         driver.get(url);

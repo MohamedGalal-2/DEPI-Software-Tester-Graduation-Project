@@ -1,0 +1,74 @@
+2025-03-15 23:50:38 [main] INFO  verifyProductImageGalleryIsFunctional - Starting test setup for: verifyProductImageGalleryIsFunctional
+2025-03-15 23:50:38 [main] INFO  verifyProductImageGalleryIsFunctional - Setting up Chrome browser...
+2025-03-15 23:50:39 [main] INFO  verifyProductImageGalleryIsFunctional - Browser setup complete with ZenRows proxy.
+2025-03-15 23:50:39 [main] INFO  verifyProductImageGalleryIsFunctional - Navigating to: https://demo.nopcommerce.com/
+2025-03-15 23:50:42 [main] INFO  verifyProductImageGalleryIsFunctional - Product page loaded successfully.
+2025-03-15 23:50:47 [main] INFO  verifyProductImageGalleryIsFunctional - Closing the browser for test: verifyProductImageGalleryIsFunctional
+2025-03-15 23:50:48 [main] INFO  verifyProductImageGalleryIsFunctional - Browser closed.
+2025-03-15 23:51:41 [main] INFO  verifyProductImageGalleryIsFunctional - Starting test setup for: verifyProductImageGalleryIsFunctional
+2025-03-15 23:51:41 [main] INFO  verifyProductImageGalleryIsFunctional - Setting up Chrome browser...
+2025-03-15 23:51:42 [main] INFO  verifyProductImageGalleryIsFunctional - Browser setup complete with ZenRows proxy.
+2025-03-15 23:51:42 [main] INFO  verifyProductImageGalleryIsFunctional - Navigating to: https://demo.nopcommerce.com/
+2025-03-15 23:51:50 [main] INFO  verifyProductImageGalleryIsFunctional - Closing the browser for test: verifyProductImageGalleryIsFunctional
+2025-03-15 23:51:50 [main] INFO  verifyProductImageGalleryIsFunctional - Browser closed.
+2025-03-15 23:51:56 [main] INFO  verifyProductImageGalleryIsFunctional - Starting test setup for: verifyProductImageGalleryIsFunctional
+2025-03-15 23:51:56 [main] INFO  verifyProductImageGalleryIsFunctional - Setting up Chrome browser...
+2025-03-15 23:51:57 [main] INFO  verifyProductImageGalleryIsFunctional - Browser setup complete with ZenRows proxy.
+2025-03-15 23:51:57 [main] INFO  verifyProductImageGalleryIsFunctional - Navigating to: https://demo.nopcommerce.com/
+2025-03-15 23:52:00 [main] INFO  verifyProductImageGalleryIsFunctional - Product page loaded successfully.
+2025-03-15 23:52:20 [main] INFO  verifyProductImageGalleryIsFunctional - Closing the browser for test: verifyProductImageGalleryIsFunctional
+2025-03-15 23:52:20 [main] INFO  verifyProductImageGalleryIsFunctional - Browser closed.
+2025-03-15 23:54:36 [main] INFO  verifyProductImageGalleryIsFunctional - Starting test setup for: verifyProductImageGalleryIsFunctional
+2025-03-15 23:54:36 [main] INFO  verifyProductImageGalleryIsFunctional - Setting up Chrome browser...
+2025-03-15 23:54:37 [main] INFO  verifyProductImageGalleryIsFunctional - Browser setup complete with ZenRows proxy.
+2025-03-15 23:54:37 [main] INFO  verifyProductImageGalleryIsFunctional - Navigating to: https://demo.nopcommerce.com/
+2025-03-15 23:54:41 [main] INFO  verifyProductImageGalleryIsFunctional - Product page loaded successfully.
+2025-03-15 23:54:41 [main] INFO  verifyProductImageGalleryIsFunctional - Closing the browser for test: verifyProductImageGalleryIsFunctional
+2025-03-15 23:54:41 [main] INFO  verifyProductImageGalleryIsFunctional - Browser closed.
+2025-03-15 23:55:39 [main] INFO  verifyProductImageGalleryIsFunctional - Starting test setup for: verifyProductImageGalleryIsFunctional
+2025-03-15 23:55:39 [main] INFO  verifyProductImageGalleryIsFunctional - Setting up Chrome browser...
+2025-03-15 23:55:40 [main] INFO  verifyProductImageGalleryIsFunctional - Browser setup complete with ZenRows proxy.
+2025-03-15 23:55:40 [main] INFO  verifyProductImageGalleryIsFunctional - Navigating to: https://demo.nopcommerce.com/
+2025-03-15 23:55:56 [main] INFO  verifyProductImageGalleryIsFunctional - Starting test setup for: verifyProductImageGalleryIsFunctional
+2025-03-15 23:55:56 [main] INFO  verifyProductImageGalleryIsFunctional - Setting up Chrome browser...
+2025-03-15 23:55:58 [main] INFO  verifyProductImageGalleryIsFunctional - Browser setup complete with ZenRows proxy.
+2025-03-15 23:55:58 [main] INFO  verifyProductImageGalleryIsFunctional - Navigating to: https://demo.nopcommerce.com/
+2025-03-15 23:56:36 [main] INFO  verifyProductImageGalleryIsFunctional - Starting test setup for: verifyProductImageGalleryIsFunctional
+2025-03-15 23:56:36 [main] INFO  verifyProductImageGalleryIsFunctional - Setting up Chrome browser...
+2025-03-15 23:56:37 [main] INFO  verifyProductImageGalleryIsFunctional - Browser setup complete with ZenRows proxy.
+2025-03-15 23:56:37 [main] INFO  verifyProductImageGalleryIsFunctional - Navigating to: https://demo.nopcommerce.com/
+2025-03-15 23:57:08 [main] INFO  verifyProductImageGalleryIsFunctional - Starting test setup for: verifyProductImageGalleryIsFunctional
+2025-03-15 23:57:08 [main] INFO  verifyProductImageGalleryIsFunctional - Setting up Chrome browser...
+2025-03-15 23:57:09 [main] INFO  verifyProductImageGalleryIsFunctional - Browser setup complete with ZenRows proxy.
+2025-03-15 23:57:09 [main] INFO  verifyProductImageGalleryIsFunctional - Navigating to: https://demo.nopcommerce.com/
+2025-03-15 23:57:15 [main] INFO  verifyProductImageGalleryIsFunctional - Closing the browser for test: verifyProductImageGalleryIsFunctional
+2025-03-15 23:57:16 [main] INFO  verifyProductImageGalleryIsFunctional - Browser closed.
+2025-03-15 23:58:47 [main] INFO  verifyProductImageGalleryIsFunctional - Starting test setup for: verifyProductImageGalleryIsFunctional
+2025-03-15 23:58:47 [main] INFO  verifyProductImageGalleryIsFunctional - Setting up Chrome browser...
+2025-03-15 23:58:48 [main] INFO  verifyProductImageGalleryIsFunctional - Browser setup complete with ZenRows proxy.
+2025-03-15 23:58:48 [main] INFO  verifyProductImageGalleryIsFunctional - Navigating to: https://demo.nopcommerce.com/
+2025-03-16 00:02:38 [main] INFO  verifyProductImageGalleryIsFunctional - Starting test setup for: verifyProductImageGalleryIsFunctional
+2025-03-16 00:02:38 [main] INFO  verifyProductImageGalleryIsFunctional - Setting up Chrome browser...
+2025-03-16 00:02:39 [main] INFO  verifyProductImageGalleryIsFunctional - Browser setup complete with ZenRows proxy.
+2025-03-16 00:02:39 [main] INFO  verifyProductImageGalleryIsFunctional - Navigating to: https://demo.nopcommerce.com/
+2025-03-16 00:02:49 [main] INFO  verifyProductImageGalleryIsFunctional - Closing the browser for test: verifyProductImageGalleryIsFunctional
+2025-03-16 00:02:49 [main] INFO  verifyProductImageGalleryIsFunctional - Browser closed.
+2025-03-16 00:03:24 [main] INFO  verifyProductImageGalleryIsFunctional - Starting test setup for: verifyProductImageGalleryIsFunctional
+2025-03-16 00:03:24 [main] INFO  verifyProductImageGalleryIsFunctional - Setting up Chrome browser...
+2025-03-16 00:03:25 [main] INFO  verifyProductImageGalleryIsFunctional - Browser setup complete with ZenRows proxy.
+2025-03-16 00:03:25 [main] INFO  verifyProductImageGalleryIsFunctional - Navigating to: https://demo.nopcommerce.com/
+2025-03-16 00:11:06 [main] INFO  verifyProductImageGalleryIsFunctional - Starting test setup for: verifyProductImageGalleryIsFunctional
+2025-03-16 00:11:06 [main] INFO  verifyProductImageGalleryIsFunctional - Setting up Chrome browser...
+2025-03-16 00:11:07 [main] INFO  verifyProductImageGalleryIsFunctional - Browser setup complete with ZenRows proxy.
+2025-03-16 00:11:07 [main] INFO  verifyProductImageGalleryIsFunctional - Navigating to: https://demo.nopcommerce.com/
+2025-03-16 00:11:31 [main] INFO  verifyProductImageGalleryIsFunctional - Starting test setup for: verifyProductImageGalleryIsFunctional
+2025-03-16 00:11:31 [main] INFO  verifyProductImageGalleryIsFunctional - Setting up Chrome browser...
+2025-03-16 00:11:32 [main] INFO  verifyProductImageGalleryIsFunctional - Browser setup complete with ZenRows proxy.
+2025-03-16 00:11:32 [main] INFO  verifyProductImageGalleryIsFunctional - Navigating to: https://demo.nopcommerce.com/
+2025-03-16 00:13:02 [main] INFO  verifyProductImageGalleryIsFunctional - Starting test setup for: verifyProductImageGalleryIsFunctional
+2025-03-16 00:13:02 [main] INFO  verifyProductImageGalleryIsFunctional - Setting up Chrome browser...
+2025-03-16 00:13:03 [main] INFO  verifyProductImageGalleryIsFunctional - Browser setup complete with ZenRows proxy.
+2025-03-16 00:13:03 [main] INFO  verifyProductImageGalleryIsFunctional - Navigating to: https://demo.nopcommerce.com/
+2025-03-16 00:13:06 [main] INFO  verifyProductImageGalleryIsFunctional - Product page loaded successfully.
+2025-03-16 00:13:07 [main] INFO  verifyProductImageGalleryIsFunctional - Closing the browser for test: verifyProductImageGalleryIsFunctional
+2025-03-16 00:13:07 [main] INFO  verifyProductImageGalleryIsFunctional - Browser closed.

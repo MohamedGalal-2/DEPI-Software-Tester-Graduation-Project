@@ -1,6 +1,8 @@
 package tests.ui;
 
+import utils.SeleniumHelper;
 import base.BaseTest;
+
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import org.openqa.selenium.By;
@@ -20,13 +22,14 @@ import java.util.List;
 public class ProductPageTest extends BaseTest {
     String url = "https://demo.nopcommerce.com/";
 
-    @Test
+    @Test(groups = {"smoke"}, description = "TC-020")
     public void verifyProductVariationSelection() throws InterruptedException {
         logger.info("Navigating directly to the product page.");
         driver.get("https://demo.nopcommerce.com/build-your-own-computer");
 
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(20));
         JavascriptExecutor js = (JavascriptExecutor) driver;
+        SeleniumHelper helper = new SeleniumHelper(driver);
 
         logger.info("Product page loaded successfully.");
 
@@ -42,54 +45,54 @@ public class ProductPageTest extends BaseTest {
 
         // Select Processor
         WebElement processorDropdown = wait.until(ExpectedConditions.elementToBeClickable(By.id("product_attribute_1")));
-        scrollToElement(processorDropdown);
-        realisticDelay();
+        helper.scrollToElement(processorDropdown);
+        helper.realisticDelay();
         js.executeScript("arguments[0].value='2'; arguments[0].dispatchEvent(new Event('change'))", processorDropdown);
         selectedOptions.add("Processor: 2.5 GHz Intel Pentium Dual-Core E2200 [+$15.00]");
-        realisticDelay();
+        helper.realisticDelay();
 
         // Select RAM
         WebElement ramDropdown = driver.findElement(By.id("product_attribute_2"));
-        scrollToElement(ramDropdown);
-        realisticDelay();
+        helper.scrollToElement(ramDropdown);
+        helper.realisticDelay();
         js.executeScript("arguments[0].value='4'; arguments[0].dispatchEvent(new Event('change'))", ramDropdown);
         selectedOptions.add("RAM: 4GB [+$20.00]");
-        realisticDelay();
+        helper.realisticDelay();
 
         // Select HDD (400GB)
         WebElement hddOption = driver.findElement(By.xpath("//input[@id='product_attribute_3_7']")); // Correct ID for 400GB
-        scrollToElement(hddOption);
-        realisticDelay();
+        helper.scrollToElement(hddOption);
+        helper.realisticDelay();
         if (!hddOption.isSelected()) {
             js.executeScript("arguments[0].click(); arguments[0].dispatchEvent(new Event('change'))", hddOption);
         }
         selectedOptions.add("HDD: 400 GB [+$100.00]");
-        realisticDelay();
+        helper.realisticDelay();
 
         // Select OS (Vista Premium)
         WebElement osOption = driver.findElement(By.xpath("//input[@id='product_attribute_4_9']")); // Correct ID for Vista Premium
-        scrollToElement(osOption);
-        realisticDelay();
+        helper.scrollToElement(osOption);
+        helper.realisticDelay();
         if (!osOption.isSelected()) {
             js.executeScript("arguments[0].click(); arguments[0].dispatchEvent(new Event('change'))", osOption);
         }
         selectedOptions.add("OS: Vista Premium [+$60.00]");
-        realisticDelay();
+        helper.realisticDelay();
 
         // Select Software
         WebElement officeCheckbox = driver.findElement(By.xpath("//input[@id='product_attribute_5_10']"));
-        scrollToElement(officeCheckbox);
-        realisticDelay();
+        helper.scrollToElement(officeCheckbox);
+        helper.realisticDelay();
         if (!officeCheckbox.isSelected()) {
             js.executeScript("arguments[0].click();", officeCheckbox);
         }
         selectedOptions.add("Software: Microsoft Office [+$50.00]");
-        realisticDelay();
+        helper.realisticDelay();
 
         // Add to Cart
         WebElement addToCartButton = driver.findElement(By.id("add-to-cart-button-1"));
-        scrollToElement(addToCartButton);
-        realisticDelay();
+        helper.scrollToElement(addToCartButton);
+        helper.realisticDelay();
         js.executeScript("arguments[0].click();", addToCartButton);
 
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector(".cart-qty")));
@@ -142,7 +145,7 @@ public class ProductPageTest extends BaseTest {
         logger.info("Cart validation successful! Product attributes match the selection.");
     }
 
-    @Test
+    @Test(groups = {"smoke"}, description = "TC-003")
     public void verifyProductPageLoadsCorrectly() {
         logger.info("Navigating to: " + url);
         driver.get(url);
@@ -167,7 +170,7 @@ public class ProductPageTest extends BaseTest {
         logger.info("Product page loaded successfully.");
     }
 
-    @Test
+    @Test(groups = {"ui"}, description = "TC-063")
     public void verifyRelatedProductsAreDisplayed() {
         logger.info("Navigating to: " + url);
         driver.get(url);
@@ -216,7 +219,7 @@ public class ProductPageTest extends BaseTest {
         logger.info("Related products are displayed successfully.");
     }
 
-    @Test
+    @Test(groups = {"ui"}, description = "TC-179")
     public void verifyProductImageGallery() {
         logger.info("Navigating to: " + url);
         driver.get(url);
@@ -270,7 +273,7 @@ public class ProductPageTest extends BaseTest {
         logger.info("Product image gallery allows browsing images successfully.");
     }
 
-    @Test
+    @Test(groups = {"ui"}, description = "TC-180")
     public void verifyProductReviewsAreDisplayed() {
         logger.info("Navigating to: " + url);
         driver.get(url);
@@ -337,41 +340,43 @@ public class ProductPageTest extends BaseTest {
         logger.info("Product reviews are displayed successfully.");
     }
 
-    @Test
+    @Test(groups = {"ui"}, description = "TC-199")
     public void verifyCompareListFunctionality() throws InterruptedException {
         logger.info("Navigating to: " + url);
         driver.get(url);
 
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
         JavascriptExecutor js = (JavascriptExecutor) driver;
+        SeleniumHelper helper = new SeleniumHelper(driver);
 
         // Step 1: Add first product to compare list
         logger.info("Opening Apple iPhone 16 128GB product page.");
         driver.get("https://demo.nopcommerce.com/apple-iphone-16-128gb");
-        randomScroll();
-        randomDelay();
+        helper.randomScroll();
+        SeleniumHelper.randomDelay();
 
         js.executeScript("document.querySelector('.compare-products .add-to-compare-list-button').click();");
         logger.info("Added Apple iPhone 16 128GB to the compare list.");
-        randomScroll();
-        randomDelay();
+        helper.randomScroll();
+        helper.randomDelay();
 
         // Step 2: Add second product to compare list
+        Thread.sleep(1000);
         logger.info("Opening HTC One Mini Blue product page.");
         driver.get("https://demo.nopcommerce.com/htc-one-mini-blue");
-        randomScroll();
-        randomDelay();
+        helper.randomScroll();
+        helper.randomDelay();
 
         js.executeScript("document.querySelector('.compare-products .add-to-compare-list-button').click();");
         logger.info("Added HTC One Mini Blue to the compare list.");
-        randomScroll();
-        randomDelay();
+        helper.randomScroll();
+        helper.randomDelay();
 
         // Step 3: Navigate to Compare Products page
         logger.info("Navigating to Compare Products list.");
         driver.get("https://demo.nopcommerce.com/compareproducts");
-        randomScroll();
-        randomDelay();
+        helper.randomScroll();
+        helper.randomDelay();
 
         // Step 4: Verify Compare List Page
         WebElement compareTitle = wait.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector(".page-title h1")));
@@ -391,30 +396,6 @@ public class ProductPageTest extends BaseTest {
         Assert.assertTrue(productNames.contains("HTC One Mini Blue"), "HTC One Mini Blue not found in compare list!");
 
         logger.info("Compare list verification successful.");
-    }
-
-    // Random delay function
-    public void realisticDelay() throws InterruptedException {
-        int delay = ThreadLocalRandom.current().nextInt(1000, 3000); // 1s - 3s
-        Thread.sleep(delay);
-    }
-
-    public void scrollToElement(WebElement element) {
-        JavascriptExecutor js = (JavascriptExecutor) driver;
-        js.executeScript("arguments[0].scrollIntoView({behavior: 'smooth', block: 'center'});", element);
-    }
-
-    // Function to generate a random delay between 7 to 12 seconds
-    public void randomDelay() throws InterruptedException {
-        int randomTime = ThreadLocalRandom.current().nextInt(7000, 12000); // 7s - 12s
-        Thread.sleep(randomTime);
-    }
-
-    // Function to simulate human-like scrolling
-    public void randomScroll() {
-        JavascriptExecutor js = (JavascriptExecutor) driver;
-        int scrollAmount = ThreadLocalRandom.current().nextInt(300, 700); // Random scroll distance
-        js.executeScript("window.scrollBy(0," + scrollAmount + ");");
     }
 
 }

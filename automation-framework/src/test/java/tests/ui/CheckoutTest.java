@@ -1,6 +1,8 @@
 package tests.ui;
 
 import base.BaseTest;
+import utils.SeleniumHelper;
+
 import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
@@ -18,7 +20,7 @@ public class CheckoutTest extends BaseTest {
     String cartUrl = "https://demo.nopcommerce.com/cart";
     String loginUrl = "https://demo.nopcommerce.com/login";
 
-    @Test
+    @Test(groups = {"smoke"}, description = "TC-004")
     public void verifyCheckoutPageLoads() throws InterruptedException {
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(20));
         String productUrl = "https://demo.nopcommerce.com/adobe-photoshop";
@@ -64,11 +66,11 @@ public class CheckoutTest extends BaseTest {
         // Step 8: Verify checkout page loads
         wait.until(ExpectedConditions.urlContains("/checkout"));
         Assert.assertTrue(driver.getCurrentUrl().contains("/checkout"), "Checkout page did not load.");
-        logger.info("Checkout page loaded successfully.");
+        logger.info("\"TC-004\" Passed: Checkout page loaded successfully.");
     }
 
-    @Test
-    public void testCheckoutProcessAsGuest() throws InterruptedException {
+    @Test(groups = {"smoke"}, description = "TC-005_TC-006_TC-072")
+    public void verifyCheckoutProcessAsGuest() throws InterruptedException {
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(20));
         String productUrl = "https://demo.nopcommerce.com/adobe-photoshop";
 
@@ -178,10 +180,10 @@ public class CheckoutTest extends BaseTest {
         // Step 13: Validate order success
         WebElement orderSuccessMessage = wait.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector(".section.order-completed")));
         Assert.assertTrue(orderSuccessMessage.getText().contains("Your order has been successfully processed!"), "Order not successful!");
-        logger.info("Order placed successfully!");
+        logger.info("\"TC-005 & TC-006 & TC-072\" Passed: Order placed successfully!");
     }
 
-    @Test
+    @Test(groups = {"functional"}, description = "TC-073")
     public void testCheckoutProcessAsUser() throws InterruptedException {
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(20));
 
@@ -239,35 +241,8 @@ public class CheckoutTest extends BaseTest {
         logger.info("Accepted terms of service.");
         driver.findElement(By.id("checkout")).click();
 
-        wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("BillingNewAddress_FirstName")));
         logger.info("Checkout page loaded successfully.");
         Thread.sleep(1000);
-
-        // Fill billing details
-        driver.findElement(By.id("BillingNewAddress_FirstName")).sendKeys("Maegan");
-        driver.findElement(By.id("BillingNewAddress_LastName")).sendKeys("Rolfson");
-
-        // Select country
-        Select countryDropdown = new Select(driver.findElement(By.id("BillingNewAddress_CountryId")));
-        countryDropdown.selectByVisibleText("United States of America");
-
-        // Select the state
-        Thread.sleep(1000);
-        Select stateDropdown = new Select(driver.findElement(By.id("BillingNewAddress_StateProvinceId")));
-        stateDropdown.selectByVisibleText("Alaska");
-
-        // Fill address details
-        driver.findElement(By.id("BillingNewAddress_City")).sendKeys("Anchorage");
-        driver.findElement(By.id("BillingNewAddress_Address1")).sendKeys("PO Box 242941");
-        driver.findElement(By.id("BillingNewAddress_ZipPostalCode")).sendKeys("99524");
-        driver.findElement(By.id("BillingNewAddress_PhoneNumber")).sendKeys("9072430988");
-
-        // Select "Ship to the same address" checkbox
-        WebElement shipToSameAddressCheckbox = driver.findElement(By.id("ShipToSameAddress"));
-        if (!shipToSameAddressCheckbox.isSelected()) {
-            shipToSameAddressCheckbox.click();
-        }
-        logger.info("Checked 'Ship to the same address' option.");
 
         // Click continue
         WebElement continueButton = wait.until(ExpectedConditions.elementToBeClickable(By.cssSelector(".new-address-next-step-button")));
@@ -305,10 +280,10 @@ public class CheckoutTest extends BaseTest {
         // Step 15: Validate order success
         WebElement orderSuccessMessage = wait.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector(".section.order-completed")));
         Assert.assertTrue(orderSuccessMessage.getText().contains("Your order has been successfully processed!"), "Order not successful!");
-        logger.info("Order placed successfully!");
+        logger.info("\"TC-073\" Passed: Order placed successfully!");
     }
 
-    @Test
+    @Test(groups = {"functional"}, description = "TC-080")
     public void verifyInvalidAddressPreventsCheckout() throws InterruptedException {
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(20));
         String productUrl = "https://demo.nopcommerce.com/adobe-photoshop";
@@ -395,17 +370,15 @@ public class CheckoutTest extends BaseTest {
             alert.accept();
 
             // If we reach here, the test should pass
-            logger.info("Test passed: Validation alert appeared as expected.");
+            logger.info("\"TC-080\" Passed: Validation alert appeared as expected.");
 
         } catch (Exception e) {
             logger.error("Test failed: Expected validation alert did not appear.");
             Assert.fail("Expected validation alert did not appear.");
         }
-
-
     }
 
-    @Test
+    @Test(groups = {"functional"}, description = "TC-081")
     public void verifyOrderIsGenerated() throws InterruptedException {
         String productUrl = "https://demo.nopcommerce.com/adobe-photoshop";
 
@@ -484,12 +457,12 @@ public class CheckoutTest extends BaseTest {
         WebElement orderNumberElement = driver.findElement(By.cssSelector(".order-number strong"));
         String orderNumber = orderNumberElement.getText().replaceAll("[^0-9]", ""); // Extract order number
         Assert.assertFalse(orderNumber.isEmpty(), "Order number is missing!");
-        logger.info("Order number generated: " + orderNumber);
+        logger.info("\"TC-081\" Passed: Order number generated: " + orderNumber);
 
         System.out.println("Order placed successfully. Order Number: " + orderNumber);
     }
 
-    @Test
+    @Test(groups = {"ui"}, description = "TC-187")
     public void verifyOrderSummaryDisplaysCorrectInfo() throws InterruptedException {
         String productUrl = "https://demo.nopcommerce.com/apple-iphone-16-128gb";
 
@@ -622,9 +595,11 @@ public class CheckoutTest extends BaseTest {
         String orderTotalText = orderTotal.getText();
         Assert.assertEquals(orderTotalText, "$799.00", "Order total mismatch in order summary.");
         logger.info("Order total matches in order summary: " + orderTotalText);
+
+        logger.info("\"TC-187\" Passed: Checkout page displays correct order summary");
     }
 
-    @Test
+    @Test(groups = {"ui"}, description = "TC-189")
     public void verifyDifferentPaymentOptionsAreAvailable() throws InterruptedException {
         String productUrl = "https://demo.nopcommerce.com/adobe-photoshop";
 
@@ -709,13 +684,6 @@ public class CheckoutTest extends BaseTest {
         Assert.assertTrue(isCheckMoneyOrderVisible, "'Check / Money Order' option is not visible.");
         Assert.assertTrue(isCreditCardVisible, "'Credit Card' option is not visible.");
 
-        logger.info("Both 'Check / Money Order' and 'Credit Card' options are visible.");
-    }
-
-    // Random delay function
-    public void realisticDelay() throws InterruptedException {
-        Random random = new Random();
-        int delay = random.nextInt(2000) + 1000; // Delay between 1000ms and 3000ms
-        Thread.sleep(delay);
+        logger.info("\"TC-189\" Passed: Both 'Check / Money Order' and 'Credit Card' options are visible.");
     }
 }

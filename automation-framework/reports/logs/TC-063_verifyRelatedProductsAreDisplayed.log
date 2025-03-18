@@ -1,0 +1,48 @@
+2025-03-18 03:48:41 [main] INFO  TC-063_verifyRelatedProductsAreDisplayed - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-03-18 03:48:41 [main] INFO  TC-063_verifyRelatedProductsAreDisplayed - Logger initialized and writing to: E:/Folder/Galal/Courses/Digital Egypt Pioneers Initiative (DEPI) - Software Testing/DEPI Software Tester Graduation Project/automation-framework/reports/logs/TC-063_verifyRelatedProductsAreDisplayed.log
+2025-03-18 03:48:41 [main] INFO  TC-063_verifyRelatedProductsAreDisplayed - Starting test setup for: verifyRelatedProductsAreDisplayed (🔢 Test Case ID: TC-063)
+2025-03-18 03:48:58 [main] INFO  TC-063_verifyRelatedProductsAreDisplayed - Navigated to the site: https://demo.nopcommerce.com
+2025-03-18 03:48:58 [main] INFO  TC-063_verifyRelatedProductsAreDisplayed - Injected cookie: _ga
+2025-03-18 03:48:58 [main] INFO  TC-063_verifyRelatedProductsAreDisplayed - Injected cookie: cf_clearance
+2025-03-18 03:48:58 [main] INFO  TC-063_verifyRelatedProductsAreDisplayed - Injected cookie: .Nop.Antiforgery
+2025-03-18 03:48:58 [main] INFO  TC-063_verifyRelatedProductsAreDisplayed - Injected cookie: .Nop.Customer
+2025-03-18 03:48:58 [main] INFO  TC-063_verifyRelatedProductsAreDisplayed - Injected cookie: .Nop.Culture
+2025-03-18 03:48:58 [main] INFO  TC-063_verifyRelatedProductsAreDisplayed - Injected cookie: _ga_SCT41TW89V
+2025-03-18 03:48:59 [main] INFO  TC-063_verifyRelatedProductsAreDisplayed - Page refreshed with bypassed cookies.
+2025-03-18 03:48:59 [main] INFO  TC-063_verifyRelatedProductsAreDisplayed - 🟢 Starting test: verifyRelatedProductsAreDisplayed (🔢 Test Case ID: TC-063)
+2025-03-18 03:48:59 [main] INFO  TC-063_verifyRelatedProductsAreDisplayed - Navigating to: https://demo.nopcommerce.com/
+2025-03-18 03:49:02 [main] INFO  TC-063_verifyRelatedProductsAreDisplayed - Product page loaded successfully.
+2025-03-18 03:49:02 [main] INFO  TC-063_verifyRelatedProductsAreDisplayed - Number of related products displayed: 4
+2025-03-18 03:49:02 [main] INFO  TC-063_verifyRelatedProductsAreDisplayed - Related Product Found: Adobe Photoshop
+2025-03-18 03:49:02 [main] INFO  TC-063_verifyRelatedProductsAreDisplayed - Related Product Found: Nike Floral Roshe Customized Running Shoes
+2025-03-18 03:49:02 [main] INFO  TC-063_verifyRelatedProductsAreDisplayed - Related Product Found: HP Spectre XT Pro UltraBook
+2025-03-18 03:49:02 [main] INFO  TC-063_verifyRelatedProductsAreDisplayed - Related Product Found: Flower Girl Bracelet
+2025-03-18 03:49:02 [main] INFO  TC-063_verifyRelatedProductsAreDisplayed - Related products are displayed successfully.
+2025-03-18 03:49:02 [main] INFO  listeners.TestListener - ✅ Test PASSED: verifyRelatedProductsAreDisplayed (Duration: 2883ms)
+2025-03-18 03:49:02 [main] INFO  TC-063_verifyRelatedProductsAreDisplayed - Closing the browser for test: verifyRelatedProductsAreDisplayed
+2025-03-18 03:49:02 [main] INFO  TC-063_verifyRelatedProductsAreDisplayed - Browser closed.
+2025-03-18 04:05:41 [main] INFO  TC-063_verifyRelatedProductsAreDisplayed - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-03-18 04:05:41 [main] INFO  TC-063_verifyRelatedProductsAreDisplayed - Logger initialized and writing to: E:/Folder/Galal/Courses/Digital Egypt Pioneers Initiative (DEPI) - Software Testing/DEPI Software Tester Graduation Project/automation-framework/reports/logs/TC-063_verifyRelatedProductsAreDisplayed.log
+2025-03-18 04:05:41 [main] INFO  TC-063_verifyRelatedProductsAreDisplayed - Starting test setup for: verifyRelatedProductsAreDisplayed (🔢 Test Case ID: TC-063)
+2025-03-18 04:05:57 [main] INFO  TC-063_verifyRelatedProductsAreDisplayed - Navigated to the site: https://demo.nopcommerce.com
+2025-03-18 04:05:57 [main] INFO  TC-063_verifyRelatedProductsAreDisplayed - Injected cookie: _ga
+2025-03-18 04:05:57 [main] INFO  TC-063_verifyRelatedProductsAreDisplayed - Injected cookie: cf_clearance
+2025-03-18 04:05:57 [main] INFO  TC-063_verifyRelatedProductsAreDisplayed - Injected cookie: .Nop.Antiforgery
+2025-03-18 04:05:57 [main] INFO  TC-063_verifyRelatedProductsAreDisplayed - Injected cookie: .Nop.Customer
+2025-03-18 04:05:57 [main] INFO  TC-063_verifyRelatedProductsAreDisplayed - Injected cookie: .Nop.Culture
+2025-03-18 04:05:57 [main] INFO  TC-063_verifyRelatedProductsAreDisplayed - Injected cookie: _ga_SCT41TW89V
+2025-03-18 04:05:58 [main] INFO  TC-063_verifyRelatedProductsAreDisplayed - Page refreshed with bypassed cookies.
+2025-03-18 04:05:58 [main] INFO  TC-063_verifyRelatedProductsAreDisplayed - 🟢 Starting test: verifyRelatedProductsAreDisplayed (🔢 Test Case ID: TC-063)
+2025-03-18 04:05:58 [main] INFO  TC-063_verifyRelatedProductsAreDisplayed - Navigating to: https://demo.nopcommerce.com/
+2025-03-18 04:06:01 [main] INFO  TC-063_verifyRelatedProductsAreDisplayed - Product page loaded successfully.
+2025-03-18 04:06:01 [main] INFO  TC-063_verifyRelatedProductsAreDisplayed - Number of related products displayed: 4
+2025-03-18 04:06:01 [main] INFO  TC-063_verifyRelatedProductsAreDisplayed - Related Product Found: Adobe Photoshop
+2025-03-18 04:06:01 [main] INFO  TC-063_verifyRelatedProductsAreDisplayed - Related Product Found: Nike Floral Roshe Customized Running Shoes
+2025-03-18 04:06:01 [main] INFO  TC-063_verifyRelatedProductsAreDisplayed - Related Product Found: HP Spectre XT Pro UltraBook
+2025-03-18 04:06:01 [main] INFO  TC-063_verifyRelatedProductsAreDisplayed - Related Product Found: Flower Girl Bracelet
+2025-03-18 04:06:01 [main] INFO  TC-063_verifyRelatedProductsAreDisplayed - Related products are displayed successfully.
+2025-03-18 04:06:01 [main] INFO  listeners.TestListener - ✅ Test PASSED: verifyRelatedProductsAreDisplayed (Duration: 2969ms)
+2025-03-18 04:06:01 [main] INFO  TC-063_verifyRelatedProductsAreDisplayed - Closing the browser for test: verifyRelatedProductsAreDisplayed
+2025-03-18 04:06:01 [main] INFO  TC-063_verifyRelatedProductsAreDisplayed - Browser closed.

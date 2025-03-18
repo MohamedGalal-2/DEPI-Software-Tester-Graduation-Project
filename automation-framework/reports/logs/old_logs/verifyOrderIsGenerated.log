@@ -1,0 +1,103 @@
+2025-03-17 07:12:26 [main] INFO  verifyOrderIsGenerated - Starting test setup for: verifyOrderIsGenerated
+2025-03-17 07:12:51 [main] INFO  verifyOrderIsGenerated - Navigated to the site: https://demo.nopcommerce.com
+2025-03-17 07:12:51 [main] INFO  verifyOrderIsGenerated - Injected cookie: _ga
+2025-03-17 07:12:51 [main] INFO  verifyOrderIsGenerated - Injected cookie: cf_clearance
+2025-03-17 07:12:51 [main] INFO  verifyOrderIsGenerated - Injected cookie: .Nop.Antiforgery
+2025-03-17 07:12:51 [main] INFO  verifyOrderIsGenerated - Injected cookie: .Nop.Customer
+2025-03-17 07:12:51 [main] INFO  verifyOrderIsGenerated - Injected cookie: .Nop.Culture
+2025-03-17 07:12:51 [main] INFO  verifyOrderIsGenerated - Injected cookie: _ga_SCT41TW89V
+2025-03-17 07:12:52 [main] INFO  verifyOrderIsGenerated - Page refreshed with bypassed cookies.
+2025-03-17 07:13:09 [main] INFO  verifyOrderIsGenerated - Closing the browser for test: verifyOrderIsGenerated
+2025-03-17 07:13:09 [main] INFO  verifyOrderIsGenerated - Browser closed.
+2025-03-17 07:14:39 [main] INFO  verifyOrderIsGenerated - Starting test setup for: verifyOrderIsGenerated
+2025-03-17 07:15:05 [main] INFO  verifyOrderIsGenerated - Navigated to the site: https://demo.nopcommerce.com
+2025-03-17 07:15:05 [main] INFO  verifyOrderIsGenerated - Injected cookie: _ga
+2025-03-17 07:15:05 [main] INFO  verifyOrderIsGenerated - Injected cookie: cf_clearance
+2025-03-17 07:15:05 [main] INFO  verifyOrderIsGenerated - Injected cookie: .Nop.Antiforgery
+2025-03-17 07:15:05 [main] INFO  verifyOrderIsGenerated - Injected cookie: .Nop.Customer
+2025-03-17 07:15:05 [main] INFO  verifyOrderIsGenerated - Injected cookie: .Nop.Culture
+2025-03-17 07:15:05 [main] INFO  verifyOrderIsGenerated - Injected cookie: _ga_SCT41TW89V
+2025-03-17 07:15:06 [main] INFO  verifyOrderIsGenerated - Page refreshed with bypassed cookies.
+2025-03-17 07:15:23 [main] INFO  verifyOrderIsGenerated - Closing the browser for test: verifyOrderIsGenerated
+2025-03-17 07:15:23 [main] INFO  verifyOrderIsGenerated - Browser closed.
+2025-03-17 10:03:32 [main] INFO  verifyOrderIsGenerated - 
+================================================================================================================================ NEW TEST RUN ================================================================================================================================
+2025-03-17 10:03:32 [main] INFO  verifyOrderIsGenerated - Starting test setup for: verifyOrderIsGenerated
+2025-03-17 10:03:54 [main] INFO  verifyOrderIsGenerated - Navigated to the site: https://demo.nopcommerce.com
+2025-03-17 10:03:54 [main] INFO  verifyOrderIsGenerated - Injected cookie: _ga
+2025-03-17 10:03:54 [main] INFO  verifyOrderIsGenerated - Injected cookie: cf_clearance
+2025-03-17 10:03:54 [main] INFO  verifyOrderIsGenerated - Injected cookie: .Nop.Antiforgery
+2025-03-17 10:03:54 [main] INFO  verifyOrderIsGenerated - Injected cookie: .Nop.Customer
+2025-03-17 10:03:54 [main] INFO  verifyOrderIsGenerated - Injected cookie: .Nop.Culture
+2025-03-17 10:03:54 [main] INFO  verifyOrderIsGenerated - Injected cookie: _ga_SCT41TW89V
+2025-03-17 10:03:55 [main] INFO  verifyOrderIsGenerated - Page refreshed with bypassed cookies.
+2025-03-17 10:03:55 [main] INFO  verifyOrderIsGenerated - Navigating to login page: https://demo.nopcommerce.com/login
+2025-03-17 10:03:58 [main] INFO  verifyOrderIsGenerated - User logged in successfully.
+2025-03-17 10:03:58 [main] INFO  verifyOrderIsGenerated - Navigating to product page: https://demo.nopcommerce.com/adobe-photoshop
+2025-03-17 10:04:00 [main] INFO  verifyOrderIsGenerated - Clicked 'Add to Cart' button.
+2025-03-17 10:04:00 [main] INFO  verifyOrderIsGenerated - Product successfully added to cart.
+2025-03-17 10:04:00 [main] INFO  verifyOrderIsGenerated - Navigating to cart page: https://demo.nopcommerce.com/cart
+2025-03-17 10:04:02 [main] INFO  verifyOrderIsGenerated - Cart page loaded successfully.
+2025-03-17 10:04:02 [main] INFO  verifyOrderIsGenerated - Accepted terms of service.
+2025-03-17 10:04:06 [main] INFO  verifyOrderIsGenerated - Shipping method selected.
+2025-03-17 10:04:06 [main] INFO  verifyOrderIsGenerated - Payment method selected.
+2025-03-17 10:04:07 [main] INFO  verifyOrderIsGenerated - Payment details entered successfully.
+2025-03-17 10:04:08 [main] INFO  verifyOrderIsGenerated - Order confirmation button clicked.
+2025-03-17 10:04:09 [main] INFO  verifyOrderIsGenerated - Order placed successfully.
+2025-03-17 10:04:09 [main] INFO  verifyOrderIsGenerated - Order number generated: 60
+2025-03-17 10:04:09 [main] INFO  verifyOrderIsGenerated - Closing the browser for test: verifyOrderIsGenerated
+2025-03-17 10:04:09 [main] INFO  verifyOrderIsGenerated - Browser closed.
+2025-03-17 18:16:08 [main] INFO  verifyOrderIsGenerated - 
+================================================================================================================================ NEW TEST RUN ================================================================================================================================
+2025-03-17 18:16:08 [main] INFO  verifyOrderIsGenerated - Starting test setup for: verifyOrderIsGenerated
+2025-03-17 18:16:32 [main] INFO  verifyOrderIsGenerated - Navigated to the site: https://demo.nopcommerce.com
+2025-03-17 18:16:32 [main] INFO  verifyOrderIsGenerated - Injected cookie: _ga
+2025-03-17 18:16:32 [main] INFO  verifyOrderIsGenerated - Injected cookie: cf_clearance
+2025-03-17 18:16:32 [main] INFO  verifyOrderIsGenerated - Injected cookie: .Nop.Antiforgery
+2025-03-17 18:16:32 [main] INFO  verifyOrderIsGenerated - Injected cookie: .Nop.Customer
+2025-03-17 18:16:32 [main] INFO  verifyOrderIsGenerated - Injected cookie: .Nop.Culture
+2025-03-17 18:16:32 [main] INFO  verifyOrderIsGenerated - Injected cookie: _ga_SCT41TW89V
+2025-03-17 18:16:33 [main] INFO  verifyOrderIsGenerated - Page refreshed with bypassed cookies.
+2025-03-17 18:16:33 [main] INFO  verifyOrderIsGenerated - Navigating to login page: https://demo.nopcommerce.com/login
+2025-03-17 18:16:37 [main] INFO  verifyOrderIsGenerated - User logged in successfully.
+2025-03-17 18:16:37 [main] INFO  verifyOrderIsGenerated - Navigating to product page: https://demo.nopcommerce.com/adobe-photoshop
+2025-03-17 18:16:39 [main] INFO  verifyOrderIsGenerated - Clicked 'Add to Cart' button.
+2025-03-17 18:16:40 [main] INFO  verifyOrderIsGenerated - Product successfully added to cart.
+2025-03-17 18:16:40 [main] INFO  verifyOrderIsGenerated - Navigating to cart page: https://demo.nopcommerce.com/cart
+2025-03-17 18:16:41 [main] INFO  verifyOrderIsGenerated - Cart page loaded successfully.
+2025-03-17 18:16:41 [main] INFO  verifyOrderIsGenerated - Accepted terms of service.
+2025-03-17 18:16:47 [main] INFO  verifyOrderIsGenerated - Shipping method selected.
+2025-03-17 18:16:47 [main] INFO  verifyOrderIsGenerated - Payment method selected.
+2025-03-17 18:16:48 [main] INFO  verifyOrderIsGenerated - Payment details entered successfully.
+2025-03-17 18:16:49 [main] INFO  verifyOrderIsGenerated - Order confirmation button clicked.
+2025-03-17 18:16:52 [main] INFO  verifyOrderIsGenerated - Order placed successfully.
+2025-03-17 18:16:52 [main] INFO  verifyOrderIsGenerated - Order number generated: 68
+2025-03-17 18:16:52 [main] INFO  verifyOrderIsGenerated - Closing the browser for test: verifyOrderIsGenerated
+2025-03-17 18:16:52 [main] INFO  verifyOrderIsGenerated - Browser closed.
+2025-03-17 18:43:06 [main] INFO  verifyOrderIsGenerated - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-03-17 18:43:06 [main] INFO  verifyOrderIsGenerated - Starting test setup for: verifyOrderIsGenerated
+2025-03-17 18:43:29 [main] INFO  verifyOrderIsGenerated - Navigated to the site: https://demo.nopcommerce.com
+2025-03-17 18:43:29 [main] INFO  verifyOrderIsGenerated - Injected cookie: cf_clearance
+2025-03-17 18:43:29 [main] INFO  verifyOrderIsGenerated - Injected cookie: _ga
+2025-03-17 18:43:29 [main] INFO  verifyOrderIsGenerated - Injected cookie: .Nop.Antiforgery
+2025-03-17 18:43:29 [main] INFO  verifyOrderIsGenerated - Injected cookie: .Nop.Customer
+2025-03-17 18:43:29 [main] INFO  verifyOrderIsGenerated - Injected cookie: .Nop.Culture
+2025-03-17 18:43:29 [main] INFO  verifyOrderIsGenerated - Injected cookie: _ga_SCT41TW89V
+2025-03-17 18:43:30 [main] INFO  verifyOrderIsGenerated - Page refreshed with bypassed cookies.
+2025-03-17 18:43:30 [main] INFO  verifyOrderIsGenerated - Navigating to login page: https://demo.nopcommerce.com/login
+2025-03-17 18:43:33 [main] INFO  verifyOrderIsGenerated - User logged in successfully.
+2025-03-17 18:43:33 [main] INFO  verifyOrderIsGenerated - Navigating to product page: https://demo.nopcommerce.com/adobe-photoshop
+2025-03-17 18:43:35 [main] INFO  verifyOrderIsGenerated - Clicked 'Add to Cart' button.
+2025-03-17 18:43:35 [main] INFO  verifyOrderIsGenerated - Product successfully added to cart.
+2025-03-17 18:43:35 [main] INFO  verifyOrderIsGenerated - Navigating to cart page: https://demo.nopcommerce.com/cart
+2025-03-17 18:43:36 [main] INFO  verifyOrderIsGenerated - Cart page loaded successfully.
+2025-03-17 18:43:37 [main] INFO  verifyOrderIsGenerated - Accepted terms of service.
+2025-03-17 18:43:40 [main] INFO  verifyOrderIsGenerated - Shipping method selected.
+2025-03-17 18:43:41 [main] INFO  verifyOrderIsGenerated - Payment method selected.
+2025-03-17 18:43:42 [main] INFO  verifyOrderIsGenerated - Payment details entered successfully.
+2025-03-17 18:43:42 [main] INFO  verifyOrderIsGenerated - Order confirmation button clicked.
+2025-03-17 18:43:44 [main] INFO  verifyOrderIsGenerated - Order placed successfully.
+2025-03-17 18:43:44 [main] INFO  verifyOrderIsGenerated - Order number generated: 72
+2025-03-17 18:43:44 [main] INFO  verifyOrderIsGenerated - Closing the browser for test: verifyOrderIsGenerated
+2025-03-17 18:43:44 [main] INFO  verifyOrderIsGenerated - Browser closed.

@@ -1,0 +1,206 @@
+2025-03-16 06:35:37 [main] INFO  verifyCheckoutPageLoads - Starting test setup for: verifyCheckoutPageLoads
+2025-03-16 06:35:38 [main] INFO  verifyCheckoutPageLoads - Setting up Chrome browser...
+2025-03-16 06:35:39 [main] INFO  verifyCheckoutPageLoads - Successfully loaded the bypassed HTML into Selenium.
+2025-03-16 06:35:46 [main] INFO  verifyCheckoutPageLoads - Closing the browser for test: verifyCheckoutPageLoads
+2025-03-16 06:35:46 [main] INFO  verifyCheckoutPageLoads - Browser closed.
+2025-03-16 06:54:07 [main] INFO  verifyCheckoutPageLoads - Starting test setup for: verifyCheckoutPageLoads
+2025-03-16 06:54:24 [main] INFO  verifyCheckoutPageLoads - Navigated to the site: https://demo.nopcommerce.com
+2025-03-16 06:54:24 [main] INFO  verifyCheckoutPageLoads - Injected cookie: cf_clearance
+2025-03-16 06:54:24 [main] INFO  verifyCheckoutPageLoads - Injected cookie: _ga
+2025-03-16 06:54:24 [main] INFO  verifyCheckoutPageLoads - Injected cookie: .Nop.Antiforgery
+2025-03-16 06:54:24 [main] INFO  verifyCheckoutPageLoads - Injected cookie: .Nop.Customer
+2025-03-16 06:54:24 [main] INFO  verifyCheckoutPageLoads - Injected cookie: .Nop.Culture
+2025-03-16 06:54:24 [main] INFO  verifyCheckoutPageLoads - Injected cookie: _ga_SCT41TW89V
+2025-03-16 06:54:25 [main] INFO  verifyCheckoutPageLoads - Page refreshed with bypassed cookies.
+2025-03-16 06:54:32 [main] INFO  verifyCheckoutPageLoads - Closing the browser for test: verifyCheckoutPageLoads
+2025-03-16 06:54:32 [main] INFO  verifyCheckoutPageLoads - Browser closed.
+2025-03-16 08:52:31 [main] INFO  verifyCheckoutPageLoads - Starting test setup for: verifyCheckoutPageLoads
+2025-03-16 08:52:56 [main] INFO  verifyCheckoutPageLoads - Navigated to the site: https://demo.nopcommerce.com
+2025-03-16 08:52:56 [main] INFO  verifyCheckoutPageLoads - Injected cookie: _ga
+2025-03-16 08:52:56 [main] INFO  verifyCheckoutPageLoads - Injected cookie: cf_clearance
+2025-03-16 08:52:56 [main] INFO  verifyCheckoutPageLoads - Injected cookie: .Nop.Antiforgery
+2025-03-16 08:52:56 [main] INFO  verifyCheckoutPageLoads - Injected cookie: .Nop.Customer
+2025-03-16 08:52:56 [main] INFO  verifyCheckoutPageLoads - Injected cookie: .Nop.Culture
+2025-03-16 08:52:56 [main] INFO  verifyCheckoutPageLoads - Injected cookie: _ga_SCT41TW89V
+2025-03-16 08:52:57 [main] INFO  verifyCheckoutPageLoads - Page refreshed with bypassed cookies.
+2025-03-16 08:53:03 [main] INFO  verifyCheckoutPageLoads - Closing the browser for test: verifyCheckoutPageLoads
+2025-03-16 08:53:03 [main] INFO  verifyCheckoutPageLoads - Browser closed.
+2025-03-16 08:57:58 [main] INFO  verifyCheckoutPageLoads - Starting test setup for: verifyCheckoutPageLoads
+2025-03-16 08:58:22 [main] INFO  verifyCheckoutPageLoads - Navigated to the site: https://demo.nopcommerce.com
+2025-03-16 08:58:22 [main] INFO  verifyCheckoutPageLoads - Injected cookie: _ga
+2025-03-16 08:58:22 [main] INFO  verifyCheckoutPageLoads - Injected cookie: cf_clearance
+2025-03-16 08:58:22 [main] INFO  verifyCheckoutPageLoads - Injected cookie: .Nop.Antiforgery
+2025-03-16 08:58:22 [main] INFO  verifyCheckoutPageLoads - Injected cookie: .Nop.Customer
+2025-03-16 08:58:22 [main] INFO  verifyCheckoutPageLoads - Injected cookie: .Nop.Culture
+2025-03-16 08:58:22 [main] INFO  verifyCheckoutPageLoads - Injected cookie: _ga_SCT41TW89V
+2025-03-16 08:58:23 [main] INFO  verifyCheckoutPageLoads - Page refreshed with bypassed cookies.
+2025-03-16 08:58:23 [main] INFO  verifyCheckoutPageLoads - Navigating to the Adobe Photoshop product page.
+2025-03-16 08:58:47 [main] INFO  verifyCheckoutPageLoads - Closing the browser for test: verifyCheckoutPageLoads
+2025-03-16 08:58:47 [main] INFO  verifyCheckoutPageLoads - Browser closed.
+2025-03-16 08:59:31 [main] INFO  verifyCheckoutPageLoads - Starting test setup for: verifyCheckoutPageLoads
+2025-03-16 08:59:55 [main] INFO  verifyCheckoutPageLoads - Navigated to the site: https://demo.nopcommerce.com
+2025-03-16 08:59:55 [main] INFO  verifyCheckoutPageLoads - Injected cookie: _ga
+2025-03-16 08:59:55 [main] INFO  verifyCheckoutPageLoads - Injected cookie: cf_clearance
+2025-03-16 08:59:55 [main] INFO  verifyCheckoutPageLoads - Injected cookie: .Nop.Antiforgery
+2025-03-16 08:59:55 [main] INFO  verifyCheckoutPageLoads - Injected cookie: .Nop.Customer
+2025-03-16 08:59:55 [main] INFO  verifyCheckoutPageLoads - Injected cookie: .Nop.Culture
+2025-03-16 08:59:55 [main] INFO  verifyCheckoutPageLoads - Injected cookie: _ga_SCT41TW89V
+2025-03-16 08:59:56 [main] INFO  verifyCheckoutPageLoads - Page refreshed with bypassed cookies.
+2025-03-16 08:59:56 [main] INFO  verifyCheckoutPageLoads - Navigating to product page: https://demo.nopcommerce.com/adobe-photoshop
+2025-03-16 08:59:58 [main] INFO  verifyCheckoutPageLoads - Product added to the cart.
+2025-03-16 08:59:58 [main] INFO  verifyCheckoutPageLoads - Cart quantity updated.
+2025-03-16 09:00:10 [main] INFO  verifyCheckoutPageLoads - Closing the browser for test: verifyCheckoutPageLoads
+2025-03-16 09:00:10 [main] INFO  verifyCheckoutPageLoads - Browser closed.
+2025-03-16 09:01:02 [main] INFO  verifyCheckoutPageLoads - Starting test setup for: verifyCheckoutPageLoads
+2025-03-16 09:01:26 [main] INFO  verifyCheckoutPageLoads - Navigated to the site: https://demo.nopcommerce.com
+2025-03-16 09:01:26 [main] INFO  verifyCheckoutPageLoads - Injected cookie: _ga
+2025-03-16 09:01:26 [main] INFO  verifyCheckoutPageLoads - Injected cookie: cf_clearance
+2025-03-16 09:01:26 [main] INFO  verifyCheckoutPageLoads - Injected cookie: .Nop.Antiforgery
+2025-03-16 09:01:26 [main] INFO  verifyCheckoutPageLoads - Injected cookie: .Nop.Customer
+2025-03-16 09:01:26 [main] INFO  verifyCheckoutPageLoads - Injected cookie: .Nop.Culture
+2025-03-16 09:01:26 [main] INFO  verifyCheckoutPageLoads - Injected cookie: _ga_SCT41TW89V
+2025-03-16 09:01:27 [main] INFO  verifyCheckoutPageLoads - Page refreshed with bypassed cookies.
+2025-03-16 09:01:27 [main] INFO  verifyCheckoutPageLoads - Navigating to product page: https://demo.nopcommerce.com/adobe-photoshop
+2025-03-16 09:01:29 [main] INFO  verifyCheckoutPageLoads - Clicked 'Add to Cart' button.
+2025-03-16 09:01:30 [main] INFO  verifyCheckoutPageLoads - Product successfully added to cart.
+2025-03-16 09:01:30 [main] INFO  verifyCheckoutPageLoads - Cart quantity updated to: 1
+2025-03-16 09:01:32 [main] INFO  verifyCheckoutPageLoads - Cart page loaded successfully.
+2025-03-16 09:01:32 [main] INFO  verifyCheckoutPageLoads - Accepted terms of service.
+2025-03-16 09:01:34 [main] INFO  verifyCheckoutPageLoads - Clicked on Checkout button.
+2025-03-16 09:01:34 [main] INFO  verifyCheckoutPageLoads - Checkout page loaded successfully.
+2025-03-16 09:01:34 [main] INFO  verifyCheckoutPageLoads - Closing the browser for test: verifyCheckoutPageLoads
+2025-03-16 09:01:34 [main] INFO  verifyCheckoutPageLoads - Browser closed.
+2025-03-16 09:14:12 [main] INFO  verifyCheckoutPageLoads - Starting test setup for: verifyCheckoutPageLoads
+2025-03-16 09:14:33 [main] INFO  verifyCheckoutPageLoads - Starting test setup for: verifyCheckoutPageLoads
+2025-03-16 09:14:58 [main] INFO  verifyCheckoutPageLoads - Navigated to the site: https://demo.nopcommerce.com
+2025-03-16 09:14:58 [main] INFO  verifyCheckoutPageLoads - Injected cookie: _ga
+2025-03-16 09:14:58 [main] INFO  verifyCheckoutPageLoads - Injected cookie: cf_clearance
+2025-03-16 09:14:58 [main] INFO  verifyCheckoutPageLoads - Injected cookie: .Nop.Antiforgery
+2025-03-16 09:14:58 [main] INFO  verifyCheckoutPageLoads - Injected cookie: .Nop.Customer
+2025-03-16 09:14:58 [main] INFO  verifyCheckoutPageLoads - Injected cookie: .Nop.Culture
+2025-03-16 09:14:58 [main] INFO  verifyCheckoutPageLoads - Injected cookie: _ga_SCT41TW89V
+2025-03-16 09:14:59 [main] INFO  verifyCheckoutPageLoads - Page refreshed with bypassed cookies.
+2025-03-16 09:14:59 [main] INFO  verifyCheckoutPageLoads - Navigating to product page: https://demo.nopcommerce.com/adobe-photoshop
+2025-03-16 09:15:01 [main] INFO  verifyCheckoutPageLoads - Clicked 'Add to Cart' button.
+2025-03-16 09:15:01 [main] INFO  verifyCheckoutPageLoads - Product successfully added to cart.
+2025-03-16 09:15:01 [main] INFO  verifyCheckoutPageLoads - Cart quantity updated to: 1
+2025-03-16 09:15:03 [main] INFO  verifyCheckoutPageLoads - Cart page loaded successfully.
+2025-03-16 09:15:03 [main] INFO  verifyCheckoutPageLoads - Accepted terms of service.
+2025-03-16 09:15:05 [main] INFO  verifyCheckoutPageLoads - Clicked on Checkout button.
+2025-03-16 09:15:05 [main] INFO  verifyCheckoutPageLoads - Checkout page loaded successfully.
+2025-03-16 09:15:05 [main] INFO  verifyCheckoutPageLoads - Closing the browser for test: verifyCheckoutPageLoads
+2025-03-16 09:15:05 [main] INFO  verifyCheckoutPageLoads - Browser closed.
+2025-03-16 20:25:31 [main] INFO  verifyCheckoutPageLoads - Starting test setup for: verifyCheckoutPageLoads
+2025-03-16 20:25:55 [main] INFO  verifyCheckoutPageLoads - Navigated to the site: https://demo.nopcommerce.com
+2025-03-16 20:25:55 [main] INFO  verifyCheckoutPageLoads - Injected cookie: _ga
+2025-03-16 20:25:55 [main] INFO  verifyCheckoutPageLoads - Injected cookie: cf_clearance
+2025-03-16 20:25:56 [main] INFO  verifyCheckoutPageLoads - Injected cookie: .Nop.Antiforgery
+2025-03-16 20:25:56 [main] INFO  verifyCheckoutPageLoads - Injected cookie: .Nop.Customer
+2025-03-16 20:25:56 [main] INFO  verifyCheckoutPageLoads - Injected cookie: .Nop.Culture
+2025-03-16 20:25:56 [main] INFO  verifyCheckoutPageLoads - Injected cookie: _ga_SCT41TW89V
+2025-03-16 20:25:56 [main] INFO  verifyCheckoutPageLoads - Page refreshed with bypassed cookies.
+2025-03-16 20:25:56 [main] INFO  verifyCheckoutPageLoads - Navigating to product page: https://demo.nopcommerce.com/adobe-photoshop
+2025-03-16 20:25:58 [main] INFO  verifyCheckoutPageLoads - Clicked 'Add to Cart' button.
+2025-03-16 20:26:20 [main] INFO  verifyCheckoutPageLoads - Closing the browser for test: verifyCheckoutPageLoads
+2025-03-16 20:26:20 [main] INFO  verifyCheckoutPageLoads - Browser closed.
+2025-03-16 20:32:40 [main] INFO  verifyCheckoutPageLoads - Starting test setup for: verifyCheckoutPageLoads
+2025-03-16 20:33:06 [main] INFO  verifyCheckoutPageLoads - Navigated to the site: https://demo.nopcommerce.com
+2025-03-16 20:33:06 [main] INFO  verifyCheckoutPageLoads - Injected cookie: _ga
+2025-03-16 20:33:06 [main] INFO  verifyCheckoutPageLoads - Injected cookie: cf_clearance
+2025-03-16 20:33:06 [main] INFO  verifyCheckoutPageLoads - Injected cookie: .Nop.Antiforgery
+2025-03-16 20:33:06 [main] INFO  verifyCheckoutPageLoads - Injected cookie: .Nop.Customer
+2025-03-16 20:33:06 [main] INFO  verifyCheckoutPageLoads - Injected cookie: .Nop.Culture
+2025-03-16 20:33:06 [main] INFO  verifyCheckoutPageLoads - Injected cookie: _ga_SCT41TW89V
+2025-03-16 20:33:07 [main] INFO  verifyCheckoutPageLoads - Page refreshed with bypassed cookies.
+2025-03-16 20:33:07 [main] INFO  verifyCheckoutPageLoads - Navigating to product page: https://demo.nopcommerce.com/adobe-photoshop
+2025-03-16 20:33:09 [main] INFO  verifyCheckoutPageLoads - Clicked 'Add to Cart' button.
+2025-03-16 20:33:10 [main] INFO  verifyCheckoutPageLoads - Product successfully added to cart.
+2025-03-16 20:33:10 [main] INFO  verifyCheckoutPageLoads - Cart quantity updated to: 1
+2025-03-16 20:33:12 [main] INFO  verifyCheckoutPageLoads - Cart page loaded successfully.
+2025-03-16 20:33:12 [main] INFO  verifyCheckoutPageLoads - Accepted terms of service.
+2025-03-16 20:33:15 [main] INFO  verifyCheckoutPageLoads - Clicked on Checkout button.
+2025-03-16 20:33:15 [main] INFO  verifyCheckoutPageLoads - Checkout page loaded successfully.
+2025-03-16 20:33:15 [main] INFO  verifyCheckoutPageLoads - Closing the browser for test: verifyCheckoutPageLoads
+2025-03-16 20:33:15 [main] INFO  verifyCheckoutPageLoads - Browser closed.
+2025-03-17 05:38:47 [main] INFO  verifyCheckoutPageLoads - Starting test setup for: verifyCheckoutPageLoads
+2025-03-17 05:39:11 [main] INFO  verifyCheckoutPageLoads - Navigated to the site: https://demo.nopcommerce.com
+2025-03-17 05:39:11 [main] INFO  verifyCheckoutPageLoads - Injected cookie: _ga
+2025-03-17 05:39:11 [main] INFO  verifyCheckoutPageLoads - Injected cookie: cf_clearance
+2025-03-17 05:39:11 [main] INFO  verifyCheckoutPageLoads - Injected cookie: .Nop.Antiforgery
+2025-03-17 05:39:11 [main] INFO  verifyCheckoutPageLoads - Injected cookie: .Nop.Customer
+2025-03-17 05:39:11 [main] INFO  verifyCheckoutPageLoads - Injected cookie: .Nop.Culture
+2025-03-17 05:39:11 [main] INFO  verifyCheckoutPageLoads - Injected cookie: _ga_SCT41TW89V
+2025-03-17 05:39:12 [main] INFO  verifyCheckoutPageLoads - Page refreshed with bypassed cookies.
+2025-03-17 05:39:12 [main] INFO  verifyCheckoutPageLoads - Navigating to product page: https://demo.nopcommerce.com/adobe-photoshop
+2025-03-17 05:39:15 [main] INFO  verifyCheckoutPageLoads - Clicked 'Add to Cart' button.
+2025-03-17 05:39:16 [main] INFO  verifyCheckoutPageLoads - Product successfully added to cart.
+2025-03-17 05:39:16 [main] INFO  verifyCheckoutPageLoads - Cart quantity updated to: 1
+2025-03-17 05:39:17 [main] INFO  verifyCheckoutPageLoads - Cart page loaded successfully.
+2025-03-17 05:39:17 [main] INFO  verifyCheckoutPageLoads - Accepted terms of service.
+2025-03-17 05:39:20 [main] INFO  verifyCheckoutPageLoads - Clicked on Checkout button.
+2025-03-17 05:39:20 [main] INFO  verifyCheckoutPageLoads - Checkout page loaded successfully.
+2025-03-17 05:39:20 [main] INFO  verifyCheckoutPageLoads - Closing the browser for test: verifyCheckoutPageLoads
+2025-03-17 05:39:20 [main] INFO  verifyCheckoutPageLoads - Browser closed.
+2025-03-17 10:01:38 [main] INFO  verifyCheckoutPageLoads - 
+================================================================================================================================ NEW TEST RUN ================================================================================================================================
+2025-03-17 10:01:38 [main] INFO  verifyCheckoutPageLoads - Starting test setup for: verifyCheckoutPageLoads
+2025-03-17 10:01:59 [main] INFO  verifyCheckoutPageLoads - Navigated to the site: https://demo.nopcommerce.com
+2025-03-17 10:01:59 [main] INFO  verifyCheckoutPageLoads - Injected cookie: cf_clearance
+2025-03-17 10:01:59 [main] INFO  verifyCheckoutPageLoads - Injected cookie: _ga
+2025-03-17 10:01:59 [main] INFO  verifyCheckoutPageLoads - Injected cookie: .Nop.Antiforgery
+2025-03-17 10:01:59 [main] INFO  verifyCheckoutPageLoads - Injected cookie: .Nop.Customer
+2025-03-17 10:01:59 [main] INFO  verifyCheckoutPageLoads - Injected cookie: .Nop.Culture
+2025-03-17 10:01:59 [main] INFO  verifyCheckoutPageLoads - Injected cookie: _ga_SCT41TW89V
+2025-03-17 10:02:00 [main] INFO  verifyCheckoutPageLoads - Page refreshed with bypassed cookies.
+2025-03-17 10:02:00 [main] INFO  verifyCheckoutPageLoads - Navigating to product page: https://demo.nopcommerce.com/adobe-photoshop
+2025-03-17 10:02:03 [main] INFO  verifyCheckoutPageLoads - Clicked 'Add to Cart' button.
+2025-03-17 10:02:04 [main] INFO  verifyCheckoutPageLoads - Product successfully added to cart.
+2025-03-17 10:02:04 [main] INFO  verifyCheckoutPageLoads - Cart quantity updated to: 1
+2025-03-17 10:02:05 [main] INFO  verifyCheckoutPageLoads - Cart page loaded successfully.
+2025-03-17 10:02:05 [main] INFO  verifyCheckoutPageLoads - Accepted terms of service.
+2025-03-17 10:02:07 [main] INFO  verifyCheckoutPageLoads - Clicked on Checkout button.
+2025-03-17 10:02:07 [main] INFO  verifyCheckoutPageLoads - Checkout page loaded successfully.
+2025-03-17 10:02:07 [main] INFO  verifyCheckoutPageLoads - Closing the browser for test: verifyCheckoutPageLoads
+2025-03-17 10:02:07 [main] INFO  verifyCheckoutPageLoads - Browser closed.
+2025-03-17 18:14:02 [main] INFO  verifyCheckoutPageLoads - 
+================================================================================================================================ NEW TEST RUN ================================================================================================================================
+2025-03-17 18:14:02 [main] INFO  verifyCheckoutPageLoads - Starting test setup for: verifyCheckoutPageLoads
+2025-03-17 18:14:26 [main] INFO  verifyCheckoutPageLoads - Navigated to the site: https://demo.nopcommerce.com
+2025-03-17 18:14:26 [main] INFO  verifyCheckoutPageLoads - Injected cookie: _ga
+2025-03-17 18:14:26 [main] INFO  verifyCheckoutPageLoads - Injected cookie: cf_clearance
+2025-03-17 18:14:26 [main] INFO  verifyCheckoutPageLoads - Injected cookie: .Nop.Antiforgery
+2025-03-17 18:14:26 [main] INFO  verifyCheckoutPageLoads - Injected cookie: .Nop.Customer
+2025-03-17 18:14:26 [main] INFO  verifyCheckoutPageLoads - Injected cookie: .Nop.Culture
+2025-03-17 18:14:26 [main] INFO  verifyCheckoutPageLoads - Injected cookie: _ga_SCT41TW89V
+2025-03-17 18:14:28 [main] INFO  verifyCheckoutPageLoads - Page refreshed with bypassed cookies.
+2025-03-17 18:14:28 [main] INFO  verifyCheckoutPageLoads - Navigating to product page: https://demo.nopcommerce.com/adobe-photoshop
+2025-03-17 18:14:31 [main] INFO  verifyCheckoutPageLoads - Clicked 'Add to Cart' button.
+2025-03-17 18:14:32 [main] INFO  verifyCheckoutPageLoads - Product successfully added to cart.
+2025-03-17 18:14:32 [main] INFO  verifyCheckoutPageLoads - Cart quantity updated to: 1
+2025-03-17 18:14:34 [main] INFO  verifyCheckoutPageLoads - Cart page loaded successfully.
+2025-03-17 18:14:34 [main] INFO  verifyCheckoutPageLoads - Accepted terms of service.
+2025-03-17 18:14:36 [main] INFO  verifyCheckoutPageLoads - Clicked on Checkout button.
+2025-03-17 18:14:36 [main] INFO  verifyCheckoutPageLoads - Checkout page loaded successfully.
+2025-03-17 18:14:36 [main] INFO  verifyCheckoutPageLoads - Closing the browser for test: verifyCheckoutPageLoads
+2025-03-17 18:14:36 [main] INFO  verifyCheckoutPageLoads - Browser closed.
+2025-03-17 18:41:24 [main] INFO  verifyCheckoutPageLoads - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-03-17 18:41:24 [main] INFO  verifyCheckoutPageLoads - Starting test setup for: verifyCheckoutPageLoads
+2025-03-17 18:41:47 [main] INFO  verifyCheckoutPageLoads - Navigated to the site: https://demo.nopcommerce.com
+2025-03-17 18:41:47 [main] INFO  verifyCheckoutPageLoads - Injected cookie: cf_clearance
+2025-03-17 18:41:47 [main] INFO  verifyCheckoutPageLoads - Injected cookie: _ga
+2025-03-17 18:41:47 [main] INFO  verifyCheckoutPageLoads - Injected cookie: .Nop.Antiforgery
+2025-03-17 18:41:47 [main] INFO  verifyCheckoutPageLoads - Injected cookie: .Nop.Customer
+2025-03-17 18:41:47 [main] INFO  verifyCheckoutPageLoads - Injected cookie: .Nop.Culture
+2025-03-17 18:41:47 [main] INFO  verifyCheckoutPageLoads - Injected cookie: _ga_SCT41TW89V
+2025-03-17 18:41:48 [main] INFO  verifyCheckoutPageLoads - Page refreshed with bypassed cookies.
+2025-03-17 18:41:48 [main] INFO  verifyCheckoutPageLoads - Navigating to product page: https://demo.nopcommerce.com/adobe-photoshop
+2025-03-17 18:41:51 [main] INFO  verifyCheckoutPageLoads - Clicked 'Add to Cart' button.
+2025-03-17 18:41:52 [main] INFO  verifyCheckoutPageLoads - Product successfully added to cart.
+2025-03-17 18:41:52 [main] INFO  verifyCheckoutPageLoads - Cart quantity updated to: 1
+2025-03-17 18:41:53 [main] INFO  verifyCheckoutPageLoads - Cart page loaded successfully.
+2025-03-17 18:41:53 [main] INFO  verifyCheckoutPageLoads - Accepted terms of service.
+2025-03-17 18:41:53 [main] INFO  verifyCheckoutPageLoads - Clicked on Checkout button.
+2025-03-17 18:41:55 [main] INFO  verifyCheckoutPageLoads - Checkout page loaded successfully.
+2025-03-17 18:41:55 [main] INFO  verifyCheckoutPageLoads - Closing the browser for test: verifyCheckoutPageLoads
+2025-03-17 18:41:55 [main] INFO  verifyCheckoutPageLoads - Browser closed.

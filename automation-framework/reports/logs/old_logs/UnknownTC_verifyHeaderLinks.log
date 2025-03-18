@@ -1,0 +1,652 @@
+2025-03-18 00:38:39 [main] INFO  UnknownTC_verifyHeaderLinks - Logger initialized and writing to: logs/UnknownTC_verifyHeaderLinks.log
+2025-03-18 00:38:39 [main] INFO  UnknownTC_verifyHeaderLinks - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-03-18 00:38:39 [main] INFO  UnknownTC_verifyHeaderLinks - Starting test setup for: verifyHeaderLinks (Test Case ID: UnknownTC)
+2025-03-18 00:38:57 [main] INFO  UnknownTC_verifyHeaderLinks - Navigated to the site: https://demo.nopcommerce.com
+2025-03-18 00:38:57 [main] INFO  UnknownTC_verifyHeaderLinks - Injected cookie: cf_clearance
+2025-03-18 00:38:57 [main] INFO  UnknownTC_verifyHeaderLinks - Injected cookie: _ga
+2025-03-18 00:38:57 [main] INFO  UnknownTC_verifyHeaderLinks - Injected cookie: .Nop.Antiforgery
+2025-03-18 00:38:57 [main] INFO  UnknownTC_verifyHeaderLinks - Injected cookie: .Nop.Customer
+2025-03-18 00:38:57 [main] INFO  UnknownTC_verifyHeaderLinks - Injected cookie: .Nop.Culture
+2025-03-18 00:38:57 [main] INFO  UnknownTC_verifyHeaderLinks - Injected cookie: _ga_SCT41TW89V
+2025-03-18 00:38:57 [main] INFO  UnknownTC_verifyHeaderLinks - Page refreshed with bypassed cookies.
+2025-03-18 00:38:57 [main] INFO  UnknownTC_verifyHeaderLinks - 🟢 Starting test: verifyHeaderLinks (Test Case ID: UnknownTC)
+2025-03-18 00:38:57 [main] INFO  UnknownTC_verifyHeaderLinks - Navigating to: https://demo.nopcommerce.com
+2025-03-18 00:38:58 [main] INFO  UnknownTC_verifyHeaderLinks - Verifying Register link...
+2025-03-18 00:39:09 [main] ERROR listeners.TestListener - ❌ Test FAILED: verifyHeaderLinks
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.cssSelector: .ico-register (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.29.0', revision: '5fc1ec94cb'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.89, chrome: {chromedriverVersion: 134.0.6998.88 (7e3d5c978c6d..., userDataDir: C:\Users\MOHAME~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51814}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51814/devtoo..., se:cdpVersion: 134.0.6998.89, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 199229386736f0720fbe1c2a26dd9b02
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84) ~[selenium-support-4.29.0.jar:?]
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228) ~[selenium-support-4.29.0.jar:?]
+	at tests.ui.HomePageTest.verifyHeaderLinks(HomePageTest.java:61) ~[test-classes/:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) ~[testng-7.11.0.jar:7.11.0]
+	at java.util.ArrayList.forEach(ArrayList.java:1597) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:741) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestRunner.run(TestRunner.java:616) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuites(TestNG.java:1112) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.run(TestNG.java:1079) [testng-7.11.0.jar:7.11.0]
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155) [surefire-testng-3.5.2.jar:3.5.2]
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeSingleClass(TestNGDirectoryTestSuite.java:102) [surefire-testng-3.5.2.jar:3.5.2]
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:91) [surefire-testng-3.5.2.jar:3.5.2]
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137) [surefire-testng-3.5.2.jar:3.5.2]
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385) [surefire-booter-3.5.2.jar:3.5.2]
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162) [surefire-booter-3.5.2.jar:3.5.2]
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507) [surefire-booter-3.5.2.jar:3.5.2]
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495) [surefire-booter-3.5.2.jar:3.5.2]
+2025-03-18 00:39:09 [main] INFO  UnknownTC_verifyHeaderLinks - Closing the browser for test: verifyHeaderLinks
+2025-03-18 00:39:09 [main] INFO  UnknownTC_verifyHeaderLinks - Browser closed.
+2025-03-18 00:41:55 [main] INFO  UnknownTC_verifyHeaderLinks - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-03-18 00:41:55 [main] INFO  UnknownTC_verifyHeaderLinks - Logger initialized and writing to: logs/UnknownTC_verifyHeaderLinks.log
+2025-03-18 00:41:55 [main] INFO  UnknownTC_verifyHeaderLinks - Starting test setup for: verifyHeaderLinks (Test Case ID: UnknownTC)
+2025-03-18 00:42:14 [main] INFO  UnknownTC_verifyHeaderLinks - Navigated to the site: https://demo.nopcommerce.com
+2025-03-18 00:42:14 [main] INFO  UnknownTC_verifyHeaderLinks - Injected cookie: cf_clearance
+2025-03-18 00:42:14 [main] INFO  UnknownTC_verifyHeaderLinks - Injected cookie: _ga
+2025-03-18 00:42:14 [main] INFO  UnknownTC_verifyHeaderLinks - Injected cookie: .Nop.Antiforgery
+2025-03-18 00:42:14 [main] INFO  UnknownTC_verifyHeaderLinks - Injected cookie: .Nop.Customer
+2025-03-18 00:42:14 [main] INFO  UnknownTC_verifyHeaderLinks - Injected cookie: .Nop.Culture
+2025-03-18 00:42:14 [main] INFO  UnknownTC_verifyHeaderLinks - Injected cookie: _ga_SCT41TW89V
+2025-03-18 00:42:14 [main] INFO  UnknownTC_verifyHeaderLinks - Page refreshed with bypassed cookies.
+2025-03-18 00:42:14 [main] INFO  UnknownTC_verifyHeaderLinks - 🟢 Starting test: verifyHeaderLinks (Test Case ID: UnknownTC)
+2025-03-18 00:42:14 [main] INFO  UnknownTC_verifyHeaderLinks - Navigating to: https://demo.nopcommerce.com
+2025-03-18 00:42:15 [main] INFO  UnknownTC_verifyHeaderLinks - Verifying Register link...
+2025-03-18 00:42:26 [main] ERROR listeners.TestListener - ❌ Test FAILED: verifyHeaderLinks
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.cssSelector: .ico-register (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.29.0', revision: '5fc1ec94cb'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.89, chrome: {chromedriverVersion: 134.0.6998.88 (7e3d5c978c6d..., userDataDir: C:\Users\MOHAME~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62180}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62180/devtoo..., se:cdpVersion: 134.0.6998.89, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d93cb575bc90af835f171875a7a5273d
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84) ~[selenium-support-4.29.0.jar:?]
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228) ~[selenium-support-4.29.0.jar:?]
+	at tests.ui.HomePageTest.verifyHeaderLinks(HomePageTest.java:61) ~[test-classes/:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) ~[testng-7.11.0.jar:7.11.0]
+	at java.util.ArrayList.forEach(ArrayList.java:1597) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:741) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestRunner.run(TestRunner.java:616) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuites(TestNG.java:1112) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.run(TestNG.java:1079) [testng-7.11.0.jar:7.11.0]
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155) [surefire-testng-3.5.2.jar:3.5.2]
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeSingleClass(TestNGDirectoryTestSuite.java:102) [surefire-testng-3.5.2.jar:3.5.2]
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:91) [surefire-testng-3.5.2.jar:3.5.2]
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137) [surefire-testng-3.5.2.jar:3.5.2]
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385) [surefire-booter-3.5.2.jar:3.5.2]
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162) [surefire-booter-3.5.2.jar:3.5.2]
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507) [surefire-booter-3.5.2.jar:3.5.2]
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495) [surefire-booter-3.5.2.jar:3.5.2]
+2025-03-18 00:42:26 [main] INFO  UnknownTC_verifyHeaderLinks - Closing the browser for test: verifyHeaderLinks
+2025-03-18 00:42:26 [main] INFO  UnknownTC_verifyHeaderLinks - Browser closed.
+2025-03-18 00:43:56 [main] INFO  UnknownTC_verifyHeaderLinks - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-03-18 00:43:56 [main] INFO  UnknownTC_verifyHeaderLinks - Logger initialized and writing to: logs/UnknownTC_verifyHeaderLinks.log
+2025-03-18 00:43:56 [main] INFO  UnknownTC_verifyHeaderLinks - Starting test setup for: verifyHeaderLinks (Test Case ID: UnknownTC)
+2025-03-18 00:44:14 [main] INFO  UnknownTC_verifyHeaderLinks - Navigated to the site: https://demo.nopcommerce.com
+2025-03-18 00:44:14 [main] INFO  UnknownTC_verifyHeaderLinks - Injected cookie: _ga
+2025-03-18 00:44:14 [main] INFO  UnknownTC_verifyHeaderLinks - Injected cookie: cf_clearance
+2025-03-18 00:44:14 [main] INFO  UnknownTC_verifyHeaderLinks - Injected cookie: .Nop.Antiforgery
+2025-03-18 00:44:14 [main] INFO  UnknownTC_verifyHeaderLinks - Injected cookie: .Nop.Customer
+2025-03-18 00:44:14 [main] INFO  UnknownTC_verifyHeaderLinks - Injected cookie: .Nop.Culture
+2025-03-18 00:44:14 [main] INFO  UnknownTC_verifyHeaderLinks - Injected cookie: _ga_SCT41TW89V
+2025-03-18 00:44:14 [main] INFO  UnknownTC_verifyHeaderLinks - Page refreshed with bypassed cookies.
+2025-03-18 00:44:14 [main] INFO  UnknownTC_verifyHeaderLinks - 🟢 Starting test: verifyHeaderLinks (Test Case ID: UnknownTC)
+2025-03-18 00:44:14 [main] INFO  UnknownTC_verifyHeaderLinks - Navigating to: https://demo.nopcommerce.com
+2025-03-18 00:44:15 [main] INFO  UnknownTC_verifyHeaderLinks - Verifying Register link...
+2025-03-18 00:44:15 [main] INFO  UnknownTC_verifyHeaderLinks - Register link verification successful!
+2025-03-18 00:44:15 [main] INFO  UnknownTC_verifyHeaderLinks - Verifying Login link...
+2025-03-18 00:44:16 [main] INFO  UnknownTC_verifyHeaderLinks - Login link verification successful!
+2025-03-18 00:44:16 [main] INFO  UnknownTC_verifyHeaderLinks - Verifying Wishlist link...
+2025-03-18 00:44:17 [main] INFO  UnknownTC_verifyHeaderLinks - Wishlist link verification successful!
+2025-03-18 00:44:17 [main] INFO  UnknownTC_verifyHeaderLinks - Verifying Shopping Cart link...
+2025-03-18 00:44:17 [main] INFO  UnknownTC_verifyHeaderLinks - Shopping Cart link verification successful!
+2025-03-18 00:44:17 [main] INFO  UnknownTC_verifyHeaderLinks - All header links are verified and clickable!
+2025-03-18 00:44:17 [main] INFO  listeners.TestListener - ✅ Test PASSED: verifyHeaderLinks (Duration: 2819ms)
+2025-03-18 00:44:17 [main] INFO  UnknownTC_verifyHeaderLinks - Closing the browser for test: verifyHeaderLinks
+2025-03-18 00:44:17 [main] INFO  UnknownTC_verifyHeaderLinks - Browser closed.
+2025-03-18 01:18:24 [main] INFO  UnknownTC_verifyHeaderLinks - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-03-18 01:18:24 [main] INFO  UnknownTC_verifyHeaderLinks - Logger initialized and writing to: logs/UnknownTC_verifyHeaderLinks.log
+2025-03-18 01:18:24 [main] INFO  UnknownTC_verifyHeaderLinks - Starting test setup for: verifyHeaderLinks (Test Case ID: UnknownTC)
+2025-03-18 01:18:43 [main] INFO  UnknownTC_verifyHeaderLinks - Navigated to the site: https://demo.nopcommerce.com
+2025-03-18 01:18:43 [main] INFO  UnknownTC_verifyHeaderLinks - Injected cookie: cf_clearance
+2025-03-18 01:18:43 [main] INFO  UnknownTC_verifyHeaderLinks - Injected cookie: _ga
+2025-03-18 01:18:43 [main] INFO  UnknownTC_verifyHeaderLinks - Injected cookie: .Nop.Antiforgery
+2025-03-18 01:18:43 [main] INFO  UnknownTC_verifyHeaderLinks - Injected cookie: .Nop.Customer
+2025-03-18 01:18:43 [main] INFO  UnknownTC_verifyHeaderLinks - Injected cookie: .Nop.Culture
+2025-03-18 01:18:43 [main] INFO  UnknownTC_verifyHeaderLinks - Injected cookie: _ga_SCT41TW89V
+2025-03-18 01:18:44 [main] INFO  UnknownTC_verifyHeaderLinks - Page refreshed with bypassed cookies.
+2025-03-18 01:18:44 [main] INFO  UnknownTC_verifyHeaderLinks - 🟢 Starting test: verifyHeaderLinks (Test Case ID: UnknownTC)
+2025-03-18 01:18:44 [main] INFO  UnknownTC_verifyHeaderLinks - Navigating to: https://demo.nopcommerce.com
+2025-03-18 01:18:45 [main] INFO  UnknownTC_verifyHeaderLinks - Verifying Register link...
+2025-03-18 01:18:56 [main] ERROR listeners.TestListener - ❌ Test FAILED: verifyHeaderLinks
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.cssSelector: .ico-register (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.29.0', revision: '5fc1ec94cb'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.89, chrome: {chromedriverVersion: 134.0.6998.88 (7e3d5c978c6d..., userDataDir: C:\Users\MOHAME~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59752}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59752/devtoo..., se:cdpVersion: 134.0.6998.89, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 01b9a402d4f79a493204fb50e0307816
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84) ~[selenium-support-4.29.0.jar:?]
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228) ~[selenium-support-4.29.0.jar:?]
+	at tests.ui.HomePageTest.verifyHeaderLinks(HomePageTest.java:61) ~[test-classes/:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) ~[testng-7.11.0.jar:7.11.0]
+	at java.util.ArrayList.forEach(ArrayList.java:1597) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:741) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestRunner.run(TestRunner.java:616) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuites(TestNG.java:1112) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.run(TestNG.java:1079) [testng-7.11.0.jar:7.11.0]
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155) [surefire-testng-3.5.2.jar:3.5.2]
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeSingleClass(TestNGDirectoryTestSuite.java:102) [surefire-testng-3.5.2.jar:3.5.2]
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:91) [surefire-testng-3.5.2.jar:3.5.2]
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137) [surefire-testng-3.5.2.jar:3.5.2]
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385) [surefire-booter-3.5.2.jar:3.5.2]
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162) [surefire-booter-3.5.2.jar:3.5.2]
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507) [surefire-booter-3.5.2.jar:3.5.2]
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495) [surefire-booter-3.5.2.jar:3.5.2]
+2025-03-18 01:18:56 [main] INFO  UnknownTC_verifyHeaderLinks - Closing the browser for test: verifyHeaderLinks
+2025-03-18 01:18:56 [main] INFO  UnknownTC_verifyHeaderLinks - Browser closed.
+2025-03-18 01:23:17 [main] INFO  UnknownTC_verifyHeaderLinks - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-03-18 01:23:17 [main] INFO  UnknownTC_verifyHeaderLinks - Logger initialized and writing to: logs/UnknownTC_verifyHeaderLinks.log
+2025-03-18 01:23:17 [main] INFO  UnknownTC_verifyHeaderLinks - Starting test setup for: verifyHeaderLinks (🔢 Test Case ID: UnknownTC)
+2025-03-18 01:23:34 [main] INFO  UnknownTC_verifyHeaderLinks - Navigated to the site: https://demo.nopcommerce.com
+2025-03-18 01:23:34 [main] INFO  UnknownTC_verifyHeaderLinks - Injected cookie: _ga
+2025-03-18 01:23:34 [main] INFO  UnknownTC_verifyHeaderLinks - Injected cookie: cf_clearance
+2025-03-18 01:23:34 [main] INFO  UnknownTC_verifyHeaderLinks - Injected cookie: .Nop.Antiforgery
+2025-03-18 01:23:34 [main] INFO  UnknownTC_verifyHeaderLinks - Injected cookie: .Nop.Customer
+2025-03-18 01:23:34 [main] INFO  UnknownTC_verifyHeaderLinks - Injected cookie: .Nop.Culture
+2025-03-18 01:23:34 [main] INFO  UnknownTC_verifyHeaderLinks - Injected cookie: _ga_SCT41TW89V
+2025-03-18 01:23:35 [main] INFO  UnknownTC_verifyHeaderLinks - Page refreshed with bypassed cookies.
+2025-03-18 01:23:35 [main] INFO  UnknownTC_verifyHeaderLinks - 🟢 Starting test: verifyHeaderLinks (🔢 Test Case ID: UnknownTC)
+2025-03-18 01:23:35 [main] INFO  UnknownTC_verifyHeaderLinks - Navigating to: https://demo.nopcommerce.com
+2025-03-18 01:23:35 [main] INFO  UnknownTC_verifyHeaderLinks - Verifying Register link...
+2025-03-18 01:23:36 [main] INFO  UnknownTC_verifyHeaderLinks - Register link verification successful!
+2025-03-18 01:23:36 [main] INFO  UnknownTC_verifyHeaderLinks - Verifying Login link...
+2025-03-18 01:23:37 [main] INFO  UnknownTC_verifyHeaderLinks - Login link verification successful!
+2025-03-18 01:23:37 [main] INFO  UnknownTC_verifyHeaderLinks - Verifying Wishlist link...
+2025-03-18 01:23:37 [main] INFO  UnknownTC_verifyHeaderLinks - Wishlist link verification successful!
+2025-03-18 01:23:37 [main] INFO  UnknownTC_verifyHeaderLinks - Verifying Shopping Cart link...
+2025-03-18 01:23:38 [main] INFO  UnknownTC_verifyHeaderLinks - Shopping Cart link verification successful!
+2025-03-18 01:23:38 [main] INFO  UnknownTC_verifyHeaderLinks - All header links are verified and clickable!
+2025-03-18 01:23:38 [main] INFO  listeners.TestListener - ✅ Test PASSED: verifyHeaderLinks (Duration: 2791ms)
+2025-03-18 01:23:38 [main] INFO  UnknownTC_verifyHeaderLinks - Closing the browser for test: verifyHeaderLinks
+2025-03-18 01:23:38 [main] INFO  UnknownTC_verifyHeaderLinks - Browser closed.
+2025-03-18 01:33:07 [main] INFO  UnknownTC_verifyHeaderLinks - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-03-18 01:33:07 [main] INFO  UnknownTC_verifyHeaderLinks - Logger initialized and writing to: logs/UnknownTC_verifyHeaderLinks.log
+2025-03-18 01:33:07 [main] INFO  UnknownTC_verifyHeaderLinks - Starting test setup for: verifyHeaderLinks (🔢 Test Case ID: UnknownTC)
+2025-03-18 01:33:25 [main] INFO  UnknownTC_verifyHeaderLinks - Navigated to the site: https://demo.nopcommerce.com
+2025-03-18 01:33:25 [main] INFO  UnknownTC_verifyHeaderLinks - Injected cookie: cf_clearance
+2025-03-18 01:33:25 [main] INFO  UnknownTC_verifyHeaderLinks - Injected cookie: _ga
+2025-03-18 01:33:25 [main] INFO  UnknownTC_verifyHeaderLinks - Injected cookie: .Nop.Antiforgery
+2025-03-18 01:33:25 [main] INFO  UnknownTC_verifyHeaderLinks - Injected cookie: .Nop.Customer
+2025-03-18 01:33:25 [main] INFO  UnknownTC_verifyHeaderLinks - Injected cookie: .Nop.Culture
+2025-03-18 01:33:25 [main] INFO  UnknownTC_verifyHeaderLinks - Injected cookie: _ga_SCT41TW89V
+2025-03-18 01:33:26 [main] INFO  UnknownTC_verifyHeaderLinks - Page refreshed with bypassed cookies.
+2025-03-18 01:33:26 [main] INFO  UnknownTC_verifyHeaderLinks - 🟢 Starting test: verifyHeaderLinks (🔢 Test Case ID: UnknownTC)
+2025-03-18 01:33:26 [main] INFO  UnknownTC_verifyHeaderLinks - Navigating to: https://demo.nopcommerce.com
+2025-03-18 01:33:26 [main] INFO  UnknownTC_verifyHeaderLinks - Verifying Register link...
+2025-03-18 01:33:27 [main] INFO  UnknownTC_verifyHeaderLinks - Register link verification successful!
+2025-03-18 01:33:27 [main] INFO  UnknownTC_verifyHeaderLinks - Verifying Login link...
+2025-03-18 01:33:27 [main] INFO  UnknownTC_verifyHeaderLinks - Login link verification successful!
+2025-03-18 01:33:27 [main] INFO  UnknownTC_verifyHeaderLinks - Verifying Wishlist link...
+2025-03-18 01:33:28 [main] INFO  UnknownTC_verifyHeaderLinks - Wishlist link verification successful!
+2025-03-18 01:33:28 [main] INFO  UnknownTC_verifyHeaderLinks - Verifying Shopping Cart link...
+2025-03-18 01:33:28 [main] INFO  UnknownTC_verifyHeaderLinks - Shopping Cart link verification successful!
+2025-03-18 01:33:28 [main] INFO  UnknownTC_verifyHeaderLinks - All header links are verified and clickable!
+2025-03-18 01:33:28 [main] INFO  listeners.TestListener - ✅ Test PASSED: verifyHeaderLinks (Duration: 2734ms)
+2025-03-18 01:33:28 [main] INFO  UnknownTC_verifyHeaderLinks - Closing the browser for test: verifyHeaderLinks
+2025-03-18 01:33:29 [main] INFO  UnknownTC_verifyHeaderLinks - Browser closed.
+2025-03-18 01:39:16 [main] INFO  UnknownTC_verifyHeaderLinks - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-03-18 01:39:16 [main] INFO  UnknownTC_verifyHeaderLinks - Logger initialized and writing to: logs/UnknownTC_verifyHeaderLinks.log
+2025-03-18 01:39:16 [main] INFO  UnknownTC_verifyHeaderLinks - Starting test setup for: verifyHeaderLinks (🔢 Test Case ID: UnknownTC)
+2025-03-18 01:43:35 [main] INFO  UnknownTC_verifyHeaderLinks - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-03-18 01:43:35 [main] INFO  UnknownTC_verifyHeaderLinks - Logger initialized and writing to: logs/UnknownTC_verifyHeaderLinks.log
+2025-03-18 01:43:35 [main] INFO  UnknownTC_verifyHeaderLinks - Starting test setup for: verifyHeaderLinks (🔢 Test Case ID: UnknownTC)
+2025-03-18 02:05:19 [main] INFO  UnknownTC_verifyHeaderLinks - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-03-18 02:05:19 [main] INFO  UnknownTC_verifyHeaderLinks - Logger initialized and writing to: logs/UnknownTC_verifyHeaderLinks.log
+2025-03-18 02:05:19 [main] INFO  UnknownTC_verifyHeaderLinks - Starting test setup for: verifyHeaderLinks (🔢 Test Case ID: UnknownTC)
+2025-03-18 02:16:00 [main] INFO  UnknownTC_verifyHeaderLinks - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-03-18 02:16:00 [main] INFO  UnknownTC_verifyHeaderLinks - Logger initialized and writing to: logs/UnknownTC_verifyHeaderLinks.log
+2025-03-18 02:16:00 [main] INFO  UnknownTC_verifyHeaderLinks - Starting test setup for: verifyHeaderLinks (🔢 Test Case ID: UnknownTC)
+2025-03-18 02:23:58 [main] INFO  UnknownTC_verifyHeaderLinks - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-03-18 02:23:58 [main] INFO  UnknownTC_verifyHeaderLinks - Logger initialized and writing to: logs/UnknownTC_verifyHeaderLinks.log
+2025-03-18 02:23:58 [main] INFO  UnknownTC_verifyHeaderLinks - Starting test setup for: verifyHeaderLinks (🔢 Test Case ID: UnknownTC)
+2025-03-18 02:25:42 [main] INFO  UnknownTC_verifyHeaderLinks - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-03-18 02:25:42 [main] INFO  UnknownTC_verifyHeaderLinks - Logger initialized and writing to: logs/UnknownTC_verifyHeaderLinks.log
+2025-03-18 02:25:42 [main] INFO  UnknownTC_verifyHeaderLinks - Starting test setup for: verifyHeaderLinks (🔢 Test Case ID: UnknownTC)
+2025-03-18 02:27:08 [main] INFO  UnknownTC_verifyHeaderLinks - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-03-18 02:27:08 [main] INFO  UnknownTC_verifyHeaderLinks - Logger initialized and writing to: logs/UnknownTC_verifyHeaderLinks.log
+2025-03-18 02:27:08 [main] INFO  UnknownTC_verifyHeaderLinks - Starting test setup for: verifyHeaderLinks (🔢 Test Case ID: UnknownTC)
+2025-03-18 02:30:11 [main] INFO  UnknownTC_verifyHeaderLinks - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-03-18 02:30:11 [main] INFO  UnknownTC_verifyHeaderLinks - Logger initialized and writing to: logs/UnknownTC_verifyHeaderLinks.log
+2025-03-18 02:30:11 [main] INFO  UnknownTC_verifyHeaderLinks - Starting test setup for: verifyHeaderLinks (🔢 Test Case ID: UnknownTC)
+2025-03-18 02:35:27 [main] INFO  UnknownTC_verifyHeaderLinks - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-03-18 02:35:27 [main] INFO  UnknownTC_verifyHeaderLinks - Logger initialized and writing to: logs/UnknownTC_verifyHeaderLinks.log
+2025-03-18 02:35:27 [main] INFO  UnknownTC_verifyHeaderLinks - Starting test setup for: verifyHeaderLinks (🔢 Test Case ID: UnknownTC)
+2025-03-18 02:35:44 [main] INFO  UnknownTC_verifyHeaderLinks - Navigated to the site: https://demo.nopcommerce.com
+2025-03-18 02:35:44 [main] INFO  UnknownTC_verifyHeaderLinks - Injected cookie: _ga
+2025-03-18 02:35:44 [main] INFO  UnknownTC_verifyHeaderLinks - Injected cookie: cf_clearance
+2025-03-18 02:35:44 [main] INFO  UnknownTC_verifyHeaderLinks - Injected cookie: .Nop.Antiforgery
+2025-03-18 02:35:44 [main] INFO  UnknownTC_verifyHeaderLinks - Injected cookie: .Nop.Customer
+2025-03-18 02:35:44 [main] INFO  UnknownTC_verifyHeaderLinks - Injected cookie: .Nop.Culture
+2025-03-18 02:35:44 [main] INFO  UnknownTC_verifyHeaderLinks - Injected cookie: _ga_SCT41TW89V
+2025-03-18 02:35:45 [main] INFO  UnknownTC_verifyHeaderLinks - Page refreshed with bypassed cookies.
+2025-03-18 02:35:45 [main] INFO  listeners.TestListener - 🎨 Starting Test: verifyHeaderLinks
+2025-03-18 02:35:45 [main] INFO  UnknownTC_verifyHeaderLinks - Navigating to: https://demo.nopcommerce.com
+2025-03-18 02:35:46 [main] INFO  UnknownTC_verifyHeaderLinks - Verifying Register link...
+2025-03-18 02:35:57 [main] ERROR listeners.TestListener - ❌ Test FAILED: verifyHeaderLinks
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.cssSelector: .ico-register (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.29.0', revision: '5fc1ec94cb'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.89, chrome: {chromedriverVersion: 134.0.6998.88 (7e3d5c978c6d..., userDataDir: C:\Users\MOHAME~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50648}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50648/devtoo..., se:cdpVersion: 134.0.6998.89, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 9f8e63ec81e01c466d9e94eeab7371c4
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84) ~[selenium-support-4.29.0.jar:?]
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228) ~[selenium-support-4.29.0.jar:?]
+	at tests.ui.HomePageTest.verifyHeaderLinks(HomePageTest.java:61) ~[test-classes/:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) ~[testng-7.11.0.jar:7.11.0]
+	at java.util.ArrayList.forEach(ArrayList.java:1597) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:741) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestRunner.run(TestRunner.java:616) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuites(TestNG.java:1112) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.run(TestNG.java:1079) [testng-7.11.0.jar:7.11.0]
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155) [surefire-testng-3.5.2.jar:3.5.2]
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeSingleClass(TestNGDirectoryTestSuite.java:102) [surefire-testng-3.5.2.jar:3.5.2]
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:91) [surefire-testng-3.5.2.jar:3.5.2]
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137) [surefire-testng-3.5.2.jar:3.5.2]
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385) [surefire-booter-3.5.2.jar:3.5.2]
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162) [surefire-booter-3.5.2.jar:3.5.2]
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507) [surefire-booter-3.5.2.jar:3.5.2]
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495) [surefire-booter-3.5.2.jar:3.5.2]
+2025-03-18 02:35:57 [main] ERROR listeners.TestListener - ❌ Test FAILED: verifyHeaderLinks
+java.lang.NullPointerException: Cannot invoke "com.aventstack.extentreports.ExtentTest.fail(String)" because "this.extentTest" is null
+	at listeners.TestListener.onTestFailure(TestListener.java:121) ~[test-classes/:?]
+	at org.testng.internal.TestListenerHelper.runTestListeners(TestListenerHelper.java:115) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.runTestResultListener(TestInvoker.java:285) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:777) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) ~[testng-7.11.0.jar:7.11.0]
+	at java.util.ArrayList.forEach(ArrayList.java:1597) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:741) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestRunner.run(TestRunner.java:616) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuites(TestNG.java:1112) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.run(TestNG.java:1079) [testng-7.11.0.jar:7.11.0]
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155) [surefire-testng-3.5.2.jar:3.5.2]
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeSingleClass(TestNGDirectoryTestSuite.java:102) [surefire-testng-3.5.2.jar:3.5.2]
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:91) [surefire-testng-3.5.2.jar:3.5.2]
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137) [surefire-testng-3.5.2.jar:3.5.2]
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385) [surefire-booter-3.5.2.jar:3.5.2]
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162) [surefire-booter-3.5.2.jar:3.5.2]
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507) [surefire-booter-3.5.2.jar:3.5.2]
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495) [surefire-booter-3.5.2.jar:3.5.2]
+2025-03-18 02:35:57 [main] INFO  listeners.TestListener - 🏁 Finished Test Suite: Surefire test
+2025-03-18 02:43:26 [main] INFO  UnknownTC_verifyHeaderLinks - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-03-18 02:43:26 [main] INFO  UnknownTC_verifyHeaderLinks - Logger initialized and writing to: logs/UnknownTC_verifyHeaderLinks.log
+2025-03-18 02:43:26 [main] INFO  UnknownTC_verifyHeaderLinks - Starting test setup for: verifyHeaderLinks (🔢 Test Case ID: UnknownTC)
+2025-03-18 02:43:43 [main] INFO  UnknownTC_verifyHeaderLinks - Navigated to the site: https://demo.nopcommerce.com
+2025-03-18 02:43:43 [main] INFO  UnknownTC_verifyHeaderLinks - Injected cookie: cf_clearance
+2025-03-18 02:43:43 [main] INFO  UnknownTC_verifyHeaderLinks - Injected cookie: _ga
+2025-03-18 02:43:43 [main] INFO  UnknownTC_verifyHeaderLinks - Injected cookie: .Nop.Antiforgery
+2025-03-18 02:43:43 [main] INFO  UnknownTC_verifyHeaderLinks - Injected cookie: .Nop.Customer
+2025-03-18 02:43:43 [main] INFO  UnknownTC_verifyHeaderLinks - Injected cookie: .Nop.Culture
+2025-03-18 02:43:43 [main] INFO  UnknownTC_verifyHeaderLinks - Injected cookie: _ga_SCT41TW89V
+2025-03-18 02:43:44 [main] INFO  UnknownTC_verifyHeaderLinks - Page refreshed with bypassed cookies.
+2025-03-18 02:43:44 [main] INFO  UnknownTC_verifyHeaderLinks - 🟢 Starting test: verifyHeaderLinks (🔢 Test Case ID: UnknownTC)
+2025-03-18 02:43:44 [main] INFO  UnknownTC_verifyHeaderLinks - Navigating to: https://demo.nopcommerce.com
+2025-03-18 02:43:45 [main] INFO  UnknownTC_verifyHeaderLinks - Verifying Register link...
+2025-03-18 02:43:56 [main] ERROR listeners.TestListener - ❌ Test FAILED: verifyHeaderLinks
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.cssSelector: .ico-register (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.29.0', revision: '5fc1ec94cb'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.89, chrome: {chromedriverVersion: 134.0.6998.88 (7e3d5c978c6d..., userDataDir: C:\Users\MOHAME~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61024}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61024/devtoo..., se:cdpVersion: 134.0.6998.89, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ae7bdcfbe72b62f3ddbd9ecd530afe38
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84) ~[selenium-support-4.29.0.jar:?]
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228) ~[selenium-support-4.29.0.jar:?]
+	at tests.ui.HomePageTest.verifyHeaderLinks(HomePageTest.java:61) ~[test-classes/:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) ~[testng-7.11.0.jar:7.11.0]
+	at java.util.ArrayList.forEach(ArrayList.java:1597) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:741) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestRunner.run(TestRunner.java:616) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuites(TestNG.java:1112) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.run(TestNG.java:1079) [testng-7.11.0.jar:7.11.0]
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155) [surefire-testng-3.5.2.jar:3.5.2]
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeSingleClass(TestNGDirectoryTestSuite.java:102) [surefire-testng-3.5.2.jar:3.5.2]
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:91) [surefire-testng-3.5.2.jar:3.5.2]
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137) [surefire-testng-3.5.2.jar:3.5.2]
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385) [surefire-booter-3.5.2.jar:3.5.2]
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162) [surefire-booter-3.5.2.jar:3.5.2]
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507) [surefire-booter-3.5.2.jar:3.5.2]
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495) [surefire-booter-3.5.2.jar:3.5.2]
+2025-03-18 02:43:56 [main] INFO  UnknownTC_verifyHeaderLinks - Closing the browser for test: verifyHeaderLinks
+2025-03-18 02:43:56 [main] INFO  UnknownTC_verifyHeaderLinks - Browser closed.
+2025-03-18 02:47:30 [main] INFO  UnknownTC_verifyHeaderLinks - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-03-18 02:47:30 [main] INFO  UnknownTC_verifyHeaderLinks - Logger initialized and writing to: logs/UnknownTC_verifyHeaderLinks.log
+2025-03-18 02:47:30 [main] INFO  UnknownTC_verifyHeaderLinks - Starting test setup for: verifyHeaderLinks (🔢 Test Case ID: UnknownTC)
+2025-03-18 02:47:48 [main] INFO  UnknownTC_verifyHeaderLinks - Navigated to the site: https://demo.nopcommerce.com
+2025-03-18 02:47:48 [main] INFO  UnknownTC_verifyHeaderLinks - Injected cookie: cf_clearance
+2025-03-18 02:47:48 [main] INFO  UnknownTC_verifyHeaderLinks - Injected cookie: _ga
+2025-03-18 02:47:48 [main] INFO  UnknownTC_verifyHeaderLinks - Injected cookie: .Nop.Antiforgery
+2025-03-18 02:47:48 [main] INFO  UnknownTC_verifyHeaderLinks - Injected cookie: .Nop.Customer
+2025-03-18 02:47:48 [main] INFO  UnknownTC_verifyHeaderLinks - Injected cookie: .Nop.Culture
+2025-03-18 02:47:48 [main] INFO  UnknownTC_verifyHeaderLinks - Injected cookie: _ga_SCT41TW89V
+2025-03-18 02:47:48 [main] INFO  UnknownTC_verifyHeaderLinks - Page refreshed with bypassed cookies.
+2025-03-18 02:47:48 [main] INFO  UnknownTC_verifyHeaderLinks - 🟢 Starting test: verifyHeaderLinks (🔢 Test Case ID: UnknownTC)
+2025-03-18 02:47:48 [main] INFO  UnknownTC_verifyHeaderLinks - Navigating to: https://demo.nopcommerce.com
+2025-03-18 02:47:49 [main] INFO  UnknownTC_verifyHeaderLinks - Verifying Register link...
+2025-03-18 02:47:50 [main] INFO  UnknownTC_verifyHeaderLinks - Register link verification successful!
+2025-03-18 02:47:50 [main] INFO  UnknownTC_verifyHeaderLinks - Verifying Login link...
+2025-03-18 02:47:50 [main] INFO  UnknownTC_verifyHeaderLinks - Login link verification successful!
+2025-03-18 02:47:50 [main] INFO  UnknownTC_verifyHeaderLinks - Verifying Wishlist link...
+2025-03-18 02:47:51 [main] INFO  UnknownTC_verifyHeaderLinks - Wishlist link verification successful!
+2025-03-18 02:47:51 [main] INFO  UnknownTC_verifyHeaderLinks - Verifying Shopping Cart link...
+2025-03-18 02:47:51 [main] INFO  UnknownTC_verifyHeaderLinks - Shopping Cart link verification successful!
+2025-03-18 02:47:51 [main] INFO  UnknownTC_verifyHeaderLinks - All header links are verified and clickable!
+2025-03-18 02:47:51 [main] INFO  listeners.TestListener - ✅ Test PASSED: verifyHeaderLinks (Duration: 2746ms)
+2025-03-18 02:47:51 [main] INFO  UnknownTC_verifyHeaderLinks - Closing the browser for test: verifyHeaderLinks
+2025-03-18 02:47:51 [main] INFO  UnknownTC_verifyHeaderLinks - Browser closed.
+2025-03-18 02:50:34 [main] INFO  UnknownTC_verifyHeaderLinks - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-03-18 02:50:34 [main] INFO  UnknownTC_verifyHeaderLinks - Logger initialized and writing to: logs/UnknownTC_verifyHeaderLinks.log
+2025-03-18 02:50:34 [main] INFO  UnknownTC_verifyHeaderLinks - Starting test setup for: verifyHeaderLinks (🔢 Test Case ID: UnknownTC)
+2025-03-18 02:50:51 [main] INFO  UnknownTC_verifyHeaderLinks - Navigated to the site: https://demo.nopcommerce.com
+2025-03-18 02:50:51 [main] INFO  UnknownTC_verifyHeaderLinks - Injected cookie: _ga
+2025-03-18 02:50:51 [main] INFO  UnknownTC_verifyHeaderLinks - Injected cookie: cf_clearance
+2025-03-18 02:50:51 [main] INFO  UnknownTC_verifyHeaderLinks - Injected cookie: .Nop.Antiforgery
+2025-03-18 02:50:51 [main] INFO  UnknownTC_verifyHeaderLinks - Injected cookie: .Nop.Customer
+2025-03-18 02:50:51 [main] INFO  UnknownTC_verifyHeaderLinks - Injected cookie: .Nop.Culture
+2025-03-18 02:50:51 [main] INFO  UnknownTC_verifyHeaderLinks - Injected cookie: _ga_SCT41TW89V
+2025-03-18 02:50:51 [main] INFO  UnknownTC_verifyHeaderLinks - Page refreshed with bypassed cookies.
+2025-03-18 02:50:51 [main] INFO  UnknownTC_verifyHeaderLinks - 🟢 Starting test: verifyHeaderLinks (🔢 Test Case ID: UnknownTC)
+2025-03-18 02:50:51 [main] INFO  UnknownTC_verifyHeaderLinks - Navigating to: https://demo.nopcommerce.com
+2025-03-18 02:50:52 [main] INFO  UnknownTC_verifyHeaderLinks - Verifying Register link...
+2025-03-18 02:50:52 [main] INFO  UnknownTC_verifyHeaderLinks - Register link verification successful!
+2025-03-18 02:50:52 [main] INFO  UnknownTC_verifyHeaderLinks - Verifying Login link...
+2025-03-18 02:50:53 [main] INFO  UnknownTC_verifyHeaderLinks - Login link verification successful!
+2025-03-18 02:50:53 [main] INFO  UnknownTC_verifyHeaderLinks - Verifying Wishlist link...
+2025-03-18 02:50:54 [main] INFO  UnknownTC_verifyHeaderLinks - Wishlist link verification successful!
+2025-03-18 02:50:54 [main] INFO  UnknownTC_verifyHeaderLinks - Verifying Shopping Cart link...
+2025-03-18 02:50:54 [main] INFO  UnknownTC_verifyHeaderLinks - Shopping Cart link verification successful!
+2025-03-18 02:50:54 [main] INFO  UnknownTC_verifyHeaderLinks - All header links are verified and clickable!
+2025-03-18 02:50:54 [main] INFO  listeners.TestListener - ✅ Test PASSED: verifyHeaderLinks (Duration: 2765ms)
+2025-03-18 02:50:54 [main] INFO  UnknownTC_verifyHeaderLinks - Closing the browser for test: verifyHeaderLinks
+2025-03-18 02:50:54 [main] INFO  UnknownTC_verifyHeaderLinks - Browser closed.
+2025-03-18 02:58:01 [main] INFO  UnknownTC_verifyHeaderLinks - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-03-18 02:58:01 [main] INFO  UnknownTC_verifyHeaderLinks - Logger initialized and writing to: logs/UnknownTC_verifyHeaderLinks.log
+2025-03-18 02:58:01 [main] INFO  UnknownTC_verifyHeaderLinks - Starting test setup for: verifyHeaderLinks (🔢 Test Case ID: UnknownTC)
+2025-03-18 02:58:19 [main] INFO  UnknownTC_verifyHeaderLinks - Navigated to the site: https://demo.nopcommerce.com
+2025-03-18 02:58:19 [main] INFO  UnknownTC_verifyHeaderLinks - Injected cookie: cf_clearance
+2025-03-18 02:58:19 [main] INFO  UnknownTC_verifyHeaderLinks - Injected cookie: _ga
+2025-03-18 02:58:19 [main] INFO  UnknownTC_verifyHeaderLinks - Injected cookie: .Nop.Antiforgery
+2025-03-18 02:58:19 [main] INFO  UnknownTC_verifyHeaderLinks - Injected cookie: .Nop.Customer
+2025-03-18 02:58:19 [main] INFO  UnknownTC_verifyHeaderLinks - Injected cookie: .Nop.Culture
+2025-03-18 02:58:19 [main] INFO  UnknownTC_verifyHeaderLinks - Injected cookie: _ga_SCT41TW89V
+2025-03-18 02:58:19 [main] INFO  UnknownTC_verifyHeaderLinks - Page refreshed with bypassed cookies.
+2025-03-18 02:58:19 [main] INFO  UnknownTC_verifyHeaderLinks - 🟢 Starting test: verifyHeaderLinks (🔢 Test Case ID: UnknownTC)
+2025-03-18 02:58:19 [main] INFO  UnknownTC_verifyHeaderLinks - Navigating to: https://demo.nopcommerce.com
+2025-03-18 02:58:20 [main] INFO  UnknownTC_verifyHeaderLinks - Verifying Register link...
+2025-03-18 02:58:20 [main] INFO  UnknownTC_verifyHeaderLinks - Register link verification successful!
+2025-03-18 02:58:20 [main] INFO  UnknownTC_verifyHeaderLinks - Verifying Login link...
+2025-03-18 02:58:21 [main] INFO  UnknownTC_verifyHeaderLinks - Login link verification successful!
+2025-03-18 02:58:21 [main] INFO  UnknownTC_verifyHeaderLinks - Verifying Wishlist link...
+2025-03-18 02:58:21 [main] INFO  UnknownTC_verifyHeaderLinks - Wishlist link verification successful!
+2025-03-18 02:58:21 [main] INFO  UnknownTC_verifyHeaderLinks - Verifying Shopping Cart link...
+2025-03-18 02:58:22 [main] INFO  UnknownTC_verifyHeaderLinks - Shopping Cart link verification successful!
+2025-03-18 02:58:22 [main] INFO  UnknownTC_verifyHeaderLinks - All header links are verified and clickable!
+2025-03-18 02:58:22 [main] INFO  listeners.TestListener - ✅ Test PASSED: verifyHeaderLinks (Duration: 2735ms)
+2025-03-18 02:58:22 [main] INFO  UnknownTC_verifyHeaderLinks - Closing the browser for test: verifyHeaderLinks
+2025-03-18 02:58:22 [main] INFO  UnknownTC_verifyHeaderLinks - Browser closed.
+2025-03-18 02:58:48 [main] INFO  UnknownTC_verifyHeaderLinks - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-03-18 02:58:48 [main] INFO  UnknownTC_verifyHeaderLinks - Logger initialized and writing to: logs/UnknownTC_verifyHeaderLinks.log
+2025-03-18 02:58:48 [main] INFO  UnknownTC_verifyHeaderLinks - Starting test setup for: verifyHeaderLinks (🔢 Test Case ID: UnknownTC)
+2025-03-18 02:59:05 [main] INFO  UnknownTC_verifyHeaderLinks - Navigated to the site: https://demo.nopcommerce.com
+2025-03-18 02:59:05 [main] INFO  UnknownTC_verifyHeaderLinks - Injected cookie: cf_clearance
+2025-03-18 02:59:05 [main] INFO  UnknownTC_verifyHeaderLinks - Injected cookie: _ga
+2025-03-18 02:59:05 [main] INFO  UnknownTC_verifyHeaderLinks - Injected cookie: .Nop.Antiforgery
+2025-03-18 02:59:05 [main] INFO  UnknownTC_verifyHeaderLinks - Injected cookie: .Nop.Customer
+2025-03-18 02:59:05 [main] INFO  UnknownTC_verifyHeaderLinks - Injected cookie: .Nop.Culture
+2025-03-18 02:59:05 [main] INFO  UnknownTC_verifyHeaderLinks - Injected cookie: _ga_SCT41TW89V
+2025-03-18 02:59:06 [main] INFO  UnknownTC_verifyHeaderLinks - Page refreshed with bypassed cookies.
+2025-03-18 02:59:06 [main] INFO  UnknownTC_verifyHeaderLinks - 🟢 Starting test: verifyHeaderLinks (🔢 Test Case ID: UnknownTC)
+2025-03-18 02:59:06 [main] INFO  UnknownTC_verifyHeaderLinks - Navigating to: https://demo.nopcommerce.com
+2025-03-18 02:59:07 [main] INFO  UnknownTC_verifyHeaderLinks - Verifying Register link...
+2025-03-18 02:59:07 [main] INFO  UnknownTC_verifyHeaderLinks - Register link verification successful!
+2025-03-18 02:59:07 [main] INFO  UnknownTC_verifyHeaderLinks - Verifying Login link...
+2025-03-18 02:59:08 [main] INFO  UnknownTC_verifyHeaderLinks - Login link verification successful!
+2025-03-18 02:59:08 [main] INFO  UnknownTC_verifyHeaderLinks - Verifying Wishlist link...
+2025-03-18 02:59:08 [main] INFO  UnknownTC_verifyHeaderLinks - Wishlist link verification successful!
+2025-03-18 02:59:08 [main] INFO  UnknownTC_verifyHeaderLinks - Verifying Shopping Cart link...
+2025-03-18 02:59:09 [main] INFO  UnknownTC_verifyHeaderLinks - Shopping Cart link verification successful!
+2025-03-18 02:59:09 [main] INFO  UnknownTC_verifyHeaderLinks - All header links are verified and clickable!
+2025-03-18 02:59:09 [main] INFO  listeners.TestListener - ✅ Test PASSED: verifyHeaderLinks (Duration: 2765ms)
+2025-03-18 02:59:09 [main] INFO  UnknownTC_verifyHeaderLinks - Closing the browser for test: verifyHeaderLinks
+2025-03-18 02:59:09 [main] INFO  UnknownTC_verifyHeaderLinks - Browser closed.
+2025-03-18 03:08:28 [main] INFO  UnknownTC_verifyHeaderLinks - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-03-18 03:08:28 [main] INFO  UnknownTC_verifyHeaderLinks - Logger initialized and writing to: logs/UnknownTC_verifyHeaderLinks.log
+2025-03-18 03:08:28 [main] INFO  UnknownTC_verifyHeaderLinks - Starting test setup for: verifyHeaderLinks (🔢 Test Case ID: UnknownTC)
+2025-03-18 03:08:46 [main] INFO  UnknownTC_verifyHeaderLinks - Navigated to the site: https://demo.nopcommerce.com
+2025-03-18 03:08:46 [main] INFO  UnknownTC_verifyHeaderLinks - Injected cookie: cf_clearance
+2025-03-18 03:08:46 [main] INFO  UnknownTC_verifyHeaderLinks - Injected cookie: _ga
+2025-03-18 03:08:46 [main] INFO  UnknownTC_verifyHeaderLinks - Injected cookie: .Nop.Antiforgery
+2025-03-18 03:08:46 [main] INFO  UnknownTC_verifyHeaderLinks - Injected cookie: .Nop.Customer
+2025-03-18 03:08:46 [main] INFO  UnknownTC_verifyHeaderLinks - Injected cookie: .Nop.Culture
+2025-03-18 03:08:46 [main] INFO  UnknownTC_verifyHeaderLinks - Injected cookie: _ga_SCT41TW89V
+2025-03-18 03:08:47 [main] INFO  UnknownTC_verifyHeaderLinks - Page refreshed with bypassed cookies.
+2025-03-18 03:08:47 [main] INFO  UnknownTC_verifyHeaderLinks - 🟢 Starting test: verifyHeaderLinks (🔢 Test Case ID: UnknownTC)
+2025-03-18 03:08:47 [main] INFO  UnknownTC_verifyHeaderLinks - Navigating to: https://demo.nopcommerce.com
+2025-03-18 03:08:48 [main] INFO  UnknownTC_verifyHeaderLinks - Verifying Register link...
+2025-03-18 03:08:59 [main] ERROR listeners.TestListener - ❌ Test FAILED: verifyHeaderLinks
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.cssSelector: .ico-register (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.29.0', revision: '5fc1ec94cb'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.89, chrome: {chromedriverVersion: 134.0.6998.88 (7e3d5c978c6d..., userDataDir: C:\Users\MOHAME~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58798}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58798/devtoo..., se:cdpVersion: 134.0.6998.89, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 80c0d0747441305b724758807f2f2cbf
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84) ~[selenium-support-4.29.0.jar:?]
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228) ~[selenium-support-4.29.0.jar:?]
+	at tests.ui.HomePageTest.verifyHeaderLinks(HomePageTest.java:61) ~[test-classes/:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) ~[testng-7.11.0.jar:7.11.0]
+	at java.util.ArrayList.forEach(ArrayList.java:1597) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:741) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestRunner.run(TestRunner.java:616) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuites(TestNG.java:1112) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.run(TestNG.java:1079) [testng-7.11.0.jar:7.11.0]
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155) [surefire-testng-3.5.2.jar:3.5.2]
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeSingleClass(TestNGDirectoryTestSuite.java:102) [surefire-testng-3.5.2.jar:3.5.2]
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:91) [surefire-testng-3.5.2.jar:3.5.2]
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137) [surefire-testng-3.5.2.jar:3.5.2]
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385) [surefire-booter-3.5.2.jar:3.5.2]
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162) [surefire-booter-3.5.2.jar:3.5.2]
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507) [surefire-booter-3.5.2.jar:3.5.2]
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495) [surefire-booter-3.5.2.jar:3.5.2]
+2025-03-18 03:08:59 [main] INFO  UnknownTC_verifyHeaderLinks - Closing the browser for test: verifyHeaderLinks
+2025-03-18 03:08:59 [main] INFO  UnknownTC_verifyHeaderLinks - Browser closed.
+2025-03-18 03:09:53 [main] INFO  UnknownTC_verifyHeaderLinks - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-03-18 03:09:53 [main] INFO  UnknownTC_verifyHeaderLinks - Logger initialized and writing to: logs/UnknownTC_verifyHeaderLinks.log
+2025-03-18 03:09:53 [main] INFO  UnknownTC_verifyHeaderLinks - Starting test setup for: verifyHeaderLinks (🔢 Test Case ID: UnknownTC)
+2025-03-18 03:10:10 [main] INFO  UnknownTC_verifyHeaderLinks - Navigated to the site: https://demo.nopcommerce.com
+2025-03-18 03:10:10 [main] INFO  UnknownTC_verifyHeaderLinks - Injected cookie: cf_clearance
+2025-03-18 03:10:10 [main] INFO  UnknownTC_verifyHeaderLinks - Injected cookie: _ga
+2025-03-18 03:10:10 [main] INFO  UnknownTC_verifyHeaderLinks - Injected cookie: .Nop.Antiforgery
+2025-03-18 03:10:10 [main] INFO  UnknownTC_verifyHeaderLinks - Injected cookie: .Nop.Customer
+2025-03-18 03:10:10 [main] INFO  UnknownTC_verifyHeaderLinks - Injected cookie: .Nop.Culture
+2025-03-18 03:10:10 [main] INFO  UnknownTC_verifyHeaderLinks - Injected cookie: _ga_SCT41TW89V
+2025-03-18 03:10:11 [main] INFO  UnknownTC_verifyHeaderLinks - Page refreshed with bypassed cookies.
+2025-03-18 03:10:11 [main] INFO  UnknownTC_verifyHeaderLinks - 🟢 Starting test: verifyHeaderLinks (🔢 Test Case ID: UnknownTC)
+2025-03-18 03:10:11 [main] INFO  UnknownTC_verifyHeaderLinks - Navigating to: https://demo.nopcommerce.com
+2025-03-18 03:10:11 [main] INFO  UnknownTC_verifyHeaderLinks - Verifying Register link...
+2025-03-18 03:10:22 [main] ERROR listeners.TestListener - ❌ Test FAILED: verifyHeaderLinks
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.cssSelector: .ico-register (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.29.0', revision: '5fc1ec94cb'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.89, chrome: {chromedriverVersion: 134.0.6998.88 (7e3d5c978c6d..., userDataDir: C:\Users\MOHAME~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64481}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64481/devtoo..., se:cdpVersion: 134.0.6998.89, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ed8d33a93ba220df78d88b73f0ce8b9e
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84) ~[selenium-support-4.29.0.jar:?]
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228) ~[selenium-support-4.29.0.jar:?]
+	at tests.ui.HomePageTest.verifyHeaderLinks(HomePageTest.java:61) ~[test-classes/:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) ~[testng-7.11.0.jar:7.11.0]
+	at java.util.ArrayList.forEach(ArrayList.java:1597) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:741) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestRunner.run(TestRunner.java:616) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuites(TestNG.java:1112) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.run(TestNG.java:1079) [testng-7.11.0.jar:7.11.0]
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155) [surefire-testng-3.5.2.jar:3.5.2]
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeSingleClass(TestNGDirectoryTestSuite.java:102) [surefire-testng-3.5.2.jar:3.5.2]
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:91) [surefire-testng-3.5.2.jar:3.5.2]
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137) [surefire-testng-3.5.2.jar:3.5.2]
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385) [surefire-booter-3.5.2.jar:3.5.2]
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162) [surefire-booter-3.5.2.jar:3.5.2]
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507) [surefire-booter-3.5.2.jar:3.5.2]
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495) [surefire-booter-3.5.2.jar:3.5.2]
+2025-03-18 03:10:22 [main] INFO  UnknownTC_verifyHeaderLinks - Closing the browser for test: verifyHeaderLinks
+2025-03-18 03:10:22 [main] INFO  UnknownTC_verifyHeaderLinks - Browser closed.

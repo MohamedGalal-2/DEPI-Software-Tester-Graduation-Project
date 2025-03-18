@@ -1,0 +1,214 @@
+2025-03-15 22:37:16 [main] INFO  verifyProductPageLoadsCorrectly - Starting test setup for: verifyProductPageLoadsCorrectly
+2025-03-15 22:37:16 [main] INFO  verifyProductPageLoadsCorrectly - Setting up Chrome browser...
+2025-03-15 22:37:17 [main] INFO  verifyProductPageLoadsCorrectly - Browser setup complete with ZenRows proxy.
+2025-03-15 22:37:17 [main] INFO  verifyProductPageLoadsCorrectly - Navigating to: https://demo.nopcommerce.com/
+2025-03-15 22:37:32 [main] INFO  verifyProductPageLoadsCorrectly - Closing the browser for test: verifyProductPageLoadsCorrectly
+2025-03-15 22:37:33 [main] INFO  verifyProductPageLoadsCorrectly - Browser closed.
+2025-03-15 22:39:48 [main] INFO  verifyProductPageLoadsCorrectly - Starting test setup for: verifyProductPageLoadsCorrectly
+2025-03-15 22:39:48 [main] INFO  verifyProductPageLoadsCorrectly - Setting up Chrome browser...
+2025-03-15 22:39:49 [main] INFO  verifyProductPageLoadsCorrectly - Browser setup complete with ZenRows proxy.
+2025-03-15 22:39:49 [main] INFO  verifyProductPageLoadsCorrectly - Navigating to: https://demo.nopcommerce.com/
+2025-03-15 22:39:56 [main] INFO  verifyProductPageLoadsCorrectly - Closing the browser for test: verifyProductPageLoadsCorrectly
+2025-03-15 22:39:56 [main] INFO  verifyProductPageLoadsCorrectly - Browser closed.
+2025-03-15 22:42:04 [main] INFO  verifyProductPageLoadsCorrectly - Starting test setup for: verifyProductPageLoadsCorrectly
+2025-03-15 22:42:04 [main] INFO  verifyProductPageLoadsCorrectly - Setting up Chrome browser...
+2025-03-15 22:42:05 [main] INFO  verifyProductPageLoadsCorrectly - Browser setup complete with ZenRows proxy.
+2025-03-15 22:42:05 [main] INFO  verifyProductPageLoadsCorrectly - Navigating to: https://demo.nopcommerce.com/
+2025-03-15 22:42:11 [main] INFO  verifyProductPageLoadsCorrectly - Closing the browser for test: verifyProductPageLoadsCorrectly
+2025-03-15 22:42:11 [main] INFO  verifyProductPageLoadsCorrectly - Browser closed.
+2025-03-15 22:42:24 [main] INFO  verifyProductPageLoadsCorrectly - Starting test setup for: verifyProductPageLoadsCorrectly
+2025-03-15 22:42:24 [main] INFO  verifyProductPageLoadsCorrectly - Setting up Chrome browser...
+2025-03-15 22:42:26 [main] INFO  verifyProductPageLoadsCorrectly - Browser setup complete with ZenRows proxy.
+2025-03-15 22:42:26 [main] INFO  verifyProductPageLoadsCorrectly - Navigating to: https://demo.nopcommerce.com/
+2025-03-15 22:42:29 [main] INFO  verifyProductPageLoadsCorrectly - Product page loaded successfully.
+2025-03-15 22:42:29 [main] INFO  verifyProductPageLoadsCorrectly - Closing the browser for test: verifyProductPageLoadsCorrectly
+2025-03-15 22:42:29 [main] INFO  verifyProductPageLoadsCorrectly - Browser closed.
+2025-03-15 22:43:16 [main] INFO  verifyProductPageLoadsCorrectly - Starting test setup for: verifyProductPageLoadsCorrectly
+2025-03-15 22:43:16 [main] INFO  verifyProductPageLoadsCorrectly - Setting up Chrome browser...
+2025-03-15 22:43:17 [main] INFO  verifyProductPageLoadsCorrectly - Browser setup complete with ZenRows proxy.
+2025-03-15 22:43:17 [main] INFO  verifyProductPageLoadsCorrectly - Navigating to: https://demo.nopcommerce.com/
+2025-03-15 22:43:26 [main] INFO  verifyProductPageLoadsCorrectly - Closing the browser for test: verifyProductPageLoadsCorrectly
+2025-03-15 22:43:26 [main] INFO  verifyProductPageLoadsCorrectly - Browser closed.
+2025-03-15 22:59:55 [main] INFO  verifyProductPageLoadsCorrectly - Starting test setup for: verifyProductPageLoadsCorrectly
+2025-03-15 22:59:55 [main] INFO  verifyProductPageLoadsCorrectly - Setting up Chrome browser...
+2025-03-15 22:59:57 [main] INFO  verifyProductPageLoadsCorrectly - Browser setup complete with ZenRows proxy.
+2025-03-15 22:59:57 [main] INFO  verifyProductPageLoadsCorrectly - Navigating to: https://demo.nopcommerce.com/
+2025-03-15 23:00:00 [main] INFO  verifyProductPageLoadsCorrectly - Product page loaded successfully.
+2025-03-15 23:00:00 [main] INFO  verifyProductPageLoadsCorrectly - Closing the browser for test: verifyProductPageLoadsCorrectly
+2025-03-15 23:00:00 [main] INFO  verifyProductPageLoadsCorrectly - Browser closed.
+2025-03-15 23:01:28 [main] INFO  verifyProductPageLoadsCorrectly - Starting test setup for: verifyProductPageLoadsCorrectly
+2025-03-15 23:01:28 [main] INFO  verifyProductPageLoadsCorrectly - Setting up Chrome browser...
+2025-03-15 23:01:29 [main] INFO  verifyProductPageLoadsCorrectly - Browser setup complete with ZenRows proxy.
+2025-03-15 23:01:29 [main] INFO  verifyProductPageLoadsCorrectly - Navigating to: https://demo.nopcommerce.com/
+2025-03-15 23:01:32 [main] INFO  verifyProductPageLoadsCorrectly - Product page loaded successfully.
+2025-03-15 23:01:32 [main] INFO  verifyProductPageLoadsCorrectly - Closing the browser for test: verifyProductPageLoadsCorrectly
+2025-03-15 23:01:32 [main] INFO  verifyProductPageLoadsCorrectly - Browser closed.
+2025-03-15 23:05:40 [main] INFO  verifyProductPageLoadsCorrectly - Starting test setup for: verifyProductPageLoadsCorrectly
+2025-03-15 23:05:40 [main] INFO  verifyProductPageLoadsCorrectly - Setting up Chrome browser...
+2025-03-15 23:05:41 [main] INFO  verifyProductPageLoadsCorrectly - Browser setup complete with ZenRows proxy.
+2025-03-15 23:05:41 [main] INFO  verifyProductPageLoadsCorrectly - Navigating to: https://demo.nopcommerce.com/
+2025-03-15 23:06:03 [main] INFO  verifyProductPageLoadsCorrectly - Closing the browser for test: verifyProductPageLoadsCorrectly
+2025-03-15 23:06:04 [main] INFO  verifyProductPageLoadsCorrectly - Browser closed.
+2025-03-15 23:08:07 [main] INFO  verifyProductPageLoadsCorrectly - Starting test setup for: verifyProductPageLoadsCorrectly
+2025-03-15 23:08:07 [main] INFO  verifyProductPageLoadsCorrectly - Setting up Chrome browser...
+2025-03-15 23:08:08 [main] INFO  verifyProductPageLoadsCorrectly - Browser setup complete with ZenRows proxy.
+2025-03-15 23:08:08 [main] INFO  verifyProductPageLoadsCorrectly - Navigating to: https://demo.nopcommerce.com/
+2025-03-15 23:08:10 [main] INFO  verifyProductPageLoadsCorrectly - Product page loaded successfully.
+2025-03-15 23:08:10 [main] INFO  verifyProductPageLoadsCorrectly - Closing the browser for test: verifyProductPageLoadsCorrectly
+2025-03-15 23:08:10 [main] INFO  verifyProductPageLoadsCorrectly - Browser closed.
+2025-03-15 23:15:17 [main] INFO  verifyProductPageLoadsCorrectly - Starting test setup for: verifyProductPageLoadsCorrectly
+2025-03-15 23:15:17 [main] INFO  verifyProductPageLoadsCorrectly - Setting up Chrome browser...
+2025-03-15 23:15:18 [main] INFO  verifyProductPageLoadsCorrectly - Browser setup complete with ZenRows proxy.
+2025-03-15 23:15:18 [main] INFO  verifyProductPageLoadsCorrectly - Navigating to: https://demo.nopcommerce.com/
+2025-03-15 23:15:21 [main] INFO  verifyProductPageLoadsCorrectly - Product page loaded successfully.
+2025-03-15 23:15:21 [main] INFO  verifyProductPageLoadsCorrectly - Closing the browser for test: verifyProductPageLoadsCorrectly
+2025-03-15 23:15:21 [main] INFO  verifyProductPageLoadsCorrectly - Browser closed.
+2025-03-15 23:23:45 [main] INFO  verifyProductPageLoadsCorrectly - Starting test setup for: verifyProductPageLoadsCorrectly
+2025-03-15 23:23:45 [main] INFO  verifyProductPageLoadsCorrectly - Setting up Chrome browser...
+2025-03-15 23:23:47 [main] INFO  verifyProductPageLoadsCorrectly - Browser setup complete with ZenRows proxy.
+2025-03-15 23:23:47 [main] INFO  verifyProductPageLoadsCorrectly - Navigating to: https://demo.nopcommerce.com/
+2025-03-15 23:23:49 [main] INFO  verifyProductPageLoadsCorrectly - Product page loaded successfully.
+2025-03-15 23:23:49 [main] INFO  verifyProductPageLoadsCorrectly - Closing the browser for test: verifyProductPageLoadsCorrectly
+2025-03-15 23:23:49 [main] INFO  verifyProductPageLoadsCorrectly - Browser closed.
+2025-03-15 23:24:51 [main] INFO  verifyProductPageLoadsCorrectly - Starting test setup for: verifyProductPageLoadsCorrectly
+2025-03-15 23:24:51 [main] INFO  verifyProductPageLoadsCorrectly - Setting up Chrome browser...
+2025-03-15 23:24:52 [main] INFO  verifyProductPageLoadsCorrectly - Browser setup complete with ZenRows proxy.
+2025-03-15 23:24:52 [main] INFO  verifyProductPageLoadsCorrectly - Navigating to: https://demo.nopcommerce.com/
+2025-03-15 23:24:54 [main] INFO  verifyProductPageLoadsCorrectly - Product page loaded successfully.
+2025-03-15 23:24:54 [main] INFO  verifyProductPageLoadsCorrectly - Closing the browser for test: verifyProductPageLoadsCorrectly
+2025-03-15 23:24:54 [main] INFO  verifyProductPageLoadsCorrectly - Browser closed.
+2025-03-15 23:33:40 [main] INFO  verifyProductPageLoadsCorrectly - Starting test setup for: verifyProductPageLoadsCorrectly
+2025-03-15 23:33:40 [main] INFO  verifyProductPageLoadsCorrectly - Setting up Chrome browser...
+2025-03-15 23:33:42 [main] INFO  verifyProductPageLoadsCorrectly - Browser setup complete with ZenRows proxy.
+2025-03-15 23:33:42 [main] INFO  verifyProductPageLoadsCorrectly - Navigating to: https://demo.nopcommerce.com/
+2025-03-15 23:33:44 [main] INFO  verifyProductPageLoadsCorrectly - Product page loaded successfully.
+2025-03-15 23:33:44 [main] INFO  verifyProductPageLoadsCorrectly - Closing the browser for test: verifyProductPageLoadsCorrectly
+2025-03-15 23:33:44 [main] INFO  verifyProductPageLoadsCorrectly - Browser closed.
+2025-03-16 07:24:22 [main] INFO  verifyProductPageLoadsCorrectly - Starting test setup for: verifyProductPageLoadsCorrectly
+2025-03-16 07:27:44 [main] INFO  verifyProductPageLoadsCorrectly - Starting test setup for: verifyProductPageLoadsCorrectly
+2025-03-16 07:28:01 [main] INFO  verifyProductPageLoadsCorrectly - Navigated to the site: https://demo.nopcommerce.com
+2025-03-16 07:28:01 [main] INFO  verifyProductPageLoadsCorrectly - Injected cookie: cf_clearance
+2025-03-16 07:28:01 [main] INFO  verifyProductPageLoadsCorrectly - Injected cookie: _ga
+2025-03-16 07:28:01 [main] INFO  verifyProductPageLoadsCorrectly - Injected cookie: .Nop.Antiforgery
+2025-03-16 07:28:01 [main] INFO  verifyProductPageLoadsCorrectly - Injected cookie: .Nop.Customer
+2025-03-16 07:28:01 [main] INFO  verifyProductPageLoadsCorrectly - Injected cookie: .Nop.Culture
+2025-03-16 07:28:01 [main] INFO  verifyProductPageLoadsCorrectly - Injected cookie: _ga_SCT41TW89V
+2025-03-16 07:28:01 [main] INFO  verifyProductPageLoadsCorrectly - Page refreshed with bypassed cookies.
+2025-03-16 07:28:01 [main] INFO  verifyProductPageLoadsCorrectly - Navigating to: https://demo.nopcommerce.com/
+2025-03-16 07:28:03 [main] INFO  verifyProductPageLoadsCorrectly - Product page loaded successfully.
+2025-03-16 07:28:03 [main] INFO  verifyProductPageLoadsCorrectly - Closing the browser for test: verifyProductPageLoadsCorrectly
+2025-03-16 07:28:03 [main] INFO  verifyProductPageLoadsCorrectly - Browser closed.
+2025-03-16 07:34:28 [main] INFO  verifyProductPageLoadsCorrectly - Starting test setup for: verifyProductPageLoadsCorrectly
+2025-03-16 07:34:44 [main] INFO  verifyProductPageLoadsCorrectly - Navigated to the site: https://demo.nopcommerce.com
+2025-03-16 07:34:44 [main] INFO  verifyProductPageLoadsCorrectly - Injected cookie: cf_clearance
+2025-03-16 07:34:44 [main] INFO  verifyProductPageLoadsCorrectly - Injected cookie: _ga
+2025-03-16 07:34:44 [main] INFO  verifyProductPageLoadsCorrectly - Injected cookie: .Nop.Antiforgery
+2025-03-16 07:34:44 [main] INFO  verifyProductPageLoadsCorrectly - Injected cookie: .Nop.Customer
+2025-03-16 07:34:44 [main] INFO  verifyProductPageLoadsCorrectly - Injected cookie: .Nop.Culture
+2025-03-16 07:34:44 [main] INFO  verifyProductPageLoadsCorrectly - Injected cookie: _ga_SCT41TW89V
+2025-03-16 07:34:45 [main] INFO  verifyProductPageLoadsCorrectly - Page refreshed with bypassed cookies.
+2025-03-16 07:34:45 [main] INFO  verifyProductPageLoadsCorrectly - Navigating to: https://demo.nopcommerce.com/
+2025-03-16 07:34:46 [main] INFO  verifyProductPageLoadsCorrectly - Product page loaded successfully.
+2025-03-16 07:34:46 [main] INFO  verifyProductPageLoadsCorrectly - Closing the browser for test: verifyProductPageLoadsCorrectly
+2025-03-16 07:34:46 [main] INFO  verifyProductPageLoadsCorrectly - Browser closed.
+2025-03-16 07:46:32 [main] INFO  verifyProductPageLoadsCorrectly - Starting test setup for: verifyProductPageLoadsCorrectly
+2025-03-16 07:46:49 [main] INFO  verifyProductPageLoadsCorrectly - Navigated to the site: https://demo.nopcommerce.com
+2025-03-16 07:46:49 [main] INFO  verifyProductPageLoadsCorrectly - Injected cookie: cf_clearance
+2025-03-16 07:46:49 [main] INFO  verifyProductPageLoadsCorrectly - Injected cookie: _ga
+2025-03-16 07:46:49 [main] INFO  verifyProductPageLoadsCorrectly - Injected cookie: .Nop.Antiforgery
+2025-03-16 07:46:49 [main] INFO  verifyProductPageLoadsCorrectly - Injected cookie: .Nop.Customer
+2025-03-16 07:46:49 [main] INFO  verifyProductPageLoadsCorrectly - Injected cookie: .Nop.Culture
+2025-03-16 07:46:49 [main] INFO  verifyProductPageLoadsCorrectly - Injected cookie: _ga_SCT41TW89V
+2025-03-16 07:46:50 [main] INFO  verifyProductPageLoadsCorrectly - Page refreshed with bypassed cookies.
+2025-03-16 07:46:50 [main] INFO  verifyProductPageLoadsCorrectly - Navigating to: https://demo.nopcommerce.com/
+2025-03-16 07:46:51 [main] INFO  verifyProductPageLoadsCorrectly - Product page loaded successfully.
+2025-03-16 07:46:51 [main] INFO  verifyProductPageLoadsCorrectly - Closing the browser for test: verifyProductPageLoadsCorrectly
+2025-03-16 07:46:51 [main] INFO  verifyProductPageLoadsCorrectly - Browser closed.
+2025-03-16 08:43:59 [main] INFO  verifyProductPageLoadsCorrectly - Starting test setup for: verifyProductPageLoadsCorrectly
+2025-03-16 08:44:24 [main] INFO  verifyProductPageLoadsCorrectly - Navigated to the site: https://demo.nopcommerce.com
+2025-03-16 08:44:24 [main] INFO  verifyProductPageLoadsCorrectly - Injected cookie: _ga
+2025-03-16 08:44:24 [main] INFO  verifyProductPageLoadsCorrectly - Injected cookie: cf_clearance
+2025-03-16 08:44:24 [main] INFO  verifyProductPageLoadsCorrectly - Injected cookie: .Nop.Antiforgery
+2025-03-16 08:44:24 [main] INFO  verifyProductPageLoadsCorrectly - Injected cookie: .Nop.Customer
+2025-03-16 08:44:24 [main] INFO  verifyProductPageLoadsCorrectly - Injected cookie: .Nop.Culture
+2025-03-16 08:44:24 [main] INFO  verifyProductPageLoadsCorrectly - Injected cookie: _ga_SCT41TW89V
+2025-03-16 08:44:25 [main] INFO  verifyProductPageLoadsCorrectly - Page refreshed with bypassed cookies.
+2025-03-16 08:44:25 [main] INFO  verifyProductPageLoadsCorrectly - Navigating to: https://demo.nopcommerce.com/
+2025-03-16 08:44:28 [main] INFO  verifyProductPageLoadsCorrectly - Product page loaded successfully.
+2025-03-16 08:44:28 [main] INFO  verifyProductPageLoadsCorrectly - Closing the browser for test: verifyProductPageLoadsCorrectly
+2025-03-16 08:44:28 [main] INFO  verifyProductPageLoadsCorrectly - Browser closed.
+2025-03-16 09:17:45 [main] INFO  verifyProductPageLoadsCorrectly - Starting test setup for: verifyProductPageLoadsCorrectly
+2025-03-16 09:18:09 [main] INFO  verifyProductPageLoadsCorrectly - Navigated to the site: https://demo.nopcommerce.com
+2025-03-16 09:18:09 [main] INFO  verifyProductPageLoadsCorrectly - Injected cookie: _ga
+2025-03-16 09:18:09 [main] INFO  verifyProductPageLoadsCorrectly - Injected cookie: cf_clearance
+2025-03-16 09:18:09 [main] INFO  verifyProductPageLoadsCorrectly - Injected cookie: .Nop.Antiforgery
+2025-03-16 09:18:09 [main] INFO  verifyProductPageLoadsCorrectly - Injected cookie: .Nop.Customer
+2025-03-16 09:18:09 [main] INFO  verifyProductPageLoadsCorrectly - Injected cookie: .Nop.Culture
+2025-03-16 09:18:09 [main] INFO  verifyProductPageLoadsCorrectly - Injected cookie: _ga_SCT41TW89V
+2025-03-16 09:18:10 [main] INFO  verifyProductPageLoadsCorrectly - Page refreshed with bypassed cookies.
+2025-03-16 09:18:10 [main] INFO  verifyProductPageLoadsCorrectly - Navigating to: https://demo.nopcommerce.com/
+2025-03-16 09:18:12 [main] INFO  verifyProductPageLoadsCorrectly - Product page loaded successfully.
+2025-03-16 09:18:12 [main] INFO  verifyProductPageLoadsCorrectly - Closing the browser for test: verifyProductPageLoadsCorrectly
+2025-03-16 09:18:12 [main] INFO  verifyProductPageLoadsCorrectly - Browser closed.
+2025-03-17 10:08:25 [main] INFO  verifyProductPageLoadsCorrectly - 
+================================================================================================================================ NEW TEST RUN ================================================================================================================================
+2025-03-17 10:08:25 [main] INFO  verifyProductPageLoadsCorrectly - Starting test setup for: verifyProductPageLoadsCorrectly
+2025-03-17 18:20:22 [main] INFO  verifyProductPageLoadsCorrectly - 
+================================================================================================================================ NEW TEST RUN ================================================================================================================================
+2025-03-17 18:20:22 [main] INFO  verifyProductPageLoadsCorrectly - Starting test setup for: verifyProductPageLoadsCorrectly
+2025-03-17 18:20:46 [main] INFO  verifyProductPageLoadsCorrectly - Navigated to the site: https://demo.nopcommerce.com
+2025-03-17 18:20:46 [main] INFO  verifyProductPageLoadsCorrectly - Injected cookie: cf_clearance
+2025-03-17 18:20:46 [main] INFO  verifyProductPageLoadsCorrectly - Injected cookie: _ga
+2025-03-17 18:20:46 [main] INFO  verifyProductPageLoadsCorrectly - Injected cookie: .Nop.Antiforgery
+2025-03-17 18:20:46 [main] INFO  verifyProductPageLoadsCorrectly - Injected cookie: .Nop.Customer
+2025-03-17 18:20:46 [main] INFO  verifyProductPageLoadsCorrectly - Injected cookie: .Nop.Culture
+2025-03-17 18:20:46 [main] INFO  verifyProductPageLoadsCorrectly - Injected cookie: _ga_SCT41TW89V
+2025-03-17 18:20:47 [main] INFO  verifyProductPageLoadsCorrectly - Page refreshed with bypassed cookies.
+2025-03-17 18:20:47 [main] INFO  verifyProductPageLoadsCorrectly - Navigating to: https://demo.nopcommerce.com/
+2025-03-17 18:20:50 [main] INFO  verifyProductPageLoadsCorrectly - Product page loaded successfully.
+2025-03-17 18:20:50 [main] INFO  verifyProductPageLoadsCorrectly - Closing the browser for test: verifyProductPageLoadsCorrectly
+2025-03-17 18:20:50 [main] INFO  verifyProductPageLoadsCorrectly - Browser closed.
+2025-03-17 18:46:42 [main] INFO  verifyProductPageLoadsCorrectly - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-03-17 18:46:42 [main] INFO  verifyProductPageLoadsCorrectly - Starting test setup for: verifyProductPageLoadsCorrectly
+2025-03-17 18:47:05 [main] INFO  verifyProductPageLoadsCorrectly - Navigated to the site: https://demo.nopcommerce.com
+2025-03-17 18:47:05 [main] INFO  verifyProductPageLoadsCorrectly - Injected cookie: cf_clearance
+2025-03-17 18:47:05 [main] INFO  verifyProductPageLoadsCorrectly - Injected cookie: _ga
+2025-03-17 18:47:05 [main] INFO  verifyProductPageLoadsCorrectly - Injected cookie: .Nop.Antiforgery
+2025-03-17 18:47:05 [main] INFO  verifyProductPageLoadsCorrectly - Injected cookie: .Nop.Customer
+2025-03-17 18:47:05 [main] INFO  verifyProductPageLoadsCorrectly - Injected cookie: .Nop.Culture
+2025-03-17 18:47:05 [main] INFO  verifyProductPageLoadsCorrectly - Injected cookie: _ga_SCT41TW89V
+2025-03-17 18:47:06 [main] INFO  verifyProductPageLoadsCorrectly - Page refreshed with bypassed cookies.
+2025-03-17 18:47:06 [main] INFO  verifyProductPageLoadsCorrectly - Navigating to: https://demo.nopcommerce.com/
+2025-03-17 18:47:09 [main] INFO  verifyProductPageLoadsCorrectly - Product page loaded successfully.
+2025-03-17 18:47:09 [main] INFO  verifyProductPageLoadsCorrectly - Closing the browser for test: verifyProductPageLoadsCorrectly
+2025-03-17 18:47:09 [main] INFO  verifyProductPageLoadsCorrectly - Browser closed.
+2025-03-17 20:03:39 [main] INFO  verifyProductPageLoadsCorrectly - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-03-17 20:03:39 [main] INFO  verifyProductPageLoadsCorrectly - Starting test setup for: verifyProductPageLoadsCorrectly
+2025-03-17 20:03:56 [main] INFO  verifyProductPageLoadsCorrectly - Navigated to the site: https://demo.nopcommerce.com
+2025-03-17 20:03:56 [main] INFO  verifyProductPageLoadsCorrectly - Injected cookie: _ga
+2025-03-17 20:03:56 [main] INFO  verifyProductPageLoadsCorrectly - Injected cookie: cf_clearance
+2025-03-17 20:03:56 [main] INFO  verifyProductPageLoadsCorrectly - Injected cookie: .Nop.Antiforgery
+2025-03-17 20:03:56 [main] INFO  verifyProductPageLoadsCorrectly - Injected cookie: .Nop.Customer
+2025-03-17 20:03:56 [main] INFO  verifyProductPageLoadsCorrectly - Injected cookie: .Nop.Culture
+2025-03-17 20:03:56 [main] INFO  verifyProductPageLoadsCorrectly - Injected cookie: _ga_SCT41TW89V
+2025-03-17 20:03:57 [main] INFO  verifyProductPageLoadsCorrectly - Page refreshed with bypassed cookies.
+2025-03-17 20:03:57 [main] INFO  verifyProductPageLoadsCorrectly - Navigating to: https://demo.nopcommerce.com/
+2025-03-17 20:04:03 [main] INFO  verifyProductPageLoadsCorrectly - Closing the browser for test: verifyProductPageLoadsCorrectly
+2025-03-17 20:04:03 [main] INFO  verifyProductPageLoadsCorrectly - Browser closed.
+2025-03-17 20:05:57 [main] INFO  verifyProductPageLoadsCorrectly - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-03-17 20:05:57 [main] INFO  verifyProductPageLoadsCorrectly - Starting test setup for: verifyProductPageLoadsCorrectly
+2025-03-17 20:06:20 [main] INFO  verifyProductPageLoadsCorrectly - Navigated to the site: https://demo.nopcommerce.com
+2025-03-17 20:06:20 [main] INFO  verifyProductPageLoadsCorrectly - Injected cookie: _ga
+2025-03-17 20:06:20 [main] INFO  verifyProductPageLoadsCorrectly - Injected cookie: cf_clearance
+2025-03-17 20:06:20 [main] INFO  verifyProductPageLoadsCorrectly - Injected cookie: .Nop.Antiforgery
+2025-03-17 20:06:20 [main] INFO  verifyProductPageLoadsCorrectly - Injected cookie: .Nop.Customer
+2025-03-17 20:06:20 [main] INFO  verifyProductPageLoadsCorrectly - Injected cookie: .Nop.Culture
+2025-03-17 20:06:20 [main] INFO  verifyProductPageLoadsCorrectly - Injected cookie: _ga_SCT41TW89V
+2025-03-17 20:06:21 [main] INFO  verifyProductPageLoadsCorrectly - Page refreshed with bypassed cookies.
+2025-03-17 20:06:21 [main] INFO  verifyProductPageLoadsCorrectly - Navigating to: https://demo.nopcommerce.com/
+2025-03-17 20:06:23 [main] INFO  verifyProductPageLoadsCorrectly - Product page loaded successfully.
+2025-03-17 20:06:23 [main] INFO  verifyProductPageLoadsCorrectly - Closing the browser for test: verifyProductPageLoadsCorrectly
+2025-03-17 20:06:23 [main] INFO  verifyProductPageLoadsCorrectly - Browser closed.

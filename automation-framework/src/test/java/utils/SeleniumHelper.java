@@ -6,6 +6,7 @@ import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import java.time.Duration;
 import java.util.List;
+import java.util.concurrent.ThreadLocalRandom;
 
 public class SeleniumHelper {
     private WebDriver driver;
@@ -14,6 +15,36 @@ public class SeleniumHelper {
     public SeleniumHelper(WebDriver driver) {
         this.driver = driver;
         this.wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+    }
+
+    /**
+     * Converts a string locator from config.properties to a Selenium By object.
+     *
+     * @param key The property key from config.properties
+     * @return By object corresponding to the locator
+     */
+    public static By getByLocator(String key) {
+        String locator = ConfigReader.getProperty(key);
+
+        if (locator == null) {
+            throw new RuntimeException("Locator for key '" + key + "' not found in config.properties.");
+        }
+
+        if (locator.startsWith("id=")) {
+            return By.id(locator.substring(3));
+        } else if (locator.startsWith("css=")) {
+            return By.cssSelector(locator.substring(4));
+        } else if (locator.startsWith("xpath=")) {
+            return By.xpath(locator.substring(6));
+        } else if (locator.startsWith("linkText=")) {
+            return By.linkText(locator.substring(9));
+        } else if (locator.startsWith("name=")) {
+            return By.name(locator.substring(5));
+        } else if (locator.startsWith("className=")) {
+            return By.className(locator.substring(10));
+        } else {
+            throw new RuntimeException("Invalid locator type: " + locator);
+        }
     }
 
     // Wait for the page title to contain a specific text
@@ -98,4 +129,29 @@ public class SeleniumHelper {
             return false;
         }
     }
+
+    // Random delay function
+    public static void realisticDelay() throws InterruptedException {
+        int delay = ThreadLocalRandom.current().nextInt(1000, 3000); // 1s - 3s
+        Thread.sleep(delay);
+    }
+
+    public void scrollToElement(WebElement element) {
+        JavascriptExecutor js = (JavascriptExecutor) driver;
+        js.executeScript("arguments[0].scrollIntoView({behavior: 'smooth', block: 'center'});", element);
+    }
+
+    // Function to generate a random delay between 7 to 12 seconds
+    public static void randomDelay() throws InterruptedException {
+        int randomTime = ThreadLocalRandom.current().nextInt(7000, 12000); // 7s - 12s
+        Thread.sleep(randomTime);
+    }
+
+    // Function to simulate human-like scrolling
+    public void randomScroll() {
+        JavascriptExecutor js = (JavascriptExecutor) driver;
+        int scrollAmount = ThreadLocalRandom.current().nextInt(300, 700); // Random scroll distance
+        js.executeScript("window.scrollBy(0," + scrollAmount + ");");
+    }
+
 }

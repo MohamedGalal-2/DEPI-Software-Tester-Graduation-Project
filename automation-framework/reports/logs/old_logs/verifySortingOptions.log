@@ -1,0 +1,143 @@
+2025-03-15 22:38:26 [main] INFO  verifySortingOptions - Starting test setup for: verifySortingOptions
+2025-03-15 22:38:26 [main] INFO  verifySortingOptions - Setting up Chrome browser...
+2025-03-15 22:38:27 [main] INFO  verifySortingOptions - Browser setup complete with ZenRows proxy.
+2025-03-15 22:38:27 [main] INFO  verifySortingOptions - Navigating to: https://demo.nopcommerce.com/
+2025-03-15 22:38:29 [main] INFO  verifySortingOptions - Sorting verified for: Price: Low to High
+2025-03-15 22:38:29 [main] INFO  verifySortingOptions - Sorting verified for: Price: High to Low
+2025-03-15 22:38:29 [main] INFO  verifySortingOptions - Sorting verified for: Name: A to Z
+2025-03-15 22:38:29 [main] INFO  verifySortingOptions - Sorting verified for: Name: Z to A
+2025-03-15 22:38:29 [main] INFO  verifySortingOptions - Closing the browser for test: verifySortingOptions
+2025-03-15 22:38:29 [main] INFO  verifySortingOptions - Browser closed.
+2025-03-15 22:41:03 [main] INFO  verifySortingOptions - Starting test setup for: verifySortingOptions
+2025-03-15 22:41:03 [main] INFO  verifySortingOptions - Setting up Chrome browser...
+2025-03-15 22:41:04 [main] INFO  verifySortingOptions - Browser setup complete with ZenRows proxy.
+2025-03-15 22:41:04 [main] INFO  verifySortingOptions - Navigating to: https://demo.nopcommerce.com/
+2025-03-15 22:41:07 [main] INFO  verifySortingOptions - Sorting verified for: Price: Low to High
+2025-03-15 22:41:07 [main] INFO  verifySortingOptions - Sorting verified for: Price: High to Low
+2025-03-15 22:41:07 [main] INFO  verifySortingOptions - Sorting verified for: Name: A to Z
+2025-03-15 22:41:07 [main] INFO  verifySortingOptions - Sorting verified for: Name: Z to A
+2025-03-15 22:41:07 [main] INFO  verifySortingOptions - Closing the browser for test: verifySortingOptions
+2025-03-15 22:41:07 [main] INFO  verifySortingOptions - Browser closed.
+2025-03-15 23:02:31 [main] INFO  verifySortingOptions - Starting test setup for: verifySortingOptions
+2025-03-15 23:02:31 [main] INFO  verifySortingOptions - Setting up Chrome browser...
+2025-03-15 23:02:32 [main] INFO  verifySortingOptions - Browser setup complete with ZenRows proxy.
+2025-03-15 23:02:32 [main] INFO  verifySortingOptions - Navigating to: https://demo.nopcommerce.com/
+2025-03-15 23:02:34 [main] INFO  verifySortingOptions - Sorting verified for: Price: Low to High
+2025-03-15 23:02:34 [main] INFO  verifySortingOptions - Sorting verified for: Price: High to Low
+2025-03-15 23:02:34 [main] INFO  verifySortingOptions - Sorting verified for: Name: A to Z
+2025-03-15 23:02:34 [main] INFO  verifySortingOptions - Sorting verified for: Name: Z to A
+2025-03-15 23:02:34 [main] INFO  verifySortingOptions - Closing the browser for test: verifySortingOptions
+2025-03-15 23:02:34 [main] INFO  verifySortingOptions - Browser closed.
+2025-03-15 23:06:54 [main] INFO  verifySortingOptions - Starting test setup for: verifySortingOptions
+2025-03-15 23:06:54 [main] INFO  verifySortingOptions - Setting up Chrome browser...
+2025-03-15 23:06:55 [main] INFO  verifySortingOptions - Browser setup complete with ZenRows proxy.
+2025-03-15 23:06:55 [main] INFO  verifySortingOptions - Navigating to: https://demo.nopcommerce.com/
+2025-03-15 23:06:56 [main] INFO  verifySortingOptions - Sorting verified for: Price: Low to High
+2025-03-15 23:06:57 [main] INFO  verifySortingOptions - Sorting verified for: Price: High to Low
+2025-03-15 23:06:57 [main] INFO  verifySortingOptions - Sorting verified for: Name: A to Z
+2025-03-15 23:06:57 [main] INFO  verifySortingOptions - Sorting verified for: Name: Z to A
+2025-03-15 23:06:57 [main] INFO  verifySortingOptions - Closing the browser for test: verifySortingOptions
+2025-03-15 23:06:57 [main] INFO  verifySortingOptions - Browser closed.
+2025-03-15 23:09:03 [main] INFO  verifySortingOptions - Starting test setup for: verifySortingOptions
+2025-03-15 23:09:03 [main] INFO  verifySortingOptions - Setting up Chrome browser...
+2025-03-15 23:09:03 [main] INFO  verifySortingOptions - Browser setup complete with ZenRows proxy.
+2025-03-15 23:09:03 [main] INFO  verifySortingOptions - Navigating to: https://demo.nopcommerce.com/
+2025-03-15 23:09:06 [main] INFO  verifySortingOptions - Sorting verified for: Price: Low to High
+2025-03-15 23:09:06 [main] INFO  verifySortingOptions - Sorting verified for: Price: High to Low
+2025-03-15 23:09:06 [main] INFO  verifySortingOptions - Sorting verified for: Name: A to Z
+2025-03-15 23:09:06 [main] INFO  verifySortingOptions - Sorting verified for: Name: Z to A
+2025-03-15 23:09:06 [main] INFO  verifySortingOptions - Closing the browser for test: verifySortingOptions
+2025-03-15 23:09:06 [main] INFO  verifySortingOptions - Browser closed.
+2025-03-16 01:39:16 [main] INFO  verifySortingOptions - Starting test setup for: verifySortingOptions
+2025-03-16 01:39:16 [main] INFO  verifySortingOptions - Setting up Chrome browser...
+2025-03-16 01:39:17 [main] INFO  verifySortingOptions - Navigating to: https://demo.nopcommerce.com/
+2025-03-16 01:39:24 [main] INFO  verifySortingOptions - Sorting verified for: Price: Low to High
+2025-03-16 01:39:24 [main] INFO  verifySortingOptions - Sorting verified for: Price: High to Low
+2025-03-16 01:39:24 [main] INFO  verifySortingOptions - Sorting verified for: Name: A to Z
+2025-03-16 01:39:24 [main] INFO  verifySortingOptions - Sorting verified for: Name: Z to A
+2025-03-16 01:39:24 [main] INFO  verifySortingOptions - Closing the browser for test: verifySortingOptions
+2025-03-16 01:39:25 [main] INFO  verifySortingOptions - Browser closed.
+2025-03-16 07:03:00 [main] INFO  verifySortingOptions - Starting test setup for: verifySortingOptions
+2025-03-16 07:03:16 [main] INFO  verifySortingOptions - Navigated to the site: https://demo.nopcommerce.com
+2025-03-16 07:03:16 [main] INFO  verifySortingOptions - Injected cookie: cf_clearance
+2025-03-16 07:03:16 [main] INFO  verifySortingOptions - Injected cookie: _ga
+2025-03-16 07:03:16 [main] INFO  verifySortingOptions - Injected cookie: .Nop.Antiforgery
+2025-03-16 07:03:16 [main] INFO  verifySortingOptions - Injected cookie: .Nop.Customer
+2025-03-16 07:03:16 [main] INFO  verifySortingOptions - Injected cookie: .Nop.Culture
+2025-03-16 07:03:16 [main] INFO  verifySortingOptions - Injected cookie: _ga_SCT41TW89V
+2025-03-16 07:03:17 [main] INFO  verifySortingOptions - Page refreshed with bypassed cookies.
+2025-03-16 07:03:17 [main] INFO  verifySortingOptions - Navigating to: https://demo.nopcommerce.com/
+2025-03-16 07:03:18 [main] INFO  verifySortingOptions - Sorting verified for: Price: Low to High
+2025-03-16 07:03:18 [main] INFO  verifySortingOptions - Sorting verified for: Price: High to Low
+2025-03-16 07:03:18 [main] INFO  verifySortingOptions - Sorting verified for: Name: A to Z
+2025-03-16 07:03:18 [main] INFO  verifySortingOptions - Sorting verified for: Name: Z to A
+2025-03-16 07:03:18 [main] INFO  verifySortingOptions - Closing the browser for test: verifySortingOptions
+2025-03-16 07:03:18 [main] INFO  verifySortingOptions - Browser closed.
+2025-03-16 08:50:02 [main] INFO  verifySortingOptions - Starting test setup for: verifySortingOptions
+2025-03-16 08:50:27 [main] INFO  verifySortingOptions - Navigated to the site: https://demo.nopcommerce.com
+2025-03-16 08:50:27 [main] INFO  verifySortingOptions - Injected cookie: _ga
+2025-03-16 08:50:27 [main] INFO  verifySortingOptions - Injected cookie: cf_clearance
+2025-03-16 08:50:27 [main] INFO  verifySortingOptions - Injected cookie: .Nop.Antiforgery
+2025-03-16 08:50:27 [main] INFO  verifySortingOptions - Injected cookie: .Nop.Customer
+2025-03-16 08:50:27 [main] INFO  verifySortingOptions - Injected cookie: .Nop.Culture
+2025-03-16 08:50:27 [main] INFO  verifySortingOptions - Injected cookie: _ga_SCT41TW89V
+2025-03-16 08:50:28 [main] INFO  verifySortingOptions - Page refreshed with bypassed cookies.
+2025-03-16 08:50:28 [main] INFO  verifySortingOptions - Navigating to: https://demo.nopcommerce.com/
+2025-03-16 08:50:31 [main] INFO  verifySortingOptions - Sorting verified for: Price: Low to High
+2025-03-16 08:50:31 [main] INFO  verifySortingOptions - Sorting verified for: Price: High to Low
+2025-03-16 08:50:31 [main] INFO  verifySortingOptions - Sorting verified for: Name: A to Z
+2025-03-16 08:50:31 [main] INFO  verifySortingOptions - Sorting verified for: Name: Z to A
+2025-03-16 08:50:31 [main] INFO  verifySortingOptions - Closing the browser for test: verifySortingOptions
+2025-03-16 08:50:31 [main] INFO  verifySortingOptions - Browser closed.
+2025-03-16 09:23:19 [main] INFO  verifySortingOptions - Starting test setup for: verifySortingOptions
+2025-03-16 09:23:42 [main] INFO  verifySortingOptions - Navigated to the site: https://demo.nopcommerce.com
+2025-03-16 09:23:42 [main] INFO  verifySortingOptions - Injected cookie: _ga
+2025-03-16 09:23:42 [main] INFO  verifySortingOptions - Injected cookie: cf_clearance
+2025-03-16 09:23:42 [main] INFO  verifySortingOptions - Injected cookie: .Nop.Antiforgery
+2025-03-16 09:23:42 [main] INFO  verifySortingOptions - Injected cookie: .Nop.Customer
+2025-03-16 09:23:42 [main] INFO  verifySortingOptions - Injected cookie: .Nop.Culture
+2025-03-16 09:23:42 [main] INFO  verifySortingOptions - Injected cookie: _ga_SCT41TW89V
+2025-03-16 09:23:43 [main] INFO  verifySortingOptions - Page refreshed with bypassed cookies.
+2025-03-16 09:23:43 [main] INFO  verifySortingOptions - Navigating to: https://demo.nopcommerce.com/
+2025-03-16 09:23:45 [main] INFO  verifySortingOptions - Sorting verified for: Price: Low to High
+2025-03-16 09:23:45 [main] INFO  verifySortingOptions - Sorting verified for: Price: High to Low
+2025-03-16 09:23:45 [main] INFO  verifySortingOptions - Sorting verified for: Name: A to Z
+2025-03-16 09:23:45 [main] INFO  verifySortingOptions - Sorting verified for: Name: Z to A
+2025-03-16 09:23:45 [main] INFO  verifySortingOptions - Closing the browser for test: verifySortingOptions
+2025-03-16 09:23:46 [main] INFO  verifySortingOptions - Browser closed.
+2025-03-17 18:26:05 [main] INFO  verifySortingOptions - 
+================================================================================================================================ NEW TEST RUN ================================================================================================================================
+2025-03-17 18:26:05 [main] INFO  verifySortingOptions - Starting test setup for: verifySortingOptions
+2025-03-17 18:26:30 [main] INFO  verifySortingOptions - Navigated to the site: https://demo.nopcommerce.com
+2025-03-17 18:26:30 [main] INFO  verifySortingOptions - Injected cookie: _ga
+2025-03-17 18:26:30 [main] INFO  verifySortingOptions - Injected cookie: cf_clearance
+2025-03-17 18:26:30 [main] INFO  verifySortingOptions - Injected cookie: .Nop.Antiforgery
+2025-03-17 18:26:30 [main] INFO  verifySortingOptions - Injected cookie: .Nop.Customer
+2025-03-17 18:26:30 [main] INFO  verifySortingOptions - Injected cookie: .Nop.Culture
+2025-03-17 18:26:30 [main] INFO  verifySortingOptions - Injected cookie: _ga_SCT41TW89V
+2025-03-17 18:26:31 [main] INFO  verifySortingOptions - Page refreshed with bypassed cookies.
+2025-03-17 18:26:31 [main] INFO  verifySortingOptions - Navigating to: https://demo.nopcommerce.com/
+2025-03-17 18:26:34 [main] INFO  verifySortingOptions - Sorting verified for: Price: Low to High
+2025-03-17 18:26:34 [main] INFO  verifySortingOptions - Sorting verified for: Price: High to Low
+2025-03-17 18:26:34 [main] INFO  verifySortingOptions - Sorting verified for: Name: A to Z
+2025-03-17 18:26:34 [main] INFO  verifySortingOptions - Sorting verified for: Name: Z to A
+2025-03-17 18:26:34 [main] INFO  verifySortingOptions - Closing the browser for test: verifySortingOptions
+2025-03-17 18:26:34 [main] INFO  verifySortingOptions - Browser closed.
+2025-03-17 18:52:13 [main] INFO  verifySortingOptions - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-03-17 18:52:13 [main] INFO  verifySortingOptions - Starting test setup for: verifySortingOptions
+2025-03-17 18:52:35 [main] INFO  verifySortingOptions - Navigated to the site: https://demo.nopcommerce.com
+2025-03-17 18:52:35 [main] INFO  verifySortingOptions - Injected cookie: cf_clearance
+2025-03-17 18:52:35 [main] INFO  verifySortingOptions - Injected cookie: _ga
+2025-03-17 18:52:35 [main] INFO  verifySortingOptions - Injected cookie: .Nop.Antiforgery
+2025-03-17 18:52:35 [main] INFO  verifySortingOptions - Injected cookie: .Nop.Customer
+2025-03-17 18:52:36 [main] INFO  verifySortingOptions - Injected cookie: .Nop.Culture
+2025-03-17 18:52:36 [main] INFO  verifySortingOptions - Injected cookie: _ga_SCT41TW89V
+2025-03-17 18:52:36 [main] INFO  verifySortingOptions - Page refreshed with bypassed cookies.
+2025-03-17 18:52:36 [main] INFO  verifySortingOptions - Navigating to: https://demo.nopcommerce.com/
+2025-03-17 18:52:40 [main] INFO  verifySortingOptions - Sorting verified for: Price: Low to High
+2025-03-17 18:52:40 [main] INFO  verifySortingOptions - Sorting verified for: Price: High to Low
+2025-03-17 18:52:40 [main] INFO  verifySortingOptions - Sorting verified for: Name: A to Z
+2025-03-17 18:52:40 [main] INFO  verifySortingOptions - Sorting verified for: Name: Z to A
+2025-03-17 18:52:40 [main] INFO  verifySortingOptions - Closing the browser for test: verifySortingOptions
+2025-03-17 18:52:40 [main] INFO  verifySortingOptions - Browser closed.

@@ -1,0 +1,48 @@
+2025-03-18 03:42:55 [main] INFO  TC-004_verifyCheckoutPageLoads - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-03-18 03:42:55 [main] INFO  TC-004_verifyCheckoutPageLoads - Logger initialized and writing to: E:/Folder/Galal/Courses/Digital Egypt Pioneers Initiative (DEPI) - Software Testing/DEPI Software Tester Graduation Project/automation-framework/reports/logs/TC-004_verifyCheckoutPageLoads.log
+2025-03-18 03:42:55 [main] INFO  TC-004_verifyCheckoutPageLoads - Starting test setup for: verifyCheckoutPageLoads (🔢 Test Case ID: TC-004)
+2025-03-18 03:43:13 [main] INFO  TC-004_verifyCheckoutPageLoads - Navigated to the site: https://demo.nopcommerce.com
+2025-03-18 03:43:13 [main] INFO  TC-004_verifyCheckoutPageLoads - Injected cookie: cf_clearance
+2025-03-18 03:43:13 [main] INFO  TC-004_verifyCheckoutPageLoads - Injected cookie: _ga
+2025-03-18 03:43:13 [main] INFO  TC-004_verifyCheckoutPageLoads - Injected cookie: .Nop.Antiforgery
+2025-03-18 03:43:13 [main] INFO  TC-004_verifyCheckoutPageLoads - Injected cookie: .Nop.Customer
+2025-03-18 03:43:13 [main] INFO  TC-004_verifyCheckoutPageLoads - Injected cookie: .Nop.Culture
+2025-03-18 03:43:13 [main] INFO  TC-004_verifyCheckoutPageLoads - Injected cookie: _ga_SCT41TW89V
+2025-03-18 03:43:13 [main] INFO  TC-004_verifyCheckoutPageLoads - Page refreshed with bypassed cookies.
+2025-03-18 03:43:13 [main] INFO  TC-004_verifyCheckoutPageLoads - 🟢 Starting test: verifyCheckoutPageLoads (🔢 Test Case ID: TC-004)
+2025-03-18 03:43:13 [main] INFO  TC-004_verifyCheckoutPageLoads - Navigating to product page: https://demo.nopcommerce.com/adobe-photoshop
+2025-03-18 03:43:15 [main] INFO  TC-004_verifyCheckoutPageLoads - Clicked 'Add to Cart' button.
+2025-03-18 03:43:16 [main] INFO  TC-004_verifyCheckoutPageLoads - Product successfully added to cart.
+2025-03-18 03:43:16 [main] INFO  TC-004_verifyCheckoutPageLoads - Cart quantity updated to: 1
+2025-03-18 03:43:17 [main] INFO  TC-004_verifyCheckoutPageLoads - Cart page loaded successfully.
+2025-03-18 03:43:17 [main] INFO  TC-004_verifyCheckoutPageLoads - Accepted terms of service.
+2025-03-18 03:43:18 [main] INFO  TC-004_verifyCheckoutPageLoads - Clicked on Checkout button.
+2025-03-18 03:43:18 [main] INFO  TC-004_verifyCheckoutPageLoads - "TC-004" Passed: Checkout page loaded successfully.
+2025-03-18 03:43:18 [main] INFO  listeners.TestListener - ✅ Test PASSED: verifyCheckoutPageLoads (Duration: 4755ms)
+2025-03-18 03:43:18 [main] INFO  TC-004_verifyCheckoutPageLoads - Closing the browser for test: verifyCheckoutPageLoads
+2025-03-18 03:43:18 [main] INFO  TC-004_verifyCheckoutPageLoads - Browser closed.
+2025-03-18 04:00:02 [main] INFO  TC-004_verifyCheckoutPageLoads - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-03-18 04:00:02 [main] INFO  TC-004_verifyCheckoutPageLoads - Logger initialized and writing to: E:/Folder/Galal/Courses/Digital Egypt Pioneers Initiative (DEPI) - Software Testing/DEPI Software Tester Graduation Project/automation-framework/reports/logs/TC-004_verifyCheckoutPageLoads.log
+2025-03-18 04:00:02 [main] INFO  TC-004_verifyCheckoutPageLoads - Starting test setup for: verifyCheckoutPageLoads (🔢 Test Case ID: TC-004)
+2025-03-18 04:00:19 [main] INFO  TC-004_verifyCheckoutPageLoads - Navigated to the site: https://demo.nopcommerce.com
+2025-03-18 04:00:19 [main] INFO  TC-004_verifyCheckoutPageLoads - Injected cookie: cf_clearance
+2025-03-18 04:00:19 [main] INFO  TC-004_verifyCheckoutPageLoads - Injected cookie: _ga
+2025-03-18 04:00:19 [main] INFO  TC-004_verifyCheckoutPageLoads - Injected cookie: .Nop.Antiforgery
+2025-03-18 04:00:19 [main] INFO  TC-004_verifyCheckoutPageLoads - Injected cookie: .Nop.Customer
+2025-03-18 04:00:19 [main] INFO  TC-004_verifyCheckoutPageLoads - Injected cookie: .Nop.Culture
+2025-03-18 04:00:19 [main] INFO  TC-004_verifyCheckoutPageLoads - Injected cookie: _ga_SCT41TW89V
+2025-03-18 04:00:20 [main] INFO  TC-004_verifyCheckoutPageLoads - Page refreshed with bypassed cookies.
+2025-03-18 04:00:20 [main] INFO  TC-004_verifyCheckoutPageLoads - 🟢 Starting test: verifyCheckoutPageLoads (🔢 Test Case ID: TC-004)
+2025-03-18 04:00:20 [main] INFO  TC-004_verifyCheckoutPageLoads - Navigating to product page: https://demo.nopcommerce.com/adobe-photoshop
+2025-03-18 04:00:22 [main] INFO  TC-004_verifyCheckoutPageLoads - Clicked 'Add to Cart' button.
+2025-03-18 04:00:22 [main] INFO  TC-004_verifyCheckoutPageLoads - Product successfully added to cart.
+2025-03-18 04:00:22 [main] INFO  TC-004_verifyCheckoutPageLoads - Cart quantity updated to: 1
+2025-03-18 04:00:23 [main] INFO  TC-004_verifyCheckoutPageLoads - Cart page loaded successfully.
+2025-03-18 04:00:23 [main] INFO  TC-004_verifyCheckoutPageLoads - Accepted terms of service.
+2025-03-18 04:00:23 [main] INFO  TC-004_verifyCheckoutPageLoads - Clicked on Checkout button.
+2025-03-18 04:00:25 [main] INFO  TC-004_verifyCheckoutPageLoads - "TC-004" Passed: Checkout page loaded successfully.
+2025-03-18 04:00:25 [main] INFO  listeners.TestListener - ✅ Test PASSED: verifyCheckoutPageLoads (Duration: 4851ms)
+2025-03-18 04:00:25 [main] INFO  TC-004_verifyCheckoutPageLoads - Closing the browser for test: verifyCheckoutPageLoads
+2025-03-18 04:00:25 [main] INFO  TC-004_verifyCheckoutPageLoads - Browser closed.

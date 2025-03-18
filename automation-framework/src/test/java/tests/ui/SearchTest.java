@@ -1,6 +1,8 @@
 package tests.ui;
 
 import base.BaseTest;
+import utils.ConfigReader;
+
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import org.openqa.selenium.By;
@@ -16,32 +18,44 @@ import java.util.List;
 public class SearchTest extends BaseTest {
     String url = "https://demo.nopcommerce.com/";
 
-    @Test
+    @Test(groups = {"smoke"}, description = "TC-002")
     public void verifySearchFunctionality() {
         logger.info("Navigating to: " + url);
         driver.get(url);
 
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(5));
 
-        // Locate the search bar and input a search term
-        WebElement searchBox = wait.until(ExpectedConditions.elementToBeClickable(By.id("small-searchterms")));
+        // Using locators from config.properties
+        WebElement searchBox = wait.until(ExpectedConditions.elementToBeClickable(getByLocator("search.box")));
         searchBox.sendKeys("Laptop");
 
-        // Click the search button
-        WebElement searchButton = driver.findElement(By.cssSelector("button[type='submit']"));
+        WebElement searchButton = driver.findElement(getByLocator("search.button"));
         searchButton.click();
 
-        // Wait for search results to load
-        wait.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector(".search-results")));
+        wait.until(ExpectedConditions.visibilityOfElementLocated(getByLocator("search.results")));
 
-        // Verify search results are displayed
-        WebElement searchResults = driver.findElement(By.cssSelector(".search-results"));
+        WebElement searchResults = driver.findElement(getByLocator("search.results"));
         Assert.assertTrue(searchResults.isDisplayed(), "Search results are not displayed!");
 
         logger.info("Search functionality verified successfully.");
     }
 
-    @Test
+    public By getByLocator(String key) {
+        String locator = ConfigReader.getProperty(key);
+        if (locator.startsWith("id=")) {
+            return By.id(locator.substring(3));
+        } else if (locator.startsWith("css=")) {
+            return By.cssSelector(locator.substring(4));
+        } else if (locator.startsWith("xpath=")) {
+            return By.xpath(locator.substring(6));
+        } else if (locator.startsWith("linkText=")) {
+            return By.linkText(locator.substring(9));
+        } else {
+            throw new RuntimeException("Invalid locator type: " + locator);
+        }
+    }
+
+    @Test(groups = {"functional"}, description = "TC-038")
     public void verifySearchByCategory() {
         logger.info("Navigating to: " + url);
         driver.get(url);
@@ -63,7 +77,7 @@ public class SearchTest extends BaseTest {
         logger.info("Product search by category verified successfully.");
     }
 
-    @Test
+    @Test(groups = {"functional"}, description = "TC-042")
     public void verifyPaginationInSearchResults() {
         logger.info("Navigating to: " + url);
         driver.get(url);
@@ -108,7 +122,7 @@ public class SearchTest extends BaseTest {
         logger.info("Pagination functionality verified successfully.");
     }
 
-    @Test
+    @Test(groups = {"functional"}, description = "TC-043")
     public void verifySortingOptions() {
         logger.info("Navigating to: " + url);
         driver.get(url);
@@ -142,7 +156,7 @@ public class SearchTest extends BaseTest {
         }
     }
 
-    @Test
+    @Test(groups = {"functional"}, description = "TC-044")
     public void verifyFilteringByManufacturer() {
         logger.info("Navigating to: " + url);
         driver.get(url);
@@ -177,7 +191,7 @@ public class SearchTest extends BaseTest {
         logger.info("Filtering by manufacturer HP verified successfully.");
     }
 
-    @Test
+    @Test(groups = {"functional"}, description = "TC-048")
     public void verifyInvalidSearchTerm() {
         logger.info("Navigating to: " + url);
         driver.get(url);
@@ -207,7 +221,7 @@ public class SearchTest extends BaseTest {
         logger.info("Invalid search term verification completed successfully.");
     }
 
-    @Test
+    @Test(groups = {"functional"}, description = "TC-050")
     public void verifyClearingFilters() {
         logger.info("Navigating to: " + url);
         driver.get(url);
@@ -255,7 +269,7 @@ public class SearchTest extends BaseTest {
         logger.info("Clearing filters and verifying reset results successful.");
     }
 
-    @Test
+    @Test(groups = {"functional"}, description = "TC-051")
     public void verifyAutoSuggestionsInSearchBar() {
         logger.info("Navigating to: " + url);
         driver.get(url);

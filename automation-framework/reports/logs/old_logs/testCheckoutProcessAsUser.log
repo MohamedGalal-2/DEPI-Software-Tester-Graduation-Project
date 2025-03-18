@@ -1,0 +1,231 @@
+2025-03-17 05:52:10 [main] INFO  testCheckoutProcessAsUser - Starting test setup for: testCheckoutProcessAsUser
+2025-03-17 05:52:34 [main] INFO  testCheckoutProcessAsUser - Navigated to the site: https://demo.nopcommerce.com
+2025-03-17 05:52:34 [main] INFO  testCheckoutProcessAsUser - Injected cookie: _ga
+2025-03-17 05:52:34 [main] INFO  testCheckoutProcessAsUser - Injected cookie: cf_clearance
+2025-03-17 05:52:34 [main] INFO  testCheckoutProcessAsUser - Injected cookie: .Nop.Antiforgery
+2025-03-17 05:52:34 [main] INFO  testCheckoutProcessAsUser - Injected cookie: .Nop.Customer
+2025-03-17 05:52:34 [main] INFO  testCheckoutProcessAsUser - Injected cookie: .Nop.Culture
+2025-03-17 05:52:34 [main] INFO  testCheckoutProcessAsUser - Injected cookie: _ga_SCT41TW89V
+2025-03-17 05:52:35 [main] INFO  testCheckoutProcessAsUser - Page refreshed with bypassed cookies.
+2025-03-17 05:52:37 [main] INFO  testCheckoutProcessAsUser - Navigating to login page: https://demo.nopcommerce.com/login
+2025-03-17 05:52:40 [main] INFO  testCheckoutProcessAsUser - User logged in successfully.
+2025-03-17 05:52:42 [main] INFO  testCheckoutProcessAsUser - Login verified, proceeding with checkout process.
+2025-03-17 05:52:43 [main] INFO  testCheckoutProcessAsUser - Navigating to product page: https://demo.nopcommerce.com/adobe-photoshop
+2025-03-17 05:52:44 [main] INFO  testCheckoutProcessAsUser - Clicked 'Add to Cart' button.
+2025-03-17 05:52:45 [main] INFO  testCheckoutProcessAsUser - Product successfully added to cart.
+2025-03-17 05:52:45 [main] INFO  testCheckoutProcessAsUser - Cart quantity updated to: 3
+2025-03-17 05:52:46 [main] INFO  testCheckoutProcessAsUser - Cart page loaded successfully.
+2025-03-17 05:52:46 [main] INFO  testCheckoutProcessAsUser - Accepted terms of service.
+2025-03-17 05:53:13 [main] INFO  testCheckoutProcessAsUser - Starting test setup for: testCheckoutProcessAsUser
+2025-03-17 05:53:38 [main] INFO  testCheckoutProcessAsUser - Navigated to the site: https://demo.nopcommerce.com
+2025-03-17 05:53:38 [main] INFO  testCheckoutProcessAsUser - Injected cookie: _ga
+2025-03-17 05:53:38 [main] INFO  testCheckoutProcessAsUser - Injected cookie: cf_clearance
+2025-03-17 05:53:38 [main] INFO  testCheckoutProcessAsUser - Injected cookie: .Nop.Antiforgery
+2025-03-17 05:53:38 [main] INFO  testCheckoutProcessAsUser - Injected cookie: .Nop.Customer
+2025-03-17 05:53:38 [main] INFO  testCheckoutProcessAsUser - Injected cookie: .Nop.Culture
+2025-03-17 05:53:38 [main] INFO  testCheckoutProcessAsUser - Injected cookie: _ga_SCT41TW89V
+2025-03-17 05:53:39 [main] INFO  testCheckoutProcessAsUser - Page refreshed with bypassed cookies.
+2025-03-17 05:53:41 [main] INFO  testCheckoutProcessAsUser - Navigating to login page: https://demo.nopcommerce.com/login
+2025-03-17 05:53:43 [main] INFO  testCheckoutProcessAsUser - User logged in successfully.
+2025-03-17 05:53:45 [main] INFO  testCheckoutProcessAsUser - Login verified, proceeding with checkout process.
+2025-03-17 05:53:47 [main] INFO  testCheckoutProcessAsUser - Navigating to product page: https://demo.nopcommerce.com/adobe-photoshop
+2025-03-17 05:53:48 [main] INFO  testCheckoutProcessAsUser - Clicked 'Add to Cart' button.
+2025-03-17 05:53:49 [main] INFO  testCheckoutProcessAsUser - Product successfully added to cart.
+2025-03-17 05:53:49 [main] INFO  testCheckoutProcessAsUser - Cart quantity updated to: 4
+2025-03-17 05:53:51 [main] INFO  testCheckoutProcessAsUser - Cart page loaded successfully.
+2025-03-17 05:53:51 [main] INFO  testCheckoutProcessAsUser - Accepted terms of service.
+2025-03-17 05:54:12 [main] INFO  testCheckoutProcessAsUser - Closing the browser for test: testCheckoutProcessAsUser
+2025-03-17 05:54:12 [main] INFO  testCheckoutProcessAsUser - Browser closed.
+2025-03-17 05:55:13 [main] INFO  testCheckoutProcessAsUser - Starting test setup for: testCheckoutProcessAsUser
+2025-03-17 05:55:38 [main] INFO  testCheckoutProcessAsUser - Navigated to the site: https://demo.nopcommerce.com
+2025-03-17 05:55:38 [main] INFO  testCheckoutProcessAsUser - Injected cookie: _ga
+2025-03-17 05:55:38 [main] INFO  testCheckoutProcessAsUser - Injected cookie: cf_clearance
+2025-03-17 05:55:38 [main] INFO  testCheckoutProcessAsUser - Injected cookie: .Nop.Antiforgery
+2025-03-17 05:55:38 [main] INFO  testCheckoutProcessAsUser - Injected cookie: .Nop.Customer
+2025-03-17 05:55:38 [main] INFO  testCheckoutProcessAsUser - Injected cookie: .Nop.Culture
+2025-03-17 05:55:38 [main] INFO  testCheckoutProcessAsUser - Injected cookie: _ga_SCT41TW89V
+2025-03-17 05:55:39 [main] INFO  testCheckoutProcessAsUser - Page refreshed with bypassed cookies.
+2025-03-17 05:55:40 [main] INFO  testCheckoutProcessAsUser - Navigating to login page: https://demo.nopcommerce.com/login
+2025-03-17 05:55:42 [main] INFO  testCheckoutProcessAsUser - User logged in successfully.
+2025-03-17 05:55:44 [main] INFO  testCheckoutProcessAsUser - Login verified, proceeding with checkout process.
+2025-03-17 05:55:46 [main] INFO  testCheckoutProcessAsUser - Navigating to product page: https://demo.nopcommerce.com/adobe-photoshop
+2025-03-17 05:55:47 [main] INFO  testCheckoutProcessAsUser - Clicked 'Add to Cart' button.
+2025-03-17 05:55:48 [main] INFO  testCheckoutProcessAsUser - Product successfully added to cart.
+2025-03-17 05:55:48 [main] INFO  testCheckoutProcessAsUser - Cart quantity updated to: 5
+2025-03-17 05:55:50 [main] INFO  testCheckoutProcessAsUser - Cart page loaded successfully.
+2025-03-17 05:55:50 [main] INFO  testCheckoutProcessAsUser - Accepted terms of service.
+2025-03-17 05:55:53 [main] INFO  testCheckoutProcessAsUser - Checkout page loaded successfully.
+2025-03-17 05:55:55 [main] INFO  testCheckoutProcessAsUser - Checked 'Ship to the same address' option.
+2025-03-17 05:55:57 [main] INFO  testCheckoutProcessAsUser - Closing the browser for test: testCheckoutProcessAsUser
+2025-03-17 05:55:57 [main] INFO  testCheckoutProcessAsUser - Browser closed.
+2025-03-17 05:56:18 [main] INFO  testCheckoutProcessAsUser - Starting test setup for: testCheckoutProcessAsUser
+2025-03-17 05:56:43 [main] INFO  testCheckoutProcessAsUser - Navigated to the site: https://demo.nopcommerce.com
+2025-03-17 05:56:43 [main] INFO  testCheckoutProcessAsUser - Injected cookie: _ga
+2025-03-17 05:56:43 [main] INFO  testCheckoutProcessAsUser - Injected cookie: cf_clearance
+2025-03-17 05:56:43 [main] INFO  testCheckoutProcessAsUser - Injected cookie: .Nop.Antiforgery
+2025-03-17 05:56:43 [main] INFO  testCheckoutProcessAsUser - Injected cookie: .Nop.Customer
+2025-03-17 05:56:43 [main] INFO  testCheckoutProcessAsUser - Injected cookie: .Nop.Culture
+2025-03-17 05:56:43 [main] INFO  testCheckoutProcessAsUser - Injected cookie: _ga_SCT41TW89V
+2025-03-17 05:56:44 [main] INFO  testCheckoutProcessAsUser - Page refreshed with bypassed cookies.
+2025-03-17 05:56:45 [main] INFO  testCheckoutProcessAsUser - Navigating to login page: https://demo.nopcommerce.com/login
+2025-03-17 05:56:47 [main] INFO  testCheckoutProcessAsUser - User logged in successfully.
+2025-03-17 05:56:49 [main] INFO  testCheckoutProcessAsUser - Login verified, proceeding with checkout process.
+2025-03-17 05:56:52 [main] INFO  testCheckoutProcessAsUser - Navigating to product page: https://demo.nopcommerce.com/adobe-photoshop
+2025-03-17 05:56:53 [main] INFO  testCheckoutProcessAsUser - Clicked 'Add to Cart' button.
+2025-03-17 05:56:54 [main] INFO  testCheckoutProcessAsUser - Product successfully added to cart.
+2025-03-17 05:56:54 [main] INFO  testCheckoutProcessAsUser - Cart quantity updated to: 6
+2025-03-17 05:56:56 [main] INFO  testCheckoutProcessAsUser - Cart page loaded successfully.
+2025-03-17 05:56:56 [main] INFO  testCheckoutProcessAsUser - Accepted terms of service.
+2025-03-17 05:57:00 [main] INFO  testCheckoutProcessAsUser - Checkout page loaded successfully.
+2025-03-17 05:57:02 [main] INFO  testCheckoutProcessAsUser - Checked 'Ship to the same address' option.
+2025-03-17 05:57:03 [main] INFO  testCheckoutProcessAsUser - Shipping method selected.
+2025-03-17 05:57:04 [main] INFO  testCheckoutProcessAsUser - Payment method selected.
+2025-03-17 05:57:05 [main] INFO  testCheckoutProcessAsUser - Payment details entered.
+2025-03-17 05:57:06 [main] INFO  testCheckoutProcessAsUser - Order confirmed.
+2025-03-17 05:57:08 [main] INFO  testCheckoutProcessAsUser - Order placed successfully!
+2025-03-17 05:57:08 [main] INFO  testCheckoutProcessAsUser - Closing the browser for test: testCheckoutProcessAsUser
+2025-03-17 05:57:08 [main] INFO  testCheckoutProcessAsUser - Browser closed.
+2025-03-17 10:00:39 [main] INFO  testCheckoutProcessAsUser - 
+================================================================================================================================ NEW TEST RUN ================================================================================================================================
+2025-03-17 10:00:39 [main] INFO  testCheckoutProcessAsUser - Starting test setup for: testCheckoutProcessAsUser
+2025-03-17 10:01:04 [main] INFO  testCheckoutProcessAsUser - Navigated to the site: https://demo.nopcommerce.com
+2025-03-17 10:01:04 [main] INFO  testCheckoutProcessAsUser - Injected cookie: cf_clearance
+2025-03-17 10:01:04 [main] INFO  testCheckoutProcessAsUser - Injected cookie: _ga
+2025-03-17 10:01:04 [main] INFO  testCheckoutProcessAsUser - Injected cookie: .Nop.Antiforgery
+2025-03-17 10:01:04 [main] INFO  testCheckoutProcessAsUser - Injected cookie: .Nop.Customer
+2025-03-17 10:01:04 [main] INFO  testCheckoutProcessAsUser - Injected cookie: .Nop.Culture
+2025-03-17 10:01:04 [main] INFO  testCheckoutProcessAsUser - Injected cookie: _ga_SCT41TW89V
+2025-03-17 10:01:05 [main] INFO  testCheckoutProcessAsUser - Page refreshed with bypassed cookies.
+2025-03-17 10:01:07 [main] INFO  testCheckoutProcessAsUser - Navigating to login page: https://demo.nopcommerce.com/login
+2025-03-17 10:01:09 [main] INFO  testCheckoutProcessAsUser - User logged in successfully.
+2025-03-17 10:01:11 [main] INFO  testCheckoutProcessAsUser - Login verified, proceeding with checkout process.
+2025-03-17 10:01:13 [main] INFO  testCheckoutProcessAsUser - Navigating to product page: https://demo.nopcommerce.com/adobe-photoshop
+2025-03-17 10:01:14 [main] INFO  testCheckoutProcessAsUser - Clicked 'Add to Cart' button.
+2025-03-17 10:01:15 [main] INFO  testCheckoutProcessAsUser - Product successfully added to cart.
+2025-03-17 10:01:15 [main] INFO  testCheckoutProcessAsUser - Cart quantity updated to: 13
+2025-03-17 10:01:16 [main] INFO  testCheckoutProcessAsUser - Cart page loaded successfully.
+2025-03-17 10:01:16 [main] INFO  testCheckoutProcessAsUser - Accepted terms of service.
+2025-03-17 10:01:38 [main] INFO  testCheckoutProcessAsUser - Closing the browser for test: testCheckoutProcessAsUser
+2025-03-17 10:01:38 [main] INFO  testCheckoutProcessAsUser - Browser closed.
+2025-03-17 18:13:01 [main] INFO  testCheckoutProcessAsUser - 
+================================================================================================================================ NEW TEST RUN ================================================================================================================================
+2025-03-17 18:13:01 [main] INFO  testCheckoutProcessAsUser - Starting test setup for: testCheckoutProcessAsUser
+2025-03-17 18:13:27 [main] INFO  testCheckoutProcessAsUser - Navigated to the site: https://demo.nopcommerce.com
+2025-03-17 18:13:27 [main] INFO  testCheckoutProcessAsUser - Injected cookie: _ga
+2025-03-17 18:13:27 [main] INFO  testCheckoutProcessAsUser - Injected cookie: cf_clearance
+2025-03-17 18:13:27 [main] INFO  testCheckoutProcessAsUser - Injected cookie: .Nop.Antiforgery
+2025-03-17 18:13:27 [main] INFO  testCheckoutProcessAsUser - Injected cookie: .Nop.Customer
+2025-03-17 18:13:27 [main] INFO  testCheckoutProcessAsUser - Injected cookie: .Nop.Culture
+2025-03-17 18:13:27 [main] INFO  testCheckoutProcessAsUser - Injected cookie: _ga_SCT41TW89V
+2025-03-17 18:13:28 [main] INFO  testCheckoutProcessAsUser - Page refreshed with bypassed cookies.
+2025-03-17 18:13:29 [main] INFO  testCheckoutProcessAsUser - Navigating to login page: https://demo.nopcommerce.com/login
+2025-03-17 18:13:32 [main] INFO  testCheckoutProcessAsUser - User logged in successfully.
+2025-03-17 18:13:34 [main] INFO  testCheckoutProcessAsUser - Login verified, proceeding with checkout process.
+2025-03-17 18:13:36 [main] INFO  testCheckoutProcessAsUser - Navigating to product page: https://demo.nopcommerce.com/adobe-photoshop
+2025-03-17 18:13:37 [main] INFO  testCheckoutProcessAsUser - Clicked 'Add to Cart' button.
+2025-03-17 18:13:37 [main] INFO  testCheckoutProcessAsUser - Product successfully added to cart.
+2025-03-17 18:13:37 [main] INFO  testCheckoutProcessAsUser - Cart quantity updated to: 2
+2025-03-17 18:13:39 [main] INFO  testCheckoutProcessAsUser - Cart page loaded successfully.
+2025-03-17 18:13:39 [main] INFO  testCheckoutProcessAsUser - Accepted terms of service.
+2025-03-17 18:14:02 [main] INFO  testCheckoutProcessAsUser - Closing the browser for test: testCheckoutProcessAsUser
+2025-03-17 18:14:02 [main] INFO  testCheckoutProcessAsUser - Browser closed.
+2025-03-17 18:31:15 [main] INFO  testCheckoutProcessAsUser - 
+================================================================================================================================ NEW TEST RUN ================================================================================================================================
+2025-03-17 18:31:15 [main] INFO  testCheckoutProcessAsUser - Starting test setup for: testCheckoutProcessAsUser
+2025-03-17 18:31:40 [main] INFO  testCheckoutProcessAsUser - Navigated to the site: https://demo.nopcommerce.com
+2025-03-17 18:31:40 [main] INFO  testCheckoutProcessAsUser - Injected cookie: cf_clearance
+2025-03-17 18:31:40 [main] INFO  testCheckoutProcessAsUser - Injected cookie: _ga
+2025-03-17 18:31:40 [main] INFO  testCheckoutProcessAsUser - Injected cookie: .Nop.Antiforgery
+2025-03-17 18:31:40 [main] INFO  testCheckoutProcessAsUser - Injected cookie: .Nop.Customer
+2025-03-17 18:31:40 [main] INFO  testCheckoutProcessAsUser - Injected cookie: .Nop.Culture
+2025-03-17 18:31:40 [main] INFO  testCheckoutProcessAsUser - Injected cookie: _ga_SCT41TW89V
+2025-03-17 18:31:41 [main] INFO  testCheckoutProcessAsUser - Page refreshed with bypassed cookies.
+2025-03-17 18:31:42 [main] INFO  testCheckoutProcessAsUser - Navigating to login page: https://demo.nopcommerce.com/login
+2025-03-17 18:31:45 [main] INFO  testCheckoutProcessAsUser - User logged in successfully.
+2025-03-17 18:31:47 [main] INFO  testCheckoutProcessAsUser - Login verified, proceeding with checkout process.
+2025-03-17 18:31:48 [main] INFO  testCheckoutProcessAsUser - Navigating to product page: https://demo.nopcommerce.com/adobe-photoshop
+2025-03-17 18:31:49 [main] INFO  testCheckoutProcessAsUser - Clicked 'Add to Cart' button.
+2025-03-17 18:31:50 [main] INFO  testCheckoutProcessAsUser - Product successfully added to cart.
+2025-03-17 18:31:50 [main] INFO  testCheckoutProcessAsUser - Cart quantity updated to: 2
+2025-03-17 18:31:51 [main] INFO  testCheckoutProcessAsUser - Cart page loaded successfully.
+2025-03-17 18:31:51 [main] INFO  testCheckoutProcessAsUser - Accepted terms of service.
+2025-03-17 18:32:01 [main] INFO  testCheckoutProcessAsUser - Closing the browser for test: testCheckoutProcessAsUser
+2025-03-17 18:32:01 [main] INFO  testCheckoutProcessAsUser - Browser closed.
+2025-03-17 18:34:03 [main] INFO  testCheckoutProcessAsUser - 
+================================================================================================================================ NEW TEST RUN ================================================================================================================================
+2025-03-17 18:34:03 [main] INFO  testCheckoutProcessAsUser - Starting test setup for: testCheckoutProcessAsUser
+2025-03-17 18:34:27 [main] INFO  testCheckoutProcessAsUser - Navigated to the site: https://demo.nopcommerce.com
+2025-03-17 18:34:28 [main] INFO  testCheckoutProcessAsUser - Injected cookie: cf_clearance
+2025-03-17 18:34:28 [main] INFO  testCheckoutProcessAsUser - Injected cookie: _ga
+2025-03-17 18:34:28 [main] INFO  testCheckoutProcessAsUser - Injected cookie: .Nop.Antiforgery
+2025-03-17 18:34:28 [main] INFO  testCheckoutProcessAsUser - Injected cookie: .Nop.Customer
+2025-03-17 18:34:28 [main] INFO  testCheckoutProcessAsUser - Injected cookie: .Nop.Culture
+2025-03-17 18:34:28 [main] INFO  testCheckoutProcessAsUser - Injected cookie: _ga_SCT41TW89V
+2025-03-17 18:34:28 [main] INFO  testCheckoutProcessAsUser - Page refreshed with bypassed cookies.
+2025-03-17 18:34:30 [main] INFO  testCheckoutProcessAsUser - Navigating to login page: https://demo.nopcommerce.com/login
+2025-03-17 18:34:32 [main] INFO  testCheckoutProcessAsUser - User logged in successfully.
+2025-03-17 18:34:34 [main] INFO  testCheckoutProcessAsUser - Login verified, proceeding with checkout process.
+2025-03-17 18:34:36 [main] INFO  testCheckoutProcessAsUser - Navigating to product page: https://demo.nopcommerce.com/adobe-photoshop
+2025-03-17 18:34:37 [main] INFO  testCheckoutProcessAsUser - Clicked 'Add to Cart' button.
+2025-03-17 18:34:37 [main] INFO  testCheckoutProcessAsUser - Product successfully added to cart.
+2025-03-17 18:34:37 [main] INFO  testCheckoutProcessAsUser - Cart quantity updated to: 4
+2025-03-17 18:34:38 [main] INFO  testCheckoutProcessAsUser - Cart page loaded successfully.
+2025-03-17 18:34:39 [main] INFO  testCheckoutProcessAsUser - Accepted terms of service.
+2025-03-17 18:34:46 [main] INFO  testCheckoutProcessAsUser - Closing the browser for test: testCheckoutProcessAsUser
+2025-03-17 18:34:46 [main] INFO  testCheckoutProcessAsUser - Browser closed.
+2025-03-17 18:35:07 [main] INFO  testCheckoutProcessAsUser - 
+================================================================================================================================ NEW TEST RUN ================================================================================================================================
+2025-03-17 18:35:07 [main] INFO  testCheckoutProcessAsUser - Starting test setup for: testCheckoutProcessAsUser
+2025-03-17 18:35:30 [main] INFO  testCheckoutProcessAsUser - Navigated to the site: https://demo.nopcommerce.com
+2025-03-17 18:35:30 [main] INFO  testCheckoutProcessAsUser - Injected cookie: _ga
+2025-03-17 18:35:30 [main] INFO  testCheckoutProcessAsUser - Injected cookie: cf_clearance
+2025-03-17 18:35:30 [main] INFO  testCheckoutProcessAsUser - Injected cookie: .Nop.Antiforgery
+2025-03-17 18:35:30 [main] INFO  testCheckoutProcessAsUser - Injected cookie: .Nop.Customer
+2025-03-17 18:35:30 [main] INFO  testCheckoutProcessAsUser - Injected cookie: .Nop.Culture
+2025-03-17 18:35:30 [main] INFO  testCheckoutProcessAsUser - Injected cookie: _ga_SCT41TW89V
+2025-03-17 18:35:31 [main] INFO  testCheckoutProcessAsUser - Page refreshed with bypassed cookies.
+2025-03-17 18:35:33 [main] INFO  testCheckoutProcessAsUser - Navigating to login page: https://demo.nopcommerce.com/login
+2025-03-17 18:35:35 [main] INFO  testCheckoutProcessAsUser - User logged in successfully.
+2025-03-17 18:35:37 [main] INFO  testCheckoutProcessAsUser - Login verified, proceeding with checkout process.
+2025-03-17 18:35:38 [main] INFO  testCheckoutProcessAsUser - Navigating to product page: https://demo.nopcommerce.com/adobe-photoshop
+2025-03-17 18:35:39 [main] INFO  testCheckoutProcessAsUser - Clicked 'Add to Cart' button.
+2025-03-17 18:35:40 [main] INFO  testCheckoutProcessAsUser - Product successfully added to cart.
+2025-03-17 18:35:40 [main] INFO  testCheckoutProcessAsUser - Cart quantity updated to: 5
+2025-03-17 18:35:41 [main] INFO  testCheckoutProcessAsUser - Cart page loaded successfully.
+2025-03-17 18:35:41 [main] INFO  testCheckoutProcessAsUser - Accepted terms of service.
+2025-03-17 18:35:43 [main] INFO  testCheckoutProcessAsUser - Checkout page loaded successfully.
+2025-03-17 18:35:45 [main] INFO  testCheckoutProcessAsUser - Shipping method selected.
+2025-03-17 18:35:46 [main] INFO  testCheckoutProcessAsUser - Payment method selected.
+2025-03-17 18:35:46 [main] INFO  testCheckoutProcessAsUser - Payment details entered.
+2025-03-17 18:35:48 [main] INFO  testCheckoutProcessAsUser - Order confirmed.
+2025-03-17 18:35:49 [main] INFO  testCheckoutProcessAsUser - Order placed successfully!
+2025-03-17 18:35:49 [main] INFO  testCheckoutProcessAsUser - Closing the browser for test: testCheckoutProcessAsUser
+2025-03-17 18:35:49 [main] INFO  testCheckoutProcessAsUser - Browser closed.
+2025-03-17 18:40:40 [main] INFO  testCheckoutProcessAsUser - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-03-17 18:40:40 [main] INFO  testCheckoutProcessAsUser - Starting test setup for: testCheckoutProcessAsUser
+2025-03-17 18:41:03 [main] INFO  testCheckoutProcessAsUser - Navigated to the site: https://demo.nopcommerce.com
+2025-03-17 18:41:03 [main] INFO  testCheckoutProcessAsUser - Injected cookie: _ga
+2025-03-17 18:41:03 [main] INFO  testCheckoutProcessAsUser - Injected cookie: cf_clearance
+2025-03-17 18:41:03 [main] INFO  testCheckoutProcessAsUser - Injected cookie: .Nop.Antiforgery
+2025-03-17 18:41:03 [main] INFO  testCheckoutProcessAsUser - Injected cookie: .Nop.Customer
+2025-03-17 18:41:03 [main] INFO  testCheckoutProcessAsUser - Injected cookie: .Nop.Culture
+2025-03-17 18:41:03 [main] INFO  testCheckoutProcessAsUser - Injected cookie: _ga_SCT41TW89V
+2025-03-17 18:41:04 [main] INFO  testCheckoutProcessAsUser - Page refreshed with bypassed cookies.
+2025-03-17 18:41:06 [main] INFO  testCheckoutProcessAsUser - Navigating to login page: https://demo.nopcommerce.com/login
+2025-03-17 18:41:07 [main] INFO  testCheckoutProcessAsUser - User logged in successfully.
+2025-03-17 18:41:09 [main] INFO  testCheckoutProcessAsUser - Login verified, proceeding with checkout process.
+2025-03-17 18:41:11 [main] INFO  testCheckoutProcessAsUser - Navigating to product page: https://demo.nopcommerce.com/adobe-photoshop
+2025-03-17 18:41:12 [main] INFO  testCheckoutProcessAsUser - Clicked 'Add to Cart' button.
+2025-03-17 18:41:12 [main] INFO  testCheckoutProcessAsUser - Product successfully added to cart.
+2025-03-17 18:41:12 [main] INFO  testCheckoutProcessAsUser - Cart quantity updated to: 1
+2025-03-17 18:41:14 [main] INFO  testCheckoutProcessAsUser - Cart page loaded successfully.
+2025-03-17 18:41:14 [main] INFO  testCheckoutProcessAsUser - Accepted terms of service.
+2025-03-17 18:41:18 [main] INFO  testCheckoutProcessAsUser - Checkout page loaded successfully.
+2025-03-17 18:41:20 [main] INFO  testCheckoutProcessAsUser - Shipping method selected.
+2025-03-17 18:41:21 [main] INFO  testCheckoutProcessAsUser - Payment method selected.
+2025-03-17 18:41:22 [main] INFO  testCheckoutProcessAsUser - Payment details entered.
+2025-03-17 18:41:23 [main] INFO  testCheckoutProcessAsUser - Order confirmed.
+2025-03-17 18:41:24 [main] INFO  testCheckoutProcessAsUser - Order placed successfully!
+2025-03-17 18:41:24 [main] INFO  testCheckoutProcessAsUser - Closing the browser for test: testCheckoutProcessAsUser
+2025-03-17 18:41:24 [main] INFO  testCheckoutProcessAsUser - Browser closed.

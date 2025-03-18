@@ -1,0 +1,151 @@
+2025-03-15 22:37:41 [main] INFO  verifyAutoSuggestionsInSearchBar - Starting test setup for: verifyAutoSuggestionsInSearchBar
+2025-03-15 22:37:41 [main] INFO  verifyAutoSuggestionsInSearchBar - Setting up Chrome browser...
+2025-03-15 22:37:41 [main] INFO  verifyAutoSuggestionsInSearchBar - Browser setup complete with ZenRows proxy.
+2025-03-15 22:37:41 [main] INFO  verifyAutoSuggestionsInSearchBar - Navigating to: https://demo.nopcommerce.com/
+2025-03-15 22:37:54 [main] ERROR verifyAutoSuggestionsInSearchBar - Test encountered an error due to the environment: Expected condition failed: waiting for number of elements found by By.cssSelector: .ui-menu-item-wrapper to be more than "0". Current number: "0" (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.29.0', revision: '5fc1ec94cb'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.89, chrome: {chromedriverVersion: 134.0.6998.88 (7e3d5c978c6d..., userDataDir: C:\Users\MOHAME~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59876}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(manual, http=http://Y..., se:cdp: ws://localhost:59876/devtoo..., se:cdpVersion: 134.0.6998.89, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a43c5c9b20fdc982b907b64ab46d4974
+2025-03-15 22:37:54 [main] INFO  verifyAutoSuggestionsInSearchBar - Closing the browser for test: verifyAutoSuggestionsInSearchBar
+2025-03-15 22:37:54 [main] INFO  verifyAutoSuggestionsInSearchBar - Browser closed.
+2025-03-15 22:41:28 [main] INFO  verifyAutoSuggestionsInSearchBar - Starting test setup for: verifyAutoSuggestionsInSearchBar
+2025-03-15 22:41:28 [main] INFO  verifyAutoSuggestionsInSearchBar - Setting up Chrome browser...
+2025-03-15 22:41:29 [main] INFO  verifyAutoSuggestionsInSearchBar - Browser setup complete with ZenRows proxy.
+2025-03-15 22:41:29 [main] INFO  verifyAutoSuggestionsInSearchBar - Navigating to: https://demo.nopcommerce.com/
+2025-03-15 22:41:41 [main] ERROR verifyAutoSuggestionsInSearchBar - Test encountered an error due to the environment: Expected condition failed: waiting for number of elements found by By.cssSelector: .ui-menu-item-wrapper to be more than "0". Current number: "0" (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.29.0', revision: '5fc1ec94cb'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.89, chrome: {chromedriverVersion: 134.0.6998.88 (7e3d5c978c6d..., userDataDir: C:\Users\MOHAME~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60379}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(manual, http=http://Y..., se:cdp: ws://localhost:60379/devtoo..., se:cdpVersion: 134.0.6998.89, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a3eff925d5061a5ffebe3c3f9917ffe4
+2025-03-15 22:41:41 [main] INFO  verifyAutoSuggestionsInSearchBar - Closing the browser for test: verifyAutoSuggestionsInSearchBar
+2025-03-15 22:41:41 [main] INFO  verifyAutoSuggestionsInSearchBar - Browser closed.
+2025-03-15 23:01:47 [main] INFO  verifyAutoSuggestionsInSearchBar - Starting test setup for: verifyAutoSuggestionsInSearchBar
+2025-03-15 23:01:47 [main] INFO  verifyAutoSuggestionsInSearchBar - Setting up Chrome browser...
+2025-03-15 23:01:49 [main] INFO  verifyAutoSuggestionsInSearchBar - Browser setup complete with ZenRows proxy.
+2025-03-15 23:01:49 [main] INFO  verifyAutoSuggestionsInSearchBar - Navigating to: https://demo.nopcommerce.com/
+2025-03-15 23:02:01 [main] ERROR verifyAutoSuggestionsInSearchBar - Test encountered an error due to the environment: Expected condition failed: waiting for number of elements found by By.cssSelector: .ui-menu-item-wrapper to be more than "0". Current number: "0" (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.29.0', revision: '5fc1ec94cb'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.89, chrome: {chromedriverVersion: 134.0.6998.88 (7e3d5c978c6d..., userDataDir: C:\Users\MOHAME~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61434}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(manual, http=http://9..., se:cdp: ws://localhost:61434/devtoo..., se:cdpVersion: 134.0.6998.89, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 8b0f076b603cabdabbf7213ac031936c
+2025-03-15 23:02:01 [main] INFO  verifyAutoSuggestionsInSearchBar - Closing the browser for test: verifyAutoSuggestionsInSearchBar
+2025-03-15 23:02:01 [main] INFO  verifyAutoSuggestionsInSearchBar - Browser closed.
+2025-03-15 23:06:10 [main] INFO  verifyAutoSuggestionsInSearchBar - Starting test setup for: verifyAutoSuggestionsInSearchBar
+2025-03-15 23:06:10 [main] INFO  verifyAutoSuggestionsInSearchBar - Setting up Chrome browser...
+2025-03-15 23:06:11 [main] INFO  verifyAutoSuggestionsInSearchBar - Browser setup complete with ZenRows proxy.
+2025-03-15 23:06:11 [main] INFO  verifyAutoSuggestionsInSearchBar - Navigating to: https://demo.nopcommerce.com/
+2025-03-15 23:06:23 [main] ERROR verifyAutoSuggestionsInSearchBar - Test encountered an error due to the environment: Expected condition failed: waiting for number of elements found by By.cssSelector: .ui-menu-item-wrapper to be more than "0". Current number: "0" (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.29.0', revision: '5fc1ec94cb'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.89, chrome: {chromedriverVersion: 134.0.6998.88 (7e3d5c978c6d..., userDataDir: C:\Users\MOHAME~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61846}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(manual, http=http://9..., se:cdp: ws://localhost:61846/devtoo..., se:cdpVersion: 134.0.6998.89, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a8fc8dc1ba34eb2320893ac79e423667
+2025-03-15 23:06:23 [main] INFO  verifyAutoSuggestionsInSearchBar - Closing the browser for test: verifyAutoSuggestionsInSearchBar
+2025-03-15 23:06:23 [main] INFO  verifyAutoSuggestionsInSearchBar - Browser closed.
+2025-03-15 23:08:17 [main] INFO  verifyAutoSuggestionsInSearchBar - Starting test setup for: verifyAutoSuggestionsInSearchBar
+2025-03-15 23:08:17 [main] INFO  verifyAutoSuggestionsInSearchBar - Setting up Chrome browser...
+2025-03-15 23:08:18 [main] INFO  verifyAutoSuggestionsInSearchBar - Browser setup complete with ZenRows proxy.
+2025-03-15 23:08:18 [main] INFO  verifyAutoSuggestionsInSearchBar - Navigating to: https://demo.nopcommerce.com/
+2025-03-15 23:08:30 [main] ERROR verifyAutoSuggestionsInSearchBar - Test encountered an error due to the environment: Expected condition failed: waiting for number of elements found by By.cssSelector: .ui-menu-item-wrapper to be more than "0". Current number: "0" (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.29.0', revision: '5fc1ec94cb'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.89, chrome: {chromedriverVersion: 134.0.6998.88 (7e3d5c978c6d..., userDataDir: C:\Users\MOHAME~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62203}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(manual, http=http://9..., se:cdp: ws://localhost:62203/devtoo..., se:cdpVersion: 134.0.6998.89, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 64a115c5bcb477aca495d43da44243f0
+2025-03-15 23:08:30 [main] INFO  verifyAutoSuggestionsInSearchBar - Closing the browser for test: verifyAutoSuggestionsInSearchBar
+2025-03-15 23:08:30 [main] INFO  verifyAutoSuggestionsInSearchBar - Browser closed.
+2025-03-15 23:33:11 [main] INFO  verifyAutoSuggestionsInSearchBar - Starting test setup for: verifyAutoSuggestionsInSearchBar
+2025-03-15 23:33:11 [main] INFO  verifyAutoSuggestionsInSearchBar - Setting up Chrome browser...
+2025-03-15 23:33:13 [main] INFO  verifyAutoSuggestionsInSearchBar - Browser setup complete with ZenRows proxy.
+2025-03-15 23:33:13 [main] INFO  verifyAutoSuggestionsInSearchBar - Navigating to: https://demo.nopcommerce.com/
+2025-03-15 23:33:23 [main] ERROR verifyAutoSuggestionsInSearchBar - Test encountered an error due to the environment: Error communicating with the remote browser. It may have died.
+Build info: version: '4.29.0', revision: '5fc1ec94cb'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b8f3fa2b13ed1d7b3adf21ded26e1b12, findElements [using, value]]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.89, chrome: {chromedriverVersion: 134.0.6998.88 (7e3d5c978c6d..., userDataDir: C:\Users\MOHAME~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63921}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(manual, http=http://9..., se:cdp: ws://localhost:63921/devtoo..., se:cdpVersion: 134.0.6998.89, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b8f3fa2b13ed1d7b3adf21ded26e1b12
+2025-03-16 01:37:58 [main] INFO  verifyAutoSuggestionsInSearchBar - Starting test setup for: verifyAutoSuggestionsInSearchBar
+2025-03-16 01:37:58 [main] INFO  verifyAutoSuggestionsInSearchBar - Setting up Chrome browser...
+2025-03-16 01:37:59 [main] INFO  verifyAutoSuggestionsInSearchBar - Navigating to: https://demo.nopcommerce.com/
+2025-03-16 01:38:14 [main] ERROR verifyAutoSuggestionsInSearchBar - Test encountered an error due to the environment: Expected condition failed: waiting for number of elements found by By.cssSelector: .ui-menu-item-wrapper to be more than "0". Current number: "0" (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.29.0', revision: '5fc1ec94cb'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.89, chrome: {chromedriverVersion: 134.0.6998.88 (7e3d5c978c6d..., userDataDir: C:\Users\MOHAME~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62894}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62894/devtoo..., se:cdpVersion: 134.0.6998.89, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 03f7b54d0635453789450fc4a4f24646
+2025-03-16 01:38:14 [main] INFO  verifyAutoSuggestionsInSearchBar - Closing the browser for test: verifyAutoSuggestionsInSearchBar
+2025-03-16 01:38:14 [main] INFO  verifyAutoSuggestionsInSearchBar - Browser closed.
+2025-03-16 07:00:14 [main] INFO  verifyAutoSuggestionsInSearchBar - Starting test setup for: verifyAutoSuggestionsInSearchBar
+2025-03-16 07:00:32 [main] INFO  verifyAutoSuggestionsInSearchBar - Navigated to the site: https://demo.nopcommerce.com
+2025-03-16 07:00:32 [main] INFO  verifyAutoSuggestionsInSearchBar - Injected cookie: cf_clearance
+2025-03-16 07:00:32 [main] INFO  verifyAutoSuggestionsInSearchBar - Injected cookie: _ga
+2025-03-16 07:00:32 [main] INFO  verifyAutoSuggestionsInSearchBar - Injected cookie: .Nop.Antiforgery
+2025-03-16 07:00:32 [main] INFO  verifyAutoSuggestionsInSearchBar - Injected cookie: .Nop.Customer
+2025-03-16 07:00:32 [main] INFO  verifyAutoSuggestionsInSearchBar - Injected cookie: .Nop.Culture
+2025-03-16 07:00:32 [main] INFO  verifyAutoSuggestionsInSearchBar - Injected cookie: _ga_SCT41TW89V
+2025-03-16 07:00:32 [main] INFO  verifyAutoSuggestionsInSearchBar - Page refreshed with bypassed cookies.
+2025-03-16 07:00:32 [main] INFO  verifyAutoSuggestionsInSearchBar - Navigating to: https://demo.nopcommerce.com/
+2025-03-16 07:00:34 [main] INFO  verifyAutoSuggestionsInSearchBar - Auto-suggestions in the search bar verified successfully.
+2025-03-16 07:00:34 [main] INFO  verifyAutoSuggestionsInSearchBar - Closing the browser for test: verifyAutoSuggestionsInSearchBar
+2025-03-16 07:00:34 [main] INFO  verifyAutoSuggestionsInSearchBar - Browser closed.
+2025-03-16 08:46:29 [main] INFO  verifyAutoSuggestionsInSearchBar - Starting test setup for: verifyAutoSuggestionsInSearchBar
+2025-03-16 08:46:54 [main] INFO  verifyAutoSuggestionsInSearchBar - Navigated to the site: https://demo.nopcommerce.com
+2025-03-16 08:46:54 [main] INFO  verifyAutoSuggestionsInSearchBar - Injected cookie: cf_clearance
+2025-03-16 08:46:54 [main] INFO  verifyAutoSuggestionsInSearchBar - Injected cookie: _ga
+2025-03-16 08:46:54 [main] INFO  verifyAutoSuggestionsInSearchBar - Injected cookie: .Nop.Antiforgery
+2025-03-16 08:46:54 [main] INFO  verifyAutoSuggestionsInSearchBar - Injected cookie: .Nop.Customer
+2025-03-16 08:46:54 [main] INFO  verifyAutoSuggestionsInSearchBar - Injected cookie: .Nop.Culture
+2025-03-16 08:46:54 [main] INFO  verifyAutoSuggestionsInSearchBar - Injected cookie: _ga_SCT41TW89V
+2025-03-16 08:46:55 [main] INFO  verifyAutoSuggestionsInSearchBar - Page refreshed with bypassed cookies.
+2025-03-16 08:46:55 [main] INFO  verifyAutoSuggestionsInSearchBar - Navigating to: https://demo.nopcommerce.com/
+2025-03-16 08:46:57 [main] INFO  verifyAutoSuggestionsInSearchBar - Auto-suggestions in the search bar verified successfully.
+2025-03-16 08:46:57 [main] INFO  verifyAutoSuggestionsInSearchBar - Closing the browser for test: verifyAutoSuggestionsInSearchBar
+2025-03-16 08:46:57 [main] INFO  verifyAutoSuggestionsInSearchBar - Browser closed.
+2025-03-16 09:20:03 [main] INFO  verifyAutoSuggestionsInSearchBar - Starting test setup for: verifyAutoSuggestionsInSearchBar
+2025-03-16 09:20:26 [main] INFO  verifyAutoSuggestionsInSearchBar - Navigated to the site: https://demo.nopcommerce.com
+2025-03-16 09:20:26 [main] INFO  verifyAutoSuggestionsInSearchBar - Injected cookie: _ga
+2025-03-16 09:20:26 [main] INFO  verifyAutoSuggestionsInSearchBar - Injected cookie: cf_clearance
+2025-03-16 09:20:26 [main] INFO  verifyAutoSuggestionsInSearchBar - Injected cookie: .Nop.Antiforgery
+2025-03-16 09:20:26 [main] INFO  verifyAutoSuggestionsInSearchBar - Injected cookie: .Nop.Customer
+2025-03-16 09:20:26 [main] INFO  verifyAutoSuggestionsInSearchBar - Injected cookie: .Nop.Culture
+2025-03-16 09:20:26 [main] INFO  verifyAutoSuggestionsInSearchBar - Injected cookie: _ga_SCT41TW89V
+2025-03-16 09:20:27 [main] INFO  verifyAutoSuggestionsInSearchBar - Page refreshed with bypassed cookies.
+2025-03-16 09:20:27 [main] INFO  verifyAutoSuggestionsInSearchBar - Navigating to: https://demo.nopcommerce.com/
+2025-03-16 09:20:29 [main] INFO  verifyAutoSuggestionsInSearchBar - Auto-suggestions in the search bar verified successfully.
+2025-03-16 09:20:29 [main] INFO  verifyAutoSuggestionsInSearchBar - Closing the browser for test: verifyAutoSuggestionsInSearchBar
+2025-03-16 09:20:29 [main] INFO  verifyAutoSuggestionsInSearchBar - Browser closed.
+2025-03-17 18:22:42 [main] INFO  verifyAutoSuggestionsInSearchBar - 
+================================================================================================================================ NEW TEST RUN ================================================================================================================================
+2025-03-17 18:22:42 [main] INFO  verifyAutoSuggestionsInSearchBar - Starting test setup for: verifyAutoSuggestionsInSearchBar
+2025-03-17 18:23:06 [main] INFO  verifyAutoSuggestionsInSearchBar - Navigated to the site: https://demo.nopcommerce.com
+2025-03-17 18:23:06 [main] INFO  verifyAutoSuggestionsInSearchBar - Injected cookie: _ga
+2025-03-17 18:23:06 [main] INFO  verifyAutoSuggestionsInSearchBar - Injected cookie: cf_clearance
+2025-03-17 18:23:06 [main] INFO  verifyAutoSuggestionsInSearchBar - Injected cookie: .Nop.Antiforgery
+2025-03-17 18:23:06 [main] INFO  verifyAutoSuggestionsInSearchBar - Injected cookie: .Nop.Customer
+2025-03-17 18:23:06 [main] INFO  verifyAutoSuggestionsInSearchBar - Injected cookie: .Nop.Culture
+2025-03-17 18:23:06 [main] INFO  verifyAutoSuggestionsInSearchBar - Injected cookie: _ga_SCT41TW89V
+2025-03-17 18:23:07 [main] INFO  verifyAutoSuggestionsInSearchBar - Page refreshed with bypassed cookies.
+2025-03-17 18:23:07 [main] INFO  verifyAutoSuggestionsInSearchBar - Navigating to: https://demo.nopcommerce.com/
+2025-03-17 18:23:09 [main] INFO  verifyAutoSuggestionsInSearchBar - Auto-suggestions in the search bar verified successfully.
+2025-03-17 18:23:09 [main] INFO  verifyAutoSuggestionsInSearchBar - Closing the browser for test: verifyAutoSuggestionsInSearchBar
+2025-03-17 18:23:09 [main] INFO  verifyAutoSuggestionsInSearchBar - Browser closed.
+2025-03-17 18:48:56 [main] INFO  verifyAutoSuggestionsInSearchBar - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-03-17 18:48:56 [main] INFO  verifyAutoSuggestionsInSearchBar - Starting test setup for: verifyAutoSuggestionsInSearchBar
+2025-03-17 18:49:19 [main] INFO  verifyAutoSuggestionsInSearchBar - Navigated to the site: https://demo.nopcommerce.com
+2025-03-17 18:49:19 [main] INFO  verifyAutoSuggestionsInSearchBar - Injected cookie: _ga
+2025-03-17 18:49:19 [main] INFO  verifyAutoSuggestionsInSearchBar - Injected cookie: cf_clearance
+2025-03-17 18:49:19 [main] INFO  verifyAutoSuggestionsInSearchBar - Injected cookie: .Nop.Antiforgery
+2025-03-17 18:49:19 [main] INFO  verifyAutoSuggestionsInSearchBar - Injected cookie: .Nop.Customer
+2025-03-17 18:49:19 [main] INFO  verifyAutoSuggestionsInSearchBar - Injected cookie: .Nop.Culture
+2025-03-17 18:49:19 [main] INFO  verifyAutoSuggestionsInSearchBar - Injected cookie: _ga_SCT41TW89V
+2025-03-17 18:49:20 [main] INFO  verifyAutoSuggestionsInSearchBar - Page refreshed with bypassed cookies.
+2025-03-17 18:49:20 [main] INFO  verifyAutoSuggestionsInSearchBar - Navigating to: https://demo.nopcommerce.com/
+2025-03-17 18:49:22 [main] INFO  verifyAutoSuggestionsInSearchBar - Auto-suggestions in the search bar verified successfully.
+2025-03-17 18:49:22 [main] INFO  verifyAutoSuggestionsInSearchBar - Closing the browser for test: verifyAutoSuggestionsInSearchBar
+2025-03-17 18:49:22 [main] INFO  verifyAutoSuggestionsInSearchBar - Browser closed.
