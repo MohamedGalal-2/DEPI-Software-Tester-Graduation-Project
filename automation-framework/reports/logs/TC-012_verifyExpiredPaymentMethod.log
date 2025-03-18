@@ -1,0 +1,35 @@
+2025-03-18 07:23:46 [main] INFO  TC-012_verifyExpiredPaymentMethod - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-03-18 07:23:46 [main] INFO  TC-012_verifyExpiredPaymentMethod - Logger initialized
+2025-03-18 07:23:46 [main] INFO  TC-012_verifyExpiredPaymentMethod - Starting test setup for: verifyExpiredPaymentMethod (🔢 Test Case ID: TC-012)
+2025-03-18 07:24:06 [main] INFO  TC-012_verifyExpiredPaymentMethod - Navigated to the site: https://demo.nopcommerce.com
+2025-03-18 07:24:06 [main] INFO  TC-012_verifyExpiredPaymentMethod - Injected cookie: _ga
+2025-03-18 07:24:06 [main] INFO  TC-012_verifyExpiredPaymentMethod - Injected cookie: cf_clearance
+2025-03-18 07:24:06 [main] INFO  TC-012_verifyExpiredPaymentMethod - Injected cookie: .Nop.Antiforgery
+2025-03-18 07:24:06 [main] INFO  TC-012_verifyExpiredPaymentMethod - Injected cookie: .Nop.Customer
+2025-03-18 07:24:06 [main] INFO  TC-012_verifyExpiredPaymentMethod - Injected cookie: .Nop.Culture
+2025-03-18 07:24:06 [main] INFO  TC-012_verifyExpiredPaymentMethod - Injected cookie: _ga_SCT41TW89V
+2025-03-18 07:24:06 [main] INFO  TC-012_verifyExpiredPaymentMethod - Page refreshed with bypassed cookies.
+2025-03-18 07:24:06 [main] INFO  TC-012_verifyExpiredPaymentMethod - Navigating to: https://demo.nopcommerce.com/login
+2025-03-18 07:24:11 [main] INFO  TC-012_verifyExpiredPaymentMethod - Login verified, proceeding with checkout process.
+2025-03-18 07:24:23 [main] INFO  TC-012_verifyExpiredPaymentMethod - Closing the browser for test: verifyExpiredPaymentMethod
+2025-03-18 07:24:23 [main] INFO  TC-012_verifyExpiredPaymentMethod - Browser closed.
+2025-03-18 07:28:07 [main] INFO  TC-012_verifyExpiredPaymentMethod - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-03-18 07:28:07 [main] INFO  TC-012_verifyExpiredPaymentMethod - Logger initialized
+2025-03-18 07:28:07 [main] INFO  TC-012_verifyExpiredPaymentMethod - Starting test setup for: verifyExpiredPaymentMethod (🔢 Test Case ID: TC-012)
+2025-03-18 07:28:26 [main] INFO  TC-012_verifyExpiredPaymentMethod - Navigated to the site: https://demo.nopcommerce.com
+2025-03-18 07:28:26 [main] INFO  TC-012_verifyExpiredPaymentMethod - Injected cookie: _ga
+2025-03-18 07:28:26 [main] INFO  TC-012_verifyExpiredPaymentMethod - Injected cookie: cf_clearance
+2025-03-18 07:28:26 [main] INFO  TC-012_verifyExpiredPaymentMethod - Injected cookie: .Nop.Antiforgery
+2025-03-18 07:28:26 [main] INFO  TC-012_verifyExpiredPaymentMethod - Injected cookie: .Nop.Customer
+2025-03-18 07:28:26 [main] INFO  TC-012_verifyExpiredPaymentMethod - Injected cookie: .Nop.Culture
+2025-03-18 07:28:26 [main] INFO  TC-012_verifyExpiredPaymentMethod - Injected cookie: _ga_SCT41TW89V
+2025-03-18 07:28:27 [main] INFO  TC-012_verifyExpiredPaymentMethod - Page refreshed with bypassed cookies.
+2025-03-18 07:28:27 [main] INFO  TC-012_verifyExpiredPaymentMethod - Navigating to: https://demo.nopcommerce.com/login
+2025-03-18 07:28:31 [main] INFO  TC-012_verifyExpiredPaymentMethod - Login verified, proceeding with checkout process.
+2025-03-18 07:28:36 [main] INFO  TC-012_verifyExpiredPaymentMethod - Product successfully added to cart.
+2025-03-18 07:28:39 [main] INFO  TC-012_verifyExpiredPaymentMethod - Checkout page loaded successfully.
+2025-03-18 07:28:44 [main] INFO  TC-012_verifyExpiredPaymentMethod - Error message displayed for invalid payment details.
+2025-03-18 07:28:44 [main] INFO  TC-012_verifyExpiredPaymentMethod - Closing the browser for test: verifyExpiredPaymentMethod
+2025-03-18 07:28:44 [main] INFO  TC-012_verifyExpiredPaymentMethod - Browser closed.

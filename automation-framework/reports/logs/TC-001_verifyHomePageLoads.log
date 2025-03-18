@@ -129,3 +129,98 @@
 2025-03-18 04:02:52 [main] INFO  listeners.TestListener - ✅ Test PASSED: verifyHomePageLoads (Duration: 665ms)
 2025-03-18 04:02:52 [main] INFO  TC-001_verifyHomePageLoads - Closing the browser for test: verifyHomePageLoads
 2025-03-18 04:02:52 [main] INFO  TC-001_verifyHomePageLoads - Browser closed.
+2025-03-18 04:47:44 [main] INFO  TC-001_verifyHomePageLoads - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-03-18 04:47:44 [main] INFO  TC-001_verifyHomePageLoads - Logger initialized
+2025-03-18 04:47:44 [main] INFO  TC-001_verifyHomePageLoads - Starting test setup for: verifyHomePageLoads (🔢 Test Case ID: TC-001)
+2025-03-18 04:48:02 [main] INFO  TC-001_verifyHomePageLoads - Navigated to the site: https://demo.nopcommerce.com
+2025-03-18 04:48:02 [main] INFO  TC-001_verifyHomePageLoads - Injected cookie: _ga
+2025-03-18 04:48:02 [main] INFO  TC-001_verifyHomePageLoads - Injected cookie: cf_clearance
+2025-03-18 04:48:02 [main] INFO  TC-001_verifyHomePageLoads - Injected cookie: .Nop.Antiforgery
+2025-03-18 04:48:02 [main] INFO  TC-001_verifyHomePageLoads - Injected cookie: .Nop.Customer
+2025-03-18 04:48:02 [main] INFO  TC-001_verifyHomePageLoads - Injected cookie: .Nop.Culture
+2025-03-18 04:48:02 [main] INFO  TC-001_verifyHomePageLoads - Injected cookie: _ga_SCT41TW89V
+2025-03-18 04:48:02 [main] INFO  TC-001_verifyHomePageLoads - Page refreshed with bypassed cookies.
+2025-03-18 04:48:02 [main] INFO  TC-001_verifyHomePageLoads - Navigating to: https://demo.nopcommerce.com/
+2025-03-18 04:48:03 [main] INFO  TC-001_verifyHomePageLoads - Actual Page Title: nopCommerce demo store. Home page title
+2025-03-18 04:48:03 [main] INFO  TC-001_verifyHomePageLoads - Closing the browser for test: verifyHomePageLoads
+2025-03-18 04:48:03 [main] INFO  TC-001_verifyHomePageLoads - Browser closed.
+2025-03-18 04:48:43 [main] INFO  TC-001_verifyHomePageLoads - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-03-18 04:48:43 [main] INFO  TC-001_verifyHomePageLoads - Logger initialized
+2025-03-18 04:48:43 [main] INFO  TC-001_verifyHomePageLoads - Starting test setup for: verifyHomePageLoads (🔢 Test Case ID: TC-001)
+2025-03-18 04:58:47 [main] INFO  TC-001_verifyHomePageLoads - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-03-18 04:58:47 [main] INFO  TC-001_verifyHomePageLoads - Logger initialized
+2025-03-18 04:58:47 [main] INFO  TC-001_verifyHomePageLoads - Starting test setup for: verifyHomePageLoads (🔢 Test Case ID: TC-001)
+2025-03-18 04:59:04 [main] INFO  TC-001_verifyHomePageLoads - Navigated to the site: https://demo.nopcommerce.com
+2025-03-18 04:59:04 [main] INFO  TC-001_verifyHomePageLoads - Injected cookie: cf_clearance
+2025-03-18 04:59:04 [main] INFO  TC-001_verifyHomePageLoads - Injected cookie: _ga
+2025-03-18 04:59:04 [main] INFO  TC-001_verifyHomePageLoads - Injected cookie: .Nop.Antiforgery
+2025-03-18 04:59:04 [main] INFO  TC-001_verifyHomePageLoads - Injected cookie: .Nop.Customer
+2025-03-18 04:59:04 [main] INFO  TC-001_verifyHomePageLoads - Injected cookie: .Nop.Culture
+2025-03-18 04:59:04 [main] INFO  TC-001_verifyHomePageLoads - Injected cookie: _ga_SCT41TW89V
+2025-03-18 04:59:04 [main] INFO  TC-001_verifyHomePageLoads - Page refreshed with bypassed cookies.
+2025-03-18 04:59:04 [main] INFO  TC-001_verifyHomePageLoads - Navigating to: https://demo.nopcommerce.com/
+2025-03-18 04:59:05 [main] INFO  TC-001_verifyHomePageLoads - Actual Page Title: nopCommerce demo store. Home page title
+2025-03-18 04:59:05 [main] INFO  TC-001_verifyHomePageLoads - Closing the browser for test: verifyHomePageLoads
+2025-03-18 04:59:05 [main] INFO  TC-001_verifyHomePageLoads - Browser closed.
+2025-03-18 04:59:52 [main] INFO  TC-001_verifyHomePageLoads - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-03-18 04:59:52 [main] INFO  TC-001_verifyHomePageLoads - Logger initialized
+2025-03-18 04:59:52 [main] INFO  TC-001_verifyHomePageLoads - Starting test setup for: verifyHomePageLoads (🔢 Test Case ID: TC-001)
+2025-03-18 05:02:37 [main] INFO  TC-001_verifyHomePageLoads - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-03-18 05:02:37 [main] INFO  TC-001_verifyHomePageLoads - Logger initialized
+2025-03-18 05:02:37 [main] INFO  TC-001_verifyHomePageLoads - Starting test setup for: verifyHomePageLoads (🔢 Test Case ID: TC-001)
+2025-03-18 05:02:54 [main] INFO  TC-001_verifyHomePageLoads - Navigated to the site: https://demo.nopcommerce.com
+2025-03-18 05:02:54 [main] INFO  TC-001_verifyHomePageLoads - Injected cookie: _ga
+2025-03-18 05:02:54 [main] INFO  TC-001_verifyHomePageLoads - Injected cookie: cf_clearance
+2025-03-18 05:02:54 [main] INFO  TC-001_verifyHomePageLoads - Injected cookie: .Nop.Antiforgery
+2025-03-18 05:02:54 [main] INFO  TC-001_verifyHomePageLoads - Injected cookie: .Nop.Customer
+2025-03-18 05:02:54 [main] INFO  TC-001_verifyHomePageLoads - Injected cookie: .Nop.Culture
+2025-03-18 05:02:54 [main] INFO  TC-001_verifyHomePageLoads - Injected cookie: _ga_SCT41TW89V
+2025-03-18 05:02:54 [main] INFO  TC-001_verifyHomePageLoads - Page refreshed with bypassed cookies.
+2025-03-18 05:02:54 [main] INFO  TC-001_verifyHomePageLoads - Navigating to: https://demo.nopcommerce.com/
+2025-03-18 05:02:55 [main] INFO  TC-001_verifyHomePageLoads - Actual Page Title: nopCommerce demo store. Home page title
+2025-03-18 05:02:55 [main] INFO  TC-001_verifyHomePageLoads - Closing the browser for test: verifyHomePageLoads
+2025-03-18 05:02:55 [main] INFO  TC-001_verifyHomePageLoads - Browser closed.
+2025-03-18 05:03:51 [main] INFO  TC-001_verifyHomePageLoads - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-03-18 05:03:51 [main] INFO  TC-001_verifyHomePageLoads - Logger initialized
+2025-03-18 05:03:51 [main] INFO  TC-001_verifyHomePageLoads - Starting test setup for: verifyHomePageLoads (🔢 Test Case ID: TC-001)
+2025-03-18 05:04:44 [main] INFO  TC-001_verifyHomePageLoads - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-03-18 05:04:44 [main] INFO  TC-001_verifyHomePageLoads - Logger initialized
+2025-03-18 05:04:44 [main] INFO  TC-001_verifyHomePageLoads - Starting test setup for: verifyHomePageLoads (🔢 Test Case ID: TC-001)
+2025-03-18 05:05:01 [main] INFO  TC-001_verifyHomePageLoads - Navigated to the site: https://demo.nopcommerce.com
+2025-03-18 05:05:02 [main] INFO  TC-001_verifyHomePageLoads - Injected cookie: _ga
+2025-03-18 05:05:02 [main] INFO  TC-001_verifyHomePageLoads - Injected cookie: cf_clearance
+2025-03-18 05:05:02 [main] INFO  TC-001_verifyHomePageLoads - Injected cookie: .Nop.Antiforgery
+2025-03-18 05:05:02 [main] INFO  TC-001_verifyHomePageLoads - Injected cookie: .Nop.Customer
+2025-03-18 05:05:02 [main] INFO  TC-001_verifyHomePageLoads - Injected cookie: .Nop.Culture
+2025-03-18 05:05:02 [main] INFO  TC-001_verifyHomePageLoads - Injected cookie: _ga_SCT41TW89V
+2025-03-18 05:05:02 [main] INFO  TC-001_verifyHomePageLoads - Page refreshed with bypassed cookies.
+2025-03-18 05:05:02 [main] INFO  TC-001_verifyHomePageLoads - 🟢 Starting test: verifyHomePageLoads (🔢 Test Case ID: TC-001)
+2025-03-18 05:05:02 [main] INFO  TC-001_verifyHomePageLoads - Navigating to: https://demo.nopcommerce.com/
+2025-03-18 05:05:03 [main] INFO  TC-001_verifyHomePageLoads - Actual Page Title: nopCommerce demo store. Home page title
+2025-03-18 05:05:03 [main] INFO  listeners.TestListener - ✅ Test PASSED: verifyHomePageLoads (Duration: 712ms)
+2025-03-18 05:05:03 [main] INFO  TC-001_verifyHomePageLoads - Closing the browser for test: verifyHomePageLoads
+2025-03-18 05:05:03 [main] INFO  TC-001_verifyHomePageLoads - Browser closed.
+2025-03-18 05:05:03 [main] INFO  listeners.TestListener - 🏁 Finished Test Suite: Surefire test
+2025-03-18 05:08:57 [main] INFO  TC-001_verifyHomePageLoads - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-03-18 05:08:57 [main] INFO  TC-001_verifyHomePageLoads - Logger initialized
+2025-03-18 05:08:57 [main] INFO  TC-001_verifyHomePageLoads - Starting test setup for: verifyHomePageLoads (🔢 Test Case ID: TC-001)
+2025-03-18 05:09:14 [main] INFO  TC-001_verifyHomePageLoads - Navigated to the site: https://demo.nopcommerce.com
+2025-03-18 05:09:14 [main] INFO  TC-001_verifyHomePageLoads - Injected cookie: cf_clearance
+2025-03-18 05:09:14 [main] INFO  TC-001_verifyHomePageLoads - Injected cookie: _ga
+2025-03-18 05:09:14 [main] INFO  TC-001_verifyHomePageLoads - Injected cookie: .Nop.Antiforgery
+2025-03-18 05:09:14 [main] INFO  TC-001_verifyHomePageLoads - Injected cookie: .Nop.Customer
+2025-03-18 05:09:14 [main] INFO  TC-001_verifyHomePageLoads - Injected cookie: .Nop.Culture
+2025-03-18 05:09:14 [main] INFO  TC-001_verifyHomePageLoads - Injected cookie: _ga_SCT41TW89V
+2025-03-18 05:09:15 [main] INFO  TC-001_verifyHomePageLoads - Page refreshed with bypassed cookies.
+2025-03-18 05:09:15 [main] INFO  TC-001_verifyHomePageLoads - Navigating to: https://demo.nopcommerce.com/
+2025-03-18 05:09:15 [main] INFO  TC-001_verifyHomePageLoads - Actual Page Title: nopCommerce demo store. Home page title
+2025-03-18 05:09:15 [main] INFO  TC-001_verifyHomePageLoads - Closing the browser for test: verifyHomePageLoads
+2025-03-18 05:09:15 [main] INFO  TC-001_verifyHomePageLoads - Browser closed.

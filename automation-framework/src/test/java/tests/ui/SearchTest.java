@@ -2,6 +2,7 @@ package tests.ui;
 
 import base.BaseTest;
 import utils.ConfigReader;
+import utils.SeleniumHelper;
 
 import org.testng.Assert;
 import org.testng.annotations.Test;
@@ -16,7 +17,7 @@ import java.time.Duration;
 import java.util.List;
 
 public class SearchTest extends BaseTest {
-    String url = "https://demo.nopcommerce.com/";
+    private final String url = ConfigReader.getProperty("baseURL");
 
     @Test(groups = {"smoke"}, description = "TC-002")
     public void verifySearchFunctionality() {
@@ -26,33 +27,17 @@ public class SearchTest extends BaseTest {
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(5));
 
         // Using locators from config.properties
-        WebElement searchBox = wait.until(ExpectedConditions.elementToBeClickable(getByLocator("search.box")));
+        WebElement searchBox = wait.until(ExpectedConditions.elementToBeClickable(SeleniumHelper.getByLocator("search.box")));
         searchBox.sendKeys("Laptop");
 
-        WebElement searchButton = driver.findElement(getByLocator("search.button"));
+        // Click the search button
+        WebElement searchButton = driver.findElement(By.cssSelector("button[type='submit']"));
         searchButton.click();
 
-        wait.until(ExpectedConditions.visibilityOfElementLocated(getByLocator("search.results")));
-
-        WebElement searchResults = driver.findElement(getByLocator("search.results"));
+        WebElement searchResults = driver.findElement(By.cssSelector(".search-results"));
         Assert.assertTrue(searchResults.isDisplayed(), "Search results are not displayed!");
 
         logger.info("Search functionality verified successfully.");
-    }
-
-    public By getByLocator(String key) {
-        String locator = ConfigReader.getProperty(key);
-        if (locator.startsWith("id=")) {
-            return By.id(locator.substring(3));
-        } else if (locator.startsWith("css=")) {
-            return By.cssSelector(locator.substring(4));
-        } else if (locator.startsWith("xpath=")) {
-            return By.xpath(locator.substring(6));
-        } else if (locator.startsWith("linkText=")) {
-            return By.linkText(locator.substring(9));
-        } else {
-            throw new RuntimeException("Invalid locator type: " + locator);
-        }
     }
 
     @Test(groups = {"functional"}, description = "TC-038")

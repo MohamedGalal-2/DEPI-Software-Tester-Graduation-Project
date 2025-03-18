@@ -34,3 +34,55 @@
 2025-03-18 04:06:21 [main] INFO  listeners.TestListener - ✅ Test PASSED: verifyAutoSuggestionsInSearchBar (Duration: 1638ms)
 2025-03-18 04:06:21 [main] INFO  TC-051_verifyAutoSuggestionsInSearchBar - Closing the browser for test: verifyAutoSuggestionsInSearchBar
 2025-03-18 04:06:21 [main] INFO  TC-051_verifyAutoSuggestionsInSearchBar - Browser closed.
+2025-03-18 05:22:11 [main] INFO  TC-051_verifyAutoSuggestionsInSearchBar - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-03-18 05:22:11 [main] INFO  TC-051_verifyAutoSuggestionsInSearchBar - Logger initialized
+2025-03-18 05:22:11 [main] INFO  TC-051_verifyAutoSuggestionsInSearchBar - Starting test setup for: verifyAutoSuggestionsInSearchBar (🔢 Test Case ID: TC-051)
+2025-03-18 05:22:29 [main] INFO  TC-051_verifyAutoSuggestionsInSearchBar - Navigated to the site: https://demo.nopcommerce.com
+2025-03-18 05:22:29 [main] INFO  TC-051_verifyAutoSuggestionsInSearchBar - Injected cookie: _ga
+2025-03-18 05:22:29 [main] INFO  TC-051_verifyAutoSuggestionsInSearchBar - Injected cookie: cf_clearance
+2025-03-18 05:22:29 [main] INFO  TC-051_verifyAutoSuggestionsInSearchBar - Injected cookie: .Nop.Antiforgery
+2025-03-18 05:22:29 [main] INFO  TC-051_verifyAutoSuggestionsInSearchBar - Injected cookie: .Nop.Customer
+2025-03-18 05:22:29 [main] INFO  TC-051_verifyAutoSuggestionsInSearchBar - Injected cookie: .Nop.Culture
+2025-03-18 05:22:29 [main] INFO  TC-051_verifyAutoSuggestionsInSearchBar - Injected cookie: _ga_SCT41TW89V
+2025-03-18 05:22:29 [main] INFO  TC-051_verifyAutoSuggestionsInSearchBar - Page refreshed with bypassed cookies.
+2025-03-18 05:22:29 [main] INFO  TC-051_verifyAutoSuggestionsInSearchBar - Navigating to: https://demo.nopcommerce.com/
+2025-03-18 05:22:30 [main] ERROR TC-051_verifyAutoSuggestionsInSearchBar - Test encountered an error due to the environment: Locator for key 'search.searchBox' not found in config.properties.
+2025-03-18 05:22:30 [main] INFO  TC-051_verifyAutoSuggestionsInSearchBar - Closing the browser for test: verifyAutoSuggestionsInSearchBar
+2025-03-18 05:22:30 [main] INFO  TC-051_verifyAutoSuggestionsInSearchBar - Browser closed.
+2025-03-18 05:30:52 [main] INFO  TC-051_verifyAutoSuggestionsInSearchBar - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-03-18 05:30:52 [main] INFO  TC-051_verifyAutoSuggestionsInSearchBar - Logger initialized
+2025-03-18 05:30:52 [main] INFO  TC-051_verifyAutoSuggestionsInSearchBar - Starting test setup for: verifyAutoSuggestionsInSearchBar (🔢 Test Case ID: TC-051)
+2025-03-18 05:31:10 [main] INFO  TC-051_verifyAutoSuggestionsInSearchBar - Navigated to the site: https://demo.nopcommerce.com
+2025-03-18 05:31:10 [main] INFO  TC-051_verifyAutoSuggestionsInSearchBar - Injected cookie: cf_clearance
+2025-03-18 05:31:10 [main] INFO  TC-051_verifyAutoSuggestionsInSearchBar - Injected cookie: _ga
+2025-03-18 05:31:10 [main] INFO  TC-051_verifyAutoSuggestionsInSearchBar - Injected cookie: .Nop.Antiforgery
+2025-03-18 05:31:10 [main] INFO  TC-051_verifyAutoSuggestionsInSearchBar - Injected cookie: .Nop.Customer
+2025-03-18 05:31:10 [main] INFO  TC-051_verifyAutoSuggestionsInSearchBar - Injected cookie: .Nop.Culture
+2025-03-18 05:31:10 [main] INFO  TC-051_verifyAutoSuggestionsInSearchBar - Injected cookie: _ga_SCT41TW89V
+2025-03-18 05:31:11 [main] INFO  TC-051_verifyAutoSuggestionsInSearchBar - Page refreshed with bypassed cookies.
+2025-03-18 05:31:11 [main] INFO  TC-051_verifyAutoSuggestionsInSearchBar - Navigating to: https://demo.nopcommerce.com/
+2025-03-18 05:31:12 [main] INFO  TC-051_verifyAutoSuggestionsInSearchBar - Auto-suggestions in the search bar verified successfully.
+2025-03-18 05:31:12 [main] INFO  TC-051_verifyAutoSuggestionsInSearchBar - Closing the browser for test: verifyAutoSuggestionsInSearchBar
+2025-03-18 05:31:12 [main] INFO  TC-051_verifyAutoSuggestionsInSearchBar - Browser closed.
+2025-03-18 05:39:54 [main] INFO  TC-051_verifyAutoSuggestionsInSearchBar - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-03-18 05:39:54 [main] INFO  TC-051_verifyAutoSuggestionsInSearchBar - Logger initialized
+2025-03-18 05:39:54 [main] INFO  TC-051_verifyAutoSuggestionsInSearchBar - Starting test setup for: verifyAutoSuggestionsInSearchBar (🔢 Test Case ID: TC-051)
+2025-03-18 05:41:08 [main] INFO  TC-051_verifyAutoSuggestionsInSearchBar - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-03-18 05:41:08 [main] INFO  TC-051_verifyAutoSuggestionsInSearchBar - Logger initialized
+2025-03-18 05:41:08 [main] INFO  TC-051_verifyAutoSuggestionsInSearchBar - Starting test setup for: verifyAutoSuggestionsInSearchBar (🔢 Test Case ID: TC-051)
+2025-03-18 05:41:26 [main] INFO  TC-051_verifyAutoSuggestionsInSearchBar - Navigated to the site: https://demo.nopcommerce.com
+2025-03-18 05:41:26 [main] INFO  TC-051_verifyAutoSuggestionsInSearchBar - Injected cookie: _ga
+2025-03-18 05:41:26 [main] INFO  TC-051_verifyAutoSuggestionsInSearchBar - Injected cookie: cf_clearance
+2025-03-18 05:41:26 [main] INFO  TC-051_verifyAutoSuggestionsInSearchBar - Injected cookie: .Nop.Antiforgery
+2025-03-18 05:41:26 [main] INFO  TC-051_verifyAutoSuggestionsInSearchBar - Injected cookie: .Nop.Customer
+2025-03-18 05:41:26 [main] INFO  TC-051_verifyAutoSuggestionsInSearchBar - Injected cookie: .Nop.Culture
+2025-03-18 05:41:26 [main] INFO  TC-051_verifyAutoSuggestionsInSearchBar - Injected cookie: _ga_SCT41TW89V
+2025-03-18 05:41:26 [main] INFO  TC-051_verifyAutoSuggestionsInSearchBar - Page refreshed with bypassed cookies.
+2025-03-18 05:41:26 [main] INFO  TC-051_verifyAutoSuggestionsInSearchBar - Navigating to: https://demo.nopcommerce.com/
+2025-03-18 05:41:28 [main] INFO  TC-051_verifyAutoSuggestionsInSearchBar - Auto-suggestions in the search bar verified successfully.
+2025-03-18 05:41:28 [main] INFO  TC-051_verifyAutoSuggestionsInSearchBar - Closing the browser for test: verifyAutoSuggestionsInSearchBar
+2025-03-18 05:41:28 [main] INFO  TC-051_verifyAutoSuggestionsInSearchBar - Browser closed.

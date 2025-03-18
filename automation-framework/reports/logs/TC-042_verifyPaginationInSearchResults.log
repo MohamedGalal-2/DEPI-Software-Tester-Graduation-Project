@@ -34,3 +34,50 @@
 2025-03-18 04:07:45 [main] INFO  listeners.TestListener - ✅ Test PASSED: verifyPaginationInSearchResults (Duration: 6708ms)
 2025-03-18 04:07:45 [main] INFO  TC-042_verifyPaginationInSearchResults - Closing the browser for test: verifyPaginationInSearchResults
 2025-03-18 04:07:45 [main] INFO  TC-042_verifyPaginationInSearchResults - Browser closed.
+2025-03-18 05:23:26 [main] INFO  TC-042_verifyPaginationInSearchResults - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-03-18 05:23:26 [main] INFO  TC-042_verifyPaginationInSearchResults - Logger initialized
+2025-03-18 05:23:26 [main] INFO  TC-042_verifyPaginationInSearchResults - Starting test setup for: verifyPaginationInSearchResults (🔢 Test Case ID: TC-042)
+2025-03-18 05:23:43 [main] INFO  TC-042_verifyPaginationInSearchResults - Navigated to the site: https://demo.nopcommerce.com
+2025-03-18 05:23:43 [main] INFO  TC-042_verifyPaginationInSearchResults - Injected cookie: _ga
+2025-03-18 05:23:43 [main] INFO  TC-042_verifyPaginationInSearchResults - Injected cookie: cf_clearance
+2025-03-18 05:23:43 [main] INFO  TC-042_verifyPaginationInSearchResults - Injected cookie: .Nop.Antiforgery
+2025-03-18 05:23:43 [main] INFO  TC-042_verifyPaginationInSearchResults - Injected cookie: .Nop.Customer
+2025-03-18 05:23:43 [main] INFO  TC-042_verifyPaginationInSearchResults - Injected cookie: .Nop.Culture
+2025-03-18 05:23:43 [main] INFO  TC-042_verifyPaginationInSearchResults - Injected cookie: _ga_SCT41TW89V
+2025-03-18 05:23:43 [main] INFO  TC-042_verifyPaginationInSearchResults - Page refreshed with bypassed cookies.
+2025-03-18 05:23:43 [main] INFO  TC-042_verifyPaginationInSearchResults - Navigating to: https://demo.nopcommerce.com/
+2025-03-18 05:23:44 [main] INFO  TC-042_verifyPaginationInSearchResults - Closing the browser for test: verifyPaginationInSearchResults
+2025-03-18 05:23:44 [main] INFO  TC-042_verifyPaginationInSearchResults - Browser closed.
+2025-03-18 05:32:13 [main] INFO  TC-042_verifyPaginationInSearchResults - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-03-18 05:32:13 [main] INFO  TC-042_verifyPaginationInSearchResults - Logger initialized
+2025-03-18 05:32:13 [main] INFO  TC-042_verifyPaginationInSearchResults - Starting test setup for: verifyPaginationInSearchResults (🔢 Test Case ID: TC-042)
+2025-03-18 05:32:30 [main] INFO  TC-042_verifyPaginationInSearchResults - Navigated to the site: https://demo.nopcommerce.com
+2025-03-18 05:32:30 [main] INFO  TC-042_verifyPaginationInSearchResults - Injected cookie: _ga
+2025-03-18 05:32:30 [main] INFO  TC-042_verifyPaginationInSearchResults - Injected cookie: cf_clearance
+2025-03-18 05:32:30 [main] INFO  TC-042_verifyPaginationInSearchResults - Injected cookie: .Nop.Antiforgery
+2025-03-18 05:32:30 [main] INFO  TC-042_verifyPaginationInSearchResults - Injected cookie: .Nop.Customer
+2025-03-18 05:32:30 [main] INFO  TC-042_verifyPaginationInSearchResults - Injected cookie: .Nop.Culture
+2025-03-18 05:32:30 [main] INFO  TC-042_verifyPaginationInSearchResults - Injected cookie: _ga_SCT41TW89V
+2025-03-18 05:32:30 [main] INFO  TC-042_verifyPaginationInSearchResults - Page refreshed with bypassed cookies.
+2025-03-18 05:32:30 [main] INFO  TC-042_verifyPaginationInSearchResults - Navigating to: https://demo.nopcommerce.com/
+2025-03-18 05:32:37 [main] WARN  TC-042_verifyPaginationInSearchResults - Pagination is not available due to limited results.
+2025-03-18 05:32:37 [main] INFO  TC-042_verifyPaginationInSearchResults - Closing the browser for test: verifyPaginationInSearchResults
+2025-03-18 05:32:37 [main] INFO  TC-042_verifyPaginationInSearchResults - Browser closed.
+2025-03-18 05:42:28 [main] INFO  TC-042_verifyPaginationInSearchResults - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-03-18 05:42:28 [main] INFO  TC-042_verifyPaginationInSearchResults - Logger initialized
+2025-03-18 05:42:28 [main] INFO  TC-042_verifyPaginationInSearchResults - Starting test setup for: verifyPaginationInSearchResults (🔢 Test Case ID: TC-042)
+2025-03-18 05:42:45 [main] INFO  TC-042_verifyPaginationInSearchResults - Navigated to the site: https://demo.nopcommerce.com
+2025-03-18 05:42:45 [main] INFO  TC-042_verifyPaginationInSearchResults - Injected cookie: _ga
+2025-03-18 05:42:45 [main] INFO  TC-042_verifyPaginationInSearchResults - Injected cookie: cf_clearance
+2025-03-18 05:42:45 [main] INFO  TC-042_verifyPaginationInSearchResults - Injected cookie: .Nop.Antiforgery
+2025-03-18 05:42:45 [main] INFO  TC-042_verifyPaginationInSearchResults - Injected cookie: .Nop.Customer
+2025-03-18 05:42:45 [main] INFO  TC-042_verifyPaginationInSearchResults - Injected cookie: .Nop.Culture
+2025-03-18 05:42:45 [main] INFO  TC-042_verifyPaginationInSearchResults - Injected cookie: _ga_SCT41TW89V
+2025-03-18 05:42:46 [main] INFO  TC-042_verifyPaginationInSearchResults - Page refreshed with bypassed cookies.
+2025-03-18 05:42:46 [main] INFO  TC-042_verifyPaginationInSearchResults - Navigating to: https://demo.nopcommerce.com/
+2025-03-18 05:42:52 [main] WARN  TC-042_verifyPaginationInSearchResults - Pagination is not available due to limited results.
+2025-03-18 05:42:52 [main] INFO  TC-042_verifyPaginationInSearchResults - Closing the browser for test: verifyPaginationInSearchResults
+2025-03-18 05:42:52 [main] INFO  TC-042_verifyPaginationInSearchResults - Browser closed.
