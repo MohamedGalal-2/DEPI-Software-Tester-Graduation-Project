@@ -3,3 +3,5 @@
 2025-03-18 03:41:51,771 [main] INFO  TestListener - 🚀 Starting Test Suite: MyTest
 2025-03-18 03:59:00,529 [main] INFO  TestListener - 🚀 Starting Test Suite: EcomUIRegressionTest
 2025-03-18 05:04:14,232 [main] INFO  TestListener - 🚀 Starting Test Suite: Surefire test
+2025-03-18 08:36:32,892 [main] INFO  TestListener - 🚀 Starting Test Suite: Surefire test
+2025-03-18 09:20:47,922 [main] INFO  TestListener - 🚀 Starting Test Suite: Surefire test

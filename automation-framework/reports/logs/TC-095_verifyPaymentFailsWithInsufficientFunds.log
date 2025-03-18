@@ -1,0 +1,21 @@
+2025-03-18 10:04:09 [main] INFO  TC-095_verifyPaymentFailsWithInsufficientFunds - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-03-18 10:04:09 [main] INFO  TC-095_verifyPaymentFailsWithInsufficientFunds - Logger initialized
+2025-03-18 10:04:09 [main] INFO  TC-095_verifyPaymentFailsWithInsufficientFunds - Starting test setup for: verifyPaymentFailsWithInsufficientFunds (🔢 Test Case ID: TC-095)
+2025-03-18 10:04:29 [main] INFO  TC-095_verifyPaymentFailsWithInsufficientFunds - Navigated to the site: https://demo.nopcommerce.com
+2025-03-18 10:04:29 [main] INFO  TC-095_verifyPaymentFailsWithInsufficientFunds - Injected cookie: _ga
+2025-03-18 10:04:29 [main] INFO  TC-095_verifyPaymentFailsWithInsufficientFunds - Injected cookie: cf_clearance
+2025-03-18 10:04:29 [main] INFO  TC-095_verifyPaymentFailsWithInsufficientFunds - Injected cookie: .Nop.Antiforgery
+2025-03-18 10:04:29 [main] INFO  TC-095_verifyPaymentFailsWithInsufficientFunds - Injected cookie: .Nop.Customer
+2025-03-18 10:04:29 [main] INFO  TC-095_verifyPaymentFailsWithInsufficientFunds - Injected cookie: .Nop.Culture
+2025-03-18 10:04:29 [main] INFO  TC-095_verifyPaymentFailsWithInsufficientFunds - Injected cookie: _ga_SCT41TW89V
+2025-03-18 10:04:30 [main] INFO  TC-095_verifyPaymentFailsWithInsufficientFunds - Page refreshed with bypassed cookies.
+2025-03-18 10:04:30 [main] INFO  TC-095_verifyPaymentFailsWithInsufficientFunds - Navigating to: https://demo.nopcommerce.com/login
+2025-03-18 10:04:34 [main] INFO  TC-095_verifyPaymentFailsWithInsufficientFunds - Login verified, proceeding with checkout process.
+2025-03-18 10:04:39 [main] INFO  TC-095_verifyPaymentFailsWithInsufficientFunds - Product successfully added to cart.
+2025-03-18 10:04:41 [main] INFO  TC-095_verifyPaymentFailsWithInsufficientFunds - Checkout page loaded successfully.
+2025-03-18 10:04:45 [main] INFO  TC-095_verifyPaymentFailsWithInsufficientFunds - Payment details entered.
+2025-03-18 10:04:46 [main] INFO  TC-095_verifyPaymentFailsWithInsufficientFunds - Order confirmed.
+2025-03-18 10:05:08 [main] ERROR TC-095_verifyPaymentFailsWithInsufficientFunds - Transaction was completed despite insufficient funds. Test failed!
+2025-03-18 10:05:08 [main] INFO  TC-095_verifyPaymentFailsWithInsufficientFunds - Closing the browser for test: verifyPaymentFailsWithInsufficientFunds
+2025-03-18 10:05:08 [main] INFO  TC-095_verifyPaymentFailsWithInsufficientFunds - Browser closed.

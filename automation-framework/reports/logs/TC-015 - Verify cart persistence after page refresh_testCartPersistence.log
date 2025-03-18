@@ -1,0 +1,20 @@
+2025-03-18 10:28:58 [main] INFO  TC-015 - Verify cart persistence after page refresh_testCartPersistence - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-03-18 10:28:58 [main] INFO  TC-015 - Verify cart persistence after page refresh_testCartPersistence - Logger initialized
+2025-03-18 10:28:58 [main] INFO  TC-015 - Verify cart persistence after page refresh_testCartPersistence - Starting test setup for: testCartPersistence (🔢 Test Case ID: TC-015 - Verify cart persistence after page refresh)
+2025-03-18 10:29:18 [main] INFO  TC-015 - Verify cart persistence after page refresh_testCartPersistence - Navigated to the site: https://demo.nopcommerce.com
+2025-03-18 10:29:18 [main] INFO  TC-015 - Verify cart persistence after page refresh_testCartPersistence - Injected cookie: _ga
+2025-03-18 10:29:18 [main] INFO  TC-015 - Verify cart persistence after page refresh_testCartPersistence - Injected cookie: cf_clearance
+2025-03-18 10:29:18 [main] INFO  TC-015 - Verify cart persistence after page refresh_testCartPersistence - Injected cookie: .Nop.Antiforgery
+2025-03-18 10:29:18 [main] INFO  TC-015 - Verify cart persistence after page refresh_testCartPersistence - Injected cookie: .Nop.Customer
+2025-03-18 10:29:18 [main] INFO  TC-015 - Verify cart persistence after page refresh_testCartPersistence - Injected cookie: .Nop.Culture
+2025-03-18 10:29:18 [main] INFO  TC-015 - Verify cart persistence after page refresh_testCartPersistence - Injected cookie: _ga_SCT41TW89V
+2025-03-18 10:29:18 [main] INFO  TC-015 - Verify cart persistence after page refresh_testCartPersistence - Page refreshed with bypassed cookies.
+2025-03-18 10:29:20 [main] INFO  TC-015 - Verify cart persistence after page refresh_testCartPersistence - Navigating to product page: https://demo.nopcommerce.com/adobe-photoshop
+2025-03-18 10:29:20 [main] INFO  TC-015 - Verify cart persistence after page refresh_testCartPersistence - Clicked 'Add to Cart' button.
+2025-03-18 10:29:20 [main] INFO  TC-015 - Verify cart persistence after page refresh_testCartPersistence - Product successfully added to cart.
+2025-03-18 10:29:20 [main] INFO  TC-015 - Verify cart persistence after page refresh_testCartPersistence - Cart quantity updated to: 1
+2025-03-18 10:29:21 [main] INFO  TC-015 - Verify cart persistence after page refresh_testCartPersistence - Page refreshed to check cart persistence.
+2025-03-18 10:29:21 [main] INFO  TC-015 - Verify cart persistence after page refresh_testCartPersistence - Cart persistence verified successfully after refresh.
+2025-03-18 10:29:21 [main] INFO  TC-015 - Verify cart persistence after page refresh_testCartPersistence - Closing the browser for test: testCartPersistence
+2025-03-18 10:29:21 [main] INFO  TC-015 - Verify cart persistence after page refresh_testCartPersistence - Browser closed.
