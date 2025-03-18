@@ -1,76 +1,38 @@
-2025-03-18 03:44:40 [main] INFO  TC-187_verifyOrderSummaryDisplaysCorrectInfo - 
+2025-03-18 13:07:01 [main] INFO  TC-187_verifyOrderSummaryDisplaysCorrectInfo - 
 ===================================================================================== NEW TEST RUN =====================================================================================
-2025-03-18 03:44:40 [main] INFO  TC-187_verifyOrderSummaryDisplaysCorrectInfo - Logger initialized and writing to: E:/Folder/Galal/Courses/Digital Egypt Pioneers Initiative (DEPI) - Software Testing/DEPI Software Tester Graduation Project/automation-framework/reports/logs/TC-187_verifyOrderSummaryDisplaysCorrectInfo.log
-2025-03-18 03:44:40 [main] INFO  TC-187_verifyOrderSummaryDisplaysCorrectInfo - Starting test setup for: verifyOrderSummaryDisplaysCorrectInfo (🔢 Test Case ID: TC-187)
-2025-03-18 03:44:57 [main] INFO  TC-187_verifyOrderSummaryDisplaysCorrectInfo - Navigated to the site: https://demo.nopcommerce.com
-2025-03-18 03:44:57 [main] INFO  TC-187_verifyOrderSummaryDisplaysCorrectInfo - Injected cookie: _ga
-2025-03-18 03:44:57 [main] INFO  TC-187_verifyOrderSummaryDisplaysCorrectInfo - Injected cookie: cf_clearance
-2025-03-18 03:44:57 [main] INFO  TC-187_verifyOrderSummaryDisplaysCorrectInfo - Injected cookie: .Nop.Antiforgery
-2025-03-18 03:44:57 [main] INFO  TC-187_verifyOrderSummaryDisplaysCorrectInfo - Injected cookie: .Nop.Customer
-2025-03-18 03:44:57 [main] INFO  TC-187_verifyOrderSummaryDisplaysCorrectInfo - Injected cookie: .Nop.Culture
-2025-03-18 03:44:57 [main] INFO  TC-187_verifyOrderSummaryDisplaysCorrectInfo - Injected cookie: _ga_SCT41TW89V
-2025-03-18 03:44:57 [main] INFO  TC-187_verifyOrderSummaryDisplaysCorrectInfo - Page refreshed with bypassed cookies.
-2025-03-18 03:44:57 [main] INFO  TC-187_verifyOrderSummaryDisplaysCorrectInfo - 🟢 Starting test: verifyOrderSummaryDisplaysCorrectInfo (🔢 Test Case ID: TC-187)
-2025-03-18 03:44:57 [main] INFO  TC-187_verifyOrderSummaryDisplaysCorrectInfo - Navigating to login page: https://demo.nopcommerce.com/login
-2025-03-18 03:44:59 [main] INFO  TC-187_verifyOrderSummaryDisplaysCorrectInfo - User logged in successfully.
-2025-03-18 03:44:59 [main] INFO  TC-187_verifyOrderSummaryDisplaysCorrectInfo - Navigating to cart page to check if it's empty: https://demo.nopcommerce.com/cart
-2025-03-18 03:45:00 [main] INFO  TC-187_verifyOrderSummaryDisplaysCorrectInfo - Cart is already empty. Skipping removal.
-2025-03-18 03:45:00 [main] INFO  TC-187_verifyOrderSummaryDisplaysCorrectInfo - Cart is now empty.
-2025-03-18 03:45:00 [main] INFO  TC-187_verifyOrderSummaryDisplaysCorrectInfo - Navigating to product page: https://demo.nopcommerce.com/apple-iphone-16-128gb
-2025-03-18 03:45:02 [main] INFO  TC-187_verifyOrderSummaryDisplaysCorrectInfo - Clicked 'Add to Cart' button.
-2025-03-18 03:45:02 [main] INFO  TC-187_verifyOrderSummaryDisplaysCorrectInfo - Product successfully added to cart.
-2025-03-18 03:45:02 [main] INFO  TC-187_verifyOrderSummaryDisplaysCorrectInfo - Navigating to cart page: https://demo.nopcommerce.com/cart
-2025-03-18 03:45:03 [main] INFO  TC-187_verifyOrderSummaryDisplaysCorrectInfo - Cart page loaded successfully.
-2025-03-18 03:45:03 [main] INFO  TC-187_verifyOrderSummaryDisplaysCorrectInfo - Accepted terms of service.
-2025-03-18 03:45:06 [main] INFO  TC-187_verifyOrderSummaryDisplaysCorrectInfo - Shipping method selected.
-2025-03-18 03:45:06 [main] INFO  TC-187_verifyOrderSummaryDisplaysCorrectInfo - Payment method selected.
-2025-03-18 03:45:07 [main] INFO  TC-187_verifyOrderSummaryDisplaysCorrectInfo - Payment details entered successfully.
-2025-03-18 03:45:07 [main] INFO  TC-187_verifyOrderSummaryDisplaysCorrectInfo - Order summary section is displayed.
-2025-03-18 03:45:07 [main] INFO  TC-187_verifyOrderSummaryDisplaysCorrectInfo - Product name matches in order summary: Apple iPhone 16 128GB
-2025-03-18 03:45:07 [main] INFO  TC-187_verifyOrderSummaryDisplaysCorrectInfo - Product price matches in order summary: $799.00
-2025-03-18 03:45:07 [main] INFO  TC-187_verifyOrderSummaryDisplaysCorrectInfo - Product quantity matches in order summary: 1
-2025-03-18 03:45:07 [main] INFO  TC-187_verifyOrderSummaryDisplaysCorrectInfo - Order subtotal matches in order summary: $799.00
-2025-03-18 03:45:07 [main] INFO  TC-187_verifyOrderSummaryDisplaysCorrectInfo - Shipping cost matches in order summary: $0.00
-2025-03-18 03:45:07 [main] INFO  TC-187_verifyOrderSummaryDisplaysCorrectInfo - Order total matches in order summary: $799.00
-2025-03-18 03:45:07 [main] INFO  TC-187_verifyOrderSummaryDisplaysCorrectInfo - "TC-187" Passed: Checkout page displays correct order summary
-2025-03-18 03:45:07 [main] INFO  listeners.TestListener - ✅ Test PASSED: verifyOrderSummaryDisplaysCorrectInfo (Duration: 9856ms)
-2025-03-18 03:45:07 [main] INFO  TC-187_verifyOrderSummaryDisplaysCorrectInfo - Closing the browser for test: verifyOrderSummaryDisplaysCorrectInfo
-2025-03-18 03:45:07 [main] INFO  TC-187_verifyOrderSummaryDisplaysCorrectInfo - Browser closed.
-2025-03-18 04:01:45 [main] INFO  TC-187_verifyOrderSummaryDisplaysCorrectInfo - 
-===================================================================================== NEW TEST RUN =====================================================================================
-2025-03-18 04:01:45 [main] INFO  TC-187_verifyOrderSummaryDisplaysCorrectInfo - Logger initialized and writing to: E:/Folder/Galal/Courses/Digital Egypt Pioneers Initiative (DEPI) - Software Testing/DEPI Software Tester Graduation Project/automation-framework/reports/logs/TC-187_verifyOrderSummaryDisplaysCorrectInfo.log
-2025-03-18 04:01:45 [main] INFO  TC-187_verifyOrderSummaryDisplaysCorrectInfo - Starting test setup for: verifyOrderSummaryDisplaysCorrectInfo (🔢 Test Case ID: TC-187)
-2025-03-18 04:02:02 [main] INFO  TC-187_verifyOrderSummaryDisplaysCorrectInfo - Navigated to the site: https://demo.nopcommerce.com
-2025-03-18 04:02:02 [main] INFO  TC-187_verifyOrderSummaryDisplaysCorrectInfo - Injected cookie: _ga
-2025-03-18 04:02:02 [main] INFO  TC-187_verifyOrderSummaryDisplaysCorrectInfo - Injected cookie: cf_clearance
-2025-03-18 04:02:02 [main] INFO  TC-187_verifyOrderSummaryDisplaysCorrectInfo - Injected cookie: .Nop.Antiforgery
-2025-03-18 04:02:02 [main] INFO  TC-187_verifyOrderSummaryDisplaysCorrectInfo - Injected cookie: .Nop.Customer
-2025-03-18 04:02:02 [main] INFO  TC-187_verifyOrderSummaryDisplaysCorrectInfo - Injected cookie: .Nop.Culture
-2025-03-18 04:02:02 [main] INFO  TC-187_verifyOrderSummaryDisplaysCorrectInfo - Injected cookie: _ga_SCT41TW89V
-2025-03-18 04:02:03 [main] INFO  TC-187_verifyOrderSummaryDisplaysCorrectInfo - Page refreshed with bypassed cookies.
-2025-03-18 04:02:03 [main] INFO  TC-187_verifyOrderSummaryDisplaysCorrectInfo - 🟢 Starting test: verifyOrderSummaryDisplaysCorrectInfo (🔢 Test Case ID: TC-187)
-2025-03-18 04:02:03 [main] INFO  TC-187_verifyOrderSummaryDisplaysCorrectInfo - Navigating to login page: https://demo.nopcommerce.com/login
-2025-03-18 04:02:05 [main] INFO  TC-187_verifyOrderSummaryDisplaysCorrectInfo - User logged in successfully.
-2025-03-18 04:02:05 [main] INFO  TC-187_verifyOrderSummaryDisplaysCorrectInfo - Navigating to cart page to check if it's empty: https://demo.nopcommerce.com/cart
-2025-03-18 04:02:05 [main] INFO  TC-187_verifyOrderSummaryDisplaysCorrectInfo - Cart is already empty. Skipping removal.
-2025-03-18 04:02:05 [main] INFO  TC-187_verifyOrderSummaryDisplaysCorrectInfo - Cart is now empty.
-2025-03-18 04:02:05 [main] INFO  TC-187_verifyOrderSummaryDisplaysCorrectInfo - Navigating to product page: https://demo.nopcommerce.com/apple-iphone-16-128gb
-2025-03-18 04:02:07 [main] INFO  TC-187_verifyOrderSummaryDisplaysCorrectInfo - Clicked 'Add to Cart' button.
-2025-03-18 04:02:08 [main] INFO  TC-187_verifyOrderSummaryDisplaysCorrectInfo - Product successfully added to cart.
-2025-03-18 04:02:08 [main] INFO  TC-187_verifyOrderSummaryDisplaysCorrectInfo - Navigating to cart page: https://demo.nopcommerce.com/cart
-2025-03-18 04:02:09 [main] INFO  TC-187_verifyOrderSummaryDisplaysCorrectInfo - Cart page loaded successfully.
-2025-03-18 04:02:09 [main] INFO  TC-187_verifyOrderSummaryDisplaysCorrectInfo - Accepted terms of service.
-2025-03-18 04:02:11 [main] INFO  TC-187_verifyOrderSummaryDisplaysCorrectInfo - Shipping method selected.
-2025-03-18 04:02:12 [main] INFO  TC-187_verifyOrderSummaryDisplaysCorrectInfo - Payment method selected.
-2025-03-18 04:02:12 [main] INFO  TC-187_verifyOrderSummaryDisplaysCorrectInfo - Payment details entered successfully.
-2025-03-18 04:02:13 [main] INFO  TC-187_verifyOrderSummaryDisplaysCorrectInfo - Order summary section is displayed.
-2025-03-18 04:02:13 [main] INFO  TC-187_verifyOrderSummaryDisplaysCorrectInfo - Product name matches in order summary: Apple iPhone 16 128GB
-2025-03-18 04:02:13 [main] INFO  TC-187_verifyOrderSummaryDisplaysCorrectInfo - Product price matches in order summary: $799.00
-2025-03-18 04:02:13 [main] INFO  TC-187_verifyOrderSummaryDisplaysCorrectInfo - Product quantity matches in order summary: 1
-2025-03-18 04:02:13 [main] INFO  TC-187_verifyOrderSummaryDisplaysCorrectInfo - Order subtotal matches in order summary: $799.00
-2025-03-18 04:02:13 [main] INFO  TC-187_verifyOrderSummaryDisplaysCorrectInfo - Shipping cost matches in order summary: $0.00
-2025-03-18 04:02:13 [main] INFO  TC-187_verifyOrderSummaryDisplaysCorrectInfo - Order total matches in order summary: $799.00
-2025-03-18 04:02:13 [main] INFO  TC-187_verifyOrderSummaryDisplaysCorrectInfo - "TC-187" Passed: Checkout page displays correct order summary
-2025-03-18 04:02:13 [main] INFO  listeners.TestListener - ✅ Test PASSED: verifyOrderSummaryDisplaysCorrectInfo (Duration: 9892ms)
-2025-03-18 04:02:13 [main] INFO  TC-187_verifyOrderSummaryDisplaysCorrectInfo - Closing the browser for test: verifyOrderSummaryDisplaysCorrectInfo
-2025-03-18 04:02:13 [main] INFO  TC-187_verifyOrderSummaryDisplaysCorrectInfo - Browser closed.
+2025-03-18 13:07:01 [main] INFO  TC-187_verifyOrderSummaryDisplaysCorrectInfo - Logger initialized
+2025-03-18 13:07:01 [main] INFO  TC-187_verifyOrderSummaryDisplaysCorrectInfo - Starting test setup for: verifyOrderSummaryDisplaysCorrectInfo (🔢 Test Case ID: TC-187)
+2025-03-18 13:07:22 [main] INFO  TC-187_verifyOrderSummaryDisplaysCorrectInfo - Navigated to the site: https://demo.nopcommerce.com
+2025-03-18 13:07:22 [main] INFO  TC-187_verifyOrderSummaryDisplaysCorrectInfo - Injected cookie: cf_clearance
+2025-03-18 13:07:22 [main] INFO  TC-187_verifyOrderSummaryDisplaysCorrectInfo - Injected cookie: _ga
+2025-03-18 13:07:22 [main] INFO  TC-187_verifyOrderSummaryDisplaysCorrectInfo - Injected cookie: .Nop.Antiforgery
+2025-03-18 13:07:22 [main] INFO  TC-187_verifyOrderSummaryDisplaysCorrectInfo - Injected cookie: .Nop.Customer
+2025-03-18 13:07:22 [main] INFO  TC-187_verifyOrderSummaryDisplaysCorrectInfo - Injected cookie: .Nop.Culture
+2025-03-18 13:07:22 [main] INFO  TC-187_verifyOrderSummaryDisplaysCorrectInfo - Injected cookie: _ga_SCT41TW89V
+2025-03-18 13:07:22 [main] INFO  TC-187_verifyOrderSummaryDisplaysCorrectInfo - Page refreshed with bypassed cookies.
+2025-03-18 13:07:22 [main] INFO  TC-187_verifyOrderSummaryDisplaysCorrectInfo - 🟢 Starting test: verifyOrderSummaryDisplaysCorrectInfo (🔢 Test Case ID: TC-187)
+2025-03-18 13:07:22 [main] INFO  TC-187_verifyOrderSummaryDisplaysCorrectInfo - Navigating to login page: https://demo.nopcommerce.com/login
+2025-03-18 13:07:28 [main] INFO  TC-187_verifyOrderSummaryDisplaysCorrectInfo - User logged in successfully.
+2025-03-18 13:07:28 [main] INFO  TC-187_verifyOrderSummaryDisplaysCorrectInfo - Navigating to cart page to check if it's empty: https://demo.nopcommerce.com/cart
+2025-03-18 13:07:31 [main] INFO  TC-187_verifyOrderSummaryDisplaysCorrectInfo - Cart is already empty. Skipping removal.
+2025-03-18 13:07:31 [main] INFO  TC-187_verifyOrderSummaryDisplaysCorrectInfo - Cart is now empty.
+2025-03-18 13:07:31 [main] INFO  TC-187_verifyOrderSummaryDisplaysCorrectInfo - Navigating to product page: https://demo.nopcommerce.com/apple-iphone-16-128gb
+2025-03-18 13:07:37 [main] INFO  TC-187_verifyOrderSummaryDisplaysCorrectInfo - Clicked 'Add to Cart' button.
+2025-03-18 13:07:39 [main] INFO  TC-187_verifyOrderSummaryDisplaysCorrectInfo - Product successfully added to cart.
+2025-03-18 13:07:39 [main] INFO  TC-187_verifyOrderSummaryDisplaysCorrectInfo - Navigating to cart page: https://demo.nopcommerce.com/cart
+2025-03-18 13:07:41 [main] INFO  TC-187_verifyOrderSummaryDisplaysCorrectInfo - Cart page loaded successfully.
+2025-03-18 13:07:44 [main] INFO  TC-187_verifyOrderSummaryDisplaysCorrectInfo - Accepted terms of service.
+2025-03-18 13:07:49 [main] INFO  TC-187_verifyOrderSummaryDisplaysCorrectInfo - Shipping method selected.
+2025-03-18 13:07:51 [main] INFO  TC-187_verifyOrderSummaryDisplaysCorrectInfo - Payment method selected.
+2025-03-18 13:07:52 [main] INFO  TC-187_verifyOrderSummaryDisplaysCorrectInfo - Payment details entered successfully.
+2025-03-18 13:07:54 [main] INFO  TC-187_verifyOrderSummaryDisplaysCorrectInfo - Order summary section is displayed.
+2025-03-18 13:07:54 [main] INFO  TC-187_verifyOrderSummaryDisplaysCorrectInfo - Product name matches in order summary: Apple iPhone 16 128GB
+2025-03-18 13:07:54 [main] INFO  TC-187_verifyOrderSummaryDisplaysCorrectInfo - Product price matches in order summary: $799.00
+2025-03-18 13:07:54 [main] INFO  TC-187_verifyOrderSummaryDisplaysCorrectInfo - Product quantity matches in order summary: 1
+2025-03-18 13:07:54 [main] INFO  TC-187_verifyOrderSummaryDisplaysCorrectInfo - Order subtotal matches in order summary: $799.00
+2025-03-18 13:07:54 [main] INFO  TC-187_verifyOrderSummaryDisplaysCorrectInfo - Shipping cost matches in order summary: $0.00
+2025-03-18 13:07:54 [main] INFO  TC-187_verifyOrderSummaryDisplaysCorrectInfo - Order total matches in order summary: $799.00
+2025-03-18 13:07:54 [main] INFO  TC-187_verifyOrderSummaryDisplaysCorrectInfo - "TC-187" Passed: Checkout page displays correct order summary
+2025-03-18 13:07:54 [main] INFO  listeners.TestListener - ✅ Test PASSED: verifyOrderSummaryDisplaysCorrectInfo (Duration: 31815ms)
+2025-03-18 13:07:54 [main] INFO  TC-187_verifyOrderSummaryDisplaysCorrectInfo - Closing the browser for test: verifyOrderSummaryDisplaysCorrectInfo
+2025-03-18 13:07:54 [main] INFO  TC-187_verifyOrderSummaryDisplaysCorrectInfo - Browser closed.

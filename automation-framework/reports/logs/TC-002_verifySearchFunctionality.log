@@ -1,113 +1,18 @@
-2025-03-18 03:51:06 [main] INFO  TC-002_verifySearchFunctionality - 
+2025-03-18 13:21:29 [main] INFO  TC-002_verifySearchFunctionality - 
 ===================================================================================== NEW TEST RUN =====================================================================================
-2025-03-18 03:51:06 [main] INFO  TC-002_verifySearchFunctionality - Logger initialized and writing to: E:/Folder/Galal/Courses/Digital Egypt Pioneers Initiative (DEPI) - Software Testing/DEPI Software Tester Graduation Project/automation-framework/reports/logs/TC-002_verifySearchFunctionality.log
-2025-03-18 03:51:06 [main] INFO  TC-002_verifySearchFunctionality - Starting test setup for: verifySearchFunctionality (🔢 Test Case ID: TC-002)
-2025-03-18 03:51:23 [main] INFO  TC-002_verifySearchFunctionality - Navigated to the site: https://demo.nopcommerce.com
-2025-03-18 03:51:23 [main] INFO  TC-002_verifySearchFunctionality - Injected cookie: _ga
-2025-03-18 03:51:23 [main] INFO  TC-002_verifySearchFunctionality - Injected cookie: cf_clearance
-2025-03-18 03:51:23 [main] INFO  TC-002_verifySearchFunctionality - Injected cookie: .Nop.Antiforgery
-2025-03-18 03:51:23 [main] INFO  TC-002_verifySearchFunctionality - Injected cookie: .Nop.Customer
-2025-03-18 03:51:23 [main] INFO  TC-002_verifySearchFunctionality - Injected cookie: .Nop.Culture
-2025-03-18 03:51:23 [main] INFO  TC-002_verifySearchFunctionality - Injected cookie: _ga_SCT41TW89V
-2025-03-18 03:51:24 [main] INFO  TC-002_verifySearchFunctionality - Page refreshed with bypassed cookies.
-2025-03-18 03:51:24 [main] INFO  TC-002_verifySearchFunctionality - 🟢 Starting test: verifySearchFunctionality (🔢 Test Case ID: TC-002)
-2025-03-18 03:51:24 [main] INFO  TC-002_verifySearchFunctionality - Navigating to: https://demo.nopcommerce.com/
-2025-03-18 03:51:25 [main] INFO  TC-002_verifySearchFunctionality - Search functionality verified successfully.
-2025-03-18 03:51:25 [main] INFO  listeners.TestListener - ✅ Test PASSED: verifySearchFunctionality (Duration: 1688ms)
-2025-03-18 03:51:25 [main] INFO  TC-002_verifySearchFunctionality - Closing the browser for test: verifySearchFunctionality
-2025-03-18 03:51:25 [main] INFO  TC-002_verifySearchFunctionality - Browser closed.
-2025-03-18 04:08:05 [main] INFO  TC-002_verifySearchFunctionality - 
-===================================================================================== NEW TEST RUN =====================================================================================
-2025-03-18 04:08:05 [main] INFO  TC-002_verifySearchFunctionality - Logger initialized and writing to: E:/Folder/Galal/Courses/Digital Egypt Pioneers Initiative (DEPI) - Software Testing/DEPI Software Tester Graduation Project/automation-framework/reports/logs/TC-002_verifySearchFunctionality.log
-2025-03-18 04:08:05 [main] INFO  TC-002_verifySearchFunctionality - Starting test setup for: verifySearchFunctionality (🔢 Test Case ID: TC-002)
-2025-03-18 04:08:22 [main] INFO  TC-002_verifySearchFunctionality - Navigated to the site: https://demo.nopcommerce.com
-2025-03-18 04:08:22 [main] INFO  TC-002_verifySearchFunctionality - Injected cookie: _ga
-2025-03-18 04:08:22 [main] INFO  TC-002_verifySearchFunctionality - Injected cookie: cf_clearance
-2025-03-18 04:08:22 [main] INFO  TC-002_verifySearchFunctionality - Injected cookie: .Nop.Antiforgery
-2025-03-18 04:08:22 [main] INFO  TC-002_verifySearchFunctionality - Injected cookie: .Nop.Customer
-2025-03-18 04:08:22 [main] INFO  TC-002_verifySearchFunctionality - Injected cookie: .Nop.Culture
-2025-03-18 04:08:22 [main] INFO  TC-002_verifySearchFunctionality - Injected cookie: _ga_SCT41TW89V
-2025-03-18 04:08:23 [main] INFO  TC-002_verifySearchFunctionality - Page refreshed with bypassed cookies.
-2025-03-18 04:08:23 [main] INFO  TC-002_verifySearchFunctionality - 🟢 Starting test: verifySearchFunctionality (🔢 Test Case ID: TC-002)
-2025-03-18 04:08:23 [main] INFO  TC-002_verifySearchFunctionality - Navigating to: https://demo.nopcommerce.com/
-2025-03-18 04:08:24 [main] INFO  TC-002_verifySearchFunctionality - Search functionality verified successfully.
-2025-03-18 04:08:24 [main] INFO  listeners.TestListener - ✅ Test PASSED: verifySearchFunctionality (Duration: 1715ms)
-2025-03-18 04:08:24 [main] INFO  TC-002_verifySearchFunctionality - Closing the browser for test: verifySearchFunctionality
-2025-03-18 04:08:25 [main] INFO  TC-002_verifySearchFunctionality - Browser closed.
-2025-03-18 05:24:02 [main] INFO  TC-002_verifySearchFunctionality - 
-===================================================================================== NEW TEST RUN =====================================================================================
-2025-03-18 05:24:02 [main] INFO  TC-002_verifySearchFunctionality - Logger initialized
-2025-03-18 05:24:02 [main] INFO  TC-002_verifySearchFunctionality - Starting test setup for: verifySearchFunctionality (🔢 Test Case ID: TC-002)
-2025-03-18 05:24:19 [main] INFO  TC-002_verifySearchFunctionality - Navigated to the site: https://demo.nopcommerce.com
-2025-03-18 05:24:19 [main] INFO  TC-002_verifySearchFunctionality - Injected cookie: cf_clearance
-2025-03-18 05:24:19 [main] INFO  TC-002_verifySearchFunctionality - Injected cookie: _ga
-2025-03-18 05:24:19 [main] INFO  TC-002_verifySearchFunctionality - Injected cookie: .Nop.Antiforgery
-2025-03-18 05:24:19 [main] INFO  TC-002_verifySearchFunctionality - Injected cookie: .Nop.Customer
-2025-03-18 05:24:19 [main] INFO  TC-002_verifySearchFunctionality - Injected cookie: .Nop.Culture
-2025-03-18 05:24:19 [main] INFO  TC-002_verifySearchFunctionality - Injected cookie: _ga_SCT41TW89V
-2025-03-18 05:24:19 [main] INFO  TC-002_verifySearchFunctionality - Page refreshed with bypassed cookies.
-2025-03-18 05:24:19 [main] INFO  TC-002_verifySearchFunctionality - Navigating to: https://demo.nopcommerce.com/
-2025-03-18 05:24:20 [main] INFO  TC-002_verifySearchFunctionality - Closing the browser for test: verifySearchFunctionality
-2025-03-18 05:24:20 [main] INFO  TC-002_verifySearchFunctionality - Browser closed.
-2025-03-18 05:32:56 [main] INFO  TC-002_verifySearchFunctionality - 
-===================================================================================== NEW TEST RUN =====================================================================================
-2025-03-18 05:32:56 [main] INFO  TC-002_verifySearchFunctionality - Logger initialized
-2025-03-18 05:32:56 [main] INFO  TC-002_verifySearchFunctionality - Starting test setup for: verifySearchFunctionality (🔢 Test Case ID: TC-002)
-2025-03-18 05:33:14 [main] INFO  TC-002_verifySearchFunctionality - Navigated to the site: https://demo.nopcommerce.com
-2025-03-18 05:33:14 [main] INFO  TC-002_verifySearchFunctionality - Injected cookie: cf_clearance
-2025-03-18 05:33:14 [main] INFO  TC-002_verifySearchFunctionality - Injected cookie: _ga
-2025-03-18 05:33:14 [main] INFO  TC-002_verifySearchFunctionality - Injected cookie: .Nop.Antiforgery
-2025-03-18 05:33:14 [main] INFO  TC-002_verifySearchFunctionality - Injected cookie: .Nop.Customer
-2025-03-18 05:33:14 [main] INFO  TC-002_verifySearchFunctionality - Injected cookie: .Nop.Culture
-2025-03-18 05:33:14 [main] INFO  TC-002_verifySearchFunctionality - Injected cookie: _ga_SCT41TW89V
-2025-03-18 05:33:14 [main] INFO  TC-002_verifySearchFunctionality - Page refreshed with bypassed cookies.
-2025-03-18 05:33:14 [main] INFO  TC-002_verifySearchFunctionality - Navigating to: https://demo.nopcommerce.com/
-2025-03-18 05:33:15 [main] INFO  TC-002_verifySearchFunctionality - Closing the browser for test: verifySearchFunctionality
-2025-03-18 05:33:15 [main] INFO  TC-002_verifySearchFunctionality - Browser closed.
-2025-03-18 05:34:49 [main] INFO  TC-002_verifySearchFunctionality - 
-===================================================================================== NEW TEST RUN =====================================================================================
-2025-03-18 05:34:49 [main] INFO  TC-002_verifySearchFunctionality - Logger initialized
-2025-03-18 05:34:49 [main] INFO  TC-002_verifySearchFunctionality - Starting test setup for: verifySearchFunctionality (🔢 Test Case ID: TC-002)
-2025-03-18 05:35:07 [main] INFO  TC-002_verifySearchFunctionality - Navigated to the site: https://demo.nopcommerce.com
-2025-03-18 05:35:07 [main] INFO  TC-002_verifySearchFunctionality - Injected cookie: cf_clearance
-2025-03-18 05:35:07 [main] INFO  TC-002_verifySearchFunctionality - Injected cookie: _ga
-2025-03-18 05:35:07 [main] INFO  TC-002_verifySearchFunctionality - Injected cookie: .Nop.Antiforgery
-2025-03-18 05:35:07 [main] INFO  TC-002_verifySearchFunctionality - Injected cookie: .Nop.Customer
-2025-03-18 05:35:07 [main] INFO  TC-002_verifySearchFunctionality - Injected cookie: .Nop.Culture
-2025-03-18 05:35:07 [main] INFO  TC-002_verifySearchFunctionality - Injected cookie: _ga_SCT41TW89V
-2025-03-18 05:35:07 [main] INFO  TC-002_verifySearchFunctionality - Page refreshed with bypassed cookies.
-2025-03-18 05:35:07 [main] INFO  TC-002_verifySearchFunctionality - Navigating to: https://demo.nopcommerce.com/
-2025-03-18 05:35:13 [main] INFO  TC-002_verifySearchFunctionality - Closing the browser for test: verifySearchFunctionality
-2025-03-18 05:35:13 [main] INFO  TC-002_verifySearchFunctionality - Browser closed.
-2025-03-18 05:39:25 [main] INFO  TC-002_verifySearchFunctionality - 
-===================================================================================== NEW TEST RUN =====================================================================================
-2025-03-18 05:39:25 [main] INFO  TC-002_verifySearchFunctionality - Logger initialized
-2025-03-18 05:39:25 [main] INFO  TC-002_verifySearchFunctionality - Starting test setup for: verifySearchFunctionality (🔢 Test Case ID: TC-002)
-2025-03-18 05:39:43 [main] INFO  TC-002_verifySearchFunctionality - Navigated to the site: https://demo.nopcommerce.com
-2025-03-18 05:39:43 [main] INFO  TC-002_verifySearchFunctionality - Injected cookie: cf_clearance
-2025-03-18 05:39:43 [main] INFO  TC-002_verifySearchFunctionality - Injected cookie: _ga
-2025-03-18 05:39:43 [main] INFO  TC-002_verifySearchFunctionality - Injected cookie: .Nop.Antiforgery
-2025-03-18 05:39:43 [main] INFO  TC-002_verifySearchFunctionality - Injected cookie: .Nop.Customer
-2025-03-18 05:39:43 [main] INFO  TC-002_verifySearchFunctionality - Injected cookie: .Nop.Culture
-2025-03-18 05:39:43 [main] INFO  TC-002_verifySearchFunctionality - Injected cookie: _ga_SCT41TW89V
-2025-03-18 05:39:44 [main] INFO  TC-002_verifySearchFunctionality - Page refreshed with bypassed cookies.
-2025-03-18 05:39:44 [main] INFO  TC-002_verifySearchFunctionality - Navigating to: https://demo.nopcommerce.com/
-2025-03-18 05:39:46 [main] INFO  TC-002_verifySearchFunctionality - Search functionality verified successfully.
-2025-03-18 05:39:46 [main] INFO  TC-002_verifySearchFunctionality - Closing the browser for test: verifySearchFunctionality
-2025-03-18 05:39:46 [main] INFO  TC-002_verifySearchFunctionality - Browser closed.
-2025-03-18 05:43:12 [main] INFO  TC-002_verifySearchFunctionality - 
-===================================================================================== NEW TEST RUN =====================================================================================
-2025-03-18 05:43:12 [main] INFO  TC-002_verifySearchFunctionality - Logger initialized
-2025-03-18 05:43:12 [main] INFO  TC-002_verifySearchFunctionality - Starting test setup for: verifySearchFunctionality (🔢 Test Case ID: TC-002)
-2025-03-18 05:43:28 [main] INFO  TC-002_verifySearchFunctionality - Navigated to the site: https://demo.nopcommerce.com
-2025-03-18 05:43:28 [main] INFO  TC-002_verifySearchFunctionality - Injected cookie: cf_clearance
-2025-03-18 05:43:28 [main] INFO  TC-002_verifySearchFunctionality - Injected cookie: _ga
-2025-03-18 05:43:28 [main] INFO  TC-002_verifySearchFunctionality - Injected cookie: .Nop.Antiforgery
-2025-03-18 05:43:28 [main] INFO  TC-002_verifySearchFunctionality - Injected cookie: .Nop.Customer
-2025-03-18 05:43:28 [main] INFO  TC-002_verifySearchFunctionality - Injected cookie: .Nop.Culture
-2025-03-18 05:43:28 [main] INFO  TC-002_verifySearchFunctionality - Injected cookie: _ga_SCT41TW89V
-2025-03-18 05:43:29 [main] INFO  TC-002_verifySearchFunctionality - Page refreshed with bypassed cookies.
-2025-03-18 05:43:29 [main] INFO  TC-002_verifySearchFunctionality - Navigating to: https://demo.nopcommerce.com/
-2025-03-18 05:43:30 [main] INFO  TC-002_verifySearchFunctionality - Search functionality verified successfully.
-2025-03-18 05:43:30 [main] INFO  TC-002_verifySearchFunctionality - Closing the browser for test: verifySearchFunctionality
-2025-03-18 05:43:31 [main] INFO  TC-002_verifySearchFunctionality - Browser closed.
+2025-03-18 13:21:29 [main] INFO  TC-002_verifySearchFunctionality - Logger initialized
+2025-03-18 13:21:29 [main] INFO  TC-002_verifySearchFunctionality - Starting test setup for: verifySearchFunctionality (🔢 Test Case ID: TC-002)
+2025-03-18 13:21:50 [main] INFO  TC-002_verifySearchFunctionality - Navigated to the site: https://demo.nopcommerce.com
+2025-03-18 13:21:50 [main] INFO  TC-002_verifySearchFunctionality - Injected cookie: cf_clearance
+2025-03-18 13:21:50 [main] INFO  TC-002_verifySearchFunctionality - Injected cookie: _ga
+2025-03-18 13:21:50 [main] INFO  TC-002_verifySearchFunctionality - Injected cookie: .Nop.Antiforgery
+2025-03-18 13:21:50 [main] INFO  TC-002_verifySearchFunctionality - Injected cookie: .Nop.Customer
+2025-03-18 13:21:50 [main] INFO  TC-002_verifySearchFunctionality - Injected cookie: .Nop.Culture
+2025-03-18 13:21:50 [main] INFO  TC-002_verifySearchFunctionality - Injected cookie: _ga_SCT41TW89V
+2025-03-18 13:21:51 [main] INFO  TC-002_verifySearchFunctionality - Page refreshed with bypassed cookies.
+2025-03-18 13:21:51 [main] INFO  TC-002_verifySearchFunctionality - 🟢 Starting test: verifySearchFunctionality (🔢 Test Case ID: TC-002)
+2025-03-18 13:21:51 [main] INFO  TC-002_verifySearchFunctionality - Navigating to: https://demo.nopcommerce.com/
+2025-03-18 13:21:56 [main] INFO  TC-002_verifySearchFunctionality - Search functionality verified successfully.
+2025-03-18 13:21:56 [main] INFO  listeners.TestListener - ✅ Test PASSED: verifySearchFunctionality (Duration: 5194ms)
+2025-03-18 13:21:56 [main] INFO  TC-002_verifySearchFunctionality - Closing the browser for test: verifySearchFunctionality
+2025-03-18 13:21:56 [main] INFO  TC-002_verifySearchFunctionality - Browser closed.

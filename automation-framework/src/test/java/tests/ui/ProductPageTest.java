@@ -44,6 +44,7 @@ public class ProductPageTest extends BaseTest {
         List<String> selectedOptions = new ArrayList<>();
 
         // Select Processor
+        SeleniumHelper.realisticDelay();
         WebElement processorDropdown = wait.until(ExpectedConditions.elementToBeClickable(By.id("product_attribute_1")));
         helper.scrollToElement(processorDropdown);
         helper.realisticDelay();
@@ -99,10 +100,12 @@ public class ProductPageTest extends BaseTest {
         logger.info("Product added to the cart successfully.");
 
         // Open the Cart
+        SeleniumHelper.realisticDelay();
         WebElement cartLink = wait.until(ExpectedConditions.elementToBeClickable(By.linkText("Shopping cart")));
         cartLink.click();
 
         // Wait for the cart table to be visible
+        SeleniumHelper.realisticDelay();
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector(".table-wrapper")));
 
         // Find all rows inside the cart table
@@ -146,13 +149,14 @@ public class ProductPageTest extends BaseTest {
     }
 
     @Test(groups = {"smoke"}, description = "TC-003")
-    public void verifyProductPageLoadsCorrectly() {
+    public void verifyProductPageLoadsCorrectly() throws InterruptedException {
         logger.info("Navigating to: " + url);
         driver.get(url);
 
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(5));
 
         // Locate the search bar and input a search term
+        SeleniumHelper.realisticDelay();
         WebElement searchBox = wait.until(ExpectedConditions.elementToBeClickable(By.id("small-searchterms")));
         searchBox.sendKeys("Laptop");
 
@@ -161,6 +165,7 @@ public class ProductPageTest extends BaseTest {
         searchButton.click();
 
         // Wait for search results to load
+        SeleniumHelper.realisticDelay();
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector(".search-results")));
 
         // Verify search results are displayed
@@ -171,13 +176,14 @@ public class ProductPageTest extends BaseTest {
     }
 
     @Test(groups = {"ui"}, description = "TC-063")
-    public void verifyRelatedProductsAreDisplayed() {
+    public void verifyRelatedProductsAreDisplayed() throws InterruptedException {
         logger.info("Navigating to: " + url);
         driver.get(url);
 
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(20));  // Increased timeout to 20 seconds
 
         // Search for a product
+        SeleniumHelper.realisticDelay();
         WebElement searchBox = wait.until(ExpectedConditions.elementToBeClickable(By.id("small-searchterms")));
         searchBox.sendKeys("Build your own computer");
 
@@ -186,19 +192,24 @@ public class ProductPageTest extends BaseTest {
         searchButton.click();
 
         // Wait for search results to load
+        SeleniumHelper.realisticDelay();
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector(".search-results")));
 
         // Click on the first product link
-        WebElement firstProduct = driver.findElement(By.cssSelector(".product-grid .product-item .product-title"));
+        SeleniumHelper.realisticDelay();
+        SeleniumHelper.realisticDelay();
+        WebElement firstProduct = driver.findElement(By.cssSelector(".item-box .product-title a"));
         firstProduct.click();
 
         // Wait for the product page to load
+        SeleniumHelper.realisticDelay();
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector(".product-essential")));
 
         // Log to check if the page has loaded correctly
         logger.info("Product page loaded successfully.");
 
         // Verify the Related Products section exists
+        SeleniumHelper.realisticDelay();
         WebElement relatedProductsSection = wait.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector(".item-grid")));
         Assert.assertTrue(relatedProductsSection.isDisplayed(), "Related products section is NOT displayed!");
 
@@ -220,7 +231,7 @@ public class ProductPageTest extends BaseTest {
     }
 
     @Test(groups = {"ui"}, description = "TC-179")
-    public void verifyProductImageGallery() {
+    public void verifyProductImageGallery() throws InterruptedException {
         logger.info("Navigating to: " + url);
         driver.get(url);
 
@@ -228,6 +239,7 @@ public class ProductPageTest extends BaseTest {
         JavascriptExecutor js = (JavascriptExecutor) driver;
 
         // Search for a product
+        SeleniumHelper.realisticDelay();
         WebElement searchBox = wait.until(ExpectedConditions.elementToBeClickable(By.id("small-searchterms")));
         searchBox.sendKeys("Build your own computer");
 
@@ -236,13 +248,16 @@ public class ProductPageTest extends BaseTest {
         searchButton.click();
 
         // Wait for search results to load
+        SeleniumHelper.realisticDelay();
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector(".search-results")));
 
         // Click on the first product link
-        WebElement firstProduct = driver.findElement(By.cssSelector(".product-grid .product-item .product-title"));
+        SeleniumHelper.realisticDelay();
+        WebElement firstProduct = driver.findElement(By.cssSelector(".item-box .product-title a"));
         firstProduct.click();
 
         // Wait for the product page to load
+        SeleniumHelper.realisticDelay();
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector(".product-essential")));
 
         // Locate main product image and thumbnails
@@ -259,6 +274,7 @@ public class ProductPageTest extends BaseTest {
         System.out.println("Before click: " + mainProductImage.getAttribute("src"));
 
         // Wait for the image to update
+        SeleniumHelper.realisticDelay();
         wait.until(ExpectedConditions.attributeContains(mainProductImage, "src", "_550.jpeg"));
 
         // Debugging
@@ -274,13 +290,14 @@ public class ProductPageTest extends BaseTest {
     }
 
     @Test(groups = {"ui"}, description = "TC-180")
-    public void verifyProductReviewsAreDisplayed() {
+    public void verifyProductReviewsAreDisplayed() throws InterruptedException {
         logger.info("Navigating to: " + url);
         driver.get(url);
 
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(20));
 
         // Search for a product
+        SeleniumHelper.realisticDelay();
         WebElement searchBox = wait.until(ExpectedConditions.elementToBeClickable(By.id("small-searchterms")));
         searchBox.sendKeys("Build your own computer");
 
@@ -289,19 +306,23 @@ public class ProductPageTest extends BaseTest {
         searchButton.click();
 
         // Wait for search results to load
+        SeleniumHelper.realisticDelay();
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector(".search-results")));
 
         // Click on the first product link
-        WebElement firstProduct = driver.findElement(By.cssSelector(".product-grid .product-item .product-title"));
+        SeleniumHelper.realisticDelay();
+        WebElement firstProduct = driver.findElement(By.cssSelector(".item-box .product-title a"));
         firstProduct.click();
 
         // Wait for the product page to load
+        SeleniumHelper.realisticDelay();
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector(".product-essential")));
 
         // Log to check if the page has loaded correctly
         logger.info("Product page loaded successfully.");
 
         // Scroll to the review section
+        SeleniumHelper.realisticDelay();
         WebElement reviewsSection = wait.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector(".product-review-list")));
 
         // Verify if the review section is displayed
@@ -379,6 +400,7 @@ public class ProductPageTest extends BaseTest {
         helper.randomDelay();
 
         // Step 4: Verify Compare List Page
+        SeleniumHelper.realisticDelay();
         WebElement compareTitle = wait.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector(".page-title h1")));
         Assert.assertEquals(compareTitle.getText(), "Compare products", "Compare page title is incorrect!");
 

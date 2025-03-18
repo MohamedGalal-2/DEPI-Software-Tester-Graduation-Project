@@ -1,0 +1,23 @@
+2025-03-18 13:12:50 [main] INFO  TC-082_verifyPaymentViaCreditCard - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-03-18 13:12:50 [main] INFO  TC-082_verifyPaymentViaCreditCard - Logger initialized
+2025-03-18 13:12:50 [main] INFO  TC-082_verifyPaymentViaCreditCard - Starting test setup for: verifyPaymentViaCreditCard (🔢 Test Case ID: TC-082)
+2025-03-18 13:13:11 [main] INFO  TC-082_verifyPaymentViaCreditCard - Navigated to the site: https://demo.nopcommerce.com
+2025-03-18 13:13:11 [main] INFO  TC-082_verifyPaymentViaCreditCard - Injected cookie: cf_clearance
+2025-03-18 13:13:11 [main] INFO  TC-082_verifyPaymentViaCreditCard - Injected cookie: _ga
+2025-03-18 13:13:11 [main] INFO  TC-082_verifyPaymentViaCreditCard - Injected cookie: .Nop.Antiforgery
+2025-03-18 13:13:11 [main] INFO  TC-082_verifyPaymentViaCreditCard - Injected cookie: .Nop.Customer
+2025-03-18 13:13:11 [main] INFO  TC-082_verifyPaymentViaCreditCard - Injected cookie: .Nop.Culture
+2025-03-18 13:13:11 [main] INFO  TC-082_verifyPaymentViaCreditCard - Injected cookie: _ga_SCT41TW89V
+2025-03-18 13:13:12 [main] INFO  TC-082_verifyPaymentViaCreditCard - Page refreshed with bypassed cookies.
+2025-03-18 13:13:12 [main] INFO  TC-082_verifyPaymentViaCreditCard - 🟢 Starting test: verifyPaymentViaCreditCard (🔢 Test Case ID: TC-082)
+2025-03-18 13:13:12 [main] INFO  TC-082_verifyPaymentViaCreditCard - Navigating to: https://demo.nopcommerce.com/login
+2025-03-18 13:13:20 [main] INFO  TC-082_verifyPaymentViaCreditCard - Login verified, proceeding with checkout process.
+2025-03-18 13:13:27 [main] INFO  TC-082_verifyPaymentViaCreditCard - Product successfully added to cart.
+2025-03-18 13:13:34 [main] INFO  TC-082_verifyPaymentViaCreditCard - Checkout page loaded successfully.
+2025-03-18 13:13:41 [main] INFO  TC-082_verifyPaymentViaCreditCard - Payment details entered.
+2025-03-18 13:13:44 [main] INFO  TC-082_verifyPaymentViaCreditCard - Order confirmed.
+2025-03-18 13:13:45 [main] INFO  TC-082_verifyPaymentViaCreditCard - Order successfully placed. Payment via Credit Card successful!
+2025-03-18 13:13:45 [main] INFO  listeners.TestListener - ✅ Test PASSED: verifyPaymentViaCreditCard (Duration: 32959ms)
+2025-03-18 13:13:45 [main] INFO  TC-082_verifyPaymentViaCreditCard - Closing the browser for test: verifyPaymentViaCreditCard
+2025-03-18 13:13:45 [main] INFO  TC-082_verifyPaymentViaCreditCard - Browser closed.

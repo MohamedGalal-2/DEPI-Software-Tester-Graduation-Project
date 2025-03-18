@@ -39,8 +39,8 @@ public class HomePageTest extends BaseTest {
                 "Homepage title is incorrect!");
     }
 
-    @Test
-    public void verifyHeaderLinks() {
+    @Test(groups = {"ui"}, description = "TC-342")
+    public void verifyHeaderLinks() throws InterruptedException {
         logger.info("Navigating to: " + url);
         driver.get(url);
 
@@ -64,10 +64,13 @@ public class HomePageTest extends BaseTest {
 
             logger.info("Verifying " + linkName + " link...");
 
+            SeleniumHelper.realisticDelay();
             WebElement link = wait.until(ExpectedConditions.elementToBeClickable(locator));
             Assert.assertTrue(link.isDisplayed(), linkName + " link is not displayed!");
 
             link.click();
+
+            SeleniumHelper.realisticDelay();
             wait.until(ExpectedConditions.stalenessOf(link));
 
             List<WebElement> pageElements = driver.findElements(By.cssSelector("body *"));

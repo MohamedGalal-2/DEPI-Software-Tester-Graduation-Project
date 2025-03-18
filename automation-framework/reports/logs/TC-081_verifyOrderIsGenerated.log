@@ -1,60 +1,30 @@
-2025-03-18 03:44:12 [main] INFO  TC-081_verifyOrderIsGenerated - 
+2025-03-18 13:06:10 [main] INFO  TC-081_verifyOrderIsGenerated - 
 ===================================================================================== NEW TEST RUN =====================================================================================
-2025-03-18 03:44:12 [main] INFO  TC-081_verifyOrderIsGenerated - Logger initialized and writing to: E:/Folder/Galal/Courses/Digital Egypt Pioneers Initiative (DEPI) - Software Testing/DEPI Software Tester Graduation Project/automation-framework/reports/logs/TC-081_verifyOrderIsGenerated.log
-2025-03-18 03:44:12 [main] INFO  TC-081_verifyOrderIsGenerated - Starting test setup for: verifyOrderIsGenerated (🔢 Test Case ID: TC-081)
-2025-03-18 03:44:29 [main] INFO  TC-081_verifyOrderIsGenerated - Navigated to the site: https://demo.nopcommerce.com
-2025-03-18 03:44:29 [main] INFO  TC-081_verifyOrderIsGenerated - Injected cookie: _ga
-2025-03-18 03:44:29 [main] INFO  TC-081_verifyOrderIsGenerated - Injected cookie: cf_clearance
-2025-03-18 03:44:29 [main] INFO  TC-081_verifyOrderIsGenerated - Injected cookie: .Nop.Antiforgery
-2025-03-18 03:44:29 [main] INFO  TC-081_verifyOrderIsGenerated - Injected cookie: .Nop.Customer
-2025-03-18 03:44:29 [main] INFO  TC-081_verifyOrderIsGenerated - Injected cookie: .Nop.Culture
-2025-03-18 03:44:29 [main] INFO  TC-081_verifyOrderIsGenerated - Injected cookie: _ga_SCT41TW89V
-2025-03-18 03:44:30 [main] INFO  TC-081_verifyOrderIsGenerated - Page refreshed with bypassed cookies.
-2025-03-18 03:44:30 [main] INFO  TC-081_verifyOrderIsGenerated - 🟢 Starting test: verifyOrderIsGenerated (🔢 Test Case ID: TC-081)
-2025-03-18 03:44:30 [main] INFO  TC-081_verifyOrderIsGenerated - Navigating to login page: https://demo.nopcommerce.com/login
-2025-03-18 03:44:32 [main] INFO  TC-081_verifyOrderIsGenerated - User logged in successfully.
-2025-03-18 03:44:32 [main] INFO  TC-081_verifyOrderIsGenerated - Navigating to product page: https://demo.nopcommerce.com/adobe-photoshop
-2025-03-18 03:44:33 [main] INFO  TC-081_verifyOrderIsGenerated - Clicked 'Add to Cart' button.
-2025-03-18 03:44:33 [main] INFO  TC-081_verifyOrderIsGenerated - Product successfully added to cart.
-2025-03-18 03:44:33 [main] INFO  TC-081_verifyOrderIsGenerated - Navigating to cart page: https://demo.nopcommerce.com/cart
-2025-03-18 03:44:34 [main] INFO  TC-081_verifyOrderIsGenerated - Cart page loaded successfully.
-2025-03-18 03:44:34 [main] INFO  TC-081_verifyOrderIsGenerated - Accepted terms of service.
-2025-03-18 03:44:37 [main] INFO  TC-081_verifyOrderIsGenerated - Shipping method selected.
-2025-03-18 03:44:37 [main] INFO  TC-081_verifyOrderIsGenerated - Payment method selected.
-2025-03-18 03:44:38 [main] INFO  TC-081_verifyOrderIsGenerated - Payment details entered successfully.
-2025-03-18 03:44:38 [main] INFO  TC-081_verifyOrderIsGenerated - Order confirmation button clicked.
-2025-03-18 03:44:39 [main] INFO  TC-081_verifyOrderIsGenerated - Order placed successfully.
-2025-03-18 03:44:39 [main] INFO  TC-081_verifyOrderIsGenerated - "TC-081" Passed: Order number generated: 80
-2025-03-18 03:44:39 [main] INFO  listeners.TestListener - ✅ Test PASSED: verifyOrderIsGenerated (Duration: 9836ms)
-2025-03-18 03:44:39 [main] INFO  TC-081_verifyOrderIsGenerated - Closing the browser for test: verifyOrderIsGenerated
-2025-03-18 03:44:40 [main] INFO  TC-081_verifyOrderIsGenerated - Browser closed.
-2025-03-18 04:01:18 [main] INFO  TC-081_verifyOrderIsGenerated - 
-===================================================================================== NEW TEST RUN =====================================================================================
-2025-03-18 04:01:18 [main] INFO  TC-081_verifyOrderIsGenerated - Logger initialized and writing to: E:/Folder/Galal/Courses/Digital Egypt Pioneers Initiative (DEPI) - Software Testing/DEPI Software Tester Graduation Project/automation-framework/reports/logs/TC-081_verifyOrderIsGenerated.log
-2025-03-18 04:01:18 [main] INFO  TC-081_verifyOrderIsGenerated - Starting test setup for: verifyOrderIsGenerated (🔢 Test Case ID: TC-081)
-2025-03-18 04:01:35 [main] INFO  TC-081_verifyOrderIsGenerated - Navigated to the site: https://demo.nopcommerce.com
-2025-03-18 04:01:35 [main] INFO  TC-081_verifyOrderIsGenerated - Injected cookie: cf_clearance
-2025-03-18 04:01:35 [main] INFO  TC-081_verifyOrderIsGenerated - Injected cookie: _ga
-2025-03-18 04:01:35 [main] INFO  TC-081_verifyOrderIsGenerated - Injected cookie: .Nop.Antiforgery
-2025-03-18 04:01:35 [main] INFO  TC-081_verifyOrderIsGenerated - Injected cookie: .Nop.Customer
-2025-03-18 04:01:35 [main] INFO  TC-081_verifyOrderIsGenerated - Injected cookie: .Nop.Culture
-2025-03-18 04:01:35 [main] INFO  TC-081_verifyOrderIsGenerated - Injected cookie: _ga_SCT41TW89V
-2025-03-18 04:01:35 [main] INFO  TC-081_verifyOrderIsGenerated - Page refreshed with bypassed cookies.
-2025-03-18 04:01:35 [main] INFO  TC-081_verifyOrderIsGenerated - 🟢 Starting test: verifyOrderIsGenerated (🔢 Test Case ID: TC-081)
-2025-03-18 04:01:35 [main] INFO  TC-081_verifyOrderIsGenerated - Navigating to login page: https://demo.nopcommerce.com/login
-2025-03-18 04:01:38 [main] INFO  TC-081_verifyOrderIsGenerated - User logged in successfully.
-2025-03-18 04:01:38 [main] INFO  TC-081_verifyOrderIsGenerated - Navigating to product page: https://demo.nopcommerce.com/adobe-photoshop
-2025-03-18 04:01:39 [main] INFO  TC-081_verifyOrderIsGenerated - Clicked 'Add to Cart' button.
-2025-03-18 04:01:39 [main] INFO  TC-081_verifyOrderIsGenerated - Product successfully added to cart.
-2025-03-18 04:01:39 [main] INFO  TC-081_verifyOrderIsGenerated - Navigating to cart page: https://demo.nopcommerce.com/cart
-2025-03-18 04:01:40 [main] INFO  TC-081_verifyOrderIsGenerated - Cart page loaded successfully.
-2025-03-18 04:01:40 [main] INFO  TC-081_verifyOrderIsGenerated - Accepted terms of service.
-2025-03-18 04:01:43 [main] INFO  TC-081_verifyOrderIsGenerated - Shipping method selected.
-2025-03-18 04:01:43 [main] INFO  TC-081_verifyOrderIsGenerated - Payment method selected.
-2025-03-18 04:01:44 [main] INFO  TC-081_verifyOrderIsGenerated - Payment details entered successfully.
-2025-03-18 04:01:44 [main] INFO  TC-081_verifyOrderIsGenerated - Order confirmation button clicked.
-2025-03-18 04:01:45 [main] INFO  TC-081_verifyOrderIsGenerated - Order placed successfully.
-2025-03-18 04:01:45 [main] INFO  TC-081_verifyOrderIsGenerated - "TC-081" Passed: Order number generated: 84
-2025-03-18 04:01:45 [main] INFO  listeners.TestListener - ✅ Test PASSED: verifyOrderIsGenerated (Duration: 9721ms)
-2025-03-18 04:01:45 [main] INFO  TC-081_verifyOrderIsGenerated - Closing the browser for test: verifyOrderIsGenerated
-2025-03-18 04:01:45 [main] INFO  TC-081_verifyOrderIsGenerated - Browser closed.
+2025-03-18 13:06:10 [main] INFO  TC-081_verifyOrderIsGenerated - Logger initialized
+2025-03-18 13:06:10 [main] INFO  TC-081_verifyOrderIsGenerated - Starting test setup for: verifyOrderIsGenerated (🔢 Test Case ID: TC-081)
+2025-03-18 13:06:31 [main] INFO  TC-081_verifyOrderIsGenerated - Navigated to the site: https://demo.nopcommerce.com
+2025-03-18 13:06:31 [main] INFO  TC-081_verifyOrderIsGenerated - Injected cookie: cf_clearance
+2025-03-18 13:06:31 [main] INFO  TC-081_verifyOrderIsGenerated - Injected cookie: _ga
+2025-03-18 13:06:31 [main] INFO  TC-081_verifyOrderIsGenerated - Injected cookie: .Nop.Antiforgery
+2025-03-18 13:06:31 [main] INFO  TC-081_verifyOrderIsGenerated - Injected cookie: .Nop.Customer
+2025-03-18 13:06:31 [main] INFO  TC-081_verifyOrderIsGenerated - Injected cookie: .Nop.Culture
+2025-03-18 13:06:31 [main] INFO  TC-081_verifyOrderIsGenerated - Injected cookie: _ga_SCT41TW89V
+2025-03-18 13:06:32 [main] INFO  TC-081_verifyOrderIsGenerated - Page refreshed with bypassed cookies.
+2025-03-18 13:06:32 [main] INFO  TC-081_verifyOrderIsGenerated - 🟢 Starting test: verifyOrderIsGenerated (🔢 Test Case ID: TC-081)
+2025-03-18 13:06:32 [main] INFO  TC-081_verifyOrderIsGenerated - Navigating to login page: https://demo.nopcommerce.com/login
+2025-03-18 13:06:36 [main] INFO  TC-081_verifyOrderIsGenerated - User logged in successfully.
+2025-03-18 13:06:36 [main] INFO  TC-081_verifyOrderIsGenerated - Navigating to product page: https://demo.nopcommerce.com/adobe-photoshop
+2025-03-18 13:06:41 [main] INFO  TC-081_verifyOrderIsGenerated - Clicked 'Add to Cart' button.
+2025-03-18 13:06:43 [main] INFO  TC-081_verifyOrderIsGenerated - Product successfully added to cart.
+2025-03-18 13:06:43 [main] INFO  TC-081_verifyOrderIsGenerated - Navigating to cart page: https://demo.nopcommerce.com/cart
+2025-03-18 13:06:47 [main] INFO  TC-081_verifyOrderIsGenerated - Cart page loaded successfully.
+2025-03-18 13:06:47 [main] INFO  TC-081_verifyOrderIsGenerated - Accepted terms of service.
+2025-03-18 13:06:51 [main] INFO  TC-081_verifyOrderIsGenerated - Shipping method selected.
+2025-03-18 13:06:54 [main] INFO  TC-081_verifyOrderIsGenerated - Payment method selected.
+2025-03-18 13:06:56 [main] INFO  TC-081_verifyOrderIsGenerated - Payment details entered successfully.
+2025-03-18 13:06:59 [main] INFO  TC-081_verifyOrderIsGenerated - Order confirmation button clicked.
+2025-03-18 13:07:01 [main] INFO  TC-081_verifyOrderIsGenerated - Order placed successfully.
+2025-03-18 13:07:01 [main] INFO  TC-081_verifyOrderIsGenerated - "TC-081" Passed: Order number generated: 108
+2025-03-18 13:07:01 [main] INFO  listeners.TestListener - ✅ Test PASSED: verifyOrderIsGenerated (Duration: 28851ms)
+2025-03-18 13:07:01 [main] INFO  TC-081_verifyOrderIsGenerated - Closing the browser for test: verifyOrderIsGenerated
+2025-03-18 13:07:01 [main] INFO  TC-081_verifyOrderIsGenerated - Browser closed.

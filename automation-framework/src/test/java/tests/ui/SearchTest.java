@@ -20,13 +20,14 @@ public class SearchTest extends BaseTest {
     private final String url = ConfigReader.getProperty("baseURL");
 
     @Test(groups = {"smoke"}, description = "TC-002")
-    public void verifySearchFunctionality() {
+    public void verifySearchFunctionality() throws InterruptedException {
         logger.info("Navigating to: " + url);
         driver.get(url);
 
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(5));
 
         // Using locators from config.properties
+        SeleniumHelper.realisticDelay();
         WebElement searchBox = wait.until(ExpectedConditions.elementToBeClickable(SeleniumHelper.getByLocator("search.box")));
         searchBox.sendKeys("Laptop");
 
@@ -41,17 +42,19 @@ public class SearchTest extends BaseTest {
     }
 
     @Test(groups = {"functional"}, description = "TC-038")
-    public void verifySearchByCategory() {
+    public void verifySearchByCategory() throws InterruptedException {
         logger.info("Navigating to: " + url);
         driver.get(url);
 
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
 
         // Click on the "Computers" category from the navigation menu
+        SeleniumHelper.realisticDelay();
         WebElement categoryLink = wait.until(ExpectedConditions.elementToBeClickable(By.linkText("Computers")));
         categoryLink.click();
 
         // Wait for the category page to load
+        SeleniumHelper.realisticDelay();
         WebElement pageTitle = wait.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector(".page-title")));
         Assert.assertTrue(pageTitle.getText().contains("Computers"), "Incorrect category page title!");
 
@@ -63,13 +66,14 @@ public class SearchTest extends BaseTest {
     }
 
     @Test(groups = {"functional"}, description = "TC-042")
-    public void verifyPaginationInSearchResults() {
+    public void verifyPaginationInSearchResults() throws InterruptedException {
         logger.info("Navigating to: " + url);
         driver.get(url);
 
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
 
         // Locate the search bar and input a search term expected to return multiple pages
+        SeleniumHelper.realisticDelay();
         WebElement searchBox = wait.until(ExpectedConditions.elementToBeClickable(By.id("small-searchterms")));
         searchBox.sendKeys("computer");
 
@@ -78,6 +82,7 @@ public class SearchTest extends BaseTest {
         searchButton.click();
 
         // Wait for search results to load
+        SeleniumHelper.realisticDelay();
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector(".search-results")));
 
         // Check if pagination controls exist
@@ -92,6 +97,7 @@ public class SearchTest extends BaseTest {
         nextPageButton.click();
 
         // Wait for page to load and verify new results
+        SeleniumHelper.realisticDelay();
         wait.until(ExpectedConditions.stalenessOf(driver.findElement(By.cssSelector(".product-grid"))));
         List<WebElement> newResults = driver.findElements(By.cssSelector(".product-grid .item-box"));
         Assert.assertFalse(newResults.isEmpty(), "Next page did not load new results");
@@ -100,6 +106,7 @@ public class SearchTest extends BaseTest {
         WebElement previousPageButton = driver.findElement(By.cssSelector(".pager .previous-page"));
         previousPageButton.click();
 
+        SeleniumHelper.realisticDelay();
         wait.until(ExpectedConditions.stalenessOf(driver.findElement(By.cssSelector(".product-grid"))));
         List<WebElement> firstPageResults = driver.findElements(By.cssSelector(".product-grid .item-box"));
         Assert.assertFalse(firstPageResults.isEmpty(), "Previous page did not load initial results");
@@ -108,21 +115,24 @@ public class SearchTest extends BaseTest {
     }
 
     @Test(groups = {"functional"}, description = "TC-043")
-    public void verifySortingOptions() {
+    public void verifySortingOptions() throws InterruptedException {
         logger.info("Navigating to: " + url);
         driver.get(url);
 
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
 
         // Search for a product
+        SeleniumHelper.realisticDelay();
         WebElement searchBox = wait.until(ExpectedConditions.elementToBeClickable(By.id("small-searchterms")));
         searchBox.sendKeys("Laptop");
         driver.findElement(By.cssSelector("button[type='submit']")).click();
 
         // Wait for search results
+        SeleniumHelper.realisticDelay();
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector(".product-grid")));
 
         // Locate the sorting dropdown
+        SeleniumHelper.realisticDelay();
         WebElement sortingDropdown = wait.until(ExpectedConditions.elementToBeClickable(By.id("products-orderby")));
         Select select = new Select(sortingDropdown);
 
@@ -130,6 +140,7 @@ public class SearchTest extends BaseTest {
         String[] sortingOptions = {"Price: Low to High", "Price: High to Low", "Name: A to Z", "Name: Z to A"};
         for (String option : sortingOptions) {
             select.selectByVisibleText(option);
+            SeleniumHelper.realisticDelay();
             wait.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector(".product-grid")));
 
             // Get product prices or names based on sorting type
@@ -142,31 +153,37 @@ public class SearchTest extends BaseTest {
     }
 
     @Test(groups = {"functional"}, description = "TC-044")
-    public void verifyFilteringByManufacturer() {
+    public void verifyFilteringByManufacturer() throws InterruptedException {
         logger.info("Navigating to: " + url);
         driver.get(url);
 
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
 
         // Click on the "Computers" category from the navigation menu
+        SeleniumHelper.realisticDelay();
         WebElement computersCategoryLink = wait.until(ExpectedConditions.elementToBeClickable(By.linkText("Computers")));
         computersCategoryLink.click();
 
         // Wait for the "Computers" page to load
+        SeleniumHelper.realisticDelay();
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector(".page-title")));
 
         // Locate and click the "Notebooks" subcategory
+        SeleniumHelper.realisticDelay();
         WebElement notebooksCategoryLink = wait.until(ExpectedConditions.elementToBeClickable(By.linkText("Notebooks")));
         notebooksCategoryLink.click();
 
         // Wait for the "Notebooks" page to load
+        SeleniumHelper.realisticDelay();
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector(".page-title")));
 
         // Locate the "HP" filter label by the 'for' attribute and click it
+        SeleniumHelper.realisticDelay();
         WebElement hpFilterLabel = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//label[@for='attribute-manufacturer-2']")));
         hpFilterLabel.click();
 
         // Wait for the results to load with the "HP" filter applied
+        SeleniumHelper.realisticDelay();
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector(".product-grid")));
 
         // Verify that products are displayed under the "HP" filter
@@ -177,13 +194,14 @@ public class SearchTest extends BaseTest {
     }
 
     @Test(groups = {"functional"}, description = "TC-048")
-    public void verifyInvalidSearchTerm() {
+    public void verifyInvalidSearchTerm() throws InterruptedException {
         logger.info("Navigating to: " + url);
         driver.get(url);
 
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
 
         // Locate the search bar and input an invalid search term
+        SeleniumHelper.realisticDelay();
         WebElement searchBox = wait.until(ExpectedConditions.elementToBeClickable(By.id("small-searchterms")));
         searchBox.sendKeys("xyz123invalidterm");
 
@@ -192,9 +210,11 @@ public class SearchTest extends BaseTest {
         searchButton.click();
 
         // Wait for the search results page to load
+        SeleniumHelper.realisticDelay();
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector(".search-results")));
 
         // Locate the "no products" message and verify it is displayed
+        SeleniumHelper.realisticDelay();
         WebElement noResultsMessage = wait.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector(".no-result")));
         Assert.assertTrue(noResultsMessage.isDisplayed(), "No products found message is not displayed!");
 
@@ -207,31 +227,37 @@ public class SearchTest extends BaseTest {
     }
 
     @Test(groups = {"functional"}, description = "TC-050")
-    public void verifyClearingFilters() {
+    public void verifyClearingFilters() throws InterruptedException {
         logger.info("Navigating to: " + url);
         driver.get(url);
 
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
 
         // Click on the "Computers" category from the navigation menu
+        SeleniumHelper.realisticDelay();
         WebElement computersCategoryLink = wait.until(ExpectedConditions.elementToBeClickable(By.linkText("Computers")));
         computersCategoryLink.click();
 
         // Wait for the "Computers" page to load
+        SeleniumHelper.realisticDelay();
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector(".page-title")));
 
         // Locate and click the "Notebooks" subcategory
+        SeleniumHelper.realisticDelay();
         WebElement notebooksCategoryLink = wait.until(ExpectedConditions.elementToBeClickable(By.linkText("Notebooks")));
         notebooksCategoryLink.click();
 
         // Wait for the "Notebooks" page to load
+        SeleniumHelper.realisticDelay();
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector(".page-title")));
 
         // Locate the "HP" filter label by the 'for' attribute and click it
+        SeleniumHelper.realisticDelay();
         WebElement hpFilterLabel = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//label[@for='attribute-manufacturer-2']")));
         hpFilterLabel.click();
 
         // Wait for the results to load with the "HP" filter applied
+        SeleniumHelper.realisticDelay();
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector(".product-grid")));
 
         // Verify that products are displayed under the "HP" filter
@@ -241,10 +267,12 @@ public class SearchTest extends BaseTest {
         logger.info("Filtering by manufacturer HP verified successfully.");
 
         // Clear the filter by clicking the "HP" filter label again (unchecking it)
+        SeleniumHelper.realisticDelay();
         hpFilterLabel = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//label[@for='attribute-manufacturer-2']")));
         hpFilterLabel.click();
 
         // Wait for the page to reload after clearing the filter
+        SeleniumHelper.realisticDelay();
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector(".product-grid")));
 
         // Verify that the products are displayed again after clearing the filter
@@ -263,6 +291,7 @@ public class SearchTest extends BaseTest {
 
         try {
             // Locate the search bar
+            SeleniumHelper.realisticDelay();
             WebElement searchBox = wait.until(ExpectedConditions.elementToBeClickable(By.id("small-searchterms")));
 
             // Type the search term instead of using JavaScript
@@ -270,6 +299,7 @@ public class SearchTest extends BaseTest {
             searchBox.sendKeys(searchTerm);
 
             // Wait for auto-suggestions to appear
+            SeleniumHelper.realisticDelay();
             wait.until(ExpectedConditions.numberOfElementsToBeMoreThan(By.cssSelector(".ui-menu-item-wrapper"), 0));
 
             // Retrieve the list of suggestions

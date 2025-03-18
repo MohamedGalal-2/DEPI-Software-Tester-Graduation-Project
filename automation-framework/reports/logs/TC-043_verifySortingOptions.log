@@ -1,132 +1,22 @@
-2025-03-18 03:51:25 [main] INFO  TC-043_verifySortingOptions - 
+2025-03-18 13:21:56 [main] INFO  TC-043_verifySortingOptions - 
 ===================================================================================== NEW TEST RUN =====================================================================================
-2025-03-18 03:51:25 [main] INFO  TC-043_verifySortingOptions - Logger initialized and writing to: E:/Folder/Galal/Courses/Digital Egypt Pioneers Initiative (DEPI) - Software Testing/DEPI Software Tester Graduation Project/automation-framework/reports/logs/TC-043_verifySortingOptions.log
-2025-03-18 03:51:25 [main] INFO  TC-043_verifySortingOptions - Starting test setup for: verifySortingOptions (🔢 Test Case ID: TC-043)
-2025-03-18 03:51:43 [main] INFO  TC-043_verifySortingOptions - Navigated to the site: https://demo.nopcommerce.com
-2025-03-18 03:51:43 [main] INFO  TC-043_verifySortingOptions - Injected cookie: cf_clearance
-2025-03-18 03:51:43 [main] INFO  TC-043_verifySortingOptions - Injected cookie: _ga
-2025-03-18 03:51:43 [main] INFO  TC-043_verifySortingOptions - Injected cookie: .Nop.Antiforgery
-2025-03-18 03:51:43 [main] INFO  TC-043_verifySortingOptions - Injected cookie: .Nop.Customer
-2025-03-18 03:51:43 [main] INFO  TC-043_verifySortingOptions - Injected cookie: .Nop.Culture
-2025-03-18 03:51:43 [main] INFO  TC-043_verifySortingOptions - Injected cookie: _ga_SCT41TW89V
-2025-03-18 03:51:43 [main] INFO  TC-043_verifySortingOptions - Page refreshed with bypassed cookies.
-2025-03-18 03:51:43 [main] INFO  TC-043_verifySortingOptions - 🟢 Starting test: verifySortingOptions (🔢 Test Case ID: TC-043)
-2025-03-18 03:51:43 [main] INFO  TC-043_verifySortingOptions - Navigating to: https://demo.nopcommerce.com/
-2025-03-18 03:51:45 [main] INFO  TC-043_verifySortingOptions - Sorting verified for: Price: Low to High
-2025-03-18 03:51:45 [main] INFO  TC-043_verifySortingOptions - Sorting verified for: Price: High to Low
-2025-03-18 03:51:45 [main] INFO  TC-043_verifySortingOptions - Sorting verified for: Name: A to Z
-2025-03-18 03:51:45 [main] INFO  TC-043_verifySortingOptions - Sorting verified for: Name: Z to A
-2025-03-18 03:51:45 [main] INFO  listeners.TestListener - ✅ Test PASSED: verifySortingOptions (Duration: 1957ms)
-2025-03-18 03:51:45 [main] INFO  TC-043_verifySortingOptions - Closing the browser for test: verifySortingOptions
-2025-03-18 03:51:45 [main] INFO  TC-043_verifySortingOptions - Browser closed.
-2025-03-18 03:51:45 [main] INFO  listeners.TestListener - 🏁 Finished Test Suite: MyTest
-2025-03-18 04:08:25 [main] INFO  TC-043_verifySortingOptions - 
-===================================================================================== NEW TEST RUN =====================================================================================
-2025-03-18 04:08:25 [main] INFO  TC-043_verifySortingOptions - Logger initialized and writing to: E:/Folder/Galal/Courses/Digital Egypt Pioneers Initiative (DEPI) - Software Testing/DEPI Software Tester Graduation Project/automation-framework/reports/logs/TC-043_verifySortingOptions.log
-2025-03-18 04:08:25 [main] INFO  TC-043_verifySortingOptions - Starting test setup for: verifySortingOptions (🔢 Test Case ID: TC-043)
-2025-03-18 04:08:42 [main] INFO  TC-043_verifySortingOptions - Navigated to the site: https://demo.nopcommerce.com
-2025-03-18 04:08:42 [main] INFO  TC-043_verifySortingOptions - Injected cookie: _ga
-2025-03-18 04:08:43 [main] INFO  TC-043_verifySortingOptions - Injected cookie: cf_clearance
-2025-03-18 04:08:43 [main] INFO  TC-043_verifySortingOptions - Injected cookie: .Nop.Antiforgery
-2025-03-18 04:08:43 [main] INFO  TC-043_verifySortingOptions - Injected cookie: .Nop.Customer
-2025-03-18 04:08:43 [main] INFO  TC-043_verifySortingOptions - Injected cookie: .Nop.Culture
-2025-03-18 04:08:43 [main] INFO  TC-043_verifySortingOptions - Injected cookie: _ga_SCT41TW89V
-2025-03-18 04:08:45 [main] INFO  TC-043_verifySortingOptions - Page refreshed with bypassed cookies.
-2025-03-18 04:08:45 [main] INFO  TC-043_verifySortingOptions - 🟢 Starting test: verifySortingOptions (🔢 Test Case ID: TC-043)
-2025-03-18 04:08:45 [main] INFO  TC-043_verifySortingOptions - Navigating to: https://demo.nopcommerce.com/
-2025-03-18 04:08:56 [main] ERROR listeners.TestListener - ❌ Test FAILED: verifySortingOptions
-org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.id: small-searchterms (tried for 10 second(s) with 500 milliseconds interval)
-Build info: version: '4.29.0', revision: '5fc1ec94cb'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.89, chrome: {chromedriverVersion: 134.0.6998.88 (7e3d5c978c6d..., userDataDir: C:\Users\MOHAME~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53443}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53443/devtoo..., se:cdpVersion: 134.0.6998.89, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 9ad64f1f9f0e16a1a8c7bd2df45a0d65
-	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84) ~[selenium-support-4.29.0.jar:?]
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228) ~[selenium-support-4.29.0.jar:?]
-	at tests.ui.SearchTest.verifySortingOptions(SearchTest.java:133) ~[test-classes/:?]
-	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
-	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) ~[testng-7.11.0.jar:7.11.0]
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687) ~[testng-7.11.0.jar:7.11.0]
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) ~[testng-7.11.0.jar:7.11.0]
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) ~[testng-7.11.0.jar:7.11.0]
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995) ~[testng-7.11.0.jar:7.11.0]
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) ~[testng-7.11.0.jar:7.11.0]
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) ~[testng-7.11.0.jar:7.11.0]
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) ~[testng-7.11.0.jar:7.11.0]
-	at java.util.ArrayList.forEach(ArrayList.java:1597) [?:?]
-	at org.testng.TestRunner.privateRun(TestRunner.java:741) [testng-7.11.0.jar:7.11.0]
-	at org.testng.TestRunner.run(TestRunner.java:616) [testng-7.11.0.jar:7.11.0]
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421) [testng-7.11.0.jar:7.11.0]
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413) [testng-7.11.0.jar:7.11.0]
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373) [testng-7.11.0.jar:7.11.0]
-	at org.testng.SuiteRunner.run(SuiteRunner.java:312) [testng-7.11.0.jar:7.11.0]
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-7.11.0.jar:7.11.0]
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [testng-7.11.0.jar:7.11.0]
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274) [testng-7.11.0.jar:7.11.0]
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208) [testng-7.11.0.jar:7.11.0]
-	at org.testng.TestNG.runSuites(TestNG.java:1112) [testng-7.11.0.jar:7.11.0]
-	at org.testng.TestNG.run(TestNG.java:1079) [testng-7.11.0.jar:7.11.0]
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308) [surefire-testng-3.5.2.jar:3.5.2]
-	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71) [surefire-testng-3.5.2.jar:3.5.2]
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113) [surefire-testng-3.5.2.jar:3.5.2]
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385) [surefire-booter-3.5.2.jar:3.5.2]
-	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162) [surefire-booter-3.5.2.jar:3.5.2]
-	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507) [surefire-booter-3.5.2.jar:3.5.2]
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495) [surefire-booter-3.5.2.jar:3.5.2]
-2025-03-18 04:08:56 [main] INFO  TC-043_verifySortingOptions - Closing the browser for test: verifySortingOptions
-2025-03-18 04:08:56 [main] INFO  TC-043_verifySortingOptions - Browser closed.
-2025-03-18 04:08:56 [main] INFO  listeners.TestListener - 🏁 Finished Test Suite: EcomUIRegressionTest
-2025-03-18 05:24:20 [main] INFO  TC-043_verifySortingOptions - 
-===================================================================================== NEW TEST RUN =====================================================================================
-2025-03-18 05:24:20 [main] INFO  TC-043_verifySortingOptions - Logger initialized
-2025-03-18 05:24:20 [main] INFO  TC-043_verifySortingOptions - Starting test setup for: verifySortingOptions (🔢 Test Case ID: TC-043)
-2025-03-18 05:24:37 [main] INFO  TC-043_verifySortingOptions - Navigated to the site: https://demo.nopcommerce.com
-2025-03-18 05:24:37 [main] INFO  TC-043_verifySortingOptions - Injected cookie: _ga
-2025-03-18 05:24:37 [main] INFO  TC-043_verifySortingOptions - Injected cookie: cf_clearance
-2025-03-18 05:24:37 [main] INFO  TC-043_verifySortingOptions - Injected cookie: .Nop.Antiforgery
-2025-03-18 05:24:37 [main] INFO  TC-043_verifySortingOptions - Injected cookie: .Nop.Customer
-2025-03-18 05:24:37 [main] INFO  TC-043_verifySortingOptions - Injected cookie: .Nop.Culture
-2025-03-18 05:24:37 [main] INFO  TC-043_verifySortingOptions - Injected cookie: _ga_SCT41TW89V
-2025-03-18 05:24:37 [main] INFO  TC-043_verifySortingOptions - Page refreshed with bypassed cookies.
-2025-03-18 05:24:37 [main] INFO  TC-043_verifySortingOptions - Navigating to: https://demo.nopcommerce.com/
-2025-03-18 05:24:38 [main] INFO  TC-043_verifySortingOptions - Closing the browser for test: verifySortingOptions
-2025-03-18 05:24:38 [main] INFO  TC-043_verifySortingOptions - Browser closed.
-2025-03-18 05:33:15 [main] INFO  TC-043_verifySortingOptions - 
-===================================================================================== NEW TEST RUN =====================================================================================
-2025-03-18 05:33:15 [main] INFO  TC-043_verifySortingOptions - Logger initialized
-2025-03-18 05:33:15 [main] INFO  TC-043_verifySortingOptions - Starting test setup for: verifySortingOptions (🔢 Test Case ID: TC-043)
-2025-03-18 05:33:32 [main] INFO  TC-043_verifySortingOptions - Navigated to the site: https://demo.nopcommerce.com
-2025-03-18 05:33:32 [main] INFO  TC-043_verifySortingOptions - Injected cookie: cf_clearance
-2025-03-18 05:33:32 [main] INFO  TC-043_verifySortingOptions - Injected cookie: _ga
-2025-03-18 05:33:32 [main] INFO  TC-043_verifySortingOptions - Injected cookie: .Nop.Antiforgery
-2025-03-18 05:33:32 [main] INFO  TC-043_verifySortingOptions - Injected cookie: .Nop.Customer
-2025-03-18 05:33:32 [main] INFO  TC-043_verifySortingOptions - Injected cookie: .Nop.Culture
-2025-03-18 05:33:32 [main] INFO  TC-043_verifySortingOptions - Injected cookie: _ga_SCT41TW89V
-2025-03-18 05:33:32 [main] INFO  TC-043_verifySortingOptions - Page refreshed with bypassed cookies.
-2025-03-18 05:33:32 [main] INFO  TC-043_verifySortingOptions - Navigating to: https://demo.nopcommerce.com/
-2025-03-18 05:33:34 [main] INFO  TC-043_verifySortingOptions - Sorting verified for: Price: Low to High
-2025-03-18 05:33:34 [main] INFO  TC-043_verifySortingOptions - Sorting verified for: Price: High to Low
-2025-03-18 05:33:34 [main] INFO  TC-043_verifySortingOptions - Sorting verified for: Name: A to Z
-2025-03-18 05:33:34 [main] INFO  TC-043_verifySortingOptions - Sorting verified for: Name: Z to A
-2025-03-18 05:33:34 [main] INFO  TC-043_verifySortingOptions - Closing the browser for test: verifySortingOptions
-2025-03-18 05:33:34 [main] INFO  TC-043_verifySortingOptions - Browser closed.
-2025-03-18 05:43:31 [main] INFO  TC-043_verifySortingOptions - 
-===================================================================================== NEW TEST RUN =====================================================================================
-2025-03-18 05:43:31 [main] INFO  TC-043_verifySortingOptions - Logger initialized
-2025-03-18 05:43:31 [main] INFO  TC-043_verifySortingOptions - Starting test setup for: verifySortingOptions (🔢 Test Case ID: TC-043)
-2025-03-18 05:43:48 [main] INFO  TC-043_verifySortingOptions - Navigated to the site: https://demo.nopcommerce.com
-2025-03-18 05:43:48 [main] INFO  TC-043_verifySortingOptions - Injected cookie: cf_clearance
-2025-03-18 05:43:48 [main] INFO  TC-043_verifySortingOptions - Injected cookie: _ga
-2025-03-18 05:43:48 [main] INFO  TC-043_verifySortingOptions - Injected cookie: .Nop.Antiforgery
-2025-03-18 05:43:48 [main] INFO  TC-043_verifySortingOptions - Injected cookie: .Nop.Customer
-2025-03-18 05:43:48 [main] INFO  TC-043_verifySortingOptions - Injected cookie: .Nop.Culture
-2025-03-18 05:43:48 [main] INFO  TC-043_verifySortingOptions - Injected cookie: _ga_SCT41TW89V
-2025-03-18 05:43:49 [main] INFO  TC-043_verifySortingOptions - Page refreshed with bypassed cookies.
-2025-03-18 05:43:49 [main] INFO  TC-043_verifySortingOptions - Navigating to: https://demo.nopcommerce.com/
-2025-03-18 05:43:50 [main] INFO  TC-043_verifySortingOptions - Sorting verified for: Price: Low to High
-2025-03-18 05:43:51 [main] INFO  TC-043_verifySortingOptions - Sorting verified for: Price: High to Low
-2025-03-18 05:43:51 [main] INFO  TC-043_verifySortingOptions - Sorting verified for: Name: A to Z
-2025-03-18 05:43:51 [main] INFO  TC-043_verifySortingOptions - Sorting verified for: Name: Z to A
-2025-03-18 05:43:51 [main] INFO  TC-043_verifySortingOptions - Closing the browser for test: verifySortingOptions
-2025-03-18 05:43:51 [main] INFO  TC-043_verifySortingOptions - Browser closed.
+2025-03-18 13:21:56 [main] INFO  TC-043_verifySortingOptions - Logger initialized
+2025-03-18 13:21:56 [main] INFO  TC-043_verifySortingOptions - Starting test setup for: verifySortingOptions (🔢 Test Case ID: TC-043)
+2025-03-18 13:22:17 [main] INFO  TC-043_verifySortingOptions - Navigated to the site: https://demo.nopcommerce.com
+2025-03-18 13:22:17 [main] INFO  TC-043_verifySortingOptions - Injected cookie: cf_clearance
+2025-03-18 13:22:17 [main] INFO  TC-043_verifySortingOptions - Injected cookie: _ga
+2025-03-18 13:22:17 [main] INFO  TC-043_verifySortingOptions - Injected cookie: .Nop.Antiforgery
+2025-03-18 13:22:17 [main] INFO  TC-043_verifySortingOptions - Injected cookie: .Nop.Customer
+2025-03-18 13:22:17 [main] INFO  TC-043_verifySortingOptions - Injected cookie: .Nop.Culture
+2025-03-18 13:22:17 [main] INFO  TC-043_verifySortingOptions - Injected cookie: _ga_SCT41TW89V
+2025-03-18 13:22:18 [main] INFO  TC-043_verifySortingOptions - Page refreshed with bypassed cookies.
+2025-03-18 13:22:18 [main] INFO  TC-043_verifySortingOptions - 🟢 Starting test: verifySortingOptions (🔢 Test Case ID: TC-043)
+2025-03-18 13:22:18 [main] INFO  TC-043_verifySortingOptions - Navigating to: https://demo.nopcommerce.com/
+2025-03-18 13:22:28 [main] INFO  TC-043_verifySortingOptions - Sorting verified for: Price: Low to High
+2025-03-18 13:22:30 [main] INFO  TC-043_verifySortingOptions - Sorting verified for: Price: High to Low
+2025-03-18 13:22:31 [main] INFO  TC-043_verifySortingOptions - Sorting verified for: Name: A to Z
+2025-03-18 13:22:34 [main] INFO  TC-043_verifySortingOptions - Sorting verified for: Name: Z to A
+2025-03-18 13:22:34 [main] INFO  listeners.TestListener - ✅ Test PASSED: verifySortingOptions (Duration: 15706ms)
+2025-03-18 13:22:34 [main] INFO  TC-043_verifySortingOptions - Closing the browser for test: verifySortingOptions
+2025-03-18 13:22:34 [main] INFO  TC-043_verifySortingOptions - Browser closed.
+2025-03-18 13:22:34 [main] INFO  listeners.TestListener - 🏁 Finished Test Suite: EcomUIRegressionTest

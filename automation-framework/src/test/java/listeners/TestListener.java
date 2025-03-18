@@ -99,7 +99,20 @@ public class TestListener implements ITestListener {
         reportBody.append("✅ Test PASSED: ").append(result.getMethod().getMethodName())
                 .append(" (Duration: ").append(duration).append("ms)\n");
 
-        extentTest.pass("Test PASSED: " + result.getMethod().getMethodName() + " (Duration: " + duration + "ms)");
+        WebDriver driver = getDriver();
+        if (driver != null) {
+            String testCaseID = (String) result.getTestContext().getAttribute("TestCaseID");
+            if (testCaseID == null) testCaseID = "UnknownTC";
+
+            String screenshotPath = captureScreenshot(driver, testCaseID);
+            if (screenshotPath != null) {
+                Reporter.log("<br><img src='" + screenshotPath + "' height='300' width='400'/><br>");
+                extentTest.pass("Test PASSED: " + result.getMethod().getMethodName() + " (Duration: " + duration + "ms)")
+                        .addScreenCaptureFromPath(screenshotPath);
+            }
+        } else {
+            extentTest.pass("Test PASSED: " + result.getMethod().getMethodName() + " (Duration: " + duration + "ms)");
+        }
     }
 
     @Override
@@ -134,16 +147,26 @@ public class TestListener implements ITestListener {
     @Override
     public void onTestSkipped(ITestResult result) {
         skippedTests++;
-        Logger testLogger = (Logger) result.getAttribute("logger");
-        if (testLogger != null) {
-            testLogger.warn("⚠️ Test SKIPPED: " + result.getMethod().getMethodName());
-        }
+        Logger testLogger = LogManager.getLogger(TestListener.class);
+        testLogger.warn("⚠️ Test SKIPPED: " + result.getMethod().getMethodName());
 
         Reporter.log("⚠️ Test SKIPPED: " + result.getMethod().getMethodName());
         reportBody.append("⚠️ Test SKIPPED: ").append(result.getMethod().getMethodName()).append("\n");
 
-        // Log the skip in ExtentReports
-        extentTest.skip("Test SKIPPED: " + result.getMethod().getMethodName());
+        WebDriver driver = getDriver();
+        if (driver != null) {
+            String testCaseID = (String) result.getTestContext().getAttribute("TestCaseID");
+            if (testCaseID == null) testCaseID = "UnknownTC";
+
+            String screenshotPath = captureScreenshot(driver, testCaseID);
+            if (screenshotPath != null) {
+                Reporter.log("<br><img src='" + screenshotPath + "' height='300' width='400'/><br>");
+                extentTest.skip("Test SKIPPED: " + result.getMethod().getMethodName())
+                        .addScreenCaptureFromPath(screenshotPath);
+            }
+        } else {
+            extentTest.skip("Test SKIPPED: " + result.getMethod().getMethodName());
+        }
     }
 
     @Override

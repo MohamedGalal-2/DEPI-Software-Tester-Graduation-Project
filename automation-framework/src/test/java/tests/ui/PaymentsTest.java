@@ -34,6 +34,7 @@ public class PaymentsTest extends BaseTest {
         driver.findElement(By.id("Password")).sendKeys("TestPassword123");
 
         // Step 3: Click login button
+        SeleniumHelper.realisticDelay();
         driver.findElement(By.cssSelector("button.login-button")).click();
         System.out.println("User logged in successfully.");
 
@@ -65,11 +66,13 @@ public class PaymentsTest extends BaseTest {
         System.out.println("Cart page loaded successfully.");
 
         // Step 9: Accept terms and proceed to checkout
+        SeleniumHelper.realisticDelay();
         WebElement termsCheckbox = wait.until(ExpectedConditions.elementToBeClickable(By.id("termsofservice")));
         if (!termsCheckbox.isSelected()) {
             termsCheckbox.click();
         }
         System.out.println("Accepted terms of service.");
+        SeleniumHelper.realisticDelay();
         driver.findElement(By.id("checkout")).click();
 
         logger.info("Checkout page loaded successfully.");
@@ -80,11 +83,13 @@ public class PaymentsTest extends BaseTest {
         continueButton.click();
 
         // Step 11: Choose shipping method
+        SeleniumHelper.realisticDelay();
         wait.until(ExpectedConditions.elementToBeClickable(By.id("shippingoption_1"))).click();
         driver.findElement(By.cssSelector("#shipping-method-buttons-container button")).click();
         System.out.println("Shipping method selected.");
 
         // Step 12: Select payment method
+        SeleniumHelper.realisticDelay();
         wait.until(ExpectedConditions.elementToBeClickable(By.id("paymentmethod_1"))).click();
         driver.findElement(By.cssSelector("#payment-method-buttons-container button")).click();
         System.out.println("Payment method selected.");
@@ -101,6 +106,7 @@ public class PaymentsTest extends BaseTest {
 
         driver.findElement(By.id("CardCode")).sendKeys("123");  // Invalid card code
 
+        SeleniumHelper.realisticDelay();
         driver.findElement(By.cssSelector("#payment-info-buttons-container button")).click();
         System.out.println("Payment details entered.");
 
@@ -122,6 +128,7 @@ public class PaymentsTest extends BaseTest {
         driver.findElement(By.id("Password")).sendKeys("TestPassword123");
 
         // Step 3: Click login button
+        SeleniumHelper.realisticDelay();
         driver.findElement(By.cssSelector("button.login-button")).click();
         System.out.println("User logged in successfully.");
 
@@ -153,11 +160,13 @@ public class PaymentsTest extends BaseTest {
         System.out.println("Cart page loaded successfully.");
 
         // Step 9: Accept terms and proceed to checkout
+        SeleniumHelper.realisticDelay();
         WebElement termsCheckbox = wait.until(ExpectedConditions.elementToBeClickable(By.id("termsofservice")));
         if (!termsCheckbox.isSelected()) {
             termsCheckbox.click();
         }
         System.out.println("Accepted terms of service.");
+        SeleniumHelper.realisticDelay();
         driver.findElement(By.id("checkout")).click();
 
         logger.info("Checkout page loaded successfully.");
@@ -168,11 +177,13 @@ public class PaymentsTest extends BaseTest {
         continueButton.click();
 
         // Step 11: Choose shipping method
+        SeleniumHelper.realisticDelay();
         wait.until(ExpectedConditions.elementToBeClickable(By.id("shippingoption_1"))).click();
         driver.findElement(By.cssSelector("#shipping-method-buttons-container button")).click();
         System.out.println("Shipping method selected.");
 
         // Step 12: Select payment method
+        SeleniumHelper.realisticDelay();
         wait.until(ExpectedConditions.elementToBeClickable(By.id("paymentmethod_1"))).click();
         driver.findElement(By.cssSelector("#payment-method-buttons-container button")).click();
         System.out.println("Payment method selected.");
@@ -193,6 +204,7 @@ public class PaymentsTest extends BaseTest {
         logger.info("Payment details entered.");
 
         // Step 14: Confirm order
+        SeleniumHelper.realisticDelay();
         wait.until(ExpectedConditions.elementToBeClickable(By.cssSelector("#confirm-order-buttons-container button"))).click();
         logger.info("Order confirmed.");
 
@@ -259,6 +271,7 @@ public class PaymentsTest extends BaseTest {
         continueButton.click();
 
         // Step 11: Choose shipping method
+        SeleniumHelper.realisticDelay();
         wait.until(ExpectedConditions.elementToBeClickable(By.id("shippingoption_1"))).click();
         driver.findElement(By.cssSelector("#shipping-method-buttons-container button")).click();
         System.out.println("Shipping method selected.");
@@ -270,6 +283,7 @@ public class PaymentsTest extends BaseTest {
         List<WebElement> paymentMethods = wait.until(ExpectedConditions.presenceOfAllElementsLocatedBy(By.cssSelector("#payment-method-block input[type='radio']")));
 
         // Wait until all the elements are visible
+        SeleniumHelper.realisticDelay();
         wait.until(ExpectedConditions.visibilityOfAllElements(paymentMethods));
 
         boolean isPayPalAvailable = false;
@@ -344,6 +358,7 @@ public class PaymentsTest extends BaseTest {
         driver.findElement(By.id("Password")).sendKeys("TestPassword123");
 
         // Step 3: Click login button
+        SeleniumHelper.realisticDelay();
         driver.findElement(By.cssSelector("button.login-button")).click();
         System.out.println("User logged in successfully.");
 
@@ -365,6 +380,7 @@ public class PaymentsTest extends BaseTest {
         System.out.println("Clicked 'Add to Cart' button.");
 
         // Step 7: Wait for cart success message
+        SeleniumHelper.realisticDelay();
         WebElement successMessage = wait.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector(".bar-notification.success")));
         Assert.assertTrue(successMessage.isDisplayed(), "Product was not added to the cart!");
         logger.info("Product successfully added to cart.");
@@ -375,6 +391,7 @@ public class PaymentsTest extends BaseTest {
         System.out.println("Cart page loaded successfully.");
 
         // Step 9: Accept terms and proceed to checkout
+        SeleniumHelper.realisticDelay();
         WebElement termsCheckbox = wait.until(ExpectedConditions.elementToBeClickable(By.id("termsofservice")));
         if (!termsCheckbox.isSelected()) {
             termsCheckbox.click();
@@ -390,11 +407,13 @@ public class PaymentsTest extends BaseTest {
         continueButton.click();
 
         // Step 11: Choose shipping method
+        SeleniumHelper.realisticDelay();
         wait.until(ExpectedConditions.elementToBeClickable(By.id("shippingoption_1"))).click();
         driver.findElement(By.cssSelector("#shipping-method-buttons-container button")).click();
         System.out.println("Shipping method selected.");
 
         // Step 12: Select payment method
+        SeleniumHelper.realisticDelay();
         wait.until(ExpectedConditions.elementToBeClickable(By.id("paymentmethod_1"))).click();
         driver.findElement(By.cssSelector("#payment-method-buttons-container button")).click();
         System.out.println("Payment method selected.");
@@ -428,6 +447,7 @@ public class PaymentsTest extends BaseTest {
         }
 
         // Step 15: Confirm the order and verify that only one payment was processed
+        SeleniumHelper.realisticDelay();
         wait.until(ExpectedConditions.elementToBeClickable(By.cssSelector("#confirm-order-buttons-container button"))).click();
         WebElement confirmationMessage = wait.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector(".section.order-completed")));
         Assert.assertTrue(confirmationMessage.getText().contains("Your order has been successfully processed!"), "Order not successful!");
@@ -440,6 +460,7 @@ public class PaymentsTest extends BaseTest {
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(20));
 
         // Step 2: Enter login credentials
+        SeleniumHelper.realisticDelay();
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("Email"))).sendKeys("7a6d6efc3d@emaily.pro");
         driver.findElement(By.id("Password")).sendKeys("TestPassword123");
 
@@ -465,16 +486,19 @@ public class PaymentsTest extends BaseTest {
         System.out.println("Clicked 'Add to Cart' button.");
 
         // Step 7: Wait for cart success message
+        SeleniumHelper.realisticDelay();
         WebElement successMessage = wait.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector(".bar-notification.success")));
         Assert.assertTrue(successMessage.isDisplayed(), "Product was not added to the cart!");
         logger.info("Product successfully added to cart.");
 
         // Step 8: Go to cart page
         driver.get(cartUrl);
+        SeleniumHelper.realisticDelay();
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector(".table-wrapper")));
         System.out.println("Cart page loaded successfully.");
 
         // Step 9: Accept terms and proceed to checkout
+        SeleniumHelper.realisticDelay();
         WebElement termsCheckbox = wait.until(ExpectedConditions.elementToBeClickable(By.id("termsofservice")));
         if (!termsCheckbox.isSelected()) {
             termsCheckbox.click();
@@ -490,11 +514,13 @@ public class PaymentsTest extends BaseTest {
         continueButton.click();
 
         // Step 11: Choose shipping method
+        SeleniumHelper.realisticDelay();
         wait.until(ExpectedConditions.elementToBeClickable(By.id("shippingoption_1"))).click();
         driver.findElement(By.cssSelector("#shipping-method-buttons-container button")).click();
         System.out.println("Shipping method selected.");
 
         // Step 12: Select payment method
+        SeleniumHelper.realisticDelay();
         wait.until(ExpectedConditions.elementToBeClickable(By.id("paymentmethod_1"))).click();
         driver.findElement(By.cssSelector("#payment-method-buttons-container button")).click();
         System.out.println("Payment method selected.");
@@ -511,15 +537,18 @@ public class PaymentsTest extends BaseTest {
 
         driver.findElement(By.id("CardCode")).sendKeys("469");
 
+        SeleniumHelper.realisticDelay();
         driver.findElement(By.cssSelector("#payment-info-buttons-container button")).click();
         logger.info("Payment details entered.");
 
         // Step 14: Confirm order
+        SeleniumHelper.realisticDelay();
         wait.until(ExpectedConditions.elementToBeClickable(By.cssSelector("#confirm-order-buttons-container button"))).click();
         logger.info("Order confirmed.");
 
         // Step 14: Attempt to confirm order
         try {
+            SeleniumHelper.realisticDelay();
             WebElement errorMessage = wait.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector(".message-error")));
             Assert.assertTrue(errorMessage.getText().contains("insufficient funds"), "Expected 'insufficient funds' error message was not displayed.");
             logger.info("Transaction correctly declined due to insufficient funds.");
@@ -529,7 +558,6 @@ public class PaymentsTest extends BaseTest {
             Assert.fail("Transaction should have been declined due to insufficient funds, but it was processed successfully.");
         }
     }
-
 
 
 }

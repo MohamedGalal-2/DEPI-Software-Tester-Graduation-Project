@@ -6,8 +6,10 @@
     <test name="EcomUIRegressionTest">
         <classes>
             <class name="tests.ui.UITest"/>
+			<class name="tests.ui.CartTest"/>
             <class name="tests.ui.CheckoutTest"/>
             <class name="tests.ui.HomePageTest"/>
+			<class name="tests.ui.PaymentsTest"/>
             <class name="tests.ui.ProductPageTest"/>
             <class name="tests.ui.SearchTest"/>
         </classes>
