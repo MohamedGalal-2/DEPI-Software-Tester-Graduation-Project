@@ -37,13 +37,16 @@ We will be testing the following website: [nopcommerce demo](https://demo.nopcom
 │── 📂 config                        # Configuration files (test data, environment variables)
 │── 📂 docs                          # Documentation (test cases, guidelines, API references)
 │── 📂 meetings                      # Meeting notes and discussions
-│── 📂 logs                          # Execution logs for debugging
 │── 📂 postman                       # Postman collections for API testing
 │── 📂 reports                       # Test reports (TestNG, Allure, etc.)
+│   ├── 📂 extent-reports
+│   ├── 📂 logs
+│   ├── 📂 screenshots
 │── 📂 src                           # Source code directory
 │   ├── 📂 test
 │   │   ├── 📂 java
 │   │   │   ├── 📂 base              # Base classes (e.g., setup, teardown)
+│   │   │   ├── 📂 listeners         
 │   │   │   ├── 📂 tests
 │   │   │   │   ├── 📂 ui           # UI tests (Selenium)
 │   │   │   │   ├── 📂 api          # API tests (Rest Assured)
