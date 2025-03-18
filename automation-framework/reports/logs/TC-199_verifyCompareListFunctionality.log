@@ -21,3 +21,19 @@
 2025-03-18 13:15:06 [main] INFO  listeners.TestListener - ✅ Test PASSED: verifyCompareListFunctionality (Duration: 56855ms)
 2025-03-18 13:15:06 [main] INFO  TC-199_verifyCompareListFunctionality - Closing the browser for test: verifyCompareListFunctionality
 2025-03-18 13:15:06 [main] INFO  TC-199_verifyCompareListFunctionality - Browser closed.
+2025-03-18 19:21:33 [main] INFO  TC-199_verifyCompareListFunctionality - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-03-18 19:21:33 [main] INFO  TC-199_verifyCompareListFunctionality - Logger initialized
+2025-03-18 19:21:33 [main] INFO  TC-199_verifyCompareListFunctionality - Starting test setup for: verifyCompareListFunctionality (🔢 Test Case ID: TC-199)
+2025-03-18 19:21:55 [main] INFO  TC-199_verifyCompareListFunctionality - Navigated to the site: https://demo.nopcommerce.com
+2025-03-18 19:21:55 [main] INFO  TC-199_verifyCompareListFunctionality - Injected cookie: _ga
+2025-03-18 19:21:55 [main] INFO  TC-199_verifyCompareListFunctionality - Injected cookie: cf_clearance
+2025-03-18 19:21:55 [main] INFO  TC-199_verifyCompareListFunctionality - Injected cookie: .Nop.Antiforgery
+2025-03-18 19:21:55 [main] INFO  TC-199_verifyCompareListFunctionality - Injected cookie: .Nop.Customer
+2025-03-18 19:21:55 [main] INFO  TC-199_verifyCompareListFunctionality - Injected cookie: .Nop.Culture
+2025-03-18 19:21:55 [main] INFO  TC-199_verifyCompareListFunctionality - Injected cookie: _ga_SCT41TW89V
+2025-03-18 19:21:56 [main] INFO  TC-199_verifyCompareListFunctionality - Page refreshed with bypassed cookies.
+2025-03-18 19:21:56 [main] INFO  TC-199_verifyCompareListFunctionality - Navigating to: https://demo.nopcommerce.com/
+2025-03-18 19:21:56 [main] INFO  TC-199_verifyCompareListFunctionality - Opening Apple iPhone 16 128GB product page.
+2025-03-18 19:22:08 [main] INFO  TC-199_verifyCompareListFunctionality - Closing the browser for test: verifyCompareListFunctionality
+2025-03-18 19:22:08 [main] INFO  TC-199_verifyCompareListFunctionality - Browser closed.
