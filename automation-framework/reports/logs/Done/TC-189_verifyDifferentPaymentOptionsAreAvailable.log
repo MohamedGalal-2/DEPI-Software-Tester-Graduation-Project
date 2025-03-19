@@ -1,0 +1,28 @@
+2025-03-18 13:04:32 [main] INFO  TC-189_verifyDifferentPaymentOptionsAreAvailable - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-03-18 13:04:32 [main] INFO  TC-189_verifyDifferentPaymentOptionsAreAvailable - Logger initialized
+2025-03-18 13:04:32 [main] INFO  TC-189_verifyDifferentPaymentOptionsAreAvailable - Starting test setup for: verifyDifferentPaymentOptionsAreAvailable (🔢 Test Case ID: TC-189)
+2025-03-18 13:04:53 [main] INFO  TC-189_verifyDifferentPaymentOptionsAreAvailable - Navigated to the site: https://demo.nopcommerce.com
+2025-03-18 13:04:53 [main] INFO  TC-189_verifyDifferentPaymentOptionsAreAvailable - Injected cookie: cf_clearance
+2025-03-18 13:04:53 [main] INFO  TC-189_verifyDifferentPaymentOptionsAreAvailable - Injected cookie: _ga
+2025-03-18 13:04:53 [main] INFO  TC-189_verifyDifferentPaymentOptionsAreAvailable - Injected cookie: .Nop.Antiforgery
+2025-03-18 13:04:53 [main] INFO  TC-189_verifyDifferentPaymentOptionsAreAvailable - Injected cookie: .Nop.Customer
+2025-03-18 13:04:53 [main] INFO  TC-189_verifyDifferentPaymentOptionsAreAvailable - Injected cookie: .Nop.Culture
+2025-03-18 13:04:53 [main] INFO  TC-189_verifyDifferentPaymentOptionsAreAvailable - Injected cookie: _ga_SCT41TW89V
+2025-03-18 13:04:54 [main] INFO  TC-189_verifyDifferentPaymentOptionsAreAvailable - Page refreshed with bypassed cookies.
+2025-03-18 13:04:54 [main] INFO  TC-189_verifyDifferentPaymentOptionsAreAvailable - 🟢 Starting test: verifyDifferentPaymentOptionsAreAvailable (🔢 Test Case ID: TC-189)
+2025-03-18 13:04:54 [main] INFO  TC-189_verifyDifferentPaymentOptionsAreAvailable - Navigating to login page: https://demo.nopcommerce.com/login
+2025-03-18 13:04:59 [main] INFO  TC-189_verifyDifferentPaymentOptionsAreAvailable - User logged in successfully.
+2025-03-18 13:04:59 [main] INFO  TC-189_verifyDifferentPaymentOptionsAreAvailable - Navigating to product page: https://demo.nopcommerce.com/adobe-photoshop
+2025-03-18 13:05:02 [main] INFO  TC-189_verifyDifferentPaymentOptionsAreAvailable - Clicked 'Add to Cart' button.
+2025-03-18 13:05:04 [main] INFO  TC-189_verifyDifferentPaymentOptionsAreAvailable - Product successfully added to cart.
+2025-03-18 13:05:04 [main] INFO  TC-189_verifyDifferentPaymentOptionsAreAvailable - Navigating to cart page: https://demo.nopcommerce.com/cart
+2025-03-18 13:05:06 [main] INFO  TC-189_verifyDifferentPaymentOptionsAreAvailable - Cart page loaded successfully.
+2025-03-18 13:05:08 [main] INFO  TC-189_verifyDifferentPaymentOptionsAreAvailable - Accepted terms of service.
+2025-03-18 13:05:14 [main] INFO  TC-189_verifyDifferentPaymentOptionsAreAvailable - Shipping method selected.
+2025-03-18 13:05:16 [main] INFO  TC-189_verifyDifferentPaymentOptionsAreAvailable - Payment section loaded successfully.
+2025-03-18 13:05:19 [main] INFO  TC-189_verifyDifferentPaymentOptionsAreAvailable - Payment options are listed.
+2025-03-18 13:05:19 [main] INFO  TC-189_verifyDifferentPaymentOptionsAreAvailable - "TC-189" Passed: Both 'Check / Money Order' and 'Credit Card' options are visible.
+2025-03-18 13:05:19 [main] INFO  listeners.TestListener - ✅ Test PASSED: verifyDifferentPaymentOptionsAreAvailable (Duration: 24557ms)
+2025-03-18 13:05:19 [main] INFO  TC-189_verifyDifferentPaymentOptionsAreAvailable - Closing the browser for test: verifyDifferentPaymentOptionsAreAvailable
+2025-03-18 13:05:19 [main] INFO  TC-189_verifyDifferentPaymentOptionsAreAvailable - Browser closed.

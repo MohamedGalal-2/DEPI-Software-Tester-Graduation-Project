@@ -1,0 +1,31 @@
+2025-03-18 12:59:38 [main] INFO  TC-018_testAddMultipleProductsToCart - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-03-18 12:59:38 [main] INFO  TC-018_testAddMultipleProductsToCart - Logger initialized
+2025-03-18 12:59:38 [main] INFO  TC-018_testAddMultipleProductsToCart - Starting test setup for: testAddMultipleProductsToCart (🔢 Test Case ID: TC-018)
+2025-03-18 13:00:00 [main] INFO  TC-018_testAddMultipleProductsToCart - Navigated to the site: https://demo.nopcommerce.com
+2025-03-18 13:00:00 [main] INFO  TC-018_testAddMultipleProductsToCart - Injected cookie: cf_clearance
+2025-03-18 13:00:00 [main] INFO  TC-018_testAddMultipleProductsToCart - Injected cookie: _ga
+2025-03-18 13:00:00 [main] INFO  TC-018_testAddMultipleProductsToCart - Injected cookie: .Nop.Antiforgery
+2025-03-18 13:00:00 [main] INFO  TC-018_testAddMultipleProductsToCart - Injected cookie: .Nop.Customer
+2025-03-18 13:00:00 [main] INFO  TC-018_testAddMultipleProductsToCart - Injected cookie: .Nop.Culture
+2025-03-18 13:00:00 [main] INFO  TC-018_testAddMultipleProductsToCart - Injected cookie: _ga_SCT41TW89V
+2025-03-18 13:00:00 [main] INFO  TC-018_testAddMultipleProductsToCart - Page refreshed with bypassed cookies.
+2025-03-18 13:00:00 [main] INFO  TC-018_testAddMultipleProductsToCart - 🟢 Starting test: testAddMultipleProductsToCart (🔢 Test Case ID: TC-018)
+2025-03-18 13:00:02 [main] INFO  TC-018_testAddMultipleProductsToCart - Navigating to product page: https://demo.nopcommerce.com/lenovo-ideacentre
+2025-03-18 13:00:05 [main] INFO  TC-018_testAddMultipleProductsToCart - Clicked 'Add to Cart' button for product: Lenovo IdeaCentre
+2025-03-18 13:00:07 [main] INFO  TC-018_testAddMultipleProductsToCart - Lenovo IdeaCentre successfully added to cart.
+2025-03-18 13:00:08 [main] INFO  TC-018_testAddMultipleProductsToCart - Navigating to product page: https://demo.nopcommerce.com/apple-macbook-pro
+2025-03-18 13:00:11 [main] INFO  TC-018_testAddMultipleProductsToCart - Clicked 'Add to Cart' button for product: Apple MacBook Pro
+2025-03-18 13:00:14 [main] INFO  TC-018_testAddMultipleProductsToCart - Apple MacBook Pro successfully added to cart.
+2025-03-18 13:00:16 [main] INFO  TC-018_testAddMultipleProductsToCart - Navigating to product page: https://demo.nopcommerce.com/flower-girl-bracelet
+2025-03-18 13:00:18 [main] INFO  TC-018_testAddMultipleProductsToCart - Clicked 'Add to Cart' button for product: Flower Girl Bracelet
+2025-03-18 13:00:20 [main] INFO  TC-018_testAddMultipleProductsToCart - Flower Girl Bracelet successfully added to cart.
+2025-03-18 13:00:22 [main] INFO  TC-018_testAddMultipleProductsToCart - Navigating to product page: https://demo.nopcommerce.com/pride-and-prejudice
+2025-03-18 13:00:24 [main] INFO  TC-018_testAddMultipleProductsToCart - Clicked 'Add to Cart' button for product: Pride and Prejudice
+2025-03-18 13:00:25 [main] INFO  TC-018_testAddMultipleProductsToCart - Pride and Prejudice successfully added to cart.
+2025-03-18 13:00:25 [main] INFO  TC-018_testAddMultipleProductsToCart - Cart quantity updated to: 5
+2025-03-18 13:00:27 [main] INFO  TC-018_testAddMultipleProductsToCart - Navigating to cart page.
+2025-03-18 13:00:27 [main] INFO  TC-018_testAddMultipleProductsToCart - All selected products are confirmed in the cart.
+2025-03-18 13:00:27 [main] INFO  listeners.TestListener - ✅ Test PASSED: testAddMultipleProductsToCart (Duration: 26325ms)
+2025-03-18 13:00:27 [main] INFO  TC-018_testAddMultipleProductsToCart - Closing the browser for test: testAddMultipleProductsToCart
+2025-03-18 13:00:27 [main] INFO  TC-018_testAddMultipleProductsToCart - Browser closed.

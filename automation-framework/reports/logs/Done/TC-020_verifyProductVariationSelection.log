@@ -1,0 +1,30 @@
+2025-03-18 13:16:46 [main] INFO  TC-020_verifyProductVariationSelection - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-03-18 13:16:46 [main] INFO  TC-020_verifyProductVariationSelection - Logger initialized
+2025-03-18 13:16:46 [main] INFO  TC-020_verifyProductVariationSelection - Starting test setup for: verifyProductVariationSelection (🔢 Test Case ID: TC-020)
+2025-03-18 13:17:06 [main] INFO  TC-020_verifyProductVariationSelection - Navigated to the site: https://demo.nopcommerce.com
+2025-03-18 13:17:06 [main] INFO  TC-020_verifyProductVariationSelection - Injected cookie: cf_clearance
+2025-03-18 13:17:06 [main] INFO  TC-020_verifyProductVariationSelection - Injected cookie: _ga
+2025-03-18 13:17:06 [main] INFO  TC-020_verifyProductVariationSelection - Injected cookie: .Nop.Antiforgery
+2025-03-18 13:17:06 [main] INFO  TC-020_verifyProductVariationSelection - Injected cookie: .Nop.Customer
+2025-03-18 13:17:06 [main] INFO  TC-020_verifyProductVariationSelection - Injected cookie: .Nop.Culture
+2025-03-18 13:17:06 [main] INFO  TC-020_verifyProductVariationSelection - Injected cookie: _ga_SCT41TW89V
+2025-03-18 13:17:07 [main] INFO  TC-020_verifyProductVariationSelection - Page refreshed with bypassed cookies.
+2025-03-18 13:17:07 [main] INFO  TC-020_verifyProductVariationSelection - 🟢 Starting test: verifyProductVariationSelection (🔢 Test Case ID: TC-020)
+2025-03-18 13:17:07 [main] INFO  TC-020_verifyProductVariationSelection - Navigating directly to the product page.
+2025-03-18 13:17:08 [main] INFO  TC-020_verifyProductVariationSelection - Product page loaded successfully.
+2025-03-18 13:17:29 [main] INFO  TC-020_verifyProductVariationSelection - Product added to the cart successfully.
+2025-03-18 13:17:35 [main] INFO  TC-020_verifyProductVariationSelection - SKU: COMP_CUST
+2025-03-18 13:17:35 [main] INFO  TC-020_verifyProductVariationSelection - Product Name: Build your own computer
+2025-03-18 13:17:35 [main] INFO  TC-020_verifyProductVariationSelection - Attributes: Processor: 2.5 GHz Intel Pentium Dual-Core E2200 [+$15.00]
+RAM: 4GB [+$20.00]
+HDD: 400 GB [+$100.00]
+OS: Vista Premium [+$60.00]
+Software: Microsoft Office [+$50.00]
+2025-03-18 13:17:35 [main] INFO  TC-020_verifyProductVariationSelection - Unit Price: $1,445.00
+2025-03-18 13:17:35 [main] INFO  TC-020_verifyProductVariationSelection - Quantity: 1
+2025-03-18 13:17:35 [main] INFO  TC-020_verifyProductVariationSelection - Total: $1,445.00
+2025-03-18 13:17:35 [main] INFO  TC-020_verifyProductVariationSelection - Cart validation successful! Product attributes match the selection.
+2025-03-18 13:17:35 [main] INFO  listeners.TestListener - ✅ Test PASSED: verifyProductVariationSelection (Duration: 28279ms)
+2025-03-18 13:17:35 [main] INFO  TC-020_verifyProductVariationSelection - Closing the browser for test: verifyProductVariationSelection
+2025-03-18 13:17:35 [main] INFO  TC-020_verifyProductVariationSelection - Browser closed.

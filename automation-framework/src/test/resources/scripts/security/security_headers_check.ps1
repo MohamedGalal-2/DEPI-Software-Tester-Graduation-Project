@@ -1,0 +1,1 @@
+Invoke-WebRequest -Uri "https://demo.nopcommerce.com" -Headers @{"User-Agent"="Mozilla"} -Method Get | Select-Object -ExpandProperty Headers

@@ -1,0 +1,26 @@
+PS C:\Users\Mohamed-Galal> Invoke-WebRequest -Uri "https://demo.nopcommerce.com" -Headers @{"User-Agent"="Mozilla"} -Method Get | Select-Object -ExpandProperty Headers
+
+Key                       Value
+---                       -----
+Transfer-Encoding         chunked
+Connection                keep-alive
+pragma                    no-cache
+content-language          en-US
+vary                      Accept-Encoding
+Cache-Control             no-cache, no-store
+Content-Type              text/html; charset=utf-8
+Date                      Tue, 18 Mar 2025 23:39:21 GMT
+Set-Cookie                .Nop.Customer=; expires=Thu, 01 Jan 1970 00:00:00 GMT; path=/,.Nop.Customer=ae5cbfb7-3007-...
+x-xss-protection          1; mode=block
+x-frame-options           SAMEORIGIN
+x-content-type-options    nosniff
+strict-transport-security max-age=31536000; includeSubDomains
+content-security-policy   default-src 'self'; connect-src *; font-src * data:; frame-src *; img-src * data:; media-s...
+referrer-policy           same-origin
+permissions-policy        accelerometer=(), camera=(), geolocation=(), gyroscope=(), magnetometer=(), microphone=(),...
+cf-cache-status           DYNAMIC
+Report-To                 {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=97Y38MGaUJVc7EWvXLQhnv6...
+NEL                       {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Server                    cloudflare
+CF-RAY                    9228919d9e776247-OTP
+server-timing             cfL4;desc="?proto=TCP&rtt=380&min_rtt=321&rtt_var=161&sent=5&recv=8&lost=0&retrans=0&sent_...

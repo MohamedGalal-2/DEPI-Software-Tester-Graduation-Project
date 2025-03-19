@@ -1,0 +1,18 @@
+2025-03-18 13:19:59 [main] INFO  TC-048_verifyInvalidSearchTerm - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-03-18 13:19:59 [main] INFO  TC-048_verifyInvalidSearchTerm - Logger initialized
+2025-03-18 13:19:59 [main] INFO  TC-048_verifyInvalidSearchTerm - Starting test setup for: verifyInvalidSearchTerm (🔢 Test Case ID: TC-048)
+2025-03-18 13:20:19 [main] INFO  TC-048_verifyInvalidSearchTerm - Navigated to the site: https://demo.nopcommerce.com
+2025-03-18 13:20:19 [main] INFO  TC-048_verifyInvalidSearchTerm - Injected cookie: cf_clearance
+2025-03-18 13:20:19 [main] INFO  TC-048_verifyInvalidSearchTerm - Injected cookie: _ga
+2025-03-18 13:20:20 [main] INFO  TC-048_verifyInvalidSearchTerm - Injected cookie: .Nop.Antiforgery
+2025-03-18 13:20:20 [main] INFO  TC-048_verifyInvalidSearchTerm - Injected cookie: .Nop.Customer
+2025-03-18 13:20:20 [main] INFO  TC-048_verifyInvalidSearchTerm - Injected cookie: .Nop.Culture
+2025-03-18 13:20:20 [main] INFO  TC-048_verifyInvalidSearchTerm - Injected cookie: _ga_SCT41TW89V
+2025-03-18 13:20:20 [main] INFO  TC-048_verifyInvalidSearchTerm - Page refreshed with bypassed cookies.
+2025-03-18 13:20:20 [main] INFO  TC-048_verifyInvalidSearchTerm - 🟢 Starting test: verifyInvalidSearchTerm (🔢 Test Case ID: TC-048)
+2025-03-18 13:20:20 [main] INFO  TC-048_verifyInvalidSearchTerm - Navigating to: https://demo.nopcommerce.com/
+2025-03-18 13:20:28 [main] INFO  TC-048_verifyInvalidSearchTerm - Invalid search term verification completed successfully.
+2025-03-18 13:20:28 [main] INFO  listeners.TestListener - ✅ Test PASSED: verifyInvalidSearchTerm (Duration: 7268ms)
+2025-03-18 13:20:28 [main] INFO  TC-048_verifyInvalidSearchTerm - Closing the browser for test: verifyInvalidSearchTerm
+2025-03-18 13:20:28 [main] INFO  TC-048_verifyInvalidSearchTerm - Browser closed.

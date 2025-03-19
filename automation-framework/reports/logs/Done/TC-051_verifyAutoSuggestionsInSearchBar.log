@@ -1,0 +1,18 @@
+2025-03-18 13:18:14 [main] INFO  TC-051_verifyAutoSuggestionsInSearchBar - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-03-18 13:18:14 [main] INFO  TC-051_verifyAutoSuggestionsInSearchBar - Logger initialized
+2025-03-18 13:18:14 [main] INFO  TC-051_verifyAutoSuggestionsInSearchBar - Starting test setup for: verifyAutoSuggestionsInSearchBar (🔢 Test Case ID: TC-051)
+2025-03-18 13:18:35 [main] INFO  TC-051_verifyAutoSuggestionsInSearchBar - Navigated to the site: https://demo.nopcommerce.com
+2025-03-18 13:18:35 [main] INFO  TC-051_verifyAutoSuggestionsInSearchBar - Injected cookie: cf_clearance
+2025-03-18 13:18:35 [main] INFO  TC-051_verifyAutoSuggestionsInSearchBar - Injected cookie: _ga
+2025-03-18 13:18:35 [main] INFO  TC-051_verifyAutoSuggestionsInSearchBar - Injected cookie: .Nop.Antiforgery
+2025-03-18 13:18:35 [main] INFO  TC-051_verifyAutoSuggestionsInSearchBar - Injected cookie: .Nop.Customer
+2025-03-18 13:18:35 [main] INFO  TC-051_verifyAutoSuggestionsInSearchBar - Injected cookie: .Nop.Culture
+2025-03-18 13:18:35 [main] INFO  TC-051_verifyAutoSuggestionsInSearchBar - Injected cookie: _ga_SCT41TW89V
+2025-03-18 13:18:35 [main] INFO  TC-051_verifyAutoSuggestionsInSearchBar - Page refreshed with bypassed cookies.
+2025-03-18 13:18:35 [main] INFO  TC-051_verifyAutoSuggestionsInSearchBar - 🟢 Starting test: verifyAutoSuggestionsInSearchBar (🔢 Test Case ID: TC-051)
+2025-03-18 13:18:35 [main] INFO  TC-051_verifyAutoSuggestionsInSearchBar - Navigating to: https://demo.nopcommerce.com/
+2025-03-18 13:18:40 [main] INFO  TC-051_verifyAutoSuggestionsInSearchBar - Auto-suggestions in the search bar verified successfully.
+2025-03-18 13:18:40 [main] INFO  listeners.TestListener - ✅ Test PASSED: verifyAutoSuggestionsInSearchBar (Duration: 4823ms)
+2025-03-18 13:18:41 [main] INFO  TC-051_verifyAutoSuggestionsInSearchBar - Closing the browser for test: verifyAutoSuggestionsInSearchBar
+2025-03-18 13:18:41 [main] INFO  TC-051_verifyAutoSuggestionsInSearchBar - Browser closed.

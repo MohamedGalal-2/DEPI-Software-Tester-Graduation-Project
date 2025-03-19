@@ -1,0 +1,22 @@
+2025-03-18 13:00:27 [main] INFO  TC-015_testCartPersistence - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-03-18 13:00:27 [main] INFO  TC-015_testCartPersistence - Logger initialized
+2025-03-18 13:00:27 [main] INFO  TC-015_testCartPersistence - Starting test setup for: testCartPersistence (🔢 Test Case ID: TC-015)
+2025-03-18 13:00:48 [main] INFO  TC-015_testCartPersistence - Navigated to the site: https://demo.nopcommerce.com
+2025-03-18 13:00:48 [main] INFO  TC-015_testCartPersistence - Injected cookie: cf_clearance
+2025-03-18 13:00:48 [main] INFO  TC-015_testCartPersistence - Injected cookie: _ga
+2025-03-18 13:00:48 [main] INFO  TC-015_testCartPersistence - Injected cookie: .Nop.Antiforgery
+2025-03-18 13:00:48 [main] INFO  TC-015_testCartPersistence - Injected cookie: .Nop.Customer
+2025-03-18 13:00:48 [main] INFO  TC-015_testCartPersistence - Injected cookie: .Nop.Culture
+2025-03-18 13:00:48 [main] INFO  TC-015_testCartPersistence - Injected cookie: _ga_SCT41TW89V
+2025-03-18 13:00:49 [main] INFO  TC-015_testCartPersistence - Page refreshed with bypassed cookies.
+2025-03-18 13:00:49 [main] INFO  TC-015_testCartPersistence - 🟢 Starting test: testCartPersistence (🔢 Test Case ID: TC-015)
+2025-03-18 13:00:50 [main] INFO  TC-015_testCartPersistence - Navigating to product page: https://demo.nopcommerce.com/adobe-photoshop
+2025-03-18 13:00:53 [main] INFO  TC-015_testCartPersistence - Clicked 'Add to Cart' button.
+2025-03-18 13:00:53 [main] INFO  TC-015_testCartPersistence - Product successfully added to cart.
+2025-03-18 13:00:53 [main] INFO  TC-015_testCartPersistence - Cart quantity updated to: 1
+2025-03-18 13:00:55 [main] INFO  TC-015_testCartPersistence - Page refreshed to check cart persistence.
+2025-03-18 13:00:55 [main] INFO  TC-015_testCartPersistence - Cart persistence verified successfully after refresh.
+2025-03-18 13:00:55 [main] INFO  listeners.TestListener - ✅ Test PASSED: testCartPersistence (Duration: 5751ms)
+2025-03-18 13:00:55 [main] INFO  TC-015_testCartPersistence - Closing the browser for test: testCartPersistence
+2025-03-18 13:00:55 [main] INFO  TC-015_testCartPersistence - Browser closed.

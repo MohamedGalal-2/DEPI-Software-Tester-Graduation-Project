@@ -1,0 +1,33 @@
+2025-03-18 13:00:55 [main] INFO  TC-019_verifyRemoveMultipleProducts - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-03-18 13:00:55 [main] INFO  TC-019_verifyRemoveMultipleProducts - Logger initialized
+2025-03-18 13:00:55 [main] INFO  TC-019_verifyRemoveMultipleProducts - Starting test setup for: verifyRemoveMultipleProducts (🔢 Test Case ID: TC-019)
+2025-03-18 13:01:16 [main] INFO  TC-019_verifyRemoveMultipleProducts - Navigated to the site: https://demo.nopcommerce.com
+2025-03-18 13:01:16 [main] INFO  TC-019_verifyRemoveMultipleProducts - Injected cookie: cf_clearance
+2025-03-18 13:01:16 [main] INFO  TC-019_verifyRemoveMultipleProducts - Injected cookie: _ga
+2025-03-18 13:01:16 [main] INFO  TC-019_verifyRemoveMultipleProducts - Injected cookie: .Nop.Antiforgery
+2025-03-18 13:01:16 [main] INFO  TC-019_verifyRemoveMultipleProducts - Injected cookie: .Nop.Customer
+2025-03-18 13:01:16 [main] INFO  TC-019_verifyRemoveMultipleProducts - Injected cookie: .Nop.Culture
+2025-03-18 13:01:16 [main] INFO  TC-019_verifyRemoveMultipleProducts - Injected cookie: _ga_SCT41TW89V
+2025-03-18 13:01:17 [main] INFO  TC-019_verifyRemoveMultipleProducts - Page refreshed with bypassed cookies.
+2025-03-18 13:01:17 [main] INFO  TC-019_verifyRemoveMultipleProducts - 🟢 Starting test: verifyRemoveMultipleProducts (🔢 Test Case ID: TC-019)
+2025-03-18 13:01:19 [main] INFO  TC-019_verifyRemoveMultipleProducts - Navigating to product page: https://demo.nopcommerce.com/lenovo-ideacentre
+2025-03-18 13:01:20 [main] INFO  TC-019_verifyRemoveMultipleProducts - Clicked 'Add to Cart' button for product: Lenovo IdeaCentre
+2025-03-18 13:01:21 [main] INFO  TC-019_verifyRemoveMultipleProducts - Lenovo IdeaCentre successfully added to cart.
+2025-03-18 13:01:23 [main] INFO  TC-019_verifyRemoveMultipleProducts - Navigating to product page: https://demo.nopcommerce.com/apple-macbook-pro
+2025-03-18 13:01:24 [main] INFO  TC-019_verifyRemoveMultipleProducts - Clicked 'Add to Cart' button for product: Apple MacBook Pro
+2025-03-18 13:01:26 [main] INFO  TC-019_verifyRemoveMultipleProducts - Apple MacBook Pro successfully added to cart.
+2025-03-18 13:01:27 [main] INFO  TC-019_verifyRemoveMultipleProducts - Navigating to product page: https://demo.nopcommerce.com/flower-girl-bracelet
+2025-03-18 13:01:29 [main] INFO  TC-019_verifyRemoveMultipleProducts - Clicked 'Add to Cart' button for product: Flower Girl Bracelet
+2025-03-18 13:01:32 [main] INFO  TC-019_verifyRemoveMultipleProducts - Flower Girl Bracelet successfully added to cart.
+2025-03-18 13:01:34 [main] INFO  TC-019_verifyRemoveMultipleProducts - Navigating to product page: https://demo.nopcommerce.com/pride-and-prejudice
+2025-03-18 13:01:36 [main] INFO  TC-019_verifyRemoveMultipleProducts - Clicked 'Add to Cart' button for product: Pride and Prejudice
+2025-03-18 13:01:37 [main] INFO  TC-019_verifyRemoveMultipleProducts - Pride and Prejudice successfully added to cart.
+2025-03-18 13:01:39 [main] INFO  TC-019_verifyRemoveMultipleProducts - Navigating to cart page.
+2025-03-18 13:01:39 [main] INFO  TC-019_verifyRemoveMultipleProducts - Lenovo IdeaCentre is confirmed in the cart.
+2025-03-18 13:01:39 [main] INFO  TC-019_verifyRemoveMultipleProducts - Apple MacBook Pro is confirmed in the cart.
+2025-03-18 13:01:39 [main] INFO  TC-019_verifyRemoveMultipleProducts - Flower Girl Bracelet is confirmed in the cart.
+2025-03-18 13:01:39 [main] INFO  TC-019_verifyRemoveMultipleProducts - Pride and Prejudice is confirmed in the cart.
+2025-03-18 13:01:58 [main] INFO  listeners.TestListener - ✅ Test PASSED: verifyRemoveMultipleProducts (Duration: 40813ms)
+2025-03-18 13:01:58 [main] INFO  TC-019_verifyRemoveMultipleProducts - Closing the browser for test: verifyRemoveMultipleProducts
+2025-03-18 13:01:58 [main] INFO  TC-019_verifyRemoveMultipleProducts - Browser closed.

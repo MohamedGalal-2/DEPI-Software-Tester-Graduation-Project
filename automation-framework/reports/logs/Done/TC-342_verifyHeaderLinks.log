@@ -1,0 +1,26 @@
+2025-03-18 13:07:54 [main] INFO  TC-342_verifyHeaderLinks - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-03-18 13:07:54 [main] INFO  TC-342_verifyHeaderLinks - Logger initialized
+2025-03-18 13:07:54 [main] INFO  TC-342_verifyHeaderLinks - Starting test setup for: verifyHeaderLinks (🔢 Test Case ID: TC-342)
+2025-03-18 13:08:16 [main] INFO  TC-342_verifyHeaderLinks - Navigated to the site: https://demo.nopcommerce.com
+2025-03-18 13:08:16 [main] INFO  TC-342_verifyHeaderLinks - Injected cookie: _ga
+2025-03-18 13:08:16 [main] INFO  TC-342_verifyHeaderLinks - Injected cookie: cf_clearance
+2025-03-18 13:08:16 [main] INFO  TC-342_verifyHeaderLinks - Injected cookie: .Nop.Antiforgery
+2025-03-18 13:08:16 [main] INFO  TC-342_verifyHeaderLinks - Injected cookie: .Nop.Customer
+2025-03-18 13:08:16 [main] INFO  TC-342_verifyHeaderLinks - Injected cookie: .Nop.Culture
+2025-03-18 13:08:16 [main] INFO  TC-342_verifyHeaderLinks - Injected cookie: _ga_SCT41TW89V
+2025-03-18 13:08:17 [main] INFO  TC-342_verifyHeaderLinks - Page refreshed with bypassed cookies.
+2025-03-18 13:08:17 [main] INFO  TC-342_verifyHeaderLinks - 🟢 Starting test: verifyHeaderLinks (🔢 Test Case ID: TC-342)
+2025-03-18 13:08:17 [main] INFO  TC-342_verifyHeaderLinks - Navigating to: https://demo.nopcommerce.com/
+2025-03-18 13:08:18 [main] INFO  TC-342_verifyHeaderLinks - Verifying Register link...
+2025-03-18 13:08:24 [main] INFO  TC-342_verifyHeaderLinks - Register link verification successful!
+2025-03-18 13:08:24 [main] INFO  TC-342_verifyHeaderLinks - Verifying Login link...
+2025-03-18 13:08:28 [main] INFO  TC-342_verifyHeaderLinks - Login link verification successful!
+2025-03-18 13:08:28 [main] INFO  TC-342_verifyHeaderLinks - Verifying Wishlist link...
+2025-03-18 13:08:34 [main] INFO  TC-342_verifyHeaderLinks - Wishlist link verification successful!
+2025-03-18 13:08:34 [main] INFO  TC-342_verifyHeaderLinks - Verifying Shopping Cart link...
+2025-03-18 13:08:38 [main] INFO  TC-342_verifyHeaderLinks - Shopping Cart link verification successful!
+2025-03-18 13:08:38 [main] INFO  TC-342_verifyHeaderLinks - All header links are verified and clickable!
+2025-03-18 13:08:38 [main] INFO  listeners.TestListener - ✅ Test PASSED: verifyHeaderLinks (Duration: 21077ms)
+2025-03-18 13:08:38 [main] INFO  TC-342_verifyHeaderLinks - Closing the browser for test: verifyHeaderLinks
+2025-03-18 13:08:38 [main] INFO  TC-342_verifyHeaderLinks - Browser closed.
