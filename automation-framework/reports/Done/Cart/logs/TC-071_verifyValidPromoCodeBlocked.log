@@ -1,0 +1,34 @@
+2025-03-23 00:31:29 [main] INFO  TC-071_verifyValidPromoCodeBlocked - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-03-23 00:31:29 [main] INFO  TC-071_verifyValidPromoCodeBlocked - Logger initialized
+2025-03-23 00:31:29 [main] INFO  TC-071_verifyValidPromoCodeBlocked - Starting test setup for: verifyValidPromoCodeBlocked (🔢 Test Case ID: TC-071)
+2025-03-23 00:31:45 [main] INFO  TC-071_verifyValidPromoCodeBlocked - Navigated to the site: https://demo.nopcommerce.com
+2025-03-23 00:31:45 [main] INFO  TC-071_verifyValidPromoCodeBlocked - Injected cookie: _ga
+2025-03-23 00:31:46 [main] INFO  TC-071_verifyValidPromoCodeBlocked - Injected cookie: cf_clearance
+2025-03-23 00:31:46 [main] INFO  TC-071_verifyValidPromoCodeBlocked - Injected cookie: .Nop.Antiforgery
+2025-03-23 00:31:46 [main] INFO  TC-071_verifyValidPromoCodeBlocked - Injected cookie: .Nop.Customer
+2025-03-23 00:31:46 [main] INFO  TC-071_verifyValidPromoCodeBlocked - Injected cookie: .Nop.Culture
+2025-03-23 00:31:46 [main] INFO  TC-071_verifyValidPromoCodeBlocked - Injected cookie: _ga_SCT41TW89V
+2025-03-23 00:31:46 [main] INFO  TC-071_verifyValidPromoCodeBlocked - Page refreshed with bypassed cookies.
+2025-03-23 00:31:46 [main] INFO  TC-071_verifyValidPromoCodeBlocked - 🟢 Starting test: verifyValidPromoCodeBlocked (🔢 Test Case ID: TC-071)
+2025-03-23 00:31:46 [main] WARN  listeners.TestListener - ⚠️ Test SKIPPED: verifyValidPromoCodeBlocked
+2025-03-23 00:31:46 [main] INFO  TC-071_verifyValidPromoCodeBlocked - Closing the browser for test: verifyValidPromoCodeBlocked
+2025-03-23 00:31:47 [main] INFO  TC-071_verifyValidPromoCodeBlocked - Browser closed.
+2025-03-23 00:31:47 [main] INFO  listeners.TestListener - 🏁 Finished Test Suite: Surefire test
+2025-03-23 01:22:51 [main] INFO  TC-071_verifyValidPromoCodeBlocked - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-03-23 01:22:51 [main] INFO  TC-071_verifyValidPromoCodeBlocked - Logger initialized
+2025-03-23 01:22:51 [main] INFO  TC-071_verifyValidPromoCodeBlocked - Starting test setup for: verifyValidPromoCodeBlocked (🔢 Test Case ID: TC-071)
+2025-03-23 01:23:07 [main] INFO  TC-071_verifyValidPromoCodeBlocked - Navigated to the site: https://demo.nopcommerce.com
+2025-03-23 01:23:07 [main] INFO  TC-071_verifyValidPromoCodeBlocked - Injected cookie: cf_clearance
+2025-03-23 01:23:07 [main] INFO  TC-071_verifyValidPromoCodeBlocked - Injected cookie: _ga
+2025-03-23 01:23:07 [main] INFO  TC-071_verifyValidPromoCodeBlocked - Injected cookie: .Nop.Antiforgery
+2025-03-23 01:23:07 [main] INFO  TC-071_verifyValidPromoCodeBlocked - Injected cookie: .Nop.Customer
+2025-03-23 01:23:07 [main] INFO  TC-071_verifyValidPromoCodeBlocked - Injected cookie: .Nop.Culture
+2025-03-23 01:23:07 [main] INFO  TC-071_verifyValidPromoCodeBlocked - Injected cookie: _ga_SCT41TW89V
+2025-03-23 01:23:08 [main] INFO  TC-071_verifyValidPromoCodeBlocked - Page refreshed with bypassed cookies.
+2025-03-23 01:23:08 [main] INFO  TC-071_verifyValidPromoCodeBlocked - 🟢 Starting test: verifyValidPromoCodeBlocked (🔢 Test Case ID: TC-071)
+2025-03-23 01:23:08 [main] WARN  listeners.TestListener - ⚠️ Test SKIPPED: verifyValidPromoCodeBlocked
+2025-03-23 01:23:08 [main] INFO  TC-071_verifyValidPromoCodeBlocked - Closing the browser for test: verifyValidPromoCodeBlocked
+2025-03-23 01:23:08 [main] INFO  TC-071_verifyValidPromoCodeBlocked - Browser closed.
+2025-03-23 01:23:08 [main] INFO  listeners.TestListener - 🏁 Finished Test Suite: Surefire test

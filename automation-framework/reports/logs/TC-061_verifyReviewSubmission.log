@@ -1,0 +1,111 @@
+2025-03-21 07:13:25 [main] INFO  TC-061_verifyReviewSubmission - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-03-21 07:13:25 [main] INFO  TC-061_verifyReviewSubmission - Logger initialized
+2025-03-21 07:13:25 [main] INFO  TC-061_verifyReviewSubmission - Starting test setup for: verifyReviewSubmission (🔢 Test Case ID: TC-061)
+2025-03-21 07:13:43 [main] INFO  TC-061_verifyReviewSubmission - Navigated to the site: https://demo.nopcommerce.com
+2025-03-21 07:13:43 [main] INFO  TC-061_verifyReviewSubmission - Injected cookie: _ga
+2025-03-21 07:13:43 [main] INFO  TC-061_verifyReviewSubmission - Injected cookie: cf_clearance
+2025-03-21 07:13:43 [main] INFO  TC-061_verifyReviewSubmission - Injected cookie: .Nop.Antiforgery
+2025-03-21 07:13:43 [main] INFO  TC-061_verifyReviewSubmission - Injected cookie: .Nop.Customer
+2025-03-21 07:13:43 [main] INFO  TC-061_verifyReviewSubmission - Injected cookie: .Nop.Culture
+2025-03-21 07:13:43 [main] INFO  TC-061_verifyReviewSubmission - Injected cookie: _ga_SCT41TW89V
+2025-03-21 07:13:43 [main] INFO  TC-061_verifyReviewSubmission - Page refreshed with bypassed cookies.
+2025-03-21 07:13:44 [main] INFO  TC-061_verifyReviewSubmission - Navigating to login page.
+2025-03-21 07:13:45 [main] INFO  TC-061_verifyReviewSubmission - User logged in successfully.
+2025-03-21 07:13:45 [main] INFO  TC-061_verifyReviewSubmission - Navigating to product page: $25 Virtual Gift Card
+2025-03-21 07:13:52 [main] INFO  TC-061_verifyReviewSubmission - Closing the browser for test: verifyReviewSubmission
+2025-03-21 07:13:52 [main] INFO  TC-061_verifyReviewSubmission - Browser closed.
+2025-03-21 07:14:37 [main] INFO  TC-061_verifyReviewSubmission - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-03-21 07:14:37 [main] INFO  TC-061_verifyReviewSubmission - Logger initialized
+2025-03-21 07:14:37 [main] INFO  TC-061_verifyReviewSubmission - Starting test setup for: verifyReviewSubmission (🔢 Test Case ID: TC-061)
+2025-03-21 07:14:55 [main] INFO  TC-061_verifyReviewSubmission - Navigated to the site: https://demo.nopcommerce.com
+2025-03-21 07:14:55 [main] INFO  TC-061_verifyReviewSubmission - Injected cookie: cf_clearance
+2025-03-21 07:14:55 [main] INFO  TC-061_verifyReviewSubmission - Injected cookie: _ga
+2025-03-21 07:14:55 [main] INFO  TC-061_verifyReviewSubmission - Injected cookie: .Nop.Antiforgery
+2025-03-21 07:14:55 [main] INFO  TC-061_verifyReviewSubmission - Injected cookie: .Nop.Customer
+2025-03-21 07:14:55 [main] INFO  TC-061_verifyReviewSubmission - Injected cookie: .Nop.Culture
+2025-03-21 07:14:55 [main] INFO  TC-061_verifyReviewSubmission - Injected cookie: _ga_SCT41TW89V
+2025-03-21 07:14:56 [main] INFO  TC-061_verifyReviewSubmission - Page refreshed with bypassed cookies.
+2025-03-21 07:14:56 [main] INFO  TC-061_verifyReviewSubmission - Navigating to login page.
+2025-03-21 07:14:57 [main] INFO  TC-061_verifyReviewSubmission - User logged in successfully.
+2025-03-21 07:14:58 [main] INFO  TC-061_verifyReviewSubmission - Navigating to product page: $25 Virtual Gift Card
+2025-03-21 07:15:21 [main] INFO  TC-061_verifyReviewSubmission - Closing the browser for test: verifyReviewSubmission
+2025-03-21 07:15:22 [main] INFO  TC-061_verifyReviewSubmission - Browser closed.
+2025-03-21 07:19:15 [main] INFO  TC-061_verifyReviewSubmission - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-03-21 07:19:15 [main] INFO  TC-061_verifyReviewSubmission - Logger initialized
+2025-03-21 07:19:15 [main] INFO  TC-061_verifyReviewSubmission - Starting test setup for: verifyReviewSubmission (🔢 Test Case ID: TC-061)
+2025-03-21 07:19:33 [main] INFO  TC-061_verifyReviewSubmission - Navigated to the site: https://demo.nopcommerce.com
+2025-03-21 07:19:33 [main] INFO  TC-061_verifyReviewSubmission - Injected cookie: cf_clearance
+2025-03-21 07:19:33 [main] INFO  TC-061_verifyReviewSubmission - Injected cookie: _ga
+2025-03-21 07:19:33 [main] INFO  TC-061_verifyReviewSubmission - Injected cookie: .Nop.Antiforgery
+2025-03-21 07:19:33 [main] INFO  TC-061_verifyReviewSubmission - Injected cookie: .Nop.Customer
+2025-03-21 07:19:33 [main] INFO  TC-061_verifyReviewSubmission - Injected cookie: .Nop.Culture
+2025-03-21 07:19:33 [main] INFO  TC-061_verifyReviewSubmission - Injected cookie: _ga_SCT41TW89V
+2025-03-21 07:19:34 [main] INFO  TC-061_verifyReviewSubmission - Page refreshed with bypassed cookies.
+2025-03-21 07:19:35 [main] INFO  TC-061_verifyReviewSubmission - Navigating to login page.
+2025-03-21 07:19:37 [main] INFO  TC-061_verifyReviewSubmission - Closing the browser for test: verifyReviewSubmission
+2025-03-21 07:19:37 [main] INFO  TC-061_verifyReviewSubmission - Browser closed.
+2025-03-21 07:19:50 [main] INFO  TC-061_verifyReviewSubmission - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-03-21 07:19:50 [main] INFO  TC-061_verifyReviewSubmission - Logger initialized
+2025-03-21 07:19:50 [main] INFO  TC-061_verifyReviewSubmission - Starting test setup for: verifyReviewSubmission (🔢 Test Case ID: TC-061)
+2025-03-21 07:20:08 [main] INFO  TC-061_verifyReviewSubmission - Navigated to the site: https://demo.nopcommerce.com
+2025-03-21 07:20:08 [main] INFO  TC-061_verifyReviewSubmission - Injected cookie: cf_clearance
+2025-03-21 07:20:08 [main] INFO  TC-061_verifyReviewSubmission - Injected cookie: _ga
+2025-03-21 07:20:08 [main] INFO  TC-061_verifyReviewSubmission - Injected cookie: .Nop.Antiforgery
+2025-03-21 07:20:08 [main] INFO  TC-061_verifyReviewSubmission - Injected cookie: .Nop.Customer
+2025-03-21 07:20:08 [main] INFO  TC-061_verifyReviewSubmission - Injected cookie: .Nop.Culture
+2025-03-21 07:20:08 [main] INFO  TC-061_verifyReviewSubmission - Injected cookie: _ga_SCT41TW89V
+2025-03-21 07:20:08 [main] INFO  TC-061_verifyReviewSubmission - Page refreshed with bypassed cookies.
+2025-03-21 07:20:09 [main] INFO  TC-061_verifyReviewSubmission - Navigating to login page.
+2025-03-21 07:20:10 [main] INFO  TC-061_verifyReviewSubmission - User logged in successfully.
+2025-03-21 07:20:11 [main] INFO  TC-061_verifyReviewSubmission - Navigating to product page: $25 Virtual Gift Card
+2025-03-21 07:20:13 [main] INFO  TC-061_verifyReviewSubmission - Clicked 'Write a Review' button.
+2025-03-21 07:20:14 [main] INFO  TC-061_verifyReviewSubmission - Submitted the review successfully.
+2025-03-21 07:20:34 [main] INFO  TC-061_verifyReviewSubmission - Closing the browser for test: verifyReviewSubmission
+2025-03-21 07:20:35 [main] INFO  TC-061_verifyReviewSubmission - Browser closed.
+2025-03-21 07:21:36 [main] INFO  TC-061_verifyReviewSubmission - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-03-21 07:21:36 [main] INFO  TC-061_verifyReviewSubmission - Logger initialized
+2025-03-21 07:21:36 [main] INFO  TC-061_verifyReviewSubmission - Starting test setup for: verifyReviewSubmission (🔢 Test Case ID: TC-061)
+2025-03-21 07:21:53 [main] INFO  TC-061_verifyReviewSubmission - Navigated to the site: https://demo.nopcommerce.com
+2025-03-21 07:21:54 [main] INFO  TC-061_verifyReviewSubmission - Injected cookie: cf_clearance
+2025-03-21 07:21:54 [main] INFO  TC-061_verifyReviewSubmission - Injected cookie: _ga
+2025-03-21 07:21:54 [main] INFO  TC-061_verifyReviewSubmission - Injected cookie: .Nop.Antiforgery
+2025-03-21 07:21:54 [main] INFO  TC-061_verifyReviewSubmission - Injected cookie: .Nop.Customer
+2025-03-21 07:21:54 [main] INFO  TC-061_verifyReviewSubmission - Injected cookie: .Nop.Culture
+2025-03-21 07:21:54 [main] INFO  TC-061_verifyReviewSubmission - Injected cookie: _ga_SCT41TW89V
+2025-03-21 07:21:54 [main] INFO  TC-061_verifyReviewSubmission - Page refreshed with bypassed cookies.
+2025-03-21 07:21:55 [main] INFO  TC-061_verifyReviewSubmission - Navigating to login page.
+2025-03-21 07:21:56 [main] INFO  TC-061_verifyReviewSubmission - User logged in successfully.
+2025-03-21 07:21:57 [main] INFO  TC-061_verifyReviewSubmission - Navigating to product page: $25 Virtual Gift Card
+2025-03-21 07:22:00 [main] INFO  TC-061_verifyReviewSubmission - Clicked 'Write a Review' button.
+2025-03-21 07:22:01 [main] INFO  TC-061_verifyReviewSubmission - Submitted the review successfully.
+2025-03-21 07:22:01 [main] INFO  TC-061_verifyReviewSubmission - Review submission confirmed.
+2025-03-21 07:22:01 [main] INFO  TC-061_verifyReviewSubmission - Closing the browser for test: verifyReviewSubmission
+2025-03-21 07:22:01 [main] INFO  TC-061_verifyReviewSubmission - Browser closed.
+2025-03-24 22:29:13 [main] INFO  TC-061_verifyReviewSubmission - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-03-24 22:29:13 [main] INFO  TC-061_verifyReviewSubmission - Logger initialized
+2025-03-24 22:29:13 [main] INFO  TC-061_verifyReviewSubmission - Starting test setup for: verifyReviewSubmission (🔢 Test Case ID: TC-061)
+2025-03-24 22:29:30 [main] INFO  TC-061_verifyReviewSubmission - Navigated to the site: https://demo.nopcommerce.com
+2025-03-24 22:29:30 [main] INFO  TC-061_verifyReviewSubmission - Injected cookie: cf_clearance
+2025-03-24 22:29:30 [main] INFO  TC-061_verifyReviewSubmission - Injected cookie: _ga
+2025-03-24 22:29:30 [main] INFO  TC-061_verifyReviewSubmission - Injected cookie: .Nop.Antiforgery
+2025-03-24 22:29:30 [main] INFO  TC-061_verifyReviewSubmission - Injected cookie: .Nop.Customer
+2025-03-24 22:29:30 [main] INFO  TC-061_verifyReviewSubmission - Injected cookie: .Nop.Culture
+2025-03-24 22:29:30 [main] INFO  TC-061_verifyReviewSubmission - Injected cookie: _ga_SCT41TW89V
+2025-03-24 22:29:30 [main] INFO  TC-061_verifyReviewSubmission - Page refreshed with bypassed cookies.
+2025-03-24 22:29:30 [main] INFO  TC-061_verifyReviewSubmission - 🟢 Starting test: verifyReviewSubmission (🔢 Test Case ID: TC-061)
+2025-03-24 22:29:31 [main] INFO  utils.MainFunctionalities - Navigating to registration page.
+2025-03-24 22:29:35 [main] INFO  utils.MainFunctionalities - Clicking 'Register' button.
+2025-03-24 22:29:36 [main] INFO  utils.MainFunctionalities - Navigated to login page
+2025-03-24 22:29:42 [main] INFO  utils.MainFunctionalities - Entered username and password
+2025-03-24 22:29:43 [main] INFO  utils.MainFunctionalities - User is logged in successfully.
+2025-03-24 22:29:47 [main] INFO  TC-061_verifyReviewSubmission - Review submission confirmed.
+2025-03-24 22:29:47 [main] INFO  listeners.TestListener - ✅ Test PASSED: verifyReviewSubmission (Duration: 17314ms)
+2025-03-24 22:29:48 [main] INFO  TC-061_verifyReviewSubmission - Closing the browser for test: verifyReviewSubmission
+2025-03-24 22:29:48 [main] INFO  TC-061_verifyReviewSubmission - Browser closed.
+2025-03-24 22:29:48 [main] INFO  listeners.TestListener - 🏁 Finished Test Suite: Surefire test

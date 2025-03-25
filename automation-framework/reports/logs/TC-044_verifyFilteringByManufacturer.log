@@ -1,0 +1,115 @@
+2025-03-24 23:22:55 [main] INFO  TC-044_verifyFilteringByManufacturer - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-03-24 23:22:55 [main] INFO  TC-044_verifyFilteringByManufacturer - Logger initialized
+2025-03-24 23:22:55 [main] INFO  TC-044_verifyFilteringByManufacturer - Starting test setup for: verifyFilteringByManufacturer (🔢 Test Case ID: TC-044)
+2025-03-24 23:23:17 [main] INFO  TC-044_verifyFilteringByManufacturer - Navigated to the site: https://demo.nopcommerce.com
+2025-03-24 23:23:17 [main] INFO  TC-044_verifyFilteringByManufacturer - Injected cookie: cf_clearance
+2025-03-24 23:23:17 [main] INFO  TC-044_verifyFilteringByManufacturer - Injected cookie: _ga
+2025-03-24 23:23:17 [main] INFO  TC-044_verifyFilteringByManufacturer - Injected cookie: .Nop.Antiforgery
+2025-03-24 23:23:17 [main] INFO  TC-044_verifyFilteringByManufacturer - Injected cookie: .Nop.Customer
+2025-03-24 23:23:17 [main] INFO  TC-044_verifyFilteringByManufacturer - Injected cookie: .Nop.Culture
+2025-03-24 23:23:17 [main] INFO  TC-044_verifyFilteringByManufacturer - Injected cookie: _ga_SCT41TW89V
+2025-03-24 23:23:18 [main] INFO  TC-044_verifyFilteringByManufacturer - Page refreshed with bypassed cookies.
+2025-03-24 23:23:18 [main] INFO  TC-044_verifyFilteringByManufacturer - Navigating to: https://demo.nopcommerce.com/
+2025-03-24 23:23:34 [main] INFO  utils.MainFunctionalities - Filtering by manufacturer verified successfully.
+2025-03-24 23:23:34 [main] INFO  TC-044_verifyFilteringByManufacturer - Closing the browser for test: verifyFilteringByManufacturer
+2025-03-24 23:23:35 [main] INFO  TC-044_verifyFilteringByManufacturer - Browser closed.
+2025-03-24 23:26:01 [main] INFO  TC-044_verifyFilteringByManufacturer - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-03-24 23:26:01 [main] INFO  TC-044_verifyFilteringByManufacturer - Logger initialized
+2025-03-24 23:26:01 [main] INFO  TC-044_verifyFilteringByManufacturer - Starting test setup for: verifyFilteringByManufacturer (🔢 Test Case ID: TC-044)
+2025-03-24 23:26:24 [main] INFO  TC-044_verifyFilteringByManufacturer - Navigated to the site: https://demo.nopcommerce.com
+2025-03-24 23:26:24 [main] INFO  TC-044_verifyFilteringByManufacturer - Injected cookie: _ga
+2025-03-24 23:26:24 [main] INFO  TC-044_verifyFilteringByManufacturer - Injected cookie: cf_clearance
+2025-03-24 23:26:24 [main] INFO  TC-044_verifyFilteringByManufacturer - Injected cookie: .Nop.Antiforgery
+2025-03-24 23:26:24 [main] INFO  TC-044_verifyFilteringByManufacturer - Injected cookie: .Nop.Customer
+2025-03-24 23:26:24 [main] INFO  TC-044_verifyFilteringByManufacturer - Injected cookie: .Nop.Culture
+2025-03-24 23:26:24 [main] INFO  TC-044_verifyFilteringByManufacturer - Injected cookie: _ga_SCT41TW89V
+2025-03-24 23:26:24 [main] INFO  TC-044_verifyFilteringByManufacturer - Page refreshed with bypassed cookies.
+2025-03-24 23:26:24 [main] INFO  TC-044_verifyFilteringByManufacturer - Navigating to: https://demo.nopcommerce.com/
+2025-03-24 23:26:41 [main] INFO  utils.MainFunctionalities - Filtering by manufacturer verified successfully.
+2025-03-24 23:26:41 [main] INFO  TC-044_verifyFilteringByManufacturer - Closing the browser for test: verifyFilteringByManufacturer
+2025-03-24 23:26:41 [main] INFO  TC-044_verifyFilteringByManufacturer - Browser closed.
+2025-03-25 00:04:39 [main] INFO  TC-044_verifyFilteringByManufacturer - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-03-25 00:04:39 [main] INFO  TC-044_verifyFilteringByManufacturer - Logger initialized
+2025-03-25 00:04:39 [main] INFO  TC-044_verifyFilteringByManufacturer - Starting test setup for: verifyFilteringByManufacturer (🔢 Test Case ID: TC-044)
+2025-03-25 00:04:57 [main] INFO  TC-044_verifyFilteringByManufacturer - Navigated to the site: https://demo.nopcommerce.com
+2025-03-25 00:04:57 [main] INFO  TC-044_verifyFilteringByManufacturer - Injected cookie: cf_clearance
+2025-03-25 00:04:57 [main] INFO  TC-044_verifyFilteringByManufacturer - Injected cookie: _ga
+2025-03-25 00:04:57 [main] INFO  TC-044_verifyFilteringByManufacturer - Injected cookie: .Nop.Antiforgery
+2025-03-25 00:04:57 [main] INFO  TC-044_verifyFilteringByManufacturer - Injected cookie: .Nop.Customer
+2025-03-25 00:04:57 [main] INFO  TC-044_verifyFilteringByManufacturer - Injected cookie: .Nop.Culture
+2025-03-25 00:04:57 [main] INFO  TC-044_verifyFilteringByManufacturer - Injected cookie: _ga_SCT41TW89V
+2025-03-25 00:04:58 [main] INFO  TC-044_verifyFilteringByManufacturer - Page refreshed with bypassed cookies.
+2025-03-25 00:04:58 [main] INFO  TC-044_verifyFilteringByManufacturer - Navigating to: https://demo.nopcommerce.com/
+2025-03-25 00:05:04 [main] INFO  TC-044_verifyFilteringByManufacturer - Closing the browser for test: verifyFilteringByManufacturer
+2025-03-25 00:05:04 [main] INFO  TC-044_verifyFilteringByManufacturer - Browser closed.
+2025-03-25 00:05:12 [main] INFO  TC-044_verifyFilteringByManufacturer - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-03-25 00:05:12 [main] INFO  TC-044_verifyFilteringByManufacturer - Logger initialized
+2025-03-25 00:05:12 [main] INFO  TC-044_verifyFilteringByManufacturer - Starting test setup for: verifyFilteringByManufacturer (🔢 Test Case ID: TC-044)
+2025-03-25 00:05:35 [main] INFO  TC-044_verifyFilteringByManufacturer - Navigated to the site: https://demo.nopcommerce.com
+2025-03-25 00:05:35 [main] INFO  TC-044_verifyFilteringByManufacturer - Injected cookie: _ga
+2025-03-25 00:05:35 [main] INFO  TC-044_verifyFilteringByManufacturer - Injected cookie: cf_clearance
+2025-03-25 00:05:35 [main] INFO  TC-044_verifyFilteringByManufacturer - Injected cookie: .Nop.Antiforgery
+2025-03-25 00:05:35 [main] INFO  TC-044_verifyFilteringByManufacturer - Injected cookie: .Nop.Customer
+2025-03-25 00:05:35 [main] INFO  TC-044_verifyFilteringByManufacturer - Injected cookie: .Nop.Culture
+2025-03-25 00:05:35 [main] INFO  TC-044_verifyFilteringByManufacturer - Injected cookie: _ga_SCT41TW89V
+2025-03-25 00:05:36 [main] INFO  TC-044_verifyFilteringByManufacturer - Page refreshed with bypassed cookies.
+2025-03-25 00:05:36 [main] INFO  TC-044_verifyFilteringByManufacturer - Navigating to: https://demo.nopcommerce.com/
+2025-03-25 00:05:59 [main] INFO  TC-044_verifyFilteringByManufacturer - Closing the browser for test: verifyFilteringByManufacturer
+2025-03-25 00:05:59 [main] INFO  TC-044_verifyFilteringByManufacturer - Browser closed.
+2025-03-25 00:08:07 [main] INFO  TC-044_verifyFilteringByManufacturer - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-03-25 00:08:07 [main] INFO  TC-044_verifyFilteringByManufacturer - Logger initialized
+2025-03-25 00:08:07 [main] INFO  TC-044_verifyFilteringByManufacturer - Starting test setup for: verifyFilteringByManufacturer (🔢 Test Case ID: TC-044)
+2025-03-25 00:08:11 [main] INFO  TC-044_verifyFilteringByManufacturer - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-03-25 00:08:11 [main] INFO  TC-044_verifyFilteringByManufacturer - Logger initialized
+2025-03-25 00:08:11 [main] INFO  TC-044_verifyFilteringByManufacturer - Starting test setup for: verifyFilteringByManufacturer (🔢 Test Case ID: TC-044)
+2025-03-25 00:08:33 [main] INFO  TC-044_verifyFilteringByManufacturer - Navigated to the site: https://demo.nopcommerce.com
+2025-03-25 00:08:33 [main] INFO  TC-044_verifyFilteringByManufacturer - Injected cookie: _ga
+2025-03-25 00:08:33 [main] INFO  TC-044_verifyFilteringByManufacturer - Injected cookie: cf_clearance
+2025-03-25 00:08:33 [main] INFO  TC-044_verifyFilteringByManufacturer - Injected cookie: .Nop.Antiforgery
+2025-03-25 00:08:33 [main] INFO  TC-044_verifyFilteringByManufacturer - Injected cookie: .Nop.Customer
+2025-03-25 00:08:33 [main] INFO  TC-044_verifyFilteringByManufacturer - Injected cookie: .Nop.Culture
+2025-03-25 00:08:33 [main] INFO  TC-044_verifyFilteringByManufacturer - Injected cookie: _ga_SCT41TW89V
+2025-03-25 00:08:34 [main] INFO  TC-044_verifyFilteringByManufacturer - Page refreshed with bypassed cookies.
+2025-03-25 00:08:34 [main] INFO  TC-044_verifyFilteringByManufacturer - Navigating to: https://demo.nopcommerce.com/
+2025-03-25 00:08:59 [main] INFO  TC-044_verifyFilteringByManufacturer - Closing the browser for test: verifyFilteringByManufacturer
+2025-03-25 00:08:59 [main] INFO  TC-044_verifyFilteringByManufacturer - Browser closed.
+2025-03-25 00:10:06 [main] INFO  TC-044_verifyFilteringByManufacturer - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-03-25 00:10:06 [main] INFO  TC-044_verifyFilteringByManufacturer - Logger initialized
+2025-03-25 00:10:06 [main] INFO  TC-044_verifyFilteringByManufacturer - Starting test setup for: verifyFilteringByManufacturer (🔢 Test Case ID: TC-044)
+2025-03-25 00:10:23 [main] INFO  TC-044_verifyFilteringByManufacturer - Navigated to the site: https://demo.nopcommerce.com
+2025-03-25 00:10:23 [main] INFO  TC-044_verifyFilteringByManufacturer - Injected cookie: cf_clearance
+2025-03-25 00:10:23 [main] INFO  TC-044_verifyFilteringByManufacturer - Injected cookie: _ga
+2025-03-25 00:10:23 [main] INFO  TC-044_verifyFilteringByManufacturer - Injected cookie: .Nop.Antiforgery
+2025-03-25 00:10:23 [main] INFO  TC-044_verifyFilteringByManufacturer - Injected cookie: .Nop.Customer
+2025-03-25 00:10:23 [main] INFO  TC-044_verifyFilteringByManufacturer - Injected cookie: .Nop.Culture
+2025-03-25 00:10:23 [main] INFO  TC-044_verifyFilteringByManufacturer - Injected cookie: _ga_SCT41TW89V
+2025-03-25 00:10:24 [main] INFO  TC-044_verifyFilteringByManufacturer - Page refreshed with bypassed cookies.
+2025-03-25 00:10:24 [main] INFO  TC-044_verifyFilteringByManufacturer - Navigating to: https://demo.nopcommerce.com/
+2025-03-25 00:10:37 [main] INFO  utils.MainFunctionalities - Filtering by manufacturer verified successfully.
+2025-03-25 00:10:37 [main] INFO  TC-044_verifyFilteringByManufacturer - Closing the browser for test: verifyFilteringByManufacturer
+2025-03-25 00:10:37 [main] INFO  TC-044_verifyFilteringByManufacturer - Browser closed.
+2025-03-25 00:21:09 [main] INFO  TC-044_verifyFilteringByManufacturer - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-03-25 00:21:09 [main] INFO  TC-044_verifyFilteringByManufacturer - Logger initialized
+2025-03-25 00:21:09 [main] INFO  TC-044_verifyFilteringByManufacturer - Starting test setup for: verifyFilteringByManufacturer (🔢 Test Case ID: TC-044)
+2025-03-25 00:21:32 [main] INFO  TC-044_verifyFilteringByManufacturer - Navigated to the site: https://demo.nopcommerce.com
+2025-03-25 00:21:32 [main] INFO  TC-044_verifyFilteringByManufacturer - Injected cookie: cf_clearance
+2025-03-25 00:21:32 [main] INFO  TC-044_verifyFilteringByManufacturer - Injected cookie: _ga
+2025-03-25 00:21:32 [main] INFO  TC-044_verifyFilteringByManufacturer - Injected cookie: .Nop.Antiforgery
+2025-03-25 00:21:32 [main] INFO  TC-044_verifyFilteringByManufacturer - Injected cookie: .Nop.Customer
+2025-03-25 00:21:32 [main] INFO  TC-044_verifyFilteringByManufacturer - Injected cookie: .Nop.Culture
+2025-03-25 00:21:32 [main] INFO  TC-044_verifyFilteringByManufacturer - Injected cookie: _ga_SCT41TW89V
+2025-03-25 00:21:34 [main] INFO  TC-044_verifyFilteringByManufacturer - Page refreshed with bypassed cookies.
+2025-03-25 00:21:34 [main] INFO  TC-044_verifyFilteringByManufacturer - 🟢 Starting test: verifyFilteringByManufacturer (🔢 Test Case ID: TC-044)
+2025-03-25 00:21:34 [main] INFO  TC-044_verifyFilteringByManufacturer - Navigating to: https://demo.nopcommerce.com/
+2025-03-25 00:21:48 [main] INFO  utils.MainFunctionalities - Filtering by manufacturer verified successfully.
+2025-03-25 00:21:48 [main] INFO  listeners.TestListener - ✅ Test PASSED: verifyFilteringByManufacturer (Duration: 14338ms)
+2025-03-25 00:21:48 [main] INFO  TC-044_verifyFilteringByManufacturer - Closing the browser for test: verifyFilteringByManufacturer
+2025-03-25 00:21:48 [main] INFO  TC-044_verifyFilteringByManufacturer - Browser closed.

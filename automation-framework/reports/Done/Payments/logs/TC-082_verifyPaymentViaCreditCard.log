@@ -1,0 +1,315 @@
+2025-03-23 06:22:47 [main] INFO  TC-082_verifyPaymentViaCreditCard - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-03-23 06:22:47 [main] INFO  TC-082_verifyPaymentViaCreditCard - Logger initialized
+2025-03-23 06:22:47 [main] INFO  TC-082_verifyPaymentViaCreditCard - Starting test setup for: verifyPaymentViaCreditCard (🔢 Test Case ID: TC-082)
+2025-03-23 06:23:11 [main] INFO  TC-082_verifyPaymentViaCreditCard - Navigated to the site: https://demo.nopcommerce.com
+2025-03-23 06:23:11 [main] INFO  TC-082_verifyPaymentViaCreditCard - Injected cookie: cf_clearance
+2025-03-23 06:23:11 [main] INFO  TC-082_verifyPaymentViaCreditCard - Injected cookie: _ga
+2025-03-23 06:23:11 [main] INFO  TC-082_verifyPaymentViaCreditCard - Injected cookie: .Nop.Antiforgery
+2025-03-23 06:23:11 [main] INFO  TC-082_verifyPaymentViaCreditCard - Injected cookie: .Nop.Customer
+2025-03-23 06:23:11 [main] INFO  TC-082_verifyPaymentViaCreditCard - Injected cookie: .Nop.Culture
+2025-03-23 06:23:11 [main] INFO  TC-082_verifyPaymentViaCreditCard - Injected cookie: _ga_SCT41TW89V
+2025-03-23 06:23:12 [main] INFO  TC-082_verifyPaymentViaCreditCard - Page refreshed with bypassed cookies.
+2025-03-23 06:23:13 [main] INFO  utils.MainFunctionalities - Navigating to registration page.
+2025-03-23 06:23:19 [main] INFO  utils.MainFunctionalities - Clicking 'Register' button.
+2025-03-23 06:23:20 [main] INFO  utils.MainFunctionalities - Navigated to login page
+2025-03-23 06:23:27 [main] INFO  utils.MainFunctionalities - Entered username and password
+2025-03-23 06:23:30 [main] INFO  utils.MainFunctionalities - User is logged in successfully.
+2025-03-23 06:23:46 [main] INFO  TC-082_verifyPaymentViaCreditCard - Closing the browser for test: verifyPaymentViaCreditCard
+2025-03-23 06:23:46 [main] INFO  TC-082_verifyPaymentViaCreditCard - Browser closed.
+2025-03-23 06:24:28 [main] INFO  TC-082_verifyPaymentViaCreditCard - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-03-23 06:24:28 [main] INFO  TC-082_verifyPaymentViaCreditCard - Logger initialized
+2025-03-23 06:24:28 [main] INFO  TC-082_verifyPaymentViaCreditCard - Starting test setup for: verifyPaymentViaCreditCard (🔢 Test Case ID: TC-082)
+2025-03-23 06:24:52 [main] INFO  TC-082_verifyPaymentViaCreditCard - Navigated to the site: https://demo.nopcommerce.com
+2025-03-23 06:24:52 [main] INFO  TC-082_verifyPaymentViaCreditCard - Injected cookie: _ga
+2025-03-23 06:24:52 [main] INFO  TC-082_verifyPaymentViaCreditCard - Injected cookie: cf_clearance
+2025-03-23 06:24:52 [main] INFO  TC-082_verifyPaymentViaCreditCard - Injected cookie: .Nop.Antiforgery
+2025-03-23 06:24:52 [main] INFO  TC-082_verifyPaymentViaCreditCard - Injected cookie: .Nop.Customer
+2025-03-23 06:24:52 [main] INFO  TC-082_verifyPaymentViaCreditCard - Injected cookie: .Nop.Culture
+2025-03-23 06:24:52 [main] INFO  TC-082_verifyPaymentViaCreditCard - Injected cookie: _ga_SCT41TW89V
+2025-03-23 06:24:53 [main] INFO  TC-082_verifyPaymentViaCreditCard - Page refreshed with bypassed cookies.
+2025-03-23 06:24:54 [main] INFO  utils.MainFunctionalities - Navigating to registration page.
+2025-03-23 06:24:59 [main] INFO  utils.MainFunctionalities - Clicking 'Register' button.
+2025-03-23 06:25:01 [main] INFO  utils.MainFunctionalities - Navigated to login page
+2025-03-23 06:25:06 [main] INFO  utils.MainFunctionalities - Entered username and password
+2025-03-23 06:25:08 [main] INFO  utils.MainFunctionalities - User is logged in successfully.
+2025-03-23 06:25:10 [main] INFO  utils.MainFunctionalities - Navigating to product page: https://demo.nopcommerce.com/adobe-photoshop
+2025-03-23 06:25:13 [main] INFO  utils.MainFunctionalities - Clicked 'Add to Cart' button with ID: add-to-cart-button-10
+2025-03-23 06:25:14 [main] INFO  utils.MainFunctionalities - Product successfully added to cart.
+2025-03-23 06:25:18 [main] INFO  utils.MainFunctionalities - Cart page loaded successfully.
+2025-03-23 06:25:20 [main] INFO  utils.MainFunctionalities - Accepted terms of service.
+2025-03-23 06:25:22 [main] INFO  utils.MainFunctionalities - Checkout page loaded successfully.
+2025-03-23 06:25:25 [main] INFO  utils.MainFunctionalities - Checked 'Ship to the same address' option.
+2025-03-23 06:25:28 [main] INFO  utils.MainFunctionalities - Shipping method selected.
+2025-03-23 06:25:44 [main] INFO  TC-082_verifyPaymentViaCreditCard - Closing the browser for test: verifyPaymentViaCreditCard
+2025-03-23 06:25:44 [main] INFO  TC-082_verifyPaymentViaCreditCard - Browser closed.
+2025-03-23 06:26:15 [main] INFO  TC-082_verifyPaymentViaCreditCard - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-03-23 06:26:15 [main] INFO  TC-082_verifyPaymentViaCreditCard - Logger initialized
+2025-03-23 06:26:15 [main] INFO  TC-082_verifyPaymentViaCreditCard - Starting test setup for: verifyPaymentViaCreditCard (🔢 Test Case ID: TC-082)
+2025-03-23 06:26:38 [main] INFO  TC-082_verifyPaymentViaCreditCard - Navigated to the site: https://demo.nopcommerce.com
+2025-03-23 06:26:38 [main] INFO  TC-082_verifyPaymentViaCreditCard - Injected cookie: _ga
+2025-03-23 06:26:38 [main] INFO  TC-082_verifyPaymentViaCreditCard - Injected cookie: cf_clearance
+2025-03-23 06:26:38 [main] INFO  TC-082_verifyPaymentViaCreditCard - Injected cookie: .Nop.Antiforgery
+2025-03-23 06:26:38 [main] INFO  TC-082_verifyPaymentViaCreditCard - Injected cookie: .Nop.Customer
+2025-03-23 06:26:38 [main] INFO  TC-082_verifyPaymentViaCreditCard - Injected cookie: .Nop.Culture
+2025-03-23 06:26:38 [main] INFO  TC-082_verifyPaymentViaCreditCard - Injected cookie: _ga_SCT41TW89V
+2025-03-23 06:26:39 [main] INFO  TC-082_verifyPaymentViaCreditCard - Page refreshed with bypassed cookies.
+2025-03-23 06:26:40 [main] INFO  utils.MainFunctionalities - Navigating to registration page.
+2025-03-23 06:26:46 [main] INFO  utils.MainFunctionalities - Clicking 'Register' button.
+2025-03-23 06:26:47 [main] INFO  utils.MainFunctionalities - Navigated to login page
+2025-03-23 06:26:53 [main] INFO  utils.MainFunctionalities - Entered username and password
+2025-03-23 06:26:55 [main] INFO  utils.MainFunctionalities - User is logged in successfully.
+2025-03-23 06:26:57 [main] INFO  utils.MainFunctionalities - Navigating to product page: https://demo.nopcommerce.com/adobe-photoshop
+2025-03-23 06:26:59 [main] INFO  utils.MainFunctionalities - Clicked 'Add to Cart' button with ID: add-to-cart-button-10
+2025-03-23 06:27:00 [main] INFO  utils.MainFunctionalities - Product successfully added to cart.
+2025-03-23 06:27:03 [main] INFO  utils.MainFunctionalities - Cart page loaded successfully.
+2025-03-23 06:27:05 [main] INFO  utils.MainFunctionalities - Accepted terms of service.
+2025-03-23 06:27:07 [main] INFO  utils.MainFunctionalities - Checkout page loaded successfully.
+2025-03-23 06:27:12 [main] INFO  TC-082_verifyPaymentViaCreditCard - Closing the browser for test: verifyPaymentViaCreditCard
+2025-03-23 06:27:13 [main] INFO  TC-082_verifyPaymentViaCreditCard - Browser closed.
+2025-03-23 06:27:25 [main] INFO  TC-082_verifyPaymentViaCreditCard - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-03-23 06:27:25 [main] INFO  TC-082_verifyPaymentViaCreditCard - Logger initialized
+2025-03-23 06:27:25 [main] INFO  TC-082_verifyPaymentViaCreditCard - Starting test setup for: verifyPaymentViaCreditCard (🔢 Test Case ID: TC-082)
+2025-03-23 06:27:48 [main] INFO  TC-082_verifyPaymentViaCreditCard - Navigated to the site: https://demo.nopcommerce.com
+2025-03-23 06:27:48 [main] INFO  TC-082_verifyPaymentViaCreditCard - Injected cookie: _ga
+2025-03-23 06:27:48 [main] INFO  TC-082_verifyPaymentViaCreditCard - Injected cookie: cf_clearance
+2025-03-23 06:27:48 [main] INFO  TC-082_verifyPaymentViaCreditCard - Injected cookie: .Nop.Antiforgery
+2025-03-23 06:27:48 [main] INFO  TC-082_verifyPaymentViaCreditCard - Injected cookie: .Nop.Customer
+2025-03-23 06:27:48 [main] INFO  TC-082_verifyPaymentViaCreditCard - Injected cookie: .Nop.Culture
+2025-03-23 06:27:48 [main] INFO  TC-082_verifyPaymentViaCreditCard - Injected cookie: _ga_SCT41TW89V
+2025-03-23 06:27:48 [main] INFO  TC-082_verifyPaymentViaCreditCard - Page refreshed with bypassed cookies.
+2025-03-23 06:27:50 [main] INFO  utils.MainFunctionalities - Navigating to registration page.
+2025-03-23 06:27:55 [main] INFO  utils.MainFunctionalities - Clicking 'Register' button.
+2025-03-23 06:27:56 [main] INFO  utils.MainFunctionalities - Navigated to login page
+2025-03-23 06:28:01 [main] INFO  utils.MainFunctionalities - Entered username and password
+2025-03-23 06:28:04 [main] INFO  utils.MainFunctionalities - User is logged in successfully.
+2025-03-23 06:28:05 [main] INFO  utils.MainFunctionalities - Navigating to product page: https://demo.nopcommerce.com/adobe-photoshop
+2025-03-23 06:28:07 [main] INFO  utils.MainFunctionalities - Clicked 'Add to Cart' button with ID: add-to-cart-button-10
+2025-03-23 06:28:07 [main] INFO  utils.MainFunctionalities - Product successfully added to cart.
+2025-03-23 06:28:10 [main] INFO  utils.MainFunctionalities - Cart page loaded successfully.
+2025-03-23 06:28:12 [main] INFO  utils.MainFunctionalities - Accepted terms of service.
+2025-03-23 06:28:14 [main] INFO  utils.MainFunctionalities - Checkout page loaded successfully.
+2025-03-23 06:28:17 [main] INFO  utils.MainFunctionalities - Checked 'Ship to the same address' option.
+2025-03-23 06:28:21 [main] INFO  utils.MainFunctionalities - Shipping method selected.
+2025-03-23 06:28:40 [main] INFO  TC-082_verifyPaymentViaCreditCard - Closing the browser for test: verifyPaymentViaCreditCard
+2025-03-23 06:28:40 [main] INFO  TC-082_verifyPaymentViaCreditCard - Browser closed.
+2025-03-23 06:30:41 [main] INFO  TC-082_verifyPaymentViaCreditCard - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-03-23 06:30:41 [main] INFO  TC-082_verifyPaymentViaCreditCard - Logger initialized
+2025-03-23 06:30:41 [main] INFO  TC-082_verifyPaymentViaCreditCard - Starting test setup for: verifyPaymentViaCreditCard (🔢 Test Case ID: TC-082)
+2025-03-23 06:31:06 [main] INFO  TC-082_verifyPaymentViaCreditCard - Navigated to the site: https://demo.nopcommerce.com
+2025-03-23 06:31:06 [main] INFO  TC-082_verifyPaymentViaCreditCard - Injected cookie: _ga
+2025-03-23 06:31:06 [main] INFO  TC-082_verifyPaymentViaCreditCard - Injected cookie: cf_clearance
+2025-03-23 06:31:06 [main] INFO  TC-082_verifyPaymentViaCreditCard - Injected cookie: .Nop.Antiforgery
+2025-03-23 06:31:06 [main] INFO  TC-082_verifyPaymentViaCreditCard - Injected cookie: .Nop.Customer
+2025-03-23 06:31:06 [main] INFO  TC-082_verifyPaymentViaCreditCard - Injected cookie: .Nop.Culture
+2025-03-23 06:31:06 [main] INFO  TC-082_verifyPaymentViaCreditCard - Injected cookie: _ga_SCT41TW89V
+2025-03-23 06:31:07 [main] INFO  TC-082_verifyPaymentViaCreditCard - Page refreshed with bypassed cookies.
+2025-03-23 06:31:09 [main] INFO  utils.MainFunctionalities - Navigating to registration page.
+2025-03-23 06:31:14 [main] INFO  utils.MainFunctionalities - Clicking 'Register' button.
+2025-03-23 06:31:16 [main] INFO  utils.MainFunctionalities - Navigated to login page
+2025-03-23 06:31:19 [main] INFO  TC-082_verifyPaymentViaCreditCard - Closing the browser for test: verifyPaymentViaCreditCard
+2025-03-23 06:31:19 [main] INFO  TC-082_verifyPaymentViaCreditCard - Browser closed.
+2025-03-23 06:31:27 [main] INFO  TC-082_verifyPaymentViaCreditCard - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-03-23 06:31:27 [main] INFO  TC-082_verifyPaymentViaCreditCard - Logger initialized
+2025-03-23 06:31:27 [main] INFO  TC-082_verifyPaymentViaCreditCard - Starting test setup for: verifyPaymentViaCreditCard (🔢 Test Case ID: TC-082)
+2025-03-23 06:31:51 [main] INFO  TC-082_verifyPaymentViaCreditCard - Navigated to the site: https://demo.nopcommerce.com
+2025-03-23 06:31:51 [main] INFO  TC-082_verifyPaymentViaCreditCard - Injected cookie: cf_clearance
+2025-03-23 06:31:51 [main] INFO  TC-082_verifyPaymentViaCreditCard - Injected cookie: _ga
+2025-03-23 06:31:51 [main] INFO  TC-082_verifyPaymentViaCreditCard - Injected cookie: .Nop.Antiforgery
+2025-03-23 06:31:51 [main] INFO  TC-082_verifyPaymentViaCreditCard - Injected cookie: .Nop.Customer
+2025-03-23 06:31:51 [main] INFO  TC-082_verifyPaymentViaCreditCard - Injected cookie: .Nop.Culture
+2025-03-23 06:31:51 [main] INFO  TC-082_verifyPaymentViaCreditCard - Injected cookie: _ga_SCT41TW89V
+2025-03-23 06:31:52 [main] INFO  TC-082_verifyPaymentViaCreditCard - Page refreshed with bypassed cookies.
+2025-03-23 06:31:53 [main] INFO  utils.MainFunctionalities - Navigating to registration page.
+2025-03-23 06:32:00 [main] INFO  utils.MainFunctionalities - Clicking 'Register' button.
+2025-03-23 06:32:01 [main] INFO  utils.MainFunctionalities - Navigated to login page
+2025-03-23 06:32:06 [main] INFO  utils.MainFunctionalities - Entered username and password
+2025-03-23 06:32:07 [main] INFO  utils.MainFunctionalities - User is logged in successfully.
+2025-03-23 06:32:09 [main] INFO  utils.MainFunctionalities - Navigating to product page: https://demo.nopcommerce.com/adobe-photoshop
+2025-03-23 06:32:11 [main] INFO  utils.MainFunctionalities - Clicked 'Add to Cart' button with ID: add-to-cart-button-10
+2025-03-23 06:32:11 [main] INFO  utils.MainFunctionalities - Product successfully added to cart.
+2025-03-23 06:32:16 [main] INFO  utils.MainFunctionalities - Cart page loaded successfully.
+2025-03-23 06:32:17 [main] INFO  utils.MainFunctionalities - Accepted terms of service.
+2025-03-23 06:32:19 [main] INFO  utils.MainFunctionalities - Checkout page loaded successfully.
+2025-03-23 06:32:23 [main] INFO  utils.MainFunctionalities - Checked 'Ship to the same address' option.
+2025-03-23 06:32:29 [main] INFO  utils.MainFunctionalities - Shipping method selected.
+2025-03-23 06:32:47 [main] INFO  TC-082_verifyPaymentViaCreditCard - Closing the browser for test: verifyPaymentViaCreditCard
+2025-03-23 06:32:48 [main] INFO  TC-082_verifyPaymentViaCreditCard - Browser closed.
+2025-03-23 06:33:56 [main] INFO  TC-082_verifyPaymentViaCreditCard - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-03-23 06:33:56 [main] INFO  TC-082_verifyPaymentViaCreditCard - Logger initialized
+2025-03-23 06:33:56 [main] INFO  TC-082_verifyPaymentViaCreditCard - Starting test setup for: verifyPaymentViaCreditCard (🔢 Test Case ID: TC-082)
+2025-03-23 06:34:19 [main] INFO  TC-082_verifyPaymentViaCreditCard - Navigated to the site: https://demo.nopcommerce.com
+2025-03-23 06:34:19 [main] INFO  TC-082_verifyPaymentViaCreditCard - Injected cookie: _ga
+2025-03-23 06:34:19 [main] INFO  TC-082_verifyPaymentViaCreditCard - Injected cookie: cf_clearance
+2025-03-23 06:34:19 [main] INFO  TC-082_verifyPaymentViaCreditCard - Injected cookie: .Nop.Antiforgery
+2025-03-23 06:34:19 [main] INFO  TC-082_verifyPaymentViaCreditCard - Injected cookie: .Nop.Customer
+2025-03-23 06:34:19 [main] INFO  TC-082_verifyPaymentViaCreditCard - Injected cookie: .Nop.Culture
+2025-03-23 06:34:19 [main] INFO  TC-082_verifyPaymentViaCreditCard - Injected cookie: _ga_SCT41TW89V
+2025-03-23 06:34:20 [main] INFO  TC-082_verifyPaymentViaCreditCard - Page refreshed with bypassed cookies.
+2025-03-23 06:34:21 [main] INFO  utils.MainFunctionalities - Navigating to registration page.
+2025-03-23 06:34:24 [main] INFO  utils.MainFunctionalities - Clicking 'Register' button.
+2025-03-23 06:34:25 [main] INFO  utils.MainFunctionalities - Navigated to login page
+2025-03-23 06:34:28 [main] INFO  TC-082_verifyPaymentViaCreditCard - Closing the browser for test: verifyPaymentViaCreditCard
+2025-03-23 06:34:29 [main] INFO  TC-082_verifyPaymentViaCreditCard - Browser closed.
+2025-03-23 06:34:36 [main] INFO  TC-082_verifyPaymentViaCreditCard - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-03-23 06:34:36 [main] INFO  TC-082_verifyPaymentViaCreditCard - Logger initialized
+2025-03-23 06:34:36 [main] INFO  TC-082_verifyPaymentViaCreditCard - Starting test setup for: verifyPaymentViaCreditCard (🔢 Test Case ID: TC-082)
+2025-03-23 06:35:00 [main] INFO  TC-082_verifyPaymentViaCreditCard - Navigated to the site: https://demo.nopcommerce.com
+2025-03-23 06:35:00 [main] INFO  TC-082_verifyPaymentViaCreditCard - Injected cookie: _ga
+2025-03-23 06:35:00 [main] INFO  TC-082_verifyPaymentViaCreditCard - Injected cookie: cf_clearance
+2025-03-23 06:35:00 [main] INFO  TC-082_verifyPaymentViaCreditCard - Injected cookie: .Nop.Antiforgery
+2025-03-23 06:35:00 [main] INFO  TC-082_verifyPaymentViaCreditCard - Injected cookie: .Nop.Customer
+2025-03-23 06:35:00 [main] INFO  TC-082_verifyPaymentViaCreditCard - Injected cookie: .Nop.Culture
+2025-03-23 06:35:00 [main] INFO  TC-082_verifyPaymentViaCreditCard - Injected cookie: _ga_SCT41TW89V
+2025-03-23 06:35:01 [main] INFO  TC-082_verifyPaymentViaCreditCard - Page refreshed with bypassed cookies.
+2025-03-23 06:35:02 [main] INFO  utils.MainFunctionalities - Navigating to registration page.
+2025-03-23 06:35:08 [main] INFO  utils.MainFunctionalities - Clicking 'Register' button.
+2025-03-23 06:35:09 [main] INFO  utils.MainFunctionalities - Navigated to login page
+2025-03-23 06:35:15 [main] INFO  utils.MainFunctionalities - Entered username and password
+2025-03-23 06:35:16 [main] INFO  utils.MainFunctionalities - User is logged in successfully.
+2025-03-23 06:35:18 [main] INFO  utils.MainFunctionalities - Navigating to product page: https://demo.nopcommerce.com/adobe-photoshop
+2025-03-23 06:35:21 [main] INFO  utils.MainFunctionalities - Clicked 'Add to Cart' button with ID: add-to-cart-button-10
+2025-03-23 06:35:22 [main] INFO  utils.MainFunctionalities - Product successfully added to cart.
+2025-03-23 06:35:25 [main] INFO  utils.MainFunctionalities - Cart page loaded successfully.
+2025-03-23 06:35:28 [main] INFO  utils.MainFunctionalities - Accepted terms of service.
+2025-03-23 06:35:30 [main] INFO  utils.MainFunctionalities - Checkout page loaded successfully.
+2025-03-23 06:35:32 [main] INFO  utils.MainFunctionalities - Checked 'Ship to the same address' option.
+2025-03-23 06:35:38 [main] INFO  utils.MainFunctionalities - Shipping method selected.
+2025-03-23 06:35:55 [main] INFO  TC-082_verifyPaymentViaCreditCard - Closing the browser for test: verifyPaymentViaCreditCard
+2025-03-23 06:35:55 [main] INFO  TC-082_verifyPaymentViaCreditCard - Browser closed.
+2025-03-23 06:37:40 [main] INFO  TC-082_verifyPaymentViaCreditCard - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-03-23 06:37:40 [main] INFO  TC-082_verifyPaymentViaCreditCard - Logger initialized
+2025-03-23 06:37:40 [main] INFO  TC-082_verifyPaymentViaCreditCard - Starting test setup for: verifyPaymentViaCreditCard (🔢 Test Case ID: TC-082)
+2025-03-23 06:38:04 [main] INFO  TC-082_verifyPaymentViaCreditCard - Navigated to the site: https://demo.nopcommerce.com
+2025-03-23 06:38:04 [main] INFO  TC-082_verifyPaymentViaCreditCard - Injected cookie: _ga
+2025-03-23 06:38:04 [main] INFO  TC-082_verifyPaymentViaCreditCard - Injected cookie: cf_clearance
+2025-03-23 06:38:04 [main] INFO  TC-082_verifyPaymentViaCreditCard - Injected cookie: .Nop.Antiforgery
+2025-03-23 06:38:04 [main] INFO  TC-082_verifyPaymentViaCreditCard - Injected cookie: .Nop.Customer
+2025-03-23 06:38:04 [main] INFO  TC-082_verifyPaymentViaCreditCard - Injected cookie: .Nop.Culture
+2025-03-23 06:38:04 [main] INFO  TC-082_verifyPaymentViaCreditCard - Injected cookie: _ga_SCT41TW89V
+2025-03-23 06:38:04 [main] INFO  TC-082_verifyPaymentViaCreditCard - Page refreshed with bypassed cookies.
+2025-03-23 06:38:06 [main] INFO  utils.MainFunctionalities - Navigating to registration page.
+2025-03-23 06:38:11 [main] INFO  utils.MainFunctionalities - Clicking 'Register' button.
+2025-03-23 06:38:13 [main] INFO  utils.MainFunctionalities - Navigated to login page
+2025-03-23 06:38:19 [main] INFO  utils.MainFunctionalities - Entered username and password
+2025-03-23 06:38:21 [main] INFO  utils.MainFunctionalities - User is logged in successfully.
+2025-03-23 06:38:23 [main] INFO  utils.MainFunctionalities - Navigating to product page: https://demo.nopcommerce.com/adobe-photoshop
+2025-03-23 06:38:26 [main] INFO  utils.MainFunctionalities - Clicked 'Add to Cart' button with ID: add-to-cart-button-10
+2025-03-23 06:38:27 [main] INFO  utils.MainFunctionalities - Product successfully added to cart.
+2025-03-23 06:38:30 [main] INFO  utils.MainFunctionalities - Cart page loaded successfully.
+2025-03-23 06:38:32 [main] INFO  utils.MainFunctionalities - Accepted terms of service.
+2025-03-23 06:38:34 [main] INFO  utils.MainFunctionalities - Checkout page loaded successfully.
+2025-03-23 06:38:39 [main] INFO  TC-082_verifyPaymentViaCreditCard - Closing the browser for test: verifyPaymentViaCreditCard
+2025-03-23 06:38:39 [main] INFO  TC-082_verifyPaymentViaCreditCard - Browser closed.
+2025-03-23 06:40:45 [main] INFO  TC-082_verifyPaymentViaCreditCard - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-03-23 06:40:45 [main] INFO  TC-082_verifyPaymentViaCreditCard - Logger initialized
+2025-03-23 06:40:45 [main] INFO  TC-082_verifyPaymentViaCreditCard - Starting test setup for: verifyPaymentViaCreditCard (🔢 Test Case ID: TC-082)
+2025-03-23 06:41:02 [main] INFO  TC-082_verifyPaymentViaCreditCard - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-03-23 06:41:02 [main] INFO  TC-082_verifyPaymentViaCreditCard - Logger initialized
+2025-03-23 06:41:02 [main] INFO  TC-082_verifyPaymentViaCreditCard - Starting test setup for: verifyPaymentViaCreditCard (🔢 Test Case ID: TC-082)
+2025-03-23 06:41:29 [main] INFO  TC-082_verifyPaymentViaCreditCard - Navigated to the site: https://demo.nopcommerce.com
+2025-03-23 06:41:29 [main] INFO  TC-082_verifyPaymentViaCreditCard - Injected cookie: _ga
+2025-03-23 06:41:29 [main] INFO  TC-082_verifyPaymentViaCreditCard - Injected cookie: cf_clearance
+2025-03-23 06:41:29 [main] INFO  TC-082_verifyPaymentViaCreditCard - Injected cookie: .Nop.Antiforgery
+2025-03-23 06:41:29 [main] INFO  TC-082_verifyPaymentViaCreditCard - Injected cookie: .Nop.Customer
+2025-03-23 06:41:29 [main] INFO  TC-082_verifyPaymentViaCreditCard - Injected cookie: .Nop.Culture
+2025-03-23 06:41:29 [main] INFO  TC-082_verifyPaymentViaCreditCard - Injected cookie: _ga_SCT41TW89V
+2025-03-23 06:41:33 [main] INFO  TC-082_verifyPaymentViaCreditCard - Page refreshed with bypassed cookies.
+2025-03-23 06:41:33 [main] INFO  TC-082_verifyPaymentViaCreditCard - Closing the browser for test: verifyPaymentViaCreditCard
+2025-03-23 06:41:33 [main] INFO  TC-082_verifyPaymentViaCreditCard - Browser closed.
+2025-03-23 06:41:49 [main] INFO  TC-082_verifyPaymentViaCreditCard - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-03-23 06:41:49 [main] INFO  TC-082_verifyPaymentViaCreditCard - Logger initialized
+2025-03-23 06:41:49 [main] INFO  TC-082_verifyPaymentViaCreditCard - Starting test setup for: verifyPaymentViaCreditCard (🔢 Test Case ID: TC-082)
+2025-03-23 06:42:06 [main] INFO  TC-082_verifyPaymentViaCreditCard - Navigated to the site: https://demo.nopcommerce.com
+2025-03-23 06:42:06 [main] INFO  TC-082_verifyPaymentViaCreditCard - Injected cookie: _ga
+2025-03-23 06:42:06 [main] INFO  TC-082_verifyPaymentViaCreditCard - Injected cookie: cf_clearance
+2025-03-23 06:42:06 [main] INFO  TC-082_verifyPaymentViaCreditCard - Injected cookie: .Nop.Antiforgery
+2025-03-23 06:42:06 [main] INFO  TC-082_verifyPaymentViaCreditCard - Injected cookie: .Nop.Customer
+2025-03-23 06:42:06 [main] INFO  TC-082_verifyPaymentViaCreditCard - Injected cookie: .Nop.Culture
+2025-03-23 06:42:06 [main] INFO  TC-082_verifyPaymentViaCreditCard - Injected cookie: _ga_SCT41TW89V
+2025-03-23 06:42:07 [main] INFO  TC-082_verifyPaymentViaCreditCard - Page refreshed with bypassed cookies.
+2025-03-23 06:42:07 [main] INFO  utils.MainFunctionalities - Navigating to registration page.
+2025-03-23 06:42:14 [main] INFO  utils.MainFunctionalities - Clicking 'Register' button.
+2025-03-23 06:42:14 [main] INFO  utils.MainFunctionalities - Navigated to login page
+2025-03-23 06:42:20 [main] INFO  utils.MainFunctionalities - Entered username and password
+2025-03-23 06:42:21 [main] INFO  utils.MainFunctionalities - User is logged in successfully.
+2025-03-23 06:42:22 [main] INFO  utils.MainFunctionalities - Navigating to product page: https://demo.nopcommerce.com/adobe-photoshop
+2025-03-23 06:42:24 [main] INFO  utils.MainFunctionalities - Clicked 'Add to Cart' button with ID: add-to-cart-button-10
+2025-03-23 06:42:24 [main] INFO  utils.MainFunctionalities - Product successfully added to cart.
+2025-03-23 06:42:27 [main] INFO  utils.MainFunctionalities - Cart page loaded successfully.
+2025-03-23 06:42:29 [main] INFO  utils.MainFunctionalities - Accepted terms of service.
+2025-03-23 06:42:30 [main] INFO  utils.MainFunctionalities - Checkout page loaded successfully.
+2025-03-23 06:42:35 [main] INFO  TC-082_verifyPaymentViaCreditCard - Closing the browser for test: verifyPaymentViaCreditCard
+2025-03-23 06:42:36 [main] INFO  TC-082_verifyPaymentViaCreditCard - Browser closed.
+2025-03-23 06:42:46 [main] INFO  TC-082_verifyPaymentViaCreditCard - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-03-23 06:42:46 [main] INFO  TC-082_verifyPaymentViaCreditCard - Logger initialized
+2025-03-23 06:42:46 [main] INFO  TC-082_verifyPaymentViaCreditCard - Starting test setup for: verifyPaymentViaCreditCard (🔢 Test Case ID: TC-082)
+2025-03-23 06:43:02 [main] INFO  TC-082_verifyPaymentViaCreditCard - Navigated to the site: https://demo.nopcommerce.com
+2025-03-23 06:43:02 [main] INFO  TC-082_verifyPaymentViaCreditCard - Injected cookie: cf_clearance
+2025-03-23 06:43:02 [main] INFO  TC-082_verifyPaymentViaCreditCard - Injected cookie: _ga
+2025-03-23 06:43:02 [main] INFO  TC-082_verifyPaymentViaCreditCard - Injected cookie: .Nop.Antiforgery
+2025-03-23 06:43:02 [main] INFO  TC-082_verifyPaymentViaCreditCard - Injected cookie: .Nop.Customer
+2025-03-23 06:43:02 [main] INFO  TC-082_verifyPaymentViaCreditCard - Injected cookie: .Nop.Culture
+2025-03-23 06:43:02 [main] INFO  TC-082_verifyPaymentViaCreditCard - Injected cookie: _ga_SCT41TW89V
+2025-03-23 06:43:03 [main] INFO  TC-082_verifyPaymentViaCreditCard - Page refreshed with bypassed cookies.
+2025-03-23 06:43:04 [main] INFO  utils.MainFunctionalities - Navigating to registration page.
+2025-03-23 06:43:08 [main] INFO  utils.MainFunctionalities - Clicking 'Register' button.
+2025-03-23 06:43:08 [main] INFO  utils.MainFunctionalities - Navigated to login page
+2025-03-23 06:43:14 [main] INFO  utils.MainFunctionalities - Entered username and password
+2025-03-23 06:43:16 [main] INFO  utils.MainFunctionalities - User is logged in successfully.
+2025-03-23 06:43:18 [main] INFO  utils.MainFunctionalities - Navigating to product page: https://demo.nopcommerce.com/adobe-photoshop
+2025-03-23 06:43:19 [main] INFO  utils.MainFunctionalities - Clicked 'Add to Cart' button with ID: add-to-cart-button-10
+2025-03-23 06:43:20 [main] INFO  utils.MainFunctionalities - Product successfully added to cart.
+2025-03-23 06:43:23 [main] INFO  utils.MainFunctionalities - Cart page loaded successfully.
+2025-03-23 06:43:24 [main] INFO  utils.MainFunctionalities - Accepted terms of service.
+2025-03-23 06:43:26 [main] INFO  utils.MainFunctionalities - Checkout page loaded successfully.
+2025-03-23 06:43:29 [main] INFO  utils.MainFunctionalities - Checked 'Ship to the same address' option.
+2025-03-23 06:43:32 [main] INFO  utils.MainFunctionalities - Shipping method selected.
+2025-03-23 06:43:40 [main] INFO  utils.MainFunctionalities - Order confirmed.
+2025-03-23 06:43:41 [main] INFO  utils.MainFunctionalities - Order placed successfully!
+2025-03-23 06:43:41 [main] INFO  TC-082_verifyPaymentViaCreditCard - Closing the browser for test: verifyPaymentViaCreditCard
+2025-03-23 06:43:42 [main] INFO  TC-082_verifyPaymentViaCreditCard - Browser closed.
+2025-03-23 07:03:31 [main] INFO  TC-082_verifyPaymentViaCreditCard - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-03-23 07:03:31 [main] INFO  TC-082_verifyPaymentViaCreditCard - Logger initialized
+2025-03-23 07:03:31 [main] INFO  TC-082_verifyPaymentViaCreditCard - Starting test setup for: verifyPaymentViaCreditCard (🔢 Test Case ID: TC-082)
+2025-03-23 07:03:47 [main] INFO  TC-082_verifyPaymentViaCreditCard - Navigated to the site: https://demo.nopcommerce.com
+2025-03-23 07:03:47 [main] INFO  TC-082_verifyPaymentViaCreditCard - Injected cookie: cf_clearance
+2025-03-23 07:03:47 [main] INFO  TC-082_verifyPaymentViaCreditCard - Injected cookie: _ga
+2025-03-23 07:03:47 [main] INFO  TC-082_verifyPaymentViaCreditCard - Injected cookie: .Nop.Antiforgery
+2025-03-23 07:03:47 [main] INFO  TC-082_verifyPaymentViaCreditCard - Injected cookie: .Nop.Customer
+2025-03-23 07:03:47 [main] INFO  TC-082_verifyPaymentViaCreditCard - Injected cookie: .Nop.Culture
+2025-03-23 07:03:47 [main] INFO  TC-082_verifyPaymentViaCreditCard - Injected cookie: _ga_SCT41TW89V
+2025-03-23 07:03:48 [main] INFO  TC-082_verifyPaymentViaCreditCard - Page refreshed with bypassed cookies.
+2025-03-23 07:03:48 [main] INFO  TC-082_verifyPaymentViaCreditCard - 🟢 Starting test: verifyPaymentViaCreditCard (🔢 Test Case ID: TC-082)
+2025-03-23 07:03:49 [main] INFO  utils.MainFunctionalities - Navigating to registration page.
+2025-03-23 07:03:54 [main] INFO  utils.MainFunctionalities - Clicking 'Register' button.
+2025-03-23 07:03:55 [main] INFO  utils.MainFunctionalities - Navigated to login page
+2025-03-23 07:04:00 [main] INFO  utils.MainFunctionalities - Entered username and password
+2025-03-23 07:04:01 [main] INFO  utils.MainFunctionalities - User is logged in successfully.
+2025-03-23 07:04:02 [main] INFO  utils.MainFunctionalities - Navigating to product page: https://demo.nopcommerce.com/adobe-photoshop
+2025-03-23 07:04:04 [main] INFO  utils.MainFunctionalities - Clicked 'Add to Cart' button with ID: add-to-cart-button-10
+2025-03-23 07:04:04 [main] INFO  utils.MainFunctionalities - Product successfully added to cart.
+2025-03-23 07:04:07 [main] INFO  utils.MainFunctionalities - Cart page loaded successfully.
+2025-03-23 07:04:08 [main] INFO  utils.MainFunctionalities - Accepted terms of service.
+2025-03-23 07:04:10 [main] INFO  utils.MainFunctionalities - Checkout page loaded successfully.
+2025-03-23 07:04:12 [main] INFO  utils.MainFunctionalities - Checked 'Ship to the same address' option.
+2025-03-23 07:04:16 [main] INFO  utils.MainFunctionalities - Shipping method selected.
+2025-03-23 07:04:23 [main] INFO  utils.MainFunctionalities - Order confirmed.
+2025-03-23 07:04:25 [main] INFO  utils.MainFunctionalities - Order placed successfully!
+2025-03-23 07:04:25 [main] INFO  listeners.TestListener - ✅ Test PASSED: verifyPaymentViaCreditCard (Duration: 36160ms)
+2025-03-23 07:04:25 [main] INFO  TC-082_verifyPaymentViaCreditCard - Closing the browser for test: verifyPaymentViaCreditCard
+2025-03-23 07:04:25 [main] INFO  TC-082_verifyPaymentViaCreditCard - Browser closed.
+2025-03-23 07:04:25 [main] INFO  listeners.TestListener - 🏁 Finished Test Suite: Surefire test

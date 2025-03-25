@@ -1,0 +1,76 @@
+2025-03-24 20:42:40 [main] INFO  TC-003_verifyProductPageLoadsCorrectly - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-03-24 20:42:40 [main] INFO  TC-003_verifyProductPageLoadsCorrectly - Logger initialized
+2025-03-24 20:42:40 [main] INFO  TC-003_verifyProductPageLoadsCorrectly - Starting test setup for: verifyProductPageLoadsCorrectly (🔢 Test Case ID: TC-003)
+2025-03-24 20:42:59 [main] INFO  TC-003_verifyProductPageLoadsCorrectly - Navigated to the site: https://demo.nopcommerce.com
+2025-03-24 20:42:59 [main] INFO  TC-003_verifyProductPageLoadsCorrectly - Injected cookie: cf_clearance
+2025-03-24 20:42:59 [main] INFO  TC-003_verifyProductPageLoadsCorrectly - Injected cookie: _ga
+2025-03-24 20:42:59 [main] INFO  TC-003_verifyProductPageLoadsCorrectly - Injected cookie: .Nop.Antiforgery
+2025-03-24 20:42:59 [main] INFO  TC-003_verifyProductPageLoadsCorrectly - Injected cookie: .Nop.Customer
+2025-03-24 20:42:59 [main] INFO  TC-003_verifyProductPageLoadsCorrectly - Injected cookie: .Nop.Culture
+2025-03-24 20:42:59 [main] INFO  TC-003_verifyProductPageLoadsCorrectly - Injected cookie: _ga_SCT41TW89V
+2025-03-24 20:42:59 [main] INFO  TC-003_verifyProductPageLoadsCorrectly - Page refreshed with bypassed cookies.
+2025-03-24 20:42:59 [main] INFO  TC-003_verifyProductPageLoadsCorrectly - Navigating to: https://demo.nopcommerce.com/
+2025-03-24 20:43:00 [main] INFO  utils.MainFunctionalities - Searching for product: macbookName
+2025-03-24 20:43:05 [main] INFO  utils.MainFunctionalities - Search for 'macbookName' completed successfully.
+2025-03-24 20:43:05 [main] INFO  TC-003_verifyProductPageLoadsCorrectly - Product page loaded successfully.
+2025-03-24 20:43:05 [main] INFO  TC-003_verifyProductPageLoadsCorrectly - Closing the browser for test: verifyProductPageLoadsCorrectly
+2025-03-24 20:43:05 [main] INFO  TC-003_verifyProductPageLoadsCorrectly - Browser closed.
+2025-03-24 20:43:14 [main] INFO  TC-003_verifyProductPageLoadsCorrectly - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-03-24 20:43:14 [main] INFO  TC-003_verifyProductPageLoadsCorrectly - Logger initialized
+2025-03-24 20:43:14 [main] INFO  TC-003_verifyProductPageLoadsCorrectly - Starting test setup for: verifyProductPageLoadsCorrectly (🔢 Test Case ID: TC-003)
+2025-03-24 20:43:31 [main] INFO  TC-003_verifyProductPageLoadsCorrectly - Navigated to the site: https://demo.nopcommerce.com
+2025-03-24 20:43:31 [main] INFO  TC-003_verifyProductPageLoadsCorrectly - Injected cookie: _ga
+2025-03-24 20:43:31 [main] INFO  TC-003_verifyProductPageLoadsCorrectly - Injected cookie: cf_clearance
+2025-03-24 20:43:31 [main] INFO  TC-003_verifyProductPageLoadsCorrectly - Injected cookie: .Nop.Antiforgery
+2025-03-24 20:43:31 [main] INFO  TC-003_verifyProductPageLoadsCorrectly - Injected cookie: .Nop.Customer
+2025-03-24 20:43:31 [main] INFO  TC-003_verifyProductPageLoadsCorrectly - Injected cookie: .Nop.Culture
+2025-03-24 20:43:31 [main] INFO  TC-003_verifyProductPageLoadsCorrectly - Injected cookie: _ga_SCT41TW89V
+2025-03-24 20:43:32 [main] INFO  TC-003_verifyProductPageLoadsCorrectly - Page refreshed with bypassed cookies.
+2025-03-24 20:43:32 [main] INFO  TC-003_verifyProductPageLoadsCorrectly - Navigating to: https://demo.nopcommerce.com/
+2025-03-24 20:43:32 [main] INFO  utils.MainFunctionalities - Searching for product: Apple MacBook Pro
+2025-03-24 20:43:37 [main] INFO  utils.MainFunctionalities - Search for 'Apple MacBook Pro' completed successfully.
+2025-03-24 20:43:37 [main] INFO  TC-003_verifyProductPageLoadsCorrectly - Product page loaded successfully.
+2025-03-24 20:43:37 [main] INFO  TC-003_verifyProductPageLoadsCorrectly - Closing the browser for test: verifyProductPageLoadsCorrectly
+2025-03-24 20:43:37 [main] INFO  TC-003_verifyProductPageLoadsCorrectly - Browser closed.
+2025-03-24 21:51:41 [main] INFO  TC-003_verifyProductPageLoadsCorrectly - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-03-24 21:51:41 [main] INFO  TC-003_verifyProductPageLoadsCorrectly - Logger initialized
+2025-03-24 21:51:41 [main] INFO  TC-003_verifyProductPageLoadsCorrectly - Starting test setup for: verifyProductPageLoadsCorrectly (🔢 Test Case ID: TC-003)
+2025-03-24 21:52:06 [main] INFO  TC-003_verifyProductPageLoadsCorrectly - Navigated to the site: https://demo.nopcommerce.com
+2025-03-24 21:52:06 [main] INFO  TC-003_verifyProductPageLoadsCorrectly - Injected cookie: cf_clearance
+2025-03-24 21:52:06 [main] INFO  TC-003_verifyProductPageLoadsCorrectly - Injected cookie: _ga
+2025-03-24 21:52:06 [main] INFO  TC-003_verifyProductPageLoadsCorrectly - Injected cookie: .Nop.Antiforgery
+2025-03-24 21:52:06 [main] INFO  TC-003_verifyProductPageLoadsCorrectly - Injected cookie: .Nop.Customer
+2025-03-24 21:52:06 [main] INFO  TC-003_verifyProductPageLoadsCorrectly - Injected cookie: .Nop.Culture
+2025-03-24 21:52:06 [main] INFO  TC-003_verifyProductPageLoadsCorrectly - Injected cookie: _ga_SCT41TW89V
+2025-03-24 21:52:07 [main] INFO  TC-003_verifyProductPageLoadsCorrectly - Page refreshed with bypassed cookies.
+2025-03-24 21:52:07 [main] INFO  TC-003_verifyProductPageLoadsCorrectly - 🟢 Starting test: verifyProductPageLoadsCorrectly (🔢 Test Case ID: TC-003)
+2025-03-24 21:52:07 [main] INFO  TC-003_verifyProductPageLoadsCorrectly - Navigating to: https://demo.nopcommerce.com/
+2025-03-24 21:52:09 [main] INFO  utils.MainFunctionalities - Searching for product: Apple MacBook Pro
+2025-03-24 21:52:15 [main] INFO  utils.MainFunctionalities - Search for 'Apple MacBook Pro' completed successfully.
+2025-03-24 21:52:15 [main] INFO  TC-003_verifyProductPageLoadsCorrectly - Product page loaded successfully.
+2025-03-24 21:52:15 [main] INFO  listeners.TestListener - ✅ Test PASSED: verifyProductPageLoadsCorrectly (Duration: 7266ms)
+2025-03-24 21:52:15 [main] INFO  TC-003_verifyProductPageLoadsCorrectly - Closing the browser for test: verifyProductPageLoadsCorrectly
+2025-03-24 21:52:15 [main] INFO  TC-003_verifyProductPageLoadsCorrectly - Browser closed.
+2025-03-24 21:57:33 [main] INFO  TC-003_verifyProductPageLoadsCorrectly - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-03-24 21:57:33 [main] INFO  TC-003_verifyProductPageLoadsCorrectly - Logger initialized
+2025-03-24 21:57:33 [main] INFO  TC-003_verifyProductPageLoadsCorrectly - Starting test setup for: verifyProductPageLoadsCorrectly (🔢 Test Case ID: TC-003)
+2025-03-24 21:57:56 [main] INFO  TC-003_verifyProductPageLoadsCorrectly - Navigated to the site: https://demo.nopcommerce.com
+2025-03-24 21:57:56 [main] INFO  TC-003_verifyProductPageLoadsCorrectly - Injected cookie: cf_clearance
+2025-03-24 21:57:56 [main] INFO  TC-003_verifyProductPageLoadsCorrectly - Injected cookie: _ga
+2025-03-24 21:57:56 [main] INFO  TC-003_verifyProductPageLoadsCorrectly - Injected cookie: .Nop.Antiforgery
+2025-03-24 21:57:56 [main] INFO  TC-003_verifyProductPageLoadsCorrectly - Injected cookie: .Nop.Customer
+2025-03-24 21:57:56 [main] INFO  TC-003_verifyProductPageLoadsCorrectly - Injected cookie: .Nop.Culture
+2025-03-24 21:57:56 [main] INFO  TC-003_verifyProductPageLoadsCorrectly - Injected cookie: _ga_SCT41TW89V
+2025-03-24 21:57:57 [main] INFO  TC-003_verifyProductPageLoadsCorrectly - Page refreshed with bypassed cookies.
+2025-03-24 21:57:57 [main] INFO  TC-003_verifyProductPageLoadsCorrectly - 🟢 Starting test: verifyProductPageLoadsCorrectly (🔢 Test Case ID: TC-003)
+2025-03-24 21:57:57 [main] INFO  TC-003_verifyProductPageLoadsCorrectly - Navigating to: https://demo.nopcommerce.com/
+2025-03-24 21:57:58 [main] INFO  utils.MainFunctionalities - Searching for product: Apple MacBook Pro
+2025-03-24 21:58:05 [main] INFO  utils.MainFunctionalities - Search for 'Apple MacBook Pro' completed successfully.
+2025-03-24 21:58:05 [main] INFO  TC-003_verifyProductPageLoadsCorrectly - Product page loaded successfully.
+2025-03-24 21:58:05 [main] INFO  listeners.TestListener - ✅ Test PASSED: verifyProductPageLoadsCorrectly (Duration: 7753ms)
+2025-03-24 21:58:05 [main] INFO  TC-003_verifyProductPageLoadsCorrectly - Closing the browser for test: verifyProductPageLoadsCorrectly
+2025-03-24 21:58:06 [main] INFO  TC-003_verifyProductPageLoadsCorrectly - Browser closed.

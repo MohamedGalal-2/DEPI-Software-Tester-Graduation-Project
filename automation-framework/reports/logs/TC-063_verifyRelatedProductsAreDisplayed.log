@@ -1,0 +1,130 @@
+2025-03-24 20:50:51 [main] INFO  TC-063_verifyRelatedProductsAreDisplayed - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-03-24 20:50:51 [main] INFO  TC-063_verifyRelatedProductsAreDisplayed - Logger initialized
+2025-03-24 20:50:51 [main] INFO  TC-063_verifyRelatedProductsAreDisplayed - Starting test setup for: verifyRelatedProductsAreDisplayed (🔢 Test Case ID: TC-063)
+2025-03-24 20:51:13 [main] INFO  TC-063_verifyRelatedProductsAreDisplayed - Navigated to the site: https://demo.nopcommerce.com
+2025-03-24 20:51:13 [main] INFO  TC-063_verifyRelatedProductsAreDisplayed - Injected cookie: cf_clearance
+2025-03-24 20:51:13 [main] INFO  TC-063_verifyRelatedProductsAreDisplayed - Injected cookie: _ga
+2025-03-24 20:51:13 [main] INFO  TC-063_verifyRelatedProductsAreDisplayed - Injected cookie: .Nop.Antiforgery
+2025-03-24 20:51:13 [main] INFO  TC-063_verifyRelatedProductsAreDisplayed - Injected cookie: .Nop.Customer
+2025-03-24 20:51:13 [main] INFO  TC-063_verifyRelatedProductsAreDisplayed - Injected cookie: .Nop.Culture
+2025-03-24 20:51:13 [main] INFO  TC-063_verifyRelatedProductsAreDisplayed - Injected cookie: _ga_SCT41TW89V
+2025-03-24 20:51:14 [main] INFO  TC-063_verifyRelatedProductsAreDisplayed - Page refreshed with bypassed cookies.
+2025-03-24 20:51:14 [main] INFO  TC-063_verifyRelatedProductsAreDisplayed - Navigating to: https://demo.nopcommerce.com/
+2025-03-24 20:51:16 [main] INFO  utils.MainFunctionalities - Searching for product: Apple MacBook Pro
+2025-03-24 20:51:17 [main] INFO  TC-063_verifyRelatedProductsAreDisplayed - Closing the browser for test: verifyRelatedProductsAreDisplayed
+2025-03-24 20:51:18 [main] INFO  TC-063_verifyRelatedProductsAreDisplayed - Browser closed.
+2025-03-24 20:51:34 [main] INFO  TC-063_verifyRelatedProductsAreDisplayed - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-03-24 20:51:34 [main] INFO  TC-063_verifyRelatedProductsAreDisplayed - Logger initialized
+2025-03-24 20:51:34 [main] INFO  TC-063_verifyRelatedProductsAreDisplayed - Starting test setup for: verifyRelatedProductsAreDisplayed (🔢 Test Case ID: TC-063)
+2025-03-24 20:51:52 [main] INFO  TC-063_verifyRelatedProductsAreDisplayed - Navigated to the site: https://demo.nopcommerce.com
+2025-03-24 20:51:52 [main] INFO  TC-063_verifyRelatedProductsAreDisplayed - Injected cookie: _ga
+2025-03-24 20:51:52 [main] INFO  TC-063_verifyRelatedProductsAreDisplayed - Injected cookie: cf_clearance
+2025-03-24 20:51:52 [main] INFO  TC-063_verifyRelatedProductsAreDisplayed - Injected cookie: .Nop.Antiforgery
+2025-03-24 20:51:52 [main] INFO  TC-063_verifyRelatedProductsAreDisplayed - Injected cookie: .Nop.Customer
+2025-03-24 20:51:52 [main] INFO  TC-063_verifyRelatedProductsAreDisplayed - Injected cookie: .Nop.Culture
+2025-03-24 20:51:52 [main] INFO  TC-063_verifyRelatedProductsAreDisplayed - Injected cookie: _ga_SCT41TW89V
+2025-03-24 20:51:52 [main] INFO  TC-063_verifyRelatedProductsAreDisplayed - Page refreshed with bypassed cookies.
+2025-03-24 20:51:52 [main] INFO  TC-063_verifyRelatedProductsAreDisplayed - Navigating to: https://demo.nopcommerce.com/
+2025-03-24 20:51:53 [main] INFO  utils.MainFunctionalities - Searching for product: Apple MacBook Pro
+2025-03-24 20:51:58 [main] INFO  utils.MainFunctionalities - Search for 'Apple MacBook Pro' completed successfully.
+2025-03-24 20:51:58 [main] INFO  TC-063_verifyRelatedProductsAreDisplayed - Product page loaded successfully.
+2025-03-24 20:52:03 [main] INFO  TC-063_verifyRelatedProductsAreDisplayed - Closing the browser for test: verifyRelatedProductsAreDisplayed
+2025-03-24 20:52:04 [main] INFO  TC-063_verifyRelatedProductsAreDisplayed - Browser closed.
+2025-03-24 20:52:19 [main] INFO  TC-063_verifyRelatedProductsAreDisplayed - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-03-24 20:52:19 [main] INFO  TC-063_verifyRelatedProductsAreDisplayed - Logger initialized
+2025-03-24 20:52:19 [main] INFO  TC-063_verifyRelatedProductsAreDisplayed - Starting test setup for: verifyRelatedProductsAreDisplayed (🔢 Test Case ID: TC-063)
+2025-03-24 20:52:36 [main] INFO  TC-063_verifyRelatedProductsAreDisplayed - Navigated to the site: https://demo.nopcommerce.com
+2025-03-24 20:52:36 [main] INFO  TC-063_verifyRelatedProductsAreDisplayed - Injected cookie: cf_clearance
+2025-03-24 20:52:36 [main] INFO  TC-063_verifyRelatedProductsAreDisplayed - Injected cookie: _ga
+2025-03-24 20:52:36 [main] INFO  TC-063_verifyRelatedProductsAreDisplayed - Injected cookie: .Nop.Antiforgery
+2025-03-24 20:52:36 [main] INFO  TC-063_verifyRelatedProductsAreDisplayed - Injected cookie: .Nop.Customer
+2025-03-24 20:52:36 [main] INFO  TC-063_verifyRelatedProductsAreDisplayed - Injected cookie: .Nop.Culture
+2025-03-24 20:52:36 [main] INFO  TC-063_verifyRelatedProductsAreDisplayed - Injected cookie: _ga_SCT41TW89V
+2025-03-24 20:52:37 [main] INFO  TC-063_verifyRelatedProductsAreDisplayed - Page refreshed with bypassed cookies.
+2025-03-24 20:52:37 [main] INFO  TC-063_verifyRelatedProductsAreDisplayed - Navigating to: https://demo.nopcommerce.com/
+2025-03-24 20:52:38 [main] INFO  utils.MainFunctionalities - Searching for product: Apple MacBook Pro
+2025-03-24 20:52:43 [main] INFO  utils.MainFunctionalities - Search for 'Apple MacBook Pro' completed successfully.
+2025-03-24 20:52:43 [main] INFO  TC-063_verifyRelatedProductsAreDisplayed - Product page loaded successfully.
+2025-03-24 20:52:48 [main] INFO  TC-063_verifyRelatedProductsAreDisplayed - Product page loaded successfully.
+2025-03-24 20:52:50 [main] INFO  TC-063_verifyRelatedProductsAreDisplayed - Number of related products displayed: 2
+2025-03-24 20:52:50 [main] INFO  TC-063_verifyRelatedProductsAreDisplayed - Related Product Found: Digital Storm VANQUISH Custom Performance PC
+2025-03-24 20:52:50 [main] INFO  TC-063_verifyRelatedProductsAreDisplayed - Related Product Found: Pride and Prejudice
+2025-03-24 20:52:50 [main] INFO  TC-063_verifyRelatedProductsAreDisplayed - Related products are displayed successfully.
+2025-03-24 20:52:50 [main] INFO  TC-063_verifyRelatedProductsAreDisplayed - Closing the browser for test: verifyRelatedProductsAreDisplayed
+2025-03-24 20:52:51 [main] INFO  TC-063_verifyRelatedProductsAreDisplayed - Browser closed.
+2025-03-24 20:54:41 [main] INFO  TC-063_verifyRelatedProductsAreDisplayed - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-03-24 20:54:41 [main] INFO  TC-063_verifyRelatedProductsAreDisplayed - Logger initialized
+2025-03-24 20:54:41 [main] INFO  TC-063_verifyRelatedProductsAreDisplayed - Starting test setup for: verifyRelatedProductsAreDisplayed (🔢 Test Case ID: TC-063)
+2025-03-24 20:54:59 [main] INFO  TC-063_verifyRelatedProductsAreDisplayed - Navigated to the site: https://demo.nopcommerce.com
+2025-03-24 20:54:59 [main] INFO  TC-063_verifyRelatedProductsAreDisplayed - Injected cookie: cf_clearance
+2025-03-24 20:54:59 [main] INFO  TC-063_verifyRelatedProductsAreDisplayed - Injected cookie: _ga
+2025-03-24 20:54:59 [main] INFO  TC-063_verifyRelatedProductsAreDisplayed - Injected cookie: .Nop.Antiforgery
+2025-03-24 20:54:59 [main] INFO  TC-063_verifyRelatedProductsAreDisplayed - Injected cookie: .Nop.Customer
+2025-03-24 20:54:59 [main] INFO  TC-063_verifyRelatedProductsAreDisplayed - Injected cookie: .Nop.Culture
+2025-03-24 20:54:59 [main] INFO  TC-063_verifyRelatedProductsAreDisplayed - Injected cookie: _ga_SCT41TW89V
+2025-03-24 20:55:00 [main] INFO  TC-063_verifyRelatedProductsAreDisplayed - Page refreshed with bypassed cookies.
+2025-03-24 20:55:00 [main] INFO  TC-063_verifyRelatedProductsAreDisplayed - Navigating to: https://demo.nopcommerce.com/
+2025-03-24 20:55:00 [main] INFO  utils.MainFunctionalities - Searching for product: Apple MacBook Pro
+2025-03-24 20:55:06 [main] INFO  utils.MainFunctionalities - Search for 'Apple MacBook Pro' completed successfully.
+2025-03-24 20:55:06 [main] INFO  TC-063_verifyRelatedProductsAreDisplayed - Product page loaded successfully.
+2025-03-24 20:55:14 [main] INFO  TC-063_verifyRelatedProductsAreDisplayed - Product page loaded successfully.
+2025-03-24 20:55:16 [main] INFO  utils.MainFunctionalities - Number of related products displayed: 2
+2025-03-24 20:55:16 [main] INFO  utils.MainFunctionalities - Related Product Found: Digital Storm VANQUISH Custom Performance PC
+2025-03-24 20:55:16 [main] INFO  utils.MainFunctionalities - Related Product Found: Pride and Prejudice
+2025-03-24 20:55:16 [main] INFO  TC-063_verifyRelatedProductsAreDisplayed - Related products are displayed successfully.
+2025-03-24 20:55:16 [main] INFO  TC-063_verifyRelatedProductsAreDisplayed - Closing the browser for test: verifyRelatedProductsAreDisplayed
+2025-03-24 20:55:16 [main] INFO  TC-063_verifyRelatedProductsAreDisplayed - Browser closed.
+2025-03-24 21:53:53 [main] INFO  TC-063_verifyRelatedProductsAreDisplayed - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-03-24 21:53:53 [main] INFO  TC-063_verifyRelatedProductsAreDisplayed - Logger initialized
+2025-03-24 21:53:53 [main] INFO  TC-063_verifyRelatedProductsAreDisplayed - Starting test setup for: verifyRelatedProductsAreDisplayed (🔢 Test Case ID: TC-063)
+2025-03-24 21:54:16 [main] INFO  TC-063_verifyRelatedProductsAreDisplayed - Navigated to the site: https://demo.nopcommerce.com
+2025-03-24 21:54:16 [main] INFO  TC-063_verifyRelatedProductsAreDisplayed - Injected cookie: cf_clearance
+2025-03-24 21:54:16 [main] INFO  TC-063_verifyRelatedProductsAreDisplayed - Injected cookie: _ga
+2025-03-24 21:54:16 [main] INFO  TC-063_verifyRelatedProductsAreDisplayed - Injected cookie: .Nop.Antiforgery
+2025-03-24 21:54:16 [main] INFO  TC-063_verifyRelatedProductsAreDisplayed - Injected cookie: .Nop.Customer
+2025-03-24 21:54:16 [main] INFO  TC-063_verifyRelatedProductsAreDisplayed - Injected cookie: .Nop.Culture
+2025-03-24 21:54:16 [main] INFO  TC-063_verifyRelatedProductsAreDisplayed - Injected cookie: _ga_SCT41TW89V
+2025-03-24 21:54:18 [main] INFO  TC-063_verifyRelatedProductsAreDisplayed - Page refreshed with bypassed cookies.
+2025-03-24 21:54:18 [main] INFO  TC-063_verifyRelatedProductsAreDisplayed - 🟢 Starting test: verifyRelatedProductsAreDisplayed (🔢 Test Case ID: TC-063)
+2025-03-24 21:54:18 [main] INFO  TC-063_verifyRelatedProductsAreDisplayed - Navigating to: https://demo.nopcommerce.com/
+2025-03-24 21:54:19 [main] INFO  utils.MainFunctionalities - Searching for product: Apple MacBook Pro
+2025-03-24 21:54:25 [main] INFO  utils.MainFunctionalities - Search for 'Apple MacBook Pro' completed successfully.
+2025-03-24 21:54:25 [main] INFO  TC-063_verifyRelatedProductsAreDisplayed - Product page loaded successfully.
+2025-03-24 21:54:38 [main] INFO  TC-063_verifyRelatedProductsAreDisplayed - Product page loaded successfully.
+2025-03-24 21:54:40 [main] INFO  utils.MainFunctionalities - Number of related products displayed: 2
+2025-03-24 21:54:40 [main] INFO  utils.MainFunctionalities - Related Product Found: Digital Storm VANQUISH Custom Performance PC
+2025-03-24 21:54:40 [main] INFO  utils.MainFunctionalities - Related Product Found: Pride and Prejudice
+2025-03-24 21:54:40 [main] INFO  TC-063_verifyRelatedProductsAreDisplayed - Related products are displayed successfully.
+2025-03-24 21:54:40 [main] INFO  listeners.TestListener - ✅ Test PASSED: verifyRelatedProductsAreDisplayed (Duration: 22422ms)
+2025-03-24 21:54:40 [main] INFO  TC-063_verifyRelatedProductsAreDisplayed - Closing the browser for test: verifyRelatedProductsAreDisplayed
+2025-03-24 21:54:41 [main] INFO  TC-063_verifyRelatedProductsAreDisplayed - Browser closed.
+2025-03-24 21:59:43 [main] INFO  TC-063_verifyRelatedProductsAreDisplayed - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-03-24 21:59:43 [main] INFO  TC-063_verifyRelatedProductsAreDisplayed - Logger initialized
+2025-03-24 21:59:43 [main] INFO  TC-063_verifyRelatedProductsAreDisplayed - Starting test setup for: verifyRelatedProductsAreDisplayed (🔢 Test Case ID: TC-063)
+2025-03-24 22:00:06 [main] INFO  TC-063_verifyRelatedProductsAreDisplayed - Navigated to the site: https://demo.nopcommerce.com
+2025-03-24 22:00:06 [main] INFO  TC-063_verifyRelatedProductsAreDisplayed - Injected cookie: cf_clearance
+2025-03-24 22:00:06 [main] INFO  TC-063_verifyRelatedProductsAreDisplayed - Injected cookie: _ga
+2025-03-24 22:00:06 [main] INFO  TC-063_verifyRelatedProductsAreDisplayed - Injected cookie: .Nop.Antiforgery
+2025-03-24 22:00:06 [main] INFO  TC-063_verifyRelatedProductsAreDisplayed - Injected cookie: .Nop.Customer
+2025-03-24 22:00:06 [main] INFO  TC-063_verifyRelatedProductsAreDisplayed - Injected cookie: .Nop.Culture
+2025-03-24 22:00:06 [main] INFO  TC-063_verifyRelatedProductsAreDisplayed - Injected cookie: _ga_SCT41TW89V
+2025-03-24 22:00:07 [main] INFO  TC-063_verifyRelatedProductsAreDisplayed - Page refreshed with bypassed cookies.
+2025-03-24 22:00:07 [main] INFO  TC-063_verifyRelatedProductsAreDisplayed - 🟢 Starting test: verifyRelatedProductsAreDisplayed (🔢 Test Case ID: TC-063)
+2025-03-24 22:00:07 [main] INFO  TC-063_verifyRelatedProductsAreDisplayed - Navigating to: https://demo.nopcommerce.com/
+2025-03-24 22:00:08 [main] INFO  utils.MainFunctionalities - Searching for product: Apple MacBook Pro
+2025-03-24 22:00:14 [main] INFO  utils.MainFunctionalities - Search for 'Apple MacBook Pro' completed successfully.
+2025-03-24 22:00:14 [main] INFO  TC-063_verifyRelatedProductsAreDisplayed - Product page loaded successfully.
+2025-03-24 22:00:22 [main] INFO  TC-063_verifyRelatedProductsAreDisplayed - Product page loaded successfully.
+2025-03-24 22:00:24 [main] INFO  utils.MainFunctionalities - Number of related products displayed: 2
+2025-03-24 22:00:24 [main] INFO  utils.MainFunctionalities - Related Product Found: Digital Storm VANQUISH Custom Performance PC
+2025-03-24 22:00:24 [main] INFO  utils.MainFunctionalities - Related Product Found: Pride and Prejudice
+2025-03-24 22:00:24 [main] INFO  TC-063_verifyRelatedProductsAreDisplayed - Related products are displayed successfully.
+2025-03-24 22:00:24 [main] INFO  listeners.TestListener - ✅ Test PASSED: verifyRelatedProductsAreDisplayed (Duration: 16500ms)
+2025-03-24 22:00:24 [main] INFO  TC-063_verifyRelatedProductsAreDisplayed - Closing the browser for test: verifyRelatedProductsAreDisplayed
+2025-03-24 22:00:24 [main] INFO  TC-063_verifyRelatedProductsAreDisplayed - Browser closed.

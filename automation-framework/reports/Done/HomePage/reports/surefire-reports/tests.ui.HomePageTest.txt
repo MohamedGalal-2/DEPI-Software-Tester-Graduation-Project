@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: tests.ui.HomePageTest
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 175.2 s -- in tests.ui.HomePageTest

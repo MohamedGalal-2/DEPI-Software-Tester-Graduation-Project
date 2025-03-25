@@ -1,0 +1,43 @@
+2025-03-25 00:40:46 [main] INFO  TC-021_verifySessionHandling - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-03-25 00:40:46 [main] INFO  TC-021_verifySessionHandling - Logger initialized
+2025-03-25 00:40:46 [main] INFO  TC-021_verifySessionHandling - Starting test setup for: verifySessionHandling (🔢 Test Case ID: TC-021)
+2025-03-25 00:41:08 [main] INFO  TC-021_verifySessionHandling - Navigated to the site: https://demo.nopcommerce.com
+2025-03-25 00:41:08 [main] INFO  TC-021_verifySessionHandling - Injected cookie: _ga
+2025-03-25 00:41:08 [main] INFO  TC-021_verifySessionHandling - Injected cookie: cf_clearance
+2025-03-25 00:41:08 [main] INFO  TC-021_verifySessionHandling - Injected cookie: .Nop.Antiforgery
+2025-03-25 00:41:08 [main] INFO  TC-021_verifySessionHandling - Injected cookie: .Nop.Customer
+2025-03-25 00:41:08 [main] INFO  TC-021_verifySessionHandling - Injected cookie: .Nop.Culture
+2025-03-25 00:41:08 [main] INFO  TC-021_verifySessionHandling - Injected cookie: _ga_SCT41TW89V
+2025-03-25 00:41:09 [main] INFO  TC-021_verifySessionHandling - Page refreshed with bypassed cookies.
+2025-03-25 00:41:10 [main] INFO  utils.MainFunctionalities - Navigating to registration page.
+2025-03-25 00:41:18 [main] INFO  utils.MainFunctionalities - Clicking 'Register' button.
+2025-03-25 00:41:20 [main] INFO  utils.MainFunctionalities - Navigated to login page
+2025-03-25 00:41:25 [main] INFO  utils.MainFunctionalities - Entered username and password
+2025-03-25 00:41:28 [main] INFO  utils.MainFunctionalities - User is logged in successfully.
+2025-03-25 00:41:32 [main] INFO  TC-021_verifySessionHandling - User remains logged in after refresh or browser reopen.
+2025-03-25 00:41:32 [main] INFO  TC-021_verifySessionHandling - Closing the browser for test: verifySessionHandling
+2025-03-25 00:41:32 [main] INFO  TC-021_verifySessionHandling - Browser closed.
+2025-03-25 01:20:16 [main] INFO  TC-021_verifySessionHandling - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-03-25 01:20:16 [main] INFO  TC-021_verifySessionHandling - Logger initialized
+2025-03-25 01:20:16 [main] INFO  TC-021_verifySessionHandling - Starting test setup for: verifySessionHandling (🔢 Test Case ID: TC-021)
+2025-03-25 01:20:33 [main] INFO  TC-021_verifySessionHandling - Navigated to the site: https://demo.nopcommerce.com
+2025-03-25 01:20:33 [main] INFO  TC-021_verifySessionHandling - Injected cookie: cf_clearance
+2025-03-25 01:20:33 [main] INFO  TC-021_verifySessionHandling - Injected cookie: _ga
+2025-03-25 01:20:33 [main] INFO  TC-021_verifySessionHandling - Injected cookie: .Nop.Antiforgery
+2025-03-25 01:20:33 [main] INFO  TC-021_verifySessionHandling - Injected cookie: .Nop.Customer
+2025-03-25 01:20:33 [main] INFO  TC-021_verifySessionHandling - Injected cookie: .Nop.Culture
+2025-03-25 01:20:33 [main] INFO  TC-021_verifySessionHandling - Injected cookie: _ga_SCT41TW89V
+2025-03-25 01:20:33 [main] INFO  TC-021_verifySessionHandling - Page refreshed with bypassed cookies.
+2025-03-25 01:20:33 [main] INFO  TC-021_verifySessionHandling - 🟢 Starting test: verifySessionHandling (🔢 Test Case ID: TC-021)
+2025-03-25 01:20:34 [main] INFO  utils.MainFunctionalities - Navigating to registration page.
+2025-03-25 01:20:39 [main] INFO  utils.MainFunctionalities - Clicking 'Register' button.
+2025-03-25 01:20:39 [main] INFO  utils.MainFunctionalities - Navigated to login page
+2025-03-25 01:20:47 [main] INFO  utils.MainFunctionalities - Entered username and password
+2025-03-25 01:20:48 [main] INFO  utils.MainFunctionalities - User is logged in successfully.
+2025-03-25 01:20:51 [main] INFO  TC-021_verifySessionHandling - User remains logged in after refresh or browser reopen.
+2025-03-25 01:20:51 [main] INFO  listeners.TestListener - ✅ Test PASSED: verifySessionHandling (Duration: 17272ms)
+2025-03-25 01:20:51 [main] INFO  TC-021_verifySessionHandling - Closing the browser for test: verifySessionHandling
+2025-03-25 01:20:51 [main] INFO  TC-021_verifySessionHandling - Browser closed.
+2025-03-25 01:20:51 [main] INFO  listeners.TestListener - 🏁 Finished Test Suite: Surefire test

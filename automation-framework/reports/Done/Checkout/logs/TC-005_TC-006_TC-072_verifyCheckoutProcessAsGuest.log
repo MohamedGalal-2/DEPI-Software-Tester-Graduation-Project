@@ -1,0 +1,199 @@
+2025-03-19 07:26:06 [main] INFO  TC-005_TC-006_TC-072_verifyCheckoutProcessAsGuest - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-03-19 07:26:06 [main] INFO  TC-005_TC-006_TC-072_verifyCheckoutProcessAsGuest - Logger initialized
+2025-03-19 07:26:06 [main] INFO  TC-005_TC-006_TC-072_verifyCheckoutProcessAsGuest - Starting test setup for: verifyCheckoutProcessAsGuest (🔢 Test Case ID: TC-005_TC-006_TC-072)
+2025-03-19 07:26:23 [main] INFO  TC-005_TC-006_TC-072_verifyCheckoutProcessAsGuest - Navigated to the site: https://demo.nopcommerce.com
+2025-03-19 07:26:23 [main] INFO  TC-005_TC-006_TC-072_verifyCheckoutProcessAsGuest - Injected cookie: cf_clearance
+2025-03-19 07:26:23 [main] INFO  TC-005_TC-006_TC-072_verifyCheckoutProcessAsGuest - Injected cookie: _ga
+2025-03-19 07:26:23 [main] INFO  TC-005_TC-006_TC-072_verifyCheckoutProcessAsGuest - Injected cookie: .Nop.Antiforgery
+2025-03-19 07:26:23 [main] INFO  TC-005_TC-006_TC-072_verifyCheckoutProcessAsGuest - Injected cookie: .Nop.Customer
+2025-03-19 07:26:23 [main] INFO  TC-005_TC-006_TC-072_verifyCheckoutProcessAsGuest - Injected cookie: .Nop.Culture
+2025-03-19 07:26:23 [main] INFO  TC-005_TC-006_TC-072_verifyCheckoutProcessAsGuest - Injected cookie: _ga_SCT41TW89V
+2025-03-19 07:26:24 [main] INFO  TC-005_TC-006_TC-072_verifyCheckoutProcessAsGuest - Page refreshed with bypassed cookies.
+2025-03-19 07:26:24 [main] INFO  TC-005_TC-006_TC-072_verifyCheckoutProcessAsGuest - Navigating to product page: https://demo.nopcommerce.com/adobe-photoshop
+2025-03-19 07:26:29 [main] INFO  TC-005_TC-006_TC-072_verifyCheckoutProcessAsGuest - Closing the browser for test: verifyCheckoutProcessAsGuest
+2025-03-19 07:26:29 [main] INFO  TC-005_TC-006_TC-072_verifyCheckoutProcessAsGuest - Browser closed.
+2025-03-19 07:26:44 [main] INFO  TC-005_TC-006_TC-072_verifyCheckoutProcessAsGuest - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-03-19 07:26:44 [main] INFO  TC-005_TC-006_TC-072_verifyCheckoutProcessAsGuest - Logger initialized
+2025-03-19 07:26:44 [main] INFO  TC-005_TC-006_TC-072_verifyCheckoutProcessAsGuest - Starting test setup for: verifyCheckoutProcessAsGuest (🔢 Test Case ID: TC-005_TC-006_TC-072)
+2025-03-19 07:27:02 [main] INFO  TC-005_TC-006_TC-072_verifyCheckoutProcessAsGuest - Navigated to the site: https://demo.nopcommerce.com
+2025-03-19 07:27:02 [main] INFO  TC-005_TC-006_TC-072_verifyCheckoutProcessAsGuest - Injected cookie: cf_clearance
+2025-03-19 07:27:02 [main] INFO  TC-005_TC-006_TC-072_verifyCheckoutProcessAsGuest - Injected cookie: _ga
+2025-03-19 07:27:02 [main] INFO  TC-005_TC-006_TC-072_verifyCheckoutProcessAsGuest - Injected cookie: .Nop.Antiforgery
+2025-03-19 07:27:02 [main] INFO  TC-005_TC-006_TC-072_verifyCheckoutProcessAsGuest - Injected cookie: .Nop.Customer
+2025-03-19 07:27:02 [main] INFO  TC-005_TC-006_TC-072_verifyCheckoutProcessAsGuest - Injected cookie: .Nop.Culture
+2025-03-19 07:27:02 [main] INFO  TC-005_TC-006_TC-072_verifyCheckoutProcessAsGuest - Injected cookie: _ga_SCT41TW89V
+2025-03-19 07:27:03 [main] INFO  TC-005_TC-006_TC-072_verifyCheckoutProcessAsGuest - Page refreshed with bypassed cookies.
+2025-03-19 07:27:03 [main] INFO  TC-005_TC-006_TC-072_verifyCheckoutProcessAsGuest - Navigating to product page: https://demo.nopcommerce.com/adobe-photoshop
+2025-03-19 07:27:07 [main] INFO  TC-005_TC-006_TC-072_verifyCheckoutProcessAsGuest - Clicked 'Add to Cart' button.
+2025-03-19 07:27:08 [main] INFO  TC-005_TC-006_TC-072_verifyCheckoutProcessAsGuest - Product successfully added to cart.
+2025-03-19 07:27:09 [main] INFO  TC-005_TC-006_TC-072_verifyCheckoutProcessAsGuest - Cart quantity updated to: 1
+2025-03-19 07:27:12 [main] INFO  TC-005_TC-006_TC-072_verifyCheckoutProcessAsGuest - Cart page loaded successfully.
+2025-03-19 07:27:14 [main] INFO  TC-005_TC-006_TC-072_verifyCheckoutProcessAsGuest - Accepted terms of service.
+2025-03-19 07:27:19 [main] INFO  TC-005_TC-006_TC-072_verifyCheckoutProcessAsGuest - Selected 'Checkout as Guest' option.
+2025-03-19 07:27:22 [main] INFO  TC-005_TC-006_TC-072_verifyCheckoutProcessAsGuest - Checkout page loaded successfully.
+2025-03-19 07:27:25 [main] INFO  TC-005_TC-006_TC-072_verifyCheckoutProcessAsGuest - Checked 'Ship to the same address' option.
+2025-03-19 07:27:30 [main] INFO  TC-005_TC-006_TC-072_verifyCheckoutProcessAsGuest - Shipping method selected.
+2025-03-19 07:27:33 [main] INFO  TC-005_TC-006_TC-072_verifyCheckoutProcessAsGuest - Payment method selected.
+2025-03-19 07:27:33 [main] INFO  TC-005_TC-006_TC-072_verifyCheckoutProcessAsGuest - Payment details entered.
+2025-03-19 07:27:35 [main] INFO  TC-005_TC-006_TC-072_verifyCheckoutProcessAsGuest - Order confirmed.
+2025-03-19 07:27:37 [main] INFO  TC-005_TC-006_TC-072_verifyCheckoutProcessAsGuest - "TC-005 & TC-006 & TC-072" Passed: Order placed successfully!
+2025-03-19 07:27:37 [main] INFO  TC-005_TC-006_TC-072_verifyCheckoutProcessAsGuest - Closing the browser for test: verifyCheckoutProcessAsGuest
+2025-03-19 07:27:37 [main] INFO  TC-005_TC-006_TC-072_verifyCheckoutProcessAsGuest - Browser closed.
+2025-03-19 07:34:43 [main] INFO  TC-005_TC-006_TC-072_verifyCheckoutProcessAsGuest - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-03-19 07:34:43 [main] INFO  TC-005_TC-006_TC-072_verifyCheckoutProcessAsGuest - Logger initialized
+2025-03-19 07:34:43 [main] INFO  TC-005_TC-006_TC-072_verifyCheckoutProcessAsGuest - Starting test setup for: verifyCheckoutProcessAsGuest (🔢 Test Case ID: TC-005_TC-006_TC-072)
+2025-03-19 07:35:01 [main] INFO  TC-005_TC-006_TC-072_verifyCheckoutProcessAsGuest - Navigated to the site: https://demo.nopcommerce.com
+2025-03-19 07:35:01 [main] INFO  TC-005_TC-006_TC-072_verifyCheckoutProcessAsGuest - Injected cookie: cf_clearance
+2025-03-19 07:35:01 [main] INFO  TC-005_TC-006_TC-072_verifyCheckoutProcessAsGuest - Injected cookie: _ga
+2025-03-19 07:35:01 [main] INFO  TC-005_TC-006_TC-072_verifyCheckoutProcessAsGuest - Injected cookie: .Nop.Antiforgery
+2025-03-19 07:35:01 [main] INFO  TC-005_TC-006_TC-072_verifyCheckoutProcessAsGuest - Injected cookie: .Nop.Customer
+2025-03-19 07:35:01 [main] INFO  TC-005_TC-006_TC-072_verifyCheckoutProcessAsGuest - Injected cookie: .Nop.Culture
+2025-03-19 07:35:01 [main] INFO  TC-005_TC-006_TC-072_verifyCheckoutProcessAsGuest - Injected cookie: _ga_SCT41TW89V
+2025-03-19 07:35:01 [main] INFO  TC-005_TC-006_TC-072_verifyCheckoutProcessAsGuest - Page refreshed with bypassed cookies.
+2025-03-19 07:35:01 [main] INFO  TC-005_TC-006_TC-072_verifyCheckoutProcessAsGuest - 🟢 Starting test: verifyCheckoutProcessAsGuest (🔢 Test Case ID: TC-005_TC-006_TC-072)
+2025-03-19 07:35:01 [main] INFO  TC-005_TC-006_TC-072_verifyCheckoutProcessAsGuest - Navigating to product page: https://demo.nopcommerce.com/adobe-photoshop
+2025-03-19 07:35:05 [main] INFO  TC-005_TC-006_TC-072_verifyCheckoutProcessAsGuest - Clicked 'Add to Cart' button.
+2025-03-19 07:35:07 [main] INFO  TC-005_TC-006_TC-072_verifyCheckoutProcessAsGuest - Product successfully added to cart.
+2025-03-19 07:35:10 [main] INFO  TC-005_TC-006_TC-072_verifyCheckoutProcessAsGuest - Cart quantity updated to: 1
+2025-03-19 07:35:12 [main] INFO  TC-005_TC-006_TC-072_verifyCheckoutProcessAsGuest - Cart page loaded successfully.
+2025-03-19 07:35:14 [main] INFO  TC-005_TC-006_TC-072_verifyCheckoutProcessAsGuest - Accepted terms of service.
+2025-03-19 07:35:19 [main] INFO  TC-005_TC-006_TC-072_verifyCheckoutProcessAsGuest - Selected 'Checkout as Guest' option.
+2025-03-19 07:35:22 [main] INFO  TC-005_TC-006_TC-072_verifyCheckoutProcessAsGuest - Checkout page loaded successfully.
+2025-03-19 07:35:24 [main] INFO  TC-005_TC-006_TC-072_verifyCheckoutProcessAsGuest - Checked 'Ship to the same address' option.
+2025-03-19 07:35:28 [main] INFO  TC-005_TC-006_TC-072_verifyCheckoutProcessAsGuest - Shipping method selected.
+2025-03-19 07:35:29 [main] INFO  TC-005_TC-006_TC-072_verifyCheckoutProcessAsGuest - Payment method selected.
+2025-03-19 07:35:30 [main] INFO  TC-005_TC-006_TC-072_verifyCheckoutProcessAsGuest - Payment details entered.
+2025-03-19 07:35:31 [main] INFO  TC-005_TC-006_TC-072_verifyCheckoutProcessAsGuest - Order confirmed.
+2025-03-19 07:35:33 [main] INFO  TC-005_TC-006_TC-072_verifyCheckoutProcessAsGuest - "TC-005 & TC-006 & TC-072" Passed: Order placed successfully!
+2025-03-19 07:35:33 [main] INFO  listeners.TestListener - ✅ Test PASSED: verifyCheckoutProcessAsGuest (Duration: 31092ms)
+2025-03-19 07:35:33 [main] INFO  TC-005_TC-006_TC-072_verifyCheckoutProcessAsGuest - Closing the browser for test: verifyCheckoutProcessAsGuest
+2025-03-19 07:35:33 [main] INFO  TC-005_TC-006_TC-072_verifyCheckoutProcessAsGuest - Browser closed.
+2025-03-22 14:49:59 [main] INFO  TC-005_TC-006_TC-072_verifyCheckoutProcessAsGuest - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-03-22 14:49:59 [main] INFO  TC-005_TC-006_TC-072_verifyCheckoutProcessAsGuest - Logger initialized
+2025-03-22 14:49:59 [main] INFO  TC-005_TC-006_TC-072_verifyCheckoutProcessAsGuest - Starting test setup for: verifyCheckoutProcessAsGuest (🔢 Test Case ID: TC-005_TC-006_TC-072)
+2025-03-22 14:50:17 [main] INFO  TC-005_TC-006_TC-072_verifyCheckoutProcessAsGuest - Navigated to the site: https://demo.nopcommerce.com
+2025-03-22 14:50:17 [main] INFO  TC-005_TC-006_TC-072_verifyCheckoutProcessAsGuest - Injected cookie: cf_clearance
+2025-03-22 14:50:17 [main] INFO  TC-005_TC-006_TC-072_verifyCheckoutProcessAsGuest - Injected cookie: _ga
+2025-03-22 14:50:17 [main] INFO  TC-005_TC-006_TC-072_verifyCheckoutProcessAsGuest - Injected cookie: .Nop.Antiforgery
+2025-03-22 14:50:17 [main] INFO  TC-005_TC-006_TC-072_verifyCheckoutProcessAsGuest - Injected cookie: .Nop.Customer
+2025-03-22 14:50:17 [main] INFO  TC-005_TC-006_TC-072_verifyCheckoutProcessAsGuest - Injected cookie: .Nop.Culture
+2025-03-22 14:50:17 [main] INFO  TC-005_TC-006_TC-072_verifyCheckoutProcessAsGuest - Injected cookie: _ga_SCT41TW89V
+2025-03-22 14:50:18 [main] INFO  TC-005_TC-006_TC-072_verifyCheckoutProcessAsGuest - Page refreshed with bypassed cookies.
+2025-03-22 14:50:18 [main] INFO  TC-005_TC-006_TC-072_verifyCheckoutProcessAsGuest - 🟢 Starting test: verifyCheckoutProcessAsGuest (🔢 Test Case ID: TC-005_TC-006_TC-072)
+2025-03-22 14:50:18 [main] INFO  TC-005_TC-006_TC-072_verifyCheckoutProcessAsGuest - Navigating to product page: https://demo.nopcommerce.com/adobe-photoshop
+2025-03-22 14:50:20 [main] INFO  TC-005_TC-006_TC-072_verifyCheckoutProcessAsGuest - Clicked 'Add to Cart' button.
+2025-03-22 14:50:23 [main] INFO  TC-005_TC-006_TC-072_verifyCheckoutProcessAsGuest - Product successfully added to cart.
+2025-03-22 14:50:25 [main] INFO  TC-005_TC-006_TC-072_verifyCheckoutProcessAsGuest - Cart quantity updated to: 1
+2025-03-22 14:50:28 [main] INFO  TC-005_TC-006_TC-072_verifyCheckoutProcessAsGuest - Cart page loaded successfully.
+2025-03-22 14:50:31 [main] INFO  TC-005_TC-006_TC-072_verifyCheckoutProcessAsGuest - Accepted terms of service.
+2025-03-22 14:50:37 [main] INFO  TC-005_TC-006_TC-072_verifyCheckoutProcessAsGuest - Selected 'Checkout as Guest' option.
+2025-03-22 14:50:40 [main] INFO  TC-005_TC-006_TC-072_verifyCheckoutProcessAsGuest - Checkout page loaded successfully.
+2025-03-22 14:50:44 [main] INFO  TC-005_TC-006_TC-072_verifyCheckoutProcessAsGuest - Checked 'Ship to the same address' option.
+2025-03-22 14:50:48 [main] INFO  TC-005_TC-006_TC-072_verifyCheckoutProcessAsGuest - Shipping method selected.
+2025-03-22 14:50:50 [main] INFO  TC-005_TC-006_TC-072_verifyCheckoutProcessAsGuest - Payment method selected.
+2025-03-22 14:50:51 [main] INFO  TC-005_TC-006_TC-072_verifyCheckoutProcessAsGuest - Payment details entered.
+2025-03-22 14:50:52 [main] INFO  TC-005_TC-006_TC-072_verifyCheckoutProcessAsGuest - Order confirmed.
+2025-03-22 14:50:55 [main] INFO  TC-005_TC-006_TC-072_verifyCheckoutProcessAsGuest - "TC-005 & TC-006 & TC-072" Passed: Order placed successfully!
+2025-03-22 14:50:55 [main] INFO  listeners.TestListener - ✅ Test PASSED: verifyCheckoutProcessAsGuest (Duration: 36904ms)
+2025-03-22 14:50:55 [main] INFO  TC-005_TC-006_TC-072_verifyCheckoutProcessAsGuest - Closing the browser for test: verifyCheckoutProcessAsGuest
+2025-03-22 14:50:55 [main] INFO  TC-005_TC-006_TC-072_verifyCheckoutProcessAsGuest - Browser closed.
+2025-03-23 02:04:19 [main] INFO  TC-005_TC-006_TC-072_verifyCheckoutProcessAsGuest - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-03-23 02:04:19 [main] INFO  TC-005_TC-006_TC-072_verifyCheckoutProcessAsGuest - Logger initialized
+2025-03-23 02:04:19 [main] INFO  TC-005_TC-006_TC-072_verifyCheckoutProcessAsGuest - Starting test setup for: verifyCheckoutProcessAsGuest (🔢 Test Case ID: TC-005_TC-006_TC-072)
+2025-03-23 02:04:36 [main] INFO  TC-005_TC-006_TC-072_verifyCheckoutProcessAsGuest - Navigated to the site: https://demo.nopcommerce.com
+2025-03-23 02:04:36 [main] INFO  TC-005_TC-006_TC-072_verifyCheckoutProcessAsGuest - Injected cookie: cf_clearance
+2025-03-23 02:04:36 [main] INFO  TC-005_TC-006_TC-072_verifyCheckoutProcessAsGuest - Injected cookie: _ga
+2025-03-23 02:04:36 [main] INFO  TC-005_TC-006_TC-072_verifyCheckoutProcessAsGuest - Injected cookie: .Nop.Antiforgery
+2025-03-23 02:04:36 [main] INFO  TC-005_TC-006_TC-072_verifyCheckoutProcessAsGuest - Injected cookie: .Nop.Customer
+2025-03-23 02:04:36 [main] INFO  TC-005_TC-006_TC-072_verifyCheckoutProcessAsGuest - Injected cookie: .Nop.Culture
+2025-03-23 02:04:36 [main] INFO  TC-005_TC-006_TC-072_verifyCheckoutProcessAsGuest - Injected cookie: _ga_SCT41TW89V
+2025-03-23 02:04:37 [main] INFO  TC-005_TC-006_TC-072_verifyCheckoutProcessAsGuest - Page refreshed with bypassed cookies.
+2025-03-23 02:04:38 [main] INFO  utils.MainFunctionalities - Navigating to product page: https://demo.nopcommerce.com/adobe-photoshop
+2025-03-23 02:04:39 [main] INFO  utils.MainFunctionalities - Clicked 'Add to Cart' button with ID: add-to-cart-button-10
+2025-03-23 02:04:40 [main] INFO  utils.MainFunctionalities - Product successfully added to cart.
+2025-03-23 02:04:42 [main] INFO  utils.MainFunctionalities - Cart page loaded successfully.
+2025-03-23 02:04:44 [main] INFO  utils.MainFunctionalities - Accepted terms of service.
+2025-03-23 02:04:48 [main] INFO  TC-005_TC-006_TC-072_verifyCheckoutProcessAsGuest - Closing the browser for test: verifyCheckoutProcessAsGuest
+2025-03-23 02:04:49 [main] INFO  TC-005_TC-006_TC-072_verifyCheckoutProcessAsGuest - Browser closed.
+2025-03-23 02:05:03 [main] INFO  TC-005_TC-006_TC-072_verifyCheckoutProcessAsGuest - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-03-23 02:05:03 [main] INFO  TC-005_TC-006_TC-072_verifyCheckoutProcessAsGuest - Logger initialized
+2025-03-23 02:05:03 [main] INFO  TC-005_TC-006_TC-072_verifyCheckoutProcessAsGuest - Starting test setup for: verifyCheckoutProcessAsGuest (🔢 Test Case ID: TC-005_TC-006_TC-072)
+2025-03-23 02:05:20 [main] INFO  TC-005_TC-006_TC-072_verifyCheckoutProcessAsGuest - Navigated to the site: https://demo.nopcommerce.com
+2025-03-23 02:05:20 [main] INFO  TC-005_TC-006_TC-072_verifyCheckoutProcessAsGuest - Injected cookie: _ga
+2025-03-23 02:05:20 [main] INFO  TC-005_TC-006_TC-072_verifyCheckoutProcessAsGuest - Injected cookie: cf_clearance
+2025-03-23 02:05:20 [main] INFO  TC-005_TC-006_TC-072_verifyCheckoutProcessAsGuest - Injected cookie: .Nop.Antiforgery
+2025-03-23 02:05:20 [main] INFO  TC-005_TC-006_TC-072_verifyCheckoutProcessAsGuest - Injected cookie: .Nop.Customer
+2025-03-23 02:05:20 [main] INFO  TC-005_TC-006_TC-072_verifyCheckoutProcessAsGuest - Injected cookie: .Nop.Culture
+2025-03-23 02:05:20 [main] INFO  TC-005_TC-006_TC-072_verifyCheckoutProcessAsGuest - Injected cookie: _ga_SCT41TW89V
+2025-03-23 02:05:21 [main] INFO  TC-005_TC-006_TC-072_verifyCheckoutProcessAsGuest - Page refreshed with bypassed cookies.
+2025-03-23 02:05:22 [main] INFO  utils.MainFunctionalities - Navigating to product page: https://demo.nopcommerce.com/adobe-photoshop
+2025-03-23 02:05:25 [main] INFO  utils.MainFunctionalities - Clicked 'Add to Cart' button with ID: add-to-cart-button-10
+2025-03-23 02:05:25 [main] INFO  utils.MainFunctionalities - Product successfully added to cart.
+2025-03-23 02:05:28 [main] INFO  utils.MainFunctionalities - Cart page loaded successfully.
+2025-03-23 02:05:29 [main] INFO  utils.MainFunctionalities - Accepted terms of service.
+2025-03-23 02:05:34 [main] INFO  utils.MainFunctionalities - Selected 'Checkout as Guest' option.
+2025-03-23 02:05:37 [main] INFO  utils.MainFunctionalities - Checkout page loaded successfully.
+2025-03-23 02:05:45 [main] INFO  TC-005_TC-006_TC-072_verifyCheckoutProcessAsGuest - Closing the browser for test: verifyCheckoutProcessAsGuest
+2025-03-23 02:05:46 [main] INFO  TC-005_TC-006_TC-072_verifyCheckoutProcessAsGuest - Browser closed.
+2025-03-23 02:06:47 [main] INFO  TC-005_TC-006_TC-072_verifyCheckoutProcessAsGuest - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-03-23 02:06:47 [main] INFO  TC-005_TC-006_TC-072_verifyCheckoutProcessAsGuest - Logger initialized
+2025-03-23 02:06:47 [main] INFO  TC-005_TC-006_TC-072_verifyCheckoutProcessAsGuest - Starting test setup for: verifyCheckoutProcessAsGuest (🔢 Test Case ID: TC-005_TC-006_TC-072)
+2025-03-23 02:07:04 [main] INFO  TC-005_TC-006_TC-072_verifyCheckoutProcessAsGuest - Navigated to the site: https://demo.nopcommerce.com
+2025-03-23 02:07:04 [main] INFO  TC-005_TC-006_TC-072_verifyCheckoutProcessAsGuest - Injected cookie: _ga
+2025-03-23 02:07:04 [main] INFO  TC-005_TC-006_TC-072_verifyCheckoutProcessAsGuest - Injected cookie: cf_clearance
+2025-03-23 02:07:04 [main] INFO  TC-005_TC-006_TC-072_verifyCheckoutProcessAsGuest - Injected cookie: .Nop.Antiforgery
+2025-03-23 02:07:04 [main] INFO  TC-005_TC-006_TC-072_verifyCheckoutProcessAsGuest - Injected cookie: .Nop.Customer
+2025-03-23 02:07:04 [main] INFO  TC-005_TC-006_TC-072_verifyCheckoutProcessAsGuest - Injected cookie: .Nop.Culture
+2025-03-23 02:07:04 [main] INFO  TC-005_TC-006_TC-072_verifyCheckoutProcessAsGuest - Injected cookie: _ga_SCT41TW89V
+2025-03-23 02:07:05 [main] INFO  TC-005_TC-006_TC-072_verifyCheckoutProcessAsGuest - Page refreshed with bypassed cookies.
+2025-03-23 02:07:05 [main] INFO  utils.MainFunctionalities - Navigating to product page: https://demo.nopcommerce.com/adobe-photoshop
+2025-03-23 02:07:08 [main] INFO  utils.MainFunctionalities - Clicked 'Add to Cart' button with ID: add-to-cart-button-10
+2025-03-23 02:07:08 [main] INFO  utils.MainFunctionalities - Product successfully added to cart.
+2025-03-23 02:07:11 [main] INFO  utils.MainFunctionalities - Cart page loaded successfully.
+2025-03-23 02:07:14 [main] INFO  utils.MainFunctionalities - Accepted terms of service.
+2025-03-23 02:07:18 [main] INFO  utils.MainFunctionalities - Selected 'Checkout as Guest' option.
+2025-03-23 02:07:21 [main] INFO  utils.MainFunctionalities - Checkout page loaded successfully.
+2025-03-23 02:07:25 [main] INFO  utils.MainFunctionalities - Checked 'Ship to the same address' option.
+2025-03-23 02:07:29 [main] INFO  utils.MainFunctionalities - Shipping method selected.
+2025-03-23 02:07:30 [main] INFO  utils.MainFunctionalities - Payment method selected.
+2025-03-23 02:07:31 [main] INFO  utils.MainFunctionalities - Payment details entered.
+2025-03-23 02:07:33 [main] INFO  utils.MainFunctionalities - Order confirmed.
+2025-03-23 02:07:35 [main] INFO  utils.MainFunctionalities - Order placed successfully!
+2025-03-23 02:07:35 [main] INFO  TC-005_TC-006_TC-072_verifyCheckoutProcessAsGuest - Closing the browser for test: verifyCheckoutProcessAsGuest
+2025-03-23 02:07:35 [main] INFO  TC-005_TC-006_TC-072_verifyCheckoutProcessAsGuest - Browser closed.
+2025-03-23 03:44:36 [main] INFO  TC-005_TC-006_TC-072_verifyCheckoutProcessAsGuest - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-03-23 03:44:36 [main] INFO  TC-005_TC-006_TC-072_verifyCheckoutProcessAsGuest - Logger initialized
+2025-03-23 03:44:36 [main] INFO  TC-005_TC-006_TC-072_verifyCheckoutProcessAsGuest - Starting test setup for: verifyCheckoutProcessAsGuest (🔢 Test Case ID: TC-005_TC-006_TC-072)
+2025-03-23 03:44:52 [main] INFO  TC-005_TC-006_TC-072_verifyCheckoutProcessAsGuest - Navigated to the site: https://demo.nopcommerce.com
+2025-03-23 03:44:52 [main] INFO  TC-005_TC-006_TC-072_verifyCheckoutProcessAsGuest - Injected cookie: cf_clearance
+2025-03-23 03:44:52 [main] INFO  TC-005_TC-006_TC-072_verifyCheckoutProcessAsGuest - Injected cookie: _ga
+2025-03-23 03:44:52 [main] INFO  TC-005_TC-006_TC-072_verifyCheckoutProcessAsGuest - Injected cookie: .Nop.Antiforgery
+2025-03-23 03:44:52 [main] INFO  TC-005_TC-006_TC-072_verifyCheckoutProcessAsGuest - Injected cookie: .Nop.Customer
+2025-03-23 03:44:52 [main] INFO  TC-005_TC-006_TC-072_verifyCheckoutProcessAsGuest - Injected cookie: .Nop.Culture
+2025-03-23 03:44:52 [main] INFO  TC-005_TC-006_TC-072_verifyCheckoutProcessAsGuest - Injected cookie: _ga_SCT41TW89V
+2025-03-23 03:44:53 [main] INFO  TC-005_TC-006_TC-072_verifyCheckoutProcessAsGuest - Page refreshed with bypassed cookies.
+2025-03-23 03:44:53 [main] INFO  TC-005_TC-006_TC-072_verifyCheckoutProcessAsGuest - 🟢 Starting test: verifyCheckoutProcessAsGuest (🔢 Test Case ID: TC-005_TC-006_TC-072)
+2025-03-23 03:44:54 [main] INFO  utils.MainFunctionalities - Navigating to product page: https://demo.nopcommerce.com/adobe-photoshop
+2025-03-23 03:44:55 [main] INFO  utils.MainFunctionalities - Clicked 'Add to Cart' button with ID: add-to-cart-button-10
+2025-03-23 03:44:56 [main] INFO  utils.MainFunctionalities - Product successfully added to cart.
+2025-03-23 03:45:00 [main] INFO  utils.MainFunctionalities - Cart page loaded successfully.
+2025-03-23 03:45:02 [main] INFO  utils.MainFunctionalities - Accepted terms of service.
+2025-03-23 03:45:08 [main] INFO  utils.MainFunctionalities - Selected 'Checkout as Guest' option.
+2025-03-23 03:45:10 [main] INFO  utils.MainFunctionalities - Checkout page loaded successfully.
+2025-03-23 03:45:16 [main] INFO  utils.MainFunctionalities - Checked 'Ship to the same address' option.
+2025-03-23 03:45:19 [main] INFO  utils.MainFunctionalities - Shipping method selected.
+2025-03-23 03:45:20 [main] INFO  utils.MainFunctionalities - Payment method selected.
+2025-03-23 03:45:21 [main] INFO  utils.MainFunctionalities - Payment details entered.
+2025-03-23 03:45:23 [main] INFO  TC-005_TC-006_TC-072_verifyCheckoutProcessAsGuest - Order confirmed.
+2025-03-23 03:45:26 [main] INFO  TC-005_TC-006_TC-072_verifyCheckoutProcessAsGuest - Order placed successfully!
+2025-03-23 03:45:26 [main] INFO  listeners.TestListener - ✅ Test PASSED: verifyCheckoutProcessAsGuest (Duration: 33355ms)
+2025-03-23 03:45:26 [main] INFO  TC-005_TC-006_TC-072_verifyCheckoutProcessAsGuest - Closing the browser for test: verifyCheckoutProcessAsGuest
+2025-03-23 03:45:27 [main] INFO  TC-005_TC-006_TC-072_verifyCheckoutProcessAsGuest - Browser closed.

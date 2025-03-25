@@ -1,0 +1,185 @@
+2025-03-21 07:08:59 [main] INFO  TC-060_verifyCustomerReviewsDisplayed - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-03-21 07:08:59 [main] INFO  TC-060_verifyCustomerReviewsDisplayed - Logger initialized
+2025-03-21 07:08:59 [main] INFO  TC-060_verifyCustomerReviewsDisplayed - Starting test setup for: verifyCustomerReviewsDisplayed (🔢 Test Case ID: TC-060)
+2025-03-21 07:09:18 [main] INFO  TC-060_verifyCustomerReviewsDisplayed - Navigated to the site: https://demo.nopcommerce.com
+2025-03-21 07:09:18 [main] INFO  TC-060_verifyCustomerReviewsDisplayed - Injected cookie: cf_clearance
+2025-03-21 07:09:18 [main] INFO  TC-060_verifyCustomerReviewsDisplayed - Injected cookie: _ga
+2025-03-21 07:09:18 [main] INFO  TC-060_verifyCustomerReviewsDisplayed - Injected cookie: .Nop.Antiforgery
+2025-03-21 07:09:18 [main] INFO  TC-060_verifyCustomerReviewsDisplayed - Injected cookie: .Nop.Customer
+2025-03-21 07:09:18 [main] INFO  TC-060_verifyCustomerReviewsDisplayed - Injected cookie: .Nop.Culture
+2025-03-21 07:09:18 [main] INFO  TC-060_verifyCustomerReviewsDisplayed - Injected cookie: _ga_SCT41TW89V
+2025-03-21 07:09:19 [main] INFO  TC-060_verifyCustomerReviewsDisplayed - Page refreshed with bypassed cookies.
+2025-03-21 07:09:19 [main] INFO  TC-060_verifyCustomerReviewsDisplayed - Navigated to product page: $25 Virtual Gift Card
+2025-03-21 07:09:21 [main] INFO  TC-060_verifyCustomerReviewsDisplayed - Customer reviews section is visible
+2025-03-21 07:09:21 [main] INFO  TC-060_verifyCustomerReviewsDisplayed - Review title: Some sample review
+2025-03-21 07:09:21 [main] INFO  TC-060_verifyCustomerReviewsDisplayed - Reviewer: John
+2025-03-21 07:09:21 [main] INFO  TC-060_verifyCustomerReviewsDisplayed - Review Date: 2/11/2025 3:20 AM
+2025-03-21 07:09:21 [main] INFO  TC-060_verifyCustomerReviewsDisplayed - Review Content: This sample review is for the $25 Virtual Gift Card. I've been waiting for this product to be available. It is priced just right.
+2025-03-21 07:09:21 [main] INFO  TC-060_verifyCustomerReviewsDisplayed - Star rating is displayed
+2025-03-21 07:09:21 [main] INFO  TC-060_verifyCustomerReviewsDisplayed - Helpfulness voting section is present
+2025-03-21 07:09:21 [main] INFO  TC-060_verifyCustomerReviewsDisplayed - Verified unregistered users cannot submit reviews
+2025-03-21 07:09:21 [main] INFO  TC-060_verifyCustomerReviewsDisplayed - Closing the browser for test: verifyCustomerReviewsDisplayed
+2025-03-21 07:09:21 [main] INFO  TC-060_verifyCustomerReviewsDisplayed - Browser closed.
+2025-03-21 07:11:22 [main] INFO  TC-060_verifyCustomerReviewsDisplayed - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-03-21 07:11:22 [main] INFO  TC-060_verifyCustomerReviewsDisplayed - Logger initialized
+2025-03-21 07:11:22 [main] INFO  TC-060_verifyCustomerReviewsDisplayed - Starting test setup for: verifyCustomerReviewsDisplayed (🔢 Test Case ID: TC-060)
+2025-03-21 07:11:40 [main] INFO  TC-060_verifyCustomerReviewsDisplayed - Navigated to the site: https://demo.nopcommerce.com
+2025-03-21 07:11:40 [main] INFO  TC-060_verifyCustomerReviewsDisplayed - Injected cookie: _ga
+2025-03-21 07:11:40 [main] INFO  TC-060_verifyCustomerReviewsDisplayed - Injected cookie: cf_clearance
+2025-03-21 07:11:40 [main] INFO  TC-060_verifyCustomerReviewsDisplayed - Injected cookie: .Nop.Antiforgery
+2025-03-21 07:11:40 [main] INFO  TC-060_verifyCustomerReviewsDisplayed - Injected cookie: .Nop.Customer
+2025-03-21 07:11:40 [main] INFO  TC-060_verifyCustomerReviewsDisplayed - Injected cookie: .Nop.Culture
+2025-03-21 07:11:40 [main] INFO  TC-060_verifyCustomerReviewsDisplayed - Injected cookie: _ga_SCT41TW89V
+2025-03-21 07:11:40 [main] INFO  TC-060_verifyCustomerReviewsDisplayed - Page refreshed with bypassed cookies.
+2025-03-21 07:11:41 [main] INFO  TC-060_verifyCustomerReviewsDisplayed - Navigated to product page: $25 Virtual Gift Card
+2025-03-21 07:11:43 [main] INFO  TC-060_verifyCustomerReviewsDisplayed - Customer reviews section is visible
+2025-03-21 07:11:43 [main] INFO  TC-060_verifyCustomerReviewsDisplayed - Review title: Some sample review
+2025-03-21 07:11:43 [main] INFO  TC-060_verifyCustomerReviewsDisplayed - Reviewer: John
+2025-03-21 07:11:43 [main] INFO  TC-060_verifyCustomerReviewsDisplayed - Review Date: 2/11/2025 3:20 AM
+2025-03-21 07:11:43 [main] INFO  TC-060_verifyCustomerReviewsDisplayed - Review Content: This sample review is for the $25 Virtual Gift Card. I've been waiting for this product to be available. It is priced just right.
+2025-03-21 07:11:43 [main] INFO  TC-060_verifyCustomerReviewsDisplayed - Star rating is displayed
+2025-03-21 07:11:43 [main] INFO  TC-060_verifyCustomerReviewsDisplayed - Helpfulness voting section is present
+2025-03-21 07:11:43 [main] INFO  TC-060_verifyCustomerReviewsDisplayed - Verified unregistered users cannot submit reviews
+2025-03-21 07:11:43 [main] INFO  TC-060_verifyCustomerReviewsDisplayed - Closing the browser for test: verifyCustomerReviewsDisplayed
+2025-03-21 07:11:43 [main] INFO  TC-060_verifyCustomerReviewsDisplayed - Browser closed.
+2025-03-24 22:26:15 [main] INFO  TC-060_verifyCustomerReviewsDisplayed - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-03-24 22:26:15 [main] INFO  TC-060_verifyCustomerReviewsDisplayed - Logger initialized
+2025-03-24 22:26:15 [main] INFO  TC-060_verifyCustomerReviewsDisplayed - Starting test setup for: verifyCustomerReviewsDisplayed (🔢 Test Case ID: TC-060)
+2025-03-24 22:26:34 [main] INFO  TC-060_verifyCustomerReviewsDisplayed - Navigated to the site: https://demo.nopcommerce.com
+2025-03-24 22:26:34 [main] ERROR TC-060_verifyCustomerReviewsDisplayed - Failed to set up the browser
+org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=134.0.6998.118)
+Build info: version: '4.29.0', revision: '5fc1ec94cb'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b6d89b631e9a125de6e702f2d3563a65, addCookie {cookie=cf_clearance=yenCTr_w5weyDkjO4upv253VhiscbxUwGCbmGf0WrnY-1742847979-1.2.1.1-2lfDZxWqCZSIMR4VSt1zkeRN8Vgw7hOIR2flM7E5XzmN32tLhmnOd24VOQnBOSYT6ZRIdRYY4VQaA33ybIRw48ywCwLo9_.zdP1MgIvuNA.sI7uKPfz.L9X9gxuG.RAuwdzA82WzWxClqpJM10MRcydx5UwaStSvAL11KA10mygZOnLUvFpdj2hKTM_3vLUp0dJUoU3AmRRB2XodXn6Oacl0KHTolYaqGxnKlFIkJ8x71S4GA87GSgqcx6xqlOF72HCNByFZ86xGc_AhoM7p4IGcvx8Z7BD7a9MlTly61kYEyEIJtYr2QRy_2XXCQuVHaM9iSvAU7daASrXqEr_WgZ_RdZa5bFSw620Zmv4etX0; path=/; domain=.nopcommerce.com;secure;}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.118, chrome: {chromedriverVersion: 134.0.6998.165 (fd886e2cb29..., userDataDir: C:\Users\MOHAME~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61075}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61075/devtoo..., se:cdpVersion: 134.0.6998.118, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b6d89b631e9a125de6e702f2d3563a65
+	at jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62) ~[?:?]
+	at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501) ~[?:?]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:485) ~[?:?]
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167) ~[selenium-remote-driver-4.29.0.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138) ~[selenium-remote-driver-4.29.0.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50) ~[selenium-remote-driver-4.29.0.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215) ~[selenium-remote-driver-4.29.0.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216) ~[selenium-remote-driver-4.29.0.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174) ~[selenium-remote-driver-4.29.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545) ~[selenium-remote-driver-4.29.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions.addCookie(RemoteWebDriver.java:867) ~[selenium-remote-driver-4.29.0.jar:?]
+	at base.BaseTest.setUp(BaseTest.java:108) ~[test-classes/:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:836) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:601) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) ~[testng-7.11.0.jar:7.11.0]
+	at java.util.ArrayList.forEach(ArrayList.java:1597) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:741) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestRunner.run(TestRunner.java:616) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuites(TestNG.java:1112) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.run(TestNG.java:1079) [testng-7.11.0.jar:7.11.0]
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155) [surefire-testng-3.5.2.jar:3.5.2]
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeSingleClass(TestNGDirectoryTestSuite.java:102) [surefire-testng-3.5.2.jar:3.5.2]
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:91) [surefire-testng-3.5.2.jar:3.5.2]
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137) [surefire-testng-3.5.2.jar:3.5.2]
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385) [surefire-booter-3.5.2.jar:3.5.2]
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162) [surefire-booter-3.5.2.jar:3.5.2]
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507) [surefire-booter-3.5.2.jar:3.5.2]
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495) [surefire-booter-3.5.2.jar:3.5.2]
+2025-03-24 22:26:34 [main] INFO  TC-060_verifyCustomerReviewsDisplayed - 🟢 Starting test: verifyCustomerReviewsDisplayed (🔢 Test Case ID: TC-060)
+2025-03-24 22:26:34 [main] WARN  listeners.TestListener - ⚠️ Test SKIPPED: verifyCustomerReviewsDisplayed
+2025-03-24 22:26:34 [main] ERROR listeners.TestListener - ❌ Test FAILED: verifyCustomerReviewsDisplayed
+org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=134.0.6998.118)
+Build info: version: '4.29.0', revision: '5fc1ec94cb'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b6d89b631e9a125de6e702f2d3563a65, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.118, chrome: {chromedriverVersion: 134.0.6998.165 (fd886e2cb29..., userDataDir: C:\Users\MOHAME~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61075}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61075/devtoo..., se:cdpVersion: 134.0.6998.118, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b6d89b631e9a125de6e702f2d3563a65
+	at jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62) ~[?:?]
+	at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501) ~[?:?]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:485) ~[?:?]
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167) ~[selenium-remote-driver-4.29.0.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138) ~[selenium-remote-driver-4.29.0.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50) ~[selenium-remote-driver-4.29.0.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215) ~[selenium-remote-driver-4.29.0.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216) ~[selenium-remote-driver-4.29.0.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174) ~[selenium-remote-driver-4.29.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545) ~[selenium-remote-driver-4.29.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:618) ~[selenium-remote-driver-4.29.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:622) ~[selenium-remote-driver-4.29.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:334) ~[selenium-remote-driver-4.29.0.jar:?]
+	at listeners.TestListener.captureScreenshot(TestListener.java:271) ~[test-classes/:?]
+	at listeners.TestListener.onTestSkipped(TestListener.java:161) ~[test-classes/:?]
+	at org.testng.internal.TestListenerHelper.runTestListeners(TestListenerHelper.java:106) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.runTestResultListener(TestInvoker.java:285) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeListenersForSkippedTestResult(TestInvoker.java:523) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:622) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) ~[testng-7.11.0.jar:7.11.0]
+	at java.util.ArrayList.forEach(ArrayList.java:1597) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:741) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestRunner.run(TestRunner.java:616) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuites(TestNG.java:1112) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.run(TestNG.java:1079) [testng-7.11.0.jar:7.11.0]
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155) [surefire-testng-3.5.2.jar:3.5.2]
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeSingleClass(TestNGDirectoryTestSuite.java:102) [surefire-testng-3.5.2.jar:3.5.2]
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:91) [surefire-testng-3.5.2.jar:3.5.2]
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137) [surefire-testng-3.5.2.jar:3.5.2]
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385) [surefire-booter-3.5.2.jar:3.5.2]
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162) [surefire-booter-3.5.2.jar:3.5.2]
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507) [surefire-booter-3.5.2.jar:3.5.2]
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495) [surefire-booter-3.5.2.jar:3.5.2]
+2025-03-24 22:26:34 [main] INFO  listeners.TestListener - 🏁 Finished Test Suite: Surefire test
+2025-03-24 22:28:48 [main] INFO  TC-060_verifyCustomerReviewsDisplayed - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-03-24 22:28:48 [main] INFO  TC-060_verifyCustomerReviewsDisplayed - Logger initialized
+2025-03-24 22:28:48 [main] INFO  TC-060_verifyCustomerReviewsDisplayed - Starting test setup for: verifyCustomerReviewsDisplayed (🔢 Test Case ID: TC-060)
+2025-03-24 22:29:06 [main] INFO  TC-060_verifyCustomerReviewsDisplayed - Navigated to the site: https://demo.nopcommerce.com
+2025-03-24 22:29:06 [main] INFO  TC-060_verifyCustomerReviewsDisplayed - Injected cookie: _ga
+2025-03-24 22:29:06 [main] INFO  TC-060_verifyCustomerReviewsDisplayed - Injected cookie: cf_clearance
+2025-03-24 22:29:06 [main] INFO  TC-060_verifyCustomerReviewsDisplayed - Injected cookie: .Nop.Antiforgery
+2025-03-24 22:29:06 [main] INFO  TC-060_verifyCustomerReviewsDisplayed - Injected cookie: .Nop.Customer
+2025-03-24 22:29:06 [main] INFO  TC-060_verifyCustomerReviewsDisplayed - Injected cookie: .Nop.Culture
+2025-03-24 22:29:06 [main] INFO  TC-060_verifyCustomerReviewsDisplayed - Injected cookie: _ga_SCT41TW89V
+2025-03-24 22:29:06 [main] INFO  TC-060_verifyCustomerReviewsDisplayed - Page refreshed with bypassed cookies.
+2025-03-24 22:29:06 [main] INFO  TC-060_verifyCustomerReviewsDisplayed - 🟢 Starting test: verifyCustomerReviewsDisplayed (🔢 Test Case ID: TC-060)
+2025-03-24 22:29:06 [main] INFO  TC-060_verifyCustomerReviewsDisplayed - Navigating to: https://demo.nopcommerce.com/
+2025-03-24 22:29:11 [main] INFO  utils.MainFunctionalities - Product reviews are displayed and verified successfully.
+2025-03-24 22:29:11 [main] INFO  listeners.TestListener - ✅ Test PASSED: verifyCustomerReviewsDisplayed (Duration: 4225ms)
+2025-03-24 22:29:11 [main] INFO  TC-060_verifyCustomerReviewsDisplayed - Closing the browser for test: verifyCustomerReviewsDisplayed
+2025-03-24 22:29:13 [main] INFO  TC-060_verifyCustomerReviewsDisplayed - Browser closed.

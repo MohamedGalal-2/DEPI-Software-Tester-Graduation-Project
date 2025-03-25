@@ -1,0 +1,37 @@
+2025-03-21 05:34:39 [main] INFO  TC-261 - Ensure breadcrumb navigation is working_verifyBreadcrumbNavigation - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-03-21 05:34:39 [main] INFO  TC-261 - Ensure breadcrumb navigation is working_verifyBreadcrumbNavigation - Logger initialized
+2025-03-21 05:34:39 [main] INFO  TC-261 - Ensure breadcrumb navigation is working_verifyBreadcrumbNavigation - Starting test setup for: verifyBreadcrumbNavigation (🔢 Test Case ID: TC-261 - Ensure breadcrumb navigation is working)
+2025-03-21 05:34:56 [main] INFO  TC-261 - Ensure breadcrumb navigation is working_verifyBreadcrumbNavigation - Navigated to the site: https://demo.nopcommerce.com
+2025-03-21 05:34:56 [main] INFO  TC-261 - Ensure breadcrumb navigation is working_verifyBreadcrumbNavigation - Injected cookie: cf_clearance
+2025-03-21 05:34:56 [main] INFO  TC-261 - Ensure breadcrumb navigation is working_verifyBreadcrumbNavigation - Injected cookie: _ga
+2025-03-21 05:34:56 [main] INFO  TC-261 - Ensure breadcrumb navigation is working_verifyBreadcrumbNavigation - Injected cookie: .Nop.Antiforgery
+2025-03-21 05:34:57 [main] INFO  TC-261 - Ensure breadcrumb navigation is working_verifyBreadcrumbNavigation - Injected cookie: .Nop.Customer
+2025-03-21 05:34:57 [main] INFO  TC-261 - Ensure breadcrumb navigation is working_verifyBreadcrumbNavigation - Injected cookie: .Nop.Culture
+2025-03-21 05:34:57 [main] INFO  TC-261 - Ensure breadcrumb navigation is working_verifyBreadcrumbNavigation - Injected cookie: _ga_SCT41TW89V
+2025-03-21 05:34:57 [main] INFO  TC-261 - Ensure breadcrumb navigation is working_verifyBreadcrumbNavigation - Page refreshed with bypassed cookies.
+2025-03-21 05:34:58 [main] INFO  TC-261 - Ensure breadcrumb navigation is working_verifyBreadcrumbNavigation - Navigated to product page: Sound Forge Pro (recurring)
+2025-03-21 05:34:58 [main] INFO  TC-261 - Ensure breadcrumb navigation is working_verifyBreadcrumbNavigation - Verified breadcrumb: Software
+2025-03-21 05:34:59 [main] INFO  TC-261 - Ensure breadcrumb navigation is working_verifyBreadcrumbNavigation - Clicked breadcrumb: Software
+2025-03-21 05:35:01 [main] INFO  TC-261 - Ensure breadcrumb navigation is working_verifyBreadcrumbNavigation - Closing the browser for test: verifyBreadcrumbNavigation
+2025-03-21 05:35:01 [main] INFO  TC-261 - Ensure breadcrumb navigation is working_verifyBreadcrumbNavigation - Browser closed.
+2025-03-21 05:56:04 [main] INFO  TC-261 - Ensure breadcrumb navigation is working_verifyBreadcrumbNavigation - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-03-21 05:56:04 [main] INFO  TC-261 - Ensure breadcrumb navigation is working_verifyBreadcrumbNavigation - Logger initialized
+2025-03-21 05:56:04 [main] INFO  TC-261 - Ensure breadcrumb navigation is working_verifyBreadcrumbNavigation - Starting test setup for: verifyBreadcrumbNavigation (🔢 Test Case ID: TC-261 - Ensure breadcrumb navigation is working)
+2025-03-21 05:56:36 [main] INFO  TC-261 - Ensure breadcrumb navigation is working_verifyBreadcrumbNavigation - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-03-21 05:56:36 [main] INFO  TC-261 - Ensure breadcrumb navigation is working_verifyBreadcrumbNavigation - Logger initialized
+2025-03-21 05:56:36 [main] INFO  TC-261 - Ensure breadcrumb navigation is working_verifyBreadcrumbNavigation - Starting test setup for: verifyBreadcrumbNavigation (🔢 Test Case ID: TC-261 - Ensure breadcrumb navigation is working)
+2025-03-21 05:56:54 [main] INFO  TC-261 - Ensure breadcrumb navigation is working_verifyBreadcrumbNavigation - Navigated to the site: https://demo.nopcommerce.com
+2025-03-21 05:56:54 [main] INFO  TC-261 - Ensure breadcrumb navigation is working_verifyBreadcrumbNavigation - Injected cookie: cf_clearance
+2025-03-21 05:56:54 [main] INFO  TC-261 - Ensure breadcrumb navigation is working_verifyBreadcrumbNavigation - Injected cookie: _ga
+2025-03-21 05:56:54 [main] INFO  TC-261 - Ensure breadcrumb navigation is working_verifyBreadcrumbNavigation - Injected cookie: .Nop.Antiforgery
+2025-03-21 05:56:54 [main] INFO  TC-261 - Ensure breadcrumb navigation is working_verifyBreadcrumbNavigation - Injected cookie: .Nop.Customer
+2025-03-21 05:56:54 [main] INFO  TC-261 - Ensure breadcrumb navigation is working_verifyBreadcrumbNavigation - Injected cookie: .Nop.Culture
+2025-03-21 05:56:54 [main] INFO  TC-261 - Ensure breadcrumb navigation is working_verifyBreadcrumbNavigation - Injected cookie: _ga_SCT41TW89V
+2025-03-21 05:56:54 [main] INFO  TC-261 - Ensure breadcrumb navigation is working_verifyBreadcrumbNavigation - Page refreshed with bypassed cookies.
+2025-03-21 05:56:55 [main] INFO  TC-261 - Ensure breadcrumb navigation is working_verifyBreadcrumbNavigation - Navigated to product page: Sound Forge Pro (recurring)
+2025-03-21 05:56:56 [main] INFO  TC-261 - Ensure breadcrumb navigation is working_verifyBreadcrumbNavigation - Clicked breadcrumb: Software
+2025-03-21 05:56:58 [main] INFO  TC-261 - Ensure breadcrumb navigation is working_verifyBreadcrumbNavigation - Closing the browser for test: verifyBreadcrumbNavigation
+2025-03-21 05:56:58 [main] INFO  TC-261 - Ensure breadcrumb navigation is working_verifyBreadcrumbNavigation - Browser closed.

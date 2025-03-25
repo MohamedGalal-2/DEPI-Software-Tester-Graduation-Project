@@ -1,0 +1,211 @@
+2025-03-22 21:07:45 [main] INFO  TC-023_verifyUserRegistrationWithValidDetails - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-03-22 21:07:45 [main] INFO  TC-023_verifyUserRegistrationWithValidDetails - Logger initialized
+2025-03-22 21:07:45 [main] INFO  TC-023_verifyUserRegistrationWithValidDetails - Starting test setup for: verifyUserRegistrationWithValidDetails (🔢 Test Case ID: TC-023)
+2025-03-22 21:08:03 [main] INFO  TC-023_verifyUserRegistrationWithValidDetails - Navigated to the site: https://demo.nopcommerce.com
+2025-03-22 21:08:03 [main] INFO  TC-023_verifyUserRegistrationWithValidDetails - Injected cookie: cf_clearance
+2025-03-22 21:08:03 [main] INFO  TC-023_verifyUserRegistrationWithValidDetails - Injected cookie: _ga
+2025-03-22 21:08:03 [main] INFO  TC-023_verifyUserRegistrationWithValidDetails - Injected cookie: .Nop.Antiforgery
+2025-03-22 21:08:03 [main] INFO  TC-023_verifyUserRegistrationWithValidDetails - Injected cookie: .Nop.Customer
+2025-03-22 21:08:03 [main] INFO  TC-023_verifyUserRegistrationWithValidDetails - Injected cookie: .Nop.Culture
+2025-03-22 21:08:03 [main] INFO  TC-023_verifyUserRegistrationWithValidDetails - Injected cookie: _ga_SCT41TW89V
+2025-03-22 21:08:04 [main] INFO  TC-023_verifyUserRegistrationWithValidDetails - Page refreshed with bypassed cookies.
+2025-03-22 21:08:05 [main] INFO  TC-023_verifyUserRegistrationWithValidDetails - Navigating to registration page.
+2025-03-22 21:08:07 [main] INFO  TC-023_verifyUserRegistrationWithValidDetails - Closing the browser for test: verifyUserRegistrationWithValidDetails
+2025-03-22 21:08:07 [main] INFO  TC-023_verifyUserRegistrationWithValidDetails - Browser closed.
+2025-03-22 21:08:13 [main] INFO  TC-023_verifyUserRegistrationWithValidDetails - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-03-22 21:08:13 [main] INFO  TC-023_verifyUserRegistrationWithValidDetails - Logger initialized
+2025-03-22 21:08:13 [main] INFO  TC-023_verifyUserRegistrationWithValidDetails - Starting test setup for: verifyUserRegistrationWithValidDetails (🔢 Test Case ID: TC-023)
+2025-03-22 21:08:30 [main] INFO  TC-023_verifyUserRegistrationWithValidDetails - Navigated to the site: https://demo.nopcommerce.com
+2025-03-22 21:08:30 [main] INFO  TC-023_verifyUserRegistrationWithValidDetails - Injected cookie: cf_clearance
+2025-03-22 21:08:30 [main] INFO  TC-023_verifyUserRegistrationWithValidDetails - Injected cookie: _ga
+2025-03-22 21:08:30 [main] INFO  TC-023_verifyUserRegistrationWithValidDetails - Injected cookie: .Nop.Antiforgery
+2025-03-22 21:08:30 [main] INFO  TC-023_verifyUserRegistrationWithValidDetails - Injected cookie: .Nop.Customer
+2025-03-22 21:08:30 [main] INFO  TC-023_verifyUserRegistrationWithValidDetails - Injected cookie: .Nop.Culture
+2025-03-22 21:08:30 [main] INFO  TC-023_verifyUserRegistrationWithValidDetails - Injected cookie: _ga_SCT41TW89V
+2025-03-22 21:08:31 [main] INFO  TC-023_verifyUserRegistrationWithValidDetails - Page refreshed with bypassed cookies.
+2025-03-22 21:08:32 [main] INFO  TC-023_verifyUserRegistrationWithValidDetails - Navigating to registration page.
+2025-03-22 21:08:33 [main] INFO  TC-023_verifyUserRegistrationWithValidDetails - Closing the browser for test: verifyUserRegistrationWithValidDetails
+2025-03-22 21:08:34 [main] INFO  TC-023_verifyUserRegistrationWithValidDetails - Browser closed.
+2025-03-22 21:10:00 [main] INFO  TC-023_verifyUserRegistrationWithValidDetails - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-03-22 21:10:00 [main] INFO  TC-023_verifyUserRegistrationWithValidDetails - Logger initialized
+2025-03-22 21:10:00 [main] INFO  TC-023_verifyUserRegistrationWithValidDetails - Starting test setup for: verifyUserRegistrationWithValidDetails (🔢 Test Case ID: TC-023)
+2025-03-22 21:10:18 [main] INFO  TC-023_verifyUserRegistrationWithValidDetails - Navigated to the site: https://demo.nopcommerce.com
+2025-03-22 21:10:18 [main] INFO  TC-023_verifyUserRegistrationWithValidDetails - Injected cookie: cf_clearance
+2025-03-22 21:10:18 [main] INFO  TC-023_verifyUserRegistrationWithValidDetails - Injected cookie: _ga
+2025-03-22 21:10:18 [main] INFO  TC-023_verifyUserRegistrationWithValidDetails - Injected cookie: .Nop.Antiforgery
+2025-03-22 21:10:18 [main] INFO  TC-023_verifyUserRegistrationWithValidDetails - Injected cookie: .Nop.Customer
+2025-03-22 21:10:18 [main] INFO  TC-023_verifyUserRegistrationWithValidDetails - Injected cookie: .Nop.Culture
+2025-03-22 21:10:18 [main] INFO  TC-023_verifyUserRegistrationWithValidDetails - Injected cookie: _ga_SCT41TW89V
+2025-03-22 21:10:18 [main] INFO  TC-023_verifyUserRegistrationWithValidDetails - Page refreshed with bypassed cookies.
+2025-03-22 21:10:19 [main] INFO  TC-023_verifyUserRegistrationWithValidDetails - Navigating to registration page.
+2025-03-22 21:10:21 [main] INFO  TC-023_verifyUserRegistrationWithValidDetails - Closing the browser for test: verifyUserRegistrationWithValidDetails
+2025-03-22 21:10:21 [main] INFO  TC-023_verifyUserRegistrationWithValidDetails - Browser closed.
+2025-03-22 21:12:28 [main] INFO  TC-023_verifyUserRegistrationWithValidDetails - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-03-22 21:12:28 [main] INFO  TC-023_verifyUserRegistrationWithValidDetails - Logger initialized
+2025-03-22 21:12:28 [main] INFO  TC-023_verifyUserRegistrationWithValidDetails - Starting test setup for: verifyUserRegistrationWithValidDetails (🔢 Test Case ID: TC-023)
+2025-03-22 21:12:47 [main] INFO  TC-023_verifyUserRegistrationWithValidDetails - Navigated to the site: https://demo.nopcommerce.com
+2025-03-22 21:12:47 [main] INFO  TC-023_verifyUserRegistrationWithValidDetails - Injected cookie: cf_clearance
+2025-03-22 21:12:47 [main] INFO  TC-023_verifyUserRegistrationWithValidDetails - Injected cookie: _ga
+2025-03-22 21:12:47 [main] INFO  TC-023_verifyUserRegistrationWithValidDetails - Injected cookie: .Nop.Antiforgery
+2025-03-22 21:12:47 [main] INFO  TC-023_verifyUserRegistrationWithValidDetails - Injected cookie: .Nop.Customer
+2025-03-22 21:12:47 [main] INFO  TC-023_verifyUserRegistrationWithValidDetails - Injected cookie: .Nop.Culture
+2025-03-22 21:12:47 [main] INFO  TC-023_verifyUserRegistrationWithValidDetails - Injected cookie: _ga_SCT41TW89V
+2025-03-22 21:12:47 [main] INFO  TC-023_verifyUserRegistrationWithValidDetails - Page refreshed with bypassed cookies.
+2025-03-22 21:12:48 [main] INFO  TC-023_verifyUserRegistrationWithValidDetails - Navigating to registration page.
+2025-03-22 21:12:54 [main] INFO  TC-023_verifyUserRegistrationWithValidDetails - Clicking 'Register' button.
+2025-03-22 21:12:57 [main] INFO  TC-023_verifyUserRegistrationWithValidDetails - User successfully registered.
+2025-03-22 21:12:57 [main] INFO  TC-023_verifyUserRegistrationWithValidDetails - Closing the browser for test: verifyUserRegistrationWithValidDetails
+2025-03-22 21:12:57 [main] INFO  TC-023_verifyUserRegistrationWithValidDetails - Browser closed.
+2025-03-22 21:13:57 [main] INFO  TC-023_verifyUserRegistrationWithValidDetails - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-03-22 21:13:57 [main] INFO  TC-023_verifyUserRegistrationWithValidDetails - Logger initialized
+2025-03-22 21:13:57 [main] INFO  TC-023_verifyUserRegistrationWithValidDetails - Starting test setup for: verifyUserRegistrationWithValidDetails (🔢 Test Case ID: TC-023)
+2025-03-22 21:14:15 [main] INFO  TC-023_verifyUserRegistrationWithValidDetails - Navigated to the site: https://demo.nopcommerce.com
+2025-03-22 21:14:15 [main] INFO  TC-023_verifyUserRegistrationWithValidDetails - Injected cookie: cf_clearance
+2025-03-22 21:14:15 [main] INFO  TC-023_verifyUserRegistrationWithValidDetails - Injected cookie: _ga
+2025-03-22 21:14:15 [main] INFO  TC-023_verifyUserRegistrationWithValidDetails - Injected cookie: .Nop.Antiforgery
+2025-03-22 21:14:15 [main] INFO  TC-023_verifyUserRegistrationWithValidDetails - Injected cookie: .Nop.Customer
+2025-03-22 21:14:15 [main] INFO  TC-023_verifyUserRegistrationWithValidDetails - Injected cookie: .Nop.Culture
+2025-03-22 21:14:15 [main] INFO  TC-023_verifyUserRegistrationWithValidDetails - Injected cookie: _ga_SCT41TW89V
+2025-03-22 21:14:16 [main] INFO  TC-023_verifyUserRegistrationWithValidDetails - Page refreshed with bypassed cookies.
+2025-03-22 21:14:17 [main] INFO  TC-023_verifyUserRegistrationWithValidDetails - Navigating to registration page.
+2025-03-22 21:14:21 [main] INFO  TC-023_verifyUserRegistrationWithValidDetails - Clicking 'Register' button.
+2025-03-22 21:14:32 [main] INFO  TC-023_verifyUserRegistrationWithValidDetails - Closing the browser for test: verifyUserRegistrationWithValidDetails
+2025-03-22 21:14:32 [main] INFO  TC-023_verifyUserRegistrationWithValidDetails - Browser closed.
+2025-03-22 21:16:30 [main] INFO  TC-023_verifyUserRegistrationWithValidDetails - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-03-22 21:16:30 [main] INFO  TC-023_verifyUserRegistrationWithValidDetails - Logger initialized
+2025-03-22 21:16:30 [main] INFO  TC-023_verifyUserRegistrationWithValidDetails - Starting test setup for: verifyUserRegistrationWithValidDetails (🔢 Test Case ID: TC-023)
+2025-03-22 21:24:38 [main] INFO  TC-023_verifyUserRegistrationWithValidDetails - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-03-22 21:24:38 [main] INFO  TC-023_verifyUserRegistrationWithValidDetails - Logger initialized
+2025-03-22 21:24:38 [main] INFO  TC-023_verifyUserRegistrationWithValidDetails - Starting test setup for: verifyUserRegistrationWithValidDetails (🔢 Test Case ID: TC-023)
+2025-03-22 21:25:02 [main] INFO  TC-023_verifyUserRegistrationWithValidDetails - Navigated to the site: https://demo.nopcommerce.com
+2025-03-22 21:25:02 [main] INFO  TC-023_verifyUserRegistrationWithValidDetails - Injected cookie: _ga
+2025-03-22 21:25:02 [main] INFO  TC-023_verifyUserRegistrationWithValidDetails - Injected cookie: cf_clearance
+2025-03-22 21:25:02 [main] INFO  TC-023_verifyUserRegistrationWithValidDetails - Injected cookie: .Nop.Antiforgery
+2025-03-22 21:25:02 [main] INFO  TC-023_verifyUserRegistrationWithValidDetails - Injected cookie: .Nop.Customer
+2025-03-22 21:25:02 [main] INFO  TC-023_verifyUserRegistrationWithValidDetails - Injected cookie: .Nop.Culture
+2025-03-22 21:25:02 [main] INFO  TC-023_verifyUserRegistrationWithValidDetails - Injected cookie: _ga_SCT41TW89V
+2025-03-22 21:25:03 [main] INFO  TC-023_verifyUserRegistrationWithValidDetails - Page refreshed with bypassed cookies.
+2025-03-22 21:25:04 [main] INFO  utils.MainFunctionalities - Navigating to registration page.
+2025-03-22 21:25:09 [main] INFO  utils.MainFunctionalities - Clicking 'Register' button.
+2025-03-22 21:25:21 [main] INFO  TC-023_verifyUserRegistrationWithValidDetails - Closing the browser for test: verifyUserRegistrationWithValidDetails
+2025-03-22 21:25:21 [main] INFO  TC-023_verifyUserRegistrationWithValidDetails - Browser closed.
+2025-03-22 21:25:29 [main] INFO  TC-023_verifyUserRegistrationWithValidDetails - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-03-22 21:25:29 [main] INFO  TC-023_verifyUserRegistrationWithValidDetails - Logger initialized
+2025-03-22 21:25:29 [main] INFO  TC-023_verifyUserRegistrationWithValidDetails - Starting test setup for: verifyUserRegistrationWithValidDetails (🔢 Test Case ID: TC-023)
+2025-03-22 21:25:53 [main] INFO  TC-023_verifyUserRegistrationWithValidDetails - Navigated to the site: https://demo.nopcommerce.com
+2025-03-22 21:25:53 [main] INFO  TC-023_verifyUserRegistrationWithValidDetails - Injected cookie: _ga
+2025-03-22 21:25:53 [main] INFO  TC-023_verifyUserRegistrationWithValidDetails - Injected cookie: cf_clearance
+2025-03-22 21:25:53 [main] INFO  TC-023_verifyUserRegistrationWithValidDetails - Injected cookie: .Nop.Antiforgery
+2025-03-22 21:25:53 [main] INFO  TC-023_verifyUserRegistrationWithValidDetails - Injected cookie: .Nop.Customer
+2025-03-22 21:25:53 [main] INFO  TC-023_verifyUserRegistrationWithValidDetails - Injected cookie: .Nop.Culture
+2025-03-22 21:25:53 [main] INFO  TC-023_verifyUserRegistrationWithValidDetails - Injected cookie: _ga_SCT41TW89V
+2025-03-22 21:25:54 [main] INFO  TC-023_verifyUserRegistrationWithValidDetails - Page refreshed with bypassed cookies.
+2025-03-22 21:25:55 [main] INFO  utils.MainFunctionalities - Navigating to registration page.
+2025-03-22 21:25:58 [main] INFO  utils.MainFunctionalities - Clicking 'Register' button.
+2025-03-22 21:26:05 [main] INFO  TC-023_verifyUserRegistrationWithValidDetails - Closing the browser for test: verifyUserRegistrationWithValidDetails
+2025-03-22 21:26:06 [main] INFO  TC-023_verifyUserRegistrationWithValidDetails - Browser closed.
+2025-03-22 21:26:12 [main] INFO  TC-023_verifyUserRegistrationWithValidDetails - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-03-22 21:26:12 [main] INFO  TC-023_verifyUserRegistrationWithValidDetails - Logger initialized
+2025-03-22 21:26:12 [main] INFO  TC-023_verifyUserRegistrationWithValidDetails - Starting test setup for: verifyUserRegistrationWithValidDetails (🔢 Test Case ID: TC-023)
+2025-03-22 21:26:36 [main] INFO  TC-023_verifyUserRegistrationWithValidDetails - Navigated to the site: https://demo.nopcommerce.com
+2025-03-22 21:26:36 [main] INFO  TC-023_verifyUserRegistrationWithValidDetails - Injected cookie: _ga
+2025-03-22 21:26:36 [main] INFO  TC-023_verifyUserRegistrationWithValidDetails - Injected cookie: cf_clearance
+2025-03-22 21:26:36 [main] INFO  TC-023_verifyUserRegistrationWithValidDetails - Injected cookie: .Nop.Antiforgery
+2025-03-22 21:26:36 [main] INFO  TC-023_verifyUserRegistrationWithValidDetails - Injected cookie: .Nop.Customer
+2025-03-22 21:26:36 [main] INFO  TC-023_verifyUserRegistrationWithValidDetails - Injected cookie: .Nop.Culture
+2025-03-22 21:26:36 [main] INFO  TC-023_verifyUserRegistrationWithValidDetails - Injected cookie: _ga_SCT41TW89V
+2025-03-22 21:26:37 [main] INFO  TC-023_verifyUserRegistrationWithValidDetails - Page refreshed with bypassed cookies.
+2025-03-22 21:26:38 [main] INFO  utils.MainFunctionalities - Navigating to registration page.
+2025-03-22 21:26:44 [main] INFO  utils.MainFunctionalities - Clicking 'Register' button.
+2025-03-22 21:26:45 [main] INFO  TC-023_verifyUserRegistrationWithValidDetails - User successfully registered.
+2025-03-22 21:26:45 [main] INFO  TC-023_verifyUserRegistrationWithValidDetails - Closing the browser for test: verifyUserRegistrationWithValidDetails
+2025-03-22 21:26:45 [main] INFO  TC-023_verifyUserRegistrationWithValidDetails - Browser closed.
+2025-03-22 21:44:44 [main] INFO  TC-023_verifyUserRegistrationWithValidDetails - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-03-22 21:44:44 [main] INFO  TC-023_verifyUserRegistrationWithValidDetails - Logger initialized
+2025-03-22 21:44:44 [main] INFO  TC-023_verifyUserRegistrationWithValidDetails - Starting test setup for: verifyUserRegistrationWithValidDetails (🔢 Test Case ID: TC-023)
+2025-03-22 21:45:07 [main] INFO  TC-023_verifyUserRegistrationWithValidDetails - Navigated to the site: https://demo.nopcommerce.com
+2025-03-22 21:45:07 [main] INFO  TC-023_verifyUserRegistrationWithValidDetails - Injected cookie: _ga
+2025-03-22 21:45:07 [main] INFO  TC-023_verifyUserRegistrationWithValidDetails - Injected cookie: cf_clearance
+2025-03-22 21:45:07 [main] INFO  TC-023_verifyUserRegistrationWithValidDetails - Injected cookie: .Nop.Antiforgery
+2025-03-22 21:45:07 [main] INFO  TC-023_verifyUserRegistrationWithValidDetails - Injected cookie: .Nop.Customer
+2025-03-22 21:45:07 [main] INFO  TC-023_verifyUserRegistrationWithValidDetails - Injected cookie: .Nop.Culture
+2025-03-22 21:45:07 [main] INFO  TC-023_verifyUserRegistrationWithValidDetails - Injected cookie: _ga_SCT41TW89V
+2025-03-22 21:45:09 [main] INFO  TC-023_verifyUserRegistrationWithValidDetails - Page refreshed with bypassed cookies.
+2025-03-22 21:45:09 [main] INFO  TC-023_verifyUserRegistrationWithValidDetails - 🟢 Starting test: verifyUserRegistrationWithValidDetails (🔢 Test Case ID: TC-023)
+2025-03-22 21:45:10 [main] INFO  utils.MainFunctionalities - Navigating to registration page.
+2025-03-22 21:45:16 [main] INFO  utils.MainFunctionalities - Clicking 'Register' button.
+2025-03-22 21:45:18 [main] INFO  TC-023_verifyUserRegistrationWithValidDetails - User successfully registered.
+2025-03-22 21:45:18 [main] INFO  listeners.TestListener - ✅ Test PASSED: verifyUserRegistrationWithValidDetails (Duration: 9689ms)
+2025-03-22 21:45:18 [main] INFO  TC-023_verifyUserRegistrationWithValidDetails - Closing the browser for test: verifyUserRegistrationWithValidDetails
+2025-03-22 21:45:20 [main] INFO  TC-023_verifyUserRegistrationWithValidDetails - Browser closed.
+2025-03-22 21:45:20 [main] INFO  listeners.TestListener - 🏁 Finished Test Suite: Surefire test
+2025-03-22 22:01:51 [main] INFO  TC-023_verifyUserRegistrationWithValidDetails - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-03-22 22:01:51 [main] INFO  TC-023_verifyUserRegistrationWithValidDetails - Logger initialized
+2025-03-22 22:01:51 [main] INFO  TC-023_verifyUserRegistrationWithValidDetails - Starting test setup for: verifyUserRegistrationWithValidDetails (🔢 Test Case ID: TC-023)
+2025-03-22 22:02:14 [main] INFO  TC-023_verifyUserRegistrationWithValidDetails - Navigated to the site: https://demo.nopcommerce.com
+2025-03-22 22:02:14 [main] INFO  TC-023_verifyUserRegistrationWithValidDetails - Injected cookie: _ga
+2025-03-22 22:02:14 [main] INFO  TC-023_verifyUserRegistrationWithValidDetails - Injected cookie: cf_clearance
+2025-03-22 22:02:14 [main] INFO  TC-023_verifyUserRegistrationWithValidDetails - Injected cookie: .Nop.Antiforgery
+2025-03-22 22:02:14 [main] INFO  TC-023_verifyUserRegistrationWithValidDetails - Injected cookie: .Nop.Customer
+2025-03-22 22:02:14 [main] INFO  TC-023_verifyUserRegistrationWithValidDetails - Injected cookie: .Nop.Culture
+2025-03-22 22:02:14 [main] INFO  TC-023_verifyUserRegistrationWithValidDetails - Injected cookie: _ga_SCT41TW89V
+2025-03-22 22:02:15 [main] INFO  TC-023_verifyUserRegistrationWithValidDetails - Page refreshed with bypassed cookies.
+2025-03-22 22:02:15 [main] INFO  TC-023_verifyUserRegistrationWithValidDetails - 🟢 Starting test: verifyUserRegistrationWithValidDetails (🔢 Test Case ID: TC-023)
+2025-03-22 22:02:16 [main] INFO  utils.MainFunctionalities - Navigating to registration page.
+2025-03-22 22:02:23 [main] INFO  utils.MainFunctionalities - Clicking 'Register' button.
+2025-03-22 22:02:26 [main] INFO  TC-023_verifyUserRegistrationWithValidDetails - User successfully registered.
+2025-03-22 22:02:26 [main] INFO  listeners.TestListener - ✅ Test PASSED: verifyUserRegistrationWithValidDetails (Duration: 11099ms)
+2025-03-22 22:02:26 [main] INFO  TC-023_verifyUserRegistrationWithValidDetails - Closing the browser for test: verifyUserRegistrationWithValidDetails
+2025-03-22 22:02:27 [main] INFO  TC-023_verifyUserRegistrationWithValidDetails - Browser closed.
+2025-03-22 22:02:27 [main] INFO  listeners.TestListener - 🏁 Finished Test Suite: Surefire test
+2025-03-22 22:13:05 [main] INFO  TC-023_verifyUserRegistrationWithValidDetails - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-03-22 22:13:05 [main] INFO  TC-023_verifyUserRegistrationWithValidDetails - Logger initialized
+2025-03-22 22:13:05 [main] INFO  TC-023_verifyUserRegistrationWithValidDetails - Starting test setup for: verifyUserRegistrationWithValidDetails (🔢 Test Case ID: TC-023)
+2025-03-22 22:13:28 [main] INFO  TC-023_verifyUserRegistrationWithValidDetails - Navigated to the site: https://demo.nopcommerce.com
+2025-03-22 22:13:28 [main] INFO  TC-023_verifyUserRegistrationWithValidDetails - Injected cookie: _ga
+2025-03-22 22:13:28 [main] INFO  TC-023_verifyUserRegistrationWithValidDetails - Injected cookie: cf_clearance
+2025-03-22 22:13:28 [main] INFO  TC-023_verifyUserRegistrationWithValidDetails - Injected cookie: .Nop.Antiforgery
+2025-03-22 22:13:28 [main] INFO  TC-023_verifyUserRegistrationWithValidDetails - Injected cookie: .Nop.Customer
+2025-03-22 22:13:28 [main] INFO  TC-023_verifyUserRegistrationWithValidDetails - Injected cookie: .Nop.Culture
+2025-03-22 22:13:28 [main] INFO  TC-023_verifyUserRegistrationWithValidDetails - Injected cookie: _ga_SCT41TW89V
+2025-03-22 22:13:29 [main] INFO  TC-023_verifyUserRegistrationWithValidDetails - Page refreshed with bypassed cookies.
+2025-03-22 22:13:29 [main] INFO  TC-023_verifyUserRegistrationWithValidDetails - 🟢 Starting test: verifyUserRegistrationWithValidDetails (🔢 Test Case ID: TC-023)
+2025-03-22 22:13:30 [main] INFO  utils.MainFunctionalities - Navigating to registration page.
+2025-03-22 22:13:36 [main] INFO  utils.MainFunctionalities - Clicking 'Register' button.
+2025-03-22 22:13:38 [main] INFO  TC-023_verifyUserRegistrationWithValidDetails - User successfully registered.
+2025-03-22 22:13:38 [main] INFO  listeners.TestListener - ✅ Test PASSED: verifyUserRegistrationWithValidDetails (Duration: 9267ms)
+2025-03-22 22:13:38 [main] INFO  TC-023_verifyUserRegistrationWithValidDetails - Closing the browser for test: verifyUserRegistrationWithValidDetails
+2025-03-22 22:13:38 [main] INFO  TC-023_verifyUserRegistrationWithValidDetails - Browser closed.
+2025-03-22 22:13:38 [main] INFO  listeners.TestListener - 🏁 Finished Test Suite: Surefire test
+2025-03-22 22:18:17 [main] INFO  TC-023_verifyUserRegistrationWithValidDetails - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-03-22 22:18:17 [main] INFO  TC-023_verifyUserRegistrationWithValidDetails - Logger initialized
+2025-03-22 22:18:17 [main] INFO  TC-023_verifyUserRegistrationWithValidDetails - Starting test setup for: verifyUserRegistrationWithValidDetails (🔢 Test Case ID: TC-023)
+2025-03-22 22:18:40 [main] INFO  TC-023_verifyUserRegistrationWithValidDetails - Navigated to the site: https://demo.nopcommerce.com
+2025-03-22 22:18:40 [main] INFO  TC-023_verifyUserRegistrationWithValidDetails - Injected cookie: _ga
+2025-03-22 22:18:40 [main] INFO  TC-023_verifyUserRegistrationWithValidDetails - Injected cookie: cf_clearance
+2025-03-22 22:18:40 [main] INFO  TC-023_verifyUserRegistrationWithValidDetails - Injected cookie: .Nop.Antiforgery
+2025-03-22 22:18:40 [main] INFO  TC-023_verifyUserRegistrationWithValidDetails - Injected cookie: .Nop.Customer
+2025-03-22 22:18:40 [main] INFO  TC-023_verifyUserRegistrationWithValidDetails - Injected cookie: .Nop.Culture
+2025-03-22 22:18:40 [main] INFO  TC-023_verifyUserRegistrationWithValidDetails - Injected cookie: _ga_SCT41TW89V
+2025-03-22 22:18:41 [main] INFO  TC-023_verifyUserRegistrationWithValidDetails - Page refreshed with bypassed cookies.
+2025-03-22 22:18:41 [main] INFO  TC-023_verifyUserRegistrationWithValidDetails - 🟢 Starting test: verifyUserRegistrationWithValidDetails (🔢 Test Case ID: TC-023)
+2025-03-22 22:18:42 [main] INFO  utils.MainFunctionalities - Navigating to registration page.
+2025-03-22 22:18:47 [main] INFO  utils.MainFunctionalities - Clicking 'Register' button.
+2025-03-22 22:18:49 [main] INFO  TC-023_verifyUserRegistrationWithValidDetails - User successfully registered.
+2025-03-22 22:18:49 [main] INFO  listeners.TestListener - ✅ Test PASSED: verifyUserRegistrationWithValidDetails (Duration: 8344ms)
+2025-03-22 22:18:49 [main] INFO  TC-023_verifyUserRegistrationWithValidDetails - Closing the browser for test: verifyUserRegistrationWithValidDetails
+2025-03-22 22:18:49 [main] INFO  TC-023_verifyUserRegistrationWithValidDetails - Browser closed.
+2025-03-22 22:18:49 [main] INFO  listeners.TestListener - 🏁 Finished Test Suite: Surefire test

@@ -1,0 +1,78 @@
+2025-03-19 07:36:13 [main] INFO  TC-080_verifyInvalidAddressPreventsCheckout - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-03-19 07:36:13 [main] INFO  TC-080_verifyInvalidAddressPreventsCheckout - Logger initialized
+2025-03-19 07:36:13 [main] INFO  TC-080_verifyInvalidAddressPreventsCheckout - Starting test setup for: verifyInvalidAddressPreventsCheckout (🔢 Test Case ID: TC-080)
+2025-03-19 07:36:31 [main] INFO  TC-080_verifyInvalidAddressPreventsCheckout - Navigated to the site: https://demo.nopcommerce.com
+2025-03-19 07:36:31 [main] INFO  TC-080_verifyInvalidAddressPreventsCheckout - Injected cookie: cf_clearance
+2025-03-19 07:36:31 [main] INFO  TC-080_verifyInvalidAddressPreventsCheckout - Injected cookie: _ga
+2025-03-19 07:36:31 [main] INFO  TC-080_verifyInvalidAddressPreventsCheckout - Injected cookie: .Nop.Antiforgery
+2025-03-19 07:36:31 [main] INFO  TC-080_verifyInvalidAddressPreventsCheckout - Injected cookie: .Nop.Customer
+2025-03-19 07:36:31 [main] INFO  TC-080_verifyInvalidAddressPreventsCheckout - Injected cookie: .Nop.Culture
+2025-03-19 07:36:31 [main] INFO  TC-080_verifyInvalidAddressPreventsCheckout - Injected cookie: _ga_SCT41TW89V
+2025-03-19 07:36:31 [main] INFO  TC-080_verifyInvalidAddressPreventsCheckout - Page refreshed with bypassed cookies.
+2025-03-19 07:36:31 [main] INFO  TC-080_verifyInvalidAddressPreventsCheckout - 🟢 Starting test: verifyInvalidAddressPreventsCheckout (🔢 Test Case ID: TC-080)
+2025-03-19 07:36:31 [main] INFO  TC-080_verifyInvalidAddressPreventsCheckout - Navigating to product page: https://demo.nopcommerce.com/adobe-photoshop
+2025-03-19 07:36:34 [main] INFO  TC-080_verifyInvalidAddressPreventsCheckout - Clicked 'Add to Cart' button.
+2025-03-19 07:36:35 [main] INFO  TC-080_verifyInvalidAddressPreventsCheckout - Product successfully added to cart.
+2025-03-19 07:36:37 [main] INFO  TC-080_verifyInvalidAddressPreventsCheckout - Cart quantity updated to: 1
+2025-03-19 07:36:40 [main] INFO  TC-080_verifyInvalidAddressPreventsCheckout - Cart page loaded successfully.
+2025-03-19 07:36:42 [main] INFO  TC-080_verifyInvalidAddressPreventsCheckout - Accepted terms of service.
+2025-03-19 07:36:49 [main] INFO  TC-080_verifyInvalidAddressPreventsCheckout - Selected 'Checkout as Guest' option.
+2025-03-19 07:36:51 [main] INFO  TC-080_verifyInvalidAddressPreventsCheckout - Checkout page loaded successfully.
+2025-03-19 07:36:57 [main] INFO  TC-080_verifyInvalidAddressPreventsCheckout - Validation alert found: City is required, Email is required., Street address is required, Country is required., Zip / postal code is required
+2025-03-19 07:36:57 [main] INFO  TC-080_verifyInvalidAddressPreventsCheckout - "TC-080" Passed: Validation alert appeared as expected.
+2025-03-19 07:36:57 [main] INFO  listeners.TestListener - ✅ Test PASSED: verifyInvalidAddressPreventsCheckout (Duration: 25914ms)
+2025-03-19 07:36:57 [main] INFO  TC-080_verifyInvalidAddressPreventsCheckout - Closing the browser for test: verifyInvalidAddressPreventsCheckout
+2025-03-19 07:36:57 [main] INFO  TC-080_verifyInvalidAddressPreventsCheckout - Browser closed.
+2025-03-22 14:51:23 [main] INFO  TC-080_verifyInvalidAddressPreventsCheckout - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-03-22 14:51:23 [main] INFO  TC-080_verifyInvalidAddressPreventsCheckout - Logger initialized
+2025-03-22 14:51:23 [main] INFO  TC-080_verifyInvalidAddressPreventsCheckout - Starting test setup for: verifyInvalidAddressPreventsCheckout (🔢 Test Case ID: TC-080)
+2025-03-23 02:53:18 [main] INFO  TC-080_verifyInvalidAddressPreventsCheckout - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-03-23 02:53:18 [main] INFO  TC-080_verifyInvalidAddressPreventsCheckout - Logger initialized
+2025-03-23 02:53:18 [main] INFO  TC-080_verifyInvalidAddressPreventsCheckout - Starting test setup for: verifyInvalidAddressPreventsCheckout (🔢 Test Case ID: TC-080)
+2025-03-23 02:53:35 [main] INFO  TC-080_verifyInvalidAddressPreventsCheckout - Navigated to the site: https://demo.nopcommerce.com
+2025-03-23 02:53:35 [main] INFO  TC-080_verifyInvalidAddressPreventsCheckout - Injected cookie: cf_clearance
+2025-03-23 02:53:35 [main] INFO  TC-080_verifyInvalidAddressPreventsCheckout - Injected cookie: _ga
+2025-03-23 02:53:35 [main] INFO  TC-080_verifyInvalidAddressPreventsCheckout - Injected cookie: .Nop.Antiforgery
+2025-03-23 02:53:35 [main] INFO  TC-080_verifyInvalidAddressPreventsCheckout - Injected cookie: .Nop.Customer
+2025-03-23 02:53:35 [main] INFO  TC-080_verifyInvalidAddressPreventsCheckout - Injected cookie: .Nop.Culture
+2025-03-23 02:53:35 [main] INFO  TC-080_verifyInvalidAddressPreventsCheckout - Injected cookie: _ga_SCT41TW89V
+2025-03-23 02:53:36 [main] INFO  TC-080_verifyInvalidAddressPreventsCheckout - Page refreshed with bypassed cookies.
+2025-03-23 02:53:37 [main] INFO  utils.MainFunctionalities - Navigating to product page: https://demo.nopcommerce.com/adobe-photoshop
+2025-03-23 02:53:39 [main] INFO  utils.MainFunctionalities - Clicked 'Add to Cart' button with ID: add-to-cart-button-10
+2025-03-23 02:53:39 [main] INFO  utils.MainFunctionalities - Product successfully added to cart.
+2025-03-23 02:53:43 [main] INFO  utils.MainFunctionalities - Cart page loaded successfully.
+2025-03-23 02:53:45 [main] INFO  utils.MainFunctionalities - Accepted terms of service.
+2025-03-23 02:53:50 [main] INFO  utils.MainFunctionalities - Selected 'Checkout as Guest' option.
+2025-03-23 02:53:52 [main] INFO  utils.MainFunctionalities - Checkout page loaded successfully.
+2025-03-23 02:53:57 [main] INFO  utils.MainFunctionalities - Validation alert found: City is required, Email is required., Street address is required, Country is required., Zip / postal code is required
+2025-03-23 02:53:57 [main] INFO  utils.MainFunctionalities - Validation alert appeared as expected.
+2025-03-23 02:53:57 [main] INFO  TC-080_verifyInvalidAddressPreventsCheckout - Closing the browser for test: verifyInvalidAddressPreventsCheckout
+2025-03-23 02:53:57 [main] INFO  TC-080_verifyInvalidAddressPreventsCheckout - Browser closed.
+2025-03-23 03:46:13 [main] INFO  TC-080_verifyInvalidAddressPreventsCheckout - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-03-23 03:46:13 [main] INFO  TC-080_verifyInvalidAddressPreventsCheckout - Logger initialized
+2025-03-23 03:46:13 [main] INFO  TC-080_verifyInvalidAddressPreventsCheckout - Starting test setup for: verifyInvalidAddressPreventsCheckout (🔢 Test Case ID: TC-080)
+2025-03-23 03:46:29 [main] INFO  TC-080_verifyInvalidAddressPreventsCheckout - Navigated to the site: https://demo.nopcommerce.com
+2025-03-23 03:46:29 [main] INFO  TC-080_verifyInvalidAddressPreventsCheckout - Injected cookie: cf_clearance
+2025-03-23 03:46:29 [main] INFO  TC-080_verifyInvalidAddressPreventsCheckout - Injected cookie: _ga
+2025-03-23 03:46:29 [main] INFO  TC-080_verifyInvalidAddressPreventsCheckout - Injected cookie: .Nop.Antiforgery
+2025-03-23 03:46:29 [main] INFO  TC-080_verifyInvalidAddressPreventsCheckout - Injected cookie: .Nop.Customer
+2025-03-23 03:46:29 [main] INFO  TC-080_verifyInvalidAddressPreventsCheckout - Injected cookie: .Nop.Culture
+2025-03-23 03:46:29 [main] INFO  TC-080_verifyInvalidAddressPreventsCheckout - Injected cookie: _ga_SCT41TW89V
+2025-03-23 03:46:30 [main] INFO  TC-080_verifyInvalidAddressPreventsCheckout - Page refreshed with bypassed cookies.
+2025-03-23 03:46:30 [main] INFO  TC-080_verifyInvalidAddressPreventsCheckout - 🟢 Starting test: verifyInvalidAddressPreventsCheckout (🔢 Test Case ID: TC-080)
+2025-03-23 03:46:31 [main] INFO  utils.MainFunctionalities - Navigating to product page: https://demo.nopcommerce.com/adobe-photoshop
+2025-03-23 03:46:32 [main] INFO  utils.MainFunctionalities - Clicked 'Add to Cart' button with ID: add-to-cart-button-10
+2025-03-23 03:46:33 [main] INFO  utils.MainFunctionalities - Product successfully added to cart.
+2025-03-23 03:46:36 [main] INFO  utils.MainFunctionalities - Cart page loaded successfully.
+2025-03-23 03:46:39 [main] INFO  utils.MainFunctionalities - Accepted terms of service.
+2025-03-23 03:46:46 [main] INFO  utils.MainFunctionalities - Selected 'Checkout as Guest' option.
+2025-03-23 03:46:48 [main] INFO  utils.MainFunctionalities - Checkout page loaded successfully.
+2025-03-23 03:46:55 [main] INFO  utils.MainFunctionalities - Validation alert found: City is required, Email is required., Street address is required, Country is required., Zip / postal code is required
+2025-03-23 03:46:55 [main] INFO  utils.MainFunctionalities - Validation alert appeared as expected.
+2025-03-23 03:46:55 [main] INFO  listeners.TestListener - ✅ Test PASSED: verifyInvalidAddressPreventsCheckout (Duration: 24805ms)
+2025-03-23 03:46:55 [main] INFO  TC-080_verifyInvalidAddressPreventsCheckout - Closing the browser for test: verifyInvalidAddressPreventsCheckout
+2025-03-23 03:46:55 [main] INFO  TC-080_verifyInvalidAddressPreventsCheckout - Browser closed.

@@ -1,0 +1,64 @@
+2025-03-25 01:12:20 [main] INFO  TC-292_verifyHTTPSProtocol - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-03-25 01:12:20 [main] INFO  TC-292_verifyHTTPSProtocol - Logger initialized
+2025-03-25 01:12:20 [main] INFO  TC-292_verifyHTTPSProtocol - Starting test setup for: verifyHTTPSProtocol (🔢 Test Case ID: TC-292)
+2025-03-25 01:12:42 [main] INFO  TC-292_verifyHTTPSProtocol - Navigated to the site: https://demo.nopcommerce.com
+2025-03-25 01:12:42 [main] INFO  TC-292_verifyHTTPSProtocol - Injected cookie: cf_clearance
+2025-03-25 01:12:42 [main] INFO  TC-292_verifyHTTPSProtocol - Injected cookie: _ga
+2025-03-25 01:12:42 [main] INFO  TC-292_verifyHTTPSProtocol - Injected cookie: .Nop.Antiforgery
+2025-03-25 01:12:42 [main] INFO  TC-292_verifyHTTPSProtocol - Injected cookie: .Nop.Customer
+2025-03-25 01:12:42 [main] INFO  TC-292_verifyHTTPSProtocol - Injected cookie: .Nop.Culture
+2025-03-25 01:12:42 [main] INFO  TC-292_verifyHTTPSProtocol - Injected cookie: _ga_SCT41TW89V
+2025-03-25 01:12:43 [main] INFO  TC-292_verifyHTTPSProtocol - Page refreshed with bypassed cookies.
+2025-03-25 01:13:03 [main] INFO  TC-292_verifyHTTPSProtocol - Closing the browser for test: verifyHTTPSProtocol
+2025-03-25 01:13:04 [main] INFO  TC-292_verifyHTTPSProtocol - Browser closed.
+2025-03-25 01:18:08 [main] INFO  TC-292_verifyHTTPSProtocol - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-03-25 01:18:08 [main] INFO  TC-292_verifyHTTPSProtocol - Logger initialized
+2025-03-25 01:18:08 [main] INFO  TC-292_verifyHTTPSProtocol - Starting test setup for: verifyHTTPSProtocol (🔢 Test Case ID: TC-292)
+2025-03-25 01:18:23 [main] INFO  TC-292_verifyHTTPSProtocol - Navigated to the site: https://demo.nopcommerce.com
+2025-03-25 01:18:23 [main] INFO  TC-292_verifyHTTPSProtocol - Injected cookie: cf_clearance
+2025-03-25 01:18:23 [main] INFO  TC-292_verifyHTTPSProtocol - Injected cookie: _ga
+2025-03-25 01:18:23 [main] INFO  TC-292_verifyHTTPSProtocol - Injected cookie: .Nop.Antiforgery
+2025-03-25 01:18:23 [main] INFO  TC-292_verifyHTTPSProtocol - Injected cookie: .Nop.Customer
+2025-03-25 01:18:23 [main] INFO  TC-292_verifyHTTPSProtocol - Injected cookie: .Nop.Culture
+2025-03-25 01:18:23 [main] INFO  TC-292_verifyHTTPSProtocol - Injected cookie: _ga_SCT41TW89V
+2025-03-25 01:18:24 [main] INFO  TC-292_verifyHTTPSProtocol - Page refreshed with bypassed cookies.
+2025-03-25 01:18:24 [main] INFO  TC-292_verifyHTTPSProtocol - 🟢 Starting test: verifyHTTPSProtocol (🔢 Test Case ID: TC-292)
+2025-03-25 01:18:25 [main] INFO  TC-292_verifyHTTPSProtocol - Navigating to: http://demo.nopcommerce.com/
+2025-03-25 01:18:25 [main] INFO  TC-292_verifyHTTPSProtocol - HTTPS and secure connection verified on page: http://demo.nopcommerce.com/
+2025-03-25 01:18:26 [main] INFO  TC-292_verifyHTTPSProtocol - Navigating to: http://demo.nopcommerce.com/new-online-store-is-open
+2025-03-25 01:18:26 [main] INFO  TC-292_verifyHTTPSProtocol - HTTPS and secure connection verified on page: http://demo.nopcommerce.com/new-online-store-is-open
+2025-03-25 01:18:28 [main] INFO  TC-292_verifyHTTPSProtocol - Navigating to: http://demo.nopcommerce.com/build-your-own-computer
+2025-03-25 01:18:28 [main] INFO  TC-292_verifyHTTPSProtocol - HTTPS and secure connection verified on page: http://demo.nopcommerce.com/build-your-own-computer
+2025-03-25 01:18:29 [main] INFO  TC-292_verifyHTTPSProtocol - Navigating to: http://demo.nopcommerce.com/25-virtual-gift-card
+2025-03-25 01:18:29 [main] INFO  TC-292_verifyHTTPSProtocol - HTTPS and secure connection verified on page: http://demo.nopcommerce.com/25-virtual-gift-card
+2025-03-25 01:18:31 [main] INFO  TC-292_verifyHTTPSProtocol - Navigating to: http://demo.nopcommerce.com/htc-smartphone
+2025-03-25 01:18:31 [main] INFO  TC-292_verifyHTTPSProtocol - HTTPS and secure connection verified on page: http://demo.nopcommerce.com/htc-smartphone
+2025-03-25 01:18:32 [main] INFO  TC-292_verifyHTTPSProtocol - Navigating to: http://demo.nopcommerce.com/apple-macbook-pro
+2025-03-25 01:18:32 [main] INFO  TC-292_verifyHTTPSProtocol - HTTPS and secure connection verified on page: http://demo.nopcommerce.com/apple-macbook-pro
+2025-03-25 01:18:33 [main] INFO  TC-292_verifyHTTPSProtocol - Navigating to: http://demo.nopcommerce.com/cart
+2025-03-25 01:18:33 [main] INFO  TC-292_verifyHTTPSProtocol - HTTPS and secure connection verified on page: http://demo.nopcommerce.com/cart
+2025-03-25 01:18:33 [main] INFO  TC-292_verifyHTTPSProtocol - Navigating to: http://demo.nopcommerce.com/wishlist
+2025-03-25 01:18:33 [main] INFO  TC-292_verifyHTTPSProtocol - HTTPS and secure connection verified on page: http://demo.nopcommerce.com/wishlist
+2025-03-25 01:18:34 [main] INFO  TC-292_verifyHTTPSProtocol - Navigating to: http://demo.nopcommerce.com/login?returnUrl=%2F
+2025-03-25 01:18:34 [main] INFO  TC-292_verifyHTTPSProtocol - HTTPS and secure connection verified on page: http://demo.nopcommerce.com/login?returnUrl=%2F
+2025-03-25 01:18:35 [main] INFO  TC-292_verifyHTTPSProtocol - Navigating to: http://demo.nopcommerce.com/register?returnUrl=%2F
+2025-03-25 01:18:35 [main] INFO  TC-292_verifyHTTPSProtocol - HTTPS and secure connection verified on page: http://demo.nopcommerce.com/register?returnUrl=%2F
+2025-03-25 01:18:36 [main] INFO  TC-292_verifyHTTPSProtocol - Navigating to: http://demo.nopcommerce.com/gift-cards
+2025-03-25 01:18:36 [main] INFO  TC-292_verifyHTTPSProtocol - HTTPS and secure connection verified on page: http://demo.nopcommerce.com/gift-cards
+2025-03-25 01:18:37 [main] INFO  TC-292_verifyHTTPSProtocol - Navigating to: http://demo.nopcommerce.com/jewelry
+2025-03-25 01:18:37 [main] INFO  TC-292_verifyHTTPSProtocol - HTTPS and secure connection verified on page: http://demo.nopcommerce.com/jewelry
+2025-03-25 01:18:39 [main] INFO  TC-292_verifyHTTPSProtocol - Navigating to: http://demo.nopcommerce.com/books
+2025-03-25 01:18:39 [main] INFO  TC-292_verifyHTTPSProtocol - HTTPS and secure connection verified on page: http://demo.nopcommerce.com/books
+2025-03-25 01:18:40 [main] INFO  TC-292_verifyHTTPSProtocol - Navigating to: http://demo.nopcommerce.com/digital-downloads
+2025-03-25 01:18:40 [main] INFO  TC-292_verifyHTTPSProtocol - HTTPS and secure connection verified on page: http://demo.nopcommerce.com/digital-downloads
+2025-03-25 01:18:41 [main] INFO  TC-292_verifyHTTPSProtocol - Navigating to: http://demo.nopcommerce.com/apparel
+2025-03-25 01:18:41 [main] INFO  TC-292_verifyHTTPSProtocol - HTTPS and secure connection verified on page: http://demo.nopcommerce.com/apparel
+2025-03-25 01:18:42 [main] INFO  TC-292_verifyHTTPSProtocol - Navigating to: http://demo.nopcommerce.com/electronics
+2025-03-25 01:18:42 [main] INFO  TC-292_verifyHTTPSProtocol - HTTPS and secure connection verified on page: http://demo.nopcommerce.com/electronics
+2025-03-25 01:18:44 [main] INFO  TC-292_verifyHTTPSProtocol - Navigating to: http://demo.nopcommerce.com/computers
+2025-03-25 01:18:44 [main] INFO  TC-292_verifyHTTPSProtocol - HTTPS and secure connection verified on page: http://demo.nopcommerce.com/computers
+2025-03-25 01:18:44 [main] INFO  listeners.TestListener - ✅ Test PASSED: verifyHTTPSProtocol (Duration: 19358ms)
+2025-03-25 01:18:44 [main] INFO  TC-292_verifyHTTPSProtocol - Closing the browser for test: verifyHTTPSProtocol
+2025-03-25 01:18:44 [main] INFO  TC-292_verifyHTTPSProtocol - Browser closed.

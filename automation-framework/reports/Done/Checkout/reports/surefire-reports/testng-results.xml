@@ -1,0 +1,492 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[🚀 Starting Test Suite: Surefire test]]>
+    </line>
+    <line>
+      <![CDATA[
+🌍 Test Environment:
+🖥️ OS: Windows 11 10.0
+☕ Java Version: 23.0.1
+🌐 Browser: chrome 134.0.6998.89
+]]>
+    </line>
+    <line>
+      <![CDATA[🟢 Test Started: testCheckoutProcessAsUser (🔢 Test Case ID: TC-073)]]>
+    </line>
+    <line>
+      <![CDATA[
+🌍 Test Environment:
+🖥️ OS: Windows 11 10.0
+☕ Java Version: 23.0.1
+🌐 Browser: chrome 134.0.6998.118
+]]>
+    </line>
+    <line>
+      <![CDATA[✅ Test PASSED: testCheckoutProcessAsUser (Duration: 37654ms)]]>
+    </line>
+    <line>
+      <![CDATA[<br><img src='E:/Folder/Galal/Courses/Digital Egypt Pioneers Initiative (DEPI) - Software Testing/DEPI Software Tester Graduation Project/automation-framework/reports/screenshots\TC-073\TC-073_screenshot.png' height='300' width='400'/><br>]]>
+    </line>
+    <line>
+      <![CDATA[🟢 Test Started: verifyCheckoutPageLoads (🔢 Test Case ID: TC-004)]]>
+    </line>
+    <line>
+      <![CDATA[
+🌍 Test Environment:
+🖥️ OS: Windows 11 10.0
+☕ Java Version: 23.0.1
+🌐 Browser: chrome 134.0.6998.118
+]]>
+    </line>
+    <line>
+      <![CDATA[✅ Test PASSED: verifyCheckoutPageLoads (Duration: 9337ms)]]>
+    </line>
+    <line>
+      <![CDATA[<br><img src='E:/Folder/Galal/Courses/Digital Egypt Pioneers Initiative (DEPI) - Software Testing/DEPI Software Tester Graduation Project/automation-framework/reports/screenshots\TC-004\TC-004_screenshot.png' height='300' width='400'/><br>]]>
+    </line>
+    <line>
+      <![CDATA[🟢 Test Started: verifyCheckoutProcessAsGuest (🔢 Test Case ID: TC-005_TC-006_TC-072)]]>
+    </line>
+    <line>
+      <![CDATA[
+🌍 Test Environment:
+🖥️ OS: Windows 11 10.0
+☕ Java Version: 23.0.1
+🌐 Browser: chrome 134.0.6998.118
+]]>
+    </line>
+    <line>
+      <![CDATA[✅ Test PASSED: verifyCheckoutProcessAsGuest (Duration: 33355ms)]]>
+    </line>
+    <line>
+      <![CDATA[<br><img src='E:/Folder/Galal/Courses/Digital Egypt Pioneers Initiative (DEPI) - Software Testing/DEPI Software Tester Graduation Project/automation-framework/reports/screenshots\TC-005_TC-006_TC-072\TC-005_TC-006_TC-072_screenshot.png' height='300' width='400'/><br>]]>
+    </line>
+    <line>
+      <![CDATA[🟢 Test Started: verifyDifferentPaymentOptionsAreAvailable (🔢 Test Case ID: TC-189)]]>
+    </line>
+    <line>
+      <![CDATA[
+🌍 Test Environment:
+🖥️ OS: Windows 11 10.0
+☕ Java Version: 23.0.1
+🌐 Browser: chrome 134.0.6998.118
+]]>
+    </line>
+    <line>
+      <![CDATA[✅ Test PASSED: verifyDifferentPaymentOptionsAreAvailable (Duration: 28319ms)]]>
+    </line>
+    <line>
+      <![CDATA[<br><img src='E:/Folder/Galal/Courses/Digital Egypt Pioneers Initiative (DEPI) - Software Testing/DEPI Software Tester Graduation Project/automation-framework/reports/screenshots\TC-189\TC-189_screenshot.png' height='300' width='400'/><br>]]>
+    </line>
+    <line>
+      <![CDATA[🟢 Test Started: verifyInvalidAddressPreventsCheckout (🔢 Test Case ID: TC-080)]]>
+    </line>
+    <line>
+      <![CDATA[
+🌍 Test Environment:
+🖥️ OS: Windows 11 10.0
+☕ Java Version: 23.0.1
+🌐 Browser: chrome 134.0.6998.118
+]]>
+    </line>
+    <line>
+      <![CDATA[✅ Test PASSED: verifyInvalidAddressPreventsCheckout (Duration: 24805ms)]]>
+    </line>
+    <line>
+      <![CDATA[<br><img src='E:/Folder/Galal/Courses/Digital Egypt Pioneers Initiative (DEPI) - Software Testing/DEPI Software Tester Graduation Project/automation-framework/reports/screenshots\TC-080\TC-080_screenshot.png' height='300' width='400'/><br>]]>
+    </line>
+    <line>
+      <![CDATA[🟢 Test Started: verifyOrderIsGenerated (🔢 Test Case ID: TC-081)]]>
+    </line>
+    <line>
+      <![CDATA[
+🌍 Test Environment:
+🖥️ OS: Windows 11 10.0
+☕ Java Version: 23.0.1
+🌐 Browser: chrome 134.0.6998.118
+]]>
+    </line>
+    <line>
+      <![CDATA[✅ Test PASSED: verifyOrderIsGenerated (Duration: 31370ms)]]>
+    </line>
+    <line>
+      <![CDATA[<br><img src='E:/Folder/Galal/Courses/Digital Egypt Pioneers Initiative (DEPI) - Software Testing/DEPI Software Tester Graduation Project/automation-framework/reports/screenshots\TC-081\TC-081_screenshot.png' height='300' width='400'/><br>]]>
+    </line>
+    <line>
+      <![CDATA[🟢 Test Started: verifyOrderSummaryDisplaysCorrectInfo (🔢 Test Case ID: TC-187)]]>
+    </line>
+    <line>
+      <![CDATA[
+🌍 Test Environment:
+🖥️ OS: Windows 11 10.0
+☕ Java Version: 23.0.1
+🌐 Browser: chrome 134.0.6998.118
+]]>
+    </line>
+    <line>
+      <![CDATA[✅ Test PASSED: verifyOrderSummaryDisplaysCorrectInfo (Duration: 27696ms)]]>
+    </line>
+    <line>
+      <![CDATA[<br><img src='E:/Folder/Galal/Courses/Digital Egypt Pioneers Initiative (DEPI) - Software Testing/DEPI Software Tester Graduation Project/automation-framework/reports/screenshots\TC-187\TC-187_screenshot.png' height='300' width='400'/><br>]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2025-03-23T03:43:12 EET" name="Surefire suite" finished-at="2025-03-23T03:48:30 EET" duration-ms="317739">
+    <groups>
+      <group name="functional">
+        <method signature="CheckoutTest.testCheckoutProcessAsUser()[pri:0, instance:tests.ui.CheckoutTest@305f7627]" name="testCheckoutProcessAsUser" class="tests.ui.CheckoutTest"/>
+        <method signature="CheckoutTest.verifyInvalidAddressPreventsCheckout()[pri:0, instance:tests.ui.CheckoutTest@305f7627]" name="verifyInvalidAddressPreventsCheckout" class="tests.ui.CheckoutTest"/>
+        <method signature="CheckoutTest.verifyOrderIsGenerated()[pri:0, instance:tests.ui.CheckoutTest@305f7627]" name="verifyOrderIsGenerated" class="tests.ui.CheckoutTest"/>
+      </group> <!-- functional -->
+      <group name="ui">
+        <method signature="CheckoutTest.verifyDifferentPaymentOptionsAreAvailable()[pri:0, instance:tests.ui.CheckoutTest@305f7627]" name="verifyDifferentPaymentOptionsAreAvailable" class="tests.ui.CheckoutTest"/>
+        <method signature="CheckoutTest.verifyOrderSummaryDisplaysCorrectInfo()[pri:0, instance:tests.ui.CheckoutTest@305f7627]" name="verifyOrderSummaryDisplaysCorrectInfo" class="tests.ui.CheckoutTest"/>
+      </group> <!-- ui -->
+      <group name="smoke">
+        <method signature="CheckoutTest.verifyCheckoutPageLoads()[pri:0, instance:tests.ui.CheckoutTest@305f7627]" name="verifyCheckoutPageLoads" class="tests.ui.CheckoutTest"/>
+        <method signature="CheckoutTest.verifyCheckoutProcessAsGuest()[pri:0, instance:tests.ui.CheckoutTest@305f7627]" name="verifyCheckoutProcessAsGuest" class="tests.ui.CheckoutTest"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test started-at="2025-03-23T03:43:12 EET" name="Surefire test" finished-at="2025-03-23T03:48:30 EET" duration-ms="317739">
+      <class name="tests.ui.CheckoutTest">
+        <test-method is-config="true" signature="setUp(org.testng.ITestResult,org.testng.ITestContext)[pri:0, instance:tests.ui.CheckoutTest@305f7627]" started-at="2025-03-23T03:43:12 EET" name="setUp" finished-at="2025-03-23T03:43:30 EET" duration-ms="17914" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=CheckoutTest.testCheckoutProcessAsUser()[pri:0, instance:tests.ui.CheckoutTest@305f7627] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@78e97d4d]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testCheckoutProcessAsUser()[pri:0, instance:tests.ui.CheckoutTest@305f7627]" started-at="2025-03-23T03:43:30 EET" name="testCheckoutProcessAsUser" description="TC-073" finished-at="2025-03-23T03:44:08 EET" duration-ms="37653" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[🟢 Test Started: testCheckoutProcessAsUser (🔢 Test Case ID: TC-073)]]>
+            </line>
+            <line>
+              <![CDATA[
+🌍 Test Environment:
+🖥️ OS: Windows 11 10.0
+☕ Java Version: 23.0.1
+🌐 Browser: chrome 134.0.6998.118
+]]>
+            </line>
+            <line>
+              <![CDATA[✅ Test PASSED: testCheckoutProcessAsUser (Duration: 37654ms)]]>
+            </line>
+            <line>
+              <![CDATA[<br><img src='E:/Folder/Galal/Courses/Digital Egypt Pioneers Initiative (DEPI) - Software Testing/DEPI Software Tester Graduation Project/automation-framework/reports/screenshots\TC-073\TC-073_screenshot.png' height='300' width='400'/><br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testCheckoutProcessAsUser -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.ui.CheckoutTest@305f7627]" started-at="2025-03-23T03:44:08 EET" name="tearDown" finished-at="2025-03-23T03:44:08 EET" duration-ms="359" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCheckoutProcessAsUser status=SUCCESS method=CheckoutTest.testCheckoutProcessAsUser()[pri:0, instance:tests.ui.CheckoutTest@305f7627] output=🟢 Test Started: testCheckoutProcessAsUser (🔢 Test Case ID: TC-073)]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(org.testng.ITestResult,org.testng.ITestContext)[pri:0, instance:tests.ui.CheckoutTest@305f7627]" started-at="2025-03-23T03:44:08 EET" name="setUp" finished-at="2025-03-23T03:44:26 EET" duration-ms="17750" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=CheckoutTest.verifyCheckoutPageLoads()[pri:0, instance:tests.ui.CheckoutTest@305f7627] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@78e97d4d]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyCheckoutPageLoads()[pri:0, instance:tests.ui.CheckoutTest@305f7627]" started-at="2025-03-23T03:44:26 EET" name="verifyCheckoutPageLoads" description="TC-004" finished-at="2025-03-23T03:44:35 EET" duration-ms="9338" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[🟢 Test Started: verifyCheckoutPageLoads (🔢 Test Case ID: TC-004)]]>
+            </line>
+            <line>
+              <![CDATA[
+🌍 Test Environment:
+🖥️ OS: Windows 11 10.0
+☕ Java Version: 23.0.1
+🌐 Browser: chrome 134.0.6998.118
+]]>
+            </line>
+            <line>
+              <![CDATA[✅ Test PASSED: verifyCheckoutPageLoads (Duration: 9337ms)]]>
+            </line>
+            <line>
+              <![CDATA[<br><img src='E:/Folder/Galal/Courses/Digital Egypt Pioneers Initiative (DEPI) - Software Testing/DEPI Software Tester Graduation Project/automation-framework/reports/screenshots\TC-004\TC-004_screenshot.png' height='300' width='400'/><br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyCheckoutPageLoads -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.ui.CheckoutTest@305f7627]" started-at="2025-03-23T03:44:35 EET" name="tearDown" finished-at="2025-03-23T03:44:36 EET" duration-ms="355" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyCheckoutPageLoads status=SUCCESS method=CheckoutTest.verifyCheckoutPageLoads()[pri:0, instance:tests.ui.CheckoutTest@305f7627] output=🟢 Test Started: verifyCheckoutPageLoads (🔢 Test Case ID: TC-004)]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(org.testng.ITestResult,org.testng.ITestContext)[pri:0, instance:tests.ui.CheckoutTest@305f7627]" started-at="2025-03-23T03:44:36 EET" name="setUp" finished-at="2025-03-23T03:44:53 EET" duration-ms="17141" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=CheckoutTest.verifyCheckoutProcessAsGuest()[pri:0, instance:tests.ui.CheckoutTest@305f7627] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@78e97d4d]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyCheckoutProcessAsGuest()[pri:0, instance:tests.ui.CheckoutTest@305f7627]" started-at="2025-03-23T03:44:53 EET" name="verifyCheckoutProcessAsGuest" description="TC-005_TC-006_TC-072" finished-at="2025-03-23T03:45:26 EET" duration-ms="33355" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[🟢 Test Started: verifyCheckoutProcessAsGuest (🔢 Test Case ID: TC-005_TC-006_TC-072)]]>
+            </line>
+            <line>
+              <![CDATA[
+🌍 Test Environment:
+🖥️ OS: Windows 11 10.0
+☕ Java Version: 23.0.1
+🌐 Browser: chrome 134.0.6998.118
+]]>
+            </line>
+            <line>
+              <![CDATA[✅ Test PASSED: verifyCheckoutProcessAsGuest (Duration: 33355ms)]]>
+            </line>
+            <line>
+              <![CDATA[<br><img src='E:/Folder/Galal/Courses/Digital Egypt Pioneers Initiative (DEPI) - Software Testing/DEPI Software Tester Graduation Project/automation-framework/reports/screenshots\TC-005_TC-006_TC-072\TC-005_TC-006_TC-072_screenshot.png' height='300' width='400'/><br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyCheckoutProcessAsGuest -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.ui.CheckoutTest@305f7627]" started-at="2025-03-23T03:45:26 EET" name="tearDown" finished-at="2025-03-23T03:45:27 EET" duration-ms="167" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyCheckoutProcessAsGuest status=SUCCESS method=CheckoutTest.verifyCheckoutProcessAsGuest()[pri:0, instance:tests.ui.CheckoutTest@305f7627] output=🟢 Test Started: verifyCheckoutProcessAsGuest (🔢 Test Case ID: TC-005_TC-006_TC-072)]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(org.testng.ITestResult,org.testng.ITestContext)[pri:0, instance:tests.ui.CheckoutTest@305f7627]" started-at="2025-03-23T03:45:27 EET" name="setUp" finished-at="2025-03-23T03:45:44 EET" duration-ms="17616" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=CheckoutTest.verifyDifferentPaymentOptionsAreAvailable()[pri:0, instance:tests.ui.CheckoutTest@305f7627] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@78e97d4d]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyDifferentPaymentOptionsAreAvailable()[pri:0, instance:tests.ui.CheckoutTest@305f7627]" started-at="2025-03-23T03:45:44 EET" name="verifyDifferentPaymentOptionsAreAvailable" description="TC-189" finished-at="2025-03-23T03:46:12 EET" duration-ms="28319" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[🟢 Test Started: verifyDifferentPaymentOptionsAreAvailable (🔢 Test Case ID: TC-189)]]>
+            </line>
+            <line>
+              <![CDATA[
+🌍 Test Environment:
+🖥️ OS: Windows 11 10.0
+☕ Java Version: 23.0.1
+🌐 Browser: chrome 134.0.6998.118
+]]>
+            </line>
+            <line>
+              <![CDATA[✅ Test PASSED: verifyDifferentPaymentOptionsAreAvailable (Duration: 28319ms)]]>
+            </line>
+            <line>
+              <![CDATA[<br><img src='E:/Folder/Galal/Courses/Digital Egypt Pioneers Initiative (DEPI) - Software Testing/DEPI Software Tester Graduation Project/automation-framework/reports/screenshots\TC-189\TC-189_screenshot.png' height='300' width='400'/><br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyDifferentPaymentOptionsAreAvailable -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.ui.CheckoutTest@305f7627]" started-at="2025-03-23T03:46:13 EET" name="tearDown" finished-at="2025-03-23T03:46:13 EET" duration-ms="202" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyDifferentPaymentOptionsAreAvailable status=SUCCESS method=CheckoutTest.verifyDifferentPaymentOptionsAreAvailable()[pri:0, instance:tests.ui.CheckoutTest@305f7627] output=🟢 Test Started: verifyDifferentPaymentOptionsAreAvailable (🔢 Test Case ID: TC-189)]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(org.testng.ITestResult,org.testng.ITestContext)[pri:0, instance:tests.ui.CheckoutTest@305f7627]" started-at="2025-03-23T03:46:13 EET" name="setUp" finished-at="2025-03-23T03:46:30 EET" duration-ms="17024" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=CheckoutTest.verifyInvalidAddressPreventsCheckout()[pri:0, instance:tests.ui.CheckoutTest@305f7627] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@78e97d4d]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyInvalidAddressPreventsCheckout()[pri:0, instance:tests.ui.CheckoutTest@305f7627]" started-at="2025-03-23T03:46:30 EET" name="verifyInvalidAddressPreventsCheckout" description="TC-080" finished-at="2025-03-23T03:46:55 EET" duration-ms="24804" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[🟢 Test Started: verifyInvalidAddressPreventsCheckout (🔢 Test Case ID: TC-080)]]>
+            </line>
+            <line>
+              <![CDATA[
+🌍 Test Environment:
+🖥️ OS: Windows 11 10.0
+☕ Java Version: 23.0.1
+🌐 Browser: chrome 134.0.6998.118
+]]>
+            </line>
+            <line>
+              <![CDATA[✅ Test PASSED: verifyInvalidAddressPreventsCheckout (Duration: 24805ms)]]>
+            </line>
+            <line>
+              <![CDATA[<br><img src='E:/Folder/Galal/Courses/Digital Egypt Pioneers Initiative (DEPI) - Software Testing/DEPI Software Tester Graduation Project/automation-framework/reports/screenshots\TC-080\TC-080_screenshot.png' height='300' width='400'/><br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyInvalidAddressPreventsCheckout -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.ui.CheckoutTest@305f7627]" started-at="2025-03-23T03:46:55 EET" name="tearDown" finished-at="2025-03-23T03:46:55 EET" duration-ms="260" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyInvalidAddressPreventsCheckout status=SUCCESS method=CheckoutTest.verifyInvalidAddressPreventsCheckout()[pri:0, instance:tests.ui.CheckoutTest@305f7627] output=🟢 Test Started: verifyInvalidAddressPreventsCheckout (🔢 Test Case ID: TC-080)]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(org.testng.ITestResult,org.testng.ITestContext)[pri:0, instance:tests.ui.CheckoutTest@305f7627]" started-at="2025-03-23T03:46:55 EET" name="setUp" finished-at="2025-03-23T03:47:12 EET" duration-ms="17308" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=CheckoutTest.verifyOrderIsGenerated()[pri:0, instance:tests.ui.CheckoutTest@305f7627] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@78e97d4d]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyOrderIsGenerated()[pri:0, instance:tests.ui.CheckoutTest@305f7627]" started-at="2025-03-23T03:47:12 EET" name="verifyOrderIsGenerated" description="TC-081" finished-at="2025-03-23T03:47:44 EET" duration-ms="31370" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[🟢 Test Started: verifyOrderIsGenerated (🔢 Test Case ID: TC-081)]]>
+            </line>
+            <line>
+              <![CDATA[
+🌍 Test Environment:
+🖥️ OS: Windows 11 10.0
+☕ Java Version: 23.0.1
+🌐 Browser: chrome 134.0.6998.118
+]]>
+            </line>
+            <line>
+              <![CDATA[✅ Test PASSED: verifyOrderIsGenerated (Duration: 31370ms)]]>
+            </line>
+            <line>
+              <![CDATA[<br><img src='E:/Folder/Galal/Courses/Digital Egypt Pioneers Initiative (DEPI) - Software Testing/DEPI Software Tester Graduation Project/automation-framework/reports/screenshots\TC-081\TC-081_screenshot.png' height='300' width='400'/><br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyOrderIsGenerated -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.ui.CheckoutTest@305f7627]" started-at="2025-03-23T03:47:44 EET" name="tearDown" finished-at="2025-03-23T03:47:44 EET" duration-ms="345" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyOrderIsGenerated status=SUCCESS method=CheckoutTest.verifyOrderIsGenerated()[pri:0, instance:tests.ui.CheckoutTest@305f7627] output=🟢 Test Started: verifyOrderIsGenerated (🔢 Test Case ID: TC-081)]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(org.testng.ITestResult,org.testng.ITestContext)[pri:0, instance:tests.ui.CheckoutTest@305f7627]" started-at="2025-03-23T03:47:44 EET" name="setUp" finished-at="2025-03-23T03:48:01 EET" duration-ms="17282" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=CheckoutTest.verifyOrderSummaryDisplaysCorrectInfo()[pri:0, instance:tests.ui.CheckoutTest@305f7627] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@78e97d4d]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyOrderSummaryDisplaysCorrectInfo()[pri:0, instance:tests.ui.CheckoutTest@305f7627]" started-at="2025-03-23T03:48:01 EET" name="verifyOrderSummaryDisplaysCorrectInfo" description="TC-187" finished-at="2025-03-23T03:48:29 EET" duration-ms="27695" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[🟢 Test Started: verifyOrderSummaryDisplaysCorrectInfo (🔢 Test Case ID: TC-187)]]>
+            </line>
+            <line>
+              <![CDATA[
+🌍 Test Environment:
+🖥️ OS: Windows 11 10.0
+☕ Java Version: 23.0.1
+🌐 Browser: chrome 134.0.6998.118
+]]>
+            </line>
+            <line>
+              <![CDATA[✅ Test PASSED: verifyOrderSummaryDisplaysCorrectInfo (Duration: 27696ms)]]>
+            </line>
+            <line>
+              <![CDATA[<br><img src='E:/Folder/Galal/Courses/Digital Egypt Pioneers Initiative (DEPI) - Software Testing/DEPI Software Tester Graduation Project/automation-framework/reports/screenshots\TC-187\TC-187_screenshot.png' height='300' width='400'/><br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyOrderSummaryDisplaysCorrectInfo -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.ui.CheckoutTest@305f7627]" started-at="2025-03-23T03:48:29 EET" name="tearDown" finished-at="2025-03-23T03:48:30 EET" duration-ms="339" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyOrderSummaryDisplaysCorrectInfo status=SUCCESS method=CheckoutTest.verifyOrderSummaryDisplaysCorrectInfo()[pri:0, instance:tests.ui.CheckoutTest@305f7627] output=🟢 Test Started: verifyOrderSummaryDisplaysCorrectInfo (🔢 Test Case ID: TC-187)]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.ui.CheckoutTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

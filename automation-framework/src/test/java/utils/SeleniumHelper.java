@@ -47,11 +47,33 @@ public class SeleniumHelper {
         }
     }
 
+    public static String getProductName(String key) {
+        String value = ConfigReader.getProperty(key); // Read the property value
+        if (value != null && value.startsWith("productName=")) {
+            return value.substring(12); // Remove "productName=" and return the rest
+        }
+        return value; // Return as is if no prefix exists
+    }
+
+    public static String getProductID(String key) {
+        String value = ConfigReader.getProperty(key);
+        if (value != null && value.startsWith("productId=")) {
+            return value.substring(10); // Remove "productId=" and return the rest
+        }
+        return value; // Return as is if no prefix exists
+    }
+
     // Wait for the page title to contain a specific text
     public void waitForTitleContains(String title, int timeoutInSeconds) {
         WebDriverWait customWait = new WebDriverWait(driver, Duration.ofSeconds(timeoutInSeconds));
         customWait.until(ExpectedConditions.titleContains(title));
     }
+
+    public void waitForAttributeToLoad(WebElement element, String attribute, String expectedValue) {
+        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+        wait.until(ExpectedConditions.attributeContains(element, attribute, expectedValue));
+    }
+
 
     // Get the current page title
     public String getPageTitle() {
@@ -62,6 +84,17 @@ public class SeleniumHelper {
     public WebElement waitForVisibility(By locator) {
         return wait.until(ExpectedConditions.visibilityOfElementLocated(locator));
     }
+
+    // Wait for an element to be present in the DOM
+    public WebElement waitForPresence(By locator) {
+        return wait.until(ExpectedConditions.presenceOfElementLocated(locator));
+    }
+
+    // Wait for all elements to be present
+    public List<WebElement> waitForAllElementsPresence(By locator) {
+        return wait.until(ExpectedConditions.presenceOfAllElementsLocatedBy(locator));
+    }
+
 
     // Wait for an element to be clickable
     public WebElement waitForClickable(By locator) {
@@ -154,4 +187,14 @@ public class SeleniumHelper {
         js.executeScript("window.scrollBy(0," + scrollAmount + ");");
     }
 
+    // Helper method to check if an alert is present
+    public boolean isAlertPresent() {
+        try {
+            Alert alert = driver.switchTo().alert();
+            alert.dismiss(); // Close the alert if present
+            return true;
+        } catch (Exception e) {
+            return false; // No alert present
+        }
+    }
 }

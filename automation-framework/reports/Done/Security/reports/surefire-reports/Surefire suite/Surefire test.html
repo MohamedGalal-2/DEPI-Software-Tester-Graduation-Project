@@ -1,0 +1,389 @@
+<html>
+<head>
+<title>TestNG:  Surefire test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Surefire test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>3/4/0</td>
+</tr><tr>
+<td>Started on:</td><td>Tue Mar 25 01:15:23 EET 2025</td>
+</tr>
+<tr><td>Total time:</td><td>328 seconds (328129 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='tests.ui.SecurityTest.verifyProtectionAgainstXSS()'><b>verifyProtectionAgainstXSS</b><br>Test class: tests.ui.SecurityTest<br>Test method: TC-126<br/>
+<a href="#Output-1337870444" onClick='toggleBox("Output-1337870444", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1337870444" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1337870444">
+🟢 Test Started: verifyProtectionAgainstXSS (🔢 Test Case ID: TC-126)<br/>
+
+🌍 Test Environment:
+🖥️ OS: Windows 11 10.0
+☕ Java Version: 23.0.1
+🌐 Browser: chrome 134.0.6998.118
+<br/>
+❌ Test FAILED: verifyProtectionAgainstXSS - XSS attack successful: payload is reflected in the Email field. expected [false] but found [true]<br/>
+<br><img src='E:/Folder/Galal/Courses/Digital Egypt Pioneers Initiative (DEPI) - Software Testing/DEPI Software Tester Graduation Project/automation-framework/reports/screenshots\TC-126\TC-126_screenshot.png' height='300' width='400'/><br><br/>
+</div>
+</td>
+<td><div><pre>java.lang.AssertionError: XSS attack successful: payload is reflected in the Email field. expected [false] but found [true]
+	at tests.ui.SecurityTest.verifyProtectionAgainstXSS(SecurityTest.java:277)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+... Removed 33 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1337870444", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1337870444'><pre>java.lang.AssertionError: XSS attack successful: payload is reflected in the Email field. expected [false] but found [true]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1590)
+	at org.testng.Assert.assertFalse(Assert.java:79)
+	at tests.ui.SecurityTest.verifyProtectionAgainstXSS(SecurityTest.java:277)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeSingleClass(TestNGDirectoryTestSuite.java:102)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:91)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+</pre></div></td>
+<td>1</td>
+<td>tests.ui.SecurityTest@305f7627</td></tr>
+<tr>
+<td title='tests.ui.SecurityTest.verifyPaymentGatewaySecurity()'><b>verifyPaymentGatewaySecurity</b><br>Test class: tests.ui.SecurityTest<br>Test method: TC-091<br/>
+<a href="#Output-414915464" onClick='toggleBox("Output-414915464", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-414915464" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-414915464">
+🟢 Test Started: verifyPaymentGatewaySecurity (🔢 Test Case ID: TC-091)<br/>
+
+🌍 Test Environment:
+🖥️ OS: Windows 11 10.0
+☕ Java Version: 23.0.1
+🌐 Browser: chrome 134.0.6998.118
+<br/>
+❌ Test FAILED: verifyPaymentGatewaySecurity - Card number is stored in plaintext. It should be encrypted or masked. expected [false] but found [true]<br/>
+<br><img src='E:/Folder/Galal/Courses/Digital Egypt Pioneers Initiative (DEPI) - Software Testing/DEPI Software Tester Graduation Project/automation-framework/reports/screenshots\TC-091\TC-091_screenshot.png' height='300' width='400'/><br><br/>
+</div>
+</td>
+<td><div><pre>java.lang.AssertionError: Card number is stored in plaintext. It should be encrypted or masked. expected [false] but found [true]
+	at tests.ui.SecurityTest.verifyPaymentGatewaySecurity(SecurityTest.java:186)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+... Removed 33 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace414915464", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace414915464'><pre>java.lang.AssertionError: Card number is stored in plaintext. It should be encrypted or masked. expected [false] but found [true]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1590)
+	at org.testng.Assert.assertFalse(Assert.java:79)
+	at tests.ui.SecurityTest.verifyPaymentGatewaySecurity(SecurityTest.java:186)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeSingleClass(TestNGDirectoryTestSuite.java:102)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:91)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+</pre></div></td>
+<td>32</td>
+<td>tests.ui.SecurityTest@305f7627</td></tr>
+<tr>
+<td title='tests.ui.SecurityTest.verifyPasswordStrengthRequirements()'><b>verifyPasswordStrengthRequirements</b><br>Test class: tests.ui.SecurityTest<br>Test method: TC-034<br/>
+<a href="#Output-1904600593" onClick='toggleBox("Output-1904600593", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1904600593" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1904600593">
+🟢 Test Started: verifyPasswordStrengthRequirements (🔢 Test Case ID: TC-034)<br/>
+
+🌍 Test Environment:
+🖥️ OS: Windows 11 10.0
+☕ Java Version: 23.0.1
+🌐 Browser: chrome 134.0.6998.118
+<br/>
+❌ Test FAILED: verifyPasswordStrengthRequirements - Error message did not include 'at least 8 characters' requirement. expected [true] but found [false]<br/>
+<br><img src='E:/Folder/Galal/Courses/Digital Egypt Pioneers Initiative (DEPI) - Software Testing/DEPI Software Tester Graduation Project/automation-framework/reports/screenshots\TC-034\TC-034_screenshot.png' height='300' width='400'/><br><br/>
+</div>
+</td>
+<td><div><pre>java.lang.AssertionError: Error message did not include &apos;at least 8 characters&apos; requirement. expected [true] but found [false]
+	at tests.ui.SecurityTest.verifyPasswordStrengthRequirements(SecurityTest.java:149)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+... Removed 33 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1904600593", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1904600593'><pre>java.lang.AssertionError: Error message did not include &apos;at least 8 characters&apos; requirement. expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1590)
+	at org.testng.Assert.assertTrue(Assert.java:57)
+	at tests.ui.SecurityTest.verifyPasswordStrengthRequirements(SecurityTest.java:149)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeSingleClass(TestNGDirectoryTestSuite.java:102)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:91)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+</pre></div></td>
+<td>8</td>
+<td>tests.ui.SecurityTest@305f7627</td></tr>
+<tr>
+<td title='tests.ui.SecurityTest.verifyAccountLockoutAfterMultipleFailedLoginAttempts()'><b>verifyAccountLockoutAfterMultipleFailedLoginAttempts</b><br>Test class: tests.ui.SecurityTest<br>Test method: TC-027<br/>
+<a href="#Output-151190974" onClick='toggleBox("Output-151190974", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-151190974" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-151190974">
+🟢 Test Started: verifyAccountLockoutAfterMultipleFailedLoginAttempts (🔢 Test Case ID: TC-027)<br/>
+
+🌍 Test Environment:
+🖥️ OS: Windows 11 10.0
+☕ Java Version: 23.0.1
+🌐 Browser: chrome 134.0.6998.118
+<br/>
+❌ Test FAILED: verifyAccountLockoutAfterMultipleFailedLoginAttempts - Account was not locked after multiple failed login attempts. expected [true] but found [false]<br/>
+<br><img src='E:/Folder/Galal/Courses/Digital Egypt Pioneers Initiative (DEPI) - Software Testing/DEPI Software Tester Graduation Project/automation-framework/reports/screenshots\TC-027\TC-027_screenshot.png' height='300' width='400'/><br><br/>
+</div>
+</td>
+<td><div><pre>java.lang.AssertionError: Account was not locked after multiple failed login attempts. expected [true] but found [false]
+	at tests.ui.SecurityTest.verifyAccountLockoutAfterMultipleFailedLoginAttempts(SecurityTest.java:102)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+... Removed 33 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace151190974", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace151190974'><pre>java.lang.AssertionError: Account was not locked after multiple failed login attempts. expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1590)
+	at org.testng.Assert.assertTrue(Assert.java:57)
+	at tests.ui.SecurityTest.verifyAccountLockoutAfterMultipleFailedLoginAttempts(SecurityTest.java:102)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeSingleClass(TestNGDirectoryTestSuite.java:102)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:91)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+</pre></div></td>
+<td>92</td>
+<td>tests.ui.SecurityTest@305f7627</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='tests.ui.SecurityTest.verifySessionHandling()'><b>verifySessionHandling</b><br>Test class: tests.ui.SecurityTest<br>Test method: TC-021<br/>
+<a href="#Output-1470726905" onClick='toggleBox("Output-1470726905", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1470726905" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1470726905">
+🟢 Test Started: verifySessionHandling (🔢 Test Case ID: TC-021)<br/>
+
+🌍 Test Environment:
+🖥️ OS: Windows 11 10.0
+☕ Java Version: 23.0.1
+🌐 Browser: chrome 134.0.6998.118
+<br/>
+✅ Test PASSED: verifySessionHandling (Duration: 17272ms)<br/>
+<br><img src='E:/Folder/Galal/Courses/Digital Egypt Pioneers Initiative (DEPI) - Software Testing/DEPI Software Tester Graduation Project/automation-framework/reports/screenshots\TC-021\TC-021_screenshot.png' height='300' width='400'/><br><br/>
+</div>
+</td>
+<td></td>
+<td>17</td>
+<td>tests.ui.SecurityTest@305f7627</td></tr>
+<tr>
+<td title='tests.ui.SecurityTest.verifyHTTPSProtocol()'><b>verifyHTTPSProtocol</b><br>Test class: tests.ui.SecurityTest<br>Test method: TC-292<br/>
+<a href="#Output-1263153064" onClick='toggleBox("Output-1263153064", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1263153064" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1263153064">
+🟢 Test Started: verifyHTTPSProtocol (🔢 Test Case ID: TC-292)<br/>
+
+🌍 Test Environment:
+🖥️ OS: Windows 11 10.0
+☕ Java Version: 23.0.1
+🌐 Browser: chrome 134.0.6998.118
+<br/>
+✅ Test PASSED: verifyHTTPSProtocol (Duration: 19358ms)<br/>
+<br><img src='E:/Folder/Galal/Courses/Digital Egypt Pioneers Initiative (DEPI) - Software Testing/DEPI Software Tester Graduation Project/automation-framework/reports/screenshots\TC-292\TC-292_screenshot.png' height='300' width='400'/><br><br/>
+</div>
+</td>
+<td></td>
+<td>19</td>
+<td>tests.ui.SecurityTest@305f7627</td></tr>
+<tr>
+<td title='tests.ui.SecurityTest.verifyChangePasswordFromDashboard()'><b>verifyChangePasswordFromDashboard</b><br>Test class: tests.ui.SecurityTest<br>Test method: TC-118<br/>
+<a href="#Output-850300711" onClick='toggleBox("Output-850300711", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-850300711" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-850300711">
+🟢 Test Started: verifyChangePasswordFromDashboard (🔢 Test Case ID: TC-118)<br/>
+
+🌍 Test Environment:
+🖥️ OS: Windows 11 10.0
+☕ Java Version: 23.0.1
+🌐 Browser: chrome 134.0.6998.118
+<br/>
+✅ Test PASSED: verifyChangePasswordFromDashboard (Duration: 35755ms)<br/>
+<br><img src='E:/Folder/Galal/Courses/Digital Egypt Pioneers Initiative (DEPI) - Software Testing/DEPI Software Tester Graduation Project/automation-framework/reports/screenshots\TC-118\TC-118_screenshot.png' height='300' width='400'/><br><br/>
+</div>
+</td>
+<td></td>
+<td>35</td>
+<td>tests.ui.SecurityTest@305f7627</td></tr>
+</table><p>
+</body>
+</html>

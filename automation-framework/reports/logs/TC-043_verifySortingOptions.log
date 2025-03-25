@@ -1,0 +1,153 @@
+2025-03-24 23:05:17 [main] INFO  TC-043_verifySortingOptions - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-03-24 23:05:17 [main] INFO  TC-043_verifySortingOptions - Logger initialized
+2025-03-24 23:05:17 [main] INFO  TC-043_verifySortingOptions - Starting test setup for: verifySortingOptions (🔢 Test Case ID: TC-043)
+2025-03-24 23:05:41 [main] INFO  TC-043_verifySortingOptions - Navigated to the site: https://demo.nopcommerce.com
+2025-03-24 23:05:41 [main] INFO  TC-043_verifySortingOptions - Injected cookie: _ga
+2025-03-24 23:05:41 [main] INFO  TC-043_verifySortingOptions - Injected cookie: cf_clearance
+2025-03-24 23:05:41 [main] INFO  TC-043_verifySortingOptions - Injected cookie: .Nop.Antiforgery
+2025-03-24 23:05:41 [main] INFO  TC-043_verifySortingOptions - Injected cookie: .Nop.Customer
+2025-03-24 23:05:41 [main] INFO  TC-043_verifySortingOptions - Injected cookie: .Nop.Culture
+2025-03-24 23:05:41 [main] INFO  TC-043_verifySortingOptions - Injected cookie: _ga_SCT41TW89V
+2025-03-24 23:05:42 [main] INFO  TC-043_verifySortingOptions - Page refreshed with bypassed cookies.
+2025-03-24 23:05:42 [main] INFO  TC-043_verifySortingOptions - Navigating to: https://demo.nopcommerce.com/
+2025-03-24 23:05:42 [main] INFO  utils.MainFunctionalities - Searching for product: Computer
+2025-03-24 23:05:48 [main] INFO  utils.MainFunctionalities - Search for 'Computer' completed successfully.
+2025-03-24 23:05:58 [main] INFO  TC-043_verifySortingOptions - Closing the browser for test: verifySortingOptions
+2025-03-24 23:05:58 [main] INFO  TC-043_verifySortingOptions - Browser closed.
+2025-03-24 23:10:13 [main] INFO  TC-043_verifySortingOptions - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-03-24 23:10:13 [main] INFO  TC-043_verifySortingOptions - Logger initialized
+2025-03-24 23:10:13 [main] INFO  TC-043_verifySortingOptions - Starting test setup for: verifySortingOptions (🔢 Test Case ID: TC-043)
+2025-03-24 23:10:37 [main] INFO  TC-043_verifySortingOptions - Navigated to the site: https://demo.nopcommerce.com
+2025-03-24 23:10:37 [main] INFO  TC-043_verifySortingOptions - Injected cookie: _ga
+2025-03-24 23:10:37 [main] INFO  TC-043_verifySortingOptions - Injected cookie: cf_clearance
+2025-03-24 23:10:37 [main] INFO  TC-043_verifySortingOptions - Injected cookie: .Nop.Antiforgery
+2025-03-24 23:10:37 [main] INFO  TC-043_verifySortingOptions - Injected cookie: .Nop.Customer
+2025-03-24 23:10:37 [main] INFO  TC-043_verifySortingOptions - Injected cookie: .Nop.Culture
+2025-03-24 23:10:37 [main] INFO  TC-043_verifySortingOptions - Injected cookie: _ga_SCT41TW89V
+2025-03-24 23:10:38 [main] INFO  TC-043_verifySortingOptions - Page refreshed with bypassed cookies.
+2025-03-24 23:10:38 [main] INFO  TC-043_verifySortingOptions - Navigating to: https://demo.nopcommerce.com/
+2025-03-24 23:10:39 [main] INFO  utils.MainFunctionalities - Searching for product: Computer
+2025-03-24 23:10:44 [main] INFO  utils.MainFunctionalities - Search for 'Computer' completed successfully.
+2025-03-24 23:10:52 [main] INFO  TC-043_verifySortingOptions - Closing the browser for test: verifySortingOptions
+2025-03-24 23:10:54 [main] INFO  TC-043_verifySortingOptions - Browser closed.
+2025-03-24 23:13:38 [main] INFO  TC-043_verifySortingOptions - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-03-24 23:13:38 [main] INFO  TC-043_verifySortingOptions - Logger initialized
+2025-03-24 23:13:38 [main] INFO  TC-043_verifySortingOptions - Starting test setup for: verifySortingOptions (🔢 Test Case ID: TC-043)
+2025-03-24 23:14:00 [main] INFO  TC-043_verifySortingOptions - Navigated to the site: https://demo.nopcommerce.com
+2025-03-24 23:14:00 [main] INFO  TC-043_verifySortingOptions - Injected cookie: cf_clearance
+2025-03-24 23:14:00 [main] INFO  TC-043_verifySortingOptions - Injected cookie: _ga
+2025-03-24 23:14:00 [main] INFO  TC-043_verifySortingOptions - Injected cookie: .Nop.Antiforgery
+2025-03-24 23:14:00 [main] INFO  TC-043_verifySortingOptions - Injected cookie: .Nop.Customer
+2025-03-24 23:14:00 [main] INFO  TC-043_verifySortingOptions - Injected cookie: .Nop.Culture
+2025-03-24 23:14:00 [main] INFO  TC-043_verifySortingOptions - Injected cookie: _ga_SCT41TW89V
+2025-03-24 23:14:01 [main] INFO  TC-043_verifySortingOptions - Page refreshed with bypassed cookies.
+2025-03-24 23:14:01 [main] INFO  TC-043_verifySortingOptions - Navigating to: https://demo.nopcommerce.com/
+2025-03-24 23:14:02 [main] INFO  utils.MainFunctionalities - Searching for product: Computer
+2025-03-24 23:14:06 [main] INFO  utils.MainFunctionalities - Search for 'Computer' completed successfully.
+2025-03-24 23:14:18 [main] INFO  TC-043_verifySortingOptions - Closing the browser for test: verifySortingOptions
+2025-03-24 23:14:19 [main] INFO  TC-043_verifySortingOptions - Browser closed.
+2025-03-24 23:14:47 [main] INFO  TC-043_verifySortingOptions - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-03-24 23:14:47 [main] INFO  TC-043_verifySortingOptions - Logger initialized
+2025-03-24 23:14:47 [main] INFO  TC-043_verifySortingOptions - Starting test setup for: verifySortingOptions (🔢 Test Case ID: TC-043)
+2025-03-24 23:15:10 [main] INFO  TC-043_verifySortingOptions - Navigated to the site: https://demo.nopcommerce.com
+2025-03-24 23:15:10 [main] INFO  TC-043_verifySortingOptions - Injected cookie: cf_clearance
+2025-03-24 23:15:10 [main] INFO  TC-043_verifySortingOptions - Injected cookie: _ga
+2025-03-24 23:15:10 [main] INFO  TC-043_verifySortingOptions - Injected cookie: .Nop.Antiforgery
+2025-03-24 23:15:10 [main] INFO  TC-043_verifySortingOptions - Injected cookie: .Nop.Customer
+2025-03-24 23:15:10 [main] INFO  TC-043_verifySortingOptions - Injected cookie: .Nop.Culture
+2025-03-24 23:15:10 [main] INFO  TC-043_verifySortingOptions - Injected cookie: _ga_SCT41TW89V
+2025-03-24 23:15:11 [main] INFO  TC-043_verifySortingOptions - Page refreshed with bypassed cookies.
+2025-03-24 23:15:11 [main] INFO  TC-043_verifySortingOptions - Navigating to: https://demo.nopcommerce.com/
+2025-03-24 23:15:12 [main] INFO  utils.MainFunctionalities - Searching for product: Computer
+2025-03-24 23:15:18 [main] INFO  utils.MainFunctionalities - Search for 'Computer' completed successfully.
+2025-03-24 23:15:28 [main] INFO  TC-043_verifySortingOptions - Closing the browser for test: verifySortingOptions
+2025-03-24 23:15:28 [main] INFO  TC-043_verifySortingOptions - Browser closed.
+2025-03-24 23:16:27 [main] INFO  TC-043_verifySortingOptions - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-03-24 23:16:27 [main] INFO  TC-043_verifySortingOptions - Logger initialized
+2025-03-24 23:16:27 [main] INFO  TC-043_verifySortingOptions - Starting test setup for: verifySortingOptions (🔢 Test Case ID: TC-043)
+2025-03-24 23:16:50 [main] INFO  TC-043_verifySortingOptions - Navigated to the site: https://demo.nopcommerce.com
+2025-03-24 23:16:50 [main] INFO  TC-043_verifySortingOptions - Injected cookie: _ga
+2025-03-24 23:16:50 [main] INFO  TC-043_verifySortingOptions - Injected cookie: cf_clearance
+2025-03-24 23:16:50 [main] INFO  TC-043_verifySortingOptions - Injected cookie: .Nop.Antiforgery
+2025-03-24 23:16:50 [main] INFO  TC-043_verifySortingOptions - Injected cookie: .Nop.Customer
+2025-03-24 23:16:50 [main] INFO  TC-043_verifySortingOptions - Injected cookie: .Nop.Culture
+2025-03-24 23:16:50 [main] INFO  TC-043_verifySortingOptions - Injected cookie: _ga_SCT41TW89V
+2025-03-24 23:16:51 [main] INFO  TC-043_verifySortingOptions - Page refreshed with bypassed cookies.
+2025-03-24 23:16:51 [main] INFO  TC-043_verifySortingOptions - Navigating to: https://demo.nopcommerce.com/
+2025-03-24 23:16:51 [main] INFO  utils.MainFunctionalities - Searching for product: Computer
+2025-03-24 23:16:58 [main] INFO  utils.MainFunctionalities - Search for 'Computer' completed successfully.
+2025-03-24 23:17:01 [main] INFO  utils.MainFunctionalities - Sorting verified successfully for: Price: Low to High
+2025-03-24 23:17:03 [main] INFO  utils.MainFunctionalities - Sorting verified successfully for: Price: High to Low
+2025-03-24 23:17:11 [main] INFO  TC-043_verifySortingOptions - Closing the browser for test: verifySortingOptions
+2025-03-24 23:17:12 [main] INFO  TC-043_verifySortingOptions - Browser closed.
+2025-03-24 23:19:04 [main] INFO  TC-043_verifySortingOptions - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-03-24 23:19:04 [main] INFO  TC-043_verifySortingOptions - Logger initialized
+2025-03-24 23:19:04 [main] INFO  TC-043_verifySortingOptions - Starting test setup for: verifySortingOptions (🔢 Test Case ID: TC-043)
+2025-03-24 23:19:26 [main] INFO  TC-043_verifySortingOptions - Navigated to the site: https://demo.nopcommerce.com
+2025-03-24 23:19:26 [main] INFO  TC-043_verifySortingOptions - Injected cookie: _ga
+2025-03-24 23:19:26 [main] INFO  TC-043_verifySortingOptions - Injected cookie: cf_clearance
+2025-03-24 23:19:26 [main] INFO  TC-043_verifySortingOptions - Injected cookie: .Nop.Antiforgery
+2025-03-24 23:19:26 [main] INFO  TC-043_verifySortingOptions - Injected cookie: .Nop.Customer
+2025-03-24 23:19:26 [main] INFO  TC-043_verifySortingOptions - Injected cookie: .Nop.Culture
+2025-03-24 23:19:26 [main] INFO  TC-043_verifySortingOptions - Injected cookie: _ga_SCT41TW89V
+2025-03-24 23:19:27 [main] INFO  TC-043_verifySortingOptions - Page refreshed with bypassed cookies.
+2025-03-24 23:19:27 [main] INFO  TC-043_verifySortingOptions - Navigating to: https://demo.nopcommerce.com/
+2025-03-24 23:19:28 [main] INFO  utils.MainFunctionalities - Searching for product: Computer
+2025-03-24 23:19:33 [main] INFO  utils.MainFunctionalities - Search for 'Computer' completed successfully.
+2025-03-24 23:19:38 [main] INFO  utils.MainFunctionalities - Sorting verified successfully for: Price: Low to High
+2025-03-24 23:19:41 [main] INFO  utils.MainFunctionalities - Sorting verified successfully for: Price: High to Low
+2025-03-24 23:19:42 [main] INFO  utils.MainFunctionalities - Sorting verified successfully for: Name: A to Z
+2025-03-24 23:19:44 [main] INFO  utils.MainFunctionalities - Sorting verified successfully for: Name: Z to A
+2025-03-24 23:19:44 [main] INFO  TC-043_verifySortingOptions - Closing the browser for test: verifySortingOptions
+2025-03-24 23:19:44 [main] INFO  TC-043_verifySortingOptions - Browser closed.
+2025-03-25 00:03:58 [main] INFO  TC-043_verifySortingOptions - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-03-25 00:03:58 [main] INFO  TC-043_verifySortingOptions - Logger initialized
+2025-03-25 00:03:58 [main] INFO  TC-043_verifySortingOptions - Starting test setup for: verifySortingOptions (🔢 Test Case ID: TC-043)
+2025-03-25 00:04:17 [main] INFO  TC-043_verifySortingOptions - Navigated to the site: https://demo.nopcommerce.com
+2025-03-25 00:04:17 [main] INFO  TC-043_verifySortingOptions - Injected cookie: cf_clearance
+2025-03-25 00:04:17 [main] INFO  TC-043_verifySortingOptions - Injected cookie: _ga
+2025-03-25 00:04:17 [main] INFO  TC-043_verifySortingOptions - Injected cookie: .Nop.Antiforgery
+2025-03-25 00:04:17 [main] INFO  TC-043_verifySortingOptions - Injected cookie: .Nop.Customer
+2025-03-25 00:04:17 [main] INFO  TC-043_verifySortingOptions - Injected cookie: .Nop.Culture
+2025-03-25 00:04:17 [main] INFO  TC-043_verifySortingOptions - Injected cookie: _ga_SCT41TW89V
+2025-03-25 00:04:18 [main] INFO  TC-043_verifySortingOptions - Page refreshed with bypassed cookies.
+2025-03-25 00:04:18 [main] INFO  TC-043_verifySortingOptions - Navigating to: https://demo.nopcommerce.com/
+2025-03-25 00:04:18 [main] INFO  utils.MainFunctionalities - Searching for product: Computer
+2025-03-25 00:04:23 [main] INFO  utils.MainFunctionalities - Search for 'Computer' completed successfully.
+2025-03-25 00:04:28 [main] INFO  utils.MainFunctionalities - Sorting verified successfully for: Price: Low to High
+2025-03-25 00:04:30 [main] INFO  utils.MainFunctionalities - Sorting verified successfully for: Price: High to Low
+2025-03-25 00:04:32 [main] INFO  utils.MainFunctionalities - Sorting verified successfully for: Name: A to Z
+2025-03-25 00:04:33 [main] INFO  utils.MainFunctionalities - Sorting verified successfully for: Name: Z to A
+2025-03-25 00:04:33 [main] INFO  TC-043_verifySortingOptions - Closing the browser for test: verifySortingOptions
+2025-03-25 00:04:34 [main] INFO  TC-043_verifySortingOptions - Browser closed.
+2025-03-25 00:24:04 [main] INFO  TC-043_verifySortingOptions - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-03-25 00:24:04 [main] INFO  TC-043_verifySortingOptions - Logger initialized
+2025-03-25 00:24:04 [main] INFO  TC-043_verifySortingOptions - Starting test setup for: verifySortingOptions (🔢 Test Case ID: TC-043)
+2025-03-25 00:24:26 [main] INFO  TC-043_verifySortingOptions - Navigated to the site: https://demo.nopcommerce.com
+2025-03-25 00:24:26 [main] INFO  TC-043_verifySortingOptions - Injected cookie: cf_clearance
+2025-03-25 00:24:26 [main] INFO  TC-043_verifySortingOptions - Injected cookie: _ga
+2025-03-25 00:24:26 [main] INFO  TC-043_verifySortingOptions - Injected cookie: .Nop.Antiforgery
+2025-03-25 00:24:26 [main] INFO  TC-043_verifySortingOptions - Injected cookie: .Nop.Customer
+2025-03-25 00:24:26 [main] INFO  TC-043_verifySortingOptions - Injected cookie: .Nop.Culture
+2025-03-25 00:24:26 [main] INFO  TC-043_verifySortingOptions - Injected cookie: _ga_SCT41TW89V
+2025-03-25 00:24:27 [main] INFO  TC-043_verifySortingOptions - Page refreshed with bypassed cookies.
+2025-03-25 00:24:27 [main] INFO  TC-043_verifySortingOptions - 🟢 Starting test: verifySortingOptions (🔢 Test Case ID: TC-043)
+2025-03-25 00:24:27 [main] INFO  TC-043_verifySortingOptions - Navigating to: https://demo.nopcommerce.com/
+2025-03-25 00:24:28 [main] INFO  utils.MainFunctionalities - Searching for product: Computer
+2025-03-25 00:24:33 [main] INFO  utils.MainFunctionalities - Search for 'Computer' completed successfully.
+2025-03-25 00:24:37 [main] INFO  utils.MainFunctionalities - Sorting verified successfully for: Price: Low to High
+2025-03-25 00:24:39 [main] INFO  utils.MainFunctionalities - Sorting verified successfully for: Price: High to Low
+2025-03-25 00:24:41 [main] INFO  utils.MainFunctionalities - Sorting verified successfully for: Name: A to Z
+2025-03-25 00:24:44 [main] INFO  utils.MainFunctionalities - Sorting verified successfully for: Name: Z to A
+2025-03-25 00:24:44 [main] INFO  listeners.TestListener - ✅ Test PASSED: verifySortingOptions (Duration: 16910ms)
+2025-03-25 00:24:44 [main] INFO  TC-043_verifySortingOptions - Closing the browser for test: verifySortingOptions
+2025-03-25 00:24:45 [main] INFO  TC-043_verifySortingOptions - Browser closed.
+2025-03-25 00:24:45 [main] INFO  listeners.TestListener - 🏁 Finished Test Suite: Surefire test

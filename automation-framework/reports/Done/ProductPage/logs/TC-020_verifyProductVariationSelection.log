@@ -1,0 +1,281 @@
+2025-03-22 15:20:13 [main] INFO  TC-020_verifyProductVariationSelection - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-03-22 15:20:13 [main] INFO  TC-020_verifyProductVariationSelection - Logger initialized
+2025-03-22 15:20:13 [main] INFO  TC-020_verifyProductVariationSelection - Starting test setup for: verifyProductVariationSelection (🔢 Test Case ID: TC-020)
+2025-03-22 15:20:32 [main] INFO  TC-020_verifyProductVariationSelection - Navigated to the site: https://demo.nopcommerce.com
+2025-03-22 15:20:32 [main] INFO  TC-020_verifyProductVariationSelection - Injected cookie: cf_clearance
+2025-03-22 15:20:32 [main] INFO  TC-020_verifyProductVariationSelection - Injected cookie: _ga
+2025-03-22 15:20:32 [main] INFO  TC-020_verifyProductVariationSelection - Injected cookie: .Nop.Antiforgery
+2025-03-22 15:20:32 [main] INFO  TC-020_verifyProductVariationSelection - Injected cookie: .Nop.Customer
+2025-03-22 15:20:32 [main] INFO  TC-020_verifyProductVariationSelection - Injected cookie: .Nop.Culture
+2025-03-22 15:20:32 [main] INFO  TC-020_verifyProductVariationSelection - Injected cookie: _ga_SCT41TW89V
+2025-03-22 15:20:32 [main] INFO  TC-020_verifyProductVariationSelection - Page refreshed with bypassed cookies.
+2025-03-22 15:20:32 [main] INFO  TC-020_verifyProductVariationSelection - Navigating directly to the product page.
+2025-03-22 15:20:33 [main] INFO  TC-020_verifyProductVariationSelection - Product page loaded successfully.
+2025-03-22 15:20:58 [main] INFO  TC-020_verifyProductVariationSelection - Product added to the cart successfully.
+2025-03-22 15:21:03 [main] INFO  TC-020_verifyProductVariationSelection - SKU: COMP_CUST
+2025-03-22 15:21:03 [main] INFO  TC-020_verifyProductVariationSelection - Product Name: Build your own computer
+2025-03-22 15:21:03 [main] INFO  TC-020_verifyProductVariationSelection - Attributes: Processor: 2.5 GHz Intel Pentium Dual-Core E2200 [+$15.00]
+RAM: 4GB [+$20.00]
+HDD: 400 GB [+$100.00]
+OS: Vista Premium [+$60.00]
+Software: Microsoft Office [+$50.00]
+2025-03-22 15:21:03 [main] INFO  TC-020_verifyProductVariationSelection - Unit Price: $1,445.00
+2025-03-22 15:21:03 [main] INFO  TC-020_verifyProductVariationSelection - Quantity: 1
+2025-03-22 15:21:03 [main] INFO  TC-020_verifyProductVariationSelection - Total: $1,445.00
+2025-03-22 15:21:03 [main] INFO  TC-020_verifyProductVariationSelection - Cart validation successful! Product attributes match the selection.
+2025-03-22 15:21:03 [main] INFO  TC-020_verifyProductVariationSelection - Closing the browser for test: verifyProductVariationSelection
+2025-03-22 15:21:03 [main] INFO  TC-020_verifyProductVariationSelection - Browser closed.
+2025-03-24 20:12:56 [main] INFO  TC-020_verifyProductVariationSelection - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-03-24 20:12:56 [main] INFO  TC-020_verifyProductVariationSelection - Logger initialized
+2025-03-24 20:12:56 [main] INFO  TC-020_verifyProductVariationSelection - Starting test setup for: verifyProductVariationSelection (🔢 Test Case ID: TC-020)
+2025-03-24 20:13:18 [main] INFO  TC-020_verifyProductVariationSelection - Navigated to the site: https://demo.nopcommerce.com
+2025-03-24 20:13:18 [main] INFO  TC-020_verifyProductVariationSelection - Injected cookie: _ga
+2025-03-24 20:13:18 [main] INFO  TC-020_verifyProductVariationSelection - Injected cookie: cf_clearance
+2025-03-24 20:13:18 [main] INFO  TC-020_verifyProductVariationSelection - Injected cookie: .Nop.Antiforgery
+2025-03-24 20:13:18 [main] INFO  TC-020_verifyProductVariationSelection - Injected cookie: .Nop.Customer
+2025-03-24 20:13:18 [main] INFO  TC-020_verifyProductVariationSelection - Injected cookie: .Nop.Culture
+2025-03-24 20:13:18 [main] INFO  TC-020_verifyProductVariationSelection - Injected cookie: _ga_SCT41TW89V
+2025-03-24 20:13:19 [main] INFO  TC-020_verifyProductVariationSelection - Page refreshed with bypassed cookies.
+2025-03-24 20:13:19 [main] INFO  TC-020_verifyProductVariationSelection - Navigating directly to the product page.
+2025-03-24 20:13:19 [main] INFO  TC-020_verifyProductVariationSelection - Closing the browser for test: verifyProductVariationSelection
+2025-03-24 20:13:19 [main] INFO  TC-020_verifyProductVariationSelection - Browser closed.
+2025-03-24 20:14:58 [main] INFO  TC-020_verifyProductVariationSelection - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-03-24 20:14:58 [main] INFO  TC-020_verifyProductVariationSelection - Logger initialized
+2025-03-24 20:14:58 [main] INFO  TC-020_verifyProductVariationSelection - Starting test setup for: verifyProductVariationSelection (🔢 Test Case ID: TC-020)
+2025-03-24 20:15:15 [main] INFO  TC-020_verifyProductVariationSelection - Navigated to the site: https://demo.nopcommerce.com
+2025-03-24 20:15:15 [main] INFO  TC-020_verifyProductVariationSelection - Injected cookie: cf_clearance
+2025-03-24 20:15:15 [main] INFO  TC-020_verifyProductVariationSelection - Injected cookie: _ga
+2025-03-24 20:15:15 [main] INFO  TC-020_verifyProductVariationSelection - Injected cookie: .Nop.Antiforgery
+2025-03-24 20:15:16 [main] INFO  TC-020_verifyProductVariationSelection - Injected cookie: .Nop.Customer
+2025-03-24 20:15:16 [main] INFO  TC-020_verifyProductVariationSelection - Injected cookie: .Nop.Culture
+2025-03-24 20:15:16 [main] INFO  TC-020_verifyProductVariationSelection - Injected cookie: _ga_SCT41TW89V
+2025-03-24 20:15:16 [main] INFO  TC-020_verifyProductVariationSelection - Page refreshed with bypassed cookies.
+2025-03-24 20:15:16 [main] INFO  TC-020_verifyProductVariationSelection - Navigating directly to the product page.
+2025-03-24 20:15:17 [main] INFO  TC-020_verifyProductVariationSelection - Product page loaded successfully.
+2025-03-24 20:15:37 [main] INFO  TC-020_verifyProductVariationSelection - Product added to the cart successfully.
+2025-03-24 20:15:42 [main] INFO  TC-020_verifyProductVariationSelection - Closing the browser for test: verifyProductVariationSelection
+2025-03-24 20:15:43 [main] INFO  TC-020_verifyProductVariationSelection - Browser closed.
+2025-03-24 20:16:45 [main] INFO  TC-020_verifyProductVariationSelection - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-03-24 20:16:45 [main] INFO  TC-020_verifyProductVariationSelection - Logger initialized
+2025-03-24 20:16:45 [main] INFO  TC-020_verifyProductVariationSelection - Starting test setup for: verifyProductVariationSelection (🔢 Test Case ID: TC-020)
+2025-03-24 20:17:03 [main] INFO  TC-020_verifyProductVariationSelection - Navigated to the site: https://demo.nopcommerce.com
+2025-03-24 20:17:03 [main] INFO  TC-020_verifyProductVariationSelection - Injected cookie: cf_clearance
+2025-03-24 20:17:03 [main] INFO  TC-020_verifyProductVariationSelection - Injected cookie: _ga
+2025-03-24 20:17:03 [main] INFO  TC-020_verifyProductVariationSelection - Injected cookie: .Nop.Antiforgery
+2025-03-24 20:17:03 [main] INFO  TC-020_verifyProductVariationSelection - Injected cookie: .Nop.Customer
+2025-03-24 20:17:03 [main] INFO  TC-020_verifyProductVariationSelection - Injected cookie: .Nop.Culture
+2025-03-24 20:17:03 [main] INFO  TC-020_verifyProductVariationSelection - Injected cookie: _ga_SCT41TW89V
+2025-03-24 20:17:04 [main] INFO  TC-020_verifyProductVariationSelection - Page refreshed with bypassed cookies.
+2025-03-24 20:17:04 [main] INFO  TC-020_verifyProductVariationSelection - Navigating directly to the product page.
+2025-03-24 20:17:04 [main] INFO  TC-020_verifyProductVariationSelection - Product page loaded successfully.
+2025-03-24 20:17:11 [main] INFO  TC-020_verifyProductVariationSelection - Closing the browser for test: verifyProductVariationSelection
+2025-03-24 20:17:11 [main] INFO  TC-020_verifyProductVariationSelection - Browser closed.
+2025-03-24 20:18:25 [main] INFO  TC-020_verifyProductVariationSelection - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-03-24 20:18:25 [main] INFO  TC-020_verifyProductVariationSelection - Logger initialized
+2025-03-24 20:18:25 [main] INFO  TC-020_verifyProductVariationSelection - Starting test setup for: verifyProductVariationSelection (🔢 Test Case ID: TC-020)
+2025-03-24 20:18:43 [main] INFO  TC-020_verifyProductVariationSelection - Navigated to the site: https://demo.nopcommerce.com
+2025-03-24 20:18:43 [main] INFO  TC-020_verifyProductVariationSelection - Injected cookie: cf_clearance
+2025-03-24 20:18:43 [main] INFO  TC-020_verifyProductVariationSelection - Injected cookie: _ga
+2025-03-24 20:18:43 [main] INFO  TC-020_verifyProductVariationSelection - Injected cookie: .Nop.Antiforgery
+2025-03-24 20:18:43 [main] INFO  TC-020_verifyProductVariationSelection - Injected cookie: .Nop.Customer
+2025-03-24 20:18:43 [main] INFO  TC-020_verifyProductVariationSelection - Injected cookie: .Nop.Culture
+2025-03-24 20:18:43 [main] INFO  TC-020_verifyProductVariationSelection - Injected cookie: _ga_SCT41TW89V
+2025-03-24 20:18:44 [main] INFO  TC-020_verifyProductVariationSelection - Page refreshed with bypassed cookies.
+2025-03-24 20:18:44 [main] INFO  TC-020_verifyProductVariationSelection - Navigating directly to the product page.
+2025-03-24 20:18:44 [main] INFO  TC-020_verifyProductVariationSelection - Product page loaded successfully.
+2025-03-24 20:18:52 [main] INFO  TC-020_verifyProductVariationSelection - Closing the browser for test: verifyProductVariationSelection
+2025-03-24 20:18:52 [main] INFO  TC-020_verifyProductVariationSelection - Browser closed.
+2025-03-24 20:19:27 [main] INFO  TC-020_verifyProductVariationSelection - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-03-24 20:19:27 [main] INFO  TC-020_verifyProductVariationSelection - Logger initialized
+2025-03-24 20:19:27 [main] INFO  TC-020_verifyProductVariationSelection - Starting test setup for: verifyProductVariationSelection (🔢 Test Case ID: TC-020)
+2025-03-24 20:19:44 [main] INFO  TC-020_verifyProductVariationSelection - Navigated to the site: https://demo.nopcommerce.com
+2025-03-24 20:19:44 [main] INFO  TC-020_verifyProductVariationSelection - Injected cookie: cf_clearance
+2025-03-24 20:19:44 [main] INFO  TC-020_verifyProductVariationSelection - Injected cookie: _ga
+2025-03-24 20:19:44 [main] INFO  TC-020_verifyProductVariationSelection - Injected cookie: .Nop.Antiforgery
+2025-03-24 20:19:44 [main] INFO  TC-020_verifyProductVariationSelection - Injected cookie: .Nop.Customer
+2025-03-24 20:19:44 [main] INFO  TC-020_verifyProductVariationSelection - Injected cookie: .Nop.Culture
+2025-03-24 20:19:44 [main] INFO  TC-020_verifyProductVariationSelection - Injected cookie: _ga_SCT41TW89V
+2025-03-24 20:19:45 [main] INFO  TC-020_verifyProductVariationSelection - Page refreshed with bypassed cookies.
+2025-03-24 20:19:45 [main] INFO  TC-020_verifyProductVariationSelection - Navigating directly to the product page.
+2025-03-24 20:19:46 [main] INFO  TC-020_verifyProductVariationSelection - Product page loaded successfully.
+2025-03-24 20:19:53 [main] INFO  TC-020_verifyProductVariationSelection - Closing the browser for test: verifyProductVariationSelection
+2025-03-24 20:19:53 [main] INFO  TC-020_verifyProductVariationSelection - Browser closed.
+2025-03-24 20:21:10 [main] INFO  TC-020_verifyProductVariationSelection - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-03-24 20:21:10 [main] INFO  TC-020_verifyProductVariationSelection - Logger initialized
+2025-03-24 20:21:10 [main] INFO  TC-020_verifyProductVariationSelection - Starting test setup for: verifyProductVariationSelection (🔢 Test Case ID: TC-020)
+2025-03-24 20:21:27 [main] INFO  TC-020_verifyProductVariationSelection - Navigated to the site: https://demo.nopcommerce.com
+2025-03-24 20:21:27 [main] INFO  TC-020_verifyProductVariationSelection - Injected cookie: cf_clearance
+2025-03-24 20:21:27 [main] INFO  TC-020_verifyProductVariationSelection - Injected cookie: _ga
+2025-03-24 20:21:27 [main] INFO  TC-020_verifyProductVariationSelection - Injected cookie: .Nop.Antiforgery
+2025-03-24 20:21:27 [main] INFO  TC-020_verifyProductVariationSelection - Injected cookie: .Nop.Customer
+2025-03-24 20:21:27 [main] INFO  TC-020_verifyProductVariationSelection - Injected cookie: .Nop.Culture
+2025-03-24 20:21:27 [main] INFO  TC-020_verifyProductVariationSelection - Injected cookie: _ga_SCT41TW89V
+2025-03-24 20:21:28 [main] INFO  TC-020_verifyProductVariationSelection - Page refreshed with bypassed cookies.
+2025-03-24 20:21:28 [main] INFO  TC-020_verifyProductVariationSelection - Navigating directly to the product page.
+2025-03-24 20:21:28 [main] INFO  TC-020_verifyProductVariationSelection - Closing the browser for test: verifyProductVariationSelection
+2025-03-24 20:21:28 [main] INFO  TC-020_verifyProductVariationSelection - Browser closed.
+2025-03-24 20:21:39 [main] INFO  TC-020_verifyProductVariationSelection - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-03-24 20:21:39 [main] INFO  TC-020_verifyProductVariationSelection - Logger initialized
+2025-03-24 20:21:39 [main] INFO  TC-020_verifyProductVariationSelection - Starting test setup for: verifyProductVariationSelection (🔢 Test Case ID: TC-020)
+2025-03-24 20:21:56 [main] INFO  TC-020_verifyProductVariationSelection - Navigated to the site: https://demo.nopcommerce.com
+2025-03-24 20:21:56 [main] INFO  TC-020_verifyProductVariationSelection - Injected cookie: cf_clearance
+2025-03-24 20:21:56 [main] INFO  TC-020_verifyProductVariationSelection - Injected cookie: _ga
+2025-03-24 20:21:56 [main] INFO  TC-020_verifyProductVariationSelection - Injected cookie: .Nop.Antiforgery
+2025-03-24 20:21:56 [main] INFO  TC-020_verifyProductVariationSelection - Injected cookie: .Nop.Customer
+2025-03-24 20:21:56 [main] INFO  TC-020_verifyProductVariationSelection - Injected cookie: .Nop.Culture
+2025-03-24 20:21:56 [main] INFO  TC-020_verifyProductVariationSelection - Injected cookie: _ga_SCT41TW89V
+2025-03-24 20:21:57 [main] INFO  TC-020_verifyProductVariationSelection - Page refreshed with bypassed cookies.
+2025-03-24 20:21:57 [main] INFO  TC-020_verifyProductVariationSelection - Navigating directly to the product page.
+2025-03-24 20:21:58 [main] INFO  TC-020_verifyProductVariationSelection - Product page loaded successfully.
+2025-03-24 20:22:00 [main] INFO  TC-020_verifyProductVariationSelection - Closing the browser for test: verifyProductVariationSelection
+2025-03-24 20:22:00 [main] INFO  TC-020_verifyProductVariationSelection - Browser closed.
+2025-03-24 20:22:16 [main] INFO  TC-020_verifyProductVariationSelection - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-03-24 20:22:16 [main] INFO  TC-020_verifyProductVariationSelection - Logger initialized
+2025-03-24 20:22:16 [main] INFO  TC-020_verifyProductVariationSelection - Starting test setup for: verifyProductVariationSelection (🔢 Test Case ID: TC-020)
+2025-03-24 20:22:33 [main] INFO  TC-020_verifyProductVariationSelection - Navigated to the site: https://demo.nopcommerce.com
+2025-03-24 20:22:33 [main] INFO  TC-020_verifyProductVariationSelection - Injected cookie: _ga
+2025-03-24 20:22:33 [main] INFO  TC-020_verifyProductVariationSelection - Injected cookie: cf_clearance
+2025-03-24 20:22:33 [main] INFO  TC-020_verifyProductVariationSelection - Injected cookie: .Nop.Antiforgery
+2025-03-24 20:22:33 [main] INFO  TC-020_verifyProductVariationSelection - Injected cookie: .Nop.Customer
+2025-03-24 20:22:33 [main] INFO  TC-020_verifyProductVariationSelection - Injected cookie: .Nop.Culture
+2025-03-24 20:22:33 [main] INFO  TC-020_verifyProductVariationSelection - Injected cookie: _ga_SCT41TW89V
+2025-03-24 20:22:34 [main] INFO  TC-020_verifyProductVariationSelection - Page refreshed with bypassed cookies.
+2025-03-24 20:22:34 [main] INFO  TC-020_verifyProductVariationSelection - Navigating directly to the product page.
+2025-03-24 20:22:35 [main] INFO  TC-020_verifyProductVariationSelection - Product page loaded successfully.
+2025-03-24 20:22:45 [main] INFO  TC-020_verifyProductVariationSelection - Closing the browser for test: verifyProductVariationSelection
+2025-03-24 20:22:45 [main] INFO  TC-020_verifyProductVariationSelection - Browser closed.
+2025-03-24 20:24:04 [main] INFO  TC-020_verifyProductVariationSelection - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-03-24 20:24:04 [main] INFO  TC-020_verifyProductVariationSelection - Logger initialized
+2025-03-24 20:24:04 [main] INFO  TC-020_verifyProductVariationSelection - Starting test setup for: verifyProductVariationSelection (🔢 Test Case ID: TC-020)
+2025-03-24 20:24:23 [main] INFO  TC-020_verifyProductVariationSelection - Navigated to the site: https://demo.nopcommerce.com
+2025-03-24 20:24:23 [main] INFO  TC-020_verifyProductVariationSelection - Injected cookie: _ga
+2025-03-24 20:24:23 [main] INFO  TC-020_verifyProductVariationSelection - Injected cookie: cf_clearance
+2025-03-24 20:24:23 [main] INFO  TC-020_verifyProductVariationSelection - Injected cookie: .Nop.Antiforgery
+2025-03-24 20:24:23 [main] INFO  TC-020_verifyProductVariationSelection - Injected cookie: .Nop.Customer
+2025-03-24 20:24:23 [main] INFO  TC-020_verifyProductVariationSelection - Injected cookie: .Nop.Culture
+2025-03-24 20:24:23 [main] INFO  TC-020_verifyProductVariationSelection - Injected cookie: _ga_SCT41TW89V
+2025-03-24 20:24:23 [main] INFO  TC-020_verifyProductVariationSelection - Page refreshed with bypassed cookies.
+2025-03-24 20:24:23 [main] INFO  TC-020_verifyProductVariationSelection - Navigating directly to the product page.
+2025-03-24 20:24:24 [main] INFO  TC-020_verifyProductVariationSelection - Product page loaded successfully.
+2025-03-24 20:24:58 [main] INFO  TC-020_verifyProductVariationSelection - Product added to the cart successfully.
+2025-03-24 20:25:03 [main] INFO  TC-020_verifyProductVariationSelection - Closing the browser for test: verifyProductVariationSelection
+2025-03-24 20:25:03 [main] INFO  TC-020_verifyProductVariationSelection - Browser closed.
+2025-03-24 20:25:19 [main] INFO  TC-020_verifyProductVariationSelection - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-03-24 20:25:19 [main] INFO  TC-020_verifyProductVariationSelection - Logger initialized
+2025-03-24 20:25:19 [main] INFO  TC-020_verifyProductVariationSelection - Starting test setup for: verifyProductVariationSelection (🔢 Test Case ID: TC-020)
+2025-03-24 20:25:37 [main] INFO  TC-020_verifyProductVariationSelection - Navigated to the site: https://demo.nopcommerce.com
+2025-03-24 20:25:37 [main] INFO  TC-020_verifyProductVariationSelection - Injected cookie: _ga
+2025-03-24 20:25:37 [main] INFO  TC-020_verifyProductVariationSelection - Injected cookie: cf_clearance
+2025-03-24 20:25:37 [main] INFO  TC-020_verifyProductVariationSelection - Injected cookie: .Nop.Antiforgery
+2025-03-24 20:25:37 [main] INFO  TC-020_verifyProductVariationSelection - Injected cookie: .Nop.Customer
+2025-03-24 20:25:37 [main] INFO  TC-020_verifyProductVariationSelection - Injected cookie: .Nop.Culture
+2025-03-24 20:25:37 [main] INFO  TC-020_verifyProductVariationSelection - Injected cookie: _ga_SCT41TW89V
+2025-03-24 20:25:37 [main] INFO  TC-020_verifyProductVariationSelection - Page refreshed with bypassed cookies.
+2025-03-24 20:25:37 [main] INFO  TC-020_verifyProductVariationSelection - Navigating directly to the product page.
+2025-03-24 20:25:38 [main] INFO  TC-020_verifyProductVariationSelection - Product page loaded successfully.
+2025-03-24 20:26:12 [main] INFO  TC-020_verifyProductVariationSelection - Product added to the cart successfully.
+2025-03-24 20:26:17 [main] INFO  TC-020_verifyProductVariationSelection - Closing the browser for test: verifyProductVariationSelection
+2025-03-24 20:26:17 [main] INFO  TC-020_verifyProductVariationSelection - Browser closed.
+2025-03-24 20:28:55 [main] INFO  TC-020_verifyProductVariationSelection - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-03-24 20:28:55 [main] INFO  TC-020_verifyProductVariationSelection - Logger initialized
+2025-03-24 20:28:55 [main] INFO  TC-020_verifyProductVariationSelection - Starting test setup for: verifyProductVariationSelection (🔢 Test Case ID: TC-020)
+2025-03-24 20:29:13 [main] INFO  TC-020_verifyProductVariationSelection - Navigated to the site: https://demo.nopcommerce.com
+2025-03-24 20:29:13 [main] INFO  TC-020_verifyProductVariationSelection - Injected cookie: _ga
+2025-03-24 20:29:13 [main] INFO  TC-020_verifyProductVariationSelection - Injected cookie: cf_clearance
+2025-03-24 20:29:13 [main] INFO  TC-020_verifyProductVariationSelection - Injected cookie: .Nop.Antiforgery
+2025-03-24 20:29:13 [main] INFO  TC-020_verifyProductVariationSelection - Injected cookie: .Nop.Customer
+2025-03-24 20:29:13 [main] INFO  TC-020_verifyProductVariationSelection - Injected cookie: .Nop.Culture
+2025-03-24 20:29:13 [main] INFO  TC-020_verifyProductVariationSelection - Injected cookie: _ga_SCT41TW89V
+2025-03-24 20:29:13 [main] INFO  TC-020_verifyProductVariationSelection - Page refreshed with bypassed cookies.
+2025-03-24 20:29:13 [main] INFO  TC-020_verifyProductVariationSelection - Navigating directly to the product page.
+2025-03-24 20:29:15 [main] INFO  TC-020_verifyProductVariationSelection - Product page loaded successfully.
+2025-03-24 20:29:47 [main] INFO  TC-020_verifyProductVariationSelection - Product added to the cart successfully.
+2025-03-24 20:29:52 [main] INFO  TC-020_verifyProductVariationSelection - Closing the browser for test: verifyProductVariationSelection
+2025-03-24 20:29:52 [main] INFO  TC-020_verifyProductVariationSelection - Browser closed.
+2025-03-24 20:32:29 [main] INFO  TC-020_verifyProductVariationSelection - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-03-24 20:32:29 [main] INFO  TC-020_verifyProductVariationSelection - Logger initialized
+2025-03-24 20:32:29 [main] INFO  TC-020_verifyProductVariationSelection - Starting test setup for: verifyProductVariationSelection (🔢 Test Case ID: TC-020)
+2025-03-24 20:32:47 [main] INFO  TC-020_verifyProductVariationSelection - Navigated to the site: https://demo.nopcommerce.com
+2025-03-24 20:32:47 [main] INFO  TC-020_verifyProductVariationSelection - Injected cookie: _ga
+2025-03-24 20:32:47 [main] INFO  TC-020_verifyProductVariationSelection - Injected cookie: cf_clearance
+2025-03-24 20:32:47 [main] INFO  TC-020_verifyProductVariationSelection - Injected cookie: .Nop.Antiforgery
+2025-03-24 20:32:47 [main] INFO  TC-020_verifyProductVariationSelection - Injected cookie: .Nop.Customer
+2025-03-24 20:32:47 [main] INFO  TC-020_verifyProductVariationSelection - Injected cookie: .Nop.Culture
+2025-03-24 20:32:47 [main] INFO  TC-020_verifyProductVariationSelection - Injected cookie: _ga_SCT41TW89V
+2025-03-24 20:32:47 [main] INFO  TC-020_verifyProductVariationSelection - Page refreshed with bypassed cookies.
+2025-03-24 20:32:47 [main] INFO  TC-020_verifyProductVariationSelection - Navigating directly to the product page.
+2025-03-24 20:32:49 [main] INFO  TC-020_verifyProductVariationSelection - Product page loaded successfully.
+2025-03-24 20:33:20 [main] INFO  TC-020_verifyProductVariationSelection - Product added to the cart successfully.
+2025-03-24 20:33:25 [main] INFO  TC-020_verifyProductVariationSelection - Closing the browser for test: verifyProductVariationSelection
+2025-03-24 20:33:25 [main] INFO  TC-020_verifyProductVariationSelection - Browser closed.
+2025-03-24 20:34:19 [main] INFO  TC-020_verifyProductVariationSelection - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-03-24 20:34:19 [main] INFO  TC-020_verifyProductVariationSelection - Logger initialized
+2025-03-24 20:34:19 [main] INFO  TC-020_verifyProductVariationSelection - Starting test setup for: verifyProductVariationSelection (🔢 Test Case ID: TC-020)
+2025-03-24 20:34:36 [main] INFO  TC-020_verifyProductVariationSelection - Navigated to the site: https://demo.nopcommerce.com
+2025-03-24 20:34:36 [main] INFO  TC-020_verifyProductVariationSelection - Injected cookie: cf_clearance
+2025-03-24 20:34:36 [main] INFO  TC-020_verifyProductVariationSelection - Injected cookie: _ga
+2025-03-24 20:34:36 [main] INFO  TC-020_verifyProductVariationSelection - Injected cookie: .Nop.Antiforgery
+2025-03-24 20:34:36 [main] INFO  TC-020_verifyProductVariationSelection - Injected cookie: .Nop.Customer
+2025-03-24 20:34:36 [main] INFO  TC-020_verifyProductVariationSelection - Injected cookie: .Nop.Culture
+2025-03-24 20:34:36 [main] INFO  TC-020_verifyProductVariationSelection - Injected cookie: _ga_SCT41TW89V
+2025-03-24 20:34:36 [main] INFO  TC-020_verifyProductVariationSelection - Page refreshed with bypassed cookies.
+2025-03-24 20:34:36 [main] INFO  TC-020_verifyProductVariationSelection - Navigating directly to the product page.
+2025-03-24 20:34:37 [main] INFO  TC-020_verifyProductVariationSelection - Product page loaded successfully.
+2025-03-24 20:35:09 [main] INFO  TC-020_verifyProductVariationSelection - Product added to the cart successfully.
+2025-03-24 20:35:14 [main] INFO  TC-020_verifyProductVariationSelection - Cart validation successful! Product attributes match the selection.
+2025-03-24 20:35:14 [main] INFO  TC-020_verifyProductVariationSelection - Closing the browser for test: verifyProductVariationSelection
+2025-03-24 20:35:14 [main] INFO  TC-020_verifyProductVariationSelection - Browser closed.
+2025-03-24 21:52:43 [main] INFO  TC-020_verifyProductVariationSelection - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-03-24 21:52:43 [main] INFO  TC-020_verifyProductVariationSelection - Logger initialized
+2025-03-24 21:52:43 [main] INFO  TC-020_verifyProductVariationSelection - Starting test setup for: verifyProductVariationSelection (🔢 Test Case ID: TC-020)
+2025-03-24 21:53:06 [main] INFO  TC-020_verifyProductVariationSelection - Navigated to the site: https://demo.nopcommerce.com
+2025-03-24 21:53:06 [main] INFO  TC-020_verifyProductVariationSelection - Injected cookie: cf_clearance
+2025-03-24 21:53:06 [main] INFO  TC-020_verifyProductVariationSelection - Injected cookie: _ga
+2025-03-24 21:53:06 [main] INFO  TC-020_verifyProductVariationSelection - Injected cookie: .Nop.Antiforgery
+2025-03-24 21:53:06 [main] INFO  TC-020_verifyProductVariationSelection - Injected cookie: .Nop.Customer
+2025-03-24 21:53:06 [main] INFO  TC-020_verifyProductVariationSelection - Injected cookie: .Nop.Culture
+2025-03-24 21:53:06 [main] INFO  TC-020_verifyProductVariationSelection - Injected cookie: _ga_SCT41TW89V
+2025-03-24 21:53:07 [main] INFO  TC-020_verifyProductVariationSelection - Page refreshed with bypassed cookies.
+2025-03-24 21:53:07 [main] INFO  TC-020_verifyProductVariationSelection - 🟢 Starting test: verifyProductVariationSelection (🔢 Test Case ID: TC-020)
+2025-03-24 21:53:07 [main] INFO  TC-020_verifyProductVariationSelection - Navigating directly to the product page.
+2025-03-24 21:53:09 [main] INFO  TC-020_verifyProductVariationSelection - Product page loaded successfully.
+2025-03-24 21:53:45 [main] INFO  TC-020_verifyProductVariationSelection - Product added to the cart successfully.
+2025-03-24 21:53:53 [main] INFO  TC-020_verifyProductVariationSelection - Cart validation successful! Product attributes match the selection.
+2025-03-24 21:53:53 [main] INFO  listeners.TestListener - ✅ Test PASSED: verifyProductVariationSelection (Duration: 45643ms)
+2025-03-24 21:53:53 [main] INFO  TC-020_verifyProductVariationSelection - Closing the browser for test: verifyProductVariationSelection
+2025-03-24 21:53:53 [main] INFO  TC-020_verifyProductVariationSelection - Browser closed.
+2025-03-24 21:58:35 [main] INFO  TC-020_verifyProductVariationSelection - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-03-24 21:58:35 [main] INFO  TC-020_verifyProductVariationSelection - Logger initialized
+2025-03-24 21:58:35 [main] INFO  TC-020_verifyProductVariationSelection - Starting test setup for: verifyProductVariationSelection (🔢 Test Case ID: TC-020)
+2025-03-24 21:58:58 [main] INFO  TC-020_verifyProductVariationSelection - Navigated to the site: https://demo.nopcommerce.com
+2025-03-24 21:58:58 [main] INFO  TC-020_verifyProductVariationSelection - Injected cookie: cf_clearance
+2025-03-24 21:58:58 [main] INFO  TC-020_verifyProductVariationSelection - Injected cookie: _ga
+2025-03-24 21:58:58 [main] INFO  TC-020_verifyProductVariationSelection - Injected cookie: .Nop.Antiforgery
+2025-03-24 21:58:58 [main] INFO  TC-020_verifyProductVariationSelection - Injected cookie: .Nop.Customer
+2025-03-24 21:58:58 [main] INFO  TC-020_verifyProductVariationSelection - Injected cookie: .Nop.Culture
+2025-03-24 21:58:58 [main] INFO  TC-020_verifyProductVariationSelection - Injected cookie: _ga_SCT41TW89V
+2025-03-24 21:58:59 [main] INFO  TC-020_verifyProductVariationSelection - Page refreshed with bypassed cookies.
+2025-03-24 21:58:59 [main] INFO  TC-020_verifyProductVariationSelection - 🟢 Starting test: verifyProductVariationSelection (🔢 Test Case ID: TC-020)
+2025-03-24 21:58:59 [main] INFO  TC-020_verifyProductVariationSelection - Navigating directly to the product page.
+2025-03-24 21:59:01 [main] INFO  TC-020_verifyProductVariationSelection - Product page loaded successfully.
+2025-03-24 21:59:36 [main] INFO  TC-020_verifyProductVariationSelection - Product added to the cart successfully.
+2025-03-24 21:59:42 [main] INFO  TC-020_verifyProductVariationSelection - Cart validation successful! Product attributes match the selection.
+2025-03-24 21:59:42 [main] INFO  listeners.TestListener - ✅ Test PASSED: verifyProductVariationSelection (Duration: 43462ms)
+2025-03-24 21:59:42 [main] INFO  TC-020_verifyProductVariationSelection - Closing the browser for test: verifyProductVariationSelection
+2025-03-24 21:59:43 [main] INFO  TC-020_verifyProductVariationSelection - Browser closed.

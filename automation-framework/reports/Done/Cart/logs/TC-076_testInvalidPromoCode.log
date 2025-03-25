@@ -1,0 +1,154 @@
+2025-03-22 05:57:33 [main] INFO  TC-076_testInvalidPromoCode - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-03-22 05:57:33 [main] INFO  TC-076_testInvalidPromoCode - Logger initialized
+2025-03-22 05:57:33 [main] INFO  TC-076_testInvalidPromoCode - Starting test setup for: testInvalidPromoCode (🔢 Test Case ID: TC-076)
+2025-03-22 05:58:00 [main] INFO  TC-076_testInvalidPromoCode - Navigated to the site: https://demo.nopcommerce.com
+2025-03-22 05:58:00 [main] INFO  TC-076_testInvalidPromoCode - Injected cookie: cf_clearance
+2025-03-22 05:58:00 [main] INFO  TC-076_testInvalidPromoCode - Injected cookie: _ga
+2025-03-22 05:58:00 [main] INFO  TC-076_testInvalidPromoCode - Injected cookie: .Nop.Antiforgery
+2025-03-22 05:58:00 [main] INFO  TC-076_testInvalidPromoCode - Injected cookie: .Nop.Customer
+2025-03-22 05:58:00 [main] INFO  TC-076_testInvalidPromoCode - Injected cookie: .Nop.Culture
+2025-03-22 05:58:00 [main] INFO  TC-076_testInvalidPromoCode - Injected cookie: _ga_SCT41TW89V
+2025-03-22 05:58:01 [main] INFO  TC-076_testInvalidPromoCode - Page refreshed with bypassed cookies.
+2025-03-22 05:58:07 [main] INFO  TC-076_testInvalidPromoCode - Closing the browser for test: testInvalidPromoCode
+2025-03-22 05:58:07 [main] INFO  TC-076_testInvalidPromoCode - Browser closed.
+2025-03-22 06:01:25 [main] INFO  TC-076_testInvalidPromoCode - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-03-22 06:01:25 [main] INFO  TC-076_testInvalidPromoCode - Logger initialized
+2025-03-22 06:01:25 [main] INFO  TC-076_testInvalidPromoCode - Starting test setup for: testInvalidPromoCode (🔢 Test Case ID: TC-076)
+2025-03-22 06:01:42 [main] INFO  TC-076_testInvalidPromoCode - Navigated to the site: https://demo.nopcommerce.com
+2025-03-22 06:01:42 [main] INFO  TC-076_testInvalidPromoCode - Injected cookie: cf_clearance
+2025-03-22 06:01:42 [main] INFO  TC-076_testInvalidPromoCode - Injected cookie: _ga
+2025-03-22 06:01:42 [main] INFO  TC-076_testInvalidPromoCode - Injected cookie: .Nop.Antiforgery
+2025-03-22 06:01:42 [main] INFO  TC-076_testInvalidPromoCode - Injected cookie: .Nop.Customer
+2025-03-22 06:01:42 [main] INFO  TC-076_testInvalidPromoCode - Injected cookie: .Nop.Culture
+2025-03-22 06:01:42 [main] INFO  TC-076_testInvalidPromoCode - Injected cookie: _ga_SCT41TW89V
+2025-03-22 06:01:43 [main] INFO  TC-076_testInvalidPromoCode - Page refreshed with bypassed cookies.
+2025-03-22 06:01:45 [main] INFO  TC-076_testInvalidPromoCode - Navigating to product page: https://demo.nopcommerce.com/adobe-photoshop
+2025-03-22 06:01:47 [main] INFO  TC-076_testInvalidPromoCode - Clicked 'Add to Cart' button.
+2025-03-22 06:01:48 [main] INFO  TC-076_testInvalidPromoCode - Product successfully added to cart.
+2025-03-22 06:01:51 [main] INFO  TC-076_testInvalidPromoCode - Closing the browser for test: testInvalidPromoCode
+2025-03-22 06:01:51 [main] INFO  TC-076_testInvalidPromoCode - Browser closed.
+2025-03-22 06:02:26 [main] INFO  TC-076_testInvalidPromoCode - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-03-22 06:02:26 [main] INFO  TC-076_testInvalidPromoCode - Logger initialized
+2025-03-22 06:02:26 [main] INFO  TC-076_testInvalidPromoCode - Starting test setup for: testInvalidPromoCode (🔢 Test Case ID: TC-076)
+2025-03-22 06:02:43 [main] INFO  TC-076_testInvalidPromoCode - Navigated to the site: https://demo.nopcommerce.com
+2025-03-22 06:02:43 [main] INFO  TC-076_testInvalidPromoCode - Injected cookie: _ga
+2025-03-22 06:02:43 [main] INFO  TC-076_testInvalidPromoCode - Injected cookie: cf_clearance
+2025-03-22 06:02:43 [main] INFO  TC-076_testInvalidPromoCode - Injected cookie: .Nop.Antiforgery
+2025-03-22 06:02:43 [main] INFO  TC-076_testInvalidPromoCode - Injected cookie: .Nop.Customer
+2025-03-22 06:02:43 [main] INFO  TC-076_testInvalidPromoCode - Injected cookie: .Nop.Culture
+2025-03-22 06:02:43 [main] INFO  TC-076_testInvalidPromoCode - Injected cookie: _ga_SCT41TW89V
+2025-03-22 06:02:44 [main] INFO  TC-076_testInvalidPromoCode - Page refreshed with bypassed cookies.
+2025-03-22 06:02:45 [main] INFO  TC-076_testInvalidPromoCode - Navigating to product page: https://demo.nopcommerce.com/adobe-photoshop
+2025-03-22 06:02:47 [main] INFO  TC-076_testInvalidPromoCode - Clicked 'Add to Cart' button.
+2025-03-22 06:02:48 [main] INFO  TC-076_testInvalidPromoCode - Product successfully added to cart.
+2025-03-22 06:02:52 [main] INFO  TC-076_testInvalidPromoCode - Closing the browser for test: testInvalidPromoCode
+2025-03-22 06:02:52 [main] INFO  TC-076_testInvalidPromoCode - Browser closed.
+2025-03-23 00:14:18 [main] INFO  TC-076_testInvalidPromoCode - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-03-23 00:14:18 [main] INFO  TC-076_testInvalidPromoCode - Logger initialized
+2025-03-23 00:14:18 [main] INFO  TC-076_testInvalidPromoCode - Starting test setup for: testInvalidPromoCode (🔢 Test Case ID: TC-076)
+2025-03-23 00:14:48 [main] INFO  TC-076_testInvalidPromoCode - Navigated to the site: https://demo.nopcommerce.com
+2025-03-23 00:14:48 [main] INFO  TC-076_testInvalidPromoCode - Injected cookie: cf_clearance
+2025-03-23 00:14:48 [main] INFO  TC-076_testInvalidPromoCode - Injected cookie: _ga
+2025-03-23 00:14:48 [main] INFO  TC-076_testInvalidPromoCode - Injected cookie: .Nop.Antiforgery
+2025-03-23 00:14:48 [main] INFO  TC-076_testInvalidPromoCode - Injected cookie: .Nop.Customer
+2025-03-23 00:14:48 [main] INFO  TC-076_testInvalidPromoCode - Injected cookie: .Nop.Culture
+2025-03-23 00:14:48 [main] INFO  TC-076_testInvalidPromoCode - Injected cookie: _ga_SCT41TW89V
+2025-03-23 00:14:49 [main] INFO  TC-076_testInvalidPromoCode - Page refreshed with bypassed cookies.
+2025-03-23 00:14:52 [main] INFO  utils.MainFunctionalities - Navigating to product page: https://demo.nopcommerce.com/lenovo-ideacentre
+2025-03-23 00:14:53 [main] INFO  utils.MainFunctionalities - Clicked 'Add to Cart' button with ID: add-to-cart-button-3
+2025-03-23 00:14:54 [main] INFO  utils.MainFunctionalities - Product successfully added to cart.
+2025-03-23 00:15:00 [main] INFO  TC-076_testInvalidPromoCode - Closing the browser for test: testInvalidPromoCode
+2025-03-23 00:15:00 [main] INFO  TC-076_testInvalidPromoCode - Browser closed.
+2025-03-23 00:25:06 [main] INFO  TC-076_testInvalidPromoCode - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-03-23 00:25:06 [main] INFO  TC-076_testInvalidPromoCode - Logger initialized
+2025-03-23 00:25:06 [main] INFO  TC-076_testInvalidPromoCode - Starting test setup for: testInvalidPromoCode (🔢 Test Case ID: TC-076)
+2025-03-23 00:25:34 [main] INFO  TC-076_testInvalidPromoCode - Navigated to the site: https://demo.nopcommerce.com
+2025-03-23 00:25:34 [main] INFO  TC-076_testInvalidPromoCode - Injected cookie: _ga
+2025-03-23 00:25:34 [main] INFO  TC-076_testInvalidPromoCode - Injected cookie: cf_clearance
+2025-03-23 00:25:34 [main] INFO  TC-076_testInvalidPromoCode - Injected cookie: .Nop.Antiforgery
+2025-03-23 00:25:34 [main] INFO  TC-076_testInvalidPromoCode - Injected cookie: .Nop.Customer
+2025-03-23 00:25:34 [main] INFO  TC-076_testInvalidPromoCode - Injected cookie: .Nop.Culture
+2025-03-23 00:25:34 [main] INFO  TC-076_testInvalidPromoCode - Injected cookie: _ga_SCT41TW89V
+2025-03-23 00:25:35 [main] INFO  TC-076_testInvalidPromoCode - Page refreshed with bypassed cookies.
+2025-03-23 00:25:38 [main] INFO  utils.MainFunctionalities - Navigating to product page: https://demo.nopcommerce.com/lenovo-ideacentre
+2025-03-23 00:25:40 [main] INFO  utils.MainFunctionalities - Clicked 'Add to Cart' button with ID: add-to-cart-button-3
+2025-03-23 00:25:40 [main] INFO  utils.MainFunctionalities - Product successfully added to cart.
+2025-03-23 00:25:45 [main] INFO  TC-076_testInvalidPromoCode - Closing the browser for test: testInvalidPromoCode
+2025-03-23 00:25:45 [main] INFO  TC-076_testInvalidPromoCode - Browser closed.
+2025-03-23 00:27:02 [main] INFO  TC-076_testInvalidPromoCode - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-03-23 00:27:02 [main] INFO  TC-076_testInvalidPromoCode - Logger initialized
+2025-03-23 00:27:02 [main] INFO  TC-076_testInvalidPromoCode - Starting test setup for: testInvalidPromoCode (🔢 Test Case ID: TC-076)
+2025-03-23 00:27:19 [main] INFO  TC-076_testInvalidPromoCode - Navigated to the site: https://demo.nopcommerce.com
+2025-03-23 00:27:19 [main] INFO  TC-076_testInvalidPromoCode - Injected cookie: _ga
+2025-03-23 00:27:19 [main] INFO  TC-076_testInvalidPromoCode - Injected cookie: cf_clearance
+2025-03-23 00:27:19 [main] INFO  TC-076_testInvalidPromoCode - Injected cookie: .Nop.Antiforgery
+2025-03-23 00:27:19 [main] INFO  TC-076_testInvalidPromoCode - Injected cookie: .Nop.Customer
+2025-03-23 00:27:19 [main] INFO  TC-076_testInvalidPromoCode - Injected cookie: .Nop.Culture
+2025-03-23 00:27:19 [main] INFO  TC-076_testInvalidPromoCode - Injected cookie: _ga_SCT41TW89V
+2025-03-23 00:27:20 [main] INFO  TC-076_testInvalidPromoCode - Page refreshed with bypassed cookies.
+2025-03-23 00:27:20 [main] INFO  TC-076_testInvalidPromoCode - 🟢 Starting test: testInvalidPromoCode (🔢 Test Case ID: TC-076)
+2025-03-23 00:27:21 [main] INFO  utils.MainFunctionalities - Navigating to product page: https://demo.nopcommerce.com/lenovo-ideacentre
+2025-03-23 00:27:23 [main] INFO  utils.MainFunctionalities - Clicked 'Add to Cart' button with ID: add-to-cart-button-3
+2025-03-23 00:27:23 [main] INFO  utils.MainFunctionalities - Product successfully added to cart.
+2025-03-23 00:27:26 [main] INFO  listeners.TestListener - ✅ Test PASSED: testInvalidPromoCode (Duration: 6576ms)
+2025-03-23 00:27:26 [main] INFO  TC-076_testInvalidPromoCode - Closing the browser for test: testInvalidPromoCode
+2025-03-23 00:27:27 [main] INFO  TC-076_testInvalidPromoCode - Browser closed.
+2025-03-23 01:16:45 [main] INFO  TC-076_testInvalidPromoCode - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-03-23 01:16:45 [main] INFO  TC-076_testInvalidPromoCode - Logger initialized
+2025-03-23 01:16:45 [main] INFO  TC-076_testInvalidPromoCode - Starting test setup for: testInvalidPromoCode (🔢 Test Case ID: TC-076)
+2025-03-23 01:17:02 [main] INFO  TC-076_testInvalidPromoCode - Navigated to the site: https://demo.nopcommerce.com
+2025-03-23 01:17:02 [main] INFO  TC-076_testInvalidPromoCode - Injected cookie: _ga
+2025-03-23 01:17:02 [main] INFO  TC-076_testInvalidPromoCode - Injected cookie: cf_clearance
+2025-03-23 01:17:02 [main] INFO  TC-076_testInvalidPromoCode - Injected cookie: .Nop.Antiforgery
+2025-03-23 01:17:02 [main] INFO  TC-076_testInvalidPromoCode - Injected cookie: .Nop.Customer
+2025-03-23 01:17:02 [main] INFO  TC-076_testInvalidPromoCode - Injected cookie: .Nop.Culture
+2025-03-23 01:17:02 [main] INFO  TC-076_testInvalidPromoCode - Injected cookie: _ga_SCT41TW89V
+2025-03-23 01:17:03 [main] INFO  TC-076_testInvalidPromoCode - Page refreshed with bypassed cookies.
+2025-03-23 01:17:03 [main] INFO  utils.MainFunctionalities - Navigating to product page: https://demo.nopcommerce.com/lenovo-ideacentre
+2025-03-23 01:17:06 [main] INFO  utils.MainFunctionalities - Clicked 'Add to Cart' button with ID: add-to-cart-button-3
+2025-03-23 01:17:07 [main] INFO  utils.MainFunctionalities - Product successfully added to cart.
+2025-03-23 01:17:10 [main] INFO  TC-076_testInvalidPromoCode - Closing the browser for test: testInvalidPromoCode
+2025-03-23 01:17:10 [main] INFO  TC-076_testInvalidPromoCode - Browser closed.
+2025-03-23 01:17:21 [main] INFO  TC-076_testInvalidPromoCode - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-03-23 01:17:21 [main] INFO  TC-076_testInvalidPromoCode - Logger initialized
+2025-03-23 01:17:21 [main] INFO  TC-076_testInvalidPromoCode - Starting test setup for: testInvalidPromoCode (🔢 Test Case ID: TC-076)
+2025-03-23 01:17:38 [main] INFO  TC-076_testInvalidPromoCode - Navigated to the site: https://demo.nopcommerce.com
+2025-03-23 01:17:38 [main] INFO  TC-076_testInvalidPromoCode - Injected cookie: cf_clearance
+2025-03-23 01:17:38 [main] INFO  TC-076_testInvalidPromoCode - Injected cookie: _ga
+2025-03-23 01:17:38 [main] INFO  TC-076_testInvalidPromoCode - Injected cookie: .Nop.Antiforgery
+2025-03-23 01:17:38 [main] INFO  TC-076_testInvalidPromoCode - Injected cookie: .Nop.Customer
+2025-03-23 01:17:38 [main] INFO  TC-076_testInvalidPromoCode - Injected cookie: .Nop.Culture
+2025-03-23 01:17:38 [main] INFO  TC-076_testInvalidPromoCode - Injected cookie: _ga_SCT41TW89V
+2025-03-23 01:17:38 [main] INFO  TC-076_testInvalidPromoCode - Page refreshed with bypassed cookies.
+2025-03-23 01:17:39 [main] INFO  utils.MainFunctionalities - Navigating to product page: https://demo.nopcommerce.com/lenovo-ideacentre
+2025-03-23 01:17:41 [main] INFO  utils.MainFunctionalities - Clicked 'Add to Cart' button with ID: add-to-cart-button-3
+2025-03-23 01:17:41 [main] INFO  utils.MainFunctionalities - Product successfully added to cart.
+2025-03-23 01:17:45 [main] INFO  TC-076_testInvalidPromoCode - Closing the browser for test: testInvalidPromoCode
+2025-03-23 01:17:45 [main] INFO  TC-076_testInvalidPromoCode - Browser closed.
+2025-03-23 01:18:08 [main] INFO  TC-076_testInvalidPromoCode - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-03-23 01:18:08 [main] INFO  TC-076_testInvalidPromoCode - Logger initialized
+2025-03-23 01:18:08 [main] INFO  TC-076_testInvalidPromoCode - Starting test setup for: testInvalidPromoCode (🔢 Test Case ID: TC-076)
+2025-03-23 01:18:25 [main] INFO  TC-076_testInvalidPromoCode - Navigated to the site: https://demo.nopcommerce.com
+2025-03-23 01:18:25 [main] INFO  TC-076_testInvalidPromoCode - Injected cookie: _ga
+2025-03-23 01:18:25 [main] INFO  TC-076_testInvalidPromoCode - Injected cookie: cf_clearance
+2025-03-23 01:18:25 [main] INFO  TC-076_testInvalidPromoCode - Injected cookie: .Nop.Antiforgery
+2025-03-23 01:18:25 [main] INFO  TC-076_testInvalidPromoCode - Injected cookie: .Nop.Customer
+2025-03-23 01:18:25 [main] INFO  TC-076_testInvalidPromoCode - Injected cookie: .Nop.Culture
+2025-03-23 01:18:25 [main] INFO  TC-076_testInvalidPromoCode - Injected cookie: _ga_SCT41TW89V
+2025-03-23 01:18:26 [main] INFO  TC-076_testInvalidPromoCode - Page refreshed with bypassed cookies.
+2025-03-23 01:18:26 [main] INFO  TC-076_testInvalidPromoCode - 🟢 Starting test: testInvalidPromoCode (🔢 Test Case ID: TC-076)
+2025-03-23 01:18:26 [main] INFO  utils.MainFunctionalities - Navigating to product page: https://demo.nopcommerce.com/lenovo-ideacentre
+2025-03-23 01:18:29 [main] INFO  utils.MainFunctionalities - Clicked 'Add to Cart' button with ID: add-to-cart-button-3
+2025-03-23 01:18:29 [main] INFO  utils.MainFunctionalities - Product successfully added to cart.
+2025-03-23 01:18:33 [main] INFO  listeners.TestListener - ✅ Test PASSED: testInvalidPromoCode (Duration: 7165ms)
+2025-03-23 01:18:33 [main] INFO  TC-076_testInvalidPromoCode - Closing the browser for test: testInvalidPromoCode
+2025-03-23 01:18:33 [main] INFO  TC-076_testInvalidPromoCode - Browser closed.

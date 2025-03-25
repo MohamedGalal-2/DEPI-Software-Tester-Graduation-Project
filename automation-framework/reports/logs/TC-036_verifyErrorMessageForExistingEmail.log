@@ -1,0 +1,458 @@
+2025-03-21 04:53:40 [main] INFO  TC-036_verifyErrorMessageForExistingEmail - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-03-21 04:53:40 [main] INFO  TC-036_verifyErrorMessageForExistingEmail - Logger initialized
+2025-03-21 04:53:40 [main] INFO  TC-036_verifyErrorMessageForExistingEmail - Starting test setup for: verifyErrorMessageForExistingEmail (🔢 Test Case ID: TC-036)
+2025-03-21 04:53:56 [main] INFO  TC-036_verifyErrorMessageForExistingEmail - Navigated to the site: https://demo.nopcommerce.com
+2025-03-21 04:53:56 [main] INFO  TC-036_verifyErrorMessageForExistingEmail - Injected cookie: cf_clearance
+2025-03-21 04:53:56 [main] INFO  TC-036_verifyErrorMessageForExistingEmail - Injected cookie: _ga
+2025-03-21 04:53:56 [main] INFO  TC-036_verifyErrorMessageForExistingEmail - Injected cookie: .Nop.Antiforgery
+2025-03-21 04:53:56 [main] INFO  TC-036_verifyErrorMessageForExistingEmail - Injected cookie: .Nop.Customer
+2025-03-21 04:53:56 [main] INFO  TC-036_verifyErrorMessageForExistingEmail - Injected cookie: .Nop.Culture
+2025-03-21 04:53:56 [main] INFO  TC-036_verifyErrorMessageForExistingEmail - Injected cookie: _ga_SCT41TW89V
+2025-03-21 04:53:56 [main] INFO  TC-036_verifyErrorMessageForExistingEmail - Page refreshed with bypassed cookies.
+2025-03-21 04:53:58 [main] INFO  TC-036_verifyErrorMessageForExistingEmail - Navigating to registration page.
+2025-03-21 04:54:02 [main] INFO  TC-036_verifyErrorMessageForExistingEmail - Clicking 'Register' button for the first time.
+2025-03-21 04:54:04 [main] INFO  TC-036_verifyErrorMessageForExistingEmail - User successfully registered.
+2025-03-21 04:54:04 [main] INFO  TC-036_verifyErrorMessageForExistingEmail - Navigating to registration page again.
+2025-03-21 04:54:09 [main] INFO  TC-036_verifyErrorMessageForExistingEmail - Clicking 'Register' button for the second time.
+2025-03-21 04:54:12 [main] INFO  TC-036_verifyErrorMessageForExistingEmail - Closing the browser for test: verifyErrorMessageForExistingEmail
+2025-03-21 04:54:12 [main] INFO  TC-036_verifyErrorMessageForExistingEmail - Browser closed.
+2025-03-21 04:58:47 [main] INFO  TC-036_verifyErrorMessageForExistingEmail - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-03-21 04:58:47 [main] INFO  TC-036_verifyErrorMessageForExistingEmail - Logger initialized
+2025-03-21 04:58:47 [main] INFO  TC-036_verifyErrorMessageForExistingEmail - Starting test setup for: verifyErrorMessageForExistingEmail (🔢 Test Case ID: TC-036)
+2025-03-21 04:59:14 [main] INFO  TC-036_verifyErrorMessageForExistingEmail - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-03-21 04:59:14 [main] INFO  TC-036_verifyErrorMessageForExistingEmail - Logger initialized
+2025-03-21 04:59:14 [main] INFO  TC-036_verifyErrorMessageForExistingEmail - Starting test setup for: verifyErrorMessageForExistingEmail (🔢 Test Case ID: TC-036)
+2025-03-21 04:59:32 [main] INFO  TC-036_verifyErrorMessageForExistingEmail - Navigated to the site: https://demo.nopcommerce.com
+2025-03-21 04:59:32 [main] INFO  TC-036_verifyErrorMessageForExistingEmail - Injected cookie: cf_clearance
+2025-03-21 04:59:32 [main] INFO  TC-036_verifyErrorMessageForExistingEmail - Injected cookie: _ga
+2025-03-21 04:59:32 [main] INFO  TC-036_verifyErrorMessageForExistingEmail - Injected cookie: .Nop.Antiforgery
+2025-03-21 04:59:32 [main] INFO  TC-036_verifyErrorMessageForExistingEmail - Injected cookie: .Nop.Customer
+2025-03-21 04:59:32 [main] INFO  TC-036_verifyErrorMessageForExistingEmail - Injected cookie: .Nop.Culture
+2025-03-21 04:59:32 [main] INFO  TC-036_verifyErrorMessageForExistingEmail - Injected cookie: _ga_SCT41TW89V
+2025-03-21 04:59:32 [main] INFO  TC-036_verifyErrorMessageForExistingEmail - Page refreshed with bypassed cookies.
+2025-03-21 04:59:33 [main] INFO  TC-036_verifyErrorMessageForExistingEmail - Navigating to registration page.
+2025-03-21 04:59:38 [main] INFO  TC-036_verifyErrorMessageForExistingEmail - Clicking 'Register' button for the first time.
+2025-03-21 04:59:40 [main] INFO  TC-036_verifyErrorMessageForExistingEmail - User successfully registered.
+2025-03-21 04:59:40 [main] INFO  TC-036_verifyErrorMessageForExistingEmail - Navigating to registration page again.
+2025-03-21 04:59:45 [main] INFO  TC-036_verifyErrorMessageForExistingEmail - Clicking 'Register' button for the second time.
+2025-03-21 04:59:46 [main] INFO  TC-036_verifyErrorMessageForExistingEmail - Verified error message for existing email.
+2025-03-21 04:59:46 [main] INFO  TC-036_verifyErrorMessageForExistingEmail - Closing the browser for test: verifyErrorMessageForExistingEmail
+2025-03-21 04:59:46 [main] INFO  TC-036_verifyErrorMessageForExistingEmail - Browser closed.
+2025-03-21 07:56:05 [main] INFO  TC-036_verifyErrorMessageForExistingEmail - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-03-21 07:56:05 [main] INFO  TC-036_verifyErrorMessageForExistingEmail - Logger initialized
+2025-03-21 07:56:05 [main] INFO  TC-036_verifyErrorMessageForExistingEmail - Starting test setup for: verifyErrorMessageForExistingEmail (🔢 Test Case ID: TC-036)
+2025-03-22 21:41:15 [main] INFO  TC-036_verifyErrorMessageForExistingEmail - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-03-22 21:41:15 [main] INFO  TC-036_verifyErrorMessageForExistingEmail - Logger initialized
+2025-03-22 21:41:15 [main] INFO  TC-036_verifyErrorMessageForExistingEmail - Starting test setup for: verifyErrorMessageForExistingEmail (🔢 Test Case ID: TC-036)
+2025-03-22 21:41:38 [main] INFO  TC-036_verifyErrorMessageForExistingEmail - Navigated to the site: https://demo.nopcommerce.com
+2025-03-22 21:41:38 [main] INFO  TC-036_verifyErrorMessageForExistingEmail - Injected cookie: _ga
+2025-03-22 21:41:38 [main] INFO  TC-036_verifyErrorMessageForExistingEmail - Injected cookie: cf_clearance
+2025-03-22 21:41:38 [main] INFO  TC-036_verifyErrorMessageForExistingEmail - Injected cookie: .Nop.Antiforgery
+2025-03-22 21:41:38 [main] INFO  TC-036_verifyErrorMessageForExistingEmail - Injected cookie: .Nop.Customer
+2025-03-22 21:41:38 [main] INFO  TC-036_verifyErrorMessageForExistingEmail - Injected cookie: .Nop.Culture
+2025-03-22 21:41:38 [main] INFO  TC-036_verifyErrorMessageForExistingEmail - Injected cookie: _ga_SCT41TW89V
+2025-03-22 21:41:39 [main] INFO  TC-036_verifyErrorMessageForExistingEmail - Page refreshed with bypassed cookies.
+2025-03-22 21:41:39 [main] INFO  TC-036_verifyErrorMessageForExistingEmail - 🟢 Starting test: verifyErrorMessageForExistingEmail (🔢 Test Case ID: TC-036)
+2025-03-22 21:41:40 [main] INFO  utils.MainFunctionalities - Navigating to registration page.
+2025-03-22 21:41:46 [main] INFO  utils.MainFunctionalities - Clicking 'Register' button.
+2025-03-22 21:41:47 [main] INFO  TC-036_verifyErrorMessageForExistingEmail - User successfully registered.
+2025-03-22 21:41:48 [main] INFO  utils.MainFunctionalities - Navigating to registration page.
+2025-03-22 21:41:54 [main] INFO  utils.MainFunctionalities - Clicking 'Register' button.
+2025-03-22 21:41:55 [main] INFO  TC-036_verifyErrorMessageForExistingEmail - Verified error message for existing email.
+2025-03-22 21:41:55 [main] INFO  listeners.TestListener - ✅ Test PASSED: verifyErrorMessageForExistingEmail (Duration: 16234ms)
+2025-03-22 21:41:55 [main] INFO  TC-036_verifyErrorMessageForExistingEmail - Closing the browser for test: verifyErrorMessageForExistingEmail
+2025-03-22 21:41:56 [main] INFO  TC-036_verifyErrorMessageForExistingEmail - Browser closed.
+2025-03-22 21:56:03 [main] INFO  TC-036_verifyErrorMessageForExistingEmail - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-03-22 21:56:03 [main] INFO  TC-036_verifyErrorMessageForExistingEmail - Logger initialized
+2025-03-22 21:56:03 [main] INFO  TC-036_verifyErrorMessageForExistingEmail - Starting test setup for: verifyErrorMessageForExistingEmail (🔢 Test Case ID: TC-036)
+2025-03-22 21:56:06 [main] ERROR TC-036_verifyErrorMessageForExistingEmail - Cloudflare bypass data retrieval failed!
+2025-03-22 21:56:06 [main] ERROR TC-036_verifyErrorMessageForExistingEmail - Failed to set up the browser
+java.lang.RuntimeException: Failed to retrieve bypassed HTML.
+	at base.BaseTest.setUp(BaseTest.java:71) ~[test-classes/:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:836) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:601) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) ~[testng-7.11.0.jar:7.11.0]
+	at java.util.ArrayList.forEach(ArrayList.java:1597) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:741) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestRunner.run(TestRunner.java:616) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuites(TestNG.java:1112) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.run(TestNG.java:1079) [testng-7.11.0.jar:7.11.0]
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155) [surefire-testng-3.5.2.jar:3.5.2]
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeSingleClass(TestNGDirectoryTestSuite.java:102) [surefire-testng-3.5.2.jar:3.5.2]
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:91) [surefire-testng-3.5.2.jar:3.5.2]
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137) [surefire-testng-3.5.2.jar:3.5.2]
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385) [surefire-booter-3.5.2.jar:3.5.2]
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162) [surefire-booter-3.5.2.jar:3.5.2]
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507) [surefire-booter-3.5.2.jar:3.5.2]
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495) [surefire-booter-3.5.2.jar:3.5.2]
+2025-03-22 21:56:06 [main] INFO  TC-036_verifyErrorMessageForExistingEmail - 🟢 Starting test: verifyErrorMessageForExistingEmail (🔢 Test Case ID: TC-036)
+2025-03-22 21:56:06 [main] WARN  listeners.TestListener - ⚠️ Test SKIPPED: verifyErrorMessageForExistingEmail
+2025-03-22 21:56:06 [main] INFO  TC-036_verifyErrorMessageForRegistrationWithMissingFields - 🟢 Starting test: verifyErrorMessageForRegistrationWithMissingFields (🔢 Test Case ID: TC-036)
+2025-03-22 21:56:06 [main] WARN  listeners.TestListener - ⚠️ Test SKIPPED: verifyErrorMessageForRegistrationWithMissingFields
+2025-03-22 21:56:06 [main] INFO  TC-036_verifyUserLoginWithInvalidCredentials - 🟢 Starting test: verifyUserLoginWithInvalidCredentials (🔢 Test Case ID: TC-036)
+2025-03-22 21:56:06 [main] WARN  listeners.TestListener - ⚠️ Test SKIPPED: verifyUserLoginWithInvalidCredentials
+2025-03-22 21:56:06 [main] INFO  TC-036_verifyUserLoginWithValidCredentials - 🟢 Starting test: verifyUserLoginWithValidCredentials (🔢 Test Case ID: TC-036)
+2025-03-22 21:56:06 [main] WARN  listeners.TestListener - ⚠️ Test SKIPPED: verifyUserLoginWithValidCredentials
+2025-03-22 21:56:06 [main] INFO  TC-036_verifyUserLogout - 🟢 Starting test: verifyUserLogout (🔢 Test Case ID: TC-036)
+2025-03-22 21:56:06 [main] WARN  listeners.TestListener - ⚠️ Test SKIPPED: verifyUserLogout
+2025-03-22 21:56:06 [main] INFO  TC-036_verifyUserRegistrationWithValidDetails - 🟢 Starting test: verifyUserRegistrationWithValidDetails (🔢 Test Case ID: TC-036)
+2025-03-22 21:56:06 [main] WARN  listeners.TestListener - ⚠️ Test SKIPPED: verifyUserRegistrationWithValidDetails
+2025-03-22 21:56:06 [main] INFO  listeners.TestListener - 🏁 Finished Test Suite: Surefire test
+2025-03-22 21:56:23 [main] INFO  TC-036_verifyErrorMessageForExistingEmail - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-03-22 21:56:23 [main] INFO  TC-036_verifyErrorMessageForExistingEmail - Logger initialized
+2025-03-22 21:56:23 [main] INFO  TC-036_verifyErrorMessageForExistingEmail - Starting test setup for: verifyErrorMessageForExistingEmail (🔢 Test Case ID: TC-036)
+2025-03-22 21:56:46 [main] INFO  TC-036_verifyErrorMessageForExistingEmail - Navigated to the site: https://demo.nopcommerce.com
+2025-03-22 21:56:46 [main] INFO  TC-036_verifyErrorMessageForExistingEmail - Injected cookie: _ga
+2025-03-22 21:56:46 [main] INFO  TC-036_verifyErrorMessageForExistingEmail - Injected cookie: cf_clearance
+2025-03-22 21:56:46 [main] INFO  TC-036_verifyErrorMessageForExistingEmail - Injected cookie: .Nop.Antiforgery
+2025-03-22 21:56:46 [main] INFO  TC-036_verifyErrorMessageForExistingEmail - Injected cookie: .Nop.Customer
+2025-03-22 21:56:46 [main] INFO  TC-036_verifyErrorMessageForExistingEmail - Injected cookie: .Nop.Culture
+2025-03-22 21:56:46 [main] INFO  TC-036_verifyErrorMessageForExistingEmail - Injected cookie: _ga_SCT41TW89V
+2025-03-22 21:56:47 [main] INFO  TC-036_verifyErrorMessageForExistingEmail - Page refreshed with bypassed cookies.
+2025-03-22 21:56:47 [main] INFO  TC-036_verifyErrorMessageForExistingEmail - 🟢 Starting test: verifyErrorMessageForExistingEmail (🔢 Test Case ID: TC-036)
+2025-03-22 21:56:48 [main] INFO  utils.MainFunctionalities - Navigating to registration page.
+2025-03-22 21:56:53 [main] INFO  utils.MainFunctionalities - Clicking 'Register' button.
+2025-03-22 21:57:04 [main] ERROR listeners.TestListener - ❌ Test FAILED: verifyErrorMessageForExistingEmail
+org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: '4.29.0', revision: '5fc1ec94cb'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [481fdfe12ff0770782d0fa8c9a9924ea, findElement [using, value]]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.118, chrome: {chromedriverVersion: 134.0.6998.165 (fd886e2cb29..., userDataDir: C:\Users\MOHAME~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61978}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61978/devtoo..., se:cdpVersion: 134.0.6998.118, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 481fdfe12ff0770782d0fa8c9a9924ea
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:572) ~[selenium-remote-driver-4.29.0.jar:?]
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165) ~[selenium-remote-driver-4.29.0.jar:?]
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59) ~[selenium-remote-driver-4.29.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368) ~[selenium-remote-driver-4.29.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362) ~[selenium-remote-driver-4.29.0.jar:?]
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:194) ~[selenium-support-4.29.0.jar:?]
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:190) ~[selenium-support-4.29.0.jar:?]
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203) ~[selenium-support-4.29.0.jar:?]
+	at utils.SeleniumHelper.waitForVisibility(SeleniumHelper.java:63) ~[test-classes/:?]
+	at tests.ui.AuthenticationTest.verifyErrorMessageForExistingEmail(AuthenticationTest.java:155) ~[test-classes/:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) ~[testng-7.11.0.jar:7.11.0]
+	at java.util.ArrayList.forEach(ArrayList.java:1597) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:741) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestRunner.run(TestRunner.java:616) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuites(TestNG.java:1112) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.run(TestNG.java:1079) [testng-7.11.0.jar:7.11.0]
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155) [surefire-testng-3.5.2.jar:3.5.2]
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeSingleClass(TestNGDirectoryTestSuite.java:102) [surefire-testng-3.5.2.jar:3.5.2]
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:91) [surefire-testng-3.5.2.jar:3.5.2]
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137) [surefire-testng-3.5.2.jar:3.5.2]
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385) [surefire-booter-3.5.2.jar:3.5.2]
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162) [surefire-booter-3.5.2.jar:3.5.2]
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507) [surefire-booter-3.5.2.jar:3.5.2]
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495) [surefire-booter-3.5.2.jar:3.5.2]
+Caused by: java.io.UncheckedIOException: java.io.IOException: HTTP/1.1 header parser received no bytes
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java:497) ~[selenium-http-4.29.0.jar:?]
+	at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42) ~[selenium-http-4.29.0.jar:?]
+	at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:55) ~[selenium-http-4.29.0.jar:?]
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.lambda$executeAsync$1(JdkHttpClient.java:384) ~[selenium-http-4.29.0.jar:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.lang.Thread.run(Thread.java:1575) ~[?:?]
+Caused by: java.io.IOException: HTTP/1.1 header parser received no bytes
+	at jdk.internal.net.http.HttpClientImpl.send(HttpClientImpl.java:971) ~[java.net.http:?]
+	at jdk.internal.net.http.HttpClientFacade.send(HttpClientFacade.java:133) ~[java.net.http:?]
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java:456) ~[selenium-http-4.29.0.jar:?]
+	at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42) ~[selenium-http-4.29.0.jar:?]
+	at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:55) ~[selenium-http-4.29.0.jar:?]
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.lambda$executeAsync$1(JdkHttpClient.java:384) ~[selenium-http-4.29.0.jar:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.lang.Thread.run(Thread.java:1575) ~[?:?]
+Caused by: java.io.IOException: HTTP/1.1 header parser received no bytes
+	at jdk.internal.net.http.common.Utils.wrapWithExtraDetail(Utils.java:440) ~[java.net.http:?]
+	at jdk.internal.net.http.Http1Response$HeadersReader.onReadError(Http1Response.java:590) ~[java.net.http:?]
+	at jdk.internal.net.http.Http1AsyncReceiver.checkForErrors(Http1AsyncReceiver.java:302) ~[java.net.http:?]
+	at jdk.internal.net.http.Http1AsyncReceiver.flush(Http1AsyncReceiver.java:268) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SequentialScheduler$LockingRestartableTask.run(SequentialScheduler.java:182) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SequentialScheduler$CompleteRestartableTask.run(SequentialScheduler.java:149) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SequentialScheduler$SchedulableTask.run(SequentialScheduler.java:207) ~[java.net.http:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.lang.Thread.run(Thread.java:1575) ~[?:?]
+Caused by: java.net.SocketException: Connection reset
+	at sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:403) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.implRead(SocketChannelImpl.java:435) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:493) ~[?:?]
+	at jdk.internal.net.http.SocketTube.readAvailable(SocketTube.java:1178) ~[java.net.http:?]
+	at jdk.internal.net.http.SocketTube$InternalReadPublisher$InternalReadSubscription.read(SocketTube.java:841) ~[java.net.http:?]
+	at jdk.internal.net.http.SocketTube$SocketFlowTask.run(SocketTube.java:181) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SequentialScheduler$SchedulableTask.run(SequentialScheduler.java:207) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SequentialScheduler.runOrSchedule(SequentialScheduler.java:280) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SequentialScheduler.runOrSchedule(SequentialScheduler.java:233) ~[java.net.http:?]
+	at jdk.internal.net.http.SocketTube$InternalReadPublisher$InternalReadSubscription.signalReadable(SocketTube.java:782) ~[java.net.http:?]
+	at jdk.internal.net.http.SocketTube$InternalReadPublisher$ReadEvent.signalEvent(SocketTube.java:965) ~[java.net.http:?]
+	at jdk.internal.net.http.SocketTube$SocketFlowEvent.handle(SocketTube.java:253) ~[java.net.http:?]
+	at jdk.internal.net.http.HttpClientImpl$SelectorManager.handleEvent(HttpClientImpl.java:1478) ~[java.net.http:?]
+	at jdk.internal.net.http.HttpClientImpl$SelectorManager.lambda$run$3(HttpClientImpl.java:1423) ~[java.net.http:?]
+	at java.util.ArrayList.forEach(ArrayList.java:1597) ~[?:?]
+	at jdk.internal.net.http.HttpClientImpl$SelectorManager.run(HttpClientImpl.java:1423) ~[java.net.http:?]
+2025-03-22 21:57:04 [main] ERROR listeners.TestListener - ❌ Test FAILED: verifyErrorMessageForExistingEmail
+org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: '4.29.0', revision: '5fc1ec94cb'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [481fdfe12ff0770782d0fa8c9a9924ea, screenshot []]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.118, chrome: {chromedriverVersion: 134.0.6998.165 (fd886e2cb29..., userDataDir: C:\Users\MOHAME~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61978}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61978/devtoo..., se:cdpVersion: 134.0.6998.118, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 481fdfe12ff0770782d0fa8c9a9924ea
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:572) ~[selenium-remote-driver-4.29.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:618) ~[selenium-remote-driver-4.29.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:622) ~[selenium-remote-driver-4.29.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:334) ~[selenium-remote-driver-4.29.0.jar:?]
+	at listeners.TestListener.captureScreenshot(TestListener.java:271) ~[test-classes/:?]
+	at listeners.TestListener.onTestFailure(TestListener.java:137) ~[test-classes/:?]
+	at org.testng.internal.TestListenerHelper.runTestListeners(TestListenerHelper.java:115) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.runTestResultListener(TestInvoker.java:285) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:777) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) ~[testng-7.11.0.jar:7.11.0]
+	at java.util.ArrayList.forEach(ArrayList.java:1597) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:741) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestRunner.run(TestRunner.java:616) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuites(TestNG.java:1112) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.run(TestNG.java:1079) [testng-7.11.0.jar:7.11.0]
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155) [surefire-testng-3.5.2.jar:3.5.2]
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeSingleClass(TestNGDirectoryTestSuite.java:102) [surefire-testng-3.5.2.jar:3.5.2]
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:91) [surefire-testng-3.5.2.jar:3.5.2]
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137) [surefire-testng-3.5.2.jar:3.5.2]
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385) [surefire-booter-3.5.2.jar:3.5.2]
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162) [surefire-booter-3.5.2.jar:3.5.2]
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507) [surefire-booter-3.5.2.jar:3.5.2]
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495) [surefire-booter-3.5.2.jar:3.5.2]
+Caused by: java.io.UncheckedIOException: java.net.ConnectException
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java:497) ~[selenium-http-4.29.0.jar:?]
+	at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42) ~[selenium-http-4.29.0.jar:?]
+	at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:55) ~[selenium-http-4.29.0.jar:?]
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.lambda$executeAsync$1(JdkHttpClient.java:384) ~[selenium-http-4.29.0.jar:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.lang.Thread.run(Thread.java:1575) ~[?:?]
+Caused by: java.net.ConnectException
+	at jdk.internal.net.http.HttpClientImpl.send(HttpClientImpl.java:956) ~[java.net.http:?]
+	at jdk.internal.net.http.HttpClientFacade.send(HttpClientFacade.java:133) ~[java.net.http:?]
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java:456) ~[selenium-http-4.29.0.jar:?]
+	at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42) ~[selenium-http-4.29.0.jar:?]
+	at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:55) ~[selenium-http-4.29.0.jar:?]
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.lambda$executeAsync$1(JdkHttpClient.java:384) ~[selenium-http-4.29.0.jar:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.lang.Thread.run(Thread.java:1575) ~[?:?]
+Caused by: java.net.ConnectException
+	at jdk.internal.net.http.common.Utils.toConnectException(Utils.java:1082) ~[java.net.http:?]
+	at jdk.internal.net.http.PlainHttpConnection.connectAsync(PlainHttpConnection.java:227) ~[java.net.http:?]
+	at jdk.internal.net.http.PlainHttpConnection.checkRetryConnect(PlainHttpConnection.java:280) ~[java.net.http:?]
+	at jdk.internal.net.http.PlainHttpConnection.lambda$connectAsync$2(PlainHttpConnection.java:238) ~[java.net.http:?]
+	at java.util.concurrent.CompletableFuture.uniHandle(CompletableFuture.java:978) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniHandle.tryFire(CompletableFuture.java:955) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:554) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1817) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.lang.Thread.run(Thread.java:1575) ~[?:?]
+Caused by: java.nio.channels.ClosedChannelException
+	at sun.nio.ch.SocketChannelImpl.ensureOpen(SocketChannelImpl.java:204) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:958) ~[?:?]
+	at jdk.internal.net.http.PlainHttpConnection.lambda$connectAsync$1(PlainHttpConnection.java:210) ~[java.net.http:?]
+	at java.security.AccessController.doPrivileged(AccessController.java:571) ~[?:?]
+	at jdk.internal.net.http.PlainHttpConnection.connectAsync(PlainHttpConnection.java:212) ~[java.net.http:?]
+	at jdk.internal.net.http.PlainHttpConnection.checkRetryConnect(PlainHttpConnection.java:280) ~[java.net.http:?]
+	at jdk.internal.net.http.PlainHttpConnection.lambda$connectAsync$2(PlainHttpConnection.java:238) ~[java.net.http:?]
+	at java.util.concurrent.CompletableFuture.uniHandle(CompletableFuture.java:978) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniHandle.tryFire(CompletableFuture.java:955) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:554) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1817) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.lang.Thread.run(Thread.java:1575) ~[?:?]
+2025-03-22 21:57:04 [main] INFO  listeners.TestListener - 🏁 Finished Test Suite: Surefire test
+2025-03-22 21:58:25 [main] INFO  TC-036_verifyErrorMessageForExistingEmail - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-03-22 21:58:25 [main] INFO  TC-036_verifyErrorMessageForExistingEmail - Logger initialized
+2025-03-22 21:58:25 [main] INFO  TC-036_verifyErrorMessageForExistingEmail - Starting test setup for: verifyErrorMessageForExistingEmail (🔢 Test Case ID: TC-036)
+2025-03-22 21:58:48 [main] INFO  TC-036_verifyErrorMessageForExistingEmail - Navigated to the site: https://demo.nopcommerce.com
+2025-03-22 21:58:48 [main] INFO  TC-036_verifyErrorMessageForExistingEmail - Injected cookie: _ga
+2025-03-22 21:58:48 [main] INFO  TC-036_verifyErrorMessageForExistingEmail - Injected cookie: cf_clearance
+2025-03-22 21:58:48 [main] INFO  TC-036_verifyErrorMessageForExistingEmail - Injected cookie: .Nop.Antiforgery
+2025-03-22 21:58:48 [main] INFO  TC-036_verifyErrorMessageForExistingEmail - Injected cookie: .Nop.Customer
+2025-03-22 21:58:48 [main] INFO  TC-036_verifyErrorMessageForExistingEmail - Injected cookie: .Nop.Culture
+2025-03-22 21:58:48 [main] INFO  TC-036_verifyErrorMessageForExistingEmail - Injected cookie: _ga_SCT41TW89V
+2025-03-22 21:58:49 [main] INFO  TC-036_verifyErrorMessageForExistingEmail - Page refreshed with bypassed cookies.
+2025-03-22 21:58:49 [main] INFO  TC-036_verifyErrorMessageForExistingEmail - 🟢 Starting test: verifyErrorMessageForExistingEmail (🔢 Test Case ID: TC-036)
+2025-03-22 21:58:50 [main] INFO  utils.MainFunctionalities - Navigating to registration page.
+2025-03-22 21:58:56 [main] INFO  utils.MainFunctionalities - Clicking 'Register' button.
+2025-03-22 21:58:59 [main] INFO  TC-036_verifyErrorMessageForExistingEmail - User successfully registered.
+2025-03-22 21:59:01 [main] INFO  utils.MainFunctionalities - Navigating to registration page.
+2025-03-22 21:59:05 [main] INFO  utils.MainFunctionalities - Clicking 'Register' button.
+2025-03-22 21:59:08 [main] INFO  TC-036_verifyErrorMessageForExistingEmail - Verified error message for existing email.
+2025-03-22 21:59:08 [main] INFO  listeners.TestListener - ✅ Test PASSED: verifyErrorMessageForExistingEmail (Duration: 18917ms)
+2025-03-22 21:59:08 [main] INFO  TC-036_verifyErrorMessageForExistingEmail - Closing the browser for test: verifyErrorMessageForExistingEmail
+2025-03-22 21:59:09 [main] INFO  TC-036_verifyErrorMessageForExistingEmail - Browser closed.
+2025-03-22 22:07:03 [main] INFO  TC-036_verifyErrorMessageForExistingEmail - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-03-22 22:07:03 [main] INFO  TC-036_verifyErrorMessageForExistingEmail - Logger initialized
+2025-03-22 22:07:03 [main] INFO  TC-036_verifyErrorMessageForExistingEmail - Starting test setup for: verifyErrorMessageForExistingEmail (🔢 Test Case ID: TC-036)
+2025-03-22 22:07:28 [main] INFO  TC-036_verifyErrorMessageForExistingEmail - Navigated to the site: https://demo.nopcommerce.com
+2025-03-22 22:07:28 [main] INFO  TC-036_verifyErrorMessageForExistingEmail - Injected cookie: _ga
+2025-03-22 22:07:28 [main] INFO  TC-036_verifyErrorMessageForExistingEmail - Injected cookie: cf_clearance
+2025-03-22 22:07:28 [main] INFO  TC-036_verifyErrorMessageForExistingEmail - Injected cookie: .Nop.Antiforgery
+2025-03-22 22:07:28 [main] INFO  TC-036_verifyErrorMessageForExistingEmail - Injected cookie: .Nop.Customer
+2025-03-22 22:07:28 [main] INFO  TC-036_verifyErrorMessageForExistingEmail - Injected cookie: .Nop.Culture
+2025-03-22 22:07:28 [main] INFO  TC-036_verifyErrorMessageForExistingEmail - Injected cookie: _ga_SCT41TW89V
+2025-03-22 22:07:28 [main] INFO  TC-036_verifyErrorMessageForExistingEmail - Page refreshed with bypassed cookies.
+2025-03-22 22:07:28 [main] INFO  TC-036_verifyErrorMessageForExistingEmail - 🟢 Starting test: verifyErrorMessageForExistingEmail (🔢 Test Case ID: TC-036)
+2025-03-22 22:07:30 [main] INFO  utils.MainFunctionalities - Navigating to registration page.
+2025-03-22 22:07:35 [main] INFO  utils.MainFunctionalities - Clicking 'Register' button.
+2025-03-22 22:07:47 [main] ERROR listeners.TestListener - ❌ Test FAILED: verifyErrorMessageForExistingEmail
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.cssSelector: .result (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.29.0', revision: '5fc1ec94cb'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.118, chrome: {chromedriverVersion: 134.0.6998.165 (fd886e2cb29..., userDataDir: C:\Users\MOHAME~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62678}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62678/devtoo..., se:cdpVersion: 134.0.6998.118, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a4e3a8263ffee9014e86578f9c4e5c38
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84) ~[selenium-support-4.29.0.jar:?]
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228) ~[selenium-support-4.29.0.jar:?]
+	at utils.SeleniumHelper.waitForVisibility(SeleniumHelper.java:63) ~[test-classes/:?]
+	at tests.ui.AuthenticationTest.verifyErrorMessageForExistingEmail(AuthenticationTest.java:156) ~[test-classes/:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) ~[testng-7.11.0.jar:7.11.0]
+	at java.util.ArrayList.forEach(ArrayList.java:1597) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:741) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestRunner.run(TestRunner.java:616) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuites(TestNG.java:1112) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.run(TestNG.java:1079) [testng-7.11.0.jar:7.11.0]
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155) [surefire-testng-3.5.2.jar:3.5.2]
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeSingleClass(TestNGDirectoryTestSuite.java:102) [surefire-testng-3.5.2.jar:3.5.2]
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:91) [surefire-testng-3.5.2.jar:3.5.2]
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137) [surefire-testng-3.5.2.jar:3.5.2]
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385) [surefire-booter-3.5.2.jar:3.5.2]
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162) [surefire-booter-3.5.2.jar:3.5.2]
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507) [surefire-booter-3.5.2.jar:3.5.2]
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495) [surefire-booter-3.5.2.jar:3.5.2]
+2025-03-22 22:07:48 [main] INFO  TC-036_verifyErrorMessageForExistingEmail - Closing the browser for test: verifyErrorMessageForExistingEmail
+2025-03-22 22:07:48 [main] INFO  TC-036_verifyErrorMessageForExistingEmail - Browser closed.
+2025-03-22 22:09:28 [main] INFO  TC-036_verifyErrorMessageForExistingEmail - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-03-22 22:09:28 [main] INFO  TC-036_verifyErrorMessageForExistingEmail - Logger initialized
+2025-03-22 22:09:28 [main] INFO  TC-036_verifyErrorMessageForExistingEmail - Starting test setup for: verifyErrorMessageForExistingEmail (🔢 Test Case ID: TC-036)
+2025-03-22 22:09:55 [main] INFO  TC-036_verifyErrorMessageForExistingEmail - Navigated to the site: https://demo.nopcommerce.com
+2025-03-22 22:09:55 [main] INFO  TC-036_verifyErrorMessageForExistingEmail - Injected cookie: _ga
+2025-03-22 22:09:55 [main] INFO  TC-036_verifyErrorMessageForExistingEmail - Injected cookie: cf_clearance
+2025-03-22 22:09:55 [main] INFO  TC-036_verifyErrorMessageForExistingEmail - Injected cookie: .Nop.Antiforgery
+2025-03-22 22:09:55 [main] INFO  TC-036_verifyErrorMessageForExistingEmail - Injected cookie: .Nop.Customer
+2025-03-22 22:09:55 [main] INFO  TC-036_verifyErrorMessageForExistingEmail - Injected cookie: .Nop.Culture
+2025-03-22 22:09:55 [main] INFO  TC-036_verifyErrorMessageForExistingEmail - Injected cookie: _ga_SCT41TW89V
+2025-03-22 22:09:56 [main] INFO  TC-036_verifyErrorMessageForExistingEmail - Page refreshed with bypassed cookies.
+2025-03-22 22:09:56 [main] INFO  TC-036_verifyErrorMessageForExistingEmail - 🟢 Starting test: verifyErrorMessageForExistingEmail (🔢 Test Case ID: TC-036)
+2025-03-22 22:09:57 [main] INFO  utils.MainFunctionalities - Navigating to registration page.
+2025-03-22 22:10:02 [main] INFO  utils.MainFunctionalities - Clicking 'Register' button.
+2025-03-22 22:10:04 [main] INFO  TC-036_verifyErrorMessageForExistingEmail - User successfully registered.
+2025-03-22 22:10:05 [main] INFO  utils.MainFunctionalities - Navigating to registration page.
+2025-03-22 22:10:10 [main] INFO  utils.MainFunctionalities - Clicking 'Register' button.
+2025-03-22 22:10:13 [main] INFO  TC-036_verifyErrorMessageForExistingEmail - Verified error message for existing email.
+2025-03-22 22:10:13 [main] INFO  listeners.TestListener - ✅ Test PASSED: verifyErrorMessageForExistingEmail (Duration: 17258ms)
+2025-03-22 22:10:13 [main] INFO  TC-036_verifyErrorMessageForExistingEmail - Closing the browser for test: verifyErrorMessageForExistingEmail
+2025-03-22 22:10:14 [main] INFO  TC-036_verifyErrorMessageForExistingEmail - Browser closed.
+2025-03-22 22:15:04 [main] INFO  TC-036_verifyErrorMessageForExistingEmail - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-03-22 22:15:04 [main] INFO  TC-036_verifyErrorMessageForExistingEmail - Logger initialized
+2025-03-22 22:15:04 [main] INFO  TC-036_verifyErrorMessageForExistingEmail - Starting test setup for: verifyErrorMessageForExistingEmail (🔢 Test Case ID: TC-036)
+2025-03-22 22:15:28 [main] INFO  TC-036_verifyErrorMessageForExistingEmail - Navigated to the site: https://demo.nopcommerce.com
+2025-03-22 22:15:28 [main] INFO  TC-036_verifyErrorMessageForExistingEmail - Injected cookie: _ga
+2025-03-22 22:15:28 [main] INFO  TC-036_verifyErrorMessageForExistingEmail - Injected cookie: cf_clearance
+2025-03-22 22:15:28 [main] INFO  TC-036_verifyErrorMessageForExistingEmail - Injected cookie: .Nop.Antiforgery
+2025-03-22 22:15:28 [main] INFO  TC-036_verifyErrorMessageForExistingEmail - Injected cookie: .Nop.Customer
+2025-03-22 22:15:28 [main] INFO  TC-036_verifyErrorMessageForExistingEmail - Injected cookie: .Nop.Culture
+2025-03-22 22:15:28 [main] INFO  TC-036_verifyErrorMessageForExistingEmail - Injected cookie: _ga_SCT41TW89V
+2025-03-22 22:15:29 [main] INFO  TC-036_verifyErrorMessageForExistingEmail - Page refreshed with bypassed cookies.
+2025-03-22 22:15:29 [main] INFO  TC-036_verifyErrorMessageForExistingEmail - 🟢 Starting test: verifyErrorMessageForExistingEmail (🔢 Test Case ID: TC-036)
+2025-03-22 22:15:30 [main] INFO  utils.MainFunctionalities - Navigating to registration page.
+2025-03-22 22:15:35 [main] INFO  utils.MainFunctionalities - Clicking 'Register' button.
+2025-03-22 22:15:37 [main] INFO  TC-036_verifyErrorMessageForExistingEmail - User successfully registered.
+2025-03-22 22:15:38 [main] INFO  utils.MainFunctionalities - Navigating to registration page.
+2025-03-22 22:15:43 [main] INFO  utils.MainFunctionalities - Clicking 'Register' button.
+2025-03-22 22:15:46 [main] INFO  TC-036_verifyErrorMessageForExistingEmail - Verified error message for existing email.
+2025-03-22 22:15:46 [main] INFO  listeners.TestListener - ✅ Test PASSED: verifyErrorMessageForExistingEmail (Duration: 17231ms)
+2025-03-22 22:15:46 [main] INFO  TC-036_verifyErrorMessageForExistingEmail - Closing the browser for test: verifyErrorMessageForExistingEmail
+2025-03-22 22:15:46 [main] INFO  TC-036_verifyErrorMessageForExistingEmail - Browser closed.

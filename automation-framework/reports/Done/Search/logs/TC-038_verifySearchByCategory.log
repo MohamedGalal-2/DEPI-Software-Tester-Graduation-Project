@@ -1,0 +1,117 @@
+2025-03-24 22:50:23 [main] INFO  TC-038_verifySearchByCategory - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-03-24 22:50:23 [main] INFO  TC-038_verifySearchByCategory - Logger initialized
+2025-03-24 22:50:23 [main] INFO  TC-038_verifySearchByCategory - Starting test setup for: verifySearchByCategory (🔢 Test Case ID: TC-038)
+2025-03-24 22:50:41 [main] INFO  TC-038_verifySearchByCategory - Navigated to the site: https://demo.nopcommerce.com
+2025-03-24 22:50:41 [main] INFO  TC-038_verifySearchByCategory - Injected cookie: cf_clearance
+2025-03-24 22:50:41 [main] INFO  TC-038_verifySearchByCategory - Injected cookie: _ga
+2025-03-24 22:50:41 [main] INFO  TC-038_verifySearchByCategory - Injected cookie: .Nop.Antiforgery
+2025-03-24 22:50:41 [main] INFO  TC-038_verifySearchByCategory - Injected cookie: .Nop.Customer
+2025-03-24 22:50:41 [main] INFO  TC-038_verifySearchByCategory - Injected cookie: .Nop.Culture
+2025-03-24 22:50:41 [main] INFO  TC-038_verifySearchByCategory - Injected cookie: _ga_SCT41TW89V
+2025-03-24 22:50:42 [main] INFO  TC-038_verifySearchByCategory - Page refreshed with bypassed cookies.
+2025-03-24 22:50:42 [main] INFO  TC-038_verifySearchByCategory - Navigating to: https://demo.nopcommerce.com/
+2025-03-24 22:50:45 [main] INFO  TC-038_verifySearchByCategory - Closing the browser for test: verifySearchByCategory
+2025-03-24 22:50:45 [main] INFO  TC-038_verifySearchByCategory - Browser closed.
+2025-03-24 22:51:09 [main] INFO  TC-038_verifySearchByCategory - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-03-24 22:51:09 [main] INFO  TC-038_verifySearchByCategory - Logger initialized
+2025-03-24 22:51:09 [main] INFO  TC-038_verifySearchByCategory - Starting test setup for: verifySearchByCategory (🔢 Test Case ID: TC-038)
+2025-03-24 22:51:27 [main] INFO  TC-038_verifySearchByCategory - Navigated to the site: https://demo.nopcommerce.com
+2025-03-24 22:51:27 [main] INFO  TC-038_verifySearchByCategory - Injected cookie: _ga
+2025-03-24 22:51:27 [main] INFO  TC-038_verifySearchByCategory - Injected cookie: cf_clearance
+2025-03-24 22:51:27 [main] INFO  TC-038_verifySearchByCategory - Injected cookie: .Nop.Antiforgery
+2025-03-24 22:51:27 [main] INFO  TC-038_verifySearchByCategory - Injected cookie: .Nop.Customer
+2025-03-24 22:51:27 [main] INFO  TC-038_verifySearchByCategory - Injected cookie: .Nop.Culture
+2025-03-24 22:51:27 [main] INFO  TC-038_verifySearchByCategory - Injected cookie: _ga_SCT41TW89V
+2025-03-24 22:51:28 [main] INFO  TC-038_verifySearchByCategory - Page refreshed with bypassed cookies.
+2025-03-24 22:51:28 [main] INFO  TC-038_verifySearchByCategory - Navigating to: https://demo.nopcommerce.com/
+2025-03-24 22:51:30 [main] INFO  TC-038_verifySearchByCategory - Closing the browser for test: verifySearchByCategory
+2025-03-24 22:51:30 [main] INFO  TC-038_verifySearchByCategory - Browser closed.
+2025-03-24 22:51:54 [main] INFO  TC-038_verifySearchByCategory - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-03-24 22:51:54 [main] INFO  TC-038_verifySearchByCategory - Logger initialized
+2025-03-24 22:51:54 [main] INFO  TC-038_verifySearchByCategory - Starting test setup for: verifySearchByCategory (🔢 Test Case ID: TC-038)
+2025-03-24 22:52:11 [main] INFO  TC-038_verifySearchByCategory - Navigated to the site: https://demo.nopcommerce.com
+2025-03-24 22:52:11 [main] INFO  TC-038_verifySearchByCategory - Injected cookie: cf_clearance
+2025-03-24 22:52:11 [main] INFO  TC-038_verifySearchByCategory - Injected cookie: _ga
+2025-03-24 22:52:11 [main] INFO  TC-038_verifySearchByCategory - Injected cookie: .Nop.Antiforgery
+2025-03-24 22:52:11 [main] INFO  TC-038_verifySearchByCategory - Injected cookie: .Nop.Customer
+2025-03-24 22:52:11 [main] INFO  TC-038_verifySearchByCategory - Injected cookie: .Nop.Culture
+2025-03-24 22:52:11 [main] INFO  TC-038_verifySearchByCategory - Injected cookie: _ga_SCT41TW89V
+2025-03-24 22:52:12 [main] INFO  TC-038_verifySearchByCategory - Page refreshed with bypassed cookies.
+2025-03-24 22:52:12 [main] INFO  TC-038_verifySearchByCategory - Navigating to: https://demo.nopcommerce.com/
+2025-03-24 22:52:16 [main] INFO  TC-038_verifySearchByCategory - Closing the browser for test: verifySearchByCategory
+2025-03-24 22:52:16 [main] INFO  TC-038_verifySearchByCategory - Browser closed.
+2025-03-24 22:52:22 [main] INFO  TC-038_verifySearchByCategory - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-03-24 22:52:22 [main] INFO  TC-038_verifySearchByCategory - Logger initialized
+2025-03-24 22:52:22 [main] INFO  TC-038_verifySearchByCategory - Starting test setup for: verifySearchByCategory (🔢 Test Case ID: TC-038)
+2025-03-24 22:52:45 [main] INFO  TC-038_verifySearchByCategory - Navigated to the site: https://demo.nopcommerce.com
+2025-03-24 22:52:45 [main] INFO  TC-038_verifySearchByCategory - Injected cookie: _ga
+2025-03-24 22:52:45 [main] INFO  TC-038_verifySearchByCategory - Injected cookie: cf_clearance
+2025-03-24 22:52:45 [main] INFO  TC-038_verifySearchByCategory - Injected cookie: .Nop.Antiforgery
+2025-03-24 22:52:45 [main] INFO  TC-038_verifySearchByCategory - Injected cookie: .Nop.Customer
+2025-03-24 22:52:45 [main] INFO  TC-038_verifySearchByCategory - Injected cookie: .Nop.Culture
+2025-03-24 22:52:45 [main] INFO  TC-038_verifySearchByCategory - Injected cookie: _ga_SCT41TW89V
+2025-03-24 22:52:46 [main] INFO  TC-038_verifySearchByCategory - Page refreshed with bypassed cookies.
+2025-03-24 22:52:46 [main] INFO  TC-038_verifySearchByCategory - Navigating to: https://demo.nopcommerce.com/
+2025-03-24 22:52:50 [main] INFO  TC-038_verifySearchByCategory - Clicked on 'Computers' category.
+2025-03-24 22:52:52 [main] INFO  TC-038_verifySearchByCategory - Verified category page title.
+2025-03-24 22:52:59 [main] INFO  TC-038_verifySearchByCategory - Closing the browser for test: verifySearchByCategory
+2025-03-24 22:52:59 [main] INFO  TC-038_verifySearchByCategory - Browser closed.
+2025-03-24 22:53:37 [main] INFO  TC-038_verifySearchByCategory - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-03-24 22:53:37 [main] INFO  TC-038_verifySearchByCategory - Logger initialized
+2025-03-24 22:53:37 [main] INFO  TC-038_verifySearchByCategory - Starting test setup for: verifySearchByCategory (🔢 Test Case ID: TC-038)
+2025-03-24 22:53:59 [main] INFO  TC-038_verifySearchByCategory - Navigated to the site: https://demo.nopcommerce.com
+2025-03-24 22:53:59 [main] INFO  TC-038_verifySearchByCategory - Injected cookie: cf_clearance
+2025-03-24 22:53:59 [main] INFO  TC-038_verifySearchByCategory - Injected cookie: _ga
+2025-03-24 22:53:59 [main] INFO  TC-038_verifySearchByCategory - Injected cookie: .Nop.Antiforgery
+2025-03-24 22:53:59 [main] INFO  TC-038_verifySearchByCategory - Injected cookie: .Nop.Customer
+2025-03-24 22:53:59 [main] INFO  TC-038_verifySearchByCategory - Injected cookie: .Nop.Culture
+2025-03-24 22:53:59 [main] INFO  TC-038_verifySearchByCategory - Injected cookie: _ga_SCT41TW89V
+2025-03-24 22:54:00 [main] INFO  TC-038_verifySearchByCategory - Page refreshed with bypassed cookies.
+2025-03-24 22:54:00 [main] INFO  TC-038_verifySearchByCategory - Navigating to: https://demo.nopcommerce.com/
+2025-03-24 22:54:04 [main] INFO  TC-038_verifySearchByCategory - Clicked on 'Computers' category.
+2025-03-24 22:54:06 [main] INFO  TC-038_verifySearchByCategory - Verified category page title.
+2025-03-24 22:54:12 [main] INFO  TC-038_verifySearchByCategory - Closing the browser for test: verifySearchByCategory
+2025-03-24 22:54:12 [main] INFO  TC-038_verifySearchByCategory - Browser closed.
+2025-03-24 22:54:21 [main] INFO  TC-038_verifySearchByCategory - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-03-24 22:54:21 [main] INFO  TC-038_verifySearchByCategory - Logger initialized
+2025-03-24 22:54:21 [main] INFO  TC-038_verifySearchByCategory - Starting test setup for: verifySearchByCategory (🔢 Test Case ID: TC-038)
+2025-03-24 22:54:44 [main] INFO  TC-038_verifySearchByCategory - Navigated to the site: https://demo.nopcommerce.com
+2025-03-24 22:54:44 [main] INFO  TC-038_verifySearchByCategory - Injected cookie: cf_clearance
+2025-03-24 22:54:44 [main] INFO  TC-038_verifySearchByCategory - Injected cookie: _ga
+2025-03-24 22:54:44 [main] INFO  TC-038_verifySearchByCategory - Injected cookie: .Nop.Antiforgery
+2025-03-24 22:54:44 [main] INFO  TC-038_verifySearchByCategory - Injected cookie: .Nop.Customer
+2025-03-24 22:54:44 [main] INFO  TC-038_verifySearchByCategory - Injected cookie: .Nop.Culture
+2025-03-24 22:54:44 [main] INFO  TC-038_verifySearchByCategory - Injected cookie: _ga_SCT41TW89V
+2025-03-24 22:54:45 [main] INFO  TC-038_verifySearchByCategory - Page refreshed with bypassed cookies.
+2025-03-24 22:54:45 [main] INFO  TC-038_verifySearchByCategory - Navigating to: https://demo.nopcommerce.com/
+2025-03-24 22:54:48 [main] INFO  TC-038_verifySearchByCategory - Clicked on 'Computers' category.
+2025-03-24 22:54:50 [main] INFO  TC-038_verifySearchByCategory - Verified category page title.
+2025-03-24 22:54:57 [main] INFO  TC-038_verifySearchByCategory - Verified products are displayed correctly.
+2025-03-24 22:54:57 [main] INFO  TC-038_verifySearchByCategory - Closing the browser for test: verifySearchByCategory
+2025-03-24 22:54:58 [main] INFO  TC-038_verifySearchByCategory - Browser closed.
+2025-03-25 00:22:56 [main] INFO  TC-038_verifySearchByCategory - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-03-25 00:22:56 [main] INFO  TC-038_verifySearchByCategory - Logger initialized
+2025-03-25 00:22:56 [main] INFO  TC-038_verifySearchByCategory - Starting test setup for: verifySearchByCategory (🔢 Test Case ID: TC-038)
+2025-03-25 00:23:18 [main] INFO  TC-038_verifySearchByCategory - Navigated to the site: https://demo.nopcommerce.com
+2025-03-25 00:23:18 [main] INFO  TC-038_verifySearchByCategory - Injected cookie: cf_clearance
+2025-03-25 00:23:18 [main] INFO  TC-038_verifySearchByCategory - Injected cookie: _ga
+2025-03-25 00:23:18 [main] INFO  TC-038_verifySearchByCategory - Injected cookie: .Nop.Antiforgery
+2025-03-25 00:23:19 [main] INFO  TC-038_verifySearchByCategory - Injected cookie: .Nop.Customer
+2025-03-25 00:23:19 [main] INFO  TC-038_verifySearchByCategory - Injected cookie: .Nop.Culture
+2025-03-25 00:23:19 [main] INFO  TC-038_verifySearchByCategory - Injected cookie: _ga_SCT41TW89V
+2025-03-25 00:23:19 [main] INFO  TC-038_verifySearchByCategory - Page refreshed with bypassed cookies.
+2025-03-25 00:23:19 [main] INFO  TC-038_verifySearchByCategory - 🟢 Starting test: verifySearchByCategory (🔢 Test Case ID: TC-038)
+2025-03-25 00:23:19 [main] INFO  TC-038_verifySearchByCategory - Navigating to: https://demo.nopcommerce.com/
+2025-03-25 00:23:24 [main] INFO  TC-038_verifySearchByCategory - Clicked on 'Computers' category.
+2025-03-25 00:23:26 [main] INFO  TC-038_verifySearchByCategory - Verified category page title.
+2025-03-25 00:23:33 [main] INFO  TC-038_verifySearchByCategory - Verified products are displayed correctly.
+2025-03-25 00:23:33 [main] INFO  listeners.TestListener - ✅ Test PASSED: verifySearchByCategory (Duration: 13311ms)
+2025-03-25 00:23:33 [main] INFO  TC-038_verifySearchByCategory - Closing the browser for test: verifySearchByCategory
+2025-03-25 00:23:33 [main] INFO  TC-038_verifySearchByCategory - Browser closed.

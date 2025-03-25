@@ -1,0 +1,253 @@
+2025-03-19 07:35:33 [main] INFO  TC-189_verifyDifferentPaymentOptionsAreAvailable - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-03-19 07:35:33 [main] INFO  TC-189_verifyDifferentPaymentOptionsAreAvailable - Logger initialized
+2025-03-19 07:35:33 [main] INFO  TC-189_verifyDifferentPaymentOptionsAreAvailable - Starting test setup for: verifyDifferentPaymentOptionsAreAvailable (🔢 Test Case ID: TC-189)
+2025-03-19 07:35:50 [main] INFO  TC-189_verifyDifferentPaymentOptionsAreAvailable - Navigated to the site: https://demo.nopcommerce.com
+2025-03-19 07:35:50 [main] INFO  TC-189_verifyDifferentPaymentOptionsAreAvailable - Injected cookie: _ga
+2025-03-19 07:35:50 [main] INFO  TC-189_verifyDifferentPaymentOptionsAreAvailable - Injected cookie: cf_clearance
+2025-03-19 07:35:50 [main] INFO  TC-189_verifyDifferentPaymentOptionsAreAvailable - Injected cookie: .Nop.Antiforgery
+2025-03-19 07:35:50 [main] INFO  TC-189_verifyDifferentPaymentOptionsAreAvailable - Injected cookie: .Nop.Customer
+2025-03-19 07:35:50 [main] INFO  TC-189_verifyDifferentPaymentOptionsAreAvailable - Injected cookie: .Nop.Culture
+2025-03-19 07:35:50 [main] INFO  TC-189_verifyDifferentPaymentOptionsAreAvailable - Injected cookie: _ga_SCT41TW89V
+2025-03-19 07:35:51 [main] INFO  TC-189_verifyDifferentPaymentOptionsAreAvailable - Page refreshed with bypassed cookies.
+2025-03-19 07:35:51 [main] INFO  TC-189_verifyDifferentPaymentOptionsAreAvailable - 🟢 Starting test: verifyDifferentPaymentOptionsAreAvailable (🔢 Test Case ID: TC-189)
+2025-03-19 07:35:51 [main] INFO  TC-189_verifyDifferentPaymentOptionsAreAvailable - Navigating to login page: https://demo.nopcommerce.com/login
+2025-03-19 07:35:55 [main] INFO  TC-189_verifyDifferentPaymentOptionsAreAvailable - User logged in successfully.
+2025-03-19 07:35:55 [main] INFO  TC-189_verifyDifferentPaymentOptionsAreAvailable - Navigating to product page: https://demo.nopcommerce.com/adobe-photoshop
+2025-03-19 07:35:57 [main] INFO  TC-189_verifyDifferentPaymentOptionsAreAvailable - Clicked 'Add to Cart' button.
+2025-03-19 07:35:59 [main] INFO  TC-189_verifyDifferentPaymentOptionsAreAvailable - Product successfully added to cart.
+2025-03-19 07:35:59 [main] INFO  TC-189_verifyDifferentPaymentOptionsAreAvailable - Navigating to cart page: https://demo.nopcommerce.com/cart
+2025-03-19 07:36:01 [main] INFO  TC-189_verifyDifferentPaymentOptionsAreAvailable - Cart page loaded successfully.
+2025-03-19 07:36:03 [main] INFO  TC-189_verifyDifferentPaymentOptionsAreAvailable - Accepted terms of service.
+2025-03-19 07:36:09 [main] INFO  TC-189_verifyDifferentPaymentOptionsAreAvailable - Shipping method selected.
+2025-03-19 07:36:11 [main] INFO  TC-189_verifyDifferentPaymentOptionsAreAvailable - Payment section loaded successfully.
+2025-03-19 07:36:13 [main] INFO  TC-189_verifyDifferentPaymentOptionsAreAvailable - Payment options are listed.
+2025-03-19 07:36:13 [main] INFO  TC-189_verifyDifferentPaymentOptionsAreAvailable - "TC-189" Passed: Both 'Check / Money Order' and 'Credit Card' options are visible.
+2025-03-19 07:36:13 [main] INFO  listeners.TestListener - ✅ Test PASSED: verifyDifferentPaymentOptionsAreAvailable (Duration: 22032ms)
+2025-03-19 07:36:13 [main] INFO  TC-189_verifyDifferentPaymentOptionsAreAvailable - Closing the browser for test: verifyDifferentPaymentOptionsAreAvailable
+2025-03-19 07:36:13 [main] INFO  TC-189_verifyDifferentPaymentOptionsAreAvailable - Browser closed.
+2025-03-22 14:50:55 [main] INFO  TC-189_verifyDifferentPaymentOptionsAreAvailable - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-03-22 14:50:55 [main] INFO  TC-189_verifyDifferentPaymentOptionsAreAvailable - Logger initialized
+2025-03-22 14:50:55 [main] INFO  TC-189_verifyDifferentPaymentOptionsAreAvailable - Starting test setup for: verifyDifferentPaymentOptionsAreAvailable (🔢 Test Case ID: TC-189)
+2025-03-22 14:51:12 [main] INFO  TC-189_verifyDifferentPaymentOptionsAreAvailable - Navigated to the site: https://demo.nopcommerce.com
+2025-03-22 14:51:12 [main] INFO  TC-189_verifyDifferentPaymentOptionsAreAvailable - Injected cookie: cf_clearance
+2025-03-22 14:51:12 [main] INFO  TC-189_verifyDifferentPaymentOptionsAreAvailable - Injected cookie: _ga
+2025-03-22 14:51:12 [main] INFO  TC-189_verifyDifferentPaymentOptionsAreAvailable - Injected cookie: .Nop.Antiforgery
+2025-03-22 14:51:12 [main] INFO  TC-189_verifyDifferentPaymentOptionsAreAvailable - Injected cookie: .Nop.Customer
+2025-03-22 14:51:12 [main] INFO  TC-189_verifyDifferentPaymentOptionsAreAvailable - Injected cookie: .Nop.Culture
+2025-03-22 14:51:12 [main] INFO  TC-189_verifyDifferentPaymentOptionsAreAvailable - Injected cookie: _ga_SCT41TW89V
+2025-03-22 14:51:13 [main] INFO  TC-189_verifyDifferentPaymentOptionsAreAvailable - Page refreshed with bypassed cookies.
+2025-03-22 14:51:13 [main] INFO  TC-189_verifyDifferentPaymentOptionsAreAvailable - 🟢 Starting test: verifyDifferentPaymentOptionsAreAvailable (🔢 Test Case ID: TC-189)
+2025-03-22 14:51:13 [main] INFO  TC-189_verifyDifferentPaymentOptionsAreAvailable - Navigating to login page: https://demo.nopcommerce.com/login
+2025-03-22 14:51:22 [main] ERROR listeners.TestListener - ❌ Test FAILED: verifyDifferentPaymentOptionsAreAvailable
+java.lang.AssertionError: Login failed! expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.Assert.failNotEquals(Assert.java:1590) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.Assert.assertTrue(Assert.java:57) ~[testng-7.11.0.jar:7.11.0]
+	at tests.ui.CheckoutTest.verifyDifferentPaymentOptionsAreAvailable(CheckoutTest.java:680) ~[test-classes/:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) ~[testng-7.11.0.jar:7.11.0]
+	at java.util.ArrayList.forEach(ArrayList.java:1597) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:741) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestRunner.run(TestRunner.java:616) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuites(TestNG.java:1112) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.run(TestNG.java:1079) [testng-7.11.0.jar:7.11.0]
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155) [surefire-testng-3.5.2.jar:3.5.2]
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeSingleClass(TestNGDirectoryTestSuite.java:102) [surefire-testng-3.5.2.jar:3.5.2]
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:91) [surefire-testng-3.5.2.jar:3.5.2]
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137) [surefire-testng-3.5.2.jar:3.5.2]
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385) [surefire-booter-3.5.2.jar:3.5.2]
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162) [surefire-booter-3.5.2.jar:3.5.2]
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507) [surefire-booter-3.5.2.jar:3.5.2]
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495) [surefire-booter-3.5.2.jar:3.5.2]
+2025-03-22 14:51:22 [main] INFO  TC-189_verifyDifferentPaymentOptionsAreAvailable - Closing the browser for test: verifyDifferentPaymentOptionsAreAvailable
+2025-03-22 14:51:23 [main] INFO  TC-189_verifyDifferentPaymentOptionsAreAvailable - Browser closed.
+2025-03-23 03:23:40 [main] INFO  TC-189_verifyDifferentPaymentOptionsAreAvailable - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-03-23 03:23:40 [main] INFO  TC-189_verifyDifferentPaymentOptionsAreAvailable - Logger initialized
+2025-03-23 03:23:40 [main] INFO  TC-189_verifyDifferentPaymentOptionsAreAvailable - Starting test setup for: verifyDifferentPaymentOptionsAreAvailable (🔢 Test Case ID: TC-189)
+2025-03-23 03:23:58 [main] INFO  TC-189_verifyDifferentPaymentOptionsAreAvailable - Navigated to the site: https://demo.nopcommerce.com
+2025-03-23 03:23:58 [main] INFO  TC-189_verifyDifferentPaymentOptionsAreAvailable - Injected cookie: _ga
+2025-03-23 03:23:58 [main] INFO  TC-189_verifyDifferentPaymentOptionsAreAvailable - Injected cookie: cf_clearance
+2025-03-23 03:23:58 [main] INFO  TC-189_verifyDifferentPaymentOptionsAreAvailable - Injected cookie: .Nop.Antiforgery
+2025-03-23 03:23:58 [main] INFO  TC-189_verifyDifferentPaymentOptionsAreAvailable - Injected cookie: .Nop.Customer
+2025-03-23 03:23:58 [main] INFO  TC-189_verifyDifferentPaymentOptionsAreAvailable - Injected cookie: .Nop.Culture
+2025-03-23 03:23:58 [main] INFO  TC-189_verifyDifferentPaymentOptionsAreAvailable - Injected cookie: _ga_SCT41TW89V
+2025-03-23 03:23:59 [main] INFO  TC-189_verifyDifferentPaymentOptionsAreAvailable - Page refreshed with bypassed cookies.
+2025-03-23 03:24:00 [main] INFO  utils.MainFunctionalities - Navigating to product page: https://demo.nopcommerce.com/adobe-photoshop
+2025-03-23 03:24:02 [main] INFO  utils.MainFunctionalities - Clicked 'Add to Cart' button with ID: add-to-cart-button-10
+2025-03-23 03:24:02 [main] INFO  utils.MainFunctionalities - Product successfully added to cart.
+2025-03-23 03:24:05 [main] INFO  utils.MainFunctionalities - Cart page loaded successfully.
+2025-03-23 03:24:08 [main] INFO  utils.MainFunctionalities - Accepted terms of service.
+2025-03-23 03:24:14 [main] INFO  utils.MainFunctionalities - Selected 'Checkout as Guest' option.
+2025-03-23 03:24:17 [main] INFO  utils.MainFunctionalities - Checkout page loaded successfully.
+2025-03-23 03:24:21 [main] INFO  utils.MainFunctionalities - Checked 'Ship to the same address' option.
+2025-03-23 03:24:26 [main] INFO  utils.MainFunctionalities - Shipping method selected.
+2025-03-23 03:24:27 [main] INFO  utils.MainFunctionalities - Payment section loaded successfully.
+2025-03-23 03:24:29 [main] INFO  utils.MainFunctionalities - Payment options are listed.
+2025-03-23 03:24:29 [main] INFO  utils.MainFunctionalities - Both 'Check / Money Order' and 'Credit Card' options are visible.
+2025-03-23 03:24:29 [main] INFO  TC-189_verifyDifferentPaymentOptionsAreAvailable - Closing the browser for test: verifyDifferentPaymentOptionsAreAvailable
+2025-03-23 03:24:30 [main] INFO  TC-189_verifyDifferentPaymentOptionsAreAvailable - Browser closed.
+2025-03-23 03:29:56 [main] INFO  TC-189_verifyDifferentPaymentOptionsAreAvailable - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-03-23 03:29:56 [main] INFO  TC-189_verifyDifferentPaymentOptionsAreAvailable - Logger initialized
+2025-03-23 03:29:56 [main] INFO  TC-189_verifyDifferentPaymentOptionsAreAvailable - Starting test setup for: verifyDifferentPaymentOptionsAreAvailable (🔢 Test Case ID: TC-189)
+2025-03-23 03:30:04 [main] INFO  TC-189_verifyDifferentPaymentOptionsAreAvailable - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-03-23 03:30:04 [main] INFO  TC-189_verifyDifferentPaymentOptionsAreAvailable - Logger initialized
+2025-03-23 03:30:04 [main] INFO  TC-189_verifyDifferentPaymentOptionsAreAvailable - Starting test setup for: verifyDifferentPaymentOptionsAreAvailable (🔢 Test Case ID: TC-189)
+2025-03-23 03:30:20 [main] INFO  TC-189_verifyDifferentPaymentOptionsAreAvailable - Navigated to the site: https://demo.nopcommerce.com
+2025-03-23 03:30:20 [main] INFO  TC-189_verifyDifferentPaymentOptionsAreAvailable - Injected cookie: _ga
+2025-03-23 03:30:20 [main] INFO  TC-189_verifyDifferentPaymentOptionsAreAvailable - Injected cookie: cf_clearance
+2025-03-23 03:30:20 [main] INFO  TC-189_verifyDifferentPaymentOptionsAreAvailable - Injected cookie: .Nop.Antiforgery
+2025-03-23 03:30:20 [main] INFO  TC-189_verifyDifferentPaymentOptionsAreAvailable - Injected cookie: .Nop.Customer
+2025-03-23 03:30:20 [main] INFO  TC-189_verifyDifferentPaymentOptionsAreAvailable - Injected cookie: .Nop.Culture
+2025-03-23 03:30:20 [main] INFO  TC-189_verifyDifferentPaymentOptionsAreAvailable - Injected cookie: _ga_SCT41TW89V
+2025-03-23 03:30:21 [main] INFO  TC-189_verifyDifferentPaymentOptionsAreAvailable - Page refreshed with bypassed cookies.
+2025-03-23 03:30:22 [main] INFO  utils.MainFunctionalities - Navigating to product page: https://demo.nopcommerce.com/adobe-photoshop
+2025-03-23 03:30:35 [main] INFO  TC-189_verifyDifferentPaymentOptionsAreAvailable - Closing the browser for test: verifyDifferentPaymentOptionsAreAvailable
+2025-03-23 03:30:35 [main] INFO  TC-189_verifyDifferentPaymentOptionsAreAvailable - Browser closed.
+2025-03-23 03:31:37 [main] INFO  TC-189_verifyDifferentPaymentOptionsAreAvailable - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-03-23 03:31:37 [main] INFO  TC-189_verifyDifferentPaymentOptionsAreAvailable - Logger initialized
+2025-03-23 03:31:37 [main] INFO  TC-189_verifyDifferentPaymentOptionsAreAvailable - Starting test setup for: verifyDifferentPaymentOptionsAreAvailable (🔢 Test Case ID: TC-189)
+2025-03-23 03:32:00 [main] INFO  TC-189_verifyDifferentPaymentOptionsAreAvailable - Navigated to the site: https://demo.nopcommerce.com
+2025-03-23 03:32:00 [main] INFO  TC-189_verifyDifferentPaymentOptionsAreAvailable - Injected cookie: _ga
+2025-03-23 03:32:00 [main] INFO  TC-189_verifyDifferentPaymentOptionsAreAvailable - Injected cookie: cf_clearance
+2025-03-23 03:32:00 [main] INFO  TC-189_verifyDifferentPaymentOptionsAreAvailable - Injected cookie: .Nop.Antiforgery
+2025-03-23 03:32:00 [main] INFO  TC-189_verifyDifferentPaymentOptionsAreAvailable - Injected cookie: .Nop.Customer
+2025-03-23 03:32:00 [main] INFO  TC-189_verifyDifferentPaymentOptionsAreAvailable - Injected cookie: .Nop.Culture
+2025-03-23 03:32:00 [main] INFO  TC-189_verifyDifferentPaymentOptionsAreAvailable - Injected cookie: _ga_SCT41TW89V
+2025-03-23 03:32:01 [main] INFO  TC-189_verifyDifferentPaymentOptionsAreAvailable - Page refreshed with bypassed cookies.
+2025-03-23 03:32:03 [main] INFO  utils.MainFunctionalities - Navigating to product page: https://demo.nopcommerce.com/adobe-photoshop
+2025-03-23 03:32:04 [main] INFO  utils.MainFunctionalities - Clicked 'Add to Cart' button with ID: add-to-cart-button-10
+2025-03-23 03:32:05 [main] INFO  utils.MainFunctionalities - Product successfully added to cart.
+2025-03-23 03:32:07 [main] INFO  utils.MainFunctionalities - Cart page loaded successfully.
+2025-03-23 03:32:10 [main] INFO  utils.MainFunctionalities - Accepted terms of service.
+2025-03-23 03:32:15 [main] INFO  utils.MainFunctionalities - Selected 'Checkout as Guest' option.
+2025-03-23 03:32:17 [main] INFO  utils.MainFunctionalities - Checkout page loaded successfully.
+2025-03-23 03:32:22 [main] INFO  utils.MainFunctionalities - Checked 'Ship to the same address' option.
+2025-03-23 03:32:26 [main] INFO  utils.MainFunctionalities - Shipping method selected.
+2025-03-23 03:32:27 [main] INFO  utils.MainFunctionalities - Payment section loaded successfully.
+2025-03-23 03:32:29 [main] INFO  TC-189_verifyDifferentPaymentOptionsAreAvailable - Closing the browser for test: verifyDifferentPaymentOptionsAreAvailable
+2025-03-23 03:32:29 [main] INFO  TC-189_verifyDifferentPaymentOptionsAreAvailable - Browser closed.
+2025-03-23 03:33:49 [main] INFO  TC-189_verifyDifferentPaymentOptionsAreAvailable - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-03-23 03:33:49 [main] INFO  TC-189_verifyDifferentPaymentOptionsAreAvailable - Logger initialized
+2025-03-23 03:33:49 [main] INFO  TC-189_verifyDifferentPaymentOptionsAreAvailable - Starting test setup for: verifyDifferentPaymentOptionsAreAvailable (🔢 Test Case ID: TC-189)
+2025-03-23 03:34:12 [main] INFO  TC-189_verifyDifferentPaymentOptionsAreAvailable - Navigated to the site: https://demo.nopcommerce.com
+2025-03-23 03:34:12 [main] INFO  TC-189_verifyDifferentPaymentOptionsAreAvailable - Injected cookie: cf_clearance
+2025-03-23 03:34:12 [main] INFO  TC-189_verifyDifferentPaymentOptionsAreAvailable - Injected cookie: _ga
+2025-03-23 03:34:12 [main] INFO  TC-189_verifyDifferentPaymentOptionsAreAvailable - Injected cookie: .Nop.Antiforgery
+2025-03-23 03:34:12 [main] INFO  TC-189_verifyDifferentPaymentOptionsAreAvailable - Injected cookie: .Nop.Customer
+2025-03-23 03:34:12 [main] INFO  TC-189_verifyDifferentPaymentOptionsAreAvailable - Injected cookie: .Nop.Culture
+2025-03-23 03:34:12 [main] INFO  TC-189_verifyDifferentPaymentOptionsAreAvailable - Injected cookie: _ga_SCT41TW89V
+2025-03-23 03:34:13 [main] INFO  TC-189_verifyDifferentPaymentOptionsAreAvailable - Page refreshed with bypassed cookies.
+2025-03-23 03:34:14 [main] INFO  utils.MainFunctionalities - Navigating to product page: https://demo.nopcommerce.com/adobe-photoshop
+2025-03-23 03:34:16 [main] INFO  utils.MainFunctionalities - Clicked 'Add to Cart' button with ID: add-to-cart-button-10
+2025-03-23 03:34:17 [main] INFO  utils.MainFunctionalities - Product successfully added to cart.
+2025-03-23 03:34:19 [main] INFO  utils.MainFunctionalities - Cart page loaded successfully.
+2025-03-23 03:34:22 [main] INFO  utils.MainFunctionalities - Accepted terms of service.
+2025-03-23 03:34:28 [main] INFO  utils.MainFunctionalities - Selected 'Checkout as Guest' option.
+2025-03-23 03:34:29 [main] INFO  utils.MainFunctionalities - Checkout page loaded successfully.
+2025-03-23 03:34:34 [main] INFO  utils.MainFunctionalities - Checked 'Ship to the same address' option.
+2025-03-23 03:34:38 [main] INFO  utils.MainFunctionalities - Shipping method selected.
+2025-03-23 03:34:39 [main] INFO  utils.MainFunctionalities - Payment section loaded successfully.
+2025-03-23 03:34:42 [main] INFO  TC-189_verifyDifferentPaymentOptionsAreAvailable - Closing the browser for test: verifyDifferentPaymentOptionsAreAvailable
+2025-03-23 03:34:42 [main] INFO  TC-189_verifyDifferentPaymentOptionsAreAvailable - Browser closed.
+2025-03-23 03:37:05 [main] INFO  TC-189_verifyDifferentPaymentOptionsAreAvailable - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-03-23 03:37:05 [main] INFO  TC-189_verifyDifferentPaymentOptionsAreAvailable - Logger initialized
+2025-03-23 03:37:05 [main] INFO  TC-189_verifyDifferentPaymentOptionsAreAvailable - Starting test setup for: verifyDifferentPaymentOptionsAreAvailable (🔢 Test Case ID: TC-189)
+2025-03-23 03:37:28 [main] INFO  TC-189_verifyDifferentPaymentOptionsAreAvailable - Navigated to the site: https://demo.nopcommerce.com
+2025-03-23 03:37:28 [main] INFO  TC-189_verifyDifferentPaymentOptionsAreAvailable - Injected cookie: _ga
+2025-03-23 03:37:28 [main] INFO  TC-189_verifyDifferentPaymentOptionsAreAvailable - Injected cookie: cf_clearance
+2025-03-23 03:37:28 [main] INFO  TC-189_verifyDifferentPaymentOptionsAreAvailable - Injected cookie: .Nop.Antiforgery
+2025-03-23 03:37:28 [main] INFO  TC-189_verifyDifferentPaymentOptionsAreAvailable - Injected cookie: .Nop.Customer
+2025-03-23 03:37:28 [main] INFO  TC-189_verifyDifferentPaymentOptionsAreAvailable - Injected cookie: .Nop.Culture
+2025-03-23 03:37:28 [main] INFO  TC-189_verifyDifferentPaymentOptionsAreAvailable - Injected cookie: _ga_SCT41TW89V
+2025-03-23 03:37:29 [main] INFO  TC-189_verifyDifferentPaymentOptionsAreAvailable - Page refreshed with bypassed cookies.
+2025-03-23 03:37:30 [main] INFO  utils.MainFunctionalities - Navigating to product page: https://demo.nopcommerce.com/adobe-photoshop
+2025-03-23 03:37:32 [main] INFO  utils.MainFunctionalities - Clicked 'Add to Cart' button with ID: add-to-cart-button-10
+2025-03-23 03:37:32 [main] INFO  utils.MainFunctionalities - Product successfully added to cart.
+2025-03-23 03:37:36 [main] INFO  utils.MainFunctionalities - Cart page loaded successfully.
+2025-03-23 03:37:38 [main] INFO  utils.MainFunctionalities - Accepted terms of service.
+2025-03-23 03:37:45 [main] INFO  utils.MainFunctionalities - Selected 'Checkout as Guest' option.
+2025-03-23 03:37:48 [main] INFO  utils.MainFunctionalities - Checkout page loaded successfully.
+2025-03-23 03:37:53 [main] INFO  utils.MainFunctionalities - Checked 'Ship to the same address' option.
+2025-03-23 03:37:57 [main] INFO  utils.MainFunctionalities - Shipping method selected.
+2025-03-23 03:37:59 [main] INFO  utils.MainFunctionalities - Payment section loaded successfully.
+2025-03-23 03:38:01 [main] INFO  utils.MainFunctionalities - Payment options are listed.
+2025-03-23 03:38:01 [main] INFO  TC-189_verifyDifferentPaymentOptionsAreAvailable - Closing the browser for test: verifyDifferentPaymentOptionsAreAvailable
+2025-03-23 03:38:01 [main] INFO  TC-189_verifyDifferentPaymentOptionsAreAvailable - Browser closed.
+2025-03-23 03:38:42 [main] INFO  TC-189_verifyDifferentPaymentOptionsAreAvailable - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-03-23 03:38:42 [main] INFO  TC-189_verifyDifferentPaymentOptionsAreAvailable - Logger initialized
+2025-03-23 03:38:42 [main] INFO  TC-189_verifyDifferentPaymentOptionsAreAvailable - Starting test setup for: verifyDifferentPaymentOptionsAreAvailable (🔢 Test Case ID: TC-189)
+2025-03-23 03:39:14 [main] INFO  TC-189_verifyDifferentPaymentOptionsAreAvailable - Navigated to the site: https://demo.nopcommerce.com
+2025-03-23 03:39:14 [main] INFO  TC-189_verifyDifferentPaymentOptionsAreAvailable - Injected cookie: _ga
+2025-03-23 03:39:14 [main] INFO  TC-189_verifyDifferentPaymentOptionsAreAvailable - Injected cookie: cf_clearance
+2025-03-23 03:39:14 [main] INFO  TC-189_verifyDifferentPaymentOptionsAreAvailable - Injected cookie: .Nop.Antiforgery
+2025-03-23 03:39:14 [main] INFO  TC-189_verifyDifferentPaymentOptionsAreAvailable - Injected cookie: .Nop.Customer
+2025-03-23 03:39:14 [main] INFO  TC-189_verifyDifferentPaymentOptionsAreAvailable - Injected cookie: .Nop.Culture
+2025-03-23 03:39:14 [main] INFO  TC-189_verifyDifferentPaymentOptionsAreAvailable - Injected cookie: _ga_SCT41TW89V
+2025-03-23 03:39:15 [main] INFO  TC-189_verifyDifferentPaymentOptionsAreAvailable - Page refreshed with bypassed cookies.
+2025-03-23 03:39:19 [main] INFO  utils.MainFunctionalities - Navigating to product page: https://demo.nopcommerce.com/adobe-photoshop
+2025-03-23 03:39:20 [main] INFO  utils.MainFunctionalities - Clicked 'Add to Cart' button with ID: add-to-cart-button-10
+2025-03-23 03:39:20 [main] INFO  utils.MainFunctionalities - Product successfully added to cart.
+2025-03-23 03:39:23 [main] INFO  utils.MainFunctionalities - Cart page loaded successfully.
+2025-03-23 03:39:25 [main] INFO  utils.MainFunctionalities - Accepted terms of service.
+2025-03-23 03:39:31 [main] INFO  utils.MainFunctionalities - Selected 'Checkout as Guest' option.
+2025-03-23 03:39:32 [main] INFO  utils.MainFunctionalities - Checkout page loaded successfully.
+2025-03-23 03:39:37 [main] INFO  utils.MainFunctionalities - Checked 'Ship to the same address' option.
+2025-03-23 03:39:42 [main] INFO  utils.MainFunctionalities - Shipping method selected.
+2025-03-23 03:39:44 [main] INFO  utils.MainFunctionalities - Payment section loaded successfully.
+2025-03-23 03:39:47 [main] INFO  utils.MainFunctionalities - Payment options are listed.
+2025-03-23 03:39:47 [main] INFO  utils.MainFunctionalities - Both 'Check / Money Order' and 'Credit Card' options are visible.
+2025-03-23 03:39:47 [main] INFO  TC-189_verifyDifferentPaymentOptionsAreAvailable - Closing the browser for test: verifyDifferentPaymentOptionsAreAvailable
+2025-03-23 03:39:47 [main] INFO  TC-189_verifyDifferentPaymentOptionsAreAvailable - Browser closed.
+2025-03-23 03:45:27 [main] INFO  TC-189_verifyDifferentPaymentOptionsAreAvailable - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-03-23 03:45:27 [main] INFO  TC-189_verifyDifferentPaymentOptionsAreAvailable - Logger initialized
+2025-03-23 03:45:27 [main] INFO  TC-189_verifyDifferentPaymentOptionsAreAvailable - Starting test setup for: verifyDifferentPaymentOptionsAreAvailable (🔢 Test Case ID: TC-189)
+2025-03-23 03:45:44 [main] INFO  TC-189_verifyDifferentPaymentOptionsAreAvailable - Navigated to the site: https://demo.nopcommerce.com
+2025-03-23 03:45:44 [main] INFO  TC-189_verifyDifferentPaymentOptionsAreAvailable - Injected cookie: cf_clearance
+2025-03-23 03:45:44 [main] INFO  TC-189_verifyDifferentPaymentOptionsAreAvailable - Injected cookie: _ga
+2025-03-23 03:45:44 [main] INFO  TC-189_verifyDifferentPaymentOptionsAreAvailable - Injected cookie: .Nop.Antiforgery
+2025-03-23 03:45:44 [main] INFO  TC-189_verifyDifferentPaymentOptionsAreAvailable - Injected cookie: .Nop.Customer
+2025-03-23 03:45:44 [main] INFO  TC-189_verifyDifferentPaymentOptionsAreAvailable - Injected cookie: .Nop.Culture
+2025-03-23 03:45:44 [main] INFO  TC-189_verifyDifferentPaymentOptionsAreAvailable - Injected cookie: _ga_SCT41TW89V
+2025-03-23 03:45:44 [main] INFO  TC-189_verifyDifferentPaymentOptionsAreAvailable - Page refreshed with bypassed cookies.
+2025-03-23 03:45:44 [main] INFO  TC-189_verifyDifferentPaymentOptionsAreAvailable - 🟢 Starting test: verifyDifferentPaymentOptionsAreAvailable (🔢 Test Case ID: TC-189)
+2025-03-23 03:45:45 [main] INFO  utils.MainFunctionalities - Navigating to product page: https://demo.nopcommerce.com/adobe-photoshop
+2025-03-23 03:45:47 [main] INFO  utils.MainFunctionalities - Clicked 'Add to Cart' button with ID: add-to-cart-button-10
+2025-03-23 03:45:47 [main] INFO  utils.MainFunctionalities - Product successfully added to cart.
+2025-03-23 03:45:51 [main] INFO  utils.MainFunctionalities - Cart page loaded successfully.
+2025-03-23 03:45:52 [main] INFO  utils.MainFunctionalities - Accepted terms of service.
+2025-03-23 03:45:57 [main] INFO  utils.MainFunctionalities - Selected 'Checkout as Guest' option.
+2025-03-23 03:46:00 [main] INFO  utils.MainFunctionalities - Checkout page loaded successfully.
+2025-03-23 03:46:06 [main] INFO  utils.MainFunctionalities - Checked 'Ship to the same address' option.
+2025-03-23 03:46:09 [main] INFO  utils.MainFunctionalities - Shipping method selected.
+2025-03-23 03:46:10 [main] INFO  utils.MainFunctionalities - Payment section loaded successfully.
+2025-03-23 03:46:12 [main] INFO  utils.MainFunctionalities - Payment options are listed.
+2025-03-23 03:46:12 [main] INFO  utils.MainFunctionalities - Both 'Check / Money Order' and 'Credit Card' options are visible.
+2025-03-23 03:46:12 [main] INFO  listeners.TestListener - ✅ Test PASSED: verifyDifferentPaymentOptionsAreAvailable (Duration: 28319ms)
+2025-03-23 03:46:13 [main] INFO  TC-189_verifyDifferentPaymentOptionsAreAvailable - Closing the browser for test: verifyDifferentPaymentOptionsAreAvailable
+2025-03-23 03:46:13 [main] INFO  TC-189_verifyDifferentPaymentOptionsAreAvailable - Browser closed.

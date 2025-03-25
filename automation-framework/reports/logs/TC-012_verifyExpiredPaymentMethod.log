@@ -1,0 +1,245 @@
+2025-03-23 05:34:06 [main] INFO  TC-012_verifyExpiredPaymentMethod - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-03-23 05:34:06 [main] INFO  TC-012_verifyExpiredPaymentMethod - Logger initialized
+2025-03-23 05:34:06 [main] INFO  TC-012_verifyExpiredPaymentMethod - Starting test setup for: verifyExpiredPaymentMethod (🔢 Test Case ID: TC-012)
+2025-03-23 05:34:29 [main] INFO  TC-012_verifyExpiredPaymentMethod - Navigated to the site: https://demo.nopcommerce.com
+2025-03-23 05:34:29 [main] INFO  TC-012_verifyExpiredPaymentMethod - Injected cookie: _ga
+2025-03-23 05:34:29 [main] INFO  TC-012_verifyExpiredPaymentMethod - Injected cookie: cf_clearance
+2025-03-23 05:34:29 [main] INFO  TC-012_verifyExpiredPaymentMethod - Injected cookie: .Nop.Antiforgery
+2025-03-23 05:34:29 [main] INFO  TC-012_verifyExpiredPaymentMethod - Injected cookie: .Nop.Customer
+2025-03-23 05:34:29 [main] INFO  TC-012_verifyExpiredPaymentMethod - Injected cookie: .Nop.Culture
+2025-03-23 05:34:29 [main] INFO  TC-012_verifyExpiredPaymentMethod - Injected cookie: _ga_SCT41TW89V
+2025-03-23 05:34:30 [main] INFO  TC-012_verifyExpiredPaymentMethod - Page refreshed with bypassed cookies.
+2025-03-23 05:34:32 [main] INFO  utils.MainFunctionalities - Navigating to product page: https://demo.nopcommerce.com/adobe-photoshop
+2025-03-23 05:34:33 [main] INFO  utils.MainFunctionalities - Clicked 'Add to Cart' button with ID: add-to-cart-button-10
+2025-03-23 05:34:34 [main] INFO  utils.MainFunctionalities - Product successfully added to cart.
+2025-03-23 05:34:38 [main] INFO  utils.MainFunctionalities - Cart page loaded successfully.
+2025-03-23 05:34:40 [main] INFO  utils.MainFunctionalities - Accepted terms of service.
+2025-03-23 05:34:46 [main] INFO  utils.MainFunctionalities - Selected 'Checkout as Guest' option.
+2025-03-23 05:34:49 [main] INFO  utils.MainFunctionalities - Checkout page loaded successfully.
+2025-03-23 05:34:58 [main] INFO  TC-012_verifyExpiredPaymentMethod - Closing the browser for test: verifyExpiredPaymentMethod
+2025-03-23 05:34:58 [main] INFO  TC-012_verifyExpiredPaymentMethod - Browser closed.
+2025-03-23 05:38:19 [main] INFO  TC-012_verifyExpiredPaymentMethod - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-03-23 05:38:19 [main] INFO  TC-012_verifyExpiredPaymentMethod - Logger initialized
+2025-03-23 05:38:19 [main] INFO  TC-012_verifyExpiredPaymentMethod - Starting test setup for: verifyExpiredPaymentMethod (🔢 Test Case ID: TC-012)
+2025-03-23 05:38:44 [main] INFO  TC-012_verifyExpiredPaymentMethod - Navigated to the site: https://demo.nopcommerce.com
+2025-03-23 05:38:44 [main] INFO  TC-012_verifyExpiredPaymentMethod - Injected cookie: _ga
+2025-03-23 05:38:44 [main] INFO  TC-012_verifyExpiredPaymentMethod - Injected cookie: cf_clearance
+2025-03-23 05:38:44 [main] INFO  TC-012_verifyExpiredPaymentMethod - Injected cookie: .Nop.Antiforgery
+2025-03-23 05:38:44 [main] INFO  TC-012_verifyExpiredPaymentMethod - Injected cookie: .Nop.Customer
+2025-03-23 05:38:44 [main] INFO  TC-012_verifyExpiredPaymentMethod - Injected cookie: .Nop.Culture
+2025-03-23 05:38:44 [main] INFO  TC-012_verifyExpiredPaymentMethod - Injected cookie: _ga_SCT41TW89V
+2025-03-23 05:38:45 [main] INFO  TC-012_verifyExpiredPaymentMethod - Page refreshed with bypassed cookies.
+2025-03-23 05:38:46 [main] INFO  utils.MainFunctionalities - Navigating to product page: https://demo.nopcommerce.com/adobe-photoshop
+2025-03-23 05:38:48 [main] INFO  utils.MainFunctionalities - Clicked 'Add to Cart' button with ID: add-to-cart-button-10
+2025-03-23 05:38:49 [main] INFO  utils.MainFunctionalities - Product successfully added to cart.
+2025-03-23 05:38:52 [main] INFO  utils.MainFunctionalities - Cart page loaded successfully.
+2025-03-23 05:38:54 [main] INFO  utils.MainFunctionalities - Accepted terms of service.
+2025-03-23 05:39:00 [main] INFO  utils.MainFunctionalities - Selected 'Checkout as Guest' option.
+2025-03-23 05:39:01 [main] INFO  utils.MainFunctionalities - Checkout page loaded successfully.
+2025-03-23 05:39:10 [main] INFO  TC-012_verifyExpiredPaymentMethod - Closing the browser for test: verifyExpiredPaymentMethod
+2025-03-23 05:39:10 [main] INFO  TC-012_verifyExpiredPaymentMethod - Browser closed.
+2025-03-23 05:41:08 [main] INFO  TC-012_verifyExpiredPaymentMethod - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-03-23 05:41:08 [main] INFO  TC-012_verifyExpiredPaymentMethod - Logger initialized
+2025-03-23 05:41:08 [main] INFO  TC-012_verifyExpiredPaymentMethod - Starting test setup for: verifyExpiredPaymentMethod (🔢 Test Case ID: TC-012)
+2025-03-23 05:41:26 [main] INFO  TC-012_verifyExpiredPaymentMethod - Navigated to the site: https://demo.nopcommerce.com
+2025-03-23 05:41:26 [main] INFO  TC-012_verifyExpiredPaymentMethod - Injected cookie: _ga
+2025-03-23 05:41:26 [main] INFO  TC-012_verifyExpiredPaymentMethod - Injected cookie: cf_clearance
+2025-03-23 05:41:26 [main] INFO  TC-012_verifyExpiredPaymentMethod - Injected cookie: .Nop.Antiforgery
+2025-03-23 05:41:26 [main] INFO  TC-012_verifyExpiredPaymentMethod - Injected cookie: .Nop.Customer
+2025-03-23 05:41:26 [main] INFO  TC-012_verifyExpiredPaymentMethod - Injected cookie: .Nop.Culture
+2025-03-23 05:41:26 [main] INFO  TC-012_verifyExpiredPaymentMethod - Injected cookie: _ga_SCT41TW89V
+2025-03-23 05:41:26 [main] INFO  TC-012_verifyExpiredPaymentMethod - Page refreshed with bypassed cookies.
+2025-03-23 05:41:27 [main] INFO  utils.MainFunctionalities - Navigating to product page: https://demo.nopcommerce.com/adobe-photoshop
+2025-03-23 05:41:29 [main] INFO  utils.MainFunctionalities - Clicked 'Add to Cart' button with ID: add-to-cart-button-10
+2025-03-23 05:41:30 [main] INFO  utils.MainFunctionalities - Product successfully added to cart.
+2025-03-23 05:41:33 [main] INFO  utils.MainFunctionalities - Cart page loaded successfully.
+2025-03-23 05:41:36 [main] INFO  utils.MainFunctionalities - Accepted terms of service.
+2025-03-23 05:41:40 [main] INFO  utils.MainFunctionalities - Selected 'Checkout as Guest' option.
+2025-03-23 05:41:41 [main] INFO  utils.MainFunctionalities - Checkout page loaded successfully.
+2025-03-23 05:41:47 [main] INFO  utils.MainFunctionalities - Validation alert found: State / province is required.
+2025-03-23 05:41:47 [main] INFO  TC-012_verifyExpiredPaymentMethod - Closing the browser for test: verifyExpiredPaymentMethod
+2025-03-23 05:41:47 [main] INFO  TC-012_verifyExpiredPaymentMethod - Browser closed.
+2025-03-23 05:54:08 [main] INFO  TC-012_verifyExpiredPaymentMethod - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-03-23 05:54:08 [main] INFO  TC-012_verifyExpiredPaymentMethod - Logger initialized
+2025-03-23 05:54:08 [main] INFO  TC-012_verifyExpiredPaymentMethod - Starting test setup for: verifyExpiredPaymentMethod (🔢 Test Case ID: TC-012)
+2025-03-23 05:54:27 [main] INFO  TC-012_verifyExpiredPaymentMethod - Navigated to the site: https://demo.nopcommerce.com
+2025-03-23 05:54:27 [main] INFO  TC-012_verifyExpiredPaymentMethod - Injected cookie: cf_clearance
+2025-03-23 05:54:27 [main] INFO  TC-012_verifyExpiredPaymentMethod - Injected cookie: _ga
+2025-03-23 05:54:27 [main] INFO  TC-012_verifyExpiredPaymentMethod - Injected cookie: .Nop.Antiforgery
+2025-03-23 05:54:27 [main] INFO  TC-012_verifyExpiredPaymentMethod - Injected cookie: .Nop.Customer
+2025-03-23 05:54:27 [main] INFO  TC-012_verifyExpiredPaymentMethod - Injected cookie: .Nop.Culture
+2025-03-23 05:54:27 [main] INFO  TC-012_verifyExpiredPaymentMethod - Injected cookie: _ga_SCT41TW89V
+2025-03-23 05:54:28 [main] INFO  TC-012_verifyExpiredPaymentMethod - Page refreshed with bypassed cookies.
+2025-03-23 05:54:28 [main] INFO  utils.MainFunctionalities - Navigating to product page: https://demo.nopcommerce.com/adobe-photoshop
+2025-03-23 05:54:30 [main] INFO  utils.MainFunctionalities - Clicked 'Add to Cart' button with ID: add-to-cart-button-10
+2025-03-23 05:54:30 [main] INFO  utils.MainFunctionalities - Product successfully added to cart.
+2025-03-23 05:54:33 [main] INFO  utils.MainFunctionalities - Cart page loaded successfully.
+2025-03-23 05:54:34 [main] INFO  utils.MainFunctionalities - Accepted terms of service.
+2025-03-23 05:54:37 [main] INFO  utils.MainFunctionalities - Selected 'Checkout as Guest' option.
+2025-03-23 05:54:40 [main] INFO  utils.MainFunctionalities - Checkout page loaded successfully.
+2025-03-23 05:54:45 [main] INFO  utils.MainFunctionalities - Validation alert found: State / province is required.
+2025-03-23 05:54:45 [main] WARN  utils.MainFunctionalities - Unexpected alert message: State / province is required.
+2025-03-23 05:54:55 [main] INFO  TC-012_verifyExpiredPaymentMethod - Closing the browser for test: verifyExpiredPaymentMethod
+2025-03-23 05:54:55 [main] INFO  TC-012_verifyExpiredPaymentMethod - Browser closed.
+2025-03-23 05:56:22 [main] INFO  TC-012_verifyExpiredPaymentMethod - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-03-23 05:56:22 [main] INFO  TC-012_verifyExpiredPaymentMethod - Logger initialized
+2025-03-23 05:56:22 [main] INFO  TC-012_verifyExpiredPaymentMethod - Starting test setup for: verifyExpiredPaymentMethod (🔢 Test Case ID: TC-012)
+2025-03-23 05:56:40 [main] INFO  TC-012_verifyExpiredPaymentMethod - Navigated to the site: https://demo.nopcommerce.com
+2025-03-23 05:56:40 [main] INFO  TC-012_verifyExpiredPaymentMethod - Injected cookie: cf_clearance
+2025-03-23 05:56:40 [main] INFO  TC-012_verifyExpiredPaymentMethod - Injected cookie: _ga
+2025-03-23 05:56:40 [main] INFO  TC-012_verifyExpiredPaymentMethod - Injected cookie: .Nop.Antiforgery
+2025-03-23 05:56:40 [main] INFO  TC-012_verifyExpiredPaymentMethod - Injected cookie: .Nop.Customer
+2025-03-23 05:56:40 [main] INFO  TC-012_verifyExpiredPaymentMethod - Injected cookie: .Nop.Culture
+2025-03-23 05:56:40 [main] INFO  TC-012_verifyExpiredPaymentMethod - Injected cookie: _ga_SCT41TW89V
+2025-03-23 05:56:41 [main] INFO  TC-012_verifyExpiredPaymentMethod - Page refreshed with bypassed cookies.
+2025-03-23 05:56:42 [main] INFO  utils.MainFunctionalities - Navigating to product page: https://demo.nopcommerce.com/adobe-photoshop
+2025-03-23 05:56:45 [main] INFO  TC-012_verifyExpiredPaymentMethod - Closing the browser for test: verifyExpiredPaymentMethod
+2025-03-23 05:56:45 [main] INFO  TC-012_verifyExpiredPaymentMethod - Browser closed.
+2025-03-23 05:56:55 [main] INFO  TC-012_verifyExpiredPaymentMethod - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-03-23 05:56:55 [main] INFO  TC-012_verifyExpiredPaymentMethod - Logger initialized
+2025-03-23 05:56:55 [main] INFO  TC-012_verifyExpiredPaymentMethod - Starting test setup for: verifyExpiredPaymentMethod (🔢 Test Case ID: TC-012)
+2025-03-23 05:57:18 [main] INFO  TC-012_verifyExpiredPaymentMethod - Navigated to the site: https://demo.nopcommerce.com
+2025-03-23 05:57:18 [main] INFO  TC-012_verifyExpiredPaymentMethod - Injected cookie: _ga
+2025-03-23 05:57:18 [main] INFO  TC-012_verifyExpiredPaymentMethod - Injected cookie: cf_clearance
+2025-03-23 05:57:18 [main] INFO  TC-012_verifyExpiredPaymentMethod - Injected cookie: .Nop.Antiforgery
+2025-03-23 05:57:18 [main] INFO  TC-012_verifyExpiredPaymentMethod - Injected cookie: .Nop.Customer
+2025-03-23 05:57:18 [main] INFO  TC-012_verifyExpiredPaymentMethod - Injected cookie: .Nop.Culture
+2025-03-23 05:57:18 [main] INFO  TC-012_verifyExpiredPaymentMethod - Injected cookie: _ga_SCT41TW89V
+2025-03-23 05:57:19 [main] INFO  TC-012_verifyExpiredPaymentMethod - Page refreshed with bypassed cookies.
+2025-03-23 05:57:21 [main] INFO  utils.MainFunctionalities - Navigating to product page: https://demo.nopcommerce.com/adobe-photoshop
+2025-03-23 05:57:22 [main] INFO  utils.MainFunctionalities - Clicked 'Add to Cart' button with ID: add-to-cart-button-10
+2025-03-23 05:57:23 [main] INFO  utils.MainFunctionalities - Product successfully added to cart.
+2025-03-23 05:57:26 [main] INFO  utils.MainFunctionalities - Cart page loaded successfully.
+2025-03-23 05:57:29 [main] INFO  utils.MainFunctionalities - Accepted terms of service.
+2025-03-23 05:57:35 [main] INFO  utils.MainFunctionalities - Selected 'Checkout as Guest' option.
+2025-03-23 05:57:37 [main] INFO  utils.MainFunctionalities - Checkout page loaded successfully.
+2025-03-23 05:57:50 [main] INFO  utils.MainFunctionalities - No validation alert appeared. Proceeding with the test.
+2025-03-23 05:57:58 [main] INFO  TC-012_verifyExpiredPaymentMethod - Closing the browser for test: verifyExpiredPaymentMethod
+2025-03-23 05:57:58 [main] INFO  TC-012_verifyExpiredPaymentMethod - Browser closed.
+2025-03-23 06:00:35 [main] INFO  TC-012_verifyExpiredPaymentMethod - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-03-23 06:00:35 [main] INFO  TC-012_verifyExpiredPaymentMethod - Logger initialized
+2025-03-23 06:00:35 [main] INFO  TC-012_verifyExpiredPaymentMethod - Starting test setup for: verifyExpiredPaymentMethod (🔢 Test Case ID: TC-012)
+2025-03-23 06:01:00 [main] INFO  TC-012_verifyExpiredPaymentMethod - Navigated to the site: https://demo.nopcommerce.com
+2025-03-23 06:01:00 [main] INFO  TC-012_verifyExpiredPaymentMethod - Injected cookie: _ga
+2025-03-23 06:01:00 [main] INFO  TC-012_verifyExpiredPaymentMethod - Injected cookie: cf_clearance
+2025-03-23 06:01:00 [main] INFO  TC-012_verifyExpiredPaymentMethod - Injected cookie: .Nop.Antiforgery
+2025-03-23 06:01:00 [main] INFO  TC-012_verifyExpiredPaymentMethod - Injected cookie: .Nop.Customer
+2025-03-23 06:01:00 [main] INFO  TC-012_verifyExpiredPaymentMethod - Injected cookie: .Nop.Culture
+2025-03-23 06:01:00 [main] INFO  TC-012_verifyExpiredPaymentMethod - Injected cookie: _ga_SCT41TW89V
+2025-03-23 06:01:01 [main] INFO  TC-012_verifyExpiredPaymentMethod - Page refreshed with bypassed cookies.
+2025-03-23 06:01:03 [main] INFO  utils.MainFunctionalities - Navigating to product page: https://demo.nopcommerce.com/adobe-photoshop
+2025-03-23 06:01:05 [main] INFO  utils.MainFunctionalities - Clicked 'Add to Cart' button with ID: add-to-cart-button-10
+2025-03-23 06:01:05 [main] INFO  utils.MainFunctionalities - Product successfully added to cart.
+2025-03-23 06:01:08 [main] INFO  utils.MainFunctionalities - Cart page loaded successfully.
+2025-03-23 06:01:10 [main] INFO  utils.MainFunctionalities - Accepted terms of service.
+2025-03-23 06:01:16 [main] INFO  utils.MainFunctionalities - Selected 'Checkout as Guest' option.
+2025-03-23 06:01:19 [main] INFO  utils.MainFunctionalities - Checkout page loaded successfully.
+2025-03-23 06:01:33 [main] INFO  utils.MainFunctionalities - No validation alert appeared. Proceeding with the test.
+2025-03-23 06:01:42 [main] INFO  TC-012_verifyExpiredPaymentMethod - Error message displayed for invalid payment details.
+2025-03-23 06:01:42 [main] INFO  TC-012_verifyExpiredPaymentMethod - Closing the browser for test: verifyExpiredPaymentMethod
+2025-03-23 06:01:42 [main] INFO  TC-012_verifyExpiredPaymentMethod - Browser closed.
+2025-03-23 06:12:09 [main] INFO  TC-012_verifyExpiredPaymentMethod - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-03-23 06:12:09 [main] INFO  TC-012_verifyExpiredPaymentMethod - Logger initialized
+2025-03-23 06:12:09 [main] INFO  TC-012_verifyExpiredPaymentMethod - Starting test setup for: verifyExpiredPaymentMethod (🔢 Test Case ID: TC-012)
+2025-03-23 06:12:36 [main] INFO  TC-012_verifyExpiredPaymentMethod - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-03-23 06:12:36 [main] INFO  TC-012_verifyExpiredPaymentMethod - Logger initialized
+2025-03-23 06:12:36 [main] INFO  TC-012_verifyExpiredPaymentMethod - Starting test setup for: verifyExpiredPaymentMethod (🔢 Test Case ID: TC-012)
+2025-03-23 06:13:00 [main] INFO  TC-012_verifyExpiredPaymentMethod - Navigated to the site: https://demo.nopcommerce.com
+2025-03-23 06:13:00 [main] INFO  TC-012_verifyExpiredPaymentMethod - Injected cookie: _ga
+2025-03-23 06:13:00 [main] INFO  TC-012_verifyExpiredPaymentMethod - Injected cookie: cf_clearance
+2025-03-23 06:13:00 [main] INFO  TC-012_verifyExpiredPaymentMethod - Injected cookie: .Nop.Antiforgery
+2025-03-23 06:13:00 [main] INFO  TC-012_verifyExpiredPaymentMethod - Injected cookie: .Nop.Customer
+2025-03-23 06:13:00 [main] INFO  TC-012_verifyExpiredPaymentMethod - Injected cookie: .Nop.Culture
+2025-03-23 06:13:00 [main] INFO  TC-012_verifyExpiredPaymentMethod - Injected cookie: _ga_SCT41TW89V
+2025-03-23 06:13:01 [main] INFO  TC-012_verifyExpiredPaymentMethod - Page refreshed with bypassed cookies.
+2025-03-23 06:13:02 [main] INFO  utils.MainFunctionalities - Navigating to product page: https://demo.nopcommerce.com/adobe-photoshop
+2025-03-23 06:13:05 [main] INFO  utils.MainFunctionalities - Clicked 'Add to Cart' button with ID: add-to-cart-button-10
+2025-03-23 06:13:06 [main] INFO  utils.MainFunctionalities - Product successfully added to cart.
+2025-03-23 06:13:09 [main] INFO  utils.MainFunctionalities - Cart page loaded successfully.
+2025-03-23 06:13:11 [main] INFO  utils.MainFunctionalities - Accepted terms of service.
+2025-03-23 06:13:18 [main] INFO  utils.MainFunctionalities - Selected 'Checkout as Guest' option.
+2025-03-23 06:13:20 [main] INFO  utils.MainFunctionalities - Checkout page loaded successfully.
+2025-03-23 06:13:34 [main] INFO  utils.MainFunctionalities - No validation alert appeared. Proceeding with the test.
+2025-03-23 06:13:43 [main] INFO  utils.MainFunctionalities - Error message displayed for invalid payment details.
+2025-03-23 06:13:43 [main] INFO  TC-012_verifyExpiredPaymentMethod - Closing the browser for test: verifyExpiredPaymentMethod
+2025-03-23 06:13:43 [main] INFO  TC-012_verifyExpiredPaymentMethod - Browser closed.
+2025-03-23 06:15:42 [main] INFO  TC-012_verifyExpiredPaymentMethod - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-03-23 06:15:42 [main] INFO  TC-012_verifyExpiredPaymentMethod - Logger initialized
+2025-03-23 06:15:42 [main] INFO  TC-012_verifyExpiredPaymentMethod - Starting test setup for: verifyExpiredPaymentMethod (🔢 Test Case ID: TC-012)
+2025-03-23 06:16:06 [main] INFO  TC-012_verifyExpiredPaymentMethod - Navigated to the site: https://demo.nopcommerce.com
+2025-03-23 06:16:06 [main] INFO  TC-012_verifyExpiredPaymentMethod - Injected cookie: _ga
+2025-03-23 06:16:06 [main] INFO  TC-012_verifyExpiredPaymentMethod - Injected cookie: cf_clearance
+2025-03-23 06:16:06 [main] INFO  TC-012_verifyExpiredPaymentMethod - Injected cookie: .Nop.Antiforgery
+2025-03-23 06:16:06 [main] INFO  TC-012_verifyExpiredPaymentMethod - Injected cookie: .Nop.Customer
+2025-03-23 06:16:06 [main] INFO  TC-012_verifyExpiredPaymentMethod - Injected cookie: .Nop.Culture
+2025-03-23 06:16:06 [main] INFO  TC-012_verifyExpiredPaymentMethod - Injected cookie: _ga_SCT41TW89V
+2025-03-23 06:16:07 [main] INFO  TC-012_verifyExpiredPaymentMethod - Page refreshed with bypassed cookies.
+2025-03-23 06:16:09 [main] INFO  utils.MainFunctionalities - Navigating to product page: https://demo.nopcommerce.com/adobe-photoshop
+2025-03-23 06:16:11 [main] INFO  utils.MainFunctionalities - Clicked 'Add to Cart' button with ID: add-to-cart-button-10
+2025-03-23 06:16:11 [main] INFO  utils.MainFunctionalities - Product successfully added to cart.
+2025-03-23 06:16:15 [main] INFO  utils.MainFunctionalities - Cart page loaded successfully.
+2025-03-23 06:16:16 [main] INFO  utils.MainFunctionalities - Accepted terms of service.
+2025-03-23 06:16:24 [main] INFO  utils.MainFunctionalities - Selected 'Checkout as Guest' option.
+2025-03-23 06:16:26 [main] INFO  utils.MainFunctionalities - Checkout page loaded successfully.
+2025-03-23 06:16:37 [main] INFO  utils.MainFunctionalities - No validation alert appeared. Proceeding with the test.
+2025-03-23 06:16:47 [main] INFO  utils.MainFunctionalities - Error message displayed for invalid payment details.
+2025-03-23 06:16:47 [main] INFO  TC-012_verifyExpiredPaymentMethod - Closing the browser for test: verifyExpiredPaymentMethod
+2025-03-23 06:16:47 [main] INFO  TC-012_verifyExpiredPaymentMethod - Browser closed.
+2025-03-23 06:16:54 [main] INFO  TC-012_verifyExpiredPaymentMethod - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-03-23 06:16:54 [main] INFO  TC-012_verifyExpiredPaymentMethod - Logger initialized
+2025-03-23 06:16:54 [main] INFO  TC-012_verifyExpiredPaymentMethod - Starting test setup for: verifyExpiredPaymentMethod (🔢 Test Case ID: TC-012)
+2025-03-23 06:17:17 [main] INFO  TC-012_verifyExpiredPaymentMethod - Navigated to the site: https://demo.nopcommerce.com
+2025-03-23 06:17:17 [main] INFO  TC-012_verifyExpiredPaymentMethod - Injected cookie: _ga
+2025-03-23 06:17:17 [main] INFO  TC-012_verifyExpiredPaymentMethod - Injected cookie: cf_clearance
+2025-03-23 06:17:17 [main] INFO  TC-012_verifyExpiredPaymentMethod - Injected cookie: .Nop.Antiforgery
+2025-03-23 06:17:17 [main] INFO  TC-012_verifyExpiredPaymentMethod - Injected cookie: .Nop.Customer
+2025-03-23 06:17:17 [main] INFO  TC-012_verifyExpiredPaymentMethod - Injected cookie: .Nop.Culture
+2025-03-23 06:17:17 [main] INFO  TC-012_verifyExpiredPaymentMethod - Injected cookie: _ga_SCT41TW89V
+2025-03-23 06:17:18 [main] INFO  TC-012_verifyExpiredPaymentMethod - Page refreshed with bypassed cookies.
+2025-03-23 06:17:19 [main] INFO  utils.MainFunctionalities - Navigating to product page: https://demo.nopcommerce.com/adobe-photoshop
+2025-03-23 06:17:21 [main] INFO  utils.MainFunctionalities - Clicked 'Add to Cart' button with ID: add-to-cart-button-10
+2025-03-23 06:17:22 [main] INFO  utils.MainFunctionalities - Product successfully added to cart.
+2025-03-23 06:17:25 [main] INFO  utils.MainFunctionalities - Cart page loaded successfully.
+2025-03-23 06:17:27 [main] INFO  utils.MainFunctionalities - Accepted terms of service.
+2025-03-23 06:17:34 [main] INFO  utils.MainFunctionalities - Selected 'Checkout as Guest' option.
+2025-03-23 06:17:36 [main] INFO  utils.MainFunctionalities - Checkout page loaded successfully.
+2025-03-23 06:17:48 [main] INFO  utils.MainFunctionalities - No validation alert appeared. Proceeding with the test.
+2025-03-23 06:17:59 [main] INFO  utils.MainFunctionalities - Error message displayed for invalid payment details.
+2025-03-23 06:17:59 [main] INFO  TC-012_verifyExpiredPaymentMethod - Closing the browser for test: verifyExpiredPaymentMethod
+2025-03-23 06:17:59 [main] INFO  TC-012_verifyExpiredPaymentMethod - Browser closed.
+2025-03-23 07:01:36 [main] INFO  TC-012_verifyExpiredPaymentMethod - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-03-23 07:01:36 [main] INFO  TC-012_verifyExpiredPaymentMethod - Logger initialized
+2025-03-23 07:01:36 [main] INFO  TC-012_verifyExpiredPaymentMethod - Starting test setup for: verifyExpiredPaymentMethod (🔢 Test Case ID: TC-012)
+2025-03-23 07:01:52 [main] INFO  TC-012_verifyExpiredPaymentMethod - Navigated to the site: https://demo.nopcommerce.com
+2025-03-23 07:01:52 [main] INFO  TC-012_verifyExpiredPaymentMethod - Injected cookie: cf_clearance
+2025-03-23 07:01:52 [main] INFO  TC-012_verifyExpiredPaymentMethod - Injected cookie: _ga
+2025-03-23 07:01:52 [main] INFO  TC-012_verifyExpiredPaymentMethod - Injected cookie: .Nop.Antiforgery
+2025-03-23 07:01:52 [main] INFO  TC-012_verifyExpiredPaymentMethod - Injected cookie: .Nop.Customer
+2025-03-23 07:01:52 [main] INFO  TC-012_verifyExpiredPaymentMethod - Injected cookie: .Nop.Culture
+2025-03-23 07:01:52 [main] INFO  TC-012_verifyExpiredPaymentMethod - Injected cookie: _ga_SCT41TW89V
+2025-03-23 07:01:52 [main] INFO  TC-012_verifyExpiredPaymentMethod - Page refreshed with bypassed cookies.
+2025-03-23 07:01:52 [main] INFO  TC-012_verifyExpiredPaymentMethod - 🟢 Starting test: verifyExpiredPaymentMethod (🔢 Test Case ID: TC-012)
+2025-03-23 07:01:53 [main] INFO  utils.MainFunctionalities - Navigating to product page: https://demo.nopcommerce.com/adobe-photoshop
+2025-03-23 07:01:55 [main] INFO  utils.MainFunctionalities - Clicked 'Add to Cart' button with ID: add-to-cart-button-10
+2025-03-23 07:01:56 [main] INFO  utils.MainFunctionalities - Product successfully added to cart.
+2025-03-23 07:02:00 [main] INFO  utils.MainFunctionalities - Cart page loaded successfully.
+2025-03-23 07:02:03 [main] INFO  utils.MainFunctionalities - Accepted terms of service.
+2025-03-23 07:02:08 [main] INFO  utils.MainFunctionalities - Selected 'Checkout as Guest' option.
+2025-03-23 07:02:10 [main] INFO  utils.MainFunctionalities - Checkout page loaded successfully.
+2025-03-23 07:02:23 [main] INFO  utils.MainFunctionalities - No validation alert appeared. Proceeding with the test.
+2025-03-23 07:02:30 [main] INFO  TC-012_verifyExpiredPaymentMethod - Error message displayed for invalid payment details.
+2025-03-23 07:02:30 [main] INFO  listeners.TestListener - ✅ Test PASSED: verifyExpiredPaymentMethod (Duration: 37965ms)
+2025-03-23 07:02:30 [main] INFO  TC-012_verifyExpiredPaymentMethod - Closing the browser for test: verifyExpiredPaymentMethod
+2025-03-23 07:02:31 [main] INFO  TC-012_verifyExpiredPaymentMethod - Browser closed.

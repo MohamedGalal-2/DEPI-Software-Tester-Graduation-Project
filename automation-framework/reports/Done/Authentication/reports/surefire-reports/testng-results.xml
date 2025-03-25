@@ -1,0 +1,425 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[🚀 Starting Test Suite: Surefire test]]>
+    </line>
+    <line>
+      <![CDATA[
+🌍 Test Environment:
+🖥️ OS: Windows 11 10.0
+☕ Java Version: 23.0.1
+🌐 Browser: chrome 134.0.6998.89
+]]>
+    </line>
+    <line>
+      <![CDATA[🟢 Test Started: verifyErrorMessageForExistingEmail (🔢 Test Case ID: TC-036)]]>
+    </line>
+    <line>
+      <![CDATA[
+🌍 Test Environment:
+🖥️ OS: Windows 11 10.0
+☕ Java Version: 23.0.1
+🌐 Browser: chrome 134.0.6998.118
+]]>
+    </line>
+    <line>
+      <![CDATA[✅ Test PASSED: verifyErrorMessageForExistingEmail (Duration: 17231ms)]]>
+    </line>
+    <line>
+      <![CDATA[<br><img src='E:/Folder/Galal/Courses/Digital Egypt Pioneers Initiative (DEPI) - Software Testing/DEPI Software Tester Graduation Project/automation-framework/reports/screenshots\TC-036\TC-036_screenshot.png' height='300' width='400'/><br>]]>
+    </line>
+    <line>
+      <![CDATA[🟢 Test Started: verifyErrorMessageForRegistrationWithMissingFields (🔢 Test Case ID: TC-024)]]>
+    </line>
+    <line>
+      <![CDATA[
+🌍 Test Environment:
+🖥️ OS: Windows 11 10.0
+☕ Java Version: 23.0.1
+🌐 Browser: chrome 134.0.6998.118
+]]>
+    </line>
+    <line>
+      <![CDATA[✅ Test PASSED: verifyErrorMessageForRegistrationWithMissingFields (Duration: 16785ms)]]>
+    </line>
+    <line>
+      <![CDATA[<br><img src='E:/Folder/Galal/Courses/Digital Egypt Pioneers Initiative (DEPI) - Software Testing/DEPI Software Tester Graduation Project/automation-framework/reports/screenshots\TC-024\TC-024_screenshot.png' height='300' width='400'/><br>]]>
+    </line>
+    <line>
+      <![CDATA[🟢 Test Started: verifyUserLoginWithInvalidCredentials (🔢 Test Case ID: TC-026)]]>
+    </line>
+    <line>
+      <![CDATA[
+🌍 Test Environment:
+🖥️ OS: Windows 11 10.0
+☕ Java Version: 23.0.1
+🌐 Browser: chrome 134.0.6998.118
+]]>
+    </line>
+    <line>
+      <![CDATA[✅ Test PASSED: verifyUserLoginWithInvalidCredentials (Duration: 7286ms)]]>
+    </line>
+    <line>
+      <![CDATA[<br><img src='E:/Folder/Galal/Courses/Digital Egypt Pioneers Initiative (DEPI) - Software Testing/DEPI Software Tester Graduation Project/automation-framework/reports/screenshots\TC-026\TC-026_screenshot.png' height='300' width='400'/><br>]]>
+    </line>
+    <line>
+      <![CDATA[🟢 Test Started: verifyUserLoginWithValidCredentials (🔢 Test Case ID: TC-025)]]>
+    </line>
+    <line>
+      <![CDATA[
+🌍 Test Environment:
+🖥️ OS: Windows 11 10.0
+☕ Java Version: 23.0.1
+🌐 Browser: chrome 134.0.6998.118
+]]>
+    </line>
+    <line>
+      <![CDATA[✅ Test PASSED: verifyUserLoginWithValidCredentials (Duration: 9308ms)]]>
+    </line>
+    <line>
+      <![CDATA[<br><img src='E:/Folder/Galal/Courses/Digital Egypt Pioneers Initiative (DEPI) - Software Testing/DEPI Software Tester Graduation Project/automation-framework/reports/screenshots\TC-025\TC-025_screenshot.png' height='300' width='400'/><br>]]>
+    </line>
+    <line>
+      <![CDATA[🟢 Test Started: verifyUserLogout (🔢 Test Case ID: TC-028)]]>
+    </line>
+    <line>
+      <![CDATA[
+🌍 Test Environment:
+🖥️ OS: Windows 11 10.0
+☕ Java Version: 23.0.1
+🌐 Browser: chrome 134.0.6998.118
+]]>
+    </line>
+    <line>
+      <![CDATA[✅ Test PASSED: verifyUserLogout (Duration: 19909ms)]]>
+    </line>
+    <line>
+      <![CDATA[<br><img src='E:/Folder/Galal/Courses/Digital Egypt Pioneers Initiative (DEPI) - Software Testing/DEPI Software Tester Graduation Project/automation-framework/reports/screenshots\TC-028\TC-028_screenshot.png' height='300' width='400'/><br>]]>
+    </line>
+    <line>
+      <![CDATA[🟢 Test Started: verifyUserRegistrationWithValidDetails (🔢 Test Case ID: TC-023)]]>
+    </line>
+    <line>
+      <![CDATA[
+🌍 Test Environment:
+🖥️ OS: Windows 11 10.0
+☕ Java Version: 23.0.1
+🌐 Browser: chrome 134.0.6998.118
+]]>
+    </line>
+    <line>
+      <![CDATA[✅ Test PASSED: verifyUserRegistrationWithValidDetails (Duration: 8344ms)]]>
+    </line>
+    <line>
+      <![CDATA[<br><img src='E:/Folder/Galal/Courses/Digital Egypt Pioneers Initiative (DEPI) - Software Testing/DEPI Software Tester Graduation Project/automation-framework/reports/screenshots\TC-023\TC-023_screenshot.png' height='300' width='400'/><br>]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2025-03-22T22:15:04 EET" name="Surefire suite" finished-at="2025-03-22T22:18:49 EET" duration-ms="225223">
+    <groups>
+      <group name="functional">
+        <method signature="AuthenticationTest.verifyErrorMessageForExistingEmail()[pri:0, instance:tests.ui.AuthenticationTest@4e28bdd1]" name="verifyErrorMessageForExistingEmail" class="tests.ui.AuthenticationTest"/>
+        <method signature="AuthenticationTest.verifyErrorMessageForRegistrationWithMissingFields()[pri:0, instance:tests.ui.AuthenticationTest@4e28bdd1]" name="verifyErrorMessageForRegistrationWithMissingFields" class="tests.ui.AuthenticationTest"/>
+        <method signature="AuthenticationTest.verifyUserLoginWithInvalidCredentials()[pri:0, instance:tests.ui.AuthenticationTest@4e28bdd1]" name="verifyUserLoginWithInvalidCredentials" class="tests.ui.AuthenticationTest"/>
+        <method signature="AuthenticationTest.verifyUserLoginWithValidCredentials()[pri:0, instance:tests.ui.AuthenticationTest@4e28bdd1]" name="verifyUserLoginWithValidCredentials" class="tests.ui.AuthenticationTest"/>
+        <method signature="AuthenticationTest.verifyUserLogout()[pri:0, instance:tests.ui.AuthenticationTest@4e28bdd1]" name="verifyUserLogout" class="tests.ui.AuthenticationTest"/>
+        <method signature="AuthenticationTest.verifyUserRegistrationWithValidDetails()[pri:0, instance:tests.ui.AuthenticationTest@4e28bdd1]" name="verifyUserRegistrationWithValidDetails" class="tests.ui.AuthenticationTest"/>
+      </group> <!-- functional -->
+      <group name="smoke">
+        <method signature="AuthenticationTest.verifyErrorMessageForRegistrationWithMissingFields()[pri:0, instance:tests.ui.AuthenticationTest@4e28bdd1]" name="verifyErrorMessageForRegistrationWithMissingFields" class="tests.ui.AuthenticationTest"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test started-at="2025-03-22T22:15:04 EET" name="Surefire test" finished-at="2025-03-22T22:18:49 EET" duration-ms="225223">
+      <class name="tests.ui.AuthenticationTest">
+        <test-method is-config="true" signature="setUp(org.testng.ITestResult,org.testng.ITestContext)[pri:0, instance:tests.ui.AuthenticationTest@4e28bdd1]" started-at="2025-03-22T22:15:04 EET" name="setUp" finished-at="2025-03-22T22:15:29 EET" duration-ms="24492" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=AuthenticationTest.verifyErrorMessageForExistingEmail()[pri:0, instance:tests.ui.AuthenticationTest@4e28bdd1] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@3ba3f40d]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyErrorMessageForExistingEmail()[pri:0, instance:tests.ui.AuthenticationTest@4e28bdd1]" started-at="2025-03-22T22:15:29 EET" name="verifyErrorMessageForExistingEmail" description="TC-036" finished-at="2025-03-22T22:15:46 EET" duration-ms="17226" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[🟢 Test Started: verifyErrorMessageForExistingEmail (🔢 Test Case ID: TC-036)]]>
+            </line>
+            <line>
+              <![CDATA[
+🌍 Test Environment:
+🖥️ OS: Windows 11 10.0
+☕ Java Version: 23.0.1
+🌐 Browser: chrome 134.0.6998.118
+]]>
+            </line>
+            <line>
+              <![CDATA[✅ Test PASSED: verifyErrorMessageForExistingEmail (Duration: 17231ms)]]>
+            </line>
+            <line>
+              <![CDATA[<br><img src='E:/Folder/Galal/Courses/Digital Egypt Pioneers Initiative (DEPI) - Software Testing/DEPI Software Tester Graduation Project/automation-framework/reports/screenshots\TC-036\TC-036_screenshot.png' height='300' width='400'/><br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyErrorMessageForExistingEmail -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.ui.AuthenticationTest@4e28bdd1]" started-at="2025-03-22T22:15:46 EET" name="tearDown" finished-at="2025-03-22T22:15:46 EET" duration-ms="283" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyErrorMessageForExistingEmail status=SUCCESS method=AuthenticationTest.verifyErrorMessageForExistingEmail()[pri:0, instance:tests.ui.AuthenticationTest@4e28bdd1] output=🟢 Test Started: verifyErrorMessageForExistingEmail (🔢 Test Case ID: TC-036)]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(org.testng.ITestResult,org.testng.ITestContext)[pri:0, instance:tests.ui.AuthenticationTest@4e28bdd1]" started-at="2025-03-22T22:15:46 EET" name="setUp" finished-at="2025-03-22T22:16:11 EET" duration-ms="24291" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=AuthenticationTest.verifyErrorMessageForRegistrationWithMissingFields()[pri:0, instance:tests.ui.AuthenticationTest@4e28bdd1] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@3ba3f40d]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyErrorMessageForRegistrationWithMissingFields()[pri:0, instance:tests.ui.AuthenticationTest@4e28bdd1]" started-at="2025-03-22T22:16:11 EET" name="verifyErrorMessageForRegistrationWithMissingFields" description="TC-024" finished-at="2025-03-22T22:16:27 EET" duration-ms="16785" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[🟢 Test Started: verifyErrorMessageForRegistrationWithMissingFields (🔢 Test Case ID: TC-024)]]>
+            </line>
+            <line>
+              <![CDATA[
+🌍 Test Environment:
+🖥️ OS: Windows 11 10.0
+☕ Java Version: 23.0.1
+🌐 Browser: chrome 134.0.6998.118
+]]>
+            </line>
+            <line>
+              <![CDATA[✅ Test PASSED: verifyErrorMessageForRegistrationWithMissingFields (Duration: 16785ms)]]>
+            </line>
+            <line>
+              <![CDATA[<br><img src='E:/Folder/Galal/Courses/Digital Egypt Pioneers Initiative (DEPI) - Software Testing/DEPI Software Tester Graduation Project/automation-framework/reports/screenshots\TC-024\TC-024_screenshot.png' height='300' width='400'/><br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyErrorMessageForRegistrationWithMissingFields -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.ui.AuthenticationTest@4e28bdd1]" started-at="2025-03-22T22:16:28 EET" name="tearDown" finished-at="2025-03-22T22:16:28 EET" duration-ms="260" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyErrorMessageForRegistrationWithMissingFields status=SUCCESS method=AuthenticationTest.verifyErrorMessageForRegistrationWithMissingFields()[pri:0, instance:tests.ui.AuthenticationTest@4e28bdd1] output=🟢 Test Started: verifyErrorMessageForRegistrationWithMissingFields (🔢 Test Case ID: TC-024)]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(org.testng.ITestResult,org.testng.ITestContext)[pri:0, instance:tests.ui.AuthenticationTest@4e28bdd1]" started-at="2025-03-22T22:16:28 EET" name="setUp" finished-at="2025-03-22T22:16:52 EET" duration-ms="24632" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=AuthenticationTest.verifyUserLoginWithInvalidCredentials()[pri:0, instance:tests.ui.AuthenticationTest@4e28bdd1] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@3ba3f40d]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyUserLoginWithInvalidCredentials()[pri:0, instance:tests.ui.AuthenticationTest@4e28bdd1]" started-at="2025-03-22T22:16:52 EET" name="verifyUserLoginWithInvalidCredentials" description="TC-026" finished-at="2025-03-22T22:17:00 EET" duration-ms="7286" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[🟢 Test Started: verifyUserLoginWithInvalidCredentials (🔢 Test Case ID: TC-026)]]>
+            </line>
+            <line>
+              <![CDATA[
+🌍 Test Environment:
+🖥️ OS: Windows 11 10.0
+☕ Java Version: 23.0.1
+🌐 Browser: chrome 134.0.6998.118
+]]>
+            </line>
+            <line>
+              <![CDATA[✅ Test PASSED: verifyUserLoginWithInvalidCredentials (Duration: 7286ms)]]>
+            </line>
+            <line>
+              <![CDATA[<br><img src='E:/Folder/Galal/Courses/Digital Egypt Pioneers Initiative (DEPI) - Software Testing/DEPI Software Tester Graduation Project/automation-framework/reports/screenshots\TC-026\TC-026_screenshot.png' height='300' width='400'/><br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyUserLoginWithInvalidCredentials -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.ui.AuthenticationTest@4e28bdd1]" started-at="2025-03-22T22:17:00 EET" name="tearDown" finished-at="2025-03-22T22:17:01 EET" duration-ms="683" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyUserLoginWithInvalidCredentials status=SUCCESS method=AuthenticationTest.verifyUserLoginWithInvalidCredentials()[pri:0, instance:tests.ui.AuthenticationTest@4e28bdd1] output=🟢 Test Started: verifyUserLoginWithInvalidCredentials (🔢 Test Case ID: TC-026)]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(org.testng.ITestResult,org.testng.ITestContext)[pri:0, instance:tests.ui.AuthenticationTest@4e28bdd1]" started-at="2025-03-22T22:17:01 EET" name="setUp" finished-at="2025-03-22T22:17:24 EET" duration-ms="23131" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=AuthenticationTest.verifyUserLoginWithValidCredentials()[pri:0, instance:tests.ui.AuthenticationTest@4e28bdd1] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@3ba3f40d]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyUserLoginWithValidCredentials()[pri:0, instance:tests.ui.AuthenticationTest@4e28bdd1]" started-at="2025-03-22T22:17:24 EET" name="verifyUserLoginWithValidCredentials" description="TC-025" finished-at="2025-03-22T22:17:33 EET" duration-ms="9308" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[🟢 Test Started: verifyUserLoginWithValidCredentials (🔢 Test Case ID: TC-025)]]>
+            </line>
+            <line>
+              <![CDATA[
+🌍 Test Environment:
+🖥️ OS: Windows 11 10.0
+☕ Java Version: 23.0.1
+🌐 Browser: chrome 134.0.6998.118
+]]>
+            </line>
+            <line>
+              <![CDATA[✅ Test PASSED: verifyUserLoginWithValidCredentials (Duration: 9308ms)]]>
+            </line>
+            <line>
+              <![CDATA[<br><img src='E:/Folder/Galal/Courses/Digital Egypt Pioneers Initiative (DEPI) - Software Testing/DEPI Software Tester Graduation Project/automation-framework/reports/screenshots\TC-025\TC-025_screenshot.png' height='300' width='400'/><br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyUserLoginWithValidCredentials -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.ui.AuthenticationTest@4e28bdd1]" started-at="2025-03-22T22:17:33 EET" name="tearDown" finished-at="2025-03-22T22:17:34 EET" duration-ms="209" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyUserLoginWithValidCredentials status=SUCCESS method=AuthenticationTest.verifyUserLoginWithValidCredentials()[pri:0, instance:tests.ui.AuthenticationTest@4e28bdd1] output=🟢 Test Started: verifyUserLoginWithValidCredentials (🔢 Test Case ID: TC-025)]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(org.testng.ITestResult,org.testng.ITestContext)[pri:0, instance:tests.ui.AuthenticationTest@4e28bdd1]" started-at="2025-03-22T22:17:34 EET" name="setUp" finished-at="2025-03-22T22:17:57 EET" duration-ms="23459" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=AuthenticationTest.verifyUserLogout()[pri:0, instance:tests.ui.AuthenticationTest@4e28bdd1] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@3ba3f40d]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyUserLogout()[pri:0, instance:tests.ui.AuthenticationTest@4e28bdd1]" started-at="2025-03-22T22:17:57 EET" name="verifyUserLogout" description="TC-028" finished-at="2025-03-22T22:18:17 EET" duration-ms="19907" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[🟢 Test Started: verifyUserLogout (🔢 Test Case ID: TC-028)]]>
+            </line>
+            <line>
+              <![CDATA[
+🌍 Test Environment:
+🖥️ OS: Windows 11 10.0
+☕ Java Version: 23.0.1
+🌐 Browser: chrome 134.0.6998.118
+]]>
+            </line>
+            <line>
+              <![CDATA[✅ Test PASSED: verifyUserLogout (Duration: 19909ms)]]>
+            </line>
+            <line>
+              <![CDATA[<br><img src='E:/Folder/Galal/Courses/Digital Egypt Pioneers Initiative (DEPI) - Software Testing/DEPI Software Tester Graduation Project/automation-framework/reports/screenshots\TC-028\TC-028_screenshot.png' height='300' width='400'/><br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyUserLogout -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.ui.AuthenticationTest@4e28bdd1]" started-at="2025-03-22T22:18:17 EET" name="tearDown" finished-at="2025-03-22T22:18:17 EET" duration-ms="304" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyUserLogout status=SUCCESS method=AuthenticationTest.verifyUserLogout()[pri:0, instance:tests.ui.AuthenticationTest@4e28bdd1] output=🟢 Test Started: verifyUserLogout (🔢 Test Case ID: TC-028)]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(org.testng.ITestResult,org.testng.ITestContext)[pri:0, instance:tests.ui.AuthenticationTest@4e28bdd1]" started-at="2025-03-22T22:18:17 EET" name="setUp" finished-at="2025-03-22T22:18:41 EET" duration-ms="23088" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=AuthenticationTest.verifyUserRegistrationWithValidDetails()[pri:0, instance:tests.ui.AuthenticationTest@4e28bdd1] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@3ba3f40d]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyUserRegistrationWithValidDetails()[pri:0, instance:tests.ui.AuthenticationTest@4e28bdd1]" started-at="2025-03-22T22:18:41 EET" name="verifyUserRegistrationWithValidDetails" description="TC-023" finished-at="2025-03-22T22:18:49 EET" duration-ms="8346" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[🟢 Test Started: verifyUserRegistrationWithValidDetails (🔢 Test Case ID: TC-023)]]>
+            </line>
+            <line>
+              <![CDATA[
+🌍 Test Environment:
+🖥️ OS: Windows 11 10.0
+☕ Java Version: 23.0.1
+🌐 Browser: chrome 134.0.6998.118
+]]>
+            </line>
+            <line>
+              <![CDATA[✅ Test PASSED: verifyUserRegistrationWithValidDetails (Duration: 8344ms)]]>
+            </line>
+            <line>
+              <![CDATA[<br><img src='E:/Folder/Galal/Courses/Digital Egypt Pioneers Initiative (DEPI) - Software Testing/DEPI Software Tester Graduation Project/automation-framework/reports/screenshots\TC-023\TC-023_screenshot.png' height='300' width='400'/><br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyUserRegistrationWithValidDetails -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.ui.AuthenticationTest@4e28bdd1]" started-at="2025-03-22T22:18:49 EET" name="tearDown" finished-at="2025-03-22T22:18:49 EET" duration-ms="207" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyUserRegistrationWithValidDetails status=SUCCESS method=AuthenticationTest.verifyUserRegistrationWithValidDetails()[pri:0, instance:tests.ui.AuthenticationTest@4e28bdd1] output=🟢 Test Started: verifyUserRegistrationWithValidDetails (🔢 Test Case ID: TC-023)]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.ui.AuthenticationTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

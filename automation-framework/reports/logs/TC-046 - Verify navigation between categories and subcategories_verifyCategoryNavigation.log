@@ -1,0 +1,20 @@
+2025-03-21 05:12:18 [main] INFO  TC-046 - Verify navigation between categories and subcategories_verifyCategoryNavigation - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-03-21 05:12:18 [main] INFO  TC-046 - Verify navigation between categories and subcategories_verifyCategoryNavigation - Logger initialized
+2025-03-21 05:12:18 [main] INFO  TC-046 - Verify navigation between categories and subcategories_verifyCategoryNavigation - Starting test setup for: verifyCategoryNavigation (🔢 Test Case ID: TC-046 - Verify navigation between categories and subcategories)
+2025-03-21 05:12:35 [main] INFO  TC-046 - Verify navigation between categories and subcategories_verifyCategoryNavigation - Navigated to the site: https://demo.nopcommerce.com
+2025-03-21 05:12:35 [main] INFO  TC-046 - Verify navigation between categories and subcategories_verifyCategoryNavigation - Injected cookie: cf_clearance
+2025-03-21 05:12:35 [main] INFO  TC-046 - Verify navigation between categories and subcategories_verifyCategoryNavigation - Injected cookie: _ga
+2025-03-21 05:12:35 [main] INFO  TC-046 - Verify navigation between categories and subcategories_verifyCategoryNavigation - Injected cookie: .Nop.Antiforgery
+2025-03-21 05:12:36 [main] INFO  TC-046 - Verify navigation between categories and subcategories_verifyCategoryNavigation - Injected cookie: .Nop.Customer
+2025-03-21 05:12:36 [main] INFO  TC-046 - Verify navigation between categories and subcategories_verifyCategoryNavigation - Injected cookie: .Nop.Culture
+2025-03-21 05:12:36 [main] INFO  TC-046 - Verify navigation between categories and subcategories_verifyCategoryNavigation - Injected cookie: _ga_SCT41TW89V
+2025-03-21 05:12:36 [main] INFO  TC-046 - Verify navigation between categories and subcategories_verifyCategoryNavigation - Page refreshed with bypassed cookies.
+2025-03-21 05:12:37 [main] INFO  TC-046 - Verify navigation between categories and subcategories_verifyCategoryNavigation - Navigating to home page.
+2025-03-21 05:12:37 [main] INFO  TC-046 - Verify navigation between categories and subcategories_verifyCategoryNavigation - Clicked on 'Electronics' category.
+2025-03-21 05:12:37 [main] INFO  TC-046 - Verify navigation between categories and subcategories_verifyCategoryNavigation - Verified category page loads correctly.
+2025-03-21 05:12:38 [main] INFO  TC-046 - Verify navigation between categories and subcategories_verifyCategoryNavigation - Clicked on 'Cell phones' subcategory.
+2025-03-21 05:12:38 [main] INFO  TC-046 - Verify navigation between categories and subcategories_verifyCategoryNavigation - Verified subcategory page loads correctly.
+2025-03-21 05:12:38 [main] INFO  TC-046 - Verify navigation between categories and subcategories_verifyCategoryNavigation - Verified products are displayed correctly.
+2025-03-21 05:12:38 [main] INFO  TC-046 - Verify navigation between categories and subcategories_verifyCategoryNavigation - Closing the browser for test: verifyCategoryNavigation
+2025-03-21 05:12:39 [main] INFO  TC-046 - Verify navigation between categories and subcategories_verifyCategoryNavigation - Browser closed.

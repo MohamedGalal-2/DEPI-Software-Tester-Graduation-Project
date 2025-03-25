@@ -1,0 +1,191 @@
+2025-03-19 06:48:35 [main] INFO  TC-079_verifyAddToWishlist - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-03-19 06:48:35 [main] INFO  TC-079_verifyAddToWishlist - Logger initialized
+2025-03-19 06:48:35 [main] INFO  TC-079_verifyAddToWishlist - Starting test setup for: verifyAddToWishlist (🔢 Test Case ID: TC-079)
+2025-03-19 06:48:51 [main] INFO  TC-079_verifyAddToWishlist - Navigated to the site: https://demo.nopcommerce.com
+2025-03-19 06:48:51 [main] INFO  TC-079_verifyAddToWishlist - Injected cookie: _ga
+2025-03-19 06:48:51 [main] INFO  TC-079_verifyAddToWishlist - Injected cookie: cf_clearance
+2025-03-19 06:48:51 [main] INFO  TC-079_verifyAddToWishlist - Injected cookie: .Nop.Antiforgery
+2025-03-19 06:48:51 [main] INFO  TC-079_verifyAddToWishlist - Injected cookie: .Nop.Customer
+2025-03-19 06:48:51 [main] INFO  TC-079_verifyAddToWishlist - Injected cookie: .Nop.Culture
+2025-03-19 06:48:51 [main] INFO  TC-079_verifyAddToWishlist - Injected cookie: _ga_SCT41TW89V
+2025-03-19 06:48:52 [main] INFO  TC-079_verifyAddToWishlist - Page refreshed with bypassed cookies.
+2025-03-19 06:48:52 [main] INFO  TC-079_verifyAddToWishlist - 🟢 Starting test: verifyAddToWishlist (🔢 Test Case ID: TC-079)
+2025-03-19 06:48:53 [main] INFO  TC-079_verifyAddToWishlist - Navigating to product page: https://demo.nopcommerce.com/lenovo-ideacentre
+2025-03-19 06:48:55 [main] INFO  TC-079_verifyAddToWishlist - Clicked 'Add to Wishlist' button.
+2025-03-19 06:48:57 [main] INFO  TC-079_verifyAddToWishlist - Product successfully added to the wishlist.
+2025-03-19 06:48:58 [main] INFO  TC-079_verifyAddToWishlist - Navigating to wishlist page.
+2025-03-19 06:49:00 [main] INFO  TC-079_verifyAddToWishlist - Product 'Lenovo IdeaCentre' found in the wishlist.
+2025-03-19 06:49:02 [main] INFO  TC-079_verifyAddToWishlist - Clicked the 'Add to Cart' checkbox.
+2025-03-19 06:49:04 [main] INFO  TC-079_verifyAddToWishlist - Clicked the 'Add to Cart' button.
+2025-03-19 06:49:08 [main] INFO  TC-079_verifyAddToWishlist - Product 'Lenovo IdeaCentre' successfully added to the cart.
+2025-03-19 06:49:08 [main] INFO  listeners.TestListener - ✅ Test PASSED: verifyAddToWishlist (Duration: 16031ms)
+2025-03-19 06:49:08 [main] INFO  TC-079_verifyAddToWishlist - Closing the browser for test: verifyAddToWishlist
+2025-03-19 06:49:08 [main] INFO  TC-079_verifyAddToWishlist - Browser closed.
+2025-03-19 06:57:56 [main] INFO  TC-079_verifyAddToWishlist - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-03-19 06:57:56 [main] INFO  TC-079_verifyAddToWishlist - Logger initialized
+2025-03-19 06:57:56 [main] INFO  TC-079_verifyAddToWishlist - Starting test setup for: verifyAddToWishlist (🔢 Test Case ID: TC-079)
+2025-03-19 06:58:18 [main] INFO  TC-079_verifyAddToWishlist - Navigated to the site: https://demo.nopcommerce.com
+2025-03-19 06:58:18 [main] INFO  TC-079_verifyAddToWishlist - Injected cookie: cf_clearance
+2025-03-19 06:58:18 [main] INFO  TC-079_verifyAddToWishlist - Injected cookie: _ga
+2025-03-19 06:58:18 [main] INFO  TC-079_verifyAddToWishlist - Injected cookie: .Nop.Antiforgery
+2025-03-19 06:58:18 [main] INFO  TC-079_verifyAddToWishlist - Injected cookie: .Nop.Customer
+2025-03-19 06:58:18 [main] INFO  TC-079_verifyAddToWishlist - Injected cookie: .Nop.Culture
+2025-03-19 06:58:18 [main] INFO  TC-079_verifyAddToWishlist - Injected cookie: _ga_SCT41TW89V
+2025-03-19 06:58:19 [main] INFO  TC-079_verifyAddToWishlist - Page refreshed with bypassed cookies.
+2025-03-19 06:58:19 [main] INFO  TC-079_verifyAddToWishlist - 🟢 Starting test: verifyAddToWishlist (🔢 Test Case ID: TC-079)
+2025-03-19 06:58:21 [main] INFO  TC-079_verifyAddToWishlist - Navigating to product page: https://demo.nopcommerce.com/lenovo-ideacentre
+2025-03-19 06:58:23 [main] INFO  TC-079_verifyAddToWishlist - Clicked 'Add to Wishlist' button.
+2025-03-19 06:58:25 [main] INFO  TC-079_verifyAddToWishlist - Product successfully added to the wishlist.
+2025-03-19 06:58:27 [main] INFO  TC-079_verifyAddToWishlist - Navigating to wishlist page.
+2025-03-19 06:58:30 [main] INFO  TC-079_verifyAddToWishlist - Product 'Lenovo IdeaCentre' found in the wishlist.
+2025-03-19 06:58:31 [main] INFO  TC-079_verifyAddToWishlist - Clicked the 'Add to Cart' checkbox.
+2025-03-19 06:58:33 [main] INFO  TC-079_verifyAddToWishlist - Clicked the 'Add to Cart' button.
+2025-03-19 06:58:36 [main] INFO  TC-079_verifyAddToWishlist - Product 'Lenovo IdeaCentre' successfully added to the cart.
+2025-03-19 06:58:36 [main] INFO  listeners.TestListener - ✅ Test PASSED: verifyAddToWishlist (Duration: 16909ms)
+2025-03-19 06:58:36 [main] INFO  TC-079_verifyAddToWishlist - Closing the browser for test: verifyAddToWishlist
+2025-03-19 06:58:38 [main] INFO  TC-079_verifyAddToWishlist - Browser closed.
+2025-03-22 23:57:34 [main] INFO  TC-079_verifyAddToWishlist - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-03-22 23:57:34 [main] INFO  TC-079_verifyAddToWishlist - Logger initialized
+2025-03-22 23:57:34 [main] INFO  TC-079_verifyAddToWishlist - Starting test setup for: verifyAddToWishlist (🔢 Test Case ID: TC-079)
+2025-03-22 23:58:02 [main] INFO  TC-079_verifyAddToWishlist - Navigated to the site: https://demo.nopcommerce.com
+2025-03-22 23:58:02 [main] INFO  TC-079_verifyAddToWishlist - Injected cookie: _ga
+2025-03-22 23:58:02 [main] INFO  TC-079_verifyAddToWishlist - Injected cookie: cf_clearance
+2025-03-22 23:58:02 [main] INFO  TC-079_verifyAddToWishlist - Injected cookie: .Nop.Antiforgery
+2025-03-22 23:58:02 [main] INFO  TC-079_verifyAddToWishlist - Injected cookie: .Nop.Customer
+2025-03-22 23:58:02 [main] INFO  TC-079_verifyAddToWishlist - Injected cookie: .Nop.Culture
+2025-03-22 23:58:02 [main] INFO  TC-079_verifyAddToWishlist - Injected cookie: _ga_SCT41TW89V
+2025-03-22 23:58:03 [main] INFO  TC-079_verifyAddToWishlist - Page refreshed with bypassed cookies.
+2025-03-22 23:58:05 [main] INFO  utils.MainFunctionalities - Navigating to product page: https://demo.nopcommerce.com/lenovo-ideacentre
+2025-03-22 23:58:07 [main] INFO  utils.MainFunctionalities - Clicked 'Add to Wishlist' button.
+2025-03-22 23:58:09 [main] INFO  utils.MainFunctionalities - Product successfully added to the wishlist.
+2025-03-22 23:58:12 [main] INFO  utils.MainFunctionalities - Navigating to wishlist page.
+2025-03-22 23:58:13 [main] INFO  utils.MainFunctionalities - Product 'Lenovo IdeaCentre' found in the wishlist.
+2025-03-22 23:58:16 [main] INFO  utils.MainFunctionalities - Clicked the 'Add to Cart' checkbox.
+2025-03-22 23:58:20 [main] INFO  utils.MainFunctionalities - Clicked the 'Add to Cart' button.
+2025-03-22 23:58:23 [main] INFO  utils.MainFunctionalities - Product Lenovo IdeaCentre successfully added to the cart.
+2025-03-22 23:58:23 [main] INFO  TC-079_verifyAddToWishlist - Closing the browser for test: verifyAddToWishlist
+2025-03-22 23:58:24 [main] INFO  TC-079_verifyAddToWishlist - Browser closed.
+2025-03-23 00:28:00 [main] INFO  TC-079_verifyAddToWishlist - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-03-23 00:28:00 [main] INFO  TC-079_verifyAddToWishlist - Logger initialized
+2025-03-23 00:28:00 [main] INFO  TC-079_verifyAddToWishlist - Starting test setup for: verifyAddToWishlist (🔢 Test Case ID: TC-079)
+2025-03-23 00:28:16 [main] INFO  TC-079_verifyAddToWishlist - Navigated to the site: https://demo.nopcommerce.com
+2025-03-23 00:28:16 [main] INFO  TC-079_verifyAddToWishlist - Injected cookie: _ga
+2025-03-23 00:28:16 [main] INFO  TC-079_verifyAddToWishlist - Injected cookie: cf_clearance
+2025-03-23 00:28:16 [main] INFO  TC-079_verifyAddToWishlist - Injected cookie: .Nop.Antiforgery
+2025-03-23 00:28:16 [main] INFO  TC-079_verifyAddToWishlist - Injected cookie: .Nop.Customer
+2025-03-23 00:28:16 [main] INFO  TC-079_verifyAddToWishlist - Injected cookie: .Nop.Culture
+2025-03-23 00:28:16 [main] INFO  TC-079_verifyAddToWishlist - Injected cookie: _ga_SCT41TW89V
+2025-03-23 00:28:17 [main] INFO  TC-079_verifyAddToWishlist - Page refreshed with bypassed cookies.
+2025-03-23 00:28:17 [main] INFO  TC-079_verifyAddToWishlist - 🟢 Starting test: verifyAddToWishlist (🔢 Test Case ID: TC-079)
+2025-03-23 00:28:18 [main] INFO  utils.MainFunctionalities - Navigating to product page: https://demo.nopcommerce.com/lenovo-ideacentre
+2025-03-23 00:28:19 [main] INFO  utils.MainFunctionalities - Clicked 'Add to Wishlist' button.
+2025-03-23 00:28:21 [main] INFO  utils.MainFunctionalities - Product successfully added to the wishlist.
+2025-03-23 00:28:22 [main] INFO  utils.MainFunctionalities - Navigating to wishlist page.
+2025-03-23 00:28:24 [main] INFO  utils.MainFunctionalities - Product Lenovo IdeaCentre found in the wishlist.
+2025-03-23 00:28:27 [main] INFO  utils.MainFunctionalities - Clicked the 'Add to Cart' checkbox.
+2025-03-23 00:28:28 [main] INFO  utils.MainFunctionalities - Clicked the 'Add to Cart' button.
+2025-03-23 00:28:31 [main] INFO  utils.MainFunctionalities - Product Lenovo IdeaCentre successfully added to the cart.
+2025-03-23 00:28:31 [main] INFO  listeners.TestListener - ✅ Test PASSED: verifyAddToWishlist (Duration: 14120ms)
+2025-03-23 00:28:31 [main] INFO  TC-079_verifyAddToWishlist - Closing the browser for test: verifyAddToWishlist
+2025-03-23 00:28:32 [main] INFO  TC-079_verifyAddToWishlist - Browser closed.
+2025-03-23 01:05:24 [main] INFO  TC-079_verifyAddToWishlist - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-03-23 01:05:24 [main] INFO  TC-079_verifyAddToWishlist - Logger initialized
+2025-03-23 01:05:24 [main] INFO  TC-079_verifyAddToWishlist - Starting test setup for: verifyAddToWishlist (🔢 Test Case ID: TC-079)
+2025-03-23 01:05:41 [main] INFO  TC-079_verifyAddToWishlist - Navigated to the site: https://demo.nopcommerce.com
+2025-03-23 01:05:41 [main] INFO  TC-079_verifyAddToWishlist - Injected cookie: cf_clearance
+2025-03-23 01:05:41 [main] INFO  TC-079_verifyAddToWishlist - Injected cookie: _ga
+2025-03-23 01:05:41 [main] INFO  TC-079_verifyAddToWishlist - Injected cookie: .Nop.Antiforgery
+2025-03-23 01:05:41 [main] INFO  TC-079_verifyAddToWishlist - Injected cookie: .Nop.Customer
+2025-03-23 01:05:41 [main] INFO  TC-079_verifyAddToWishlist - Injected cookie: .Nop.Culture
+2025-03-23 01:05:41 [main] INFO  TC-079_verifyAddToWishlist - Injected cookie: _ga_SCT41TW89V
+2025-03-23 01:05:42 [main] INFO  TC-079_verifyAddToWishlist - Page refreshed with bypassed cookies.
+2025-03-23 01:05:43 [main] INFO  utils.MainFunctionalities - Navigating to product page: https://demo.nopcommerce.com/lenovo-ideacentre
+2025-03-23 01:05:45 [main] INFO  utils.MainFunctionalities - Clicked 'Add to Wishlist' button.
+2025-03-23 01:05:48 [main] INFO  utils.MainFunctionalities - Product successfully added to the wishlist.
+2025-03-23 01:05:49 [main] INFO  utils.MainFunctionalities - Navigating to wishlist page.
+2025-03-23 01:05:51 [main] INFO  TC-079_verifyAddToWishlist - Closing the browser for test: verifyAddToWishlist
+2025-03-23 01:05:52 [main] INFO  TC-079_verifyAddToWishlist - Browser closed.
+2025-03-23 01:08:39 [main] INFO  TC-079_verifyAddToWishlist - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-03-23 01:08:39 [main] INFO  TC-079_verifyAddToWishlist - Logger initialized
+2025-03-23 01:08:39 [main] INFO  TC-079_verifyAddToWishlist - Starting test setup for: verifyAddToWishlist (🔢 Test Case ID: TC-079)
+2025-03-23 01:08:57 [main] INFO  TC-079_verifyAddToWishlist - Navigated to the site: https://demo.nopcommerce.com
+2025-03-23 01:08:57 [main] INFO  TC-079_verifyAddToWishlist - Injected cookie: cf_clearance
+2025-03-23 01:08:57 [main] INFO  TC-079_verifyAddToWishlist - Injected cookie: _ga
+2025-03-23 01:08:57 [main] INFO  TC-079_verifyAddToWishlist - Injected cookie: .Nop.Antiforgery
+2025-03-23 01:08:57 [main] INFO  TC-079_verifyAddToWishlist - Injected cookie: .Nop.Customer
+2025-03-23 01:08:57 [main] INFO  TC-079_verifyAddToWishlist - Injected cookie: .Nop.Culture
+2025-03-23 01:08:57 [main] INFO  TC-079_verifyAddToWishlist - Injected cookie: _ga_SCT41TW89V
+2025-03-23 01:08:58 [main] INFO  TC-079_verifyAddToWishlist - Page refreshed with bypassed cookies.
+2025-03-23 01:08:59 [main] INFO  utils.MainFunctionalities - Navigating to product page: https://demo.nopcommerce.com/lenovo-ideacentre
+2025-03-23 01:09:01 [main] INFO  TC-079_verifyAddToWishlist - Closing the browser for test: verifyAddToWishlist
+2025-03-23 01:09:01 [main] INFO  TC-079_verifyAddToWishlist - Browser closed.
+2025-03-23 01:09:08 [main] INFO  TC-079_verifyAddToWishlist - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-03-23 01:09:08 [main] INFO  TC-079_verifyAddToWishlist - Logger initialized
+2025-03-23 01:09:08 [main] INFO  TC-079_verifyAddToWishlist - Starting test setup for: verifyAddToWishlist (🔢 Test Case ID: TC-079)
+2025-03-23 01:09:25 [main] INFO  TC-079_verifyAddToWishlist - Navigated to the site: https://demo.nopcommerce.com
+2025-03-23 01:09:25 [main] INFO  TC-079_verifyAddToWishlist - Injected cookie: _ga
+2025-03-23 01:09:25 [main] INFO  TC-079_verifyAddToWishlist - Injected cookie: cf_clearance
+2025-03-23 01:09:25 [main] INFO  TC-079_verifyAddToWishlist - Injected cookie: .Nop.Antiforgery
+2025-03-23 01:09:25 [main] INFO  TC-079_verifyAddToWishlist - Injected cookie: .Nop.Customer
+2025-03-23 01:09:25 [main] INFO  TC-079_verifyAddToWishlist - Injected cookie: .Nop.Culture
+2025-03-23 01:09:25 [main] INFO  TC-079_verifyAddToWishlist - Injected cookie: _ga_SCT41TW89V
+2025-03-23 01:09:26 [main] INFO  TC-079_verifyAddToWishlist - Page refreshed with bypassed cookies.
+2025-03-23 01:09:27 [main] INFO  utils.MainFunctionalities - Navigating to product page: https://demo.nopcommerce.com/lenovo-ideacentre
+2025-03-23 01:09:29 [main] INFO  utils.MainFunctionalities - Clicked 'Add to Wishlist' button.
+2025-03-23 01:09:31 [main] INFO  utils.MainFunctionalities - Product successfully added to the wishlist.
+2025-03-23 01:09:32 [main] INFO  utils.MainFunctionalities - Navigating to wishlist page.
+2025-03-23 01:09:34 [main] INFO  TC-079_verifyAddToWishlist - Closing the browser for test: verifyAddToWishlist
+2025-03-23 01:09:35 [main] INFO  TC-079_verifyAddToWishlist - Browser closed.
+2025-03-23 01:14:09 [main] INFO  TC-079_verifyAddToWishlist - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-03-23 01:14:09 [main] INFO  TC-079_verifyAddToWishlist - Logger initialized
+2025-03-23 01:14:09 [main] INFO  TC-079_verifyAddToWishlist - Starting test setup for: verifyAddToWishlist (🔢 Test Case ID: TC-079)
+2025-03-23 01:14:28 [main] INFO  TC-079_verifyAddToWishlist - Navigated to the site: https://demo.nopcommerce.com
+2025-03-23 01:14:28 [main] INFO  TC-079_verifyAddToWishlist - Injected cookie: cf_clearance
+2025-03-23 01:14:28 [main] INFO  TC-079_verifyAddToWishlist - Injected cookie: _ga
+2025-03-23 01:14:28 [main] INFO  TC-079_verifyAddToWishlist - Injected cookie: .Nop.Antiforgery
+2025-03-23 01:14:28 [main] INFO  TC-079_verifyAddToWishlist - Injected cookie: .Nop.Customer
+2025-03-23 01:14:28 [main] INFO  TC-079_verifyAddToWishlist - Injected cookie: .Nop.Culture
+2025-03-23 01:14:28 [main] INFO  TC-079_verifyAddToWishlist - Injected cookie: _ga_SCT41TW89V
+2025-03-23 01:14:29 [main] INFO  TC-079_verifyAddToWishlist - Page refreshed with bypassed cookies.
+2025-03-23 01:14:30 [main] INFO  utils.MainFunctionalities - Navigating to product page: https://demo.nopcommerce.com/lenovo-ideacentre
+2025-03-23 01:14:33 [main] INFO  utils.MainFunctionalities - Clicked 'Add to Wishlist' button.
+2025-03-23 01:14:35 [main] INFO  utils.MainFunctionalities - Product successfully added to the wishlist.
+2025-03-23 01:14:36 [main] INFO  utils.MainFunctionalities - Navigating to wishlist page.
+2025-03-23 01:14:38 [main] INFO  utils.MainFunctionalities - Product Lenovo IdeaCentre found in the wishlist.
+2025-03-23 01:14:41 [main] INFO  utils.MainFunctionalities - Clicked the 'Add to Cart' checkbox.
+2025-03-23 01:14:42 [main] INFO  utils.MainFunctionalities - Clicked the 'Add to Cart' button.
+2025-03-23 01:14:44 [main] INFO  utils.MainFunctionalities - Product Lenovo IdeaCentre successfully added to the cart.
+2025-03-23 01:14:44 [main] INFO  TC-079_verifyAddToWishlist - Closing the browser for test: verifyAddToWishlist
+2025-03-23 01:14:45 [main] INFO  TC-079_verifyAddToWishlist - Browser closed.
+2025-03-23 01:19:10 [main] INFO  TC-079_verifyAddToWishlist - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-03-23 01:19:10 [main] INFO  TC-079_verifyAddToWishlist - Logger initialized
+2025-03-23 01:19:10 [main] INFO  TC-079_verifyAddToWishlist - Starting test setup for: verifyAddToWishlist (🔢 Test Case ID: TC-079)
+2025-03-23 01:19:27 [main] INFO  TC-079_verifyAddToWishlist - Navigated to the site: https://demo.nopcommerce.com
+2025-03-23 01:19:27 [main] INFO  TC-079_verifyAddToWishlist - Injected cookie: _ga
+2025-03-23 01:19:27 [main] INFO  TC-079_verifyAddToWishlist - Injected cookie: cf_clearance
+2025-03-23 01:19:27 [main] INFO  TC-079_verifyAddToWishlist - Injected cookie: .Nop.Antiforgery
+2025-03-23 01:19:27 [main] INFO  TC-079_verifyAddToWishlist - Injected cookie: .Nop.Customer
+2025-03-23 01:19:27 [main] INFO  TC-079_verifyAddToWishlist - Injected cookie: .Nop.Culture
+2025-03-23 01:19:27 [main] INFO  TC-079_verifyAddToWishlist - Injected cookie: _ga_SCT41TW89V
+2025-03-23 01:19:27 [main] INFO  TC-079_verifyAddToWishlist - Page refreshed with bypassed cookies.
+2025-03-23 01:19:27 [main] INFO  TC-079_verifyAddToWishlist - 🟢 Starting test: verifyAddToWishlist (🔢 Test Case ID: TC-079)
+2025-03-23 01:19:28 [main] INFO  utils.MainFunctionalities - Navigating to product page: https://demo.nopcommerce.com/lenovo-ideacentre
+2025-03-23 01:19:30 [main] INFO  utils.MainFunctionalities - Clicked 'Add to Wishlist' button.
+2025-03-23 01:19:32 [main] INFO  utils.MainFunctionalities - Product successfully added to the wishlist.
+2025-03-23 01:19:33 [main] INFO  utils.MainFunctionalities - Navigating to wishlist page.
+2025-03-23 01:19:34 [main] INFO  utils.MainFunctionalities - Product Lenovo IdeaCentre found in the wishlist.
+2025-03-23 01:19:37 [main] INFO  utils.MainFunctionalities - Clicked the 'Add to Cart' checkbox.
+2025-03-23 01:19:40 [main] INFO  utils.MainFunctionalities - Clicked the 'Add to Cart' button.
+2025-03-23 01:19:43 [main] INFO  utils.MainFunctionalities - Product Lenovo IdeaCentre successfully added to the cart.
+2025-03-23 01:19:43 [main] INFO  listeners.TestListener - ✅ Test PASSED: verifyAddToWishlist (Duration: 15958ms)
+2025-03-23 01:19:43 [main] INFO  TC-079_verifyAddToWishlist - Closing the browser for test: verifyAddToWishlist
+2025-03-23 01:19:44 [main] INFO  TC-079_verifyAddToWishlist - Browser closed.

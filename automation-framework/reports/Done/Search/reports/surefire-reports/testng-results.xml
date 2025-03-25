@@ -1,0 +1,556 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[🚀 Starting Test Suite: Surefire test]]>
+    </line>
+    <line>
+      <![CDATA[
+🌍 Test Environment:
+🖥️ OS: Windows 11 10.0
+☕ Java Version: 23.0.1
+🌐 Browser: chrome 134.0.6998.89
+]]>
+    </line>
+    <line>
+      <![CDATA[🟢 Test Started: verifyAutoSuggestionsInSearchBar (🔢 Test Case ID: TC-051)]]>
+    </line>
+    <line>
+      <![CDATA[
+🌍 Test Environment:
+🖥️ OS: Windows 11 10.0
+☕ Java Version: 23.0.1
+🌐 Browser: chrome 134.0.6998.118
+]]>
+    </line>
+    <line>
+      <![CDATA[✅ Test PASSED: verifyAutoSuggestionsInSearchBar (Duration: 4100ms)]]>
+    </line>
+    <line>
+      <![CDATA[<br><img src='E:/Folder/Galal/Courses/Digital Egypt Pioneers Initiative (DEPI) - Software Testing/DEPI Software Tester Graduation Project/automation-framework/reports/screenshots\TC-051\TC-051_screenshot.png' height='300' width='400'/><br>]]>
+    </line>
+    <line>
+      <![CDATA[🟢 Test Started: verifyClearingFilters (🔢 Test Case ID: TC-050)]]>
+    </line>
+    <line>
+      <![CDATA[
+🌍 Test Environment:
+🖥️ OS: Windows 11 10.0
+☕ Java Version: 23.0.1
+🌐 Browser: chrome 134.0.6998.118
+]]>
+    </line>
+    <line>
+      <![CDATA[✅ Test PASSED: verifyClearingFilters (Duration: 21259ms)]]>
+    </line>
+    <line>
+      <![CDATA[<br><img src='E:/Folder/Galal/Courses/Digital Egypt Pioneers Initiative (DEPI) - Software Testing/DEPI Software Tester Graduation Project/automation-framework/reports/screenshots\TC-050\TC-050_screenshot.png' height='300' width='400'/><br>]]>
+    </line>
+    <line>
+      <![CDATA[🟢 Test Started: verifyFilteringByManufacturer (🔢 Test Case ID: TC-044)]]>
+    </line>
+    <line>
+      <![CDATA[
+🌍 Test Environment:
+🖥️ OS: Windows 11 10.0
+☕ Java Version: 23.0.1
+🌐 Browser: chrome 134.0.6998.118
+]]>
+    </line>
+    <line>
+      <![CDATA[✅ Test PASSED: verifyFilteringByManufacturer (Duration: 14338ms)]]>
+    </line>
+    <line>
+      <![CDATA[<br><img src='E:/Folder/Galal/Courses/Digital Egypt Pioneers Initiative (DEPI) - Software Testing/DEPI Software Tester Graduation Project/automation-framework/reports/screenshots\TC-044\TC-044_screenshot.png' height='300' width='400'/><br>]]>
+    </line>
+    <line>
+      <![CDATA[🟢 Test Started: verifyInvalidSearchTerm (🔢 Test Case ID: TC-048)]]>
+    </line>
+    <line>
+      <![CDATA[
+🌍 Test Environment:
+🖥️ OS: Windows 11 10.0
+☕ Java Version: 23.0.1
+🌐 Browser: chrome 134.0.6998.118
+]]>
+    </line>
+    <line>
+      <![CDATA[✅ Test PASSED: verifyInvalidSearchTerm (Duration: 7836ms)]]>
+    </line>
+    <line>
+      <![CDATA[<br><img src='E:/Folder/Galal/Courses/Digital Egypt Pioneers Initiative (DEPI) - Software Testing/DEPI Software Tester Graduation Project/automation-framework/reports/screenshots\TC-048\TC-048_screenshot.png' height='300' width='400'/><br>]]>
+    </line>
+    <line>
+      <![CDATA[🟢 Test Started: verifyPaginationInSearchResults (🔢 Test Case ID: TC-042)]]>
+    </line>
+    <line>
+      <![CDATA[
+🌍 Test Environment:
+🖥️ OS: Windows 11 10.0
+☕ Java Version: 23.0.1
+🌐 Browser: chrome 134.0.6998.118
+]]>
+    </line>
+    <line>
+      <![CDATA[✅ Test PASSED: verifyPaginationInSearchResults (Duration: 10294ms)]]>
+    </line>
+    <line>
+      <![CDATA[<br><img src='E:/Folder/Galal/Courses/Digital Egypt Pioneers Initiative (DEPI) - Software Testing/DEPI Software Tester Graduation Project/automation-framework/reports/screenshots\TC-042\TC-042_screenshot.png' height='300' width='400'/><br>]]>
+    </line>
+    <line>
+      <![CDATA[🟢 Test Started: verifySearchByCategory (🔢 Test Case ID: TC-038)]]>
+    </line>
+    <line>
+      <![CDATA[
+🌍 Test Environment:
+🖥️ OS: Windows 11 10.0
+☕ Java Version: 23.0.1
+🌐 Browser: chrome 134.0.6998.118
+]]>
+    </line>
+    <line>
+      <![CDATA[✅ Test PASSED: verifySearchByCategory (Duration: 13311ms)]]>
+    </line>
+    <line>
+      <![CDATA[<br><img src='E:/Folder/Galal/Courses/Digital Egypt Pioneers Initiative (DEPI) - Software Testing/DEPI Software Tester Graduation Project/automation-framework/reports/screenshots\TC-038\TC-038_screenshot.png' height='300' width='400'/><br>]]>
+    </line>
+    <line>
+      <![CDATA[🟢 Test Started: verifySearchFunctionality (🔢 Test Case ID: TC-002)]]>
+    </line>
+    <line>
+      <![CDATA[
+🌍 Test Environment:
+🖥️ OS: Windows 11 10.0
+☕ Java Version: 23.0.1
+🌐 Browser: chrome 134.0.6998.118
+]]>
+    </line>
+    <line>
+      <![CDATA[✅ Test PASSED: verifySearchFunctionality (Duration: 6896ms)]]>
+    </line>
+    <line>
+      <![CDATA[<br><img src='E:/Folder/Galal/Courses/Digital Egypt Pioneers Initiative (DEPI) - Software Testing/DEPI Software Tester Graduation Project/automation-framework/reports/screenshots\TC-002\TC-002_screenshot.png' height='300' width='400'/><br>]]>
+    </line>
+    <line>
+      <![CDATA[🟢 Test Started: verifySortingOptions (🔢 Test Case ID: TC-043)]]>
+    </line>
+    <line>
+      <![CDATA[
+🌍 Test Environment:
+🖥️ OS: Windows 11 10.0
+☕ Java Version: 23.0.1
+🌐 Browser: chrome 134.0.6998.118
+]]>
+    </line>
+    <line>
+      <![CDATA[✅ Test PASSED: verifySortingOptions (Duration: 16910ms)]]>
+    </line>
+    <line>
+      <![CDATA[<br><img src='E:/Folder/Galal/Courses/Digital Egypt Pioneers Initiative (DEPI) - Software Testing/DEPI Software Tester Graduation Project/automation-framework/reports/screenshots\TC-043\TC-043_screenshot.png' height='300' width='400'/><br>]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2025-03-25T00:19:54 EET" name="Surefire suite" finished-at="2025-03-25T00:24:45 EET" duration-ms="290695">
+    <groups>
+      <group name="functional">
+        <method signature="SearchTest.verifyAutoSuggestionsInSearchBar()[pri:0, instance:tests.ui.SearchTest@6cbcf243]" name="verifyAutoSuggestionsInSearchBar" class="tests.ui.SearchTest"/>
+        <method signature="SearchTest.verifyClearingFilters()[pri:0, instance:tests.ui.SearchTest@6cbcf243]" name="verifyClearingFilters" class="tests.ui.SearchTest"/>
+        <method signature="SearchTest.verifyFilteringByManufacturer()[pri:0, instance:tests.ui.SearchTest@6cbcf243]" name="verifyFilteringByManufacturer" class="tests.ui.SearchTest"/>
+        <method signature="SearchTest.verifyInvalidSearchTerm()[pri:0, instance:tests.ui.SearchTest@6cbcf243]" name="verifyInvalidSearchTerm" class="tests.ui.SearchTest"/>
+        <method signature="SearchTest.verifyPaginationInSearchResults()[pri:0, instance:tests.ui.SearchTest@6cbcf243]" name="verifyPaginationInSearchResults" class="tests.ui.SearchTest"/>
+        <method signature="SearchTest.verifySearchByCategory()[pri:0, instance:tests.ui.SearchTest@6cbcf243]" name="verifySearchByCategory" class="tests.ui.SearchTest"/>
+        <method signature="SearchTest.verifySortingOptions()[pri:0, instance:tests.ui.SearchTest@6cbcf243]" name="verifySortingOptions" class="tests.ui.SearchTest"/>
+      </group> <!-- functional -->
+      <group name="smoke">
+        <method signature="SearchTest.verifySearchFunctionality()[pri:0, instance:tests.ui.SearchTest@6cbcf243]" name="verifySearchFunctionality" class="tests.ui.SearchTest"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test started-at="2025-03-25T00:19:54 EET" name="Surefire test" finished-at="2025-03-25T00:24:45 EET" duration-ms="290695">
+      <class name="tests.ui.SearchTest">
+        <test-method is-config="true" signature="setUp(org.testng.ITestResult,org.testng.ITestContext)[pri:0, instance:tests.ui.SearchTest@6cbcf243]" started-at="2025-03-25T00:19:54 EET" name="setUp" finished-at="2025-03-25T00:20:19 EET" duration-ms="24649" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=SearchTest.verifyAutoSuggestionsInSearchBar()[pri:0, instance:tests.ui.SearchTest@6cbcf243] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@60ed0b9d]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyAutoSuggestionsInSearchBar()[pri:0, instance:tests.ui.SearchTest@6cbcf243]" started-at="2025-03-25T00:20:19 EET" name="verifyAutoSuggestionsInSearchBar" description="TC-051" finished-at="2025-03-25T00:20:23 EET" duration-ms="4100" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[🟢 Test Started: verifyAutoSuggestionsInSearchBar (🔢 Test Case ID: TC-051)]]>
+            </line>
+            <line>
+              <![CDATA[
+🌍 Test Environment:
+🖥️ OS: Windows 11 10.0
+☕ Java Version: 23.0.1
+🌐 Browser: chrome 134.0.6998.118
+]]>
+            </line>
+            <line>
+              <![CDATA[✅ Test PASSED: verifyAutoSuggestionsInSearchBar (Duration: 4100ms)]]>
+            </line>
+            <line>
+              <![CDATA[<br><img src='E:/Folder/Galal/Courses/Digital Egypt Pioneers Initiative (DEPI) - Software Testing/DEPI Software Tester Graduation Project/automation-framework/reports/screenshots\TC-051\TC-051_screenshot.png' height='300' width='400'/><br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyAutoSuggestionsInSearchBar -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.ui.SearchTest@6cbcf243]" started-at="2025-03-25T00:20:23 EET" name="tearDown" finished-at="2025-03-25T00:20:23 EET" duration-ms="206" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyAutoSuggestionsInSearchBar status=SUCCESS method=SearchTest.verifyAutoSuggestionsInSearchBar()[pri:0, instance:tests.ui.SearchTest@6cbcf243] output=🟢 Test Started: verifyAutoSuggestionsInSearchBar (🔢 Test Case ID: TC-051)]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(org.testng.ITestResult,org.testng.ITestContext)[pri:0, instance:tests.ui.SearchTest@6cbcf243]" started-at="2025-03-25T00:20:23 EET" name="setUp" finished-at="2025-03-25T00:20:47 EET" duration-ms="23716" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=SearchTest.verifyClearingFilters()[pri:0, instance:tests.ui.SearchTest@6cbcf243] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@60ed0b9d]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyClearingFilters()[pri:0, instance:tests.ui.SearchTest@6cbcf243]" started-at="2025-03-25T00:20:47 EET" name="verifyClearingFilters" description="TC-050" finished-at="2025-03-25T00:21:08 EET" duration-ms="21260" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[🟢 Test Started: verifyClearingFilters (🔢 Test Case ID: TC-050)]]>
+            </line>
+            <line>
+              <![CDATA[
+🌍 Test Environment:
+🖥️ OS: Windows 11 10.0
+☕ Java Version: 23.0.1
+🌐 Browser: chrome 134.0.6998.118
+]]>
+            </line>
+            <line>
+              <![CDATA[✅ Test PASSED: verifyClearingFilters (Duration: 21259ms)]]>
+            </line>
+            <line>
+              <![CDATA[<br><img src='E:/Folder/Galal/Courses/Digital Egypt Pioneers Initiative (DEPI) - Software Testing/DEPI Software Tester Graduation Project/automation-framework/reports/screenshots\TC-050\TC-050_screenshot.png' height='300' width='400'/><br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyClearingFilters -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.ui.SearchTest@6cbcf243]" started-at="2025-03-25T00:21:09 EET" name="tearDown" finished-at="2025-03-25T00:21:09 EET" duration-ms="475" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyClearingFilters status=SUCCESS method=SearchTest.verifyClearingFilters()[pri:0, instance:tests.ui.SearchTest@6cbcf243] output=🟢 Test Started: verifyClearingFilters (🔢 Test Case ID: TC-050)]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(org.testng.ITestResult,org.testng.ITestContext)[pri:0, instance:tests.ui.SearchTest@6cbcf243]" started-at="2025-03-25T00:21:09 EET" name="setUp" finished-at="2025-03-25T00:21:34 EET" duration-ms="24711" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=SearchTest.verifyFilteringByManufacturer()[pri:0, instance:tests.ui.SearchTest@6cbcf243] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@60ed0b9d]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyFilteringByManufacturer()[pri:0, instance:tests.ui.SearchTest@6cbcf243]" started-at="2025-03-25T00:21:34 EET" name="verifyFilteringByManufacturer" description="TC-044" finished-at="2025-03-25T00:21:48 EET" duration-ms="14338" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[🟢 Test Started: verifyFilteringByManufacturer (🔢 Test Case ID: TC-044)]]>
+            </line>
+            <line>
+              <![CDATA[
+🌍 Test Environment:
+🖥️ OS: Windows 11 10.0
+☕ Java Version: 23.0.1
+🌐 Browser: chrome 134.0.6998.118
+]]>
+            </line>
+            <line>
+              <![CDATA[✅ Test PASSED: verifyFilteringByManufacturer (Duration: 14338ms)]]>
+            </line>
+            <line>
+              <![CDATA[<br><img src='E:/Folder/Galal/Courses/Digital Egypt Pioneers Initiative (DEPI) - Software Testing/DEPI Software Tester Graduation Project/automation-framework/reports/screenshots\TC-044\TC-044_screenshot.png' height='300' width='400'/><br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyFilteringByManufacturer -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.ui.SearchTest@6cbcf243]" started-at="2025-03-25T00:21:48 EET" name="tearDown" finished-at="2025-03-25T00:21:48 EET" duration-ms="236" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyFilteringByManufacturer status=SUCCESS method=SearchTest.verifyFilteringByManufacturer()[pri:0, instance:tests.ui.SearchTest@6cbcf243] output=🟢 Test Started: verifyFilteringByManufacturer (🔢 Test Case ID: TC-044)]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(org.testng.ITestResult,org.testng.ITestContext)[pri:0, instance:tests.ui.SearchTest@6cbcf243]" started-at="2025-03-25T00:21:48 EET" name="setUp" finished-at="2025-03-25T00:22:14 EET" duration-ms="25690" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=SearchTest.verifyInvalidSearchTerm()[pri:0, instance:tests.ui.SearchTest@6cbcf243] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@60ed0b9d]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyInvalidSearchTerm()[pri:0, instance:tests.ui.SearchTest@6cbcf243]" started-at="2025-03-25T00:22:14 EET" name="verifyInvalidSearchTerm" description="TC-048" finished-at="2025-03-25T00:22:22 EET" duration-ms="7836" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[🟢 Test Started: verifyInvalidSearchTerm (🔢 Test Case ID: TC-048)]]>
+            </line>
+            <line>
+              <![CDATA[
+🌍 Test Environment:
+🖥️ OS: Windows 11 10.0
+☕ Java Version: 23.0.1
+🌐 Browser: chrome 134.0.6998.118
+]]>
+            </line>
+            <line>
+              <![CDATA[✅ Test PASSED: verifyInvalidSearchTerm (Duration: 7836ms)]]>
+            </line>
+            <line>
+              <![CDATA[<br><img src='E:/Folder/Galal/Courses/Digital Egypt Pioneers Initiative (DEPI) - Software Testing/DEPI Software Tester Graduation Project/automation-framework/reports/screenshots\TC-048\TC-048_screenshot.png' height='300' width='400'/><br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyInvalidSearchTerm -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.ui.SearchTest@6cbcf243]" started-at="2025-03-25T00:22:22 EET" name="tearDown" finished-at="2025-03-25T00:22:22 EET" duration-ms="204" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyInvalidSearchTerm status=SUCCESS method=SearchTest.verifyInvalidSearchTerm()[pri:0, instance:tests.ui.SearchTest@6cbcf243] output=🟢 Test Started: verifyInvalidSearchTerm (🔢 Test Case ID: TC-048)]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(org.testng.ITestResult,org.testng.ITestContext)[pri:0, instance:tests.ui.SearchTest@6cbcf243]" started-at="2025-03-25T00:22:22 EET" name="setUp" finished-at="2025-03-25T00:22:45 EET" duration-ms="22887" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=SearchTest.verifyPaginationInSearchResults()[pri:0, instance:tests.ui.SearchTest@6cbcf243] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@60ed0b9d]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyPaginationInSearchResults()[pri:0, instance:tests.ui.SearchTest@6cbcf243]" started-at="2025-03-25T00:22:45 EET" name="verifyPaginationInSearchResults" description="TC-042" finished-at="2025-03-25T00:22:56 EET" duration-ms="10294" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[🟢 Test Started: verifyPaginationInSearchResults (🔢 Test Case ID: TC-042)]]>
+            </line>
+            <line>
+              <![CDATA[
+🌍 Test Environment:
+🖥️ OS: Windows 11 10.0
+☕ Java Version: 23.0.1
+🌐 Browser: chrome 134.0.6998.118
+]]>
+            </line>
+            <line>
+              <![CDATA[✅ Test PASSED: verifyPaginationInSearchResults (Duration: 10294ms)]]>
+            </line>
+            <line>
+              <![CDATA[<br><img src='E:/Folder/Galal/Courses/Digital Egypt Pioneers Initiative (DEPI) - Software Testing/DEPI Software Tester Graduation Project/automation-framework/reports/screenshots\TC-042\TC-042_screenshot.png' height='300' width='400'/><br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyPaginationInSearchResults -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.ui.SearchTest@6cbcf243]" started-at="2025-03-25T00:22:56 EET" name="tearDown" finished-at="2025-03-25T00:22:56 EET" duration-ms="277" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyPaginationInSearchResults status=SUCCESS method=SearchTest.verifyPaginationInSearchResults()[pri:0, instance:tests.ui.SearchTest@6cbcf243] output=🟢 Test Started: verifyPaginationInSearchResults (🔢 Test Case ID: TC-042)]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(org.testng.ITestResult,org.testng.ITestContext)[pri:0, instance:tests.ui.SearchTest@6cbcf243]" started-at="2025-03-25T00:22:56 EET" name="setUp" finished-at="2025-03-25T00:23:19 EET" duration-ms="23372" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=SearchTest.verifySearchByCategory()[pri:0, instance:tests.ui.SearchTest@6cbcf243] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@60ed0b9d]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifySearchByCategory()[pri:0, instance:tests.ui.SearchTest@6cbcf243]" started-at="2025-03-25T00:23:19 EET" name="verifySearchByCategory" description="TC-038" finished-at="2025-03-25T00:23:33 EET" duration-ms="13311" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[🟢 Test Started: verifySearchByCategory (🔢 Test Case ID: TC-038)]]>
+            </line>
+            <line>
+              <![CDATA[
+🌍 Test Environment:
+🖥️ OS: Windows 11 10.0
+☕ Java Version: 23.0.1
+🌐 Browser: chrome 134.0.6998.118
+]]>
+            </line>
+            <line>
+              <![CDATA[✅ Test PASSED: verifySearchByCategory (Duration: 13311ms)]]>
+            </line>
+            <line>
+              <![CDATA[<br><img src='E:/Folder/Galal/Courses/Digital Egypt Pioneers Initiative (DEPI) - Software Testing/DEPI Software Tester Graduation Project/automation-framework/reports/screenshots\TC-038\TC-038_screenshot.png' height='300' width='400'/><br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifySearchByCategory -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.ui.SearchTest@6cbcf243]" started-at="2025-03-25T00:23:33 EET" name="tearDown" finished-at="2025-03-25T00:23:33 EET" duration-ms="203" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifySearchByCategory status=SUCCESS method=SearchTest.verifySearchByCategory()[pri:0, instance:tests.ui.SearchTest@6cbcf243] output=🟢 Test Started: verifySearchByCategory (🔢 Test Case ID: TC-038)]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(org.testng.ITestResult,org.testng.ITestContext)[pri:0, instance:tests.ui.SearchTest@6cbcf243]" started-at="2025-03-25T00:23:33 EET" name="setUp" finished-at="2025-03-25T00:23:56 EET" duration-ms="23355" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=SearchTest.verifySearchFunctionality()[pri:0, instance:tests.ui.SearchTest@6cbcf243] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@60ed0b9d]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifySearchFunctionality()[pri:0, instance:tests.ui.SearchTest@6cbcf243]" started-at="2025-03-25T00:23:56 EET" name="verifySearchFunctionality" description="TC-002" finished-at="2025-03-25T00:24:03 EET" duration-ms="6896" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[🟢 Test Started: verifySearchFunctionality (🔢 Test Case ID: TC-002)]]>
+            </line>
+            <line>
+              <![CDATA[
+🌍 Test Environment:
+🖥️ OS: Windows 11 10.0
+☕ Java Version: 23.0.1
+🌐 Browser: chrome 134.0.6998.118
+]]>
+            </line>
+            <line>
+              <![CDATA[✅ Test PASSED: verifySearchFunctionality (Duration: 6896ms)]]>
+            </line>
+            <line>
+              <![CDATA[<br><img src='E:/Folder/Galal/Courses/Digital Egypt Pioneers Initiative (DEPI) - Software Testing/DEPI Software Tester Graduation Project/automation-framework/reports/screenshots\TC-002\TC-002_screenshot.png' height='300' width='400'/><br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifySearchFunctionality -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.ui.SearchTest@6cbcf243]" started-at="2025-03-25T00:24:03 EET" name="tearDown" finished-at="2025-03-25T00:24:04 EET" duration-ms="148" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifySearchFunctionality status=SUCCESS method=SearchTest.verifySearchFunctionality()[pri:0, instance:tests.ui.SearchTest@6cbcf243] output=🟢 Test Started: verifySearchFunctionality (🔢 Test Case ID: TC-002)]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(org.testng.ITestResult,org.testng.ITestContext)[pri:0, instance:tests.ui.SearchTest@6cbcf243]" started-at="2025-03-25T00:24:04 EET" name="setUp" finished-at="2025-03-25T00:24:27 EET" duration-ms="23739" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=SearchTest.verifySortingOptions()[pri:0, instance:tests.ui.SearchTest@6cbcf243] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@60ed0b9d]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifySortingOptions()[pri:0, instance:tests.ui.SearchTest@6cbcf243]" started-at="2025-03-25T00:24:27 EET" name="verifySortingOptions" description="TC-043" finished-at="2025-03-25T00:24:44 EET" duration-ms="16909" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[🟢 Test Started: verifySortingOptions (🔢 Test Case ID: TC-043)]]>
+            </line>
+            <line>
+              <![CDATA[
+🌍 Test Environment:
+🖥️ OS: Windows 11 10.0
+☕ Java Version: 23.0.1
+🌐 Browser: chrome 134.0.6998.118
+]]>
+            </line>
+            <line>
+              <![CDATA[✅ Test PASSED: verifySortingOptions (Duration: 16910ms)]]>
+            </line>
+            <line>
+              <![CDATA[<br><img src='E:/Folder/Galal/Courses/Digital Egypt Pioneers Initiative (DEPI) - Software Testing/DEPI Software Tester Graduation Project/automation-framework/reports/screenshots\TC-043\TC-043_screenshot.png' height='300' width='400'/><br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifySortingOptions -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.ui.SearchTest@6cbcf243]" started-at="2025-03-25T00:24:44 EET" name="tearDown" finished-at="2025-03-25T00:24:45 EET" duration-ms="261" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifySortingOptions status=SUCCESS method=SearchTest.verifySortingOptions()[pri:0, instance:tests.ui.SearchTest@6cbcf243] output=🟢 Test Started: verifySortingOptions (🔢 Test Case ID: TC-043)]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.ui.SearchTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

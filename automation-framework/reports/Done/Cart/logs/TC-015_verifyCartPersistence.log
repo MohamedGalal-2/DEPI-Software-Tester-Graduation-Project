@@ -1,0 +1,46 @@
+2025-03-23 00:28:57 [main] INFO  TC-015_verifyCartPersistence - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-03-23 00:28:57 [main] INFO  TC-015_verifyCartPersistence - Logger initialized
+2025-03-23 00:28:57 [main] INFO  TC-015_verifyCartPersistence - Starting test setup for: verifyCartPersistence (🔢 Test Case ID: TC-015)
+2025-03-23 00:29:13 [main] INFO  TC-015_verifyCartPersistence - Navigated to the site: https://demo.nopcommerce.com
+2025-03-23 00:29:13 [main] INFO  TC-015_verifyCartPersistence - Injected cookie: cf_clearance
+2025-03-23 00:29:13 [main] INFO  TC-015_verifyCartPersistence - Injected cookie: _ga
+2025-03-23 00:29:13 [main] INFO  TC-015_verifyCartPersistence - Injected cookie: .Nop.Antiforgery
+2025-03-23 00:29:13 [main] INFO  TC-015_verifyCartPersistence - Injected cookie: .Nop.Customer
+2025-03-23 00:29:13 [main] INFO  TC-015_verifyCartPersistence - Injected cookie: .Nop.Culture
+2025-03-23 00:29:13 [main] INFO  TC-015_verifyCartPersistence - Injected cookie: _ga_SCT41TW89V
+2025-03-23 00:29:14 [main] INFO  TC-015_verifyCartPersistence - Page refreshed with bypassed cookies.
+2025-03-23 00:29:14 [main] INFO  TC-015_verifyCartPersistence - 🟢 Starting test: verifyCartPersistence (🔢 Test Case ID: TC-015)
+2025-03-23 00:29:15 [main] INFO  utils.MainFunctionalities - Navigating to product page: https://demo.nopcommerce.com/adobe-photoshop
+2025-03-23 00:29:18 [main] INFO  utils.MainFunctionalities - Clicked 'Add to Cart' button with ID: add-to-cart-button-10
+2025-03-23 00:29:18 [main] INFO  utils.MainFunctionalities - Product successfully added to cart.
+2025-03-23 00:29:18 [main] INFO  utils.MainFunctionalities - Cart quantity updated to: 1
+2025-03-23 00:29:19 [main] INFO  TC-015_verifyCartPersistence - Page refreshed to check cart persistence.
+2025-03-23 00:29:19 [main] INFO  utils.MainFunctionalities - Cart quantity updated to: 1
+2025-03-23 00:29:19 [main] INFO  TC-015_verifyCartPersistence - Check cart persistence complete.
+2025-03-23 00:29:19 [main] INFO  listeners.TestListener - ✅ Test PASSED: verifyCartPersistence (Duration: 4698ms)
+2025-03-23 00:29:19 [main] INFO  TC-015_verifyCartPersistence - Closing the browser for test: verifyCartPersistence
+2025-03-23 00:29:19 [main] INFO  TC-015_verifyCartPersistence - Browser closed.
+2025-03-23 01:20:08 [main] INFO  TC-015_verifyCartPersistence - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-03-23 01:20:08 [main] INFO  TC-015_verifyCartPersistence - Logger initialized
+2025-03-23 01:20:08 [main] INFO  TC-015_verifyCartPersistence - Starting test setup for: verifyCartPersistence (🔢 Test Case ID: TC-015)
+2025-03-23 01:20:24 [main] INFO  TC-015_verifyCartPersistence - Navigated to the site: https://demo.nopcommerce.com
+2025-03-23 01:20:24 [main] INFO  TC-015_verifyCartPersistence - Injected cookie: cf_clearance
+2025-03-23 01:20:24 [main] INFO  TC-015_verifyCartPersistence - Injected cookie: _ga
+2025-03-23 01:20:24 [main] INFO  TC-015_verifyCartPersistence - Injected cookie: .Nop.Antiforgery
+2025-03-23 01:20:24 [main] INFO  TC-015_verifyCartPersistence - Injected cookie: .Nop.Customer
+2025-03-23 01:20:24 [main] INFO  TC-015_verifyCartPersistence - Injected cookie: .Nop.Culture
+2025-03-23 01:20:24 [main] INFO  TC-015_verifyCartPersistence - Injected cookie: _ga_SCT41TW89V
+2025-03-23 01:20:25 [main] INFO  TC-015_verifyCartPersistence - Page refreshed with bypassed cookies.
+2025-03-23 01:20:25 [main] INFO  TC-015_verifyCartPersistence - 🟢 Starting test: verifyCartPersistence (🔢 Test Case ID: TC-015)
+2025-03-23 01:20:26 [main] INFO  utils.MainFunctionalities - Navigating to product page: https://demo.nopcommerce.com/adobe-photoshop
+2025-03-23 01:20:29 [main] INFO  utils.MainFunctionalities - Clicked 'Add to Cart' button with ID: add-to-cart-button-10
+2025-03-23 01:20:30 [main] INFO  utils.MainFunctionalities - Product successfully added to cart.
+2025-03-23 01:20:30 [main] INFO  utils.MainFunctionalities - Cart quantity updated to: 1
+2025-03-23 01:20:31 [main] INFO  TC-015_verifyCartPersistence - Page refreshed to check cart persistence.
+2025-03-23 01:20:31 [main] INFO  utils.MainFunctionalities - Cart quantity updated to: 1
+2025-03-23 01:20:31 [main] INFO  TC-015_verifyCartPersistence - Check cart persistence complete.
+2025-03-23 01:20:31 [main] INFO  listeners.TestListener - ✅ Test PASSED: verifyCartPersistence (Duration: 5505ms)
+2025-03-23 01:20:31 [main] INFO  TC-015_verifyCartPersistence - Closing the browser for test: verifyCartPersistence
+2025-03-23 01:20:31 [main] INFO  TC-015_verifyCartPersistence - Browser closed.

@@ -1,0 +1,349 @@
+2025-03-19 07:23:40 [main] INFO  TC-004_verifyCheckoutPageLoads - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-03-19 07:23:40 [main] INFO  TC-004_verifyCheckoutPageLoads - Logger initialized
+2025-03-19 07:23:40 [main] INFO  TC-004_verifyCheckoutPageLoads - Starting test setup for: verifyCheckoutPageLoads (🔢 Test Case ID: TC-004)
+2025-03-19 07:24:05 [main] INFO  TC-004_verifyCheckoutPageLoads - Navigated to the site: https://demo.nopcommerce.com
+2025-03-19 07:24:05 [main] INFO  TC-004_verifyCheckoutPageLoads - Injected cookie: _ga
+2025-03-19 07:24:05 [main] INFO  TC-004_verifyCheckoutPageLoads - Injected cookie: cf_clearance
+2025-03-19 07:24:05 [main] INFO  TC-004_verifyCheckoutPageLoads - Injected cookie: .Nop.Antiforgery
+2025-03-19 07:24:05 [main] INFO  TC-004_verifyCheckoutPageLoads - Injected cookie: .Nop.Customer
+2025-03-19 07:24:05 [main] INFO  TC-004_verifyCheckoutPageLoads - Injected cookie: .Nop.Culture
+2025-03-19 07:24:05 [main] INFO  TC-004_verifyCheckoutPageLoads - Injected cookie: _ga_SCT41TW89V
+2025-03-19 07:24:10 [main] INFO  TC-004_verifyCheckoutPageLoads - Page refreshed with bypassed cookies.
+2025-03-19 07:24:10 [main] INFO  TC-004_verifyCheckoutPageLoads - 🟢 Starting test: verifyCheckoutPageLoads (🔢 Test Case ID: TC-004)
+2025-03-19 07:24:10 [main] INFO  TC-004_verifyCheckoutPageLoads - Navigating to product page: https://demo.nopcommerce.com/adobe-photoshop
+2025-03-19 07:24:21 [main] ERROR listeners.TestListener - ❌ Test FAILED: verifyCheckoutPageLoads
+org.openqa.selenium.NoSuchSessionException: invalid session id: session deleted as the browser has closed the connection
+from disconnected: unable to send message to renderer
+  (Session info: chrome=134.0.6998.89)
+Build info: version: '4.29.0', revision: '5fc1ec94cb'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [fe3c348e72cb4547289f99c07a1adfb9, findElement {using=id, value=add-to-cart-button-10}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.89, chrome: {chromedriverVersion: 134.0.6998.88 (7e3d5c978c6d..., userDataDir: C:\Users\MOHAME~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61240}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61240/devtoo..., se:cdpVersion: 134.0.6998.89, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: fe3c348e72cb4547289f99c07a1adfb9
+	at jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62) ~[?:?]
+	at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501) ~[?:?]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:485) ~[?:?]
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167) ~[selenium-remote-driver-4.29.0.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138) ~[selenium-remote-driver-4.29.0.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50) ~[selenium-remote-driver-4.29.0.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215) ~[selenium-remote-driver-4.29.0.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216) ~[selenium-remote-driver-4.29.0.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174) ~[selenium-remote-driver-4.29.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545) ~[selenium-remote-driver-4.29.0.jar:?]
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165) ~[selenium-remote-driver-4.29.0.jar:?]
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59) ~[selenium-remote-driver-4.29.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368) ~[selenium-remote-driver-4.29.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362) ~[selenium-remote-driver-4.29.0.jar:?]
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:194) ~[selenium-support-4.29.0.jar:?]
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:190) ~[selenium-support-4.29.0.jar:?]
+	at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:627) ~[selenium-support-4.29.0.jar:?]
+	at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:624) ~[selenium-support-4.29.0.jar:?]
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203) ~[selenium-support-4.29.0.jar:?]
+	at tests.ui.CheckoutTest.verifyCheckoutPageLoads(CheckoutTest.java:34) ~[test-classes/:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) ~[testng-7.11.0.jar:7.11.0]
+	at java.util.ArrayList.forEach(ArrayList.java:1597) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:741) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestRunner.run(TestRunner.java:616) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuites(TestNG.java:1112) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.run(TestNG.java:1079) [testng-7.11.0.jar:7.11.0]
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155) [surefire-testng-3.5.2.jar:3.5.2]
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeSingleClass(TestNGDirectoryTestSuite.java:102) [surefire-testng-3.5.2.jar:3.5.2]
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:91) [surefire-testng-3.5.2.jar:3.5.2]
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137) [surefire-testng-3.5.2.jar:3.5.2]
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385) [surefire-booter-3.5.2.jar:3.5.2]
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162) [surefire-booter-3.5.2.jar:3.5.2]
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507) [surefire-booter-3.5.2.jar:3.5.2]
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495) [surefire-booter-3.5.2.jar:3.5.2]
+2025-03-19 07:24:22 [main] ERROR listeners.TestListener - ❌ Test FAILED: verifyCheckoutPageLoads
+org.openqa.selenium.NoSuchSessionException: invalid session id
+Build info: version: '4.29.0', revision: '5fc1ec94cb'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [fe3c348e72cb4547289f99c07a1adfb9, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.89, chrome: {chromedriverVersion: 134.0.6998.88 (7e3d5c978c6d..., userDataDir: C:\Users\MOHAME~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61240}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61240/devtoo..., se:cdpVersion: 134.0.6998.89, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: fe3c348e72cb4547289f99c07a1adfb9
+	at jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62) ~[?:?]
+	at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501) ~[?:?]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:485) ~[?:?]
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167) ~[selenium-remote-driver-4.29.0.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138) ~[selenium-remote-driver-4.29.0.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50) ~[selenium-remote-driver-4.29.0.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215) ~[selenium-remote-driver-4.29.0.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216) ~[selenium-remote-driver-4.29.0.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174) ~[selenium-remote-driver-4.29.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545) ~[selenium-remote-driver-4.29.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:618) ~[selenium-remote-driver-4.29.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:622) ~[selenium-remote-driver-4.29.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:334) ~[selenium-remote-driver-4.29.0.jar:?]
+	at listeners.TestListener.captureScreenshot(TestListener.java:271) ~[test-classes/:?]
+	at listeners.TestListener.onTestFailure(TestListener.java:137) ~[test-classes/:?]
+	at org.testng.internal.TestListenerHelper.runTestListeners(TestListenerHelper.java:115) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.runTestResultListener(TestInvoker.java:285) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:777) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) ~[testng-7.11.0.jar:7.11.0]
+	at java.util.ArrayList.forEach(ArrayList.java:1597) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:741) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestRunner.run(TestRunner.java:616) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuites(TestNG.java:1112) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.run(TestNG.java:1079) [testng-7.11.0.jar:7.11.0]
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155) [surefire-testng-3.5.2.jar:3.5.2]
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeSingleClass(TestNGDirectoryTestSuite.java:102) [surefire-testng-3.5.2.jar:3.5.2]
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:91) [surefire-testng-3.5.2.jar:3.5.2]
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137) [surefire-testng-3.5.2.jar:3.5.2]
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385) [surefire-booter-3.5.2.jar:3.5.2]
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162) [surefire-booter-3.5.2.jar:3.5.2]
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507) [surefire-booter-3.5.2.jar:3.5.2]
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495) [surefire-booter-3.5.2.jar:3.5.2]
+2025-03-19 07:24:22 [main] INFO  listeners.TestListener - 🏁 Finished Test Suite: Surefire test
+2025-03-19 07:28:39 [main] INFO  TC-004_verifyCheckoutPageLoads - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-03-19 07:28:39 [main] INFO  TC-004_verifyCheckoutPageLoads - Logger initialized
+2025-03-19 07:28:39 [main] INFO  TC-004_verifyCheckoutPageLoads - Starting test setup for: verifyCheckoutPageLoads (🔢 Test Case ID: TC-004)
+2025-03-19 07:28:56 [main] INFO  TC-004_verifyCheckoutPageLoads - Navigated to the site: https://demo.nopcommerce.com
+2025-03-19 07:28:56 [main] INFO  TC-004_verifyCheckoutPageLoads - Injected cookie: cf_clearance
+2025-03-19 07:28:56 [main] INFO  TC-004_verifyCheckoutPageLoads - Injected cookie: _ga
+2025-03-19 07:28:56 [main] INFO  TC-004_verifyCheckoutPageLoads - Injected cookie: .Nop.Antiforgery
+2025-03-19 07:28:56 [main] INFO  TC-004_verifyCheckoutPageLoads - Injected cookie: .Nop.Customer
+2025-03-19 07:28:56 [main] INFO  TC-004_verifyCheckoutPageLoads - Injected cookie: .Nop.Culture
+2025-03-19 07:28:56 [main] INFO  TC-004_verifyCheckoutPageLoads - Injected cookie: _ga_SCT41TW89V
+2025-03-19 07:28:57 [main] INFO  TC-004_verifyCheckoutPageLoads - Page refreshed with bypassed cookies.
+2025-03-19 07:28:57 [main] INFO  TC-004_verifyCheckoutPageLoads - 🟢 Starting test: verifyCheckoutPageLoads (🔢 Test Case ID: TC-004)
+2025-03-19 07:28:57 [main] INFO  TC-004_verifyCheckoutPageLoads - Navigating to product page: https://demo.nopcommerce.com/adobe-photoshop
+2025-03-19 07:29:00 [main] INFO  TC-004_verifyCheckoutPageLoads - Clicked 'Add to Cart' button.
+2025-03-19 07:29:03 [main] ERROR listeners.TestListener - ❌ Test FAILED: verifyCheckoutPageLoads
+org.openqa.selenium.NoSuchSessionException: invalid session id: session deleted as the browser has closed the connection
+from disconnected: not connected to DevTools
+  (Session info: chrome=134.0.6998.89)
+Build info: version: '4.29.0', revision: '5fc1ec94cb'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0de0638139f3d59499534ae6c36d9f5c, findElement {value=.bar-notification.success, using=css selector}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.89, chrome: {chromedriverVersion: 134.0.6998.88 (7e3d5c978c6d..., userDataDir: C:\Users\MOHAME~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56097}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56097/devtoo..., se:cdpVersion: 134.0.6998.89, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 0de0638139f3d59499534ae6c36d9f5c
+	at jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62) ~[?:?]
+	at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501) ~[?:?]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:485) ~[?:?]
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167) ~[selenium-remote-driver-4.29.0.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138) ~[selenium-remote-driver-4.29.0.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50) ~[selenium-remote-driver-4.29.0.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215) ~[selenium-remote-driver-4.29.0.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216) ~[selenium-remote-driver-4.29.0.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174) ~[selenium-remote-driver-4.29.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545) ~[selenium-remote-driver-4.29.0.jar:?]
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165) ~[selenium-remote-driver-4.29.0.jar:?]
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59) ~[selenium-remote-driver-4.29.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368) ~[selenium-remote-driver-4.29.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362) ~[selenium-remote-driver-4.29.0.jar:?]
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:194) ~[selenium-support-4.29.0.jar:?]
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:190) ~[selenium-support-4.29.0.jar:?]
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203) ~[selenium-support-4.29.0.jar:?]
+	at tests.ui.CheckoutTest.verifyCheckoutPageLoads(CheckoutTest.java:40) ~[test-classes/:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) ~[testng-7.11.0.jar:7.11.0]
+	at java.util.ArrayList.forEach(ArrayList.java:1597) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:741) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestRunner.run(TestRunner.java:616) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuites(TestNG.java:1112) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.run(TestNG.java:1079) [testng-7.11.0.jar:7.11.0]
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155) [surefire-testng-3.5.2.jar:3.5.2]
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeSingleClass(TestNGDirectoryTestSuite.java:102) [surefire-testng-3.5.2.jar:3.5.2]
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:91) [surefire-testng-3.5.2.jar:3.5.2]
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137) [surefire-testng-3.5.2.jar:3.5.2]
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385) [surefire-booter-3.5.2.jar:3.5.2]
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162) [surefire-booter-3.5.2.jar:3.5.2]
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507) [surefire-booter-3.5.2.jar:3.5.2]
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495) [surefire-booter-3.5.2.jar:3.5.2]
+2025-03-19 07:29:03 [main] ERROR listeners.TestListener - ❌ Test FAILED: verifyCheckoutPageLoads
+org.openqa.selenium.NoSuchSessionException: invalid session id
+Build info: version: '4.29.0', revision: '5fc1ec94cb'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0de0638139f3d59499534ae6c36d9f5c, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.89, chrome: {chromedriverVersion: 134.0.6998.88 (7e3d5c978c6d..., userDataDir: C:\Users\MOHAME~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56097}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56097/devtoo..., se:cdpVersion: 134.0.6998.89, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 0de0638139f3d59499534ae6c36d9f5c
+	at jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62) ~[?:?]
+	at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501) ~[?:?]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:485) ~[?:?]
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167) ~[selenium-remote-driver-4.29.0.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138) ~[selenium-remote-driver-4.29.0.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50) ~[selenium-remote-driver-4.29.0.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215) ~[selenium-remote-driver-4.29.0.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216) ~[selenium-remote-driver-4.29.0.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174) ~[selenium-remote-driver-4.29.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545) ~[selenium-remote-driver-4.29.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:618) ~[selenium-remote-driver-4.29.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:622) ~[selenium-remote-driver-4.29.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:334) ~[selenium-remote-driver-4.29.0.jar:?]
+	at listeners.TestListener.captureScreenshot(TestListener.java:271) ~[test-classes/:?]
+	at listeners.TestListener.onTestFailure(TestListener.java:137) ~[test-classes/:?]
+	at org.testng.internal.TestListenerHelper.runTestListeners(TestListenerHelper.java:115) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.runTestResultListener(TestInvoker.java:285) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:777) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) ~[testng-7.11.0.jar:7.11.0]
+	at java.util.ArrayList.forEach(ArrayList.java:1597) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:741) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestRunner.run(TestRunner.java:616) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuites(TestNG.java:1112) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.run(TestNG.java:1079) [testng-7.11.0.jar:7.11.0]
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155) [surefire-testng-3.5.2.jar:3.5.2]
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeSingleClass(TestNGDirectoryTestSuite.java:102) [surefire-testng-3.5.2.jar:3.5.2]
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:91) [surefire-testng-3.5.2.jar:3.5.2]
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137) [surefire-testng-3.5.2.jar:3.5.2]
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385) [surefire-booter-3.5.2.jar:3.5.2]
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162) [surefire-booter-3.5.2.jar:3.5.2]
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507) [surefire-booter-3.5.2.jar:3.5.2]
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495) [surefire-booter-3.5.2.jar:3.5.2]
+2025-03-19 07:29:03 [main] INFO  listeners.TestListener - 🏁 Finished Test Suite: Surefire test
+2025-03-19 07:34:09 [main] INFO  TC-004_verifyCheckoutPageLoads - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-03-19 07:34:09 [main] INFO  TC-004_verifyCheckoutPageLoads - Logger initialized
+2025-03-19 07:34:09 [main] INFO  TC-004_verifyCheckoutPageLoads - Starting test setup for: verifyCheckoutPageLoads (🔢 Test Case ID: TC-004)
+2025-03-19 07:34:27 [main] INFO  TC-004_verifyCheckoutPageLoads - Navigated to the site: https://demo.nopcommerce.com
+2025-03-19 07:34:27 [main] INFO  TC-004_verifyCheckoutPageLoads - Injected cookie: cf_clearance
+2025-03-19 07:34:27 [main] INFO  TC-004_verifyCheckoutPageLoads - Injected cookie: _ga
+2025-03-19 07:34:27 [main] INFO  TC-004_verifyCheckoutPageLoads - Injected cookie: .Nop.Antiforgery
+2025-03-19 07:34:27 [main] INFO  TC-004_verifyCheckoutPageLoads - Injected cookie: .Nop.Customer
+2025-03-19 07:34:27 [main] INFO  TC-004_verifyCheckoutPageLoads - Injected cookie: .Nop.Culture
+2025-03-19 07:34:27 [main] INFO  TC-004_verifyCheckoutPageLoads - Injected cookie: _ga_SCT41TW89V
+2025-03-19 07:34:28 [main] INFO  TC-004_verifyCheckoutPageLoads - Page refreshed with bypassed cookies.
+2025-03-19 07:34:28 [main] INFO  TC-004_verifyCheckoutPageLoads - 🟢 Starting test: verifyCheckoutPageLoads (🔢 Test Case ID: TC-004)
+2025-03-19 07:34:28 [main] INFO  TC-004_verifyCheckoutPageLoads - Navigating to product page: https://demo.nopcommerce.com/adobe-photoshop
+2025-03-19 07:34:31 [main] INFO  TC-004_verifyCheckoutPageLoads - Clicked 'Add to Cart' button.
+2025-03-19 07:34:32 [main] INFO  TC-004_verifyCheckoutPageLoads - Product successfully added to cart.
+2025-03-19 07:34:34 [main] INFO  TC-004_verifyCheckoutPageLoads - Cart quantity updated to: 1
+2025-03-19 07:34:36 [main] INFO  TC-004_verifyCheckoutPageLoads - Cart page loaded successfully.
+2025-03-19 07:34:38 [main] INFO  TC-004_verifyCheckoutPageLoads - Accepted terms of service.
+2025-03-19 07:34:42 [main] INFO  TC-004_verifyCheckoutPageLoads - Clicked on Checkout button.
+2025-03-19 07:34:43 [main] INFO  TC-004_verifyCheckoutPageLoads - "TC-004" Passed: Checkout page loaded successfully.
+2025-03-19 07:34:43 [main] INFO  listeners.TestListener - ✅ Test PASSED: verifyCheckoutPageLoads (Duration: 15427ms)
+2025-03-19 07:34:43 [main] INFO  TC-004_verifyCheckoutPageLoads - Closing the browser for test: verifyCheckoutPageLoads
+2025-03-19 07:34:43 [main] INFO  TC-004_verifyCheckoutPageLoads - Browser closed.
+2025-03-22 14:49:23 [main] INFO  TC-004_verifyCheckoutPageLoads - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-03-22 14:49:23 [main] INFO  TC-004_verifyCheckoutPageLoads - Logger initialized
+2025-03-22 14:49:23 [main] INFO  TC-004_verifyCheckoutPageLoads - Starting test setup for: verifyCheckoutPageLoads (🔢 Test Case ID: TC-004)
+2025-03-22 14:49:41 [main] INFO  TC-004_verifyCheckoutPageLoads - Navigated to the site: https://demo.nopcommerce.com
+2025-03-22 14:49:41 [main] INFO  TC-004_verifyCheckoutPageLoads - Injected cookie: cf_clearance
+2025-03-22 14:49:41 [main] INFO  TC-004_verifyCheckoutPageLoads - Injected cookie: _ga
+2025-03-22 14:49:41 [main] INFO  TC-004_verifyCheckoutPageLoads - Injected cookie: .Nop.Antiforgery
+2025-03-22 14:49:41 [main] INFO  TC-004_verifyCheckoutPageLoads - Injected cookie: .Nop.Customer
+2025-03-22 14:49:41 [main] INFO  TC-004_verifyCheckoutPageLoads - Injected cookie: .Nop.Culture
+2025-03-22 14:49:41 [main] INFO  TC-004_verifyCheckoutPageLoads - Injected cookie: _ga_SCT41TW89V
+2025-03-22 14:49:42 [main] INFO  TC-004_verifyCheckoutPageLoads - Page refreshed with bypassed cookies.
+2025-03-22 14:49:42 [main] INFO  TC-004_verifyCheckoutPageLoads - 🟢 Starting test: verifyCheckoutPageLoads (🔢 Test Case ID: TC-004)
+2025-03-22 14:49:42 [main] INFO  TC-004_verifyCheckoutPageLoads - Navigating to product page: https://demo.nopcommerce.com/adobe-photoshop
+2025-03-22 14:49:45 [main] INFO  TC-004_verifyCheckoutPageLoads - Clicked 'Add to Cart' button.
+2025-03-22 14:49:48 [main] INFO  TC-004_verifyCheckoutPageLoads - Product successfully added to cart.
+2025-03-22 14:49:49 [main] INFO  TC-004_verifyCheckoutPageLoads - Cart quantity updated to: 1
+2025-03-22 14:49:53 [main] INFO  TC-004_verifyCheckoutPageLoads - Cart page loaded successfully.
+2025-03-22 14:49:55 [main] INFO  TC-004_verifyCheckoutPageLoads - Accepted terms of service.
+2025-03-22 14:49:57 [main] INFO  TC-004_verifyCheckoutPageLoads - Clicked on Checkout button.
+2025-03-22 14:49:59 [main] INFO  TC-004_verifyCheckoutPageLoads - "TC-004" Passed: Checkout page loaded successfully.
+2025-03-22 14:49:59 [main] INFO  listeners.TestListener - ✅ Test PASSED: verifyCheckoutPageLoads (Duration: 17401ms)
+2025-03-22 14:49:59 [main] INFO  TC-004_verifyCheckoutPageLoads - Closing the browser for test: verifyCheckoutPageLoads
+2025-03-22 14:49:59 [main] INFO  TC-004_verifyCheckoutPageLoads - Browser closed.
+2025-03-23 01:40:36 [main] INFO  TC-004_verifyCheckoutPageLoads - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-03-23 01:40:36 [main] INFO  TC-004_verifyCheckoutPageLoads - Logger initialized
+2025-03-23 01:40:36 [main] INFO  TC-004_verifyCheckoutPageLoads - Starting test setup for: verifyCheckoutPageLoads (🔢 Test Case ID: TC-004)
+2025-03-23 01:40:54 [main] INFO  TC-004_verifyCheckoutPageLoads - Navigated to the site: https://demo.nopcommerce.com
+2025-03-23 01:40:54 [main] INFO  TC-004_verifyCheckoutPageLoads - Injected cookie: cf_clearance
+2025-03-23 01:40:54 [main] INFO  TC-004_verifyCheckoutPageLoads - Injected cookie: _ga
+2025-03-23 01:40:54 [main] INFO  TC-004_verifyCheckoutPageLoads - Injected cookie: .Nop.Antiforgery
+2025-03-23 01:40:54 [main] INFO  TC-004_verifyCheckoutPageLoads - Injected cookie: .Nop.Customer
+2025-03-23 01:40:54 [main] INFO  TC-004_verifyCheckoutPageLoads - Injected cookie: .Nop.Culture
+2025-03-23 01:40:54 [main] INFO  TC-004_verifyCheckoutPageLoads - Injected cookie: _ga_SCT41TW89V
+2025-03-23 01:40:55 [main] INFO  TC-004_verifyCheckoutPageLoads - Page refreshed with bypassed cookies.
+2025-03-23 01:40:56 [main] INFO  utils.MainFunctionalities - Navigating to product page: https://demo.nopcommerce.com/adobe-photoshop
+2025-03-23 01:40:59 [main] INFO  utils.MainFunctionalities - Clicked 'Add to Cart' button with ID: add-to-cart-button-10
+2025-03-23 01:40:59 [main] INFO  utils.MainFunctionalities - Product successfully added to cart.
+2025-03-23 01:41:01 [main] INFO  utils.MainFunctionalities - Cart page loaded successfully.
+2025-03-23 01:41:03 [main] INFO  utils.MainFunctionalities - Accepted terms of service.
+2025-03-23 01:41:04 [main] INFO  utils.MainFunctionalities - Clicked on Checkout button.
+2025-03-23 01:41:05 [main] INFO  utils.MainFunctionalities - Checkout page loaded successfully.
+2025-03-23 01:41:05 [main] INFO  TC-004_verifyCheckoutPageLoads - Closing the browser for test: verifyCheckoutPageLoads
+2025-03-23 01:41:06 [main] INFO  TC-004_verifyCheckoutPageLoads - Browser closed.
+2025-03-23 03:44:08 [main] INFO  TC-004_verifyCheckoutPageLoads - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-03-23 03:44:08 [main] INFO  TC-004_verifyCheckoutPageLoads - Logger initialized
+2025-03-23 03:44:08 [main] INFO  TC-004_verifyCheckoutPageLoads - Starting test setup for: verifyCheckoutPageLoads (🔢 Test Case ID: TC-004)
+2025-03-23 03:44:25 [main] INFO  TC-004_verifyCheckoutPageLoads - Navigated to the site: https://demo.nopcommerce.com
+2025-03-23 03:44:25 [main] INFO  TC-004_verifyCheckoutPageLoads - Injected cookie: cf_clearance
+2025-03-23 03:44:25 [main] INFO  TC-004_verifyCheckoutPageLoads - Injected cookie: _ga
+2025-03-23 03:44:25 [main] INFO  TC-004_verifyCheckoutPageLoads - Injected cookie: .Nop.Antiforgery
+2025-03-23 03:44:25 [main] INFO  TC-004_verifyCheckoutPageLoads - Injected cookie: .Nop.Customer
+2025-03-23 03:44:25 [main] INFO  TC-004_verifyCheckoutPageLoads - Injected cookie: .Nop.Culture
+2025-03-23 03:44:25 [main] INFO  TC-004_verifyCheckoutPageLoads - Injected cookie: _ga_SCT41TW89V
+2025-03-23 03:44:26 [main] INFO  TC-004_verifyCheckoutPageLoads - Page refreshed with bypassed cookies.
+2025-03-23 03:44:26 [main] INFO  TC-004_verifyCheckoutPageLoads - 🟢 Starting test: verifyCheckoutPageLoads (🔢 Test Case ID: TC-004)
+2025-03-23 03:44:27 [main] INFO  utils.MainFunctionalities - Navigating to product page: https://demo.nopcommerce.com/adobe-photoshop
+2025-03-23 03:44:29 [main] INFO  utils.MainFunctionalities - Clicked 'Add to Cart' button with ID: add-to-cart-button-10
+2025-03-23 03:44:29 [main] INFO  utils.MainFunctionalities - Product successfully added to cart.
+2025-03-23 03:44:31 [main] INFO  utils.MainFunctionalities - Cart page loaded successfully.
+2025-03-23 03:44:33 [main] INFO  utils.MainFunctionalities - Accepted terms of service.
+2025-03-23 03:44:34 [main] INFO  utils.MainFunctionalities - Clicked on Checkout button.
+2025-03-23 03:44:35 [main] INFO  utils.MainFunctionalities - Checkout page loaded successfully.
+2025-03-23 03:44:35 [main] INFO  listeners.TestListener - ✅ Test PASSED: verifyCheckoutPageLoads (Duration: 9337ms)
+2025-03-23 03:44:35 [main] INFO  TC-004_verifyCheckoutPageLoads - Closing the browser for test: verifyCheckoutPageLoads
+2025-03-23 03:44:36 [main] INFO  TC-004_verifyCheckoutPageLoads - Browser closed.

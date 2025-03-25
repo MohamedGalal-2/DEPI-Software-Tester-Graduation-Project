@@ -1,0 +1,52 @@
+2025-03-24 21:05:31 [main] INFO  TC-179_verifyProductImageGallery - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-03-24 21:05:31 [main] INFO  TC-179_verifyProductImageGallery - Logger initialized
+2025-03-24 21:05:31 [main] INFO  TC-179_verifyProductImageGallery - Starting test setup for: verifyProductImageGallery (🔢 Test Case ID: TC-179)
+2025-03-24 21:05:49 [main] INFO  TC-179_verifyProductImageGallery - Navigated to the site: https://demo.nopcommerce.com
+2025-03-24 21:05:49 [main] INFO  TC-179_verifyProductImageGallery - Injected cookie: _ga
+2025-03-24 21:05:49 [main] INFO  TC-179_verifyProductImageGallery - Injected cookie: cf_clearance
+2025-03-24 21:05:49 [main] INFO  TC-179_verifyProductImageGallery - Injected cookie: .Nop.Antiforgery
+2025-03-24 21:05:49 [main] INFO  TC-179_verifyProductImageGallery - Injected cookie: .Nop.Customer
+2025-03-24 21:05:49 [main] INFO  TC-179_verifyProductImageGallery - Injected cookie: .Nop.Culture
+2025-03-24 21:05:49 [main] INFO  TC-179_verifyProductImageGallery - Injected cookie: _ga_SCT41TW89V
+2025-03-24 21:05:50 [main] INFO  TC-179_verifyProductImageGallery - Page refreshed with bypassed cookies.
+2025-03-24 21:05:50 [main] INFO  TC-179_verifyProductImageGallery - Navigating to: https://demo.nopcommerce.com/
+2025-03-24 21:05:55 [main] INFO  utils.MainFunctionalities - Product image gallery allows browsing images successfully.
+2025-03-24 21:05:55 [main] INFO  TC-179_verifyProductImageGallery - Closing the browser for test: verifyProductImageGallery
+2025-03-24 21:05:56 [main] INFO  TC-179_verifyProductImageGallery - Browser closed.
+2025-03-24 21:51:10 [main] INFO  TC-179_verifyProductImageGallery - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-03-24 21:51:10 [main] INFO  TC-179_verifyProductImageGallery - Logger initialized
+2025-03-24 21:51:10 [main] INFO  TC-179_verifyProductImageGallery - Starting test setup for: verifyProductImageGallery (🔢 Test Case ID: TC-179)
+2025-03-24 21:51:35 [main] INFO  TC-179_verifyProductImageGallery - Navigated to the site: https://demo.nopcommerce.com
+2025-03-24 21:51:35 [main] INFO  TC-179_verifyProductImageGallery - Injected cookie: _ga
+2025-03-24 21:51:35 [main] INFO  TC-179_verifyProductImageGallery - Injected cookie: cf_clearance
+2025-03-24 21:51:35 [main] INFO  TC-179_verifyProductImageGallery - Injected cookie: .Nop.Antiforgery
+2025-03-24 21:51:35 [main] INFO  TC-179_verifyProductImageGallery - Injected cookie: .Nop.Customer
+2025-03-24 21:51:35 [main] INFO  TC-179_verifyProductImageGallery - Injected cookie: .Nop.Culture
+2025-03-24 21:51:35 [main] INFO  TC-179_verifyProductImageGallery - Injected cookie: _ga_SCT41TW89V
+2025-03-24 21:51:37 [main] INFO  TC-179_verifyProductImageGallery - Page refreshed with bypassed cookies.
+2025-03-24 21:51:37 [main] INFO  TC-179_verifyProductImageGallery - 🟢 Starting test: verifyProductImageGallery (🔢 Test Case ID: TC-179)
+2025-03-24 21:51:37 [main] INFO  TC-179_verifyProductImageGallery - Navigating to: https://demo.nopcommerce.com/
+2025-03-24 21:51:41 [main] INFO  utils.MainFunctionalities - Product image gallery allows browsing images successfully.
+2025-03-24 21:51:41 [main] INFO  listeners.TestListener - ✅ Test PASSED: verifyProductImageGallery (Duration: 4253ms)
+2025-03-24 21:51:41 [main] INFO  TC-179_verifyProductImageGallery - Closing the browser for test: verifyProductImageGallery
+2025-03-24 21:51:41 [main] INFO  TC-179_verifyProductImageGallery - Browser closed.
+2025-03-24 21:57:04 [main] INFO  TC-179_verifyProductImageGallery - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-03-24 21:57:04 [main] INFO  TC-179_verifyProductImageGallery - Logger initialized
+2025-03-24 21:57:04 [main] INFO  TC-179_verifyProductImageGallery - Starting test setup for: verifyProductImageGallery (🔢 Test Case ID: TC-179)
+2025-03-24 21:57:27 [main] INFO  TC-179_verifyProductImageGallery - Navigated to the site: https://demo.nopcommerce.com
+2025-03-24 21:57:27 [main] INFO  TC-179_verifyProductImageGallery - Injected cookie: cf_clearance
+2025-03-24 21:57:27 [main] INFO  TC-179_verifyProductImageGallery - Injected cookie: _ga
+2025-03-24 21:57:27 [main] INFO  TC-179_verifyProductImageGallery - Injected cookie: .Nop.Antiforgery
+2025-03-24 21:57:27 [main] INFO  TC-179_verifyProductImageGallery - Injected cookie: .Nop.Customer
+2025-03-24 21:57:27 [main] INFO  TC-179_verifyProductImageGallery - Injected cookie: .Nop.Culture
+2025-03-24 21:57:27 [main] INFO  TC-179_verifyProductImageGallery - Injected cookie: _ga_SCT41TW89V
+2025-03-24 21:57:27 [main] INFO  TC-179_verifyProductImageGallery - Page refreshed with bypassed cookies.
+2025-03-24 21:57:27 [main] INFO  TC-179_verifyProductImageGallery - 🟢 Starting test: verifyProductImageGallery (🔢 Test Case ID: TC-179)
+2025-03-24 21:57:27 [main] INFO  TC-179_verifyProductImageGallery - Navigating to: https://demo.nopcommerce.com/
+2025-03-24 21:57:32 [main] INFO  utils.MainFunctionalities - Product image gallery allows browsing images successfully.
+2025-03-24 21:57:32 [main] INFO  listeners.TestListener - ✅ Test PASSED: verifyProductImageGallery (Duration: 5037ms)
+2025-03-24 21:57:33 [main] INFO  TC-179_verifyProductImageGallery - Closing the browser for test: verifyProductImageGallery
+2025-03-24 21:57:33 [main] INFO  TC-179_verifyProductImageGallery - Browser closed.

@@ -1,0 +1,62 @@
+2025-03-23 00:27:27 [main] INFO  TC-018_verifyAddMultipleProductsToCart - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-03-23 00:27:27 [main] INFO  TC-018_verifyAddMultipleProductsToCart - Logger initialized
+2025-03-23 00:27:27 [main] INFO  TC-018_verifyAddMultipleProductsToCart - Starting test setup for: verifyAddMultipleProductsToCart (🔢 Test Case ID: TC-018)
+2025-03-23 00:27:43 [main] INFO  TC-018_verifyAddMultipleProductsToCart - Navigated to the site: https://demo.nopcommerce.com
+2025-03-23 00:27:43 [main] INFO  TC-018_verifyAddMultipleProductsToCart - Injected cookie: _ga
+2025-03-23 00:27:43 [main] INFO  TC-018_verifyAddMultipleProductsToCart - Injected cookie: cf_clearance
+2025-03-23 00:27:43 [main] INFO  TC-018_verifyAddMultipleProductsToCart - Injected cookie: .Nop.Antiforgery
+2025-03-23 00:27:43 [main] INFO  TC-018_verifyAddMultipleProductsToCart - Injected cookie: .Nop.Customer
+2025-03-23 00:27:43 [main] INFO  TC-018_verifyAddMultipleProductsToCart - Injected cookie: .Nop.Culture
+2025-03-23 00:27:43 [main] INFO  TC-018_verifyAddMultipleProductsToCart - Injected cookie: _ga_SCT41TW89V
+2025-03-23 00:27:44 [main] INFO  TC-018_verifyAddMultipleProductsToCart - Page refreshed with bypassed cookies.
+2025-03-23 00:27:44 [main] INFO  TC-018_verifyAddMultipleProductsToCart - 🟢 Starting test: verifyAddMultipleProductsToCart (🔢 Test Case ID: TC-018)
+2025-03-23 00:27:45 [main] INFO  utils.MainFunctionalities - Navigating to product page: https://demo.nopcommerce.com/lenovo-ideacentre
+2025-03-23 00:27:48 [main] INFO  utils.MainFunctionalities - Clicked 'Add to Cart' button with ID: add-to-cart-button-3
+2025-03-23 00:27:48 [main] INFO  utils.MainFunctionalities - Product successfully added to cart.
+2025-03-23 00:27:49 [main] INFO  utils.MainFunctionalities - Navigating to product page: https://demo.nopcommerce.com/apple-macbook-pro
+2025-03-23 00:27:51 [main] INFO  utils.MainFunctionalities - Clicked 'Add to Cart' button with ID: add-to-cart-button-4
+2025-03-23 00:27:51 [main] INFO  utils.MainFunctionalities - Product successfully added to cart.
+2025-03-23 00:27:53 [main] INFO  utils.MainFunctionalities - Navigating to product page: https://demo.nopcommerce.com/flower-girl-bracelet
+2025-03-23 00:27:54 [main] INFO  utils.MainFunctionalities - Clicked 'Add to Cart' button with ID: add-to-cart-button-43
+2025-03-23 00:27:54 [main] INFO  utils.MainFunctionalities - Product successfully added to cart.
+2025-03-23 00:27:56 [main] INFO  utils.MainFunctionalities - Navigating to product page: https://demo.nopcommerce.com/pride-and-prejudice
+2025-03-23 00:27:58 [main] INFO  utils.MainFunctionalities - Clicked 'Add to Cart' button with ID: add-to-cart-button-41
+2025-03-23 00:27:58 [main] INFO  utils.MainFunctionalities - Product successfully added to cart.
+2025-03-23 00:27:58 [main] INFO  utils.MainFunctionalities - Cart quantity updated to: 5
+2025-03-23 00:28:00 [main] INFO  TC-018_verifyAddMultipleProductsToCart - Navigating to cart page.
+2025-03-23 00:28:00 [main] INFO  TC-018_verifyAddMultipleProductsToCart - All selected products are confirmed in the cart.
+2025-03-23 00:28:00 [main] INFO  listeners.TestListener - ✅ Test PASSED: verifyAddMultipleProductsToCart (Duration: 15602ms)
+2025-03-23 00:28:00 [main] INFO  TC-018_verifyAddMultipleProductsToCart - Closing the browser for test: verifyAddMultipleProductsToCart
+2025-03-23 00:28:00 [main] INFO  TC-018_verifyAddMultipleProductsToCart - Browser closed.
+2025-03-23 01:18:33 [main] INFO  TC-018_verifyAddMultipleProductsToCart - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-03-23 01:18:33 [main] INFO  TC-018_verifyAddMultipleProductsToCart - Logger initialized
+2025-03-23 01:18:33 [main] INFO  TC-018_verifyAddMultipleProductsToCart - Starting test setup for: verifyAddMultipleProductsToCart (🔢 Test Case ID: TC-018)
+2025-03-23 01:18:50 [main] INFO  TC-018_verifyAddMultipleProductsToCart - Navigated to the site: https://demo.nopcommerce.com
+2025-03-23 01:18:50 [main] INFO  TC-018_verifyAddMultipleProductsToCart - Injected cookie: cf_clearance
+2025-03-23 01:18:50 [main] INFO  TC-018_verifyAddMultipleProductsToCart - Injected cookie: _ga
+2025-03-23 01:18:50 [main] INFO  TC-018_verifyAddMultipleProductsToCart - Injected cookie: .Nop.Antiforgery
+2025-03-23 01:18:50 [main] INFO  TC-018_verifyAddMultipleProductsToCart - Injected cookie: .Nop.Customer
+2025-03-23 01:18:50 [main] INFO  TC-018_verifyAddMultipleProductsToCart - Injected cookie: .Nop.Culture
+2025-03-23 01:18:50 [main] INFO  TC-018_verifyAddMultipleProductsToCart - Injected cookie: _ga_SCT41TW89V
+2025-03-23 01:18:50 [main] INFO  TC-018_verifyAddMultipleProductsToCart - Page refreshed with bypassed cookies.
+2025-03-23 01:18:50 [main] INFO  TC-018_verifyAddMultipleProductsToCart - 🟢 Starting test: verifyAddMultipleProductsToCart (🔢 Test Case ID: TC-018)
+2025-03-23 01:18:51 [main] INFO  utils.MainFunctionalities - Navigating to product page: https://demo.nopcommerce.com/lenovo-ideacentre
+2025-03-23 01:18:54 [main] INFO  utils.MainFunctionalities - Clicked 'Add to Cart' button with ID: add-to-cart-button-3
+2025-03-23 01:18:54 [main] INFO  utils.MainFunctionalities - Product successfully added to cart.
+2025-03-23 01:18:55 [main] INFO  utils.MainFunctionalities - Navigating to product page: https://demo.nopcommerce.com/apple-macbook-pro
+2025-03-23 01:18:58 [main] INFO  utils.MainFunctionalities - Clicked 'Add to Cart' button with ID: add-to-cart-button-4
+2025-03-23 01:18:58 [main] INFO  utils.MainFunctionalities - Product successfully added to cart.
+2025-03-23 01:18:59 [main] INFO  utils.MainFunctionalities - Navigating to product page: https://demo.nopcommerce.com/flower-girl-bracelet
+2025-03-23 01:19:02 [main] INFO  utils.MainFunctionalities - Clicked 'Add to Cart' button with ID: add-to-cart-button-43
+2025-03-23 01:19:03 [main] INFO  utils.MainFunctionalities - Product successfully added to cart.
+2025-03-23 01:19:05 [main] INFO  utils.MainFunctionalities - Navigating to product page: https://demo.nopcommerce.com/pride-and-prejudice
+2025-03-23 01:19:08 [main] INFO  utils.MainFunctionalities - Clicked 'Add to Cart' button with ID: add-to-cart-button-41
+2025-03-23 01:19:09 [main] INFO  utils.MainFunctionalities - Product successfully added to cart.
+2025-03-23 01:19:09 [main] INFO  utils.MainFunctionalities - Cart quantity updated to: 5
+2025-03-23 01:19:10 [main] INFO  TC-018_verifyAddMultipleProductsToCart - Navigating to cart page.
+2025-03-23 01:19:10 [main] INFO  TC-018_verifyAddMultipleProductsToCart - All selected products are confirmed in the cart.
+2025-03-23 01:19:10 [main] INFO  listeners.TestListener - ✅ Test PASSED: verifyAddMultipleProductsToCart (Duration: 19355ms)
+2025-03-23 01:19:10 [main] INFO  TC-018_verifyAddMultipleProductsToCart - Closing the browser for test: verifyAddMultipleProductsToCart
+2025-03-23 01:19:10 [main] INFO  TC-018_verifyAddMultipleProductsToCart - Browser closed.

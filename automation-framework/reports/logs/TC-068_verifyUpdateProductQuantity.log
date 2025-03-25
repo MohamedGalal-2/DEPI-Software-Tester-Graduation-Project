@@ -1,0 +1,203 @@
+2025-03-19 06:51:45 [main] INFO  TC-068_verifyUpdateProductQuantity - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-03-19 06:51:45 [main] INFO  TC-068_verifyUpdateProductQuantity - Logger initialized
+2025-03-19 06:51:45 [main] INFO  TC-068_verifyUpdateProductQuantity - Starting test setup for: verifyUpdateProductQuantity (🔢 Test Case ID: TC-068)
+2025-03-19 06:52:01 [main] INFO  TC-068_verifyUpdateProductQuantity - Navigated to the site: https://demo.nopcommerce.com
+2025-03-19 06:52:01 [main] INFO  TC-068_verifyUpdateProductQuantity - Injected cookie: _ga
+2025-03-19 06:52:01 [main] INFO  TC-068_verifyUpdateProductQuantity - Injected cookie: cf_clearance
+2025-03-19 06:52:01 [main] INFO  TC-068_verifyUpdateProductQuantity - Injected cookie: .Nop.Antiforgery
+2025-03-19 06:52:01 [main] INFO  TC-068_verifyUpdateProductQuantity - Injected cookie: .Nop.Customer
+2025-03-19 06:52:01 [main] INFO  TC-068_verifyUpdateProductQuantity - Injected cookie: .Nop.Culture
+2025-03-19 06:52:01 [main] INFO  TC-068_verifyUpdateProductQuantity - Injected cookie: _ga_SCT41TW89V
+2025-03-19 06:52:02 [main] INFO  TC-068_verifyUpdateProductQuantity - Page refreshed with bypassed cookies.
+2025-03-19 06:52:02 [main] INFO  TC-068_verifyUpdateProductQuantity - 🟢 Starting test: verifyUpdateProductQuantity (🔢 Test Case ID: TC-068)
+2025-03-19 06:52:03 [main] INFO  TC-068_verifyUpdateProductQuantity - Navigating to product page: https://demo.nopcommerce.com/lenovo-ideacentre
+2025-03-19 06:52:04 [main] INFO  TC-068_verifyUpdateProductQuantity - Clicked 'Add to Cart' button for product: Lenovo IdeaCentre
+2025-03-19 06:52:07 [main] INFO  TC-068_verifyUpdateProductQuantity - Lenovo IdeaCentre successfully added to cart.
+2025-03-19 06:52:07 [main] INFO  TC-068_verifyUpdateProductQuantity - Navigating to cart page.
+2025-03-19 06:52:09 [main] INFO  TC-068_verifyUpdateProductQuantity - Updated quantity to: 2
+2025-03-19 06:52:10 [main] INFO  TC-068_verifyUpdateProductQuantity - Total price recalculated successfully: Total: $1,000.00
+2025-03-19 06:52:12 [main] INFO  TC-068_verifyUpdateProductQuantity - Clicked quantity up button: 1 times
+2025-03-19 06:52:17 [main] INFO  TC-068_verifyUpdateProductQuantity - Clicked quantity up button: 2 times
+2025-03-19 06:52:20 [main] INFO  TC-068_verifyUpdateProductQuantity - Clicked quantity up button: 3 times
+2025-03-19 06:52:24 [main] INFO  TC-068_verifyUpdateProductQuantity - Clicked quantity down button once
+2025-03-19 06:52:24 [main] INFO  TC-068_verifyUpdateProductQuantity - Final quantity in cart: 4
+2025-03-19 06:52:24 [main] INFO  listeners.TestListener - ✅ Test PASSED: verifyUpdateProductQuantity (Duration: 22356ms)
+2025-03-19 06:52:24 [main] INFO  TC-068_verifyUpdateProductQuantity - Closing the browser for test: verifyUpdateProductQuantity
+2025-03-19 06:52:25 [main] INFO  TC-068_verifyUpdateProductQuantity - Browser closed.
+2025-03-19 06:52:25 [main] INFO  listeners.TestListener - 🏁 Finished Test Suite: Surefire test
+2025-03-19 07:01:25 [main] INFO  TC-068_verifyUpdateProductQuantity - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-03-19 07:01:25 [main] INFO  TC-068_verifyUpdateProductQuantity - Logger initialized
+2025-03-19 07:01:25 [main] INFO  TC-068_verifyUpdateProductQuantity - Starting test setup for: verifyUpdateProductQuantity (🔢 Test Case ID: TC-068)
+2025-03-19 07:01:48 [main] INFO  TC-068_verifyUpdateProductQuantity - Navigated to the site: https://demo.nopcommerce.com
+2025-03-19 07:01:48 [main] INFO  TC-068_verifyUpdateProductQuantity - Injected cookie: _ga
+2025-03-19 07:01:48 [main] INFO  TC-068_verifyUpdateProductQuantity - Injected cookie: cf_clearance
+2025-03-19 07:01:48 [main] INFO  TC-068_verifyUpdateProductQuantity - Injected cookie: .Nop.Antiforgery
+2025-03-19 07:01:48 [main] INFO  TC-068_verifyUpdateProductQuantity - Injected cookie: .Nop.Customer
+2025-03-19 07:01:48 [main] INFO  TC-068_verifyUpdateProductQuantity - Injected cookie: .Nop.Culture
+2025-03-19 07:01:48 [main] INFO  TC-068_verifyUpdateProductQuantity - Injected cookie: _ga_SCT41TW89V
+2025-03-19 07:01:49 [main] INFO  TC-068_verifyUpdateProductQuantity - Page refreshed with bypassed cookies.
+2025-03-19 07:01:49 [main] INFO  TC-068_verifyUpdateProductQuantity - 🟢 Starting test: verifyUpdateProductQuantity (🔢 Test Case ID: TC-068)
+2025-03-19 07:01:51 [main] INFO  TC-068_verifyUpdateProductQuantity - Navigating to product page: https://demo.nopcommerce.com/lenovo-ideacentre
+2025-03-19 07:01:54 [main] INFO  TC-068_verifyUpdateProductQuantity - Clicked 'Add to Cart' button for product: Lenovo IdeaCentre
+2025-03-19 07:01:55 [main] INFO  TC-068_verifyUpdateProductQuantity - Lenovo IdeaCentre successfully added to cart.
+2025-03-19 07:01:57 [main] INFO  TC-068_verifyUpdateProductQuantity - Navigating to cart page.
+2025-03-19 07:01:59 [main] INFO  TC-068_verifyUpdateProductQuantity - Updated quantity to: 2
+2025-03-19 07:01:59 [main] INFO  TC-068_verifyUpdateProductQuantity - Total price recalculated successfully: Total: $1,000.00
+2025-03-19 07:02:02 [main] INFO  TC-068_verifyUpdateProductQuantity - Clicked quantity up button: 1 times
+2025-03-19 07:02:04 [main] INFO  TC-068_verifyUpdateProductQuantity - Clicked quantity up button: 2 times
+2025-03-19 07:02:06 [main] INFO  TC-068_verifyUpdateProductQuantity - Clicked quantity up button: 3 times
+2025-03-19 07:02:10 [main] INFO  TC-068_verifyUpdateProductQuantity - Clicked quantity down button once
+2025-03-19 07:02:10 [main] INFO  TC-068_verifyUpdateProductQuantity - Final quantity in cart: 4
+2025-03-19 07:02:10 [main] INFO  listeners.TestListener - ✅ Test PASSED: verifyUpdateProductQuantity (Duration: 20838ms)
+2025-03-19 07:02:10 [main] INFO  TC-068_verifyUpdateProductQuantity - Closing the browser for test: verifyUpdateProductQuantity
+2025-03-19 07:02:10 [main] INFO  TC-068_verifyUpdateProductQuantity - Browser closed.
+2025-03-19 07:02:10 [main] INFO  listeners.TestListener - 🏁 Finished Test Suite: Surefire test
+2025-03-22 23:35:11 [main] INFO  TC-068_verifyUpdateProductQuantity - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-03-22 23:35:11 [main] INFO  TC-068_verifyUpdateProductQuantity - Logger initialized
+2025-03-22 23:35:11 [main] INFO  TC-068_verifyUpdateProductQuantity - Starting test setup for: verifyUpdateProductQuantity (🔢 Test Case ID: TC-068)
+2025-03-22 23:35:36 [main] INFO  TC-068_verifyUpdateProductQuantity - Navigated to the site: https://demo.nopcommerce.com
+2025-03-22 23:35:36 [main] INFO  TC-068_verifyUpdateProductQuantity - Injected cookie: _ga
+2025-03-22 23:35:36 [main] INFO  TC-068_verifyUpdateProductQuantity - Injected cookie: cf_clearance
+2025-03-22 23:35:36 [main] INFO  TC-068_verifyUpdateProductQuantity - Injected cookie: .Nop.Antiforgery
+2025-03-22 23:35:36 [main] INFO  TC-068_verifyUpdateProductQuantity - Injected cookie: .Nop.Customer
+2025-03-22 23:35:36 [main] INFO  TC-068_verifyUpdateProductQuantity - Injected cookie: .Nop.Culture
+2025-03-22 23:35:36 [main] INFO  TC-068_verifyUpdateProductQuantity - Injected cookie: _ga_SCT41TW89V
+2025-03-22 23:35:37 [main] INFO  TC-068_verifyUpdateProductQuantity - Page refreshed with bypassed cookies.
+2025-03-22 23:35:39 [main] INFO  utils.MainFunctionalities - Navigating to product page: https://demo.nopcommerce.com/lenovo-ideacentre
+2025-03-22 23:35:42 [main] INFO  utils.MainFunctionalities - Clicked 'Add to Cart' button with ID: add-to-cart-button-3
+2025-03-22 23:35:43 [main] INFO  utils.MainFunctionalities - Product successfully added to cart.
+2025-03-22 23:35:44 [main] INFO  TC-068_verifyUpdateProductQuantity - Navigating to cart page.
+2025-03-22 23:35:48 [main] INFO  TC-068_verifyUpdateProductQuantity - Updated quantity to: 2
+2025-03-22 23:35:48 [main] INFO  TC-068_verifyUpdateProductQuantity - Total price recalculated successfully: Total: $1,000.00
+2025-03-22 23:35:52 [main] INFO  TC-068_verifyUpdateProductQuantity - Clicked quantity up button: 1 times
+2025-03-22 23:35:53 [main] INFO  TC-068_verifyUpdateProductQuantity - Clicked quantity up button: 2 times
+2025-03-22 23:35:57 [main] INFO  TC-068_verifyUpdateProductQuantity - Clicked quantity up button: 3 times
+2025-03-22 23:36:03 [main] INFO  TC-068_verifyUpdateProductQuantity - Clicked quantity down button once
+2025-03-22 23:36:03 [main] INFO  TC-068_verifyUpdateProductQuantity - Final quantity in cart: 4
+2025-03-22 23:36:03 [main] INFO  TC-068_verifyUpdateProductQuantity - Closing the browser for test: verifyUpdateProductQuantity
+2025-03-22 23:36:03 [main] INFO  TC-068_verifyUpdateProductQuantity - Browser closed.
+2025-03-23 00:19:08 [main] INFO  TC-068_verifyUpdateProductQuantity - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-03-23 00:19:08 [main] INFO  TC-068_verifyUpdateProductQuantity - Logger initialized
+2025-03-23 00:19:08 [main] INFO  TC-068_verifyUpdateProductQuantity - Starting test setup for: verifyUpdateProductQuantity (🔢 Test Case ID: TC-068)
+2025-03-23 00:19:37 [main] INFO  TC-068_verifyUpdateProductQuantity - Navigated to the site: https://demo.nopcommerce.com
+2025-03-23 00:19:37 [main] INFO  TC-068_verifyUpdateProductQuantity - Injected cookie: _ga
+2025-03-23 00:19:37 [main] INFO  TC-068_verifyUpdateProductQuantity - Injected cookie: cf_clearance
+2025-03-23 00:19:37 [main] INFO  TC-068_verifyUpdateProductQuantity - Injected cookie: .Nop.Antiforgery
+2025-03-23 00:19:37 [main] INFO  TC-068_verifyUpdateProductQuantity - Injected cookie: .Nop.Customer
+2025-03-23 00:19:37 [main] INFO  TC-068_verifyUpdateProductQuantity - Injected cookie: .Nop.Culture
+2025-03-23 00:19:37 [main] INFO  TC-068_verifyUpdateProductQuantity - Injected cookie: _ga_SCT41TW89V
+2025-03-23 00:19:38 [main] INFO  TC-068_verifyUpdateProductQuantity - Page refreshed with bypassed cookies.
+2025-03-23 00:19:41 [main] INFO  utils.MainFunctionalities - Navigating to product page: https://demo.nopcommerce.com/lenovo-ideacentre
+2025-03-23 00:19:43 [main] INFO  utils.MainFunctionalities - Clicked 'Add to Cart' button with ID: add-to-cart-button-3
+2025-03-23 00:19:44 [main] INFO  utils.MainFunctionalities - Product successfully added to cart.
+2025-03-23 00:19:46 [main] INFO  TC-068_verifyUpdateProductQuantity - Navigating to cart page.
+2025-03-23 00:19:47 [main] INFO  TC-068_verifyUpdateProductQuantity - Closing the browser for test: verifyUpdateProductQuantity
+2025-03-23 00:19:47 [main] INFO  TC-068_verifyUpdateProductQuantity - Browser closed.
+2025-03-23 00:20:01 [main] INFO  TC-068_verifyUpdateProductQuantity - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-03-23 00:20:01 [main] INFO  TC-068_verifyUpdateProductQuantity - Logger initialized
+2025-03-23 00:20:01 [main] INFO  TC-068_verifyUpdateProductQuantity - Starting test setup for: verifyUpdateProductQuantity (🔢 Test Case ID: TC-068)
+2025-03-23 00:20:31 [main] INFO  TC-068_verifyUpdateProductQuantity - Navigated to the site: https://demo.nopcommerce.com
+2025-03-23 00:20:31 [main] INFO  TC-068_verifyUpdateProductQuantity - Injected cookie: _ga
+2025-03-23 00:20:31 [main] INFO  TC-068_verifyUpdateProductQuantity - Injected cookie: cf_clearance
+2025-03-23 00:20:31 [main] INFO  TC-068_verifyUpdateProductQuantity - Injected cookie: .Nop.Antiforgery
+2025-03-23 00:20:31 [main] INFO  TC-068_verifyUpdateProductQuantity - Injected cookie: .Nop.Customer
+2025-03-23 00:20:31 [main] INFO  TC-068_verifyUpdateProductQuantity - Injected cookie: .Nop.Culture
+2025-03-23 00:20:31 [main] INFO  TC-068_verifyUpdateProductQuantity - Injected cookie: _ga_SCT41TW89V
+2025-03-23 00:20:32 [main] INFO  TC-068_verifyUpdateProductQuantity - Page refreshed with bypassed cookies.
+2025-03-23 00:20:34 [main] INFO  utils.MainFunctionalities - Navigating to product page: https://demo.nopcommerce.com/lenovo-ideacentre
+2025-03-23 00:20:36 [main] INFO  utils.MainFunctionalities - Clicked 'Add to Cart' button with ID: add-to-cart-button-3
+2025-03-23 00:20:37 [main] INFO  utils.MainFunctionalities - Product successfully added to cart.
+2025-03-23 00:20:39 [main] INFO  TC-068_verifyUpdateProductQuantity - Navigating to cart page.
+2025-03-23 00:20:43 [main] INFO  TC-068_verifyUpdateProductQuantity - Updated quantity to: 2
+2025-03-23 00:20:43 [main] INFO  TC-068_verifyUpdateProductQuantity - Total price recalculated successfully: Total: $1,000.00
+2025-03-23 00:20:46 [main] INFO  TC-068_verifyUpdateProductQuantity - Clicked quantity up button: 1 times
+2025-03-23 00:20:50 [main] INFO  TC-068_verifyUpdateProductQuantity - Clicked quantity up button: 2 times
+2025-03-23 00:20:54 [main] INFO  TC-068_verifyUpdateProductQuantity - Clicked quantity up button: 3 times
+2025-03-23 00:20:59 [main] INFO  TC-068_verifyUpdateProductQuantity - Clicked quantity down button once
+2025-03-23 00:20:59 [main] INFO  TC-068_verifyUpdateProductQuantity - Final quantity in cart: 4
+2025-03-23 00:20:59 [main] INFO  TC-068_verifyUpdateProductQuantity - Closing the browser for test: verifyUpdateProductQuantity
+2025-03-23 00:20:59 [main] INFO  TC-068_verifyUpdateProductQuantity - Browser closed.
+2025-03-23 00:22:45 [main] INFO  TC-068_verifyUpdateProductQuantity - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-03-23 00:22:45 [main] INFO  TC-068_verifyUpdateProductQuantity - Logger initialized
+2025-03-23 00:22:45 [main] INFO  TC-068_verifyUpdateProductQuantity - Starting test setup for: verifyUpdateProductQuantity (🔢 Test Case ID: TC-068)
+2025-03-23 00:23:13 [main] INFO  TC-068_verifyUpdateProductQuantity - Navigated to the site: https://demo.nopcommerce.com
+2025-03-23 00:23:13 [main] INFO  TC-068_verifyUpdateProductQuantity - Injected cookie: _ga
+2025-03-23 00:23:13 [main] INFO  TC-068_verifyUpdateProductQuantity - Injected cookie: cf_clearance
+2025-03-23 00:23:13 [main] INFO  TC-068_verifyUpdateProductQuantity - Injected cookie: .Nop.Antiforgery
+2025-03-23 00:23:13 [main] INFO  TC-068_verifyUpdateProductQuantity - Injected cookie: .Nop.Customer
+2025-03-23 00:23:13 [main] INFO  TC-068_verifyUpdateProductQuantity - Injected cookie: .Nop.Culture
+2025-03-23 00:23:13 [main] INFO  TC-068_verifyUpdateProductQuantity - Injected cookie: _ga_SCT41TW89V
+2025-03-23 00:23:14 [main] INFO  TC-068_verifyUpdateProductQuantity - Page refreshed with bypassed cookies.
+2025-03-23 00:23:17 [main] INFO  utils.MainFunctionalities - Navigating to product page: https://demo.nopcommerce.com/lenovo-ideacentre
+2025-03-23 00:23:19 [main] INFO  utils.MainFunctionalities - Clicked 'Add to Cart' button with ID: add-to-cart-button-3
+2025-03-23 00:23:19 [main] INFO  utils.MainFunctionalities - Product successfully added to cart.
+2025-03-23 00:23:21 [main] INFO  TC-068_verifyUpdateProductQuantity - Navigating to cart page.
+2025-03-23 00:23:25 [main] INFO  TC-068_verifyUpdateProductQuantity - Updated quantity to: 2
+2025-03-23 00:23:25 [main] INFO  TC-068_verifyUpdateProductQuantity - Total price recalculated successfully: Total: $1,000.00
+2025-03-23 00:23:29 [main] INFO  TC-068_verifyUpdateProductQuantity - Clicked quantity up button: 1 times
+2025-03-23 00:23:32 [main] INFO  TC-068_verifyUpdateProductQuantity - Clicked quantity up button: 2 times
+2025-03-23 00:23:36 [main] INFO  TC-068_verifyUpdateProductQuantity - Clicked quantity up button: 3 times
+2025-03-23 00:23:42 [main] INFO  TC-068_verifyUpdateProductQuantity - Clicked quantity down button once
+2025-03-23 00:23:42 [main] INFO  TC-068_verifyUpdateProductQuantity - Final quantity in cart: 4
+2025-03-23 00:23:42 [main] INFO  TC-068_verifyUpdateProductQuantity - Closing the browser for test: verifyUpdateProductQuantity
+2025-03-23 00:23:42 [main] INFO  TC-068_verifyUpdateProductQuantity - Browser closed.
+2025-03-23 00:30:53 [main] INFO  TC-068_verifyUpdateProductQuantity - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-03-23 00:30:53 [main] INFO  TC-068_verifyUpdateProductQuantity - Logger initialized
+2025-03-23 00:30:53 [main] INFO  TC-068_verifyUpdateProductQuantity - Starting test setup for: verifyUpdateProductQuantity (🔢 Test Case ID: TC-068)
+2025-03-23 00:31:10 [main] INFO  TC-068_verifyUpdateProductQuantity - Navigated to the site: https://demo.nopcommerce.com
+2025-03-23 00:31:10 [main] INFO  TC-068_verifyUpdateProductQuantity - Injected cookie: _ga
+2025-03-23 00:31:10 [main] INFO  TC-068_verifyUpdateProductQuantity - Injected cookie: cf_clearance
+2025-03-23 00:31:10 [main] INFO  TC-068_verifyUpdateProductQuantity - Injected cookie: .Nop.Antiforgery
+2025-03-23 00:31:10 [main] INFO  TC-068_verifyUpdateProductQuantity - Injected cookie: .Nop.Customer
+2025-03-23 00:31:10 [main] INFO  TC-068_verifyUpdateProductQuantity - Injected cookie: .Nop.Culture
+2025-03-23 00:31:10 [main] INFO  TC-068_verifyUpdateProductQuantity - Injected cookie: _ga_SCT41TW89V
+2025-03-23 00:31:10 [main] INFO  TC-068_verifyUpdateProductQuantity - Page refreshed with bypassed cookies.
+2025-03-23 00:31:10 [main] INFO  TC-068_verifyUpdateProductQuantity - 🟢 Starting test: verifyUpdateProductQuantity (🔢 Test Case ID: TC-068)
+2025-03-23 00:31:11 [main] INFO  utils.MainFunctionalities - Navigating to product page: https://demo.nopcommerce.com/lenovo-ideacentre
+2025-03-23 00:31:12 [main] INFO  utils.MainFunctionalities - Clicked 'Add to Cart' button with ID: add-to-cart-button-3
+2025-03-23 00:31:13 [main] INFO  utils.MainFunctionalities - Product successfully added to cart.
+2025-03-23 00:31:14 [main] INFO  TC-068_verifyUpdateProductQuantity - Navigating to cart page.
+2025-03-23 00:31:17 [main] INFO  TC-068_verifyUpdateProductQuantity - Updated quantity to: 2
+2025-03-23 00:31:17 [main] INFO  TC-068_verifyUpdateProductQuantity - Total price recalculated successfully: Total: $1,000.00
+2025-03-23 00:31:19 [main] INFO  TC-068_verifyUpdateProductQuantity - Clicked quantity up button: 1 times
+2025-03-23 00:31:22 [main] INFO  TC-068_verifyUpdateProductQuantity - Clicked quantity up button: 2 times
+2025-03-23 00:31:25 [main] INFO  TC-068_verifyUpdateProductQuantity - Clicked quantity up button: 3 times
+2025-03-23 00:31:29 [main] INFO  TC-068_verifyUpdateProductQuantity - Clicked quantity down button once
+2025-03-23 00:31:29 [main] INFO  TC-068_verifyUpdateProductQuantity - Final quantity in cart: 4
+2025-03-23 00:31:29 [main] INFO  listeners.TestListener - ✅ Test PASSED: verifyUpdateProductQuantity (Duration: 18472ms)
+2025-03-23 00:31:29 [main] INFO  TC-068_verifyUpdateProductQuantity - Closing the browser for test: verifyUpdateProductQuantity
+2025-03-23 00:31:29 [main] INFO  TC-068_verifyUpdateProductQuantity - Browser closed.
+2025-03-23 01:22:11 [main] INFO  TC-068_verifyUpdateProductQuantity - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-03-23 01:22:11 [main] INFO  TC-068_verifyUpdateProductQuantity - Logger initialized
+2025-03-23 01:22:11 [main] INFO  TC-068_verifyUpdateProductQuantity - Starting test setup for: verifyUpdateProductQuantity (🔢 Test Case ID: TC-068)
+2025-03-23 01:22:28 [main] INFO  TC-068_verifyUpdateProductQuantity - Navigated to the site: https://demo.nopcommerce.com
+2025-03-23 01:22:28 [main] INFO  TC-068_verifyUpdateProductQuantity - Injected cookie: cf_clearance
+2025-03-23 01:22:28 [main] INFO  TC-068_verifyUpdateProductQuantity - Injected cookie: _ga
+2025-03-23 01:22:28 [main] INFO  TC-068_verifyUpdateProductQuantity - Injected cookie: .Nop.Antiforgery
+2025-03-23 01:22:28 [main] INFO  TC-068_verifyUpdateProductQuantity - Injected cookie: .Nop.Customer
+2025-03-23 01:22:28 [main] INFO  TC-068_verifyUpdateProductQuantity - Injected cookie: .Nop.Culture
+2025-03-23 01:22:28 [main] INFO  TC-068_verifyUpdateProductQuantity - Injected cookie: _ga_SCT41TW89V
+2025-03-23 01:22:29 [main] INFO  TC-068_verifyUpdateProductQuantity - Page refreshed with bypassed cookies.
+2025-03-23 01:22:29 [main] INFO  TC-068_verifyUpdateProductQuantity - 🟢 Starting test: verifyUpdateProductQuantity (🔢 Test Case ID: TC-068)
+2025-03-23 01:22:30 [main] INFO  utils.MainFunctionalities - Navigating to product page: https://demo.nopcommerce.com/lenovo-ideacentre
+2025-03-23 01:22:32 [main] INFO  utils.MainFunctionalities - Clicked 'Add to Cart' button with ID: add-to-cart-button-3
+2025-03-23 01:22:33 [main] INFO  utils.MainFunctionalities - Product successfully added to cart.
+2025-03-23 01:22:34 [main] INFO  TC-068_verifyUpdateProductQuantity - Navigating to cart page.
+2025-03-23 01:22:37 [main] INFO  TC-068_verifyUpdateProductQuantity - Updated quantity to: 2
+2025-03-23 01:22:37 [main] INFO  TC-068_verifyUpdateProductQuantity - Total price recalculated successfully: Total: $1,000.00
+2025-03-23 01:22:39 [main] INFO  TC-068_verifyUpdateProductQuantity - Clicked quantity up button: 1 times
+2025-03-23 01:22:42 [main] INFO  TC-068_verifyUpdateProductQuantity - Clicked quantity up button: 2 times
+2025-03-23 01:22:45 [main] INFO  TC-068_verifyUpdateProductQuantity - Clicked quantity up button: 3 times
+2025-03-23 01:22:50 [main] INFO  TC-068_verifyUpdateProductQuantity - Clicked quantity down button once
+2025-03-23 01:22:50 [main] INFO  TC-068_verifyUpdateProductQuantity - Final quantity in cart: 4
+2025-03-23 01:22:50 [main] INFO  listeners.TestListener - ✅ Test PASSED: verifyUpdateProductQuantity (Duration: 21537ms)
+2025-03-23 01:22:51 [main] INFO  TC-068_verifyUpdateProductQuantity - Closing the browser for test: verifyUpdateProductQuantity
+2025-03-23 01:22:51 [main] INFO  TC-068_verifyUpdateProductQuantity - Browser closed.

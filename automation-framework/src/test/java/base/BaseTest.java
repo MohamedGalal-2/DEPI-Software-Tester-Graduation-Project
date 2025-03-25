@@ -1,5 +1,6 @@
 package base;
 
+import utils.MainFunctionalities;
 import utils.SeleniumHelper;
 
 import org.json.JSONArray;
@@ -29,7 +30,7 @@ import java.util.Map;
 public class BaseTest {
     private static ThreadLocal<WebDriver> driverThreadLocal = new ThreadLocal<>();
     protected WebDriver driver;
-    protected Logger logger;
+    protected Logger logger = LogManager.getLogger(this.getClass()); // Initialize logger in constructor
 
     @BeforeMethod
     public void setUp(ITestResult result, ITestContext context) {

@@ -1,0 +1,605 @@
+2025-03-19 07:22:49 [main] INFO  TC-073_testCheckoutProcessAsUser - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-03-19 07:22:49 [main] INFO  TC-073_testCheckoutProcessAsUser - Logger initialized
+2025-03-19 07:22:49 [main] INFO  TC-073_testCheckoutProcessAsUser - Starting test setup for: testCheckoutProcessAsUser (🔢 Test Case ID: TC-073)
+2025-03-19 07:23:13 [main] INFO  TC-073_testCheckoutProcessAsUser - Navigated to the site: https://demo.nopcommerce.com
+2025-03-19 07:23:13 [main] INFO  TC-073_testCheckoutProcessAsUser - Injected cookie: _ga
+2025-03-19 07:23:13 [main] INFO  TC-073_testCheckoutProcessAsUser - Injected cookie: cf_clearance
+2025-03-19 07:23:13 [main] INFO  TC-073_testCheckoutProcessAsUser - Injected cookie: .Nop.Antiforgery
+2025-03-19 07:23:13 [main] INFO  TC-073_testCheckoutProcessAsUser - Injected cookie: .Nop.Customer
+2025-03-19 07:23:13 [main] INFO  TC-073_testCheckoutProcessAsUser - Injected cookie: .Nop.Culture
+2025-03-19 07:23:13 [main] INFO  TC-073_testCheckoutProcessAsUser - Injected cookie: _ga_SCT41TW89V
+2025-03-19 07:23:13 [main] INFO  TC-073_testCheckoutProcessAsUser - Page refreshed with bypassed cookies.
+2025-03-19 07:23:13 [main] INFO  TC-073_testCheckoutProcessAsUser - 🟢 Starting test: testCheckoutProcessAsUser (🔢 Test Case ID: TC-073)
+2025-03-19 07:23:15 [main] INFO  TC-073_testCheckoutProcessAsUser - Navigating to login page: https://demo.nopcommerce.com/login
+2025-03-19 07:23:18 [main] INFO  TC-073_testCheckoutProcessAsUser - User logged in successfully.
+2025-03-19 07:23:20 [main] INFO  TC-073_testCheckoutProcessAsUser - Login verified, proceeding with checkout process.
+2025-03-19 07:23:23 [main] INFO  TC-073_testCheckoutProcessAsUser - Navigating to product page: https://demo.nopcommerce.com/adobe-photoshop
+2025-03-19 07:23:25 [main] INFO  TC-073_testCheckoutProcessAsUser - Clicked 'Add to Cart' button.
+2025-03-19 07:23:27 [main] INFO  TC-073_testCheckoutProcessAsUser - Product successfully added to cart.
+2025-03-19 07:23:29 [main] INFO  TC-073_testCheckoutProcessAsUser - Cart quantity updated to: 1
+2025-03-19 07:23:32 [main] INFO  TC-073_testCheckoutProcessAsUser - Cart page loaded successfully.
+2025-03-19 07:23:34 [main] INFO  TC-073_testCheckoutProcessAsUser - Accepted terms of service.
+2025-03-19 07:23:36 [main] INFO  TC-073_testCheckoutProcessAsUser - Checkout page loaded successfully.
+2025-03-19 07:23:40 [main] ERROR listeners.TestListener - ❌ Test FAILED: testCheckoutProcessAsUser
+org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : City is required, Street address is required, Phone is required, Zip / postal code is required, State / province is required.}
+  (Session info: chrome=134.0.6998.89): City is required, Street address is required, Phone is required, Zip / postal code is required, State / province is required.
+Build info: version: '4.29.0', revision: '5fc1ec94cb'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [45e7ec50e8e42d124819abf9aad9f5a8, findElement {using=id, value=shippingoption_1}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.89, chrome: {chromedriverVersion: 134.0.6998.88 (7e3d5c978c6d..., userDataDir: C:\Users\MOHAME~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63207}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63207/devtoo..., se:cdpVersion: 134.0.6998.89, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 45e7ec50e8e42d124819abf9aad9f5a8
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:136) ~[selenium-remote-driver-4.29.0.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50) ~[selenium-remote-driver-4.29.0.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215) ~[selenium-remote-driver-4.29.0.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216) ~[selenium-remote-driver-4.29.0.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174) ~[selenium-remote-driver-4.29.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545) ~[selenium-remote-driver-4.29.0.jar:?]
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165) ~[selenium-remote-driver-4.29.0.jar:?]
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59) ~[selenium-remote-driver-4.29.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368) ~[selenium-remote-driver-4.29.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362) ~[selenium-remote-driver-4.29.0.jar:?]
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:194) ~[selenium-support-4.29.0.jar:?]
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:190) ~[selenium-support-4.29.0.jar:?]
+	at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:627) ~[selenium-support-4.29.0.jar:?]
+	at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:624) ~[selenium-support-4.29.0.jar:?]
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203) ~[selenium-support-4.29.0.jar:?]
+	at tests.ui.CheckoutTest.testCheckoutProcessAsUser(CheckoutTest.java:278) ~[test-classes/:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) ~[testng-7.11.0.jar:7.11.0]
+	at java.util.ArrayList.forEach(ArrayList.java:1597) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:741) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestRunner.run(TestRunner.java:616) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuites(TestNG.java:1112) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.run(TestNG.java:1079) [testng-7.11.0.jar:7.11.0]
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155) [surefire-testng-3.5.2.jar:3.5.2]
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeSingleClass(TestNGDirectoryTestSuite.java:102) [surefire-testng-3.5.2.jar:3.5.2]
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:91) [surefire-testng-3.5.2.jar:3.5.2]
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137) [surefire-testng-3.5.2.jar:3.5.2]
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385) [surefire-booter-3.5.2.jar:3.5.2]
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162) [surefire-booter-3.5.2.jar:3.5.2]
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507) [surefire-booter-3.5.2.jar:3.5.2]
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495) [surefire-booter-3.5.2.jar:3.5.2]
+2025-03-19 07:23:40 [main] INFO  TC-073_testCheckoutProcessAsUser - Closing the browser for test: testCheckoutProcessAsUser
+2025-03-19 07:23:40 [main] INFO  TC-073_testCheckoutProcessAsUser - Browser closed.
+2025-03-19 07:27:53 [main] INFO  TC-073_testCheckoutProcessAsUser - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-03-19 07:27:53 [main] INFO  TC-073_testCheckoutProcessAsUser - Logger initialized
+2025-03-19 07:27:53 [main] INFO  TC-073_testCheckoutProcessAsUser - Starting test setup for: testCheckoutProcessAsUser (🔢 Test Case ID: TC-073)
+2025-03-19 07:28:10 [main] INFO  TC-073_testCheckoutProcessAsUser - Navigated to the site: https://demo.nopcommerce.com
+2025-03-19 07:28:10 [main] INFO  TC-073_testCheckoutProcessAsUser - Injected cookie: _ga
+2025-03-19 07:28:10 [main] INFO  TC-073_testCheckoutProcessAsUser - Injected cookie: cf_clearance
+2025-03-19 07:28:10 [main] INFO  TC-073_testCheckoutProcessAsUser - Injected cookie: .Nop.Antiforgery
+2025-03-19 07:28:10 [main] INFO  TC-073_testCheckoutProcessAsUser - Injected cookie: .Nop.Customer
+2025-03-19 07:28:10 [main] INFO  TC-073_testCheckoutProcessAsUser - Injected cookie: .Nop.Culture
+2025-03-19 07:28:10 [main] INFO  TC-073_testCheckoutProcessAsUser - Injected cookie: _ga_SCT41TW89V
+2025-03-19 07:28:11 [main] INFO  TC-073_testCheckoutProcessAsUser - Page refreshed with bypassed cookies.
+2025-03-19 07:28:11 [main] INFO  TC-073_testCheckoutProcessAsUser - 🟢 Starting test: testCheckoutProcessAsUser (🔢 Test Case ID: TC-073)
+2025-03-19 07:28:11 [main] INFO  TC-073_testCheckoutProcessAsUser - Navigating to login page: https://demo.nopcommerce.com/login
+2025-03-19 07:28:15 [main] INFO  TC-073_testCheckoutProcessAsUser - User logged in successfully.
+2025-03-19 07:28:16 [main] INFO  TC-073_testCheckoutProcessAsUser - Login verified, proceeding with checkout process.
+2025-03-19 07:28:17 [main] INFO  TC-073_testCheckoutProcessAsUser - Navigating to product page: https://demo.nopcommerce.com/adobe-photoshop
+2025-03-19 07:28:19 [main] INFO  TC-073_testCheckoutProcessAsUser - Clicked 'Add to Cart' button.
+2025-03-19 07:28:21 [main] INFO  TC-073_testCheckoutProcessAsUser - Product successfully added to cart.
+2025-03-19 07:28:24 [main] INFO  TC-073_testCheckoutProcessAsUser - Cart quantity updated to: 2
+2025-03-19 07:28:29 [main] INFO  TC-073_testCheckoutProcessAsUser - Cart page loaded successfully.
+2025-03-19 07:28:32 [main] INFO  TC-073_testCheckoutProcessAsUser - Accepted terms of service.
+2025-03-19 07:28:33 [main] INFO  TC-073_testCheckoutProcessAsUser - Checkout page loaded successfully.
+2025-03-19 07:28:38 [main] ERROR listeners.TestListener - ❌ Test FAILED: testCheckoutProcessAsUser
+org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : City is required, Street address is required, Phone is required, Zip / postal code is required, State / province is required.}
+  (Session info: chrome=134.0.6998.89): City is required, Street address is required, Phone is required, Zip / postal code is required, State / province is required.
+Build info: version: '4.29.0', revision: '5fc1ec94cb'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c21d85f551637a86a10b0e746ade562f, findElement {value=shippingoption_1, using=id}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.89, chrome: {chromedriverVersion: 134.0.6998.88 (7e3d5c978c6d..., userDataDir: C:\Users\MOHAME~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65274}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65274/devtoo..., se:cdpVersion: 134.0.6998.89, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c21d85f551637a86a10b0e746ade562f
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:136) ~[selenium-remote-driver-4.29.0.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50) ~[selenium-remote-driver-4.29.0.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215) ~[selenium-remote-driver-4.29.0.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216) ~[selenium-remote-driver-4.29.0.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174) ~[selenium-remote-driver-4.29.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545) ~[selenium-remote-driver-4.29.0.jar:?]
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165) ~[selenium-remote-driver-4.29.0.jar:?]
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59) ~[selenium-remote-driver-4.29.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368) ~[selenium-remote-driver-4.29.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362) ~[selenium-remote-driver-4.29.0.jar:?]
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:194) ~[selenium-support-4.29.0.jar:?]
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:190) ~[selenium-support-4.29.0.jar:?]
+	at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:627) ~[selenium-support-4.29.0.jar:?]
+	at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:624) ~[selenium-support-4.29.0.jar:?]
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203) ~[selenium-support-4.29.0.jar:?]
+	at tests.ui.CheckoutTest.testCheckoutProcessAsUser(CheckoutTest.java:278) ~[test-classes/:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) ~[testng-7.11.0.jar:7.11.0]
+	at java.util.ArrayList.forEach(ArrayList.java:1597) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:741) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestRunner.run(TestRunner.java:616) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuites(TestNG.java:1112) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.run(TestNG.java:1079) [testng-7.11.0.jar:7.11.0]
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155) [surefire-testng-3.5.2.jar:3.5.2]
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeSingleClass(TestNGDirectoryTestSuite.java:102) [surefire-testng-3.5.2.jar:3.5.2]
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:91) [surefire-testng-3.5.2.jar:3.5.2]
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137) [surefire-testng-3.5.2.jar:3.5.2]
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385) [surefire-booter-3.5.2.jar:3.5.2]
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162) [surefire-booter-3.5.2.jar:3.5.2]
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507) [surefire-booter-3.5.2.jar:3.5.2]
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495) [surefire-booter-3.5.2.jar:3.5.2]
+2025-03-19 07:28:38 [main] INFO  TC-073_testCheckoutProcessAsUser - Closing the browser for test: testCheckoutProcessAsUser
+2025-03-19 07:28:39 [main] INFO  TC-073_testCheckoutProcessAsUser - Browser closed.
+2025-03-19 07:33:15 [main] INFO  TC-073_testCheckoutProcessAsUser - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-03-19 07:33:15 [main] INFO  TC-073_testCheckoutProcessAsUser - Logger initialized
+2025-03-19 07:33:15 [main] INFO  TC-073_testCheckoutProcessAsUser - Starting test setup for: testCheckoutProcessAsUser (🔢 Test Case ID: TC-073)
+2025-03-19 07:33:33 [main] INFO  TC-073_testCheckoutProcessAsUser - Navigated to the site: https://demo.nopcommerce.com
+2025-03-19 07:33:33 [main] INFO  TC-073_testCheckoutProcessAsUser - Injected cookie: cf_clearance
+2025-03-19 07:33:33 [main] INFO  TC-073_testCheckoutProcessAsUser - Injected cookie: _ga
+2025-03-19 07:33:33 [main] INFO  TC-073_testCheckoutProcessAsUser - Injected cookie: .Nop.Antiforgery
+2025-03-19 07:33:33 [main] INFO  TC-073_testCheckoutProcessAsUser - Injected cookie: .Nop.Customer
+2025-03-19 07:33:33 [main] INFO  TC-073_testCheckoutProcessAsUser - Injected cookie: .Nop.Culture
+2025-03-19 07:33:33 [main] INFO  TC-073_testCheckoutProcessAsUser - Injected cookie: _ga_SCT41TW89V
+2025-03-19 07:33:34 [main] INFO  TC-073_testCheckoutProcessAsUser - Page refreshed with bypassed cookies.
+2025-03-19 07:33:34 [main] INFO  TC-073_testCheckoutProcessAsUser - 🟢 Starting test: testCheckoutProcessAsUser (🔢 Test Case ID: TC-073)
+2025-03-19 07:33:35 [main] INFO  TC-073_testCheckoutProcessAsUser - Navigating to login page: https://demo.nopcommerce.com/login
+2025-03-19 07:33:39 [main] INFO  TC-073_testCheckoutProcessAsUser - User logged in successfully.
+2025-03-19 07:33:40 [main] INFO  TC-073_testCheckoutProcessAsUser - Login verified, proceeding with checkout process.
+2025-03-19 07:33:41 [main] INFO  TC-073_testCheckoutProcessAsUser - Navigating to product page: https://demo.nopcommerce.com/adobe-photoshop
+2025-03-19 07:33:42 [main] INFO  TC-073_testCheckoutProcessAsUser - Clicked 'Add to Cart' button.
+2025-03-19 07:33:44 [main] INFO  TC-073_testCheckoutProcessAsUser - Product successfully added to cart.
+2025-03-19 07:33:46 [main] INFO  TC-073_testCheckoutProcessAsUser - Cart quantity updated to: 3
+2025-03-19 07:33:48 [main] INFO  TC-073_testCheckoutProcessAsUser - Cart page loaded successfully.
+2025-03-19 07:33:50 [main] INFO  TC-073_testCheckoutProcessAsUser - Accepted terms of service.
+2025-03-19 07:33:54 [main] INFO  TC-073_testCheckoutProcessAsUser - Checkout page loaded successfully.
+2025-03-19 07:34:00 [main] INFO  TC-073_testCheckoutProcessAsUser - Shipping method selected.
+2025-03-19 07:34:03 [main] INFO  TC-073_testCheckoutProcessAsUser - Payment method selected.
+2025-03-19 07:34:04 [main] INFO  TC-073_testCheckoutProcessAsUser - Payment details entered.
+2025-03-19 07:34:07 [main] INFO  TC-073_testCheckoutProcessAsUser - Order confirmed.
+2025-03-19 07:34:09 [main] INFO  TC-073_testCheckoutProcessAsUser - "TC-073" Passed: Order placed successfully!
+2025-03-19 07:34:09 [main] INFO  listeners.TestListener - ✅ Test PASSED: testCheckoutProcessAsUser (Duration: 34878ms)
+2025-03-19 07:34:09 [main] INFO  TC-073_testCheckoutProcessAsUser - Closing the browser for test: testCheckoutProcessAsUser
+2025-03-19 07:34:09 [main] INFO  TC-073_testCheckoutProcessAsUser - Browser closed.
+2025-03-19 07:46:39 [main] INFO  TC-073_testCheckoutProcessAsUser - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-03-19 07:46:39 [main] INFO  TC-073_testCheckoutProcessAsUser - Logger initialized
+2025-03-19 07:46:39 [main] INFO  TC-073_testCheckoutProcessAsUser - Starting test setup for: testCheckoutProcessAsUser (🔢 Test Case ID: TC-073)
+2025-03-22 14:48:38 [main] INFO  TC-073_testCheckoutProcessAsUser - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-03-22 14:48:38 [main] INFO  TC-073_testCheckoutProcessAsUser - Logger initialized
+2025-03-22 14:48:38 [main] INFO  TC-073_testCheckoutProcessAsUser - Starting test setup for: testCheckoutProcessAsUser (🔢 Test Case ID: TC-073)
+2025-03-22 14:48:56 [main] INFO  TC-073_testCheckoutProcessAsUser - Navigated to the site: https://demo.nopcommerce.com
+2025-03-22 14:48:56 [main] INFO  TC-073_testCheckoutProcessAsUser - Injected cookie: cf_clearance
+2025-03-22 14:48:56 [main] INFO  TC-073_testCheckoutProcessAsUser - Injected cookie: _ga
+2025-03-22 14:48:56 [main] INFO  TC-073_testCheckoutProcessAsUser - Injected cookie: .Nop.Antiforgery
+2025-03-22 14:48:56 [main] INFO  TC-073_testCheckoutProcessAsUser - Injected cookie: .Nop.Customer
+2025-03-22 14:48:56 [main] INFO  TC-073_testCheckoutProcessAsUser - Injected cookie: .Nop.Culture
+2025-03-22 14:48:56 [main] INFO  TC-073_testCheckoutProcessAsUser - Injected cookie: _ga_SCT41TW89V
+2025-03-22 14:48:56 [main] INFO  TC-073_testCheckoutProcessAsUser - Page refreshed with bypassed cookies.
+2025-03-22 14:48:56 [main] INFO  TC-073_testCheckoutProcessAsUser - 🟢 Starting test: testCheckoutProcessAsUser (🔢 Test Case ID: TC-073)
+2025-03-22 14:48:57 [main] INFO  TC-073_testCheckoutProcessAsUser - Navigating to login page: https://demo.nopcommerce.com/login
+2025-03-22 14:49:00 [main] INFO  TC-073_testCheckoutProcessAsUser - User logged in successfully.
+2025-03-22 14:49:03 [main] INFO  TC-073_testCheckoutProcessAsUser - Login verified, proceeding with checkout process.
+2025-03-22 14:49:04 [main] INFO  TC-073_testCheckoutProcessAsUser - Navigating to product page: https://demo.nopcommerce.com/adobe-photoshop
+2025-03-22 14:49:06 [main] INFO  TC-073_testCheckoutProcessAsUser - Clicked 'Add to Cart' button.
+2025-03-22 14:49:09 [main] INFO  TC-073_testCheckoutProcessAsUser - Product successfully added to cart.
+2025-03-22 14:49:11 [main] INFO  TC-073_testCheckoutProcessAsUser - Cart quantity updated to: 1
+2025-03-22 14:49:14 [main] INFO  TC-073_testCheckoutProcessAsUser - Cart page loaded successfully.
+2025-03-22 14:49:16 [main] INFO  TC-073_testCheckoutProcessAsUser - Accepted terms of service.
+2025-03-22 14:49:18 [main] INFO  TC-073_testCheckoutProcessAsUser - Checkout page loaded successfully.
+2025-03-22 14:49:23 [main] ERROR listeners.TestListener - ❌ Test FAILED: testCheckoutProcessAsUser
+org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : City is required, Street address is required, Phone is required, Zip / postal code is required, State / province is required.}
+  (Session info: chrome=134.0.6998.118): City is required, Street address is required, Phone is required, Zip / postal code is required, State / province is required.
+Build info: version: '4.29.0', revision: '5fc1ec94cb'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [297d18c2454c857c64983cd700f73f0f, findElement {using=id, value=shippingoption_1}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.118, chrome: {chromedriverVersion: 134.0.6998.165 (fd886e2cb29..., userDataDir: C:\Users\MOHAME~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64393}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64393/devtoo..., se:cdpVersion: 134.0.6998.118, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 297d18c2454c857c64983cd700f73f0f
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:136) ~[selenium-remote-driver-4.29.0.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50) ~[selenium-remote-driver-4.29.0.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215) ~[selenium-remote-driver-4.29.0.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216) ~[selenium-remote-driver-4.29.0.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174) ~[selenium-remote-driver-4.29.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545) ~[selenium-remote-driver-4.29.0.jar:?]
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165) ~[selenium-remote-driver-4.29.0.jar:?]
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59) ~[selenium-remote-driver-4.29.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368) ~[selenium-remote-driver-4.29.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362) ~[selenium-remote-driver-4.29.0.jar:?]
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:194) ~[selenium-support-4.29.0.jar:?]
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:190) ~[selenium-support-4.29.0.jar:?]
+	at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:627) ~[selenium-support-4.29.0.jar:?]
+	at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:624) ~[selenium-support-4.29.0.jar:?]
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203) ~[selenium-support-4.29.0.jar:?]
+	at tests.ui.CheckoutTest.testCheckoutProcessAsUser(CheckoutTest.java:278) ~[test-classes/:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) ~[testng-7.11.0.jar:7.11.0]
+	at java.util.ArrayList.forEach(ArrayList.java:1597) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:741) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestRunner.run(TestRunner.java:616) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuites(TestNG.java:1112) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.run(TestNG.java:1079) [testng-7.11.0.jar:7.11.0]
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155) [surefire-testng-3.5.2.jar:3.5.2]
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeSingleClass(TestNGDirectoryTestSuite.java:102) [surefire-testng-3.5.2.jar:3.5.2]
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:91) [surefire-testng-3.5.2.jar:3.5.2]
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137) [surefire-testng-3.5.2.jar:3.5.2]
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385) [surefire-booter-3.5.2.jar:3.5.2]
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162) [surefire-booter-3.5.2.jar:3.5.2]
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507) [surefire-booter-3.5.2.jar:3.5.2]
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495) [surefire-booter-3.5.2.jar:3.5.2]
+2025-03-22 14:49:23 [main] INFO  TC-073_testCheckoutProcessAsUser - Closing the browser for test: testCheckoutProcessAsUser
+2025-03-22 14:49:23 [main] INFO  TC-073_testCheckoutProcessAsUser - Browser closed.
+2025-03-23 02:19:14 [main] INFO  TC-073_testCheckoutProcessAsUser - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-03-23 02:19:14 [main] INFO  TC-073_testCheckoutProcessAsUser - Logger initialized
+2025-03-23 02:19:14 [main] INFO  TC-073_testCheckoutProcessAsUser - Starting test setup for: testCheckoutProcessAsUser (🔢 Test Case ID: TC-073)
+2025-03-23 02:19:33 [main] INFO  TC-073_testCheckoutProcessAsUser - Navigated to the site: https://demo.nopcommerce.com
+2025-03-23 02:19:33 [main] INFO  TC-073_testCheckoutProcessAsUser - Injected cookie: _ga
+2025-03-23 02:19:33 [main] INFO  TC-073_testCheckoutProcessAsUser - Injected cookie: cf_clearance
+2025-03-23 02:19:33 [main] INFO  TC-073_testCheckoutProcessAsUser - Injected cookie: .Nop.Antiforgery
+2025-03-23 02:19:33 [main] INFO  TC-073_testCheckoutProcessAsUser - Injected cookie: .Nop.Customer
+2025-03-23 02:19:33 [main] INFO  TC-073_testCheckoutProcessAsUser - Injected cookie: .Nop.Culture
+2025-03-23 02:19:33 [main] INFO  TC-073_testCheckoutProcessAsUser - Injected cookie: _ga_SCT41TW89V
+2025-03-23 02:19:33 [main] INFO  TC-073_testCheckoutProcessAsUser - Page refreshed with bypassed cookies.
+2025-03-23 02:19:34 [main] INFO  utils.MainFunctionalities - Navigated to login page
+2025-03-23 02:19:40 [main] INFO  utils.MainFunctionalities - Entered username and password
+2025-03-23 02:19:41 [main] INFO  utils.MainFunctionalities - User is logged in successfully.
+2025-03-23 02:19:42 [main] INFO  utils.MainFunctionalities - Navigating to product page: https://demo.nopcommerce.com/adobe-photoshop
+2025-03-23 02:19:44 [main] INFO  utils.MainFunctionalities - Clicked 'Add to Cart' button with ID: add-to-cart-button-10
+2025-03-23 02:19:44 [main] INFO  utils.MainFunctionalities - Product successfully added to cart.
+2025-03-23 02:19:48 [main] INFO  utils.MainFunctionalities - Cart page loaded successfully.
+2025-03-23 02:19:49 [main] INFO  utils.MainFunctionalities - Accepted terms of service.
+2025-03-23 02:20:03 [main] INFO  TC-073_testCheckoutProcessAsUser - Closing the browser for test: testCheckoutProcessAsUser
+2025-03-23 02:20:04 [main] INFO  TC-073_testCheckoutProcessAsUser - Browser closed.
+2025-03-23 02:24:57 [main] INFO  TC-073_testCheckoutProcessAsUser - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-03-23 02:24:57 [main] INFO  TC-073_testCheckoutProcessAsUser - Logger initialized
+2025-03-23 02:24:57 [main] INFO  TC-073_testCheckoutProcessAsUser - Starting test setup for: testCheckoutProcessAsUser (🔢 Test Case ID: TC-073)
+2025-03-23 02:25:14 [main] INFO  TC-073_testCheckoutProcessAsUser - Navigated to the site: https://demo.nopcommerce.com
+2025-03-23 02:25:14 [main] INFO  TC-073_testCheckoutProcessAsUser - Injected cookie: cf_clearance
+2025-03-23 02:25:14 [main] INFO  TC-073_testCheckoutProcessAsUser - Injected cookie: _ga
+2025-03-23 02:25:14 [main] INFO  TC-073_testCheckoutProcessAsUser - Injected cookie: .Nop.Antiforgery
+2025-03-23 02:25:14 [main] INFO  TC-073_testCheckoutProcessAsUser - Injected cookie: .Nop.Customer
+2025-03-23 02:25:14 [main] INFO  TC-073_testCheckoutProcessAsUser - Injected cookie: .Nop.Culture
+2025-03-23 02:25:14 [main] INFO  TC-073_testCheckoutProcessAsUser - Injected cookie: _ga_SCT41TW89V
+2025-03-23 02:25:14 [main] INFO  TC-073_testCheckoutProcessAsUser - Page refreshed with bypassed cookies.
+2025-03-23 02:25:15 [main] INFO  utils.MainFunctionalities - Navigated to login page
+2025-03-23 02:25:21 [main] INFO  utils.MainFunctionalities - Entered username and password
+2025-03-23 02:25:23 [main] INFO  utils.MainFunctionalities - User is logged in successfully.
+2025-03-23 02:25:25 [main] INFO  utils.MainFunctionalities - Navigating to product page: https://demo.nopcommerce.com/adobe-photoshop
+2025-03-23 02:25:26 [main] INFO  utils.MainFunctionalities - Clicked 'Add to Cart' button with ID: add-to-cart-button-10
+2025-03-23 02:25:26 [main] INFO  utils.MainFunctionalities - Product successfully added to cart.
+2025-03-23 02:25:29 [main] INFO  utils.MainFunctionalities - Cart page loaded successfully.
+2025-03-23 02:25:31 [main] INFO  utils.MainFunctionalities - Accepted terms of service.
+2025-03-23 02:25:33 [main] INFO  utils.MainFunctionalities - Checkout page loaded successfully.
+2025-03-23 02:25:39 [main] INFO  TC-073_testCheckoutProcessAsUser - Closing the browser for test: testCheckoutProcessAsUser
+2025-03-23 02:25:40 [main] INFO  TC-073_testCheckoutProcessAsUser - Browser closed.
+2025-03-23 02:29:46 [main] INFO  TC-073_testCheckoutProcessAsUser - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-03-23 02:29:46 [main] INFO  TC-073_testCheckoutProcessAsUser - Logger initialized
+2025-03-23 02:29:46 [main] INFO  TC-073_testCheckoutProcessAsUser - Starting test setup for: testCheckoutProcessAsUser (🔢 Test Case ID: TC-073)
+2025-03-23 02:30:03 [main] INFO  TC-073_testCheckoutProcessAsUser - Navigated to the site: https://demo.nopcommerce.com
+2025-03-23 02:30:03 [main] INFO  TC-073_testCheckoutProcessAsUser - Injected cookie: _ga
+2025-03-23 02:30:03 [main] INFO  TC-073_testCheckoutProcessAsUser - Injected cookie: cf_clearance
+2025-03-23 02:30:03 [main] INFO  TC-073_testCheckoutProcessAsUser - Injected cookie: .Nop.Antiforgery
+2025-03-23 02:30:03 [main] INFO  TC-073_testCheckoutProcessAsUser - Injected cookie: .Nop.Customer
+2025-03-23 02:30:03 [main] INFO  TC-073_testCheckoutProcessAsUser - Injected cookie: .Nop.Culture
+2025-03-23 02:30:03 [main] INFO  TC-073_testCheckoutProcessAsUser - Injected cookie: _ga_SCT41TW89V
+2025-03-23 02:30:04 [main] INFO  TC-073_testCheckoutProcessAsUser - Page refreshed with bypassed cookies.
+2025-03-23 02:30:04 [main] INFO  utils.MainFunctionalities - Navigated to login page
+2025-03-23 02:30:10 [main] INFO  utils.MainFunctionalities - Entered username and password
+2025-03-23 02:30:12 [main] INFO  utils.MainFunctionalities - User is logged in successfully.
+2025-03-23 02:30:15 [main] INFO  utils.MainFunctionalities - Navigating to product page: https://demo.nopcommerce.com/adobe-photoshop
+2025-03-23 02:30:18 [main] INFO  utils.MainFunctionalities - Clicked 'Add to Cart' button with ID: add-to-cart-button-10
+2025-03-23 02:30:18 [main] INFO  utils.MainFunctionalities - Product successfully added to cart.
+2025-03-23 02:30:21 [main] INFO  utils.MainFunctionalities - Cart page loaded successfully.
+2025-03-23 02:30:23 [main] INFO  utils.MainFunctionalities - Accepted terms of service.
+2025-03-23 02:30:25 [main] INFO  utils.MainFunctionalities - Checkout page loaded successfully.
+2025-03-23 02:30:32 [main] INFO  TC-073_testCheckoutProcessAsUser - Closing the browser for test: testCheckoutProcessAsUser
+2025-03-23 02:30:33 [main] INFO  TC-073_testCheckoutProcessAsUser - Browser closed.
+2025-03-23 02:32:04 [main] INFO  TC-073_testCheckoutProcessAsUser - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-03-23 02:32:04 [main] INFO  TC-073_testCheckoutProcessAsUser - Logger initialized
+2025-03-23 02:32:04 [main] INFO  TC-073_testCheckoutProcessAsUser - Starting test setup for: testCheckoutProcessAsUser (🔢 Test Case ID: TC-073)
+2025-03-23 02:32:20 [main] INFO  TC-073_testCheckoutProcessAsUser - Navigated to the site: https://demo.nopcommerce.com
+2025-03-23 02:32:20 [main] INFO  TC-073_testCheckoutProcessAsUser - Injected cookie: cf_clearance
+2025-03-23 02:32:20 [main] INFO  TC-073_testCheckoutProcessAsUser - Injected cookie: _ga
+2025-03-23 02:32:20 [main] INFO  TC-073_testCheckoutProcessAsUser - Injected cookie: .Nop.Antiforgery
+2025-03-23 02:32:20 [main] INFO  TC-073_testCheckoutProcessAsUser - Injected cookie: .Nop.Customer
+2025-03-23 02:32:20 [main] INFO  TC-073_testCheckoutProcessAsUser - Injected cookie: .Nop.Culture
+2025-03-23 02:32:20 [main] INFO  TC-073_testCheckoutProcessAsUser - Injected cookie: _ga_SCT41TW89V
+2025-03-23 02:32:21 [main] INFO  TC-073_testCheckoutProcessAsUser - Page refreshed with bypassed cookies.
+2025-03-23 02:32:22 [main] INFO  utils.MainFunctionalities - Navigated to login page
+2025-03-23 02:32:25 [main] INFO  utils.MainFunctionalities - Entered username and password
+2025-03-23 02:32:27 [main] INFO  utils.MainFunctionalities - User is logged in successfully.
+2025-03-23 02:32:28 [main] INFO  utils.MainFunctionalities - Navigating to product page: https://demo.nopcommerce.com/adobe-photoshop
+2025-03-23 02:32:31 [main] INFO  utils.MainFunctionalities - Clicked 'Add to Cart' button with ID: add-to-cart-button-10
+2025-03-23 02:32:32 [main] INFO  utils.MainFunctionalities - Product successfully added to cart.
+2025-03-23 02:32:34 [main] INFO  utils.MainFunctionalities - Cart page loaded successfully.
+2025-03-23 02:32:36 [main] INFO  utils.MainFunctionalities - Accepted terms of service.
+2025-03-23 02:32:37 [main] INFO  utils.MainFunctionalities - Checkout page loaded successfully.
+2025-03-23 02:32:45 [main] INFO  TC-073_testCheckoutProcessAsUser - Closing the browser for test: testCheckoutProcessAsUser
+2025-03-23 02:32:45 [main] INFO  TC-073_testCheckoutProcessAsUser - Browser closed.
+2025-03-23 02:38:59 [main] INFO  TC-073_testCheckoutProcessAsUser - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-03-23 02:38:59 [main] INFO  TC-073_testCheckoutProcessAsUser - Logger initialized
+2025-03-23 02:38:59 [main] INFO  TC-073_testCheckoutProcessAsUser - Starting test setup for: testCheckoutProcessAsUser (🔢 Test Case ID: TC-073)
+2025-03-23 02:39:16 [main] INFO  TC-073_testCheckoutProcessAsUser - Navigated to the site: https://demo.nopcommerce.com
+2025-03-23 02:39:16 [main] INFO  TC-073_testCheckoutProcessAsUser - Injected cookie: cf_clearance
+2025-03-23 02:39:16 [main] INFO  TC-073_testCheckoutProcessAsUser - Injected cookie: _ga
+2025-03-23 02:39:16 [main] INFO  TC-073_testCheckoutProcessAsUser - Injected cookie: .Nop.Antiforgery
+2025-03-23 02:39:16 [main] INFO  TC-073_testCheckoutProcessAsUser - Injected cookie: .Nop.Customer
+2025-03-23 02:39:16 [main] INFO  TC-073_testCheckoutProcessAsUser - Injected cookie: .Nop.Culture
+2025-03-23 02:39:16 [main] INFO  TC-073_testCheckoutProcessAsUser - Injected cookie: _ga_SCT41TW89V
+2025-03-23 02:39:17 [main] INFO  TC-073_testCheckoutProcessAsUser - Page refreshed with bypassed cookies.
+2025-03-23 02:39:17 [main] INFO  utils.MainFunctionalities - Navigated to login page
+2025-03-23 02:39:22 [main] INFO  utils.MainFunctionalities - Entered username and password
+2025-03-23 02:39:24 [main] INFO  TC-073_testCheckoutProcessAsUser - Closing the browser for test: testCheckoutProcessAsUser
+2025-03-23 02:39:25 [main] INFO  TC-073_testCheckoutProcessAsUser - Browser closed.
+2025-03-23 02:39:54 [main] INFO  TC-073_testCheckoutProcessAsUser - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-03-23 02:39:54 [main] INFO  TC-073_testCheckoutProcessAsUser - Logger initialized
+2025-03-23 02:39:54 [main] INFO  TC-073_testCheckoutProcessAsUser - Starting test setup for: testCheckoutProcessAsUser (🔢 Test Case ID: TC-073)
+2025-03-23 02:40:11 [main] INFO  TC-073_testCheckoutProcessAsUser - Navigated to the site: https://demo.nopcommerce.com
+2025-03-23 02:40:11 [main] INFO  TC-073_testCheckoutProcessAsUser - Injected cookie: cf_clearance
+2025-03-23 02:40:11 [main] INFO  TC-073_testCheckoutProcessAsUser - Injected cookie: _ga
+2025-03-23 02:40:11 [main] INFO  TC-073_testCheckoutProcessAsUser - Injected cookie: .Nop.Antiforgery
+2025-03-23 02:40:11 [main] INFO  TC-073_testCheckoutProcessAsUser - Injected cookie: .Nop.Customer
+2025-03-23 02:40:11 [main] INFO  TC-073_testCheckoutProcessAsUser - Injected cookie: .Nop.Culture
+2025-03-23 02:40:11 [main] INFO  TC-073_testCheckoutProcessAsUser - Injected cookie: _ga_SCT41TW89V
+2025-03-23 02:40:12 [main] INFO  TC-073_testCheckoutProcessAsUser - Page refreshed with bypassed cookies.
+2025-03-23 02:40:12 [main] INFO  utils.MainFunctionalities - Navigated to login page
+2025-03-23 02:40:17 [main] INFO  utils.MainFunctionalities - Entered username and password
+2025-03-23 02:40:19 [main] INFO  utils.MainFunctionalities - User is logged in successfully.
+2025-03-23 02:40:20 [main] INFO  utils.MainFunctionalities - Navigating to product page: https://demo.nopcommerce.com/adobe-photoshop
+2025-03-23 02:40:22 [main] INFO  utils.MainFunctionalities - Clicked 'Add to Cart' button with ID: add-to-cart-button-10
+2025-03-23 02:40:22 [main] INFO  utils.MainFunctionalities - Product successfully added to cart.
+2025-03-23 02:40:26 [main] INFO  utils.MainFunctionalities - Cart page loaded successfully.
+2025-03-23 02:40:28 [main] INFO  utils.MainFunctionalities - Accepted terms of service.
+2025-03-23 02:40:29 [main] INFO  utils.MainFunctionalities - Checkout page loaded successfully.
+2025-03-23 02:40:31 [main] INFO  utils.MainFunctionalities - Checked 'Ship to the same address' option.
+2025-03-23 02:40:36 [main] INFO  TC-073_testCheckoutProcessAsUser - Closing the browser for test: testCheckoutProcessAsUser
+2025-03-23 02:40:36 [main] INFO  TC-073_testCheckoutProcessAsUser - Browser closed.
+2025-03-23 02:40:51 [main] INFO  TC-073_testCheckoutProcessAsUser - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-03-23 02:40:51 [main] INFO  TC-073_testCheckoutProcessAsUser - Logger initialized
+2025-03-23 02:40:51 [main] INFO  TC-073_testCheckoutProcessAsUser - Starting test setup for: testCheckoutProcessAsUser (🔢 Test Case ID: TC-073)
+2025-03-23 02:41:07 [main] INFO  TC-073_testCheckoutProcessAsUser - Navigated to the site: https://demo.nopcommerce.com
+2025-03-23 02:41:07 [main] INFO  TC-073_testCheckoutProcessAsUser - Injected cookie: cf_clearance
+2025-03-23 02:41:07 [main] INFO  TC-073_testCheckoutProcessAsUser - Injected cookie: _ga
+2025-03-23 02:41:07 [main] INFO  TC-073_testCheckoutProcessAsUser - Injected cookie: .Nop.Antiforgery
+2025-03-23 02:41:07 [main] INFO  TC-073_testCheckoutProcessAsUser - Injected cookie: .Nop.Customer
+2025-03-23 02:41:07 [main] INFO  TC-073_testCheckoutProcessAsUser - Injected cookie: .Nop.Culture
+2025-03-23 02:41:07 [main] INFO  TC-073_testCheckoutProcessAsUser - Injected cookie: _ga_SCT41TW89V
+2025-03-23 02:41:08 [main] INFO  TC-073_testCheckoutProcessAsUser - Page refreshed with bypassed cookies.
+2025-03-23 02:41:09 [main] INFO  utils.MainFunctionalities - Navigated to login page
+2025-03-23 02:41:14 [main] INFO  utils.MainFunctionalities - Entered username and password
+2025-03-23 02:41:16 [main] INFO  utils.MainFunctionalities - User is logged in successfully.
+2025-03-23 02:41:18 [main] INFO  utils.MainFunctionalities - Navigating to product page: https://demo.nopcommerce.com/adobe-photoshop
+2025-03-23 02:41:20 [main] INFO  utils.MainFunctionalities - Clicked 'Add to Cart' button with ID: add-to-cart-button-10
+2025-03-23 02:41:20 [main] INFO  utils.MainFunctionalities - Product successfully added to cart.
+2025-03-23 02:41:23 [main] INFO  utils.MainFunctionalities - Cart page loaded successfully.
+2025-03-23 02:41:24 [main] INFO  utils.MainFunctionalities - Accepted terms of service.
+2025-03-23 02:41:25 [main] INFO  utils.MainFunctionalities - Checkout page loaded successfully.
+2025-03-23 02:41:28 [main] INFO  utils.MainFunctionalities - Checked 'Ship to the same address' option.
+2025-03-23 02:41:31 [main] INFO  utils.MainFunctionalities - Shipping method selected.
+2025-03-23 02:41:34 [main] INFO  utils.MainFunctionalities - Payment method selected.
+2025-03-23 02:41:35 [main] INFO  utils.MainFunctionalities - Payment details entered.
+2025-03-23 02:41:37 [main] INFO  utils.MainFunctionalities - Order confirmed.
+2025-03-23 02:41:39 [main] INFO  utils.MainFunctionalities - Order placed successfully!
+2025-03-23 02:41:39 [main] INFO  TC-073_testCheckoutProcessAsUser - Closing the browser for test: testCheckoutProcessAsUser
+2025-03-23 02:41:39 [main] INFO  TC-073_testCheckoutProcessAsUser - Browser closed.
+2025-03-23 03:40:33 [main] INFO  TC-073_testCheckoutProcessAsUser - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-03-23 03:40:33 [main] INFO  TC-073_testCheckoutProcessAsUser - Logger initialized
+2025-03-23 03:40:33 [main] INFO  TC-073_testCheckoutProcessAsUser - Starting test setup for: testCheckoutProcessAsUser (🔢 Test Case ID: TC-073)
+2025-03-23 03:40:57 [main] INFO  TC-073_testCheckoutProcessAsUser - Navigated to the site: https://demo.nopcommerce.com
+2025-03-23 03:40:57 [main] INFO  TC-073_testCheckoutProcessAsUser - Injected cookie: _ga
+2025-03-23 03:40:57 [main] INFO  TC-073_testCheckoutProcessAsUser - Injected cookie: cf_clearance
+2025-03-23 03:40:57 [main] INFO  TC-073_testCheckoutProcessAsUser - Injected cookie: .Nop.Antiforgery
+2025-03-23 03:40:57 [main] INFO  TC-073_testCheckoutProcessAsUser - Injected cookie: .Nop.Customer
+2025-03-23 03:40:57 [main] INFO  TC-073_testCheckoutProcessAsUser - Injected cookie: .Nop.Culture
+2025-03-23 03:40:57 [main] INFO  TC-073_testCheckoutProcessAsUser - Injected cookie: _ga_SCT41TW89V
+2025-03-23 03:40:58 [main] INFO  TC-073_testCheckoutProcessAsUser - Page refreshed with bypassed cookies.
+2025-03-23 03:40:58 [main] INFO  TC-073_testCheckoutProcessAsUser - 🟢 Starting test: testCheckoutProcessAsUser (🔢 Test Case ID: TC-073)
+2025-03-23 03:40:59 [main] INFO  utils.MainFunctionalities - Navigated to login page
+2025-03-23 03:41:03 [main] INFO  utils.MainFunctionalities - Entered username and password
+2025-03-23 03:41:15 [main] ERROR listeners.TestListener - ❌ Test FAILED: testCheckoutProcessAsUser
+org.openqa.selenium.NoSuchSessionException: invalid session id: session deleted as the browser has closed the connection
+from disconnected: unable to send message to renderer
+  (Session info: chrome=134.0.6998.118)
+Build info: version: '4.29.0', revision: '5fc1ec94cb'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [9fc7ecd990de82e4854eaff41e60b71b, findElement {value=.ico-account, using=css selector}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.118, chrome: {chromedriverVersion: 134.0.6998.165 (fd886e2cb29..., userDataDir: C:\Users\MOHAME~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53817}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53817/devtoo..., se:cdpVersion: 134.0.6998.118, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 9fc7ecd990de82e4854eaff41e60b71b
+	at jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62) ~[?:?]
+	at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501) ~[?:?]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:485) ~[?:?]
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167) ~[selenium-remote-driver-4.29.0.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138) ~[selenium-remote-driver-4.29.0.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50) ~[selenium-remote-driver-4.29.0.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215) ~[selenium-remote-driver-4.29.0.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216) ~[selenium-remote-driver-4.29.0.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174) ~[selenium-remote-driver-4.29.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545) ~[selenium-remote-driver-4.29.0.jar:?]
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165) ~[selenium-remote-driver-4.29.0.jar:?]
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59) ~[selenium-remote-driver-4.29.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368) ~[selenium-remote-driver-4.29.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362) ~[selenium-remote-driver-4.29.0.jar:?]
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:194) ~[selenium-support-4.29.0.jar:?]
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:190) ~[selenium-support-4.29.0.jar:?]
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203) ~[selenium-support-4.29.0.jar:?]
+	at utils.SeleniumHelper.waitForVisibility(SeleniumHelper.java:79) ~[test-classes/:?]
+	at utils.MainFunctionalities.login(MainFunctionalities.java:55) ~[test-classes/:?]
+	at tests.ui.CheckoutTest.testCheckoutProcessAsUser(CheckoutTest.java:105) ~[test-classes/:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) ~[testng-7.11.0.jar:7.11.0]
+	at java.util.ArrayList.forEach(ArrayList.java:1597) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:741) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestRunner.run(TestRunner.java:616) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuites(TestNG.java:1112) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.run(TestNG.java:1079) [testng-7.11.0.jar:7.11.0]
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155) [surefire-testng-3.5.2.jar:3.5.2]
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeSingleClass(TestNGDirectoryTestSuite.java:102) [surefire-testng-3.5.2.jar:3.5.2]
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:91) [surefire-testng-3.5.2.jar:3.5.2]
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137) [surefire-testng-3.5.2.jar:3.5.2]
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385) [surefire-booter-3.5.2.jar:3.5.2]
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162) [surefire-booter-3.5.2.jar:3.5.2]
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507) [surefire-booter-3.5.2.jar:3.5.2]
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495) [surefire-booter-3.5.2.jar:3.5.2]
+2025-03-23 03:41:15 [main] ERROR listeners.TestListener - ❌ Test FAILED: testCheckoutProcessAsUser
+org.openqa.selenium.NoSuchSessionException: invalid session id
+Build info: version: '4.29.0', revision: '5fc1ec94cb'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [9fc7ecd990de82e4854eaff41e60b71b, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.118, chrome: {chromedriverVersion: 134.0.6998.165 (fd886e2cb29..., userDataDir: C:\Users\MOHAME~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53817}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53817/devtoo..., se:cdpVersion: 134.0.6998.118, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 9fc7ecd990de82e4854eaff41e60b71b
+	at jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62) ~[?:?]
+	at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501) ~[?:?]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:485) ~[?:?]
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167) ~[selenium-remote-driver-4.29.0.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138) ~[selenium-remote-driver-4.29.0.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50) ~[selenium-remote-driver-4.29.0.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215) ~[selenium-remote-driver-4.29.0.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216) ~[selenium-remote-driver-4.29.0.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174) ~[selenium-remote-driver-4.29.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545) ~[selenium-remote-driver-4.29.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:618) ~[selenium-remote-driver-4.29.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:622) ~[selenium-remote-driver-4.29.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:334) ~[selenium-remote-driver-4.29.0.jar:?]
+	at listeners.TestListener.captureScreenshot(TestListener.java:271) ~[test-classes/:?]
+	at listeners.TestListener.onTestFailure(TestListener.java:137) ~[test-classes/:?]
+	at org.testng.internal.TestListenerHelper.runTestListeners(TestListenerHelper.java:115) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.runTestResultListener(TestInvoker.java:285) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:777) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) ~[testng-7.11.0.jar:7.11.0]
+	at java.util.ArrayList.forEach(ArrayList.java:1597) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:741) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestRunner.run(TestRunner.java:616) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuites(TestNG.java:1112) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.run(TestNG.java:1079) [testng-7.11.0.jar:7.11.0]
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155) [surefire-testng-3.5.2.jar:3.5.2]
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeSingleClass(TestNGDirectoryTestSuite.java:102) [surefire-testng-3.5.2.jar:3.5.2]
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:91) [surefire-testng-3.5.2.jar:3.5.2]
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137) [surefire-testng-3.5.2.jar:3.5.2]
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385) [surefire-booter-3.5.2.jar:3.5.2]
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162) [surefire-booter-3.5.2.jar:3.5.2]
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507) [surefire-booter-3.5.2.jar:3.5.2]
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495) [surefire-booter-3.5.2.jar:3.5.2]
+2025-03-23 03:41:15 [main] INFO  listeners.TestListener - 🏁 Finished Test Suite: Surefire test
+2025-03-23 03:42:38 [main] INFO  TC-073_testCheckoutProcessAsUser - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-03-23 03:42:38 [main] INFO  TC-073_testCheckoutProcessAsUser - Logger initialized
+2025-03-23 03:42:38 [main] INFO  TC-073_testCheckoutProcessAsUser - Starting test setup for: testCheckoutProcessAsUser (🔢 Test Case ID: TC-073)
+2025-03-23 03:43:12 [main] INFO  TC-073_testCheckoutProcessAsUser - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-03-23 03:43:12 [main] INFO  TC-073_testCheckoutProcessAsUser - Logger initialized
+2025-03-23 03:43:12 [main] INFO  TC-073_testCheckoutProcessAsUser - Starting test setup for: testCheckoutProcessAsUser (🔢 Test Case ID: TC-073)
+2025-03-23 03:43:29 [main] INFO  TC-073_testCheckoutProcessAsUser - Navigated to the site: https://demo.nopcommerce.com
+2025-03-23 03:43:29 [main] INFO  TC-073_testCheckoutProcessAsUser - Injected cookie: cf_clearance
+2025-03-23 03:43:29 [main] INFO  TC-073_testCheckoutProcessAsUser - Injected cookie: _ga
+2025-03-23 03:43:29 [main] INFO  TC-073_testCheckoutProcessAsUser - Injected cookie: .Nop.Antiforgery
+2025-03-23 03:43:29 [main] INFO  TC-073_testCheckoutProcessAsUser - Injected cookie: .Nop.Customer
+2025-03-23 03:43:29 [main] INFO  TC-073_testCheckoutProcessAsUser - Injected cookie: .Nop.Culture
+2025-03-23 03:43:29 [main] INFO  TC-073_testCheckoutProcessAsUser - Injected cookie: _ga_SCT41TW89V
+2025-03-23 03:43:30 [main] INFO  TC-073_testCheckoutProcessAsUser - Page refreshed with bypassed cookies.
+2025-03-23 03:43:30 [main] INFO  TC-073_testCheckoutProcessAsUser - 🟢 Starting test: testCheckoutProcessAsUser (🔢 Test Case ID: TC-073)
+2025-03-23 03:43:31 [main] INFO  utils.MainFunctionalities - Navigating to registration page.
+2025-03-23 03:43:36 [main] INFO  utils.MainFunctionalities - Clicking 'Register' button.
+2025-03-23 03:43:36 [main] INFO  utils.MainFunctionalities - Navigated to login page
+2025-03-23 03:43:43 [main] INFO  utils.MainFunctionalities - Entered username and password
+2025-03-23 03:43:44 [main] INFO  utils.MainFunctionalities - User is logged in successfully.
+2025-03-23 03:43:45 [main] INFO  utils.MainFunctionalities - Navigating to product page: https://demo.nopcommerce.com/adobe-photoshop
+2025-03-23 03:43:47 [main] INFO  utils.MainFunctionalities - Clicked 'Add to Cart' button with ID: add-to-cart-button-10
+2025-03-23 03:43:47 [main] INFO  utils.MainFunctionalities - Product successfully added to cart.
+2025-03-23 03:43:50 [main] INFO  utils.MainFunctionalities - Cart page loaded successfully.
+2025-03-23 03:43:51 [main] INFO  utils.MainFunctionalities - Accepted terms of service.
+2025-03-23 03:43:52 [main] INFO  utils.MainFunctionalities - Checkout page loaded successfully.
+2025-03-23 03:43:56 [main] INFO  utils.MainFunctionalities - Checked 'Ship to the same address' option.
+2025-03-23 03:44:01 [main] INFO  utils.MainFunctionalities - Shipping method selected.
+2025-03-23 03:44:02 [main] INFO  utils.MainFunctionalities - Payment method selected.
+2025-03-23 03:44:03 [main] INFO  utils.MainFunctionalities - Payment details entered.
+2025-03-23 03:44:06 [main] INFO  utils.MainFunctionalities - Order confirmed.
+2025-03-23 03:44:08 [main] INFO  utils.MainFunctionalities - Order placed successfully!
+2025-03-23 03:44:08 [main] INFO  listeners.TestListener - ✅ Test PASSED: testCheckoutProcessAsUser (Duration: 37654ms)
+2025-03-23 03:44:08 [main] INFO  TC-073_testCheckoutProcessAsUser - Closing the browser for test: testCheckoutProcessAsUser
+2025-03-23 03:44:08 [main] INFO  TC-073_testCheckoutProcessAsUser - Browser closed.

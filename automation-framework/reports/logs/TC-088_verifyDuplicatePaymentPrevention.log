@@ -1,0 +1,82 @@
+2025-03-23 06:54:10 [main] INFO  TC-088_verifyDuplicatePaymentPrevention - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-03-23 06:54:10 [main] INFO  TC-088_verifyDuplicatePaymentPrevention - Logger initialized
+2025-03-23 06:54:10 [main] INFO  TC-088_verifyDuplicatePaymentPrevention - Starting test setup for: verifyDuplicatePaymentPrevention (🔢 Test Case ID: TC-088)
+2025-03-23 06:54:28 [main] INFO  TC-088_verifyDuplicatePaymentPrevention - Navigated to the site: https://demo.nopcommerce.com
+2025-03-23 06:54:28 [main] INFO  TC-088_verifyDuplicatePaymentPrevention - Injected cookie: _ga
+2025-03-23 06:54:28 [main] INFO  TC-088_verifyDuplicatePaymentPrevention - Injected cookie: cf_clearance
+2025-03-23 06:54:28 [main] INFO  TC-088_verifyDuplicatePaymentPrevention - Injected cookie: .Nop.Antiforgery
+2025-03-23 06:54:28 [main] INFO  TC-088_verifyDuplicatePaymentPrevention - Injected cookie: .Nop.Customer
+2025-03-23 06:54:28 [main] INFO  TC-088_verifyDuplicatePaymentPrevention - Injected cookie: .Nop.Culture
+2025-03-23 06:54:28 [main] INFO  TC-088_verifyDuplicatePaymentPrevention - Injected cookie: _ga_SCT41TW89V
+2025-03-23 06:54:28 [main] INFO  TC-088_verifyDuplicatePaymentPrevention - Page refreshed with bypassed cookies.
+2025-03-23 06:54:29 [main] INFO  utils.MainFunctionalities - Navigating to product page: https://demo.nopcommerce.com/adobe-photoshop
+2025-03-23 06:54:31 [main] INFO  utils.MainFunctionalities - Clicked 'Add to Cart' button with ID: add-to-cart-button-10
+2025-03-23 06:54:31 [main] INFO  utils.MainFunctionalities - Product successfully added to cart.
+2025-03-23 06:54:34 [main] INFO  utils.MainFunctionalities - Cart page loaded successfully.
+2025-03-23 06:54:36 [main] INFO  utils.MainFunctionalities - Accepted terms of service.
+2025-03-23 06:54:41 [main] INFO  utils.MainFunctionalities - Selected 'Checkout as Guest' option.
+2025-03-23 06:54:44 [main] INFO  utils.MainFunctionalities - Checkout page loaded successfully.
+2025-03-23 06:54:58 [main] INFO  utils.MainFunctionalities - No validation alert appeared. Proceeding with the test.
+2025-03-23 06:55:04 [main] INFO  TC-088_verifyDuplicatePaymentPrevention - Payment details entered.
+2025-03-23 06:55:04 [main] INFO  TC-088_verifyDuplicatePaymentPrevention - Closing the browser for test: verifyDuplicatePaymentPrevention
+2025-03-23 06:55:05 [main] INFO  TC-088_verifyDuplicatePaymentPrevention - Browser closed.
+2025-03-23 07:00:42 [main] INFO  TC-088_verifyDuplicatePaymentPrevention - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-03-23 07:00:42 [main] INFO  TC-088_verifyDuplicatePaymentPrevention - Logger initialized
+2025-03-23 07:00:42 [main] INFO  TC-088_verifyDuplicatePaymentPrevention - Starting test setup for: verifyDuplicatePaymentPrevention (🔢 Test Case ID: TC-088)
+2025-03-23 07:00:58 [main] INFO  TC-088_verifyDuplicatePaymentPrevention - Navigated to the site: https://demo.nopcommerce.com
+2025-03-23 07:00:58 [main] INFO  TC-088_verifyDuplicatePaymentPrevention - Injected cookie: _ga
+2025-03-23 07:00:58 [main] INFO  TC-088_verifyDuplicatePaymentPrevention - Injected cookie: cf_clearance
+2025-03-23 07:00:58 [main] INFO  TC-088_verifyDuplicatePaymentPrevention - Injected cookie: .Nop.Antiforgery
+2025-03-23 07:00:58 [main] INFO  TC-088_verifyDuplicatePaymentPrevention - Injected cookie: .Nop.Customer
+2025-03-23 07:00:59 [main] INFO  TC-088_verifyDuplicatePaymentPrevention - Injected cookie: .Nop.Culture
+2025-03-23 07:00:59 [main] INFO  TC-088_verifyDuplicatePaymentPrevention - Injected cookie: _ga_SCT41TW89V
+2025-03-23 07:00:59 [main] INFO  TC-088_verifyDuplicatePaymentPrevention - Page refreshed with bypassed cookies.
+2025-03-23 07:00:59 [main] INFO  TC-088_verifyDuplicatePaymentPrevention - 🟢 Starting test: verifyDuplicatePaymentPrevention (🔢 Test Case ID: TC-088)
+2025-03-23 07:01:00 [main] INFO  utils.MainFunctionalities - Navigating to product page: https://demo.nopcommerce.com/adobe-photoshop
+2025-03-23 07:01:03 [main] INFO  utils.MainFunctionalities - Clicked 'Add to Cart' button with ID: add-to-cart-button-10
+2025-03-23 07:01:04 [main] INFO  utils.MainFunctionalities - Product successfully added to cart.
+2025-03-23 07:01:07 [main] INFO  utils.MainFunctionalities - Cart page loaded successfully.
+2025-03-23 07:01:09 [main] INFO  utils.MainFunctionalities - Accepted terms of service.
+2025-03-23 07:01:16 [main] INFO  utils.MainFunctionalities - Selected 'Checkout as Guest' option.
+2025-03-23 07:01:18 [main] INFO  utils.MainFunctionalities - Checkout page loaded successfully.
+2025-03-23 07:01:31 [main] INFO  utils.MainFunctionalities - No validation alert appeared. Proceeding with the test.
+2025-03-23 07:01:35 [main] INFO  TC-088_verifyDuplicatePaymentPrevention - Payment details entered.
+2025-03-23 07:01:35 [main] ERROR listeners.TestListener - ❌ Test FAILED: verifyDuplicatePaymentPrevention
+java.lang.AssertionError: Duplicate payment request should have been blocked!
+	at org.testng.Assert.fail(Assert.java:111) ~[testng-7.11.0.jar:7.11.0]
+	at tests.ui.PaymentsTest.verifyDuplicatePaymentPrevention(PaymentsTest.java:183) ~[test-classes/:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) ~[testng-7.11.0.jar:7.11.0]
+	at java.util.ArrayList.forEach(ArrayList.java:1597) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:741) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestRunner.run(TestRunner.java:616) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuites(TestNG.java:1112) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.run(TestNG.java:1079) [testng-7.11.0.jar:7.11.0]
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155) [surefire-testng-3.5.2.jar:3.5.2]
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeSingleClass(TestNGDirectoryTestSuite.java:102) [surefire-testng-3.5.2.jar:3.5.2]
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:91) [surefire-testng-3.5.2.jar:3.5.2]
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137) [surefire-testng-3.5.2.jar:3.5.2]
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385) [surefire-booter-3.5.2.jar:3.5.2]
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162) [surefire-booter-3.5.2.jar:3.5.2]
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507) [surefire-booter-3.5.2.jar:3.5.2]
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495) [surefire-booter-3.5.2.jar:3.5.2]
+2025-03-23 07:01:36 [main] INFO  TC-088_verifyDuplicatePaymentPrevention - Closing the browser for test: verifyDuplicatePaymentPrevention
+2025-03-23 07:01:36 [main] INFO  TC-088_verifyDuplicatePaymentPrevention - Browser closed.

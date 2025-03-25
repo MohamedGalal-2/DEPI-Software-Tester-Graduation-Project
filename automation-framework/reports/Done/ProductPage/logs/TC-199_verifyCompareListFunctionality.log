@@ -1,0 +1,125 @@
+2025-03-21 04:52:07 [main] INFO  TC-199_verifyCompareListFunctionality - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-03-21 04:52:07 [main] INFO  TC-199_verifyCompareListFunctionality - Logger initialized
+2025-03-21 04:52:07 [main] INFO  TC-199_verifyCompareListFunctionality - Starting test setup for: verifyCompareListFunctionality (🔢 Test Case ID: TC-199)
+2025-03-21 04:52:25 [main] INFO  TC-199_verifyCompareListFunctionality - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-03-21 04:52:25 [main] INFO  TC-199_verifyCompareListFunctionality - Logger initialized
+2025-03-21 04:52:25 [main] INFO  TC-199_verifyCompareListFunctionality - Starting test setup for: verifyCompareListFunctionality (🔢 Test Case ID: TC-199)
+2025-03-21 04:52:48 [main] INFO  TC-199_verifyCompareListFunctionality - Navigated to the site: https://demo.nopcommerce.com
+2025-03-21 04:52:48 [main] INFO  TC-199_verifyCompareListFunctionality - Injected cookie: _ga
+2025-03-21 04:52:48 [main] INFO  TC-199_verifyCompareListFunctionality - Injected cookie: cf_clearance
+2025-03-21 04:52:48 [main] INFO  TC-199_verifyCompareListFunctionality - Injected cookie: .Nop.Antiforgery
+2025-03-21 04:52:48 [main] INFO  TC-199_verifyCompareListFunctionality - Injected cookie: .Nop.Customer
+2025-03-21 04:52:48 [main] INFO  TC-199_verifyCompareListFunctionality - Injected cookie: .Nop.Culture
+2025-03-21 04:52:48 [main] INFO  TC-199_verifyCompareListFunctionality - Injected cookie: _ga_SCT41TW89V
+2025-03-21 04:52:49 [main] INFO  TC-199_verifyCompareListFunctionality - Page refreshed with bypassed cookies.
+2025-03-21 04:52:49 [main] INFO  TC-199_verifyCompareListFunctionality - Navigating to: https://demo.nopcommerce.com/
+2025-03-21 04:52:51 [main] INFO  TC-199_verifyCompareListFunctionality - Opening Apple iPhone 16 128GB product page.
+2025-03-21 04:53:02 [main] INFO  TC-199_verifyCompareListFunctionality - Closing the browser for test: verifyCompareListFunctionality
+2025-03-21 04:53:06 [main] INFO  TC-199_verifyCompareListFunctionality - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-03-21 04:53:06 [main] INFO  TC-199_verifyCompareListFunctionality - Logger initialized
+2025-03-21 04:53:06 [main] INFO  TC-199_verifyCompareListFunctionality - Starting test setup for: verifyCompareListFunctionality (🔢 Test Case ID: TC-199)
+2025-03-21 04:53:24 [main] INFO  TC-199_verifyCompareListFunctionality - Navigated to the site: https://demo.nopcommerce.com
+2025-03-21 04:53:24 [main] INFO  TC-199_verifyCompareListFunctionality - Injected cookie: cf_clearance
+2025-03-21 04:53:24 [main] INFO  TC-199_verifyCompareListFunctionality - Injected cookie: _ga
+2025-03-21 04:53:24 [main] INFO  TC-199_verifyCompareListFunctionality - Injected cookie: .Nop.Antiforgery
+2025-03-21 04:53:24 [main] INFO  TC-199_verifyCompareListFunctionality - Injected cookie: .Nop.Customer
+2025-03-21 04:53:24 [main] INFO  TC-199_verifyCompareListFunctionality - Injected cookie: .Nop.Culture
+2025-03-21 04:53:24 [main] INFO  TC-199_verifyCompareListFunctionality - Injected cookie: _ga_SCT41TW89V
+2025-03-21 04:53:25 [main] INFO  TC-199_verifyCompareListFunctionality - Page refreshed with bypassed cookies.
+2025-03-21 04:53:25 [main] INFO  TC-199_verifyCompareListFunctionality - Navigating to: https://demo.nopcommerce.com/
+2025-03-21 04:53:26 [main] INFO  TC-199_verifyCompareListFunctionality - Opening Apple iPhone 16 128GB product page.
+2025-03-24 21:29:21 [main] INFO  TC-199_verifyCompareListFunctionality - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-03-24 21:29:21 [main] INFO  TC-199_verifyCompareListFunctionality - Logger initialized
+2025-03-24 21:29:21 [main] INFO  TC-199_verifyCompareListFunctionality - Starting test setup for: verifyCompareListFunctionality (🔢 Test Case ID: TC-199)
+2025-03-24 21:29:38 [main] INFO  TC-199_verifyCompareListFunctionality - Navigated to the site: https://demo.nopcommerce.com
+2025-03-24 21:29:38 [main] INFO  TC-199_verifyCompareListFunctionality - Injected cookie: _ga
+2025-03-24 21:29:38 [main] INFO  TC-199_verifyCompareListFunctionality - Injected cookie: cf_clearance
+2025-03-24 21:29:38 [main] INFO  TC-199_verifyCompareListFunctionality - Injected cookie: .Nop.Antiforgery
+2025-03-24 21:29:38 [main] INFO  TC-199_verifyCompareListFunctionality - Injected cookie: .Nop.Customer
+2025-03-24 21:29:38 [main] INFO  TC-199_verifyCompareListFunctionality - Injected cookie: .Nop.Culture
+2025-03-24 21:29:38 [main] INFO  TC-199_verifyCompareListFunctionality - Injected cookie: _ga_SCT41TW89V
+2025-03-24 21:29:39 [main] INFO  TC-199_verifyCompareListFunctionality - Page refreshed with bypassed cookies.
+2025-03-24 21:29:39 [main] INFO  TC-199_verifyCompareListFunctionality - Navigating to: https://demo.nopcommerce.com/
+2025-03-24 21:29:40 [main] INFO  utils.MainFunctionalities - Opening product page: https://demo.nopcommerce.com/apple-iphone-16-128gb
+2025-03-24 21:29:43 [main] INFO  utils.MainFunctionalities - Added product to the compare list: https://demo.nopcommerce.com/apple-iphone-16-128gb
+2025-03-24 21:29:44 [main] INFO  utils.MainFunctionalities - Opening product page: https://demo.nopcommerce.com/htc-one-mini-blue
+2025-03-24 21:29:47 [main] INFO  utils.MainFunctionalities - Added product to the compare list: https://demo.nopcommerce.com/htc-one-mini-blue
+2025-03-24 21:29:50 [main] INFO  utils.MainFunctionalities - Navigating to Compare Products list.
+2025-03-24 21:29:55 [main] INFO  utils.MainFunctionalities - Extracted Products: [HTC One Mini Blue, Apple iPhone 16 128GB]
+2025-03-24 21:29:55 [main] INFO  utils.MainFunctionalities - Compare list verification successful.
+2025-03-24 21:29:55 [main] INFO  TC-199_verifyCompareListFunctionality - Closing the browser for test: verifyCompareListFunctionality
+2025-03-24 21:29:55 [main] INFO  TC-199_verifyCompareListFunctionality - Browser closed.
+2025-03-24 21:32:34 [main] INFO  TC-199_verifyCompareListFunctionality - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-03-24 21:32:34 [main] INFO  TC-199_verifyCompareListFunctionality - Logger initialized
+2025-03-24 21:32:34 [main] INFO  TC-199_verifyCompareListFunctionality - Starting test setup for: verifyCompareListFunctionality (🔢 Test Case ID: TC-199)
+2025-03-24 21:32:52 [main] INFO  TC-199_verifyCompareListFunctionality - Navigated to the site: https://demo.nopcommerce.com
+2025-03-24 21:32:52 [main] INFO  TC-199_verifyCompareListFunctionality - Injected cookie: cf_clearance
+2025-03-24 21:32:52 [main] INFO  TC-199_verifyCompareListFunctionality - Injected cookie: _ga
+2025-03-24 21:32:52 [main] INFO  TC-199_verifyCompareListFunctionality - Injected cookie: .Nop.Antiforgery
+2025-03-24 21:32:52 [main] INFO  TC-199_verifyCompareListFunctionality - Injected cookie: .Nop.Customer
+2025-03-24 21:32:52 [main] INFO  TC-199_verifyCompareListFunctionality - Injected cookie: .Nop.Culture
+2025-03-24 21:32:52 [main] INFO  TC-199_verifyCompareListFunctionality - Injected cookie: _ga_SCT41TW89V
+2025-03-24 21:32:52 [main] INFO  TC-199_verifyCompareListFunctionality - Page refreshed with bypassed cookies.
+2025-03-24 21:32:52 [main] INFO  TC-199_verifyCompareListFunctionality - Navigating to: https://demo.nopcommerce.com/
+2025-03-24 21:32:53 [main] INFO  utils.MainFunctionalities - Opening product page: https://demo.nopcommerce.com/apple-iphone-16-128gb
+2025-03-24 21:32:56 [main] INFO  utils.MainFunctionalities - Added product to the compare list: https://demo.nopcommerce.com/apple-iphone-16-128gb
+2025-03-24 21:32:57 [main] INFO  utils.MainFunctionalities - Opening product page: https://demo.nopcommerce.com/htc-one-mini-blue
+2025-03-24 21:33:00 [main] INFO  utils.MainFunctionalities - Added product to the compare list: https://demo.nopcommerce.com/htc-one-mini-blue
+2025-03-24 21:33:01 [main] INFO  utils.MainFunctionalities - Navigating to Compare Products list.
+2025-03-24 21:33:07 [main] INFO  utils.MainFunctionalities - Extracted Products: [HTC One Mini Blue, Apple iPhone 16 128GB]
+2025-03-24 21:33:07 [main] INFO  utils.MainFunctionalities - Compare list verification successful.
+2025-03-24 21:33:07 [main] INFO  TC-199_verifyCompareListFunctionality - Closing the browser for test: verifyCompareListFunctionality
+2025-03-24 21:33:07 [main] INFO  TC-199_verifyCompareListFunctionality - Browser closed.
+2025-03-24 21:50:27 [main] INFO  TC-199_verifyCompareListFunctionality - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-03-24 21:50:27 [main] INFO  TC-199_verifyCompareListFunctionality - Logger initialized
+2025-03-24 21:50:27 [main] INFO  TC-199_verifyCompareListFunctionality - Starting test setup for: verifyCompareListFunctionality (🔢 Test Case ID: TC-199)
+2025-03-24 21:50:50 [main] INFO  TC-199_verifyCompareListFunctionality - Navigated to the site: https://demo.nopcommerce.com
+2025-03-24 21:50:50 [main] INFO  TC-199_verifyCompareListFunctionality - Injected cookie: cf_clearance
+2025-03-24 21:50:50 [main] INFO  TC-199_verifyCompareListFunctionality - Injected cookie: _ga
+2025-03-24 21:50:50 [main] INFO  TC-199_verifyCompareListFunctionality - Injected cookie: .Nop.Antiforgery
+2025-03-24 21:50:50 [main] INFO  TC-199_verifyCompareListFunctionality - Injected cookie: .Nop.Customer
+2025-03-24 21:50:50 [main] INFO  TC-199_verifyCompareListFunctionality - Injected cookie: .Nop.Culture
+2025-03-24 21:50:50 [main] INFO  TC-199_verifyCompareListFunctionality - Injected cookie: _ga_SCT41TW89V
+2025-03-24 21:50:51 [main] INFO  TC-199_verifyCompareListFunctionality - Page refreshed with bypassed cookies.
+2025-03-24 21:50:51 [main] INFO  TC-199_verifyCompareListFunctionality - 🟢 Starting test: verifyCompareListFunctionality (🔢 Test Case ID: TC-199)
+2025-03-24 21:50:51 [main] INFO  TC-199_verifyCompareListFunctionality - Navigating to: https://demo.nopcommerce.com/
+2025-03-24 21:50:52 [main] INFO  utils.MainFunctionalities - Opening product page: https://demo.nopcommerce.com/apple-iphone-16-128gb
+2025-03-24 21:50:56 [main] INFO  utils.MainFunctionalities - Added product to the compare list: https://demo.nopcommerce.com/apple-iphone-16-128gb
+2025-03-24 21:50:58 [main] INFO  utils.MainFunctionalities - Opening product page: https://demo.nopcommerce.com/htc-one-mini-blue
+2025-03-24 21:51:02 [main] INFO  utils.MainFunctionalities - Added product to the compare list: https://demo.nopcommerce.com/htc-one-mini-blue
+2025-03-24 21:51:04 [main] INFO  utils.MainFunctionalities - Navigating to Compare Products list.
+2025-03-24 21:51:10 [main] INFO  utils.MainFunctionalities - Extracted Products: [HTC One Mini Blue, Apple iPhone 16 128GB]
+2025-03-24 21:51:10 [main] INFO  utils.MainFunctionalities - Compare list verification successful.
+2025-03-24 21:51:10 [main] INFO  listeners.TestListener - ✅ Test PASSED: verifyCompareListFunctionality (Duration: 18866ms)
+2025-03-24 21:51:10 [main] INFO  TC-199_verifyCompareListFunctionality - Closing the browser for test: verifyCompareListFunctionality
+2025-03-24 21:51:10 [main] INFO  TC-199_verifyCompareListFunctionality - Browser closed.
+2025-03-24 21:56:21 [main] INFO  TC-199_verifyCompareListFunctionality - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-03-24 21:56:21 [main] INFO  TC-199_verifyCompareListFunctionality - Logger initialized
+2025-03-24 21:56:21 [main] INFO  TC-199_verifyCompareListFunctionality - Starting test setup for: verifyCompareListFunctionality (🔢 Test Case ID: TC-199)
+2025-03-24 21:56:44 [main] INFO  TC-199_verifyCompareListFunctionality - Navigated to the site: https://demo.nopcommerce.com
+2025-03-24 21:56:44 [main] INFO  TC-199_verifyCompareListFunctionality - Injected cookie: _ga
+2025-03-24 21:56:44 [main] INFO  TC-199_verifyCompareListFunctionality - Injected cookie: cf_clearance
+2025-03-24 21:56:44 [main] INFO  TC-199_verifyCompareListFunctionality - Injected cookie: .Nop.Antiforgery
+2025-03-24 21:56:44 [main] INFO  TC-199_verifyCompareListFunctionality - Injected cookie: .Nop.Customer
+2025-03-24 21:56:44 [main] INFO  TC-199_verifyCompareListFunctionality - Injected cookie: .Nop.Culture
+2025-03-24 21:56:44 [main] INFO  TC-199_verifyCompareListFunctionality - Injected cookie: _ga_SCT41TW89V
+2025-03-24 21:56:45 [main] INFO  TC-199_verifyCompareListFunctionality - Page refreshed with bypassed cookies.
+2025-03-24 21:56:45 [main] INFO  TC-199_verifyCompareListFunctionality - 🟢 Starting test: verifyCompareListFunctionality (🔢 Test Case ID: TC-199)
+2025-03-24 21:56:45 [main] INFO  TC-199_verifyCompareListFunctionality - Navigating to: https://demo.nopcommerce.com/
+2025-03-24 21:56:46 [main] INFO  utils.MainFunctionalities - Opening product page: https://demo.nopcommerce.com/apple-iphone-16-128gb
+2025-03-24 21:56:51 [main] INFO  utils.MainFunctionalities - Added product to the compare list: https://demo.nopcommerce.com/apple-iphone-16-128gb
+2025-03-24 21:56:52 [main] INFO  utils.MainFunctionalities - Opening product page: https://demo.nopcommerce.com/htc-one-mini-blue
+2025-03-24 21:56:56 [main] INFO  utils.MainFunctionalities - Added product to the compare list: https://demo.nopcommerce.com/htc-one-mini-blue
+2025-03-24 21:56:58 [main] INFO  utils.MainFunctionalities - Navigating to Compare Products list.
+2025-03-24 21:57:03 [main] INFO  utils.MainFunctionalities - Extracted Products: [HTC One Mini Blue, Apple iPhone 16 128GB]
+2025-03-24 21:57:03 [main] INFO  utils.MainFunctionalities - Compare list verification successful.
+2025-03-24 21:57:03 [main] INFO  listeners.TestListener - ✅ Test PASSED: verifyCompareListFunctionality (Duration: 18189ms)
+2025-03-24 21:57:04 [main] INFO  TC-199_verifyCompareListFunctionality - Closing the browser for test: verifyCompareListFunctionality
+2025-03-24 21:57:04 [main] INFO  TC-199_verifyCompareListFunctionality - Browser closed.

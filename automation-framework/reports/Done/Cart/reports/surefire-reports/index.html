@@ -1,0 +1,727 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Surefire_suite" class="navigator-link">
+              <span class="suite-name border-skipped">Surefire suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Surefire_suite" class="navigator-link ">
+                    <span>[unset file name]</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Surefire_suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Surefire_suite" class="navigator-link ">
+                    <span>3 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Surefire_suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Surefire_suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Surefire_suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Surefire_suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">10 methods,  1 skipped,  9 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-Surefire_suite" class="hide-methods skipped suite-Surefire_suite"> (hide)</a> <!-- hide-methods skipped suite-Surefire_suite -->
+                      <a href="#" panel-name="suite-Surefire_suite" class="show-methods skipped suite-Surefire_suite"> (show)</a> <!-- show-methods skipped suite-Surefire_suite -->
+                    </span>
+                    <div class="method-list-content skipped suite-Surefire_suite">
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="tests.ui.CartTest" class="method navigator-link" hash-for-method="verifyValidPromoCodeBlocked">verifyValidPromoCodeBlocked</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-Surefire_suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Surefire_suite" class="hide-methods passed suite-Surefire_suite"> (hide)</a> <!-- hide-methods passed suite-Surefire_suite -->
+                      <a href="#" panel-name="suite-Surefire_suite" class="show-methods passed suite-Surefire_suite"> (show)</a> <!-- show-methods passed suite-Surefire_suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Surefire_suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="tests.ui.CartTest" class="method navigator-link" hash-for-method="testInvalidPromoCode">testInvalidPromoCode</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="tests.ui.CartTest" class="method navigator-link" hash-for-method="verifyAddMultipleProductsToCart">verifyAddMultipleProductsToCart</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="tests.ui.CartTest" class="method navigator-link" hash-for-method="verifyAddToWishlist">verifyAddToWishlist</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="tests.ui.CartTest" class="method navigator-link" hash-for-method="verifyCartIconUpdatesCount">verifyCartIconUpdatesCount</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="tests.ui.CartTest" class="method navigator-link" hash-for-method="verifyCartPersistence">verifyCartPersistence</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="tests.ui.CartTest" class="method navigator-link" hash-for-method="verifyCartSummaryDisplaysCorrectPricing">verifyCartSummaryDisplaysCorrectPricing</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="tests.ui.CartTest" class="method navigator-link" hash-for-method="verifyEmptyCartMessage">verifyEmptyCartMessage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="tests.ui.CartTest" class="method navigator-link" hash-for-method="verifyRemoveMultipleProducts">verifyRemoveMultipleProducts</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="tests.ui.CartTest" class="method navigator-link" hash-for-method="verifyUpdateProductQuantity">verifyUpdateProductQuantity</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Surefire_suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Surefire_suite" class="panel Surefire_suite">
+          <div class="suite-Surefire_suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">tests.ui.CartTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyValidPromoCodeBlocked">
+                  </a> <!-- verifyValidPromoCodeBlocked -->
+                  <span class="method-name">verifyValidPromoCodeBlocked</span>
+                  <div class="stack-trace">org.testng.SkipException: Blocked: No active promo codes available for testing.
+	at tests.ui.CartTest.verifyValidPromoCodeBlocked(CartTest.java:301)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+... Removed 30 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(TC-071)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-skipped -->
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.ui.CartTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testInvalidPromoCode">
+                  </a> <!-- testInvalidPromoCode -->
+                  <span class="method-name">testInvalidPromoCode</span>
+                  <em>
+(TC-076)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyAddMultipleProductsToCart">
+                  </a> <!-- verifyAddMultipleProductsToCart -->
+                  <span class="method-name">verifyAddMultipleProductsToCart</span>
+                  <em>
+(TC-018)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyAddToWishlist">
+                  </a> <!-- verifyAddToWishlist -->
+                  <span class="method-name">verifyAddToWishlist</span>
+                  <em>
+(TC-079)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyCartIconUpdatesCount">
+                  </a> <!-- verifyCartIconUpdatesCount -->
+                  <span class="method-name">verifyCartIconUpdatesCount</span>
+                  <em>
+(TC-182)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyCartPersistence">
+                  </a> <!-- verifyCartPersistence -->
+                  <span class="method-name">verifyCartPersistence</span>
+                  <em>
+(TC-015)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyCartSummaryDisplaysCorrectPricing">
+                  </a> <!-- verifyCartSummaryDisplaysCorrectPricing -->
+                  <span class="method-name">verifyCartSummaryDisplaysCorrectPricing</span>
+                  <em>
+(TC-070)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyEmptyCartMessage">
+                  </a> <!-- verifyEmptyCartMessage -->
+                  <span class="method-name">verifyEmptyCartMessage</span>
+                  <em>
+(TC-077)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyRemoveMultipleProducts">
+                  </a> <!-- verifyRemoveMultipleProducts -->
+                  <span class="method-name">verifyRemoveMultipleProducts</span>
+                  <em>
+(TC-019)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyUpdateProductQuantity">
+                  </a> <!-- verifyUpdateProductQuantity -->
+                  <span class="method-name">verifyUpdateProductQuantity</span>
+                  <em>
+(TC-068)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
+        </div> <!-- panel Surefire_suite -->
+        <div panel-name="test-xml-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Surefire suite&quot; verbose=&quot;0&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Surefire test&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;tests.ui.CartTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Surefire test --&gt;
+&lt;/suite&gt; &lt;!-- Surefire suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Surefire suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Surefire test (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Surefire suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">functional</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">testInvalidPromoCode</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyAddToWishlist</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyCartSummaryDisplaysCorrectPricing</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyUpdateProductQuantity</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyValidPromoCodeBlocked</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">smoke</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyAddMultipleProductsToCart</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyCartPersistence</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyRemoveMultipleProducts</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">ui</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyCartIconUpdatesCount</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyEmptyCartMessage</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Surefire suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Surefire_suite');
+function tableData_Surefire_suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(10);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'verifyRemoveMultipleProducts')
+data.setCell(0, 2, 'tests.ui.CartTest')
+data.setCell(0, 3, 35454);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'verifyUpdateProductQuantity')
+data.setCell(1, 2, 'tests.ui.CartTest')
+data.setCell(1, 3, 21537);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'verifyAddMultipleProductsToCart')
+data.setCell(2, 2, 'tests.ui.CartTest')
+data.setCell(2, 3, 19355);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'verifyAddToWishlist')
+data.setCell(3, 2, 'tests.ui.CartTest')
+data.setCell(3, 3, 15957);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'verifyCartSummaryDisplaysCorrectPricing')
+data.setCell(4, 2, 'tests.ui.CartTest')
+data.setCell(4, 3, 10577);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'verifyCartIconUpdatesCount')
+data.setCell(5, 2, 'tests.ui.CartTest')
+data.setCell(5, 3, 7293);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'testInvalidPromoCode')
+data.setCell(6, 2, 'tests.ui.CartTest')
+data.setCell(6, 3, 7164);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'verifyCartPersistence')
+data.setCell(7, 2, 'tests.ui.CartTest')
+data.setCell(7, 3, 5505);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'verifyEmptyCartMessage')
+data.setCell(8, 2, 'tests.ui.CartTest')
+data.setCell(8, 3, 1913);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'verifyValidPromoCodeBlocked')
+data.setCell(9, 2, 'tests.ui.CartTest')
+data.setCell(9, 3, 2);
+window.suiteTableData['Surefire_suite']= { tableData: data, tableDiv: 'times-div-Surefire_suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 2 minutes</span>
+              <div id="times-div-Surefire_suite">
+              </div> <!-- times-div-Surefire_suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Surefire suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testInvalidPromoCode</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">🟢 Test Started: testInvalidPromoCode (🔢 Test Case ID: TC-076)</span>
+                <span class="reporter-method-output">
+🌍 Test Environment:
+🖥️ OS: Windows 11 10.0
+☕ Java Version: 23.0.1
+🌐 Browser: chrome 134.0.6998.118
+</span>
+                <span class="reporter-method-output">✅ Test PASSED: testInvalidPromoCode (Duration: 7165ms)</span>
+                <span class="reporter-method-output"><br><img src='E:/Folder/Galal/Courses/Digital Egypt Pioneers Initiative (DEPI) - Software Testing/DEPI Software Tester Graduation Project/automation-framework/reports/screenshots\TC-076\TC-076_screenshot.png' height='300' width='400'/><br></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifyCartIconUpdatesCount</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">🟢 Test Started: verifyCartIconUpdatesCount (🔢 Test Case ID: TC-182)</span>
+                <span class="reporter-method-output">
+🌍 Test Environment:
+🖥️ OS: Windows 11 10.0
+☕ Java Version: 23.0.1
+🌐 Browser: chrome 134.0.6998.118
+</span>
+                <span class="reporter-method-output">✅ Test PASSED: verifyCartIconUpdatesCount (Duration: 7293ms)</span>
+                <span class="reporter-method-output"><br><img src='E:/Folder/Galal/Courses/Digital Egypt Pioneers Initiative (DEPI) - Software Testing/DEPI Software Tester Graduation Project/automation-framework/reports/screenshots\TC-182\TC-182_screenshot.png' height='300' width='400'/><br></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifyCartPersistence</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">🟢 Test Started: verifyCartPersistence (🔢 Test Case ID: TC-015)</span>
+                <span class="reporter-method-output">
+🌍 Test Environment:
+🖥️ OS: Windows 11 10.0
+☕ Java Version: 23.0.1
+🌐 Browser: chrome 134.0.6998.118
+</span>
+                <span class="reporter-method-output">✅ Test PASSED: verifyCartPersistence (Duration: 5505ms)</span>
+                <span class="reporter-method-output"><br><img src='E:/Folder/Galal/Courses/Digital Egypt Pioneers Initiative (DEPI) - Software Testing/DEPI Software Tester Graduation Project/automation-framework/reports/screenshots\TC-015\TC-015_screenshot.png' height='300' width='400'/><br></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifyRemoveMultipleProducts</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">🟢 Test Started: verifyRemoveMultipleProducts (🔢 Test Case ID: TC-019)</span>
+                <span class="reporter-method-output">
+🌍 Test Environment:
+🖥️ OS: Windows 11 10.0
+☕ Java Version: 23.0.1
+🌐 Browser: chrome 134.0.6998.118
+</span>
+                <span class="reporter-method-output">✅ Test PASSED: verifyRemoveMultipleProducts (Duration: 35454ms)</span>
+                <span class="reporter-method-output"><br><img src='E:/Folder/Galal/Courses/Digital Egypt Pioneers Initiative (DEPI) - Software Testing/DEPI Software Tester Graduation Project/automation-framework/reports/screenshots\TC-019\TC-019_screenshot.png' height='300' width='400'/><br></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifyCartSummaryDisplaysCorrectPricing</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">🟢 Test Started: verifyCartSummaryDisplaysCorrectPricing (🔢 Test Case ID: TC-070)</span>
+                <span class="reporter-method-output">
+🌍 Test Environment:
+🖥️ OS: Windows 11 10.0
+☕ Java Version: 23.0.1
+🌐 Browser: chrome 134.0.6998.118
+</span>
+                <span class="reporter-method-output">✅ Test PASSED: verifyCartSummaryDisplaysCorrectPricing (Duration: 10578ms)</span>
+                <span class="reporter-method-output"><br><img src='E:/Folder/Galal/Courses/Digital Egypt Pioneers Initiative (DEPI) - Software Testing/DEPI Software Tester Graduation Project/automation-framework/reports/screenshots\TC-070\TC-070_screenshot.png' height='300' width='400'/><br></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifyAddMultipleProductsToCart</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">🟢 Test Started: verifyAddMultipleProductsToCart (🔢 Test Case ID: TC-018)</span>
+                <span class="reporter-method-output">
+🌍 Test Environment:
+🖥️ OS: Windows 11 10.0
+☕ Java Version: 23.0.1
+🌐 Browser: chrome 134.0.6998.118
+</span>
+                <span class="reporter-method-output">✅ Test PASSED: verifyAddMultipleProductsToCart (Duration: 19355ms)</span>
+                <span class="reporter-method-output"><br><img src='E:/Folder/Galal/Courses/Digital Egypt Pioneers Initiative (DEPI) - Software Testing/DEPI Software Tester Graduation Project/automation-framework/reports/screenshots\TC-018\TC-018_screenshot.png' height='300' width='400'/><br></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifyUpdateProductQuantity</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">🟢 Test Started: verifyUpdateProductQuantity (🔢 Test Case ID: TC-068)</span>
+                <span class="reporter-method-output">
+🌍 Test Environment:
+🖥️ OS: Windows 11 10.0
+☕ Java Version: 23.0.1
+🌐 Browser: chrome 134.0.6998.118
+</span>
+                <span class="reporter-method-output">✅ Test PASSED: verifyUpdateProductQuantity (Duration: 21537ms)</span>
+                <span class="reporter-method-output"><br><img src='E:/Folder/Galal/Courses/Digital Egypt Pioneers Initiative (DEPI) - Software Testing/DEPI Software Tester Graduation Project/automation-framework/reports/screenshots\TC-068\TC-068_screenshot.png' height='300' width='400'/><br></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifyAddToWishlist</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">🟢 Test Started: verifyAddToWishlist (🔢 Test Case ID: TC-079)</span>
+                <span class="reporter-method-output">
+🌍 Test Environment:
+🖥️ OS: Windows 11 10.0
+☕ Java Version: 23.0.1
+🌐 Browser: chrome 134.0.6998.118
+</span>
+                <span class="reporter-method-output">✅ Test PASSED: verifyAddToWishlist (Duration: 15958ms)</span>
+                <span class="reporter-method-output"><br><img src='E:/Folder/Galal/Courses/Digital Egypt Pioneers Initiative (DEPI) - Software Testing/DEPI Software Tester Graduation Project/automation-framework/reports/screenshots\TC-079\TC-079_screenshot.png' height='300' width='400'/><br></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifyEmptyCartMessage</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">🟢 Test Started: verifyEmptyCartMessage (🔢 Test Case ID: TC-077)</span>
+                <span class="reporter-method-output">
+🌍 Test Environment:
+🖥️ OS: Windows 11 10.0
+☕ Java Version: 23.0.1
+🌐 Browser: chrome 134.0.6998.118
+</span>
+                <span class="reporter-method-output">✅ Test PASSED: verifyEmptyCartMessage (Duration: 1913ms)</span>
+                <span class="reporter-method-output"><br><img src='E:/Folder/Galal/Courses/Digital Egypt Pioneers Initiative (DEPI) - Software Testing/DEPI Software Tester Graduation Project/automation-framework/reports/screenshots\TC-077\TC-077_screenshot.png' height='300' width='400'/><br></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifyValidPromoCodeBlocked</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">🟢 Test Started: verifyValidPromoCodeBlocked (🔢 Test Case ID: TC-071)</span>
+                <span class="reporter-method-output">
+🌍 Test Environment:
+🖥️ OS: Windows 11 10.0
+☕ Java Version: 23.0.1
+🌐 Browser: chrome 134.0.6998.118
+</span>
+                <span class="reporter-method-output">⚠️ Test SKIPPED: verifyValidPromoCodeBlocked</span>
+                <span class="reporter-method-output"><br><img src='E:/Folder/Galal/Courses/Digital Egypt Pioneers Initiative (DEPI) - Software Testing/DEPI Software Tester Graduation Project/automation-framework/reports/screenshots\TC-071\TC-071_screenshot.png' height='300' width='400'/><br></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.ui.CartTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp([TestResult name={null} status=CREATED method=CartTest.testInvalidPromoCode()[pri:0, instance:tests....)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testInvalidPromoCode</span>
+                <span class="method-start">17544 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=testInvalidPromoCode status=SUCCESS method=CartTest.testInvalidPromoCode()[pri:0, i...)</span>
+                <span class="method-start">24858 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp([TestResult name={null} status=CREATED method=CartTest.verifyAddMultipleProductsToCart()[pri:0, inst...)</span>
+                <span class="method-start">25117 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyAddMultipleProductsToCart</span>
+                <span class="method-start">42268 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=verifyAddMultipleProductsToCart status=SUCCESS method=CartTest.verifyAddMultiplePro...)</span>
+                <span class="method-start">61768 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp([TestResult name={null} status=CREATED method=CartTest.verifyAddToWishlist()[pri:0, instance:tests.u...)</span>
+                <span class="method-start">61997 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyAddToWishlist</span>
+                <span class="method-start">79180 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=verifyAddToWishlist status=SUCCESS method=CartTest.verifyAddToWishlist()[pri:0, ins...)</span>
+                <span class="method-start">95281 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp([TestResult name={null} status=CREATED method=CartTest.verifyCartIconUpdatesCount()[pri:0, instance:...)</span>
+                <span class="method-start">95782 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyCartIconUpdatesCount</span>
+                <span class="method-start">112621 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=verifyCartIconUpdatesCount status=SUCCESS method=CartTest.verifyCartIconUpdatesCoun...)</span>
+                <span class="method-start">120112 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp([TestResult name={null} status=CREATED method=CartTest.verifyCartPersistence()[pri:0, instance:tests...)</span>
+                <span class="method-start">120434 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyCartPersistence</span>
+                <span class="method-start">137127 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=verifyCartPersistence status=SUCCESS method=CartTest.verifyCartPersistence()[pri:0,...)</span>
+                <span class="method-start">142791 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp([TestResult name={null} status=CREATED method=CartTest.verifyCartSummaryDisplaysCorrectPricing()[pri...)</span>
+                <span class="method-start">143008 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyCartSummaryDisplaysCorrectPricing</span>
+                <span class="method-start">159531 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=verifyCartSummaryDisplaysCorrectPricing status=SUCCESS method=CartTest.verifyCartSu...)</span>
+                <span class="method-start">170247 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp([TestResult name={null} status=CREATED method=CartTest.verifyEmptyCartMessage()[pri:0, instance:test...)</span>
+                <span class="method-start">170454 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyEmptyCartMessage</span>
+                <span class="method-start">187560 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=verifyEmptyCartMessage status=SUCCESS method=CartTest.verifyEmptyCartMessage()[pri:...)</span>
+                <span class="method-start">189620 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp([TestResult name={null} status=CREATED method=CartTest.verifyRemoveMultipleProducts()[pri:0, instanc...)</span>
+                <span class="method-start">189957 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyRemoveMultipleProducts</span>
+                <span class="method-start">207428 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=verifyRemoveMultipleProducts status=SUCCESS method=CartTest.verifyRemoveMultiplePro...)</span>
+                <span class="method-start">243032 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp([TestResult name={null} status=CREATED method=CartTest.verifyUpdateProductQuantity()[pri:0, instance...)</span>
+                <span class="method-start">243409 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyUpdateProductQuantity</span>
+                <span class="method-start">260818 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=verifyUpdateProductQuantity status=SUCCESS method=CartTest.verifyUpdateProductQuant...)</span>
+                <span class="method-start">282519 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp([TestResult name={null} status=CREATED method=CartTest.verifyValidPromoCodeBlocked()[pri:0, instance...)</span>
+                <span class="method-start">282726 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyValidPromoCodeBlocked</span>
+                <span class="method-start">299581 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=verifyValidPromoCodeBlocked status=SKIP method=CartTest.verifyValidPromoCodeBlocked...)</span>
+                <span class="method-start">299833 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

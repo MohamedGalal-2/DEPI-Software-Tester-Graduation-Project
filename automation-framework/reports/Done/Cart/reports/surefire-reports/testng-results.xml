@@ -1,0 +1,731 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="10" passed="9" failed="0" skipped="1">
+  <reporter-output>
+    <line>
+      <![CDATA[🚀 Starting Test Suite: Surefire test]]>
+    </line>
+    <line>
+      <![CDATA[
+🌍 Test Environment:
+🖥️ OS: Windows 11 10.0
+☕ Java Version: 23.0.1
+🌐 Browser: chrome 134.0.6998.89
+]]>
+    </line>
+    <line>
+      <![CDATA[🟢 Test Started: testInvalidPromoCode (🔢 Test Case ID: TC-076)]]>
+    </line>
+    <line>
+      <![CDATA[
+🌍 Test Environment:
+🖥️ OS: Windows 11 10.0
+☕ Java Version: 23.0.1
+🌐 Browser: chrome 134.0.6998.118
+]]>
+    </line>
+    <line>
+      <![CDATA[✅ Test PASSED: testInvalidPromoCode (Duration: 7165ms)]]>
+    </line>
+    <line>
+      <![CDATA[<br><img src='E:/Folder/Galal/Courses/Digital Egypt Pioneers Initiative (DEPI) - Software Testing/DEPI Software Tester Graduation Project/automation-framework/reports/screenshots\TC-076\TC-076_screenshot.png' height='300' width='400'/><br>]]>
+    </line>
+    <line>
+      <![CDATA[🟢 Test Started: verifyAddMultipleProductsToCart (🔢 Test Case ID: TC-018)]]>
+    </line>
+    <line>
+      <![CDATA[
+🌍 Test Environment:
+🖥️ OS: Windows 11 10.0
+☕ Java Version: 23.0.1
+🌐 Browser: chrome 134.0.6998.118
+]]>
+    </line>
+    <line>
+      <![CDATA[✅ Test PASSED: verifyAddMultipleProductsToCart (Duration: 19355ms)]]>
+    </line>
+    <line>
+      <![CDATA[<br><img src='E:/Folder/Galal/Courses/Digital Egypt Pioneers Initiative (DEPI) - Software Testing/DEPI Software Tester Graduation Project/automation-framework/reports/screenshots\TC-018\TC-018_screenshot.png' height='300' width='400'/><br>]]>
+    </line>
+    <line>
+      <![CDATA[🟢 Test Started: verifyAddToWishlist (🔢 Test Case ID: TC-079)]]>
+    </line>
+    <line>
+      <![CDATA[
+🌍 Test Environment:
+🖥️ OS: Windows 11 10.0
+☕ Java Version: 23.0.1
+🌐 Browser: chrome 134.0.6998.118
+]]>
+    </line>
+    <line>
+      <![CDATA[✅ Test PASSED: verifyAddToWishlist (Duration: 15958ms)]]>
+    </line>
+    <line>
+      <![CDATA[<br><img src='E:/Folder/Galal/Courses/Digital Egypt Pioneers Initiative (DEPI) - Software Testing/DEPI Software Tester Graduation Project/automation-framework/reports/screenshots\TC-079\TC-079_screenshot.png' height='300' width='400'/><br>]]>
+    </line>
+    <line>
+      <![CDATA[🟢 Test Started: verifyCartIconUpdatesCount (🔢 Test Case ID: TC-182)]]>
+    </line>
+    <line>
+      <![CDATA[
+🌍 Test Environment:
+🖥️ OS: Windows 11 10.0
+☕ Java Version: 23.0.1
+🌐 Browser: chrome 134.0.6998.118
+]]>
+    </line>
+    <line>
+      <![CDATA[✅ Test PASSED: verifyCartIconUpdatesCount (Duration: 7293ms)]]>
+    </line>
+    <line>
+      <![CDATA[<br><img src='E:/Folder/Galal/Courses/Digital Egypt Pioneers Initiative (DEPI) - Software Testing/DEPI Software Tester Graduation Project/automation-framework/reports/screenshots\TC-182\TC-182_screenshot.png' height='300' width='400'/><br>]]>
+    </line>
+    <line>
+      <![CDATA[🟢 Test Started: verifyCartPersistence (🔢 Test Case ID: TC-015)]]>
+    </line>
+    <line>
+      <![CDATA[
+🌍 Test Environment:
+🖥️ OS: Windows 11 10.0
+☕ Java Version: 23.0.1
+🌐 Browser: chrome 134.0.6998.118
+]]>
+    </line>
+    <line>
+      <![CDATA[✅ Test PASSED: verifyCartPersistence (Duration: 5505ms)]]>
+    </line>
+    <line>
+      <![CDATA[<br><img src='E:/Folder/Galal/Courses/Digital Egypt Pioneers Initiative (DEPI) - Software Testing/DEPI Software Tester Graduation Project/automation-framework/reports/screenshots\TC-015\TC-015_screenshot.png' height='300' width='400'/><br>]]>
+    </line>
+    <line>
+      <![CDATA[🟢 Test Started: verifyCartSummaryDisplaysCorrectPricing (🔢 Test Case ID: TC-070)]]>
+    </line>
+    <line>
+      <![CDATA[
+🌍 Test Environment:
+🖥️ OS: Windows 11 10.0
+☕ Java Version: 23.0.1
+🌐 Browser: chrome 134.0.6998.118
+]]>
+    </line>
+    <line>
+      <![CDATA[✅ Test PASSED: verifyCartSummaryDisplaysCorrectPricing (Duration: 10578ms)]]>
+    </line>
+    <line>
+      <![CDATA[<br><img src='E:/Folder/Galal/Courses/Digital Egypt Pioneers Initiative (DEPI) - Software Testing/DEPI Software Tester Graduation Project/automation-framework/reports/screenshots\TC-070\TC-070_screenshot.png' height='300' width='400'/><br>]]>
+    </line>
+    <line>
+      <![CDATA[🟢 Test Started: verifyEmptyCartMessage (🔢 Test Case ID: TC-077)]]>
+    </line>
+    <line>
+      <![CDATA[
+🌍 Test Environment:
+🖥️ OS: Windows 11 10.0
+☕ Java Version: 23.0.1
+🌐 Browser: chrome 134.0.6998.118
+]]>
+    </line>
+    <line>
+      <![CDATA[✅ Test PASSED: verifyEmptyCartMessage (Duration: 1913ms)]]>
+    </line>
+    <line>
+      <![CDATA[<br><img src='E:/Folder/Galal/Courses/Digital Egypt Pioneers Initiative (DEPI) - Software Testing/DEPI Software Tester Graduation Project/automation-framework/reports/screenshots\TC-077\TC-077_screenshot.png' height='300' width='400'/><br>]]>
+    </line>
+    <line>
+      <![CDATA[🟢 Test Started: verifyRemoveMultipleProducts (🔢 Test Case ID: TC-019)]]>
+    </line>
+    <line>
+      <![CDATA[
+🌍 Test Environment:
+🖥️ OS: Windows 11 10.0
+☕ Java Version: 23.0.1
+🌐 Browser: chrome 134.0.6998.118
+]]>
+    </line>
+    <line>
+      <![CDATA[✅ Test PASSED: verifyRemoveMultipleProducts (Duration: 35454ms)]]>
+    </line>
+    <line>
+      <![CDATA[<br><img src='E:/Folder/Galal/Courses/Digital Egypt Pioneers Initiative (DEPI) - Software Testing/DEPI Software Tester Graduation Project/automation-framework/reports/screenshots\TC-019\TC-019_screenshot.png' height='300' width='400'/><br>]]>
+    </line>
+    <line>
+      <![CDATA[🟢 Test Started: verifyUpdateProductQuantity (🔢 Test Case ID: TC-068)]]>
+    </line>
+    <line>
+      <![CDATA[
+🌍 Test Environment:
+🖥️ OS: Windows 11 10.0
+☕ Java Version: 23.0.1
+🌐 Browser: chrome 134.0.6998.118
+]]>
+    </line>
+    <line>
+      <![CDATA[✅ Test PASSED: verifyUpdateProductQuantity (Duration: 21537ms)]]>
+    </line>
+    <line>
+      <![CDATA[<br><img src='E:/Folder/Galal/Courses/Digital Egypt Pioneers Initiative (DEPI) - Software Testing/DEPI Software Tester Graduation Project/automation-framework/reports/screenshots\TC-068\TC-068_screenshot.png' height='300' width='400'/><br>]]>
+    </line>
+    <line>
+      <![CDATA[🟢 Test Started: verifyValidPromoCodeBlocked (🔢 Test Case ID: TC-071)]]>
+    </line>
+    <line>
+      <![CDATA[
+🌍 Test Environment:
+🖥️ OS: Windows 11 10.0
+☕ Java Version: 23.0.1
+🌐 Browser: chrome 134.0.6998.118
+]]>
+    </line>
+    <line>
+      <![CDATA[⚠️ Test SKIPPED: verifyValidPromoCodeBlocked]]>
+    </line>
+    <line>
+      <![CDATA[<br><img src='E:/Folder/Galal/Courses/Digital Egypt Pioneers Initiative (DEPI) - Software Testing/DEPI Software Tester Graduation Project/automation-framework/reports/screenshots\TC-071\TC-071_screenshot.png' height='300' width='400'/><br>]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2025-03-23T01:18:08 EET" name="Surefire suite" finished-at="2025-03-23T01:23:08 EET" duration-ms="300218">
+    <groups>
+      <group name="functional">
+        <method signature="CartTest.testInvalidPromoCode()[pri:0, instance:tests.ui.CartTest@62435e70]" name="testInvalidPromoCode" class="tests.ui.CartTest"/>
+        <method signature="CartTest.verifyAddToWishlist()[pri:0, instance:tests.ui.CartTest@62435e70]" name="verifyAddToWishlist" class="tests.ui.CartTest"/>
+        <method signature="CartTest.verifyCartSummaryDisplaysCorrectPricing()[pri:0, instance:tests.ui.CartTest@62435e70]" name="verifyCartSummaryDisplaysCorrectPricing" class="tests.ui.CartTest"/>
+        <method signature="CartTest.verifyUpdateProductQuantity()[pri:0, instance:tests.ui.CartTest@62435e70]" name="verifyUpdateProductQuantity" class="tests.ui.CartTest"/>
+        <method signature="CartTest.verifyValidPromoCodeBlocked()[pri:0, instance:tests.ui.CartTest@62435e70]" name="verifyValidPromoCodeBlocked" class="tests.ui.CartTest"/>
+      </group> <!-- functional -->
+      <group name="ui">
+        <method signature="CartTest.verifyCartIconUpdatesCount()[pri:0, instance:tests.ui.CartTest@62435e70]" name="verifyCartIconUpdatesCount" class="tests.ui.CartTest"/>
+        <method signature="CartTest.verifyEmptyCartMessage()[pri:0, instance:tests.ui.CartTest@62435e70]" name="verifyEmptyCartMessage" class="tests.ui.CartTest"/>
+      </group> <!-- ui -->
+      <group name="smoke">
+        <method signature="CartTest.verifyAddMultipleProductsToCart()[pri:0, instance:tests.ui.CartTest@62435e70]" name="verifyAddMultipleProductsToCart" class="tests.ui.CartTest"/>
+        <method signature="CartTest.verifyCartPersistence()[pri:0, instance:tests.ui.CartTest@62435e70]" name="verifyCartPersistence" class="tests.ui.CartTest"/>
+        <method signature="CartTest.verifyRemoveMultipleProducts()[pri:0, instance:tests.ui.CartTest@62435e70]" name="verifyRemoveMultipleProducts" class="tests.ui.CartTest"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test started-at="2025-03-23T01:18:08 EET" name="Surefire test" finished-at="2025-03-23T01:23:08 EET" duration-ms="300218">
+      <class name="tests.ui.CartTest">
+        <test-method is-config="true" signature="setUp(org.testng.ITestResult,org.testng.ITestContext)[pri:0, instance:tests.ui.CartTest@62435e70]" started-at="2025-03-23T01:18:08 EET" name="setUp" finished-at="2025-03-23T01:18:26 EET" duration-ms="17543" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=CartTest.testInvalidPromoCode()[pri:0, instance:tests.ui.CartTest@62435e70] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@105ffc58]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testInvalidPromoCode()[pri:0, instance:tests.ui.CartTest@62435e70]" started-at="2025-03-23T01:18:26 EET" name="testInvalidPromoCode" description="TC-076" finished-at="2025-03-23T01:18:33 EET" duration-ms="7164" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[🟢 Test Started: testInvalidPromoCode (🔢 Test Case ID: TC-076)]]>
+            </line>
+            <line>
+              <![CDATA[
+🌍 Test Environment:
+🖥️ OS: Windows 11 10.0
+☕ Java Version: 23.0.1
+🌐 Browser: chrome 134.0.6998.118
+]]>
+            </line>
+            <line>
+              <![CDATA[✅ Test PASSED: testInvalidPromoCode (Duration: 7165ms)]]>
+            </line>
+            <line>
+              <![CDATA[<br><img src='E:/Folder/Galal/Courses/Digital Egypt Pioneers Initiative (DEPI) - Software Testing/DEPI Software Tester Graduation Project/automation-framework/reports/screenshots\TC-076\TC-076_screenshot.png' height='300' width='400'/><br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testInvalidPromoCode -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.ui.CartTest@62435e70]" started-at="2025-03-23T01:18:33 EET" name="tearDown" finished-at="2025-03-23T01:18:33 EET" duration-ms="257" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testInvalidPromoCode status=SUCCESS method=CartTest.testInvalidPromoCode()[pri:0, instance:tests.ui.CartTest@62435e70] output=🟢 Test Started: testInvalidPromoCode (🔢 Test Case ID: TC-076)]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(org.testng.ITestResult,org.testng.ITestContext)[pri:0, instance:tests.ui.CartTest@62435e70]" started-at="2025-03-23T01:18:33 EET" name="setUp" finished-at="2025-03-23T01:18:50 EET" duration-ms="17151" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=CartTest.verifyAddMultipleProductsToCart()[pri:0, instance:tests.ui.CartTest@62435e70] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@105ffc58]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyAddMultipleProductsToCart()[pri:0, instance:tests.ui.CartTest@62435e70]" started-at="2025-03-23T01:18:50 EET" name="verifyAddMultipleProductsToCart" description="TC-018" finished-at="2025-03-23T01:19:10 EET" duration-ms="19355" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[🟢 Test Started: verifyAddMultipleProductsToCart (🔢 Test Case ID: TC-018)]]>
+            </line>
+            <line>
+              <![CDATA[
+🌍 Test Environment:
+🖥️ OS: Windows 11 10.0
+☕ Java Version: 23.0.1
+🌐 Browser: chrome 134.0.6998.118
+]]>
+            </line>
+            <line>
+              <![CDATA[✅ Test PASSED: verifyAddMultipleProductsToCart (Duration: 19355ms)]]>
+            </line>
+            <line>
+              <![CDATA[<br><img src='E:/Folder/Galal/Courses/Digital Egypt Pioneers Initiative (DEPI) - Software Testing/DEPI Software Tester Graduation Project/automation-framework/reports/screenshots\TC-018\TC-018_screenshot.png' height='300' width='400'/><br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyAddMultipleProductsToCart -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.ui.CartTest@62435e70]" started-at="2025-03-23T01:19:10 EET" name="tearDown" finished-at="2025-03-23T01:19:10 EET" duration-ms="229" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyAddMultipleProductsToCart status=SUCCESS method=CartTest.verifyAddMultipleProductsToCart()[pri:0, instance:tests.ui.CartTest@62435e70] output=🟢 Test Started: verifyAddMultipleProductsToCart (🔢 Test Case ID: TC-018)]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(org.testng.ITestResult,org.testng.ITestContext)[pri:0, instance:tests.ui.CartTest@62435e70]" started-at="2025-03-23T01:19:10 EET" name="setUp" finished-at="2025-03-23T01:19:27 EET" duration-ms="17183" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=CartTest.verifyAddToWishlist()[pri:0, instance:tests.ui.CartTest@62435e70] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@105ffc58]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyAddToWishlist()[pri:0, instance:tests.ui.CartTest@62435e70]" started-at="2025-03-23T01:19:27 EET" name="verifyAddToWishlist" description="TC-079" finished-at="2025-03-23T01:19:43 EET" duration-ms="15957" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[🟢 Test Started: verifyAddToWishlist (🔢 Test Case ID: TC-079)]]>
+            </line>
+            <line>
+              <![CDATA[
+🌍 Test Environment:
+🖥️ OS: Windows 11 10.0
+☕ Java Version: 23.0.1
+🌐 Browser: chrome 134.0.6998.118
+]]>
+            </line>
+            <line>
+              <![CDATA[✅ Test PASSED: verifyAddToWishlist (Duration: 15958ms)]]>
+            </line>
+            <line>
+              <![CDATA[<br><img src='E:/Folder/Galal/Courses/Digital Egypt Pioneers Initiative (DEPI) - Software Testing/DEPI Software Tester Graduation Project/automation-framework/reports/screenshots\TC-079\TC-079_screenshot.png' height='300' width='400'/><br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyAddToWishlist -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.ui.CartTest@62435e70]" started-at="2025-03-23T01:19:43 EET" name="tearDown" finished-at="2025-03-23T01:19:44 EET" duration-ms="501" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyAddToWishlist status=SUCCESS method=CartTest.verifyAddToWishlist()[pri:0, instance:tests.ui.CartTest@62435e70] output=🟢 Test Started: verifyAddToWishlist (🔢 Test Case ID: TC-079)]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(org.testng.ITestResult,org.testng.ITestContext)[pri:0, instance:tests.ui.CartTest@62435e70]" started-at="2025-03-23T01:19:44 EET" name="setUp" finished-at="2025-03-23T01:20:01 EET" duration-ms="16839" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=CartTest.verifyCartIconUpdatesCount()[pri:0, instance:tests.ui.CartTest@62435e70] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@105ffc58]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyCartIconUpdatesCount()[pri:0, instance:tests.ui.CartTest@62435e70]" started-at="2025-03-23T01:20:01 EET" name="verifyCartIconUpdatesCount" description="TC-182" finished-at="2025-03-23T01:20:08 EET" duration-ms="7293" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[🟢 Test Started: verifyCartIconUpdatesCount (🔢 Test Case ID: TC-182)]]>
+            </line>
+            <line>
+              <![CDATA[
+🌍 Test Environment:
+🖥️ OS: Windows 11 10.0
+☕ Java Version: 23.0.1
+🌐 Browser: chrome 134.0.6998.118
+]]>
+            </line>
+            <line>
+              <![CDATA[✅ Test PASSED: verifyCartIconUpdatesCount (Duration: 7293ms)]]>
+            </line>
+            <line>
+              <![CDATA[<br><img src='E:/Folder/Galal/Courses/Digital Egypt Pioneers Initiative (DEPI) - Software Testing/DEPI Software Tester Graduation Project/automation-framework/reports/screenshots\TC-182\TC-182_screenshot.png' height='300' width='400'/><br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyCartIconUpdatesCount -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.ui.CartTest@62435e70]" started-at="2025-03-23T01:20:08 EET" name="tearDown" finished-at="2025-03-23T01:20:08 EET" duration-ms="322" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyCartIconUpdatesCount status=SUCCESS method=CartTest.verifyCartIconUpdatesCount()[pri:0, instance:tests.ui.CartTest@62435e70] output=🟢 Test Started: verifyCartIconUpdatesCount (🔢 Test Case ID: TC-182)]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(org.testng.ITestResult,org.testng.ITestContext)[pri:0, instance:tests.ui.CartTest@62435e70]" started-at="2025-03-23T01:20:08 EET" name="setUp" finished-at="2025-03-23T01:20:25 EET" duration-ms="16693" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=CartTest.verifyCartPersistence()[pri:0, instance:tests.ui.CartTest@62435e70] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@105ffc58]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyCartPersistence()[pri:0, instance:tests.ui.CartTest@62435e70]" started-at="2025-03-23T01:20:25 EET" name="verifyCartPersistence" description="TC-015" finished-at="2025-03-23T01:20:31 EET" duration-ms="5505" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[🟢 Test Started: verifyCartPersistence (🔢 Test Case ID: TC-015)]]>
+            </line>
+            <line>
+              <![CDATA[
+🌍 Test Environment:
+🖥️ OS: Windows 11 10.0
+☕ Java Version: 23.0.1
+🌐 Browser: chrome 134.0.6998.118
+]]>
+            </line>
+            <line>
+              <![CDATA[✅ Test PASSED: verifyCartPersistence (Duration: 5505ms)]]>
+            </line>
+            <line>
+              <![CDATA[<br><img src='E:/Folder/Galal/Courses/Digital Egypt Pioneers Initiative (DEPI) - Software Testing/DEPI Software Tester Graduation Project/automation-framework/reports/screenshots\TC-015\TC-015_screenshot.png' height='300' width='400'/><br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyCartPersistence -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.ui.CartTest@62435e70]" started-at="2025-03-23T01:20:31 EET" name="tearDown" finished-at="2025-03-23T01:20:31 EET" duration-ms="216" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyCartPersistence status=SUCCESS method=CartTest.verifyCartPersistence()[pri:0, instance:tests.ui.CartTest@62435e70] output=🟢 Test Started: verifyCartPersistence (🔢 Test Case ID: TC-015)]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(org.testng.ITestResult,org.testng.ITestContext)[pri:0, instance:tests.ui.CartTest@62435e70]" started-at="2025-03-23T01:20:31 EET" name="setUp" finished-at="2025-03-23T01:20:48 EET" duration-ms="16522" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=CartTest.verifyCartSummaryDisplaysCorrectPricing()[pri:0, instance:tests.ui.CartTest@62435e70] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@105ffc58]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyCartSummaryDisplaysCorrectPricing()[pri:0, instance:tests.ui.CartTest@62435e70]" started-at="2025-03-23T01:20:48 EET" name="verifyCartSummaryDisplaysCorrectPricing" description="TC-070" finished-at="2025-03-23T01:20:58 EET" duration-ms="10577" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[🟢 Test Started: verifyCartSummaryDisplaysCorrectPricing (🔢 Test Case ID: TC-070)]]>
+            </line>
+            <line>
+              <![CDATA[
+🌍 Test Environment:
+🖥️ OS: Windows 11 10.0
+☕ Java Version: 23.0.1
+🌐 Browser: chrome 134.0.6998.118
+]]>
+            </line>
+            <line>
+              <![CDATA[✅ Test PASSED: verifyCartSummaryDisplaysCorrectPricing (Duration: 10578ms)]]>
+            </line>
+            <line>
+              <![CDATA[<br><img src='E:/Folder/Galal/Courses/Digital Egypt Pioneers Initiative (DEPI) - Software Testing/DEPI Software Tester Graduation Project/automation-framework/reports/screenshots\TC-070\TC-070_screenshot.png' height='300' width='400'/><br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyCartSummaryDisplaysCorrectPricing -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.ui.CartTest@62435e70]" started-at="2025-03-23T01:20:58 EET" name="tearDown" finished-at="2025-03-23T01:20:59 EET" duration-ms="206" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyCartSummaryDisplaysCorrectPricing status=SUCCESS method=CartTest.verifyCartSummaryDisplaysCorrectPricing()[pri:0, instance:tests.ui.CartTest@62435e70] output=🟢 Test Started: verifyCartSummaryDisplaysCorrectPricing (🔢 Test Case ID: TC-070)]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(org.testng.ITestResult,org.testng.ITestContext)[pri:0, instance:tests.ui.CartTest@62435e70]" started-at="2025-03-23T01:20:59 EET" name="setUp" finished-at="2025-03-23T01:21:16 EET" duration-ms="17106" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=CartTest.verifyEmptyCartMessage()[pri:0, instance:tests.ui.CartTest@62435e70] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@105ffc58]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyEmptyCartMessage()[pri:0, instance:tests.ui.CartTest@62435e70]" started-at="2025-03-23T01:21:16 EET" name="verifyEmptyCartMessage" description="TC-077" finished-at="2025-03-23T01:21:18 EET" duration-ms="1913" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[🟢 Test Started: verifyEmptyCartMessage (🔢 Test Case ID: TC-077)]]>
+            </line>
+            <line>
+              <![CDATA[
+🌍 Test Environment:
+🖥️ OS: Windows 11 10.0
+☕ Java Version: 23.0.1
+🌐 Browser: chrome 134.0.6998.118
+]]>
+            </line>
+            <line>
+              <![CDATA[✅ Test PASSED: verifyEmptyCartMessage (Duration: 1913ms)]]>
+            </line>
+            <line>
+              <![CDATA[<br><img src='E:/Folder/Galal/Courses/Digital Egypt Pioneers Initiative (DEPI) - Software Testing/DEPI Software Tester Graduation Project/automation-framework/reports/screenshots\TC-077\TC-077_screenshot.png' height='300' width='400'/><br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyEmptyCartMessage -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.ui.CartTest@62435e70]" started-at="2025-03-23T01:21:18 EET" name="tearDown" finished-at="2025-03-23T01:21:18 EET" duration-ms="335" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyEmptyCartMessage status=SUCCESS method=CartTest.verifyEmptyCartMessage()[pri:0, instance:tests.ui.CartTest@62435e70] output=🟢 Test Started: verifyEmptyCartMessage (🔢 Test Case ID: TC-077)]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(org.testng.ITestResult,org.testng.ITestContext)[pri:0, instance:tests.ui.CartTest@62435e70]" started-at="2025-03-23T01:21:18 EET" name="setUp" finished-at="2025-03-23T01:21:35 EET" duration-ms="17471" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=CartTest.verifyRemoveMultipleProducts()[pri:0, instance:tests.ui.CartTest@62435e70] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@105ffc58]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyRemoveMultipleProducts()[pri:0, instance:tests.ui.CartTest@62435e70]" started-at="2025-03-23T01:21:35 EET" name="verifyRemoveMultipleProducts" description="TC-019" finished-at="2025-03-23T01:22:11 EET" duration-ms="35454" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[🟢 Test Started: verifyRemoveMultipleProducts (🔢 Test Case ID: TC-019)]]>
+            </line>
+            <line>
+              <![CDATA[
+🌍 Test Environment:
+🖥️ OS: Windows 11 10.0
+☕ Java Version: 23.0.1
+🌐 Browser: chrome 134.0.6998.118
+]]>
+            </line>
+            <line>
+              <![CDATA[✅ Test PASSED: verifyRemoveMultipleProducts (Duration: 35454ms)]]>
+            </line>
+            <line>
+              <![CDATA[<br><img src='E:/Folder/Galal/Courses/Digital Egypt Pioneers Initiative (DEPI) - Software Testing/DEPI Software Tester Graduation Project/automation-framework/reports/screenshots\TC-019\TC-019_screenshot.png' height='300' width='400'/><br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyRemoveMultipleProducts -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.ui.CartTest@62435e70]" started-at="2025-03-23T01:22:11 EET" name="tearDown" finished-at="2025-03-23T01:22:11 EET" duration-ms="377" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyRemoveMultipleProducts status=SUCCESS method=CartTest.verifyRemoveMultipleProducts()[pri:0, instance:tests.ui.CartTest@62435e70] output=🟢 Test Started: verifyRemoveMultipleProducts (🔢 Test Case ID: TC-019)]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(org.testng.ITestResult,org.testng.ITestContext)[pri:0, instance:tests.ui.CartTest@62435e70]" started-at="2025-03-23T01:22:11 EET" name="setUp" finished-at="2025-03-23T01:22:29 EET" duration-ms="17409" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=CartTest.verifyUpdateProductQuantity()[pri:0, instance:tests.ui.CartTest@62435e70] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@105ffc58]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyUpdateProductQuantity()[pri:0, instance:tests.ui.CartTest@62435e70]" started-at="2025-03-23T01:22:29 EET" name="verifyUpdateProductQuantity" description="TC-068" finished-at="2025-03-23T01:22:50 EET" duration-ms="21537" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[🟢 Test Started: verifyUpdateProductQuantity (🔢 Test Case ID: TC-068)]]>
+            </line>
+            <line>
+              <![CDATA[
+🌍 Test Environment:
+🖥️ OS: Windows 11 10.0
+☕ Java Version: 23.0.1
+🌐 Browser: chrome 134.0.6998.118
+]]>
+            </line>
+            <line>
+              <![CDATA[✅ Test PASSED: verifyUpdateProductQuantity (Duration: 21537ms)]]>
+            </line>
+            <line>
+              <![CDATA[<br><img src='E:/Folder/Galal/Courses/Digital Egypt Pioneers Initiative (DEPI) - Software Testing/DEPI Software Tester Graduation Project/automation-framework/reports/screenshots\TC-068\TC-068_screenshot.png' height='300' width='400'/><br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyUpdateProductQuantity -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.ui.CartTest@62435e70]" started-at="2025-03-23T01:22:51 EET" name="tearDown" finished-at="2025-03-23T01:22:51 EET" duration-ms="206" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyUpdateProductQuantity status=SUCCESS method=CartTest.verifyUpdateProductQuantity()[pri:0, instance:tests.ui.CartTest@62435e70] output=🟢 Test Started: verifyUpdateProductQuantity (🔢 Test Case ID: TC-068)]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(org.testng.ITestResult,org.testng.ITestContext)[pri:0, instance:tests.ui.CartTest@62435e70]" started-at="2025-03-23T01:22:51 EET" name="setUp" finished-at="2025-03-23T01:23:08 EET" duration-ms="16855" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=CartTest.verifyValidPromoCodeBlocked()[pri:0, instance:tests.ui.CartTest@62435e70] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@105ffc58]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyValidPromoCodeBlocked()[pri:0, instance:tests.ui.CartTest@62435e70]" started-at="2025-03-23T01:23:08 EET" name="verifyValidPromoCodeBlocked" description="TC-071" finished-at="2025-03-23T01:23:08 EET" duration-ms="2" status="SKIP">
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Blocked: No active promo codes available for testing.]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Blocked: No active promo codes available for testing.
+at tests.ui.CartTest.verifyValidPromoCodeBlocked(CartTest.java:301)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeSingleClass(TestNGDirectoryTestSuite.java:102)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:91)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+            <line>
+              <![CDATA[🟢 Test Started: verifyValidPromoCodeBlocked (🔢 Test Case ID: TC-071)]]>
+            </line>
+            <line>
+              <![CDATA[
+🌍 Test Environment:
+🖥️ OS: Windows 11 10.0
+☕ Java Version: 23.0.1
+🌐 Browser: chrome 134.0.6998.118
+]]>
+            </line>
+            <line>
+              <![CDATA[⚠️ Test SKIPPED: verifyValidPromoCodeBlocked]]>
+            </line>
+            <line>
+              <![CDATA[<br><img src='E:/Folder/Galal/Courses/Digital Egypt Pioneers Initiative (DEPI) - Software Testing/DEPI Software Tester Graduation Project/automation-framework/reports/screenshots\TC-071\TC-071_screenshot.png' height='300' width='400'/><br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyValidPromoCodeBlocked -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.ui.CartTest@62435e70]" started-at="2025-03-23T01:23:08 EET" name="tearDown" finished-at="2025-03-23T01:23:08 EET" duration-ms="195" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyValidPromoCodeBlocked status=SKIP method=CartTest.verifyValidPromoCodeBlocked()[pri:0, instance:tests.ui.CartTest@62435e70] output=🟢 Test Started: verifyValidPromoCodeBlocked (🔢 Test Case ID: TC-071)]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.ui.CartTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

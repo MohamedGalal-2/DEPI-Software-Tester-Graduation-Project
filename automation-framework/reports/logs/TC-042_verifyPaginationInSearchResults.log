@@ -1,0 +1,38 @@
+2025-03-24 22:59:05 [main] INFO  TC-042_verifyPaginationInSearchResults - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-03-24 22:59:05 [main] INFO  TC-042_verifyPaginationInSearchResults - Logger initialized
+2025-03-24 22:59:05 [main] INFO  TC-042_verifyPaginationInSearchResults - Starting test setup for: verifyPaginationInSearchResults (🔢 Test Case ID: TC-042)
+2025-03-24 22:59:28 [main] INFO  TC-042_verifyPaginationInSearchResults - Navigated to the site: https://demo.nopcommerce.com
+2025-03-24 22:59:28 [main] INFO  TC-042_verifyPaginationInSearchResults - Injected cookie: cf_clearance
+2025-03-24 22:59:28 [main] INFO  TC-042_verifyPaginationInSearchResults - Injected cookie: _ga
+2025-03-24 22:59:28 [main] INFO  TC-042_verifyPaginationInSearchResults - Injected cookie: .Nop.Antiforgery
+2025-03-24 22:59:28 [main] INFO  TC-042_verifyPaginationInSearchResults - Injected cookie: .Nop.Customer
+2025-03-24 22:59:28 [main] INFO  TC-042_verifyPaginationInSearchResults - Injected cookie: .Nop.Culture
+2025-03-24 22:59:28 [main] INFO  TC-042_verifyPaginationInSearchResults - Injected cookie: _ga_SCT41TW89V
+2025-03-24 22:59:29 [main] INFO  TC-042_verifyPaginationInSearchResults - Page refreshed with bypassed cookies.
+2025-03-24 22:59:29 [main] INFO  TC-042_verifyPaginationInSearchResults - Navigating to: https://demo.nopcommerce.com/
+2025-03-24 22:59:29 [main] INFO  utils.MainFunctionalities - Searching for product: Computer
+2025-03-24 22:59:36 [main] INFO  utils.MainFunctionalities - Search for 'Computer' completed successfully.
+2025-03-24 22:59:41 [main] WARN  TC-042_verifyPaginationInSearchResults - Pagination is not available due to limited results.
+2025-03-24 22:59:41 [main] INFO  TC-042_verifyPaginationInSearchResults - Closing the browser for test: verifyPaginationInSearchResults
+2025-03-24 22:59:41 [main] INFO  TC-042_verifyPaginationInSearchResults - Browser closed.
+2025-03-25 00:22:22 [main] INFO  TC-042_verifyPaginationInSearchResults - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-03-25 00:22:22 [main] INFO  TC-042_verifyPaginationInSearchResults - Logger initialized
+2025-03-25 00:22:22 [main] INFO  TC-042_verifyPaginationInSearchResults - Starting test setup for: verifyPaginationInSearchResults (🔢 Test Case ID: TC-042)
+2025-03-25 00:22:44 [main] INFO  TC-042_verifyPaginationInSearchResults - Navigated to the site: https://demo.nopcommerce.com
+2025-03-25 00:22:44 [main] INFO  TC-042_verifyPaginationInSearchResults - Injected cookie: cf_clearance
+2025-03-25 00:22:44 [main] INFO  TC-042_verifyPaginationInSearchResults - Injected cookie: _ga
+2025-03-25 00:22:44 [main] INFO  TC-042_verifyPaginationInSearchResults - Injected cookie: .Nop.Antiforgery
+2025-03-25 00:22:44 [main] INFO  TC-042_verifyPaginationInSearchResults - Injected cookie: .Nop.Customer
+2025-03-25 00:22:44 [main] INFO  TC-042_verifyPaginationInSearchResults - Injected cookie: .Nop.Culture
+2025-03-25 00:22:44 [main] INFO  TC-042_verifyPaginationInSearchResults - Injected cookie: _ga_SCT41TW89V
+2025-03-25 00:22:45 [main] INFO  TC-042_verifyPaginationInSearchResults - Page refreshed with bypassed cookies.
+2025-03-25 00:22:45 [main] INFO  TC-042_verifyPaginationInSearchResults - 🟢 Starting test: verifyPaginationInSearchResults (🔢 Test Case ID: TC-042)
+2025-03-25 00:22:45 [main] INFO  TC-042_verifyPaginationInSearchResults - Navigating to: https://demo.nopcommerce.com/
+2025-03-25 00:22:46 [main] INFO  utils.MainFunctionalities - Searching for product: Computer
+2025-03-25 00:22:50 [main] INFO  utils.MainFunctionalities - Search for 'Computer' completed successfully.
+2025-03-25 00:22:56 [main] WARN  TC-042_verifyPaginationInSearchResults - Pagination is not available due to limited results.
+2025-03-25 00:22:56 [main] INFO  listeners.TestListener - ✅ Test PASSED: verifyPaginationInSearchResults (Duration: 10294ms)
+2025-03-25 00:22:56 [main] INFO  TC-042_verifyPaginationInSearchResults - Closing the browser for test: verifyPaginationInSearchResults
+2025-03-25 00:22:56 [main] INFO  TC-042_verifyPaginationInSearchResults - Browser closed.

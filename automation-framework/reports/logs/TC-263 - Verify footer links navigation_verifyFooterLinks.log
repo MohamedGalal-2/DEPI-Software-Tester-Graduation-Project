@@ -1,0 +1,71 @@
+2025-03-21 06:36:20 [main] INFO  TC-263 - Verify footer links navigation_verifyFooterLinks - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-03-21 06:36:20 [main] INFO  TC-263 - Verify footer links navigation_verifyFooterLinks - Logger initialized
+2025-03-21 06:36:20 [main] INFO  TC-263 - Verify footer links navigation_verifyFooterLinks - Starting test setup for: verifyFooterLinks (🔢 Test Case ID: TC-263 - Verify footer links navigation)
+2025-03-21 06:36:40 [main] INFO  TC-263 - Verify footer links navigation_verifyFooterLinks - Navigated to the site: https://demo.nopcommerce.com
+2025-03-21 06:36:40 [main] INFO  TC-263 - Verify footer links navigation_verifyFooterLinks - Injected cookie: _ga
+2025-03-21 06:36:40 [main] INFO  TC-263 - Verify footer links navigation_verifyFooterLinks - Injected cookie: cf_clearance
+2025-03-21 06:36:40 [main] INFO  TC-263 - Verify footer links navigation_verifyFooterLinks - Injected cookie: .Nop.Antiforgery
+2025-03-21 06:36:40 [main] INFO  TC-263 - Verify footer links navigation_verifyFooterLinks - Injected cookie: .Nop.Customer
+2025-03-21 06:36:40 [main] INFO  TC-263 - Verify footer links navigation_verifyFooterLinks - Injected cookie: .Nop.Culture
+2025-03-21 06:36:40 [main] INFO  TC-263 - Verify footer links navigation_verifyFooterLinks - Injected cookie: _ga_SCT41TW89V
+2025-03-21 06:36:40 [main] INFO  TC-263 - Verify footer links navigation_verifyFooterLinks - Page refreshed with bypassed cookies.
+2025-03-21 06:36:41 [main] INFO  TC-263 - Verify footer links navigation_verifyFooterLinks - Navigated to home page.
+2025-03-21 06:36:43 [main] INFO  TC-263 - Verify footer links navigation_verifyFooterLinks - Clicked footer link: Orders
+2025-03-21 06:36:44 [main] INFO  TC-263 - Verify footer links navigation_verifyFooterLinks - Closing the browser for test: verifyFooterLinks
+2025-03-21 06:36:45 [main] INFO  TC-263 - Verify footer links navigation_verifyFooterLinks - Browser closed.
+2025-03-21 06:44:21 [main] INFO  TC-263 - Verify footer links navigation_verifyFooterLinks - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-03-21 06:44:21 [main] INFO  TC-263 - Verify footer links navigation_verifyFooterLinks - Logger initialized
+2025-03-21 06:44:21 [main] INFO  TC-263 - Verify footer links navigation_verifyFooterLinks - Starting test setup for: verifyFooterLinks (🔢 Test Case ID: TC-263 - Verify footer links navigation)
+2025-03-21 06:44:38 [main] INFO  TC-263 - Verify footer links navigation_verifyFooterLinks - Navigated to the site: https://demo.nopcommerce.com
+2025-03-21 06:44:38 [main] INFO  TC-263 - Verify footer links navigation_verifyFooterLinks - Injected cookie: _ga
+2025-03-21 06:44:38 [main] INFO  TC-263 - Verify footer links navigation_verifyFooterLinks - Injected cookie: cf_clearance
+2025-03-21 06:44:38 [main] INFO  TC-263 - Verify footer links navigation_verifyFooterLinks - Injected cookie: .Nop.Antiforgery
+2025-03-21 06:44:38 [main] INFO  TC-263 - Verify footer links navigation_verifyFooterLinks - Injected cookie: .Nop.Customer
+2025-03-21 06:44:38 [main] INFO  TC-263 - Verify footer links navigation_verifyFooterLinks - Injected cookie: .Nop.Culture
+2025-03-21 06:44:38 [main] INFO  TC-263 - Verify footer links navigation_verifyFooterLinks - Injected cookie: _ga_SCT41TW89V
+2025-03-21 06:44:39 [main] INFO  TC-263 - Verify footer links navigation_verifyFooterLinks - Page refreshed with bypassed cookies.
+2025-03-21 06:44:39 [main] INFO  TC-263 - Verify footer links navigation_verifyFooterLinks - Navigated to home page.
+2025-03-21 06:44:41 [main] INFO  TC-263 - Verify footer links navigation_verifyFooterLinks - Clicked footer link: Orders
+2025-03-21 06:44:42 [main] WARN  TC-263 - Verify footer links navigation_verifyFooterLinks - Redirected to login page instead of Orders page.
+2025-03-21 06:44:43 [main] INFO  TC-263 - Verify footer links navigation_verifyFooterLinks - Successfully navigated to: https://demo.nopcommerce.com/login?ReturnUrl=%2Forder%2Fhistory
+2025-03-21 06:44:45 [main] INFO  TC-263 - Verify footer links navigation_verifyFooterLinks - Clicked footer link: Shipping & returns
+2025-03-21 06:44:48 [main] INFO  TC-263 - Verify footer links navigation_verifyFooterLinks - Successfully navigated to: https://demo.nopcommerce.com/shipping-returns
+2025-03-21 06:44:52 [main] INFO  TC-263 - Verify footer links navigation_verifyFooterLinks - Clicked footer link: Privacy notice
+2025-03-21 06:44:55 [main] INFO  TC-263 - Verify footer links navigation_verifyFooterLinks - Successfully navigated to: https://demo.nopcommerce.com/privacy-notice
+2025-03-21 06:44:58 [main] INFO  TC-263 - Verify footer links navigation_verifyFooterLinks - Clicked footer link: Shopping cart
+2025-03-21 06:44:59 [main] INFO  TC-263 - Verify footer links navigation_verifyFooterLinks - Successfully navigated to: https://demo.nopcommerce.com/cart
+2025-03-21 06:45:03 [main] INFO  TC-263 - Verify footer links navigation_verifyFooterLinks - Clicked footer link: Conditions of Use
+2025-03-21 06:45:04 [main] INFO  TC-263 - Verify footer links navigation_verifyFooterLinks - Successfully navigated to: https://demo.nopcommerce.com/conditions-of-use
+2025-03-21 06:45:07 [main] INFO  TC-263 - Verify footer links navigation_verifyFooterLinks - Clicked footer link: Compare products list
+2025-03-21 06:45:09 [main] INFO  TC-263 - Verify footer links navigation_verifyFooterLinks - Successfully navigated to: https://demo.nopcommerce.com/compareproducts
+2025-03-21 06:45:12 [main] INFO  TC-263 - Verify footer links navigation_verifyFooterLinks - Clicked footer link: Apply for vendor account
+2025-03-21 06:45:14 [main] WARN  TC-263 - Verify footer links navigation_verifyFooterLinks - Redirected to login page instead of Apply for vendor account page.
+2025-03-21 06:45:14 [main] INFO  TC-263 - Verify footer links navigation_verifyFooterLinks - Successfully navigated to: https://demo.nopcommerce.com/login?ReturnUrl=%2Fvendor%2Fapply
+2025-03-21 06:45:17 [main] INFO  TC-263 - Verify footer links navigation_verifyFooterLinks - Clicked footer link: About us
+2025-03-21 06:45:18 [main] INFO  TC-263 - Verify footer links navigation_verifyFooterLinks - Successfully navigated to: https://demo.nopcommerce.com/about-us
+2025-03-21 06:45:22 [main] INFO  TC-263 - Verify footer links navigation_verifyFooterLinks - Clicked footer link: Addresses
+2025-03-21 06:45:25 [main] WARN  TC-263 - Verify footer links navigation_verifyFooterLinks - Redirected to login page instead of Addresses page.
+2025-03-21 06:45:25 [main] INFO  TC-263 - Verify footer links navigation_verifyFooterLinks - Successfully navigated to: https://demo.nopcommerce.com/login?ReturnUrl=%2Fcustomer%2Faddresses
+2025-03-21 06:45:27 [main] INFO  TC-263 - Verify footer links navigation_verifyFooterLinks - Clicked footer link: Sitemap
+2025-03-21 06:45:29 [main] INFO  TC-263 - Verify footer links navigation_verifyFooterLinks - Successfully navigated to: https://demo.nopcommerce.com/sitemap
+2025-03-21 06:45:33 [main] INFO  TC-263 - Verify footer links navigation_verifyFooterLinks - Clicked footer link: My account
+2025-03-21 06:45:36 [main] WARN  TC-263 - Verify footer links navigation_verifyFooterLinks - Redirected to login page instead of My account page.
+2025-03-21 06:45:36 [main] INFO  TC-263 - Verify footer links navigation_verifyFooterLinks - Successfully navigated to: https://demo.nopcommerce.com/login?ReturnUrl=%2Fcustomer%2Finfo
+2025-03-21 06:45:40 [main] INFO  TC-263 - Verify footer links navigation_verifyFooterLinks - Clicked footer link: Search
+2025-03-21 06:45:41 [main] INFO  TC-263 - Verify footer links navigation_verifyFooterLinks - Successfully navigated to: https://demo.nopcommerce.com/search
+2025-03-21 06:45:44 [main] INFO  TC-263 - Verify footer links navigation_verifyFooterLinks - Clicked footer link: News
+2025-03-21 06:45:47 [main] INFO  TC-263 - Verify footer links navigation_verifyFooterLinks - Successfully navigated to: https://demo.nopcommerce.com/news
+2025-03-21 06:45:51 [main] INFO  TC-263 - Verify footer links navigation_verifyFooterLinks - Clicked footer link: Contact us
+2025-03-21 06:45:53 [main] INFO  TC-263 - Verify footer links navigation_verifyFooterLinks - Successfully navigated to: https://demo.nopcommerce.com/contactus
+2025-03-21 06:45:56 [main] INFO  TC-263 - Verify footer links navigation_verifyFooterLinks - Clicked footer link: Wishlist
+2025-03-21 06:45:58 [main] INFO  TC-263 - Verify footer links navigation_verifyFooterLinks - Successfully navigated to: https://demo.nopcommerce.com/wishlist
+2025-03-21 06:46:03 [main] INFO  TC-263 - Verify footer links navigation_verifyFooterLinks - Clicked footer link: New products
+2025-03-21 06:46:05 [main] INFO  TC-263 - Verify footer links navigation_verifyFooterLinks - Successfully navigated to: https://demo.nopcommerce.com/newproducts
+2025-03-21 06:46:09 [main] INFO  TC-263 - Verify footer links navigation_verifyFooterLinks - Clicked footer link: Blog
+2025-03-21 06:46:11 [main] INFO  TC-263 - Verify footer links navigation_verifyFooterLinks - Successfully navigated to: https://demo.nopcommerce.com/blog
+2025-03-21 06:46:14 [main] INFO  TC-263 - Verify footer links navigation_verifyFooterLinks - Clicked footer link: Recently viewed products
+2025-03-21 06:46:16 [main] INFO  TC-263 - Verify footer links navigation_verifyFooterLinks - Successfully navigated to: https://demo.nopcommerce.com/recentlyviewedproducts
+2025-03-21 06:46:17 [main] INFO  TC-263 - Verify footer links navigation_verifyFooterLinks - Closing the browser for test: verifyFooterLinks
+2025-03-21 06:46:18 [main] INFO  TC-263 - Verify footer links navigation_verifyFooterLinks - Browser closed.
