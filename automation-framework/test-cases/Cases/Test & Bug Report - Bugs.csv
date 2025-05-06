@@ -1,0 +1,1046 @@
+Issue,Summary,Test Case ID,Description,Preconditions,Test Steps,Expected Result,Actual Result,Priority,Test Status,Test Type,Module/Feature,Test Owner,Test Environment,Automation Status,Test Script Reference,Execution Date,Comments
+Test Case,Verify homepage loads properly,TC-001,Homepage loads without errors.,None,1. Open the website URL.,Homepage loads without errors.,The Homepage loads normally without any errors as expected.,High,Passed,Smoke,Homepage,mohamed.gallall12@gmail.com,Windows 11 V. 23H2 Build 22631.5039 + Chrome V. 134.0.6998.89,Automated,https://github.com/MohamedGalal-2/DEPI-Software-Tester-Graduation-Project/blob/main/automation-framework/src/test/java/tests/ui/HomePageTest.java,15/3/2025,
+Test Case,Verify search functionality,TC-002,Verifiy that the search functionality is present and accessible on the website/application. It ensures that the search bar is visible and allows user input.,None,"1. Open the application or website.
+2. Check if a search bar is visible on the homepage.
+3. Verify that the search bar is interactive (clickable and allows input).
+4. Type any text into the search bar to confirm it accepts input.","The search bar is present, visible, and allows user input.","The search bar is available on the homepage, is interactive, and accepts user input as expected.",High,Passed,Smoke,Search,mohamed.gallall12@gmail.com,Windows 11 V. 23H2 Build 22631.5039 + Chrome V. 134.0.6998.89,Automated,https://github.com/MohamedGalal-2/DEPI-Software-Tester-Graduation-Project/blob/main/automation-framework/src/test/java/tests/ui/SearchTest.java,15/3/2025,
+Test Case,Verify product page loads correctly,TC-003,The product details page loads correctly.,At least one product must be listed in the catalog.,"1. Navigate to the homepage of the website (https://demo.nopcommerce.com/).
+2. Perform a search for a product (e.g., ""Laptop"").
+3. Click on a product from the search results to open the product details page.","The product details page should load successfully.
+The page should contain product information such as title, price, and description.","The product details page loaded successfully as expected. The page displayed the product information (title, price, etc.) without issues.",High,Passed,Smoke,Product-Page,mohamed.gallall12@gmail.com,Windows 11 V. 23H2 Build 22631.5039 + Chrome V. 134.0.6998.89,Automated,https://github.com/MohamedGalal-2/DEPI-Software-Tester-Graduation-Project/blob/main/automation-framework/src/test/java/tests/ui/ProductPageTest.java,15/3/2025,
+Test Case,Verify Checkout Page Loads Successfully,TC-004,Ensure that the checkout page loads successfully after adding a product to the cart and proceeding with the checkout process.,The user must have at least one item in the cart.,"1. Navigate to the nopCommerce demo site.
+2. Navigate to the product page.
+3. Add the product to the cart.
+4. Proceed to checkout.
+5. Accept the terms of service.
+6. Click on the ""Checkout"" button.",The checkout page loads successfully after the product is added to the cart and the user proceeds with checkout.,"The checkout page loaded successfully, and all actions performed as expected.",High,Passed,Smoke,Checkout,mohamed.gallall12@gmail.com,Windows 11 V. 23H2 Build 22631.5039 + Chrome V. 134.0.6998.89,Automated,https://github.com/MohamedGalal-2/DEPI-Software-Tester-Graduation-Project/blob/main/automation-framework/src/test/java/tests/ui/CheckoutTest.java,16/3/2025,
+Test Case,Verify entering shipping details,TC-005,Verify that the checkout form is is fillable and the shipping details data are accepted without errors.,The checkout page must be accessible.,"1. Navigate to the nopCommerce demo site.
+2. Navigate to the product page.
+3. Add the product to the cart.
+4. Proceed to checkout.
+5. Accept the terms of service.
+6. Click on the ""Checkout"" button.
+7. Fill the checkout form.",Details are accepted without errors.,Details were accepted without errors.,High,Passed,Smoke,Checkout,mohamed.gallall12@gmail.com,Windows 11 V. 23H2 Build 22631.5039 + Chrome V. 134.0.6998.89,Automated,https://github.com/MohamedGalal-2/DEPI-Software-Tester-Graduation-Project/blob/main/automation-framework/src/test/java/tests/ui/CheckoutTest.java,17/3/2025,
+Test Case,Verify entering billing details,TC-006,Verify that the checkout form is is fillable and the billing details are accepted without errors.,The checkout page must be accessible.,"1. Navigate to the nopCommerce demo site.
+2. Navigate to the product page.
+3. Add the product to the cart.
+4. Proceed to checkout.
+5. Accept the terms of service.
+6. Click on the ""Checkout"" button.
+7. Fill the checkout form.",Details are accepted without errors.,Details were accepted without errors.,High,Passed,Smoke,Checkout,mohamed.gallall12@gmail.com,Windows 11 V. 23H2 Build 22631.5039 + Chrome V. 134.0.6998.89,Automated,https://github.com/MohamedGalal-2/DEPI-Software-Tester-Graduation-Project/blob/main/automation-framework/src/test/java/tests/ui/CheckoutTest.java,17/3/2025,
+Test Case,Verify selecting a payment method,TC-007,Selected method is applied.,The checkout process must support multiple payment methods.,1. Choose a payment method at checkout.,Selected method is applied.,,High,Duplicated,Smoke,Payments,mohamed.gallall12@gmail.com,,Automated,,,Covered in TC-189
+Test Case,Verify placing an order,TC-008,Order is successfully placed.,None,1. Complete checkout with valid payment details.,Order is successfully placed.,,High,Duplicated,Smoke,Order-Processing,mohamed.gallall12@gmail.com,,Automated,,,Covered in TC-005 & TC-006 & TC-072 & TC-073
+Test Case,Verify order confirmation message,TC-009,A confirmation message is displayed.,The order must be successfully placed.,1. Place an order.,A confirmation message is displayed.,,High,Duplicated,Smoke,Order-Processing,mohamed.gallall12@gmail.com,,Automated,,,Covered in TC-081
+Test Case,Verify order confirmation email,TC-010,Order confirmation email is received.,"The order must be successfully placed, and the system must support email notifications.",1. Place an order. 2. Check email inbox.,Order confirmation email is received.,,High,Duplicated,Smoke,Order-Processing,mohamed.gallall12@gmail.com,,Automated,,,Covered in TC-092
+Test Case,Verify successful payment processing,TC-011,"Payment is processed, and order is placed.",A valid payment method must be available.,1. Complete checkout with valid payment details.,"Payment is processed, and order is placed.",,High,Duplicated,Smoke,Payments,mohamed.gallall12@gmail.com,,Automated,,,Covered in TC-189
+Test Case,Verify failed transaction due to incorrect card details,TC-012,"Ensure that the payment is not processed successfully when invalid payment details are used.
+Preconditions.","The user is logged in to the website.
+The user has added a product to the cart.
+Invalid payment details (e.g., a invalid credit card number, expiration date, and wrong card code) are available.","1. Navigate to the checkout page.
+2. In the payment section, do the following:
+- Select an invalid credit card type (e.g., Visa).
+- Enter a cardholder name (e.g., John Doe).
+- Enter an invalid credit card number (e.g., 999).
+- Select an expired or invalid expiration month and year (e.g., 01-2025).
+- Enter an invalid card code (CVV) (e.g., 123).
+3. Click on the ""Submit Payment"" button.
+4. Wait for the payment processing response.","The payment should fail, and the user should see an error message indicating the issue with the payment details (e.g., ""Invalid card number,"" ""Expired card,"" or ""Wrong card code"").
+The payment form should not submit successfully, and the user is not redirected to the order confirmation page.
+Error messages should be displayed under the relevant fields in the payment section (e.g., for ""Card Number,"" ""Expiration Date,"" and ""Card Code"").","The payment is not processed successfully due to invalid payment details (e.g., invalid credit card number, expired card, or incorrect card code). Error messages are displayed under the relevant fields
+""Invalid card number"" for the incorrect credit card number.
+""Card expired"" for the expired card.
+""Wrong card code""
+The user is unable to proceed with the payment, and no charge is made.",High,Passed,Smoke,Payments,mohamed.gallall12@gmail.com,Windows 11 V. 23H2 Build 22631.5039 + Chrome V. 134.0.6998.89,Automated,https://github.com/MohamedGalal-2/DEPI-Software-Tester-Graduation-Project/blob/main/automation-framework/src/test/java/tests/ui/PaymentsTest.java,18/3/2025,
+Test Case,Verify website responsiveness,TC-013,Website adapts to different screen sizes.,None,1. Open the website on different devices.,Website adapts to different screen sizes.,,Medium,Duplicated,Smoke,UI/UX,mohamed.gallall12@gmail.com,Windows 11 V. 23H2 Build 22631.5039 + Chrome V. 134.0.6998.89,Manual,,25/03/2025,Covered in TC-158 & TC-159
+Test Case,Verify broken links,TC-014,No broken links exist.,The website must contain multiple links.,1. Click on various links.,No broken links exist.,,Medium,Duplicated,Smoke,UI/UX,mohamed.gallall12@gmail.com,Windows 11 V. 23H2 Build 22631.5039 + Chrome V. 134.0.6998.89,Manual,,25/03/2025,Covered in TC-280
+Test Case,Verify cart persistence,TC-015,This test verifies whether a product remains in the cart after the user refreshes the page or logs out and logs back in.,"The user must be logged in.
+The product must be available in stock.","1. Navigate to a product page.
+2. Click on the ""Add to Cart"" button.
+3. Verify that the product appears in the cart.
+4. Refresh the page.
+5. Navigate to the cart page again and check if the product is still present.
+6. Log out and log back in.
+7. Navigate to the cart page and check if the product is still in the cart.",The product should remain in the cart after refreshing the page. The product should still be in the cart after logging out and logging back in.,The product remained in the cart after refreshing the page and also remained in the cart after logging out and logging in again.,Medium,Passed,Smoke,Cart,mohamed.gallall12@gmail.com,Windows 11 V. 23H2 Build 22631.5039 + Chrome V. 134.0.6998.89,Automated,https://github.com/MohamedGalal-2/DEPI-Software-Tester-Graduation-Project/blob/main/automation-framework/src/test/java/tests/ui/CartTest.java,18/3/2025,
+Test Case,Verify page load performance,TC-016,Ensure that pages load within an acceptable time across different sections of the website.,None,"1. Open the website homepage and measure the loading time.
+2. Navigate to multiple pages, including product listings, checkout, and account settings.
+3. Observe if there are any delays, excessive loading times, or performance issues.
+4. Verify that the pages load smoothly without unnecessary delays.
+","All pages should load within an acceptable time frame, ensuring a smooth user experience.",All tested pages loaded quickly and within an acceptable time limit. No noticeable delays or performance issues were observed.,High,Passed,Smoke,Performance,mohamed.gallall12@gmail.com,Windows 11 V. 23H2 Build 22631.5039 + Chrome V. 134.0.6998.89,Manual,,25/03/2025,
+Test Case,Verify UI elements,TC-017,"Buttons, forms, and UI elements function correctly.",None,1. Navigate through the website.,"Buttons, forms, and UI elements function correctly.",,Medium,Duplicated,Smoke,UI/UX,mohamed.gallall12@gmail.com,Windows 11 V. 23H2 Build 22631.5039 + Chrome V. 134.0.6998.89,Manual,,25/03/2025,Covered in TC-154
+Test Case,Verify adding multiple products to the cart,TC-018,"Verify that all selected products are added to the shopping cart.
+Pre-Condition: The website must have multiple products available for purchase.",The website must have multiple products available for purchase.,"1. Navigate to the first product page.
+2. Add the first product to the cart.
+3. Wait for the success message confirming that the product was added.
+4. Verify that the cart quantity is updated.
+5. Repeat the process for all other selected products.","All selected products are successfully added to the cart, and the cart quantity is updated for each product added.","The test passed successfully. All selected products (Lenovo IdeaCentre, Apple MacBook Pro, Flower Girl Bracelet, Pride and Prejudice, Night Visions, Ray-Ban Aviator Sunglasses, and Universal Tablet Cover) were successfully added to the cart. The cart quantity was updated after each product addition, confirming that the products were correctly added.",High,Passed,Smoke,Cart,mohamed.gallall12@gmail.com,Windows 11 V. 23H2 Build 22631.5039 + Chrome V. 134.0.6998.89,Automated,https://github.com/MohamedGalal-2/DEPI-Software-Tester-Graduation-Project/blob/main/automation-framework/src/test/java/tests/ui/CartTest.java,18/3/2025,
+Test Case,Verify removing multiple products from the cart,TC-019,Each product is removed successfully.,The user must have multiple products in the cart.,"1. Add multiple products to the cart.
+2. Navigate to the cart page.
+3. Remove each product one by one.
+4. Verify that the cart is empty after all removals.","Each product is removed successfully.
+The cart displays an empty message after removing all items.","All products were successfully removed from the cart. The cart displayed the message: ""Your Shopping Cart is empty!"". The test case passed successfully.",High,Passed,Smoke,Cart,mohamed.gallall12@gmail.com,Windows 11 V. 23H2 Build 22631.5039 + Chrome V. 134.0.6998.89,Automated,https://github.com/MohamedGalal-2/DEPI-Software-Tester-Graduation-Project/blob/main/automation-framework/src/test/java/tests/ui/CartTest.java,18/3/2025,
+Test Case,Verify product variation selection,TC-020,Selected variation is reflected in the cart.,"The product must have multiple variations (e.g., size, color).","1. Navigate to the product page for the ""Build Your Own Computer"" product.
+2. Select a processor option.
+3. Select a RAM option.
+4. Select an HDD option.
+5. Select an OS option.
+6. Add the product to the cart.
+7. Verify that the selected variations (processor, RAM, HDD, OS) are reflected in the cart.","The selected variations (processor, RAM, HDD, OS) should be correctly reflected in the cart after adding the product.","The selected variations are correctly reflected in the cart, and the price changes according to the selections.",Medium,Passed,Smoke,Product-Page,mohamed.gallall12@gmail.com,Windows 11 V. 23H2 Build 22631.5039 + Chrome V. 134.0.6998.89,Automated,https://github.com/MohamedGalal-2/DEPI-Software-Tester-Graduation-Project/blob/main/automation-framework/src/test/java/tests/ui/ProductPageTest.java,15/3/2025,
+Test Case,Verify session handling,TC-021,Ensure the user remains logged in if the session is active after refreshing or reopening the browser.,The user must be logged in.,"1. Log in to the website with valid credentials.
+2. Refresh the browser or close the browser and reopen it.
+3. Navigate back to the website and verify that the user remains logged in.",The user should remain logged in if the session is still active after the page refresh or after reopening the browser.,"The user logged in successfully. After refreshing the browser or reopening it, the user remained logged in without needing to re-enter credentials. The session remained active and the user was able to access secure areas of the website as expected.",High,Passed,Smoke,Security,mohamed.gallall12@gmail.com,Windows 11 V. 23H2 Build 22631.5039 + Chrome V. 134.0.6998.89,Automated,https://github.com/MohamedGalal-2/DEPI-Software-Tester-Graduation-Project/blob/main/automation-framework/src/test/java/tests/ui/SecurityTest.java,18/3/2025,
+Test Case,Verify adding an out-of-stock product,TC-022,System prevents adding the product and displays a message.,A product must be marked as out of stock.,"1. Navigate to the product catalog or inventory page.
+2. Try to add an out-of-stock product to the cart.","The system should display a message and prevent adding the out-of-stock product to the cart. A message like ""This product is currently out of stock"" or similar should appear.","There are no out-of-stock products available for testing, and the scenario cannot be tested.",Medium,Blocked,Smoke,Inventory,mohamed.gallall12@gmail.com,Windows 11 V. 23H2 Build 22631.5039 + Chrome V. 134.0.6998.89,Manual,,19/3/2025,
+Test Case,Verify user registration with valid details,TC-023,User should be registered successfully.,None,"1. Navigate to Registration Page.
+2. Enter Valid Registration Details.
+3. Click the 'Register' Button.
+4. Verify Registration Success.
+5. Submit the form.","The user should be successfully registered. A confirmation message (""Your registration completed"") should appear. The user is redirected or navigated to the appropriate page after registration (e.g., the homepage or a dashboard).
+","The registration was successful, and the confirmation message was displayed. The user was navigated to the homepage after clicking ""Continue.""",High,Passed,Functional,Authentication,mohamed.gallall12@gmail.com,Windows 11 V. 23H2 Build 22631.5039 + Chrome V. 134.0.6998.89,Automated,https://github.com/MohamedGalal-2/DEPI-Software-Tester-Graduation-Project/blob/main/automation-framework/src/test/java/tests/ui/InventoryTest.java,19/3/2025,
+Test Case,Verify error message for registration with missing mandatory fields,TC-024,Error message should be displayed.,None,"1. Navigate to the registration page. 
+2. Leave mandatory fields empty. 
+3. Click 'Register'.",Error message should be displayed.,Error message displayed as expected,High,Passed,Functional,Authentication,mohamed.gallall12@gmail.com,Windows 11 V. 23H2 Build 22631.5039 + Chrome V. 134.0.6998.89,Automated,https://github.com/MohamedGalal-2/DEPI-Software-Tester-Graduation-Project/blob/main/automation-framework/src/test/java/tests/ui/InventoryTest.java,19/3/2025,
+Test Case,Verify login with valid credentials,TC-025,User should be logged in.,A registered user account must exist.,"1. Navigate to the login page (using the URL specified in the configuration).
+2. Enter a valid registered email address (e.g., a58228753b@emaily.pro) in the Email input field.
+3. Enter a valid password (e.g., 123456) in the Password input field.
+4. Click the 'Login' button.","The user should be successfully logged in, and a post-login element (like the logout button) should be visible to confirm that the user is logged in.","The login process was successful, and the logout button was displayed, confirming that the user was logged in successfully.",High,Passed,Functional,Authentication,mohamed.gallall12@gmail.com,Windows 11 V. 23H2 Build 22631.5039 + Chrome V. 134.0.6998.89,Automated,https://github.com/MohamedGalal-2/DEPI-Software-Tester-Graduation-Project/blob/main/automation-framework/src/test/java/tests/ui/InventoryTest.java,19/3/2025,
+Test Case,Verify login with invalid credentials,TC-026,Error message should be displayed.,None,"1. Navigate to the login page.
+2. Enter invalid credentials: an incorrect email address and password.
+3. Click the 'Login' button.
+4. Observe the page to check for an error message indicating invalid login.","An error message should be displayed, indicating invalid credentials.","The error message ""Incorrect email or password"" is displayed, confirming that the system correctly handles invalid login attempts.",High,Passed,Functional,Authentication,mohamed.gallall12@gmail.com,Windows 11 V. 23H2 Build 22631.5039 + Chrome V. 134.0.6998.89,Automated,https://github.com/MohamedGalal-2/DEPI-Software-Tester-Graduation-Project/blob/main/automation-framework/src/test/java/tests/ui/InventoryTest.java,19/3/2025,
+Test Case,Verify account lockout after multiple failed login attempts,TC-027,Ensure that the account is locked after a defined number of failed login attempts to enforce security policies.,The system must enforce account lockout policies.,"1. Attempt to log in to the website with incorrect login credentials multiple times (e.g., more than the defined failed attempt limit).
+2. After the defined number of failed attempts, check if the account is locked and the user is unable to log in.
+","The account should be locked after the defined number of failed login attempts, preventing further login attempts.
+","After several failed login attempts with incorrect details (more than the defined limit), the account was not locked. The user was still able to log in after the failed attempts, which indicates that the system did not enforce the account lockout policy as expected.",High,Failed,Security,Security,mohamed.gallall12@gmail.com,Windows 11 V. 23H2 Build 22631.5039 + Chrome V. 134.0.6998.89,Automated,https://github.com/MohamedGalal-2/DEPI-Software-Tester-Graduation-Project/blob/main/automation-framework/src/test/java/tests/ui/SecurityTest.java,18/3/2025,
+Test Case,Verify logout functionality,TC-028,User should be logged out after clicking 'Logout'.,The user must be logged in.,"1. Navigate to the login page.
+2. Enter valid credentials (email and password).
+3. Click 'Login' to successfully log in.
+4. Once logged in, click the 'Logout' button.
+5. Verify that the user is logged out by checking for the presence of the ""Log in"" link.",User should be logged out successfully. The login page or login button should be displayed after the logout action.,"The user logged out successfully. After clicking the 'Logout' button, the ""Log in"" link became visible, indicating that the user has been logged out.",Medium,Passed,Functional,Authentication,mohamed.gallall12@gmail.com,Windows 11 V. 23H2 Build 22631.5039 + Chrome V. 134.0.6998.89,Automated,https://github.com/MohamedGalal-2/DEPI-Software-Tester-Graduation-Project/blob/main/automation-framework/src/test/java/tests/ui/InventoryTest.java,19/3/2025,
+Test Case,Verify password reset with a valid email,TC-029,Password reset link should be sent when a valid registered email is entered.,The user must have a registered email.,"1. Click on the ""Forgot Password"" link.
+2. Enter a valid registered email address.
+3. Submit the password reset request.",A password reset link should be sent to the entered registered email.,"After registration, the email with the activation link was not received. Despite the missing email, the account was activated normally, and the user was able to log in.",High,Failed,Functional,Authentication,mohamed.gallall12@gmail.com,Windows 11 V. 23H2 Build 22631.5039 + Chrome V. 134.0.6998.89,Manual,,19/3/2025,
+Test Case,Verify account activation via email verification,TC-031,Verify that a user account can be activated via email verification.,A new user must register with an email.,"1. Register a new account with a valid email address.
+2. Check the registered email for an activation link.
+3. Click on the activation link.
+4. Attempt to log in with the registered credentials.",The account should be activated successfully. The user should be able to log in without issues.,"After registration, the email with the activation link was not received and the account was activated normally.",High,Blocked,Functional,Authentication,mohamed.gallall12@gmail.com,Windows 11 V. 23H2 Build 22631.5039 + Chrome V. 134.0.6998.89,Manual,,19/3/2025,
+Test Case,Verify account activation via SMS verification,TC-032,Verify that a user account can be activated via OTP sent to the mobile phone.,A new user must register with a phone number.,"1. Navigate to the registration page.
+2. Register a new account using a valid phone number.
+3. The system should send an OTP (One-Time Password) via SMS.
+4. Enter the received OTP in the provided field.
+5. Attempt to log in with the registered credentials.",The OTP should be received via SMS. Entering the correct OTP should activate the account. The user should be able to log in successfully.,There is no activation feature implemented on the website for SMS verification. The account was activated automatically upon registration without requiring an OTP.,High,Blocked,Functional,Authentication,mohamed.gallall12@gmail.com,Windows 11 V. 23H2 Build 22631.5039 + Chrome V. 134.0.6998.89,Manual,,19/3/2025,
+Test Case,Verify login before account activation,TC-033,Verify that the system prevents login before account activation.,"The user has registered, but their account is not activated yet.",1. Attempt to log in with the registered email address (or mobile number) and password before clicking on the activation link or entering the OTP.,The system should display an error message indicating that the account is not activated yet.,There is no activation feature implemented on the website for SMS verification. The account was activated automatically upon registration without requiring an OTP.,High,Blocked,Functional,Authentication,mohamed.gallall12@gmail.com,Windows 11 V. 23H2 Build 22631.5039 + Chrome V. 134.0.6998.89,Manual,,19/3/2025,
+Test Case,Verify password strength requirements,TC-034,Ensure that the system displays an error message when a user tries to register with a weak password that does not meet the required strength criteria.,The user is on the registration page and ready to create an account.,"1. Navigate to the registration page of the website.
+2. Enter a weak password that does not meet the required strength criteria (e.g., no uppercase letters, no numbers, or too short).
+3. Submit the registration form.","An error message should be displayed, informing the user that the password does not meet the required strength criteria.","No error message was displayed, and the user was able to proceed despite the weak password.",High,Failed,Security,Security,mohamed.gallall12@gmail.com,Windows 11 V. 23H2 Build 22631.5039 + Chrome V. 134.0.6998.89,Automated,https://github.com/MohamedGalal-2/DEPI-Software-Tester-Graduation-Project/blob/main/automation-framework/src/test/java/tests/ui/SecurityTest.java,18/3/2025,
+Test Case,Verify user can change password from profile settings,TC-035,Password should be updated.,The user must be logged in.,1. Log in. 2. Navigate to profile. 3. Change password.,Password should be updated.,,Medium,Duplicated,Functional,Authentication,mohamed.gallall12@gmail.com,,Automated,,,Covered in TC-118
+Test Case,Verify error message when trying to register with an already used email,TC-036,Verify that an appropriate error message is displayed when attempting to register using an already registered email.,"A user account must already exist with the email being tested. The application must be accessible, and the registration page must be functional.","1. Navigate to the registration page.
+2. Fill in the registration form.
+3. Click the ""Register"" button.
+4. Observe the error message displayed.","The system should display an error message stating that the email is already registered.
+The error message should appear in the message-error validation-summary-errors section, displaying:
+""The specified email already exists""","The system successfully detects that the email is already registered. An error message is displayed on the registration page within the message-error validation-summary-errors section. The registration attempt is blocked, and no new account is created.",High,Passed,Functional,Authentication,mohamed.gallall12@gmail.com,Windows 11 V. 23H2 Build 22631.5039 + Chrome V. 134.0.6998.89,Automated,https://github.com/MohamedGalal-2/DEPI-Software-Tester-Graduation-Project/blob/main/automation-framework/src/test/java/tests/ui/InventoryTest.java,21/3/2025,
+Test Case,Verify product search by name,TC-037,Relevant products matching the name are displayed,At least one product must exist in the catalog.,"1. Open the website.
+2. Locate the search bar.
+3. Type a product name that exists in the catalog.
+4. Press the ""Enter"" key or click the search button.
+5. Verify that the displayed products match the searched name.",Relevant products matching the name are displayed,The search correctly returns products matching the entered name from the catalog.,High,Passed,Functional,Search,mohamed.gallall12@gmail.com,Windows 11 V. 23H2 Build 22631.5039 + Chrome V. 134.0.6998.89,Automated,https://github.com/MohamedGalal-2/DEPI-Software-Tester-Graduation-Project/blob/main/automation-framework/src/test/java/tests/ui/SearchTest.java,15/3/2025,
+Test Case,Verify product search by category,TC-038,Products related to the selected category are displayed,At least one product must be assigned to a category.,"1. Navigate to https://demo.nopcommerce.com/.
+2. Click on the ""Computers"" from the navigation.
+3. Wait for the page to load and ensure the category title is correct.
+4. Verify that products are displayed under the selected category.
+","The search correctly filters and displays products that belong to the selected category, ensuring only relevant items appear in the results.","The search successfully displays only products from the selected category, and no unrelated items appear in the results.",High,Passed,Functional,Search,mohamed.gallall12@gmail.com,Windows 11 V. 23H2 Build 22631.5039 + Chrome V. 134.0.6998.89,Automated,https://github.com/MohamedGalal-2/DEPI-Software-Tester-Graduation-Project/blob/main/automation-framework/src/test/java/tests/ui/SearchTest.java,15/3/2025,
+Test Case,Verify product search by price range,TC-039,Products within the specified price range are displayed,At least one product must have a price set.,"1. Open the browser and navigate to https://demo.nopcommerce.com/camera-photo.
+2. Wait until the page loads completely.
+3. Locate the price range filter slider.
+4. Drag the left slider to increase the minimum price (e.g., from $0 to $500).
+5. Drag the right slider to decrease the maximum price (e.g., from $5000 to $2500).
+6. Click on the Filter button to apply the price range.
+7. Wait for the product list to update.
+8. Verify that the displayed products have prices within the selected range (e.g., $500 - $2500).","The product list updates successfully, displaying only items with prices between $500 and $2500. No products outside this range should be visible.",Products are displayed correctly within the selected price range.,High,Passed,Functional,Search,mohamed.gallall12@gmail.com,Windows 11 V. 23H2 Build 22631.5039 + Chrome V. 134.0.6998.89,Manual,,15/3/2025,
+Test Case,Verify product search by ratings,TC-040,Only products with the selected ratings appear,At least one product must have ratings.,"1. Navigate to the camera-photo category page.
+2. Look for the rating filter in the sidebar (or expected location).
+3. Observe that no such filter is present.",Only products with the selected ratings appear,The rating filter is missing from the search results page.,High,Blocked,Functional,Search,mohamed.gallall12@gmail.com,Windows 11 V. 23H2 Build 22631.5039 + Chrome V. 134.0.6998.89,Manual,,15/3/2025,Attachment: https://drive.google.com/drive/folders/1kJy9GIMHIesaqWQhf93P9Dt6j2bNssyx
+Test Case,Verify search results match entered keywords,TC-041,Ensure that the search function retrieves results relevant to the entered keyword.,At least one product must have relevant keywords.,"1. Navigate to the homepage.
+2. Locate the search bar.
+3. Enter a specific keyword (e.g., ""Laptop"") into the search field.
+4. Click on the Search button.
+5. Wait for the search results to load.
+6. Verify that the listed products contain the searched keyword in their title or description.",The search results are relevant to the entered keyword,"Some keywords return correct results, while others produce no results or irrelevant items.",High,Failed,Functional,Search,mohamed.gallall12@gmail.com,Windows 11 V. 23H2 Build 22631.5039 + Chrome V. 134.0.6998.89,Manual,,15/3/2025,Attachment: https://drive.google.com/drive/folders/1EwuZ82GaLOHhODBt7pqHwh0BYDF0nTAU
+Test Case,Verify pagination in search results,TC-042,The next set of results appears without errors,The search must return multiple pages of results.,"1. Navigate to the website.
+2. Locate the search bar and enter a keyword that is expected to return a large number of results.
+3. Click the search button to submit the query.
+4. Observe if the search results page displays pagination controls (e.g., ""Next"", ""Previous"", or numbered pages).
+5. If pagination is available:
+- Click ""Next"" to navigate to the next page of results.
+- Verify that a new set of results is displayed.
+- Click ""Previous"" to return to the first page.
+- Verify that the first page of results is displayed again.","If the number of results exceeds the per-page limit, pagination controls should appear.
+Clicking ""Next"" should load a new set of results.
+Clicking ""Previous"" should navigate back to the previous set of results.","No pagination controls are displayed because the site does not have enough products to trigger pagination.
+",Low,Blocked,Functional,Search,mohamed.gallall12@gmail.com,Windows 11 V. 23H2 Build 22631.5039 + Chrome V. 134.0.6998.89,Automated,https://github.com/MohamedGalal-2/DEPI-Software-Tester-Graduation-Project/blob/main/automation-framework/src/test/java/tests/ui/SearchTest.java,15/3/2025,
+Test Case,"Verify sorting options (low to high, high to low, relevance, etc.)",TC-043,Products are sorted correctly based on the selected option,The search results must contain multiple items.,"1. Navigate to nopCommerce Demo Store.
+2. Enter a search keyword (e.g., ""Laptop"") in the search bar and click the search button.
+3. Wait for search results to load.
+4. Locate the sorting dropdown and select each sorting option one by one:
+- Price: Low to High
+- Price: High to Low
+- Name: A to Z
+- Name: Z to A
+- Relevance (if available)
+5 After selecting each sorting option:
+- Wait for the search results to update.
+6. Retrieve the product list and verify if they are sorted correctly according to the selected criteria.
+7. Repeat for all sorting options.",Products are sorted correctly based on the selected option,Products are sorted correctly based on the selected option,Medium,Passed,Functional,Search,mohamed.gallall12@gmail.com,Windows 11 V. 23H2 Build 22631.5039 + Chrome V. 134.0.6998.89,Automated,https://github.com/MohamedGalal-2/DEPI-Software-Tester-Graduation-Project/blob/main/automation-framework/src/test/java/tests/ui/SearchTest.java,15/3/2025,
+Test Case,Verify filtering by brand,TC-044,Verify that products can be filtered by brand correctly.,Products must be assigned to different brands.,"1. Navigate to the nopCommerce Demo Store.
+2. Locate the filter section (usually on the left side or above the product listings).
+3. Select a brand from the list of available brands.
+4. Wait for the page to update and display the filtered products.
+5. Verify that all displayed products are from the selected brand.",Only products from the selected brand should be shown in the search results.,"Only products from the selected brand are displayed in the search results, confirming that the filtering by brand is working correctly.",Medium,Passed,Functional,Search,mohamed.gallall12@gmail.com,Windows 11 V. 23H2 Build 22631.5039 + Chrome V. 134.0.6998.89,Automated,https://github.com/MohamedGalal-2/DEPI-Software-Tester-Graduation-Project/blob/main/automation-framework/src/test/java/tests/ui/SearchTest.java,15/3/2025,
+Test Case,Verify breadcrumb navigation works correctly,TC-045,Breadcrumb trail updates correctly and allows navigation,The website must have a structured category hierarchy.,1. Navigate to a category,Breadcrumb trail updates correctly and allows navigation,,Medium,Duplicated,Functional,UI/UX,mohamed.gallall12@gmail.com,,Automated,,,Covered in TC-261
+Test Case,Verify navigation between categories and subcategories,TC-046,This test ensures that users can navigate through different categories and subcategories on the website and that the correct products are displayed accordingly.,The website must have multiple categories and subcategories.,"1. Navigate to the homepage.
+2. Click on a main category (e.g., ""Computers"", ""Electronics"").
+3. Verify that the category page loads and displays relevant products.
+4. Click on a subcategory (e.g., ""Laptops"", ""Smartphones"").
+5. Verify that the subcategory page loads and displays correct products.
+6. Repeat for multiple categories and subcategories.",Clicking a category loads the correct page with relevant products. Clicking a subcategory updates the page with specific products from that subcategory. No errors or incorrect navigation should occur.,"Navigated through multiple categories and subcategories successfully. Clicking a main category (e.g., ""Computers"") correctly loaded the category page with relevant products. Clicking a subcategory (e.g., ""Laptops"") displayed correct products under that category. No broken links, incorrect pages, or missing products were encountered.",Medium,Passed,Functional,Navigation,mohamed.gallall12@gmail.com,Windows 11 V. 23H2 Build 22631.5039 + Chrome V. 134.0.6998.89,Automated,https://github.com/MohamedGalal-2/DEPI-Software-Tester-Graduation-Project/blob/main/automation-framework/src/test/java/tests/ui/HomePageTest.java,21/3/2025,
+Test Case,Verify product details open when clicking on a search result,TC-047,The product detail page opens with the correct information,At least one product must be listed in the search results.,1. Perform a search,The product detail page opens with the correct information,,Medium,Duplicated,Functional,Product-Page,mohamed.gallall12@gmail.com,,Automated,,,Covered in TC-003
+Test Case,Verify invalid search term returns appropriate message,TC-048,Verify that an appropriate message is returned when an invalid or non-existent search term is entered.,The search term must not match any existing products.,"1. Navigate to the nopCommerce Demo Store.
+2. Enter an invalid or non-existent search term (e.g., a random word or misspelled brand name) in the search bar.
+3. Click the search button.
+4. Wait for the results to load.
+5. Verify the message displayed on the page.","The system should return a message such as “No results found for [search term]” or “Invalid search term,” indicating that no products match the search query.","The system displays a message such as ""No results found for [search term]"" or ""Invalid search term,"" confirming that the system handles invalid search terms appropriately.",Medium,Passed,Functional,Search,mohamed.gallall12@gmail.com,Windows 11 V. 23H2 Build 22631.5039 + Chrome V. 134.0.6998.89,Automated,https://github.com/MohamedGalal-2/DEPI-Software-Tester-Graduation-Project/blob/main/automation-framework/src/test/java/tests/ui/SearchTest.java,15/3/2025,
+Test Case,Verify recently viewed products are displayed,TC-049,"Ensure that recently viewed products are properly displayed in the ""Recently Viewed"" section after a user browses multiple product pages.",The user must browse multiple product pages.,"1. Open the website and navigate to multiple product pages.
+2. Go to a different section of the website (e.g., homepage or cart).
+3. Locate the ""Recently Viewed"" section.
+4. Verify if the recently viewed products appear correctly in this section.","The recently viewed products should be displayed in the ""Recently Viewed"" section in the correct order and format.","The recently viewed products appeared correctly in the section, maintaining the browsing order and displaying appropriate product images and details.",Medium,Passed,Functional,UI/UX,mohamed.gallall12@gmail.com,Windows 11 V. 23H2 Build 22631.5039 + Chrome V. 134.0.6998.89,Manual,,25/03/2025,
+Test Case,Verify clearing filters resets search results,TC-050,"Verify that when filters are cleared, the search results are reset to the initial unfiltered state.",Filters must be applied to search results.,"1. Navigate to the nopCommerce Demo Store.
+2. Enter a search keyword (e.g., ""Laptop"") in the search bar and click the search button.
+3. Wait for the search results to load.
+4. Apply some filters (e.g., by price range, brand, or rating).
+5. Wait for the search results to update based on the applied filters.
+6. Clear the filters by clicking on the “Clear Filters” button (or equivalent).
+7. Wait for the search results to update after clearing the filters.
+8. Verify that the search results are reset to their original, unfiltered state (i.e., all products should be visible, and no filters should be applied).","- The search results should reset to show all products that match the search keyword without any applied filters.
+- The filter options should be cleared, and the page should reflect the initial unfiltered state.","The search results are reset to show all products that match the search keyword without any applied filters.
+The filter options are cleared, and the page reflects the initial unfiltered state.",Medium,Passed,Functional,Search,mohamed.gallall12@gmail.com,Windows 11 V. 23H2 Build 22631.5039 + Chrome V. 134.0.6998.89,Automated,https://github.com/MohamedGalal-2/DEPI-Software-Tester-Graduation-Project/blob/main/automation-framework/src/test/java/tests/ui/SearchTest.java,15/3/2025,
+Test Case,Verify auto-suggestions in the search bar,TC-051,Relevant product suggestions appear dynamically,The system must have a database of products for suggestions.,"1. Start typing a relevant keyword (e.g., ""Laptop"") in the search bar.
+2. Observe if product suggestions appear dynamically as you type.","Relevant product suggestions should appear dynamically based on the entered text, helping users to quickly find products related to their query.","Search Input: Upon entering the search term ""Laptop"" in the search bar, the system processes the input and triggers the auto-suggestion feature.",Medium,Passed,Functional,Search,mohamed.gallall12@gmail.com,Windows 11 V. 23H2 Build 22631.5039 + Chrome V. 134.0.6998.89,Manual,,15/3/2025,
+Test Case,Verify correct product name is displayed,TC-052,Ensure the product name displayed on the product page matches the product name stored in the database.,The product page should be loaded.,"1. Navigate to the product page.
+2. Capture the product name displayed on the page.
+3. Query the database to retrieve the product name for the given product.
+4. Compare the product name displayed on the page with the product name from the database.",The product name displayed on the page matches the product name stored in the database.,The product name displayed correctly matches the database entry.,Medium,Passed,UI,Product-Page,mohamed.gallall12@gmail.com,Windows 11 V. 23H2 Build 22631.5039 + Chrome V. 134.0.6998.89,Manual,,15/3/2025,
+Test Case,Verify correct product price is displayed,TC-053,Ensure the product price displayed on the product page matches the product price stored in the database.,The product page should be loaded.,"""1. Navigate to the product page.
+2. Capture the product name displayed on the page.
+3. Query the database to retrieve the product name for the given product.
+4. Compare the product price displayed on the page with the product price from the database.""",The product price displayed on the page matches the product price stored in the database.,The product price displayed correctly matches the backend price.,Medium,Passed,UI,Product-Page,mohamed.gallall12@gmail.com,Windows 11 V. 23H2 Build 22631.5039 + Chrome V. 134.0.6998.89,Manual,,15/3/2025,
+Test Case,Verify product description is accurate,TC-054,Ensure the product description displayed on the product page matches the description,The product page should be loaded.,"1. Navigate to the product page.
+2. Capture the product description displayed on the page.
+3. Query the database to retrieve the product description for the given product.
+4. Compare the product description displayed on the page with the description from the database.",The product description displayed on the page matches the description stored in the database.,The product description displayed correctly matches the database entry.,Medium,Passed,UI,Product-Page,mohamed.gallall12@gmail.com,Windows 11 V. 23H2 Build 22631.5039 + Chrome V. 134.0.6998.89,Manual,,15/3/2025,
+Test Case,Verify product images are displayed correctly,TC-055,Ensure the product images on the product page are displayed correctly without any distortion.,The product page should be loaded.,"1. Navigate to the product page.
+2. Verify that the images are loading properly and check for any distortion.
+3. Check that all images are displayed as expected without errors.",All product images are displayed correctly without distortion.,Product images are loaded without distortion and are displayed properly.,Medium,Passed,UI,Product-Page,mohamed.gallall12@gmail.com,Windows 11 V. 23H2 Build 22631.5039 + Chrome V. 134.0.6998.89,Manual,,15/3/2025,
+Test Case,Verify stock availability status is displayed,TC-056,Verify the display of the stock availability status on the product page.,None,"1. Navigate to the product page for any item on the website.
+2. Check for the display of stock availability status.
+Observe the system should show the stock status (e.g., ""In Stock"", ""Out of Stock"", or ""Limited Availability"").","The stock availability status should be clearly displayed on the product page for all products. The status should accurately reflect whether the product is in stock, out of stock, or has limited availability.",The stock availability feature is not available or visible on the product pages. No stock status is shown for any product.,Medium,Failed,UI,Inventory,mohamed.gallall12@gmail.com,Windows 11 V. 23H2 Build 22631.5039 + Chrome V. 134.0.6998.89,Manual,,19/3/2025,
+Test Case,"Verify different product variations (size, color) are selectable",TC-057,Selected variation updates product details,The product must have variations defined.,Select product variations,Selected variation updates product details,,Medium,Duplicated,Functional,Product-Page,mohamed.gallall12@gmail.com,,Automated,,,Covered in TC-020
+Test Case,Verify add to cart functionality,TC-058,Product is added to cart successfully,The product must be available for purchase.,"Click ""Add to Cart""",Product is added to cart successfully,,High,Duplicated,Functional,Cart,mohamed.gallall12@gmail.com,,Automated,,,Covered in TC-015
+Test Case,Verify add to wishlist functionality,TC-059,Product is added to wishlist successfully,The user must be logged in (if wishlist is account-based).,"Click ""Add to Wishlist""",Product is added to wishlist successfully,,Medium,Duplicated,Functional,Wishlist,mohamed.gallall12@gmail.com,,Automated,,,Covered in TC-078
+Test Case,Verify customer reviews and ratings are displayed,TC-060,"This test verifies that customer reviews and ratings are correctly displayed on a product page. It ensures that at least one review appears and contains key details such as the title, reviewer name, review text, rating stars, and date. The test also checks for the presence of the helpfulness voting section and ensures that unregistered users cannot submit reviews.",The product must have at least one review.,"1. Navigate to the product page.
+2. Scroll to the reviews section.
+3. Verify that at least one review is visible with:
+Review title, Reviewer name, Rating stars, Review text content, Review date
+4. Ensure the ""Was this review helpful?"" section is displayed.
+5. Confirm that unregistered users cannot submit reviews."," Reviews and ratings are displayed correctly. The review details are visible (title, user, date, content, rating). The review helpfulness voting section appears. Unregistered users see a restriction message.","Customer reviews appeared correctly under the product page. Each review displayed title, reviewer name, rating, and date as expected. The helpfulness voting section (Yes/No) was visible and functional. Unregistered users saw the message ""Only registered users can write reviews."" No missing elements, broken sections, or incorrect data.",Medium,Passed,UI,Reviews,mohamed.gallall12@gmail.com,Windows 11 V. 23H2 Build 22631.5039 + Chrome V. 134.0.6998.89,Automated,https://github.com/MohamedGalal-2/DEPI-Software-Tester-Graduation-Project/blob/main/automation-framework/src/test/java/tests/ui/ReviewsTest.java,21/3/2025,
+Test Case,Verify ability to submit a review,TC-061,"This test verifies that a logged-in user can successfully submit a product review. It ensures that the user can enter review details (title, text, and rating) and submit the review without errors. After submission, a success notification should appear, and the review should be visible in the reviews section.",The user must be logged in (if review submission requires an account).,"1. Log in using a valid test account.
+2. Navigate to the product page.
+3. Scroll to the reviews section and click ""Write a Review"".
+Enter: Review Title, Review Text, Select a rating (e.g., 4 stars)
+4. Click ""Submit Review"".
+5. Verify the success notification appears: ""Product review is successfully added.""",The review submission form works correctly. The review appears in the existing reviews section. A success message confirms submission. No errors or restrictions for logged-in users.,"The user successfully submitted a review after logging in. The success notification appeared with the message: ""Product review is successfully added."". The submitted review appeared correctly under the Existing Reviews section. The rating, title, and review text matched the input. No errors, restrictions, or submission failures occurred.",Medium,Passed,Functional,Reviews,mohamed.gallall12@gmail.com,Windows 11 V. 23H2 Build 22631.5039 + Chrome V. 134.0.6998.89,Automated,https://github.com/MohamedGalal-2/DEPI-Software-Tester-Graduation-Project/blob/main/automation-framework/src/test/java/tests/ui/ReviewsTest.java,21/3/2025,
+Test Case,Verify clicking on an image enlarges it,TC-062,Ensure that clicking on the product image on the product page enlarges the image in a modal view.,The product must have images available for display on the product page. The product page must be loaded.,"1. Navigate to the product page.
+2. Click on the product image.
+3. Verify that the image enlarges and appears in a modal.",The image should enlarge in a modal view upon clicking.,The image did not enlarge when clicked. No modal view appeared.,Low,Failed,UI,Product-Page,mohamed.gallall12@gmail.com,Windows 11 V. 23H2 Build 22631.5039 + Chrome V. 134.0.6998.89,Manual,,15/3/2025,
+Test Case,Verify related products are displayed,TC-063,Ensure that related products are correctly displayed on the product page when assigned in the system.,Related products must be assigned in the system.,"1. Navigate to the product page.
+2. Scroll down to the related products section.
+3. Verify that related products are displayed.",Related products should appear in the designated section of the product page.,"Related products are successfully displayed in the designated section of the product page, as assigned in the system. The section shows the correct products based on the system's configuration.",Medium,Passed,UI,Product-Page,mohamed.gallall12@gmail.com,Windows 11 V. 23H2 Build 22631.5039 + Chrome V. 134.0.6998.89,Automated,https://github.com/MohamedGalal-2/DEPI-Software-Tester-Graduation-Project/blob/main/automation-framework/src/test/java/tests/ui/ProductPageTest.java,15/3/2025,
+Test Case,Verify shipping and return policy information is available,TC-064,Ensure that the shipping and return policy information is available in the footer of the website.,Shipping and return policies must be defined in the system.,"1. Navigate to any product page.
+2. Scroll down to the footer section of the page.
+3.Verify that the ""Shipping & returns"" link is present in the footer.
+4. Click on the ""Shipping & returns"" link (if applicable).
+5. Verify that the shipping and return policies are displayed when the link is clicked.","The ""Shipping & returns"" link should be visible in the footer.
+The correct shipping and return policy information should be displayed when the user clicks the link.","The ""Shipping & returns"" link is either missing or non-functional in the footer, or the policy page does not display the relevant information.",Medium,Passed,UI,Product-Page,mohamed.gallall12@gmail.com,Windows 11 V. 23H2 Build 22631.5039 + Chrome V. 134.0.6998.89,Manual,,15/3/2025,
+Test Case,Verify product video (if available) plays correctly,TC-066,Video plays without issues,The product must have a video uploaded.,"1. Navigate to any product page.
+2. Check if a video is available for the product.
+3. If a video is present, click on the product video to play it.
+4. Verify that the video plays without issues (e.g., it starts, no buffering, no errors).","If a product video is available, it should play correctly when clicked, with no errors or interruptions.","There is no product video available for any product on the page. Therefore, the video could not be played.",Medium,Blocked,Functional,Product-Page,mohamed.gallall12@gmail.com,Windows 11 V. 23H2 Build 22631.5039 + Chrome V. 134.0.6998.89,Manual,,15/3/2025,
+Test Case,Verify adding products to the cart,TC-067,The product is added and displayed in the cart.,The product must be in stock.,1. Navigate to a product page.,The product is added and displayed in the cart.,,High,Duplicated,Functional,Cart,mohamed.gallall12@gmail.com,,Automated,,,Covered in TC-015
+Test Case,Verify removing products from the cart,TC-069,The product is removed from the cart.,The cart must have at least one product.,1. Add a product to the cart.,The product is removed from the cart.,,High,Duplicated,Functional,Cart,mohamed.gallall12@gmail.com,,Automated,,,Covered in TC-019
+Test Case,Verify cart summary displays correct pricing,TC-070,"The cart summary should correctly display the following:
+- Product Prices: The prices of the products added to the cart.
+- Subtotal: The sum of the prices of all products in the cart.
+- Tax: The tax value based on the products in the cart.
+- Total Amount: The correct total amount, which is the sum of the subtotal and tax.
+The total amount should match the sum of the subtotal and tax values. All displayed values should be accurate and correctly formatted.",The cart must contain at least one product.,"1. Add multiple products to the cart.
+2. Verify that the prices, subtotal, taxes, and total amount are displayed correctly.","Prices, subtotal, taxes, and total amount are displayed correctly.","The products were successfully added to the cart. The cart summary displayed the correct pricing, including the prices of the products, the subtotal, the tax value, and the total amount. The total price was validated by ensuring the sum of the subtotal and tax matched the displayed total, confirming that the pricing is correct.",High,Passed,Functional,Cart,mohamed.gallall12@gmail.com,Windows 11 V. 23H2 Build 22631.5039 + Chrome V. 134.0.6998.89,Automated,https://github.com/MohamedGalal-2/DEPI-Software-Tester-Graduation-Project/blob/main/automation-framework/src/test/java/tests/ui/CartTest.java,18/3/2025,
+Test Case,Verify discounts and promo codes are applied correctly,TC-071,Validate that a valid promo code applies the discount correctly and updates the total price.,A valid promo code must exist in the system.,"1. Add a product to the cart.
+2. Apply a valid promo code.
+3. Verify that the discount is applied and the total price updates correctly.","Discount is applied, and the total price updates correctly.","No active promo codes are available in the system, preventing the test from being executed.",High,Blocked,Functional,Promotions,mohamed.gallall12@gmail.com,Windows 11 V. 23H2 Build 22631.5039 + Chrome V. 134.0.6998.89,Automated,https://github.com/MohamedGalal-2/DEPI-Software-Tester-Graduation-Project/blob/main/automation-framework/src/test/java/tests/ui/CartTest.java,22/3/2025,
+Test Case,Verify checkout as a guest user,TC-072,Guest checkout proceeds successfully.,Guest checkout must be enabled in the system.,"1. Navigate to the nopCommerce demo site.
+2. Navigate to the product page.
+3. Add the product to the cart.
+4. Click checkout as a guest button.
+5. Accept the terms of service.
+6. Click on the ""Checkout"" button.
+7. Fill the checkout form.
+8. Submit the product.",Guest checkout proceeds successfully and the order is submitted.,Checkout was submitted successfully.,High,Passed,Functional,Checkout,mohamed.gallall12@gmail.com,Windows 11 V. 23H2 Build 22631.5039 + Chrome V. 134.0.6998.89,Automated,https://github.com/MohamedGalal-2/DEPI-Software-Tester-Graduation-Project/blob/main/automation-framework/src/test/java/tests/ui/CheckoutTest.java,17/3/2025,
+Test Case,Verify checkout as a registered user,TC-073,Checkout completes successfully for registered users.,The user must have a registered account to use to log in.,"1. Navigate to the nopCommerce demo site.
+2. Log in. (email: 7a6d6efc3d@emaily.pro | Password: TestPassword123)
+3. Navigate to the product page.
+4. Add the product to the cart.
+5. Accept the terms of service.
+6. Click checkout button.
+7. Click on the ""Checkout"" button.
+8. Fill the checkout form.
+9. Submit the product.",Checkout completes successfully for registered users.,"The checkout process completes successfully for the registered user and a confirmation message appears: ""Your order has been successfully processed!""
+
+",High,Passed,Functional,Checkout,mohamed.gallall12@gmail.com,Windows 11 V. 23H2 Build 22631.5039 + Chrome V. 134.0.6998.89,Automated,https://github.com/MohamedGalal-2/DEPI-Software-Tester-Graduation-Project/blob/main/automation-framework/src/test/java/tests/ui/CheckoutTest.java,17/3/2025,
+Test Case,Verify selecting different shipping options updates the cost,TC-074,Ensure that the shipping cost updates correctly when different shipping options are selected.,The system must have multiple shipping options with different costs.,"1. Navigate to the nopCommerce demo site.
+2. Navigate to the product page.
+3. Add the product to the cart.
+4. Click checkout as a guest button.
+5. Accept the terms of service.
+6. Click on the ""Checkout"" button.
+7. Fill the checkout form.
+8. Select the shipping option.
+9. Observe if the price changes.",The shipping cost should update based on the shipping option selected.,"All three shipping options are displayed with a cost of $0.00, which is incorrect. Despite selecting different shipping options, the shipping cost remains $0.00. The expected behavior is for the shipping cost to update according to the selected option.",Medium,Blocked,Functional,Checkout,mohamed.gallall12@gmail.com,Windows 11 V. 23H2 Build 22631.5039 + Chrome V. 134.0.6998.89,Manual,,17/3/2025,
+Test Case,Verify tax calculations are applied correctly,TC-075,Tax is applied correctly based on the location.,Tax rules must be configured in the system.,"1. Navigate to the product page on the demo site.
+2. Add a product to the cart.
+3. Proceed to the checkout page.
+4. Fill in the checkout form with a valid shipping address that is subject to tax.
+5. Observe the tax calculation section during checkout.",Tax is applied correctly based on the location.,"No taxes are applied during checkout, despite the system being configured with tax rules. The expected behavior is for tax to be calculated and applied based on the location. However, the tax amount remains $0.00, which indicates that the tax calculation functionality is not working correctly.",High,Blocked,Functional,Checkout,mohamed.gallall12@gmail.com,Windows 11 V. 23H2 Build 22631.5039 + Chrome V. 134.0.6998.89,Manual,,17/3/2025,
+Test Case,Verify entering an invalid promo code shows an error message,TC-076,Validate that an invalid promo code triggers an appropriate error message.,An invalid promo code must be used.,"1. Add a product to the cart.
+2. Apply an invalid promo code.
+3. Verify that the discount is not applied and an error message is applied.",An error message appears stating the code is invalid.," The system did display the expected error message properly, and it prevented the invalid promo code from being applied as expected.",Medium,Passed,Functional,Promotions,mohamed.gallall12@gmail.com,Windows 11 V. 23H2 Build 22631.5039 + Chrome V. 134.0.6998.89,Automated,https://github.com/MohamedGalal-2/DEPI-Software-Tester-Graduation-Project/blob/main/automation-framework/src/test/java/tests/ui/CartTest.java,22/3/2025,
+Test Case,Verify the wishlist functionality,TC-078,Verify that products can be saved to the wishlist and users can access them later.,"The system must support a ""Wishlist"" feature.","1. Add products to the cart.
+2. Add the product to the wishlist.
+3. Navigate to the wishlist and verify that the product appears.
+4. Add the product from the wishlist to the cart.","Products are saved to the wishlist, and users can access them later. Users can add products from the wishlist to the cart.","Products were successfully added to the wishlist, and users were able to add them from the wishlist to the cart. The product ""Lenovo IdeaCentre"" was found in both the wishlist and the cart.",Medium,Passed,Functional,Cart,mohamed.gallall12@gmail.com,Windows 11 V. 23H2 Build 22631.5039 + Chrome V. 134.0.6998.89,Automated,https://github.com/MohamedGalal-2/DEPI-Software-Tester-Graduation-Project/blob/main/automation-framework/src/test/java/tests/ui/CartTest.java,18/3/2025,
+Test Case,Verify estimated delivery date is displayed,TC-079,"The checkout process does not display an estimated delivery date for any of the available shipping methods. The expected behavior is that the estimated delivery date should be shown based on the selected shipping method, but no delivery time is displayed.",The system must have delivery time calculations configured.,"1. Navigate to the product page on the demo site.
+2. Add a product to the cart.
+3. Proceed to checkout.
+4. Fill in the checkout form with a valid shipping address.
+5. Select a shipping method (e.g., Ground, Next Day Air, or 2nd Day Air).
+6. Observe whether an estimated delivery date is displayed.",Estimated delivery date is displayed based on shipping method.The estimated delivery date should be displayed based on the selected shipping method.,No estimated delivery date is shown for any shipping method.,Medium,Failed,Functional,Checkout,mohamed.gallall12@gmail.com,Windows 11 V. 23H2 Build 22631.5039 + Chrome V. 134.0.6998.89,Manual,,17/3/2025,
+Test Case,Verify completing checkout successfully generates an order,TC-081,Ensure that a user can successfully complete the checkout process and receive an order confirmation message with an order ID.,The user must successfully complete a purchase.,"1. Navigate to the nopCommerce demo site.
+2. Navigate to the product page.
+3. Add the product to the cart.
+4. Proceed to checkout.
+5. Accept the terms of service.
+6. Click on the ""Checkout"" button.
+7. Fill the checkout form.
+8. Click ""Confirm Order"" button.
+9. Verify an Order Number is displayed.
+10. Validate the order number is not empty.","Order confirmation message appears, and order ID is generated.","Order confirmation message appears: ""Your order has been successfully processed!"".  An order number is generated and displayed and the user is redirected to the order confirmation page.",High,Passed,Functional,Checkout,mohamed.gallall12@gmail.com,Windows 11 V. 23H2 Build 22631.5039 + Chrome V. 134.0.6998.89,Automated,https://github.com/MohamedGalal-2/DEPI-Software-Tester-Graduation-Project/blob/main/automation-framework/src/test/java/tests/ui/CheckoutTest.java,17/3/2025,
+Test Case,Verify payment via credit card,TC-082,"Verifies that the payment process via credit card works successfully, and the order confirmation appears after payment.",The user has an account and is logged into the website. There is a product available for purchase on the site. The system supports credit card payments.,"1. Navigate to Login Page.
+2. Enter Login Credentials
+- Input the email: 7a6d6efc3d@emaily.pro
+- Input the password: TestPassword123
+3. Add Product to Cart.
+4. Navigate to Cart Page.
+5. Proceed to Checkout.
+6. Enter Credit Card Payment Details:
+- Cardholder Name: Maegan Rolfson
+- Card Number: 3595972973139459
+- Expiration Date: 10/2029
+- CVV: 469
+7. Verify Order Confirmation","The payment via credit card should be processed successfully. The order confirmation page should appear, and the message ""Your order has been successfully processed!"" should be visible.","The payment via credit card was successfully processed. The order confirmation page appeared with the message ""Your order has been successfully processed!""",High,Passed,Functional,Payments,mohamed.gallall12@gmail.com,Windows 11 V. 23H2 Build 22631.5039 + Chrome V. 134.0.6998.89,Automated,https://github.com/MohamedGalal-2/DEPI-Software-Tester-Graduation-Project/blob/main/automation-framework/src/test/java/tests/ui/PaymentsTest.java,18/3/2025,
+Test Case,Verify payment via PayPal,TC-083,"Verifies that the payment process via PayPal works successfully, and the order confirmation appears after payment.",The user has an account and is logged into the website.There is a product available for purchase on the site. The system supports PayPal payments.,"1. Navigate to Login Page.
+2. Enter Login Credentials
+- Input the email: 7a6d6efc3d@emaily.pro
+- Input the password: TestPassword123
+3. Add Product to Cart.
+4. Navigate to Cart Page.
+5. Proceed to Checkout.
+6. Check for ""Paypal"" Payment method.","If PayPal were available, the payment via PayPal should be processed successfully.",The system does not support PayPal payments. Only Credit Card and Check/Money Order are available as payment methods.,High,Blocked,Functional,Payments,mohamed.gallall12@gmail.com,Windows 11 V. 23H2 Build 22631.5039 + Chrome V. 134.0.6998.89,Automated,https://github.com/MohamedGalal-2/DEPI-Software-Tester-Graduation-Project/blob/main/automation-framework/src/test/java/tests/ui/PaymentsTest.java,18/3/2025,
+Test Case,Verify payment via cash on delivery (COD),TC-084,Verifies that the payment process via Cash on Delivery (COD) works successfully and the order is confirmed with the COD option selected.,The user has an account and is logged into the website. There is a product available for purchase on the site. The system must support Cash on Delivery (COD) as a payment option.,"1. Navigate to Login Page.
+2. Enter Login Credentials
+- Input the email: 7a6d6efc3d@emaily.pro
+- Input the password: TestPassword123
+3. Add Product to Cart.
+4. Navigate to Cart Page.
+5. Proceed to Checkout.
+6. Check for ""COD"" Payment method.",The order is successfully placed with COD as the selected payment method. The order confirmation page appears with a message confirming the successful order placement. The user is informed that payment will be made upon delivery.,The system does not currently support the Cash on Delivery (COD) payment method. The available payment methods are Credit Card and Check/Money Order.,High,Blocked,Functional,Payments,mohamed.gallall12@gmail.com,Windows 11 V. 23H2 Build 22631.5039 + Chrome V. 134.0.6998.89,Automated,https://github.com/MohamedGalal-2/DEPI-Software-Tester-Graduation-Project/blob/main/automation-framework/src/test/java/tests/ui/PaymentsTest.java,18/3/2025,
+Test Case,Verify failed transaction due to incorrect card details,TC-085,"Transaction is declined, and an error message is displayed",An incorrect card number or invalid credentials must be entered.,1. Add items to cart,"Transaction is declined, and an error message is displayed",,High,Duplicated,Functional,Payments,mohamed.gallall12@gmail.com,,Automated,,18/3/2025,Covered in TC-012
+Test Case,Verify payment processing time,TC-087,Payment should be processed within acceptable time limits,"{""user_id"": ""123"", ""amount"": ""99.99"",  ""method"": ""credit_card""}",1. Initiate payment,Payment should be processed within acceptable time limits,Payment processed in 2.1 seconds,Medium,Passed,Performance,Payments,mohamed.gallall12@gmail.com,Windows 11 V. 23H2 Build 22631.5039 + Chrome V. 134.0.6998.89,Automated,,6/5/2025,
+Test Case,Verify duplicate payment prevention,TC-088,System should prevent duplicate payment requests,The same payment should not be processed twice for a single order.,"1. Make a payment.
+2. Enter payment details.
+3. Submit the payment.
+4. Verify the system prevents duplicate payments.
+5. Verify payment status.
+6. Ensure appropriate error message if duplicate payment occurs.","The system should prevent the duplicate payment request from being processed. After the first successful payment, the payment button should either be disabled or prevent further interactions to prevent the same payment request from being sent again. The backend should reject any additional payment attempts for the same order (either by returning a specific error or ignoring further attempts). If a duplicate payment attempt is made, the user should receive a clear error message, such as:""Duplicate payment attempt detected for this order."" The UI should prevent additional submissions.","The first payment submission was processed successfully. After submitting the first payment, an attempt to submit a duplicate payment was made. The payment button was not disabled, and the system allowed a second payment attempt to be processed, resulting in a duplicate payment request. The second payment was processed without any error or message blocking it. The system did not prevent the duplicate payment, and the order was processed with two payments. No appropriate error message was displayed when the duplicate payment was attempted.",High,Failed,Security,Payments,mohamed.gallall12@gmail.com,Windows 11 V. 23H2 Build 22631.5039 + Chrome V. 134.0.6998.89,Automated,https://github.com/MohamedGalal-2/DEPI-Software-Tester-Graduation-Project/blob/main/automation-framework/src/test/java/tests/ui/PaymentsTest.java,18/3/2025,
+Test Case,Verify refund process for an order,TC-089,Verify that a completed order is eligible for a refund and the refund is successfully processed and reflected in the transaction.,The user has placed a valid order and it has been completed. The system has a mechanism to handle refunds (whether it be via the UI or backend). The user is logged into the application.,"1. Place a valid order.
+2. Navigate to the order details page.
+3. Check for the refund option.
+4. Verify the system handles refund requests correctly (if refund option exists).
+5. Check if the refund is reflected in the transaction.","If the refund option is available: The refund should be successfully processed and reflected in the transaction. The user should receive a confirmation message. If the refund option is not available: The system should display a clear message that refunds are not supported, or offer an alternative solution for initiating a refund (e.g., contact customer support).","The order was placed successfully, and the confirmation was received. The order details page loaded, and the order details were visible. No refund option was available on the order details page. The system did not show a refund option, and no error or message was displayed indicating the absence of refund functionality. Since no refund option was available, the refund process could not be tested. No transaction reflection of a refund could be tested.",High,Failed,Functional,Payments,mohamed.gallall12@gmail.com,Windows 11 V. 23H2 Build 22631.5039 + Chrome V. 134.0.6998.89,Manual,,18/3/2025,
+Test Case,Verify canceled order refunds the payment,TC-090,"Verifies that if an order is canceled, the payment is refunded according to the system's refund policy. The system must provide an option for users to cancel orders and initiate refunds, either through the UI or backend process.",The user has placed a valid order and it has been confirmed. The user must be logged into the application. The system must be capable of handling refunds (either via the UI or backend).,"1. Place a valid order.
+2. Navigate to the order details page.
+3. Check for the refund option.
+4. Verify the system handles refund requests correctly (if refund option exists).
+5. Check if the refund is reflected in the transaction.","The order was placed successfully, and the confirmation was received. The order details page loaded, and the order details were visible. No refund or canceling option was available on the order details page. The system did not display any error or message indicating the absence of the refund functionality. Since the refund option was missing, the refund process could not be tested, and no transaction reflection of a refund was possible.","The order was placed successfully, and the confirmation was received. The order details page loaded, and the order details were visible. No refund option was available on the order details page. The system did not show a refund option, and no error or message was displayed indicating the absence of refund functionality. Since no refund option was available, the refund process could not be tested. No transaction reflection of a refund could be tested.",High,Blocked,Functional,Payments,mohamed.gallall12@gmail.com,Windows 11 V. 23H2 Build 22631.5039 + Chrome V. 134.0.6998.89,Manual,,18/3/2025,
+Test Case,Verify payment gateway security (encryption of sensitive data),TC-091,Ensure that card details are encrypted and not stored in plaintext during payment transactions.,"User is on the payment gateway page of the website.
+User has added items to the cart and is ready to proceed to checkout.","1. Navigate to the payment gateway page.
+2. Enter payment details, including card information.
+3. Submit the payment.","- Card details should be encrypted and not stored in plaintext.
+- A secure connection (HTTPS) should be used for the transaction.
+- No card details should be visible in the database or in logs.","The payment details are not encrypted, and the system stores card details in plaintext, which is a security issue.",High,Failed,Security,Security,mohamed.gallall12@gmail.com,Windows 11 V. 23H2 Build 22631.5039 + Chrome V. 134.0.6998.89,Automated,https://github.com/MohamedGalal-2/DEPI-Software-Tester-Graduation-Project/blob/main/automation-framework/src/test/java/tests/ui/SecurityTest.java,18/3/2025,
+Test Case,Verify payment confirmation email is sent,TC-092,"This test case is designed to verify that a payment confirmation email is sent to the user after a successful payment. The system must support email notifications, and this feature must be working to confirm the transaction with the user.",The system must support email notifications.,"1. Complete a payment using one of the available payment methods (e.g., Credit Card, PayPal, etc.).
+2. After the payment is confirmed, check the registered email account for the payment confirmation email.
+3. Verify that the email includes transaction details, such as:
+- Order ID
+- Payment amount
+- Confirmation of successful payment
+- Any other relevant transaction details.","The user should receive a payment confirmation email in their registered email inbox after the payment is successfully processed. The email should contain all relevant payment details (order number, amount paid, confirmation).",No payment confirmation email was sent after completing the payment.,Medium,Failed,Security,Payments,mohamed.gallall12@gmail.com,Windows 11 V. 23H2 Build 22631.5039 + Chrome V. 134.0.6998.89,Manual,,18/3/2025,
+Test Case,Verify order status updates upon successful payment,TC-093,"Order status updates to ""Processing"" or ""Confirmed""",The order must be successfully placed and paid for.,1. Make a successful payment,"Order status updates to ""Processing"" or ""Confirmed""",,High,Duplicated,Security,Orders,mohamed.gallall12@gmail.com,,Automated,,,Covered in TC-081
+Test Case,Verify expired card shows an error,TC-094,Transaction fails with an appropriate error message,An expired card must be used.,1. Attempt payment using an expired credit card,Transaction fails with an appropriate error message,,High,Duplicated,Security,Payments,mohamed.gallall12@gmail.com,,Automated,,,Covered in TC-012
+Test Case,Verify insufficient funds transaction fails,TC-095,"Ensures that a payment transaction using a card with insufficient funds is declined, and the user receives an appropriate error message.",The system must support transaction logging.,"1. Use a payment card with an insufficient balance.
+2. Attempt to complete a transaction.
+3. Observe whether the transaction is declined and an error message is displayed.",The transaction should fail due to insufficient funds. The user should receive an error message stating that the payment could not be processed due to a lack of funds. The system should not allow an overdrawn payment to be approved.,"The transaction was processed successfully, even though the card had insufficient funds. No error message was displayed to inform the user about the issue. The system did not block the transaction as expected.",High,Failed,Functional,Payments,mohamed.gallall12@gmail.com,Windows 11 V. 23H2 Build 22631.5039 + Chrome V. 134.0.6998.89,Automated,https://github.com/MohamedGalal-2/DEPI-Software-Tester-Graduation-Project/blob/main/automation-framework/src/test/java/tests/ui/PaymentsTest.java,18/3/2025,
+Test Case,Verify featured products section is functional,TC-174,Featured products are displayed and clickable,Featured products must be assigned in the system.,1. Click on a featured product,Featured products are displayed and clickable,"The featured products section is displayed correctly on the homepage. All featured products are visible with accurate images, names, and prices. Clicking on any featured product redirects to the correct product page. ",Medium,Passed,UI,Homepage,mohamed.gallall12@gmail.com,Windows 11 V. 23H2 Build 22631.5039 + Chrome V. 134.0.6998.89,Manual,,15/03/2025,
+Test Case,Verify order placement generates a unique order ID,TC-097,A unique order ID is generated for the placed order,The system must generate unique order IDs for each order.,1. Add items to the cart 2. Proceed to checkout 3. Complete payment 4. Place order,A unique order ID is generated for the placed order,,High,Duplicated,Functional,Orders,mohamed.gallall12@gmail.com,Windows 11 V. 23H2 Build 22631.5039 + Chrome V. 134.0.6998.89,Manual,,25/03/2025,Covered in TC-081
+Test Case,Verify order confirmation email is sent,TC-098,Order confirmation email is received with order details,The system must have email notifications enabled.,1. Place an order 2. Check the registered email inbox,Order confirmation email is received with order details,,High,Duplicated,Functional,Orders,mohamed.gallall12@gmail.com,,Automated,,,Covered in TC-134
+Test Case,Verify order tracking functionality,TC-099,Ensure the order tracking page displays real-time order status.,The system must support order tracking features.,"1. Place an order.
+2. Navigate to the ""My Orders"" section.
+3. Click on ""Track Order.""",The order tracking page should display real-time order status updates.,"The order tracking page loaded correctly, showing accurate real-time updates about the order’s current status.",High,Passed,Functional,Orders,mohamed.gallall12@gmail.com,Windows 11 V. 23H2 Build 22631.5039 + Chrome V. 134.0.6998.89,Manual,,25/03/2025,
+Test Case,Verify order status updates correctly,TC-100,Ensure that the order status updates correctly at each stage of processing.,An order must be placed and processed.,"1. Place an order.
+2. Update order status (Pending → Shipped → Delivered)",The system should reflect each status change accurately in real-time.,The order status updated correctly at each stage without delays.,High,Passed,Functional,Orders,mohamed.gallall12@gmail.com,Windows 11 V. 23H2 Build 22631.5039 + Chrome V. 134.0.6998.89,Manual,,25/03/2025,
+Test Case,Verify order details in user dashboard,TC-101,"Ensure the order details (items, price, status) are displayed correctly in the user dashboard.",The user must have at least one completed order.,"1. Place an order.
+2. Go to ""My Orders"" in user dashboard.","The system should display the correct order details, including item list, price breakdown, and status.","Order details were correctly displayed, matching the expected values.",Medium,Passed,Functional,Orders,mohamed.gallall12@gmail.com,Windows 11 V. 23H2 Build 22631.5039 + Chrome V. 134.0.6998.89,Manual,,25/03/2025,
+Test Case,Verify invoice generation,TC-102,Ensure that an invoice is generated for every successfully placed order.,An order must be successfully placed.,"1. Place an order 
+2. Navigate to order details",The system should generate an invoice for the order.,The invoice was generated successfully and displayed with accurate order details.,High,Passed,Functional,Orders,mohamed.gallall12@gmail.com,Windows 11 V. 23H2 Build 22631.5039 + Chrome V. 134.0.6998.89,Manual,,25/03/2025,
+Test Case,Verify invoice download functionality,TC-103,Ensure that users can download the invoice in PDF format.,A generated invoice must be available.,"1. Go to order details 
+2. Click on ""Download Invoice""",The invoice should be downloaded successfully in PDF format.,The invoice downloaded correctly in PDF format without errors.,Medium,Passed,Functional,Orders,mohamed.gallall12@gmail.com,Windows 11 V. 23H2 Build 22631.5039 + Chrome V. 134.0.6998.89,Manual,,25/03/2025,
+Test Case,Verify order cancellation process,TC-104,Order gets canceled and status updates accordingly,The user must have an active order eligible for cancellation.,"1. Place an order 2. Navigate to order details 3. Click ""Cancel Order""",Order gets canceled and status updates accordingly,,High,Duplicated,Functional,Orders,mohamed.gallall12@gmail.com,Windows 11 V. 23H2 Build 22631.5039 + Chrome V. 134.0.6998.89,Manual,,25/03/2025,Covered in TC-090
+Test Case,Verify order refund process,TC-105,Refund is processed as per policy and reflected in payment method,The order must be eligible for a refund.,1. Cancel an eligible order 2. Request a refund,Refund is processed as per policy and reflected in payment method,,High,Duplicated,Functional,Orders,mohamed.gallall12@gmail.com,Windows 11 V. 23H2 Build 22631.5039 + Chrome V. 134.0.6998.89,Manual,,25/03/2025,Covered in TC-089
+Test Case,Verify reordering a previous order,TC-106,Ensure that a previous order can be successfully added to the cart for reordering.,The user must have a past order in order history.,"1. Go to ""My Orders"".
+2. Select a past order.
+3. Click ""Reorder"".",The previous order should be added to the cart successfully.,The order was successfully added to the cart without issues.,Medium,Passed,Functional,Orders,mohamed.gallall12@gmail.com,Windows 11 V. 23H2 Build 22631.5039 + Chrome V. 134.0.6998.89,Manual,,25/03/2025,
+Test Case,Verify customer support contact option for orders,TC-107,"Ensure that customers can contact support via chat, email, or call from the order details page.",None,"1. Log in to the website.
+2. Navigate to ""My Orders"" section.
+3. Open an order details page.
+4. Click on ""Contact Support"" button.
+5. Verify that chat, email, and call support options are available.","The user should be able to see and access customer support via chat, email, or call from the order details page.","Customer support options (chat, email, call) are available and functional.",Medium,Passed,Functional,Customer-Support,mohamed.gallall12@gmail.com,Windows 11 V. 23H2 Build 22631.5039 + Chrome V. 134.0.6998.89,Manual,,25/03/2025,
+Test Case,Verify adding order notes,TC-108,"Ensure that users can add order notes, and they are visible to the admin.",The system must support order notes.,"1. Place an order 
+2. Add notes in ""Order Notes"" section",The order notes should be saved and visible to the admin.,Order notes were saved successfully and were visible in the admin panel.,Medium,Passed,Functional,Orders,mohamed.gallall12@gmail.com,Windows 11 V. 23H2 Build 22631.5039 + Chrome V. 134.0.6998.89,Manual,,25/03/2025,
+Test Case,Verify combining multiple orders into one shipment,TC-109,Ensure that multiple orders can be combined into a single shipment when applicable.,The system must support order combination.,"1. Place multiple orders. 
+2. Choose ""Combine Orders"" at checkout.",The selected orders should be combined into a single shipment.,Orders were successfully merged into one shipment where applicable.,Medium,Passed,Functional,Orders,mohamed.gallall12@gmail.com,Windows 11 V. 23H2 Build 22631.5039 + Chrome V. 134.0.6998.89,Manual,,25/03/2025,
+Test Case,Verify notification for order delivery,TC-110,Validate that users receive a notification when their order is delivered.,Order delivery notifications must be enabled.,"1. Place an order.
+ 2. Wait for delivery.
+ 3. Check notifications.",User receives notification when the order is delivered,The order delivery notification feature is not available on the site.,High,Blocked,Functional,Notifications,mohamed.gallall12@gmail.com,Windows 11 V. 23H2 Build 22631.5039 + Chrome V. 134.0.6998.89,Manual,,22/03/2025,
+Test Case,Verify updating personal details,TC-111,Updated details should be saved successfully.,The user must have an account.,"1. Login to the user account.
+2. Navigate to the Profile Settings page.
+3. Edit personal details (name, email, phone number).
+4. Click Save Changes and refresh the page.",Updated details should be saved successfully.,Updated details were saved successfully and persisted after logout.,Medium,Passed,Functional,User-Profile,mohamed.gallall12@gmail.com,Windows 11 V. 23H2 Build 22631.5039 + Chrome V. 134.0.6998.89,Manual,,25/03/2025,
+Test Case,Verify updating shipping address,TC-112,Verify that an updated shipping address is saved successfully.,The user must have an account with an existing address.,"1. Login to the user account.
+2. Navigate to the ""Manage Addresses"" section.
+3. Select an existing address and choose the ""Edit"" option.
+4. Update the address details and save the changes.
+5. Verify that the updated address is displayed correctly.
+6. Logout and log back in to confirm the address is retained.",The updated address should be saved successfully and persist after logout.,The updated address was saved successfully and remained after logout.,Medium,Passed,Functional,User-Profile,mohamed.gallall12@gmail.com,Windows 11 V. 23H2 Build 22631.5039 + Chrome V. 134.0.6998.89,Manual,,25/03/2025,
+Test Case,Verify adding multiple addresses,TC-113,Verify that a user can add and save multiple shipping addresses.,The system must support multiple addresses per account.,"1. Login to the user account.
+2. Navigate to the ""Manage Addresses"" section.
+3. Click on the ""Add New Address"" button.
+4. Enter a new address and save it.
+5. Repeat the process to add another address.
+6. Verify that both addresses are saved and listed correctly.
+7. Logout and log back in to confirm both addresses persist.",Multiple addresses should be saved successfully and persist after logout.,Multiple addresses were saved successfully and remained after logout.,Medium,Passed,Functional,User-Profile,mohamed.gallall12@gmail.com,Windows 11 V. 23H2 Build 22631.5039 + Chrome V. 134.0.6998.89,Manual,,25/03/2025,
+Test Case,Verify viewing order history,TC-115,Ensure that users can view their complete order history.,The user must have past orders.,"1. Login to the user account.
+2. Navigate to ""Order History"".",The system should display all previous purchases.,Order history displayed correctly with all past purchases.,High,Passed,Functional,Orders,mohamed.gallall12@gmail.com,Windows 11 V. 23H2 Build 22631.5039 + Chrome V. 134.0.6998.89,Manual,,25/03/2025,
+Test Case,Verify checking order details,TC-116,"Order details (items, price, status) should be displayed.",The user must have at least one order.,1. Login to the user account.,"Order details (items, price, status) should be displayed.",,High,Duplicated,Functional,Orders,mohamed.gallall12@gmail.com,Windows 11 V. 23H2 Build 22631.5039 + Chrome V. 134.0.6998.89,Manual,,25/03/2025,Covered in TC-187
+Test Case,Verify saving and removing wishlist items,TC-117,Item should be added and removed successfully.,The system must support wishlist functionality.,1. Login to the user account.,Item should be added and removed successfully.,,Medium,Duplicated,Functional,Wishlist,mohamed.gallall12@gmail.com,,Automated,,,Covered in TC-078
+Test Case,Verify changing password from dashboard,TC-118,Password should be updated successfully.,The user must be logged in.,1. Login to the user account.,Password should be updated successfully.,,High,Passed,Security,Security,mohamed.gallall12@gmail.com,Windows 11 V. 23H2 Build 22631.5039 + Chrome V. 134.0.6998.89,Automated,https://github.com/MohamedGalal-2/DEPI-Software-Tester-Graduation-Project/blob/main/automation-framework/src/test/java/tests/ui/SecurityTest.java,18/3/2025,
+Test Case,Verify notification settings update,TC-119,Validate that users can update and save their notification preferences successfully.,The system must have configurable notification settings.,"1. Log in to the user account.
+2. Navigate to the notification settings page.
+3. Change the notification preferences.
+4. Save the changes.
+5. Log out and log back in to verify if the preferences are retained.",Preferences should be saved successfully and persist after re-login.,The notification settings feature is not available on the site.,Medium,Blocked,Functional,Notifications,mohamed.gallall12@gmail.com,Windows 11 V. 23H2 Build 22631.5039 + Chrome V. 134.0.6998.89,Manual,,22/03/2025,
+Test Case,Verify subscription preferences update,TC-120,Validate that users can update their subscription preferences successfully.,The user must be subscribed to a service.,"1. Log in to the user account.
+2. Navigate to the subscription preferences section.
+3. Modify subscription preferences.
+4. Save the changes.
+5. Log out and log back in to confirm the updates are saved.",Subscription preferences should be updated successfully and persist after re-login.,The subscription preferences feature is not available on the site.,Medium,Blocked,Functional,Notifications,mohamed.gallall12@gmail.com,Windows 11 V. 23H2 Build 22631.5039 + Chrome V. 134.0.6998.89,Manual,,22/03/2025,
+Test Case,Verify viewing recently viewed products,TC-121,Recently viewed products should be listed.,The system must track recently viewed products.,1. Browse different products while logged in.,Recently viewed products should be listed.,,Low,Duplicated,Functional,User-Profile,mohamed.gallall12@gmail.com,Windows 11 V. 23H2 Build 22631.5039 + Chrome V. 134.0.6998.89,Manual,,25/03/2025,Covered in TC-049
+Test Case,Test print functionality on different browsers,TC-338,Print layout should be correct and readable,The website must support printing.,Attempt to print an order summary,Print layout should be correct and readable,,Low,Duplicated,Mobile & Cross-Browser Testing ,UI/UX,mohamed.gallall12@gmail.com,Windows 11 V. 23H2 Build 22631.5039 + Chrome V. 134.0.6998.89,Manual,,25/03/2025,Covered in TC-154 & TC-155 & TC-156
+Test Case,Verify deleting account functionality,TC-123,Account should be deleted permanently.,The user must be logged in.,"1. Login to the user account.
+2. Navigate to the ""My Account"" section.
+3. Locate the option for ""Delete Account"" or similar functionality.
+4. Verify the account deletion.","The user should be able to delete their account permanently, and upon attempting to log in again, they should be unable to access their account.","The account deletion functionality is not available on the platform. The expected feature is not present, and no option to delete the account can be found in the account settings.
+No action was taken for account deletion due to the absence of the relevant functionality.",High,Blocked,Security,Security,mohamed.gallall12@gmail.com,Windows 11 V. 23H2 Build 22631.5039 + Chrome V. 134.0.6998.89,Manual,,18/3/2025,
+Test Case,Verify security settings update,TC-124,"Verify that the security settings in the user's account are updatable, including the ability to modify password and other security-related settings.",The user must be logged in.,"1. Login to the user account.
+2. Navigate to the ""My Account"" section.
+3. Check for available security settings.
+4. Verify the ability to update settings.","The user should be able to find and update security settings, such as enabling two-factor authentication, changing account recovery options, or modifying the password.","No security settings are available except the password change feature.
+The only accessible security-related option is the ability to change the password. No other security settings (e.g., two-factor authentication or account recovery options) are present or updatable.",High,Blocked,Security,Security,mohamed.gallall12@gmail.com,Windows 11 V. 23H2 Build 22631.5039 + Chrome V. 134.0.6998.89,Manual,,18/3/2025,
+Test Case,Verify viewing and redeeming loyalty points,TC-125,Validate that loyalty points are displayed correctly and can be redeemed during checkout.,The system must support a loyalty points program.,"1. Log in to the user account.
+2. Add a product to the cart.
+3. Proceed to checkout.
+4. Verify the loyalty points displayed in the checkout summary.
+5. Complete the checkout process.
+6. Check the user's profile to confirm the updated loyalty points.","Loyalty points should be displayed on the checkout page. After completing the checkout, the user should have the correct updated balance of loyalty points.","Loyalty points are shown in the checkout summary and on the product page. After completing the checkout, the user receives 0 points instead of the expected points. When checking the user's profile, the loyalty points balance incorrectly shows 0 points.",Medium,Failed,Functional,Loyalty-Program,mohamed.gallall12@gmail.com,Windows 11 V. 23H2 Build 22631.5039 + Chrome V. 134.0.6998.89,Manual,,22/03/2025,
+Test Case,Verify protection against XSS attacks,TC-126,System should sanitize input and prevent script execution,None,"1. Navigate to the login page.
+2. Locate the input field for the email address.
+3. Enter a list of XSS payloads into the email field.
+Example payloads:
+<script>alert('XSS')</script>
+<img src='x' onerror='alert(1)'/>
+<svg/onload=alert(1)>
+<body onload=alert('XSS')>
+<a href='javascript:alert(1)'>Click me</a>
+4. Submit the form with the XSS payload in the email field.
+5. Verify that no alert box is triggered upon form submission.
+6. Check if the payload is sanitized and does not appear reflected in any form fields or on the page.","No alerts are triggered by any of the XSS payloads. The payload is sanitized, and no malicious script or content is reflected in the page.","XSS attack successful: The payload is reflected in the Email field after form submission, indicating the system is not properly sanitizing input.",High,Failed,Security,Security,mohamed.gallall12@gmail.com,Windows 11 V. 23H2 Build 22631.5039 + Chrome V. 134.0.6998.89,Automated,https://github.com/MohamedGalal-2/DEPI-Software-Tester-Graduation-Project/blob/main/automation-framework/src/test/java/tests/ui/SecurityTest.java,18/3/2025,
+Test Case,Verify protection against CSRF attacks,TC-127,The system should reject unauthorized requests that do not contain a valid CSRF token. The goal of this test is to verify that the system blocks login attempts made without a valid CSRF token.,None,"1. Navigate to the login page.
+2. Get the CSRF token
+Retrieve the CSRF token from the login page (usually hidden in a form field named __RequestVerificationToken).
+3. Attempt to submit the login form without the CSRF token.
+4. Remove the CSRF token from the form using JavaScript.
+5. Submit the form.
+6. Verify the error message.","The system should block the login attempt due to the absence of the CSRF token, showing an appropriate error message indicating that the CSRF token is either missing or invalid.","The login was successful despite the CSRF token being removed, which means that the CSRF protection did not trigger as expected. This caused the test to fail with the message:",High,Failed,Security,Security,mohamed.gallall12@gmail.com,Windows 11 V. 23H2 Build 22631.5039 + Chrome V. 134.0.6998.89,Automated,https://github.com/MohamedGalal-2/DEPI-Software-Tester-Graduation-Project/blob/main/automation-framework/src/test/java/tests/ui/SecurityTest.java,19/3/2025,
+Test Case,Verify session timeout after inactivity,TC-128,System should log out the user after a set period of inactivity,None,Log in and stay idle,"If the user remains idle for the set period of time (30 minutes), the session should terminate automatically. The user should be logged out after the inactivity timeout period expires. Any subsequent page requests should require the user to log in again.","The user remains logged in even after being idle for an extended period of time. The session does not terminate, and the user can still interact with the page. No automatic logout occurs after the inactivity period.
+",High,Failed,Security,Security,mohamed.gallall12@gmail.com,Windows 11 V. 23H2 Build 22631.5039 + Chrome V. 134.0.6998.89,Manual,,19/3/2025,
+Test Case,Verify user session management (one active session at a time),TC-130,System should allow only one active session per user,None,"1. Log in to the application on the first device (Mobile)
+2. Log in to the application on the second device (Desktop, Chrome)
+3. Verify Active Sessions","When the user logs in from multiple devices, the system should terminate the previous session and allow only one active session at a time. If the user logs in from another device, the session on the previous device should be terminated automatically.","The user was able to log in to the application simultaneously on three devices: Mobile (Chrome), Desktop (Chrome), and Desktop (Edge). No sessions were terminated when logging in on a new device. Multiple active sessions are allowed at the same time.",High,Failed,Security,Security,mohamed.gallall12@gmail.com,"Windows 11 V. 23H2 Build 22631.5039 + Chrome V. 134.0.6998.94 & Edge Version 134.0.3124.72
+& Android 14 + Chrome ",Manual,,19/3/2025,
+Test Case,Verify OTP verification for account changes,TC-131,"The system should require OTP (One-Time Password) verification for changes to sensitive account information, such as the password or email.","The system must support OTP verification.User is logged into the application.
+The application should be configured to require OTP verification for any changes to sensitive account information, such as the password or email.","1. Log in to the application.
+2. Attempt to change sensitive account information.
+3. Verify OTP verification prompt.","If the user attempts to change the password or email, the system should trigger OTP verification. The user should receive a One-Time Password via email or SMS to confirm the change request. The user should not be able to proceed with the change without verifying the OTP.","No OTP verification is prompted when attempting to change sensitive account information (email or password). The system does not request OTP verification even for actions that should require it, such as payment method changes or email/password updates. Two-factor authentication (2FA) is not available on the account or payment sections.",High,Failed,Security,Security,mohamed.gallall12@gmail.com,Windows 11 V. 23H2 Build 22631.5039 + Chrome V. 134.0.6998.89,Manual,,19/3/2025,
+Test Case,Verify prevention of unauthorized access,TC-132,Unauthorized users should not be able to access restricted content,None,"1. Attempt to access restricted pages (e.g., admin panel, user profiles, checkout, etc.) without logging in.
+2. Try accessing restricted URLs directly via browser address bar.
+3. Attempt to access restricted API endpoints via Postman or browser tools.
+4. Log in as a regular user and attempt to access admin-only sections.
+5. Try bypassing authentication using various methods (e.g., modifying session cookies, tampering with JWT tokens, or injecting SQL/JS).
+","Unauthorized users should be blocked from accessing restricted content.
+Proper authentication and authorization checks should be in place.
+System should return appropriate error messages (e.g., 401 Unauthorized, 403 Forbidden).
+Sensitive API endpoints should not be accessible without valid authentication tokens.","All unauthorized access attempts were blocked successfully.
+System responded with 403 Forbidden / 401 Unauthorized where applicable.
+No security vulnerabilities related to authentication bypass were found.",High,Passed,Security,Security,mohamed.gallall12@gmail.com,,Automated,,25/03/2025,
+Test Case,Verify brute-force attack protection on login,TC-133,System should lock the account temporarily,None,Attempt multiple failed logins,System should lock the account temporarily,,High,Duplicated,Security,Security,mohamed.gallall12@gmail.com,,Automated,,,Covered in TC-027
+Test Case,Verify email verification link expiration,TC-134,System should reject expired links,The system must support email verification.,"1. Create a new user account.
+2. Check the email inbox.
+3. Wait for the link to expire.
+4. Try using an expired link.","The system should send an email verification link upon account creation. The user should receive an email with a verification link. If the link is expired, the system should display an appropriate error message and allow the user to request a new verification email.","No email is sent upon account creation—the user does not receive a verification email. Since no verification email is received, there is no link to test for expiration. The system does not enforce email verification, allowing unverified accounts to log in.",High,Blocked,Security,Security,mohamed.gallall12@gmail.com,Windows 11 V. 23H2 Build 22631.5039 + Chrome V. 134.0.6998.89,Manual,,19/3/2025,
+Test Case,Verify proper encryption of payment details,TC-135,Payment details should be encrypted securely,None,Inspect network requests during transactions,Payment details should be encrypted securely,,High,Duplicated,Security,Payments,mohamed.gallall12@gmail.com,,Automated,,25/03/2025,Covered in TC-091
+Test Case,Verify proper handling of error messages to avoid data leaks,TC-136,"Ensure that error messages generated by the system do not expose sensitive information such as internal server details, database structures, technology stack, or system configurations.",None,Trigger system errors,Error messages should not expose sensitive information,,High,Duplicated,Security,Security,mohamed.gallall12@gmail.com,,Automated,,25/03/2025,Covered in TC-034
+Test Case,Verify security headers are correctly implemented,TC-137,Ensure that critical security headers are correctly implemented to protect against web vulnerabilities.,"The application should be running in a test or production environment.
+A web browser or HTTP request inspection tool should be available.
+","1. Open Google Chrome, Mozilla Firefox, or Edge.
+2. Navigate to the website (https://demo.nopcommerce.com or target application).
+3. Open Developer Tools (F12 in Chrome/Firefox or Ctrl + Shift + I).
+4. Go to the Network tab.
+5. Refresh the page and click on the first network request (usually the main page).
+6. Navigate to the Headers section and inspect the Response Headers for security-related headers.","- Content-Security-Policy (CSP): Prevents XSS attacks by restricting external scripts.
+- X-Frame-Options: Prevents clickjacking attacks.
+- X-Content-Type-Options: Prevents MIME sniffing.
+- Strict-Transport-Security (HSTS): Ensures HTTPS-only connections.
+- Referrer-Policy: Controls referrer information sent with requests.
+- Permissions-Policy: Restricts browser features (e.g., camera, microphone).","- Most security headers are properly implemented (X-Frame-Options, X-Content-Type-Options, HSTS, Referrer-Policy, Permissions-Policy).
+- Content-Security-Policy (CSP) is too permissive (Allows * in connect-src, font-src, frame-src, img-src, media-src).
+- Server Header is Exposed (cloudflare)
+",High,Failed,Security,Security,mohamed.gallall12@gmail.com,Windows 11 V. 23H2 Build 22631.5039 + Chrome V. 134.0.6998.89,Automated,https://github.com/MohamedGalal-2/DEPI-Software-Tester-Graduation-Project/blob/main/automation-framework/src/test/java/tests/ui/SecurityTest.java,19/3/2025,
+Test Case,Verify multi-factor authentication functionality,TC-138,System should require an additional authentication factor,The system must support multi-factor authentication.,Enable MFA and attempt login,System should require an additional authentication factor,,High,Duplicated,Security,Security,mohamed.gallall12@gmail.com,,Automated,,,Covered in TC-131
+Test Case,Verify user can view their login activity history,TC-139,Ensure that users can view a log of their recent login activity on their dashboard or user profile.,"The user must have an active account and be logged into the application. The system must be logging user login activity, including timestamps, IP addresses, and device/browser details.","1. Login to the Application.
+2. Navigate to User Dashboard or Profile.
+3. Check for Login Activity History Section.
+4. Verify Login Activity Log.
+5. Attempt Multiple Logins.
+6. Check the Login Activity Log again.","The user should see a log of recent login activity, displaying the following information:
+- Date and time of each login.
+- The device or browser used.
+- IP address or location information (optional).
+- The status of each login attempt (successful or failed).
+
+If no login history is available, the system should either:
+- Display a message like ""No login history available"" or ""Login history not found.""
+- Provide a means for the user to view their recent activity (if it's stored in the backend but not displayed).",The feature is not available. No login activity section is present. No message indicating that the feature is missing is shown.,Medium,Blocked,Security,Security,mohamed.gallall12@gmail.com,Windows 11 V. 23H2 Build 22631.5039 + Chrome V. 134.0.6998.89,Manual,,19/3/2025,
+Test Case,Verify page load speed,TC-140,Page should load within acceptable time limits,None,Load the homepage and measure load time,Page should load within acceptable time limits,Pages loaded in 2.2 seconds,Medium,Passed,Performance,Performance,mohamed.gallall12@gmail.com,Windows 11 V. 23H2 Build 22631.5039 + Chrome V. 134.0.6998.89,Automated,,6/5/2025,
+Test Case,Verify server response time,TC-141,Server should respond within the defined threshold,None,Measure server response time for different requests,Server should respond within the defined threshold,Server responded in 850 ms,Medium,Passed,Performance,Performance,mohamed.gallall12@gmail.com,Windows 11 V. 23H2 Build 22631.5039 + Chrome V. 134.0.6998.89,Automated,,6/5/2025,
+Test Case,Verify database query performance,TC-142,Queries should execute efficiently without delay,None,Execute key database queries and measure execution time,Queries should execute efficiently without delay,Queries executed in 410 ms,Medium,Passed,Performance,Performance,mohamed.gallall12@gmail.com,Windows 11 V. 23H2 Build 22631.5039 + Chrome V. 134.0.6998.89,Automated,,6/5/2025,
+Test Case,Verify performance of search functionality,TC-143,Search results should load quickly,None,Search for various products and measure response time,Search results should load quickly,Results displayed in 1.1 seconds,Medium,Passed,Performance,Performance,mohamed.gallall12@gmail.com,Windows 11 V. 23H2 Build 22631.5039 + Chrome V. 134.0.6998.89,Automated,,6/5/2025,
+Test Case,Verify checkout process under load,TC-144,Checkout should complete successfully without lag,The system must simulate high traffic conditions.,Simulate multiple users checking out simultaneously,Checkout should complete successfully without lag,Checkout completed in 3.3 seconds,High,Passed,Performance,Performance,mohamed.gallall12@gmail.com,Windows 11 V. 23H2 Build 22631.5039 + Chrome V. 134.0.6998.89,Automated,,6/5/2025,
+Test Case,Verify order processing speed,TC-145,Order should be processed within expected time,None,Place an order and measure processing time,Order should be processed within expected time,Order processed in 4.2 seconds,High,Passed,Performance,Performance,mohamed.gallall12@gmail.com,Windows 11 V. 23H2 Build 22631.5039 + Chrome V. 134.0.6998.89,Automated,,6/5/2025,
+Test Case,Verify caching mechanism effectiveness,TC-148,Cached pages should load significantly faster,None,Enable/disable caching and measure page load times,Cached pages should load significantly faster,Cached page loaded in 900 ms,Medium,Passed,Performance,Performance,mohamed.gallall12@gmail.com,Windows 11 V. 23H2 Build 22631.5039 + Chrome V. 134.0.6998.89,Automated,,6/5/2025,
+Test Case,Verify scalability of servers,TC-150,Servers should scale to accommodate increased traffic,None,Increase user load and monitor server response,Servers should scale to accommodate increased traffic,"Scaled successfully, average response time 1.7s",High,Passed,Performance,Performance,mohamed.gallall12@gmail.com,Windows 11 V. 23H2 Build 22631.5039 + Chrome V. 134.0.6998.89,Automated,,6/5/2025,
+Test Case,Verify load time of product images,TC-152,Images should load quickly without lag,The system must have product images uploaded.,Open multiple product pages and measure image load time,Images should load quickly without lag,	All images loaded in 700 ms,Medium,Passed,Performance,Performance,mohamed.gallall12@gmail.com,Windows 11 V. 23H2 Build 22631.5039 + Chrome V. 134.0.6998.89,Automated,,6/5/2025,
+Test Case,Verify site renders correctly on Chrome,TC-154,Ensure that the website loads correctly with all elements displayed properly on Chrome.,None,"1. Open the Chrome browser.
+2. Enter the website URL in the address bar.
+3. Press Enter to load the website.
+4. Verify that all elements (text, images, buttons, links, forms, etc.) are displayed correctly and function properly.",The website loads correctly with all elements displayed properly.,"The website loaded correctly, and all elements were displayed as expected.",Medium,Passed,Mobile & Cross-Browser Testing ,Compatibility,mohamed.gallall12@gmail.com,Windows 11 V. 23H2 Build 22631.5039 + Chrome V. 134.0.6998.89,Manual,,25/03/2025,
+Test Case,Verify site renders correctly on Firefox,TC-155,Ensure that the website loads correctly with all elements displayed properly on Firefox.,None,"1. Open the Firefox browser.
+2. Enter the website URL in the address bar.
+3. Press Enter to load the website.
+4. Verify that all elements (text, images, buttons, links, forms, etc.) are displayed correctly and function properly.",The website loads correctly with all elements displayed properly.,"The website loaded correctly, and all elements were displayed as expected.",Medium,Passed,Mobile & Cross-Browser Testing ,Compatibility,mohamed.gallall12@gmail.com,Ubuntu 24.04.2 LTS + Firefox V. 136.0.1,Manual,,25/03/2025,
+Test Case,Verify site renders correctly on Edge,TC-156,Ensure that the website loads correctly with all elements displayed properly on Edge.,None,"1. Open the Edge browser.
+2. Enter the website URL in the address bar.
+3. Press Enter to load the website.
+4. Verify that all elements (text, images, buttons, links, forms, etc.) are displayed correctly and function properly.",The website loads correctly with all elements displayed properly.,"The website loaded correctly, and all elements were displayed as expected.",Medium,Passed,Mobile & Cross-Browser Testing ,Compatibility,mohamed.gallall12@gmail.com,Windows 11 V. 23H2 Build 22631.5039 + Edge V. 134.0.3124.83,Manual,,25/03/2025,
+Test Case,Verify updating product quantity in the cart,TC-068,"Ensures that the quantity of a product in the cart can be updated correctly, and",The cart must have at least one product.,"1. Add a product to the cart.
+2. Navigate to the cart and update quantity.
+3. Verify total price recalculation.
+4. Use quantity up and down buttons.
+5. Verify updated quantity.",The cart should show the updated quantity correctly. The total price should be recalculated correctly based on the updated quantity.,"The product was successfully added to the cart, and the quantity was updated correctly using the input field. The total price was recalculated after the update. The quantity was further adjusted by using the quantity up and down buttons, and the final quantity matched the expected value of 4.",High,Passed,Functional,Cart,mohamed.gallall12@gmail.com,Windows 11 V. 23H2 Build 22631.5039 + Chrome V. 134.0.6998.89,Automated,https://github.com/MohamedGalal-2/DEPI-Software-Tester-Graduation-Project/blob/main/automation-framework/src/test/java/tests/ui/CartTest.java,18/3/2025,
+Test Case,Verify responsiveness on Android devices,TC-158,Ensure that the website adjusts and functions correctly on various Android screen sizes.,None,"1. Open the website on an Android device using the Chrome browser.
+2. Check the layout adaptation across different resolutions.
+3. Interact with menus, buttons, and input fields to ensure touch responsiveness.
+4. Test switching between portrait and landscape mode to see if the website adjusts correctly.
+5. Verify images, fonts, and other UI elements for correct scaling.
+6. Ensure that no overlapping elements or horizontal scrolling issues occur.","The website should adjust seamlessly to various Android screen sizes, maintaining proper functionality.",The website is fully responsive and functions correctly on Android devices.,Medium,Passed,Mobile & Cross-Browser Testing ,Mobile-Compatibility,mohamed.gallall12@gmail.com,Android 14 + Chrome V. 134.0.6998.135,Manual,,25/03/2025,
+Test Case,Verify responsiveness on iOS devices,TC-159,Ensure that the website adjusts and functions correctly across various screen sizes on iOS devices.,None,"1. Open the website on an IOS device using the Safari browser.
+2. Check the layout adaptation across different resolutions.
+3. Interact with menus, buttons, and input fields to ensure touch responsiveness.
+4. Test switching between portrait and landscape mode to see if the website adjusts correctly.
+5. Verify images, fonts, and other UI elements for correct scaling.
+6. Ensure that no overlapping elements or horizontal scrolling issues occur.","The website should seamlessly adjust to various iOS screen sizes, maintaining proper functionality and visual integrity.",The website is fully responsive and functions correctly on iOS devices.,Medium,Passed,Mobile & Cross-Browser Testing ,Mobile-Compatibility,mohamed.gallall12@gmail.com,iOS 18.3.2 + Safari,Manual,,25/03/2025,
+Test Case,Verify touch interactions work correctly,TC-160,Ensure that the website accurately responds to touch interactions on mobile devices.,None,"1. Open the website on a touchscreen device.
+2. Perform a tap on buttons, links, and form fields to check responsiveness.
+3. Use swipe gestures to scroll through pages and interact with carousels or sliders.
+4. Pinch to zoom on images and text areas to verify zoom functionality.
+5. Interact with dropdown menus and modal pop-ups to ensure touch responsiveness.
+6. Test long-press gestures on relevant elements.
+7. Confirm that there are no delays, unresponsive areas, or unintended interactions.",The website should respond smoothly and accurately to all touch interactions without lag or unexpected behavior.,The website correctly handles all touch gestures on mobile devices.,Medium,Passed,Mobile & Cross-Browser Testing ,Mobile-Compatibility,mohamed.gallall12@gmail.com,"Android 14 + Chrome V. 134.0.6998.135
+& iOS 18.3.2 + Safari",Manual,,25/03/2025,
+Test Case,Verify scrolling functionality,TC-161,Ensure that scrolling works smoothly across all pages without glitches or lag.,None,"1. Open the website on a desktop browser and scroll using:
+- Mouse wheel / touchpad gestures.
+- Keyboard (Page Up, Page Down, Arrow Keys).
+2. Scroll through multiple sections of the homepage, product pages, checkout, and blog pages.
+3. Switch to a mobile device and scroll using touch gestures.
+4. Test different scrolling speeds (slow, fast, and flick scrolling).
+5. Verify infinite scrolling (if applicable).
+6. Check if sticky elements (e.g., headers, navigation bars) behave correctly.
+7. Confirm there are no stutters, lag, or unexpected jumps.",Scrolling should be smooth and responsive without glitches or delays across all devices and browsers.,Scrolling works smoothly without any lag or visual issues.,Low,Passed,Mobile & Cross-Browser Testing ,Mobile-Compatibility,mohamed.gallall12@gmail.com,Windows 11 V. 23H2 Build 22631.5039 + Chrome V. 134.0.6998.89,Manual,,25/03/2025,
+Test Case,Verify form inputs work on mobile,TC-162,Forms accept input correctly and submit successfully,None,"1. Open a form on the mobile website.
+2. Enter various input values in the form fields.
+3. Submit the form.",Forms accept input correctly and submit successfully,"The form fields accepted input, and the submission was processed without delays or validation issues.",Medium,Passed,Mobile & Cross-Browser Testing ,Mobile-Compatibility,mohamed.gallall12@gmail.com,Android 14 + Chrome V. 134.0.6998.135,Manual,,25/03/2025,
+Test Case,Verify menu navigation on mobile,TC-163,"Ensure the menu opens, closes, and navigates correctly.",None,"1. Open the mobile website.
+2. Click the menu icon.
+3. Navigate to different sections using the menu.
+4. Close the menu.","The menu should open, close, and navigate correctly without issues.","The menu opened instantly, navigation was smooth, and closing was responsive without glitches.",Medium,Passed,Mobile & Cross-Browser Testing ,Mobile-Compatibility,mohamed.gallall12@gmail.com,Android 14 + Chrome V. 134.0.6998.135,Manual,,25/03/2025,
+Test Case,Verify checkout process on mobile,TC-164,Ensure users can complete the checkout process without issues.,None,"1. Open the mobile website.
+2. Add a product to the cart.
+3. Proceed to checkout.
+4. Complete the purchase.",The checkout process should be completed without issues.,"Checkout flow worked seamlessly—cart updates, payment processing, and order confirmation were successful.",High,Passed,Mobile & Cross-Browser Testing ,Mobile-Compatibility,mohamed.gallall12@gmail.com,Android 14 + Chrome V. 134.0.6998.135,Manual,,25/03/2025,
+Test Case,Verify search functionality on mobile,TC-165,Ensure search results are displayed correctly.,None,"1. Open the mobile website.
+2. Use the search bar to look for a product.
+3. Check if search results appear correctly.",The search results should display correctly.,"Search results loaded quickly, showed accurate product listings, and matched search queries.",Medium,Passed,Mobile & Cross-Browser Testing ,Mobile-Compatibility,mohamed.gallall12@gmail.com,Android 14 + Chrome V. 134.0.6998.135,Manual,,25/03/2025,
+Test Case,Verify product images load on mobile,TC-166,Ensure product images load correctly without distortion.,The system must have product images uploaded.,"1. Open the mobile website.
+2. Navigate to a product page.
+3. Check if images load correctly.",Product images should load correctly without distortion.,"Product images displayed clearly, resized properly for different screens, and loaded without delays.",Medium,Passed,Mobile & Cross-Browser Testing ,Mobile-Compatibility,mohamed.gallall12@gmail.com,Android 14 + Chrome V. 134.0.6998.135,Manual,,25/03/2025,
+Test Case,Verify deleting an address,TC-114,Verify that a saved address can be deleted successfully.,The user must have at least one saved address.,"1. Login to the user account.
+2. Navigate to the Manage Addresses section.
+3. Select an existing address and click the Delete button.
+4. Confirm the deletion when prompted.
+5. Verify that the address is removed from the list.
+6. Logout and log back in to confirm the address is no longer available.",Address should be removed from the list.,Address was successfully removed from the list and did not appear after re-login.,Medium,Passed,Functional,User-Profile,mohamed.gallall12@gmail.com,Windows 11 V. 23H2 Build 22631.5039 + Chrome V. 134.0.6998.89,Manual,,25/03/2025,
+Test Case,Verify mobile payments,TC-168,Ensure payment is processed successfully using mobile payment methods.,The system must support mobile payment methods.,"1. Open the mobile website.
+2. Add a product to the cart.
+3. Proceed to checkout and select a mobile payment method.
+4. Complete the transaction.",The payment should be processed successfully.,"Mobile payment method worked as expected, transaction was successful, and confirmation was received instantly.",High,Passed,Mobile & Cross-Browser Testing ,Mobile-Payments,mohamed.gallall12@gmail.com,Android 14 + Chrome V. 134.0.6998.135,Manual,,25/03/2025,
+Test Case,Verify website logo is displayed,TC-169,Ensure the website logo is visible and properly displayed on the homepage.,None,"1. Open the website homepage.
+2. Check if the logo appears in the designated position (e.g., header or navigation bar).
+3. Ensure the logo is clear, not distorted, and loads without delays.
+4. Verify the logo remains visible when resizing the browser window or switching to mobile view.",The website logo should be displayed correctly without distortion or missing elements.,"The logo appeared properly in its designated position, was clear, and displayed correctly on different screen sizes.",Low,Passed,UI,UI/UX,mohamed.gallall12@gmail.com,Windows 11 V. 23H2 Build 22631.5039 + Chrome V. 134.0.6998.89,Manual,,25/03/2025,
+Test Case,Verify main navigation bar is functional,TC-170,Navigation bar works as expected,None,1. Click each navigation menu item,Navigation bar works as expected,,Medium,Duplicated,UI,UI/UX,mohamed.gallall12@gmail.com,Windows 11 V. 23H2 Build 22631.5039 + Chrome V. 134.0.6998.89,Manual,Covered in TC-342,25/03/2025,
+Test Case,Verify product categories are displayed,TC-171,Ensure that product categories are displayed correctly on the homepage.,None,"1. Open the website homepage.
+2. Locate the product categories section (e.g., navigation menu, sidebar, or main content area).
+3. Verify that all expected product categories are listed and displayed properly.
+4. Check for any missing, broken, or incorrectly labeled categories.
+5. Ensure categories are clickable and lead to the correct product listings.","Product categories should be visible, properly labeled, and functional.","All product categories were displayed correctly in the designated section, with no missing or broken elements. Links were functional.",Medium,Passed,UI,UI/UX,mohamed.gallall12@gmail.com,Windows 11 V. 23H2 Build 22631.5039 + Chrome V. 134.0.6998.89,Manual,,25/03/2025,
+Test Case,Verify homepage banner images are displayed,TC-172,Ensure that homepage banner images are visible and load properly.,The system must have homepage banners uploaded.,"1. Open the website homepage.
+2. Locate the banner section at the top or other designated areas.
+3. Verify that all expected banners are displayed without distortion or missing images.
+4. Check if banners load correctly and within a reasonable time.
+5. Ensure that any interactive elements (e.g., sliding banners, clickable links) work as expected.","Homepage banners should be visible, properly loaded, and free from any distortions or broken links.","All homepage banners were displayed correctly, loaded within an acceptable time, and appeared without visual or functional issues.",Medium,Passed,UI,UI/UX,mohamed.gallall12@gmail.com,Windows 11 V. 23H2 Build 22631.5039 + Chrome V. 134.0.6998.89,Manual,,25/03/2025,
+Test Case,Verify homepage responsiveness on different screen sizes,TC-173,Homepage adapts properly to different screen sizes,None,1. Resize browser window or test on different devices,Homepage adapts properly to different screen sizes,,High,Duplicated,Mobile & Cross-Browser Testing ,Homepage,mohamed.gallall12@gmail.com,,Manual,,25/03/2025,Covered in TC-158 & TC-159 & TC-160
+Test Case,Verify product search bar is present and functional,TC-175,Search bar is visible and returns accurate results,None,1. Enter a product name in the search bar,Search bar is visible and returns accurate results,,High,Duplicated,UI,Search,mohamed.gallall12@gmail.com,,Manual,,,Covered in TC-002
+Test Case,Verify sign-in button is visible and functional,TC-176,Sign-in button works as expected,None,1. Click on the sign-in button,Sign-in button works as expected,,High,Duplicated,UI,Authentication,mohamed.gallall12@gmail.com,,Manual,,,Covered in TC-342
+Test Case,Verify product page displays product information correctly,TC-178,Product details are displayed correctly,None,1. Open a product page,Product details are displayed correctly,,High,Duplicated,UI,Product-Page,mohamed.gallall12@gmail.com,Windows 11 V. 23H2 Build 22631.5039 + Chrome V. 134.0.6998.89,Manual,,15/3/2025,Covered in: TC-052 & TC-053 & TC-054 & TC-055
+Test Case,Verify product image gallery is functional,TC-179,Image gallery allows browsing images,The product must have multiple images uploaded.,"1. Navigate to the Product Page.
+2. Verify the Image Gallery Section is Visible.
+3. Click on Thumbnails.
+4. Verify Image Update.
+5. Verify Image Display.","The product page should display multiple images for the product in the image gallery.
+Clicking on a thumbnail should correctly update the main image to the image associated with the clicked thumbnail.","The product image gallery is functional.
+The main product image correctly updates every time a thumbnail is clicked.",Medium,Passed,UI,Product-Page,mohamed.gallall12@gmail.com,Windows 11 V. 23H2 Build 22631.5039 + Chrome V. 134.0.6998.89,Automated,https://github.com/MohamedGalal-2/DEPI-Software-Tester-Graduation-Project/blob/main/automation-framework/src/test/java/tests/ui/ProductPageTest.java,15/3/2025,
+Test Case,Verify product reviews are displayed,TC-180,"Ensure product reviews are visible with correct details: title, rating, content, reviewer name, and date. Also, verify the Helpful Vote options work.",The product must have at least one review.,"1. Navigate to the product page and locate the review section.
+2. Scroll to the review section and verify the review details:
+3. Review title, rating, content, reviewer’s name, and date are displayed correctly.
+4. Check the Helpful Vote options (Yes/No) update the vote count.","Reviews and all related details are displayed correctly.
+Helpful Vote options are functional.","The review section loads correctly and displays the review title, rating, content, reviewer’s name, and date as expected.
+The Helpful Vote options (""Yes"" and ""No"") are functional, and the vote counts update properly when clicked.
+All review elements are correctly formatted and aligned.",Medium,Passed,UI,Product-Page,mohamed.gallall12@gmail.com,Windows 11 V. 23H2 Build 22631.5039 + Chrome V. 134.0.6998.89,Automated,https://github.com/MohamedGalal-2/DEPI-Software-Tester-Graduation-Project/blob/main/automation-framework/src/test/java/tests/ui/ProductPageTest.java,15/3/2025,
+Test Case,"Verify ""Buy Now"" button redirects to checkout",TC-181,"Ensure that clicking the ""Buy Now"" button takes the user directly to the checkout page.",User is logged in to the website and navigates to a product page.,"	1. Locate the ""Buy Now"" button on a product page.
+2. Click on the ""Buy Now"" button.
+3. Verify that the user is redirected to the checkout page.","The user is redirected to the checkout page immediately after clicking the ""Buy Now"" button.","The ""Buy Now"" button is missing from the product page, preventing the user from proceeding directly to checkout.",High,Blocked,UI,Checkout,mohamed.gallall12@gmail.com,Windows 11 V. 23H2 Build 22631.5039 + Chrome V. 134.0.6998.89,Manual,,17/3/2025,
+Test Case,Verify cart icon updates count when products are added,TC-182,Verify that the cart icon updates the product count correctly when products are added to the cart.,The system must have a visible cart icon and the ability to add products to the cart.,"1. Navigate to the first product page and add the first product to the cart.
+2. Wait for the cart icon to update and verify that the count is greater than 0.
+3. Navigate to the second product page and add the second product to the cart.
+4. Wait for the cart icon to update multiple times, verifying that the count increases.
+5. Optionally, navigate to the cart page and verify both products are in the cart.","The cart icon count should increment correctly each time a product is added. After adding the second product, the cart icon count should be greater than the previous count. Both products should be displayed in the cart.","The cart icon updated correctly after adding the first and second products. The cart count was '1' after adding the first product, and it incremented to '2' correctly after adding the second product. Both products were found in the cart.",High,Passed,UI,Cart,mohamed.gallall12@gmail.com,Windows 11 V. 23H2 Build 22631.5039 + Chrome V. 134.0.6998.89,Automated,https://github.com/MohamedGalal-2/DEPI-Software-Tester-Graduation-Project/blob/main/automation-framework/src/test/java/tests/ui/CartTest.java,18/3/2025,
+Test Case,Verify cart page lists added products,TC-183,Cart page shows correct products,The cart must have at least one product.,1. Open cart page,Cart page shows correct products,,High,Duplicated,UI,Cart,mohamed.gallall12@gmail.com,,Manual,,,Covered in TC-018
+Test Case,Verify ability to remove items from cart,TC-184,Product is successfully removed from cart,The cart must have at least one product.,"1. Click on ""Remove"" next to a product",Product is successfully removed from cart,,High,Duplicated,UI,Cart,mohamed.gallall12@gmail.com,,Manual,,,Covered in TC-019
+Test Case,Verify ability to update product quantity in cart,TC-185,Quantity updates correctly,The cart must have at least one product.,1. Change product quantity in the cart,Quantity updates correctly,,High,Duplicated,UI,Cart,mohamed.gallall12@gmail.com,,Manual,,,Covered in TC-068
+Test Case,Verify checkout button redirects to checkout page,TC-186,User is redirected to checkout page,The cart must have at least one product.,"1. Click on ""Proceed to Checkout""",User is redirected to checkout page,,High,Duplicated,UI,Checkout,mohamed.gallall12@gmail.com,,Manual,,,Covered in TC-004
+Test Case,Verify checkout page displays correct order summary,TC-187,Verify that the order summary on the checkout page correctly reflects the cart contents.,The cart must have at least one product added.,"1. Add products to the cart.
+2. Proceed to checkout page.
+3. Compare the items listed in the order summary with the items in the cart.","The order summary on the checkout page should exactly match the cart contents, including product names, quantities, and prices.",The summary on the checkout page matched the product exactly as expected.,High,Passed,UI,Checkout,mohamed.gallall12@gmail.com,Windows 11 V. 23H2 Build 22631.5039 + Chrome V. 134.0.6998.89,Automated,https://github.com/MohamedGalal-2/DEPI-Software-Tester-Graduation-Project/blob/main/automation-framework/src/test/java/tests/ui/CheckoutTest.java,17/3/2025,
+Test Case,Verify checkout form fields are functional,TC-188,Verify that form fields on the checkout page accept correct inputs,None,"1. Fill in the address details.
+2. Fill in the payment details.
+3. Fill in the shipping details.
+4. Submit the form.","Form fields should accept valid inputs for address, payment, and shipping details, without errors or rejection.","Form fields accepted valid inputs for address, payment, and shipping details, without errors or rejection.",High,Passed,UI,Checkout,mohamed.gallall12@gmail.com,Windows 11 V. 23H2 Build 22631.5039 + Chrome V. 134.0.6998.89,Automated,https://github.com/MohamedGalal-2/DEPI-Software-Tester-Graduation-Project/blob/main/automation-framework/src/test/java/tests/ui/CheckoutTest.java,17/3/2025,
+Test Case,Verify different payment options are available,TC-189,Verify that multiple payment methods are displayed correctly on the checkout page,The system must support multiple payment methods,"1. Navigate to the payment section.
+2. Check that different payment methods are listed.
+3. Ensure that each payment method has an associated logo, description, and radio button for selection.","Payment options should be displayed with logos, descriptions, and radio buttons for selection. The following payment options should be visible:
+- Check / Money Order
+- Credit Card","Payment options are ""Check / Money Order"" and ""Credit Card"" as expected.",High,Passed,UI,Checkout,mohamed.gallall12@gmail.com,Windows 11 V. 23H2 Build 22631.5039 + Chrome V. 134.0.6998.89,Automated,https://github.com/MohamedGalal-2/DEPI-Software-Tester-Graduation-Project/blob/main/automation-framework/src/test/java/tests/ui/CheckoutTest.java,17/3/2025,
+Test Case,Verify search functionality returns accurate results,TC-190,Relevant products are shown,The system must have a database of products.,1. Enter a keyword in the search bar,Relevant products are shown,,High,Duplicated,UI,Search,mohamed.gallall12@gmail.com,,Manual,,,Covered in TC-037
+Test Case,Verify user can sign up successfully,TC-191,Account is created successfully,None,1. Click on Sign-Up,Account is created successfully,,High,Duplicated,UI,Authentication,mohamed.gallall12@gmail.com,,Manual,,,Covered in TC-023
+Test Case,Verify user can log in successfully,TC-192,User logs in successfully,A registered user must exist.,1. Enter credentials and log in,User logs in successfully,,High,Duplicated,UI,Authentication,mohamed.gallall12@gmail.com,,Manual,,,Covered in TC-025
+Test Case,Verify order history page displays past orders,TC-193,Past orders are displayed correctly,The user must have placed at least one order.,1. Navigate to order history page,Past orders are displayed correctly,,Medium,Duplicated,UI,Orders,mohamed.gallall12@gmail.com,Windows 11 V. 23H2 Build 22631.5039 + Chrome V. 134.0.6998.89,Manual,,25/03/2025,Covered in TC-115
+Test Case,Verify guest checkout is functional,TC-196,Guest checkout completes successfully,Guest checkout must be enabled.,1. Add items to cart,Guest checkout completes successfully,,High,Duplicated,UI,Checkout,mohamed.gallall12@gmail.com,,,,,Covered in TC-072
+Test Case,"Verify ""Forgot Password"" functionality",TC-197,Password reset email is sent,A registered user must exist.,"1. Click ""Forgot Password"" on login page",Password reset email is sent,,High,Duplicated,UI,Authentication,mohamed.gallall12@gmail.com,,,,,Covered in TC-029
+Test Case,Verify order tracking feature works,TC-198,Order status is shown correctly,An order must be placed and shipped.,1. Enter order ID in tracking section,Order status is shown correctly,,Medium,Duplicated,UI,Orders,mohamed.gallall12@gmail.com,Windows 11 V. 23H2 Build 22631.5039 + Chrome V. 134.0.6998.89,Manual,,25/03/2025,Covered in TC-100
+Test Case,Verify product comparison feature,TC-199,Ensure the system correctly displays selected products on the comparison page.,The system must support product comparison.,"1. Navigate to the product listing page.
+2. Select two products and click ""Add to Compare.""
+3. Open the product compare page from the footer.","The comparison page displays both selected products with accurate details.
+",The products appear correctly in the comparison list with all relevant information.,Medium,Passed,UI,Product-Page,mohamed.gallall12@gmail.com,Windows 11 V. 23H2 Build 22631.5039 + Chrome V. 134.0.6998.89,Automated,https://github.com/MohamedGalal-2/DEPI-Software-Tester-Graduation-Project/blob/main/automation-framework/src/test/java/tests/ui/ProductPageTest.java,15/3/2025,
+Test Case,Verify user can successfully register,TC-200,User registered successfully with 200 response.,None,"1. Send POST request to /register with valid user details. 
+2. Check response.",User registered successfully with 200 response.,The user was registered successfully with 200 response.,High,Passed,API,User-Authentication,mohamed.gallall12@gmail.com,Windows 11 V. 23H2 Build 22631.5039 + Chrome V. 134.0.6998.89,Automated,,20/04/2025,
+Test Case,Verify login with valid credentials,TC-201,Login successful with access token returned.,A registered user must exist.,"1. Send POST request to /login with valid username and password. 
+2. Verify response.",Login successful with access token returned.,Login successful with access token returned.,High,Passed,API,User-Authentication,mohamed.gallall12@gmail.com,Windows 11 V. 23H2 Build 22631.5039 + Chrome V. 134.0.6998.89,Automated,,20/04/2025,
+Test Case,Verify user logout,TC-203,"Logout successful, token invalidated.",The user must be logged in.,"1. Send GET request to /logout with valid token. 
+2. Check if session is cleared.","Logout successful, token invalidated.",Logout successful with valid token,Medium,Passed,API,User-Authentication,mohamed.gallall12@gmail.com,Windows 11 V. 23H2 Build 22631.5039 + Chrome V. 134.0.6998.89,Automated,,20/04/2025,
+Test Case,Verify password reset request,TC-204,Email with reset link sent.,The user must have an existing account.,"1. Send POST request to /reset-password with registered email. 
+2. Check response.",Email with reset link sent.,Email with reset link sent.,High,Passed,API,User-Authentication,mohamed.gallall12@gmail.com,Windows 11 V. 23H2 Build 22631.5039 + Chrome V. 134.0.6998.89,Automated,,20/04/2025,
+Test Case,Verify retrieving user profile,TC-205,User profile details returned.,The user must be logged in.,"1. Send GET request to /user/profile with valid token. 
+2. Verify response.",User profile details returned.,User profile returned successfully.,Medium,Passed,API,User-Management,mohamed.gallall12@gmail.com,Windows 11 V. 23H2 Build 22631.5039 + Chrome V. 134.0.6998.89,Automated,,21/04/2025,
+Test Case,Verify retrieving a product by ID,TC-208,Product details returned.,The product must exist in the system.,"1. Send GET request to /products/{id}. 
+2. Verify response.",Product details returned.,Product details returned successfully.,Medium,Passed,API,Orders,mohamed.gallall12@gmail.com,Windows 11 V. 23H2 Build 22631.5039 + Chrome V. 134.0.6998.89,Automated,,21/04/2025,
+Test Case,Verify retrieving cart contents,TC-212,List of cart items returned.,The cart must contain at least one item.,"1. Send GET request to /cart. 
+2. Verify response.",List of cart items returned.,List of cart items returned successfully.,Medium,Passed,API,Cart,mohamed.gallall12@gmail.com,Windows 11 V. 23H2 Build 22631.5039 + Chrome V. 134.0.6998.89,Automated,,21/04/2025,
+Test Case,Verify order details retrieval,TC-216,Order details returned.,The user must have placed at least one order.,"1. Send GET request to /order/{id}. 
+2. Verify response.",Order details returned.,Order detals returned successfully,Medium,Passed,API,Orders,mohamed.gallall12@gmail.com,Windows 11 V. 23H2 Build 22631.5039 + Chrome V. 134.0.6998.89,Automated,,21/04/2025,
+Test Case,Verify product listing,TC-390,Verify product listing,None,"1. Send GET request to /products
+2. Verify response",List of products returned successfully,Order detals returned successfully,High,Passed,API,Products,mohamed.gallall12@gmail.com,Windows 11 V. 23H2 Build 22631.5039 + Chrome V. 134.0.6998.89,Automated,,06/05/2025,
+Test Case,Verify product listing,TC-390,Verify product listing,None,"1. Send GET request to /products
+2. Verify response",List of products returned successfully,Order detals returned successfully,High,Passed,API,Products,mohamed.gallall12@gmail.com,Windows 11 V. 23H2 Build 22631.5039 + Chrome V. 134.0.6998.89,Automated,,06/05/2025,
+Test Case,Verify product categories are displayed,TC-391,Verify product categories,None,"	1. Send GET request to /products/categories
+2. Verify response","List of categories returned
+",List of categories returned successfully,Medium,Passed,API,Products,mohamed.gallall12@gmail.com,Windows 11 V. 23H2 Build 22631.5039 + Chrome V. 134.0.6998.89,Automated,,06/05/2025,
+Test Case,Verify product search by category,TC-392,Verify products by category,None,"1. Send GET request to /products/category/electronics
+2. Verify response",Products from category returned,Products of electronics category returned,Medium,Passed,API,Products,mohamed.gallall12@gmail.com,Windows 11 V. 23H2 Build 22631.5039 + Chrome V. 134.0.6998.89,Automated,,06/05/2025,
+Test Case,Verify user creation,TC-393,Verify user creation,"{ ""email"": ""newuser@example.com"", ""username"": ""newuser"", ""password"": ""password123"", ""name"": {""firstname"": ""New"", ""lastname"": ""User""}, ""address"": {""city"": ""Cairo"", ""street"": ""Some Street"", ""number"": 10, ""zipcode"": ""12345"" }, ""phone"": ""0100000000""}","1. Send POST to /users with valid JSON data
+2. Check if user is returned ",User is created,User created successfully,High,Passed,API,Users,mohamed.gallall12@gmail.com,Windows 11 V. 23H2 Build 22631.5039 + Chrome V. 134.0.6998.89,Automated,,06/05/2025,
+Test Case,Verify cart creation,TC-394,Verify cart creation,"{""userId"": 5, ""date"": ""2025-04-21"", ""products"": [{ ""productId"": 1, ""quantity"": 2 }, { ""productId"": 2, ""quantity"": 1 }]}","1. Send POST to /cart with valid JSON data
+2. Check if cart info is returned",Cart is created ,Cart is created ,High,Passed,API,Cart,mohamed.gallall12@gmail.com,Windows 11 V. 23H2 Build 22631.5039 + Chrome V. 134.0.6998.89,Automated,,06/05/2025,
+Test Case,Verify getting all users,TC-395,Verify getting all users,None,"1. Send GET to /users
+2. Check if List of user objects is returned",List of user objects (Status 200),"List of user objects returned successfully
+",Low,Passed,API,Users,mohamed.gallall12@gmail.com,Windows 11 V. 23H2 Build 22631.5039 + Chrome V. 134.0.6998.89,Automated,,06/05/2025,
+Test Case,Verify get cart by ID,TC-396,Verify get cart by ID,None,"1. Send GET to /carts/1
+2. Check if List of cart objects is returned",Cart with id 1 returned,Cart with id 1 returned successfully,Medium,Passed,API,Orders,mohamed.gallall12@gmail.com,Windows 11 V. 23H2 Build 22631.5039 + Chrome V. 134.0.6998.89,Automated,,06/05/2025,
+Test Case,Verify deleting a cart,TC-397,Verify deleting a cart,None,"1. Send DELETE to /carts/7
+2. Check for deleted cart object or success confirmation",Deleted cart object or success confirmation,Cart object deleted successfully,Medium,Passed,API,Cart,mohamed.gallall12@gmail.com,Windows 11 V. 23H2 Build 22631.5039 + Chrome V. 134.0.6998.89,Automated,,06/05/2025,
+Test Case,Verify updating a user,TC-398,Verify updating a user,"{""name"": {""firstname"": ""Updated"",""lastname"": ""User""}}","1. Send PUT to /users/7
+2. Check if updated user object",Updated user object (Status 200),User object updated successfully,Medium,Passed,API,Users,mohamed.gallall12@gmail.com,Windows 11 V. 23H2 Build 22631.5039 + Chrome V. 134.0.6998.89,Automated,,06/05/2025,
+Test Case,Verify update a cart,TC-399,Verify updating a cart,"{""userId"": 5,""date"": ""2025-04-22"",""products"": [{ ""productId"": 3, ""quantity"": 1 }]}","1. Send PUT to /cart/1
+2. Check if updated cart object",Updated cart object (Status 200),Cart object updated successfully,Low,Passed,API,Cart,mohamed.gallall12@gmail.com,Windows 11 V. 23H2 Build 22631.5039 + Chrome V. 134.0.6998.89,Automated,,06/05/2025,
+Test Case,Verify deleting a user,TC-400,Verify deleting a user,None,"1. Send DELETE to /users/6
+2. Check if deleted user info",Deleted user info (Status 200),User object deleted successfully,Low,Passed,API,Users,mohamed.gallall12@gmail.com,Windows 11 V. 23H2 Build 22631.5039 + Chrome V. 134.0.6998.89,Automated,,06/05/2025,
+Test Case,Ensure breadcrumb navigation is working,TC-261,"This test verifies that breadcrumb navigation accurately reflects the user's movement through categories and subcategories, ensuring a smooth and intuitive navigation experience.",None,"1. Navigate to a subcategory page (e.g., ""Laptops"").
+2. Verify the breadcrumb path is displayed correctly (e.g., Home > Computers > Laptops).
+3. Click on the Computers breadcrumb link.
+4. Verify that the Computers category page loads successfully.
+5. Click on the Home breadcrumb link.
+6. Verify that the homepage loads correctly.",Breadcrumbs should dynamically update as the user navigates. Clicking a breadcrumb should take the user to the correct category or homepage. The product list should reflect the appropriate category/subcategory.," Breadcrumb navigation updated dynamically based on category/subcategory selection. Clicking breadcrumb links (e.g., ""Computers"") navigated to the correct category page. Clicking ""Home"" returned the user to the homepage without issues. No incorrect paths, missing breadcrumbs, or navigation errors were detected.",Medium,Passed,Functional,Navigation,mohamed.gallall12@gmail.com,Windows 11 V. 23H2 Build 22631.5039 + Chrome V. 134.0.6998.89,Automated,https://github.com/MohamedGalal-2/DEPI-Software-Tester-Graduation-Project/blob/main/automation-framework/src/test/java/tests/ui/HomePageTest.java,21/3/2025,
+Test Case,Validate the presence of a homepage link,TC-262,This test ensures that users can easily return to the homepage using the site logo or 'Home' button.,None,"1. Navigate to a random page (e.g., ""Electronics"" category).
+2. Click on the site logo.
+3. Verify that the homepage loads successfully.
+4. Navigate to a different page again.
+5. Click on the 'Home' button (if available).
+6. Verify that the homepage loads correctly.",Clicking the logo should instantly take the user to the homepage. Clicking the 'Home' button (if available) should do the same. No broken links or incorrect redirections should occur.,"Clicking the site logo redirected the user to the homepage instantly. Clicking the ""Home"" button (if available) also worked as expected. The homepage loaded correctly without errors or delays. No broken navigation, incorrect redirects, or missing elements occurred.",Medium,Passed,Functional,Navigation,mohamed.gallall12@gmail.com,Windows 11 V. 23H2 Build 22631.5039 + Chrome V. 134.0.6998.89,Automated,https://github.com/MohamedGalal-2/DEPI-Software-Tester-Graduation-Project/blob/main/automation-framework/src/test/java/tests/ui/HomePageTest.java,21/3/2025,
+Test Case,Verify Footer Links Functionality,TC-343,"This test ensures that all footer links (e.g., Sitemap, Privacy Policy, Contact Us) are functional and navigate to the correct pages without errors.",None,"1. Navigate to the homepage.
+2. Scroll down to the footer section.
+3. Click each footer link one by one and verify navigation.
+4. Verify that the correct page loads after clicking each link.
+5. Navigate back to the homepage and repeat for the next link."," Clicking each footer link should navigate to the correct page. The page should load without errors. No broken links, 404 errors, or incorrect redirects should occur.","All footer links (Sitemap, Privacy Policy, Contact Us, etc.) were clickable and functional. Clicking each link navigated to the correct page, and the page loaded without errors (404 or broken links). Navigating back to the homepage after testing each footer link worked properly. No missing, incorrect, or non-functional links were found.",Medium,Passed,Functional,Navigation,mohamed.gallall12@gmail.com,Windows 11 V. 23H2 Build 22631.5039 + Chrome V. 134.0.6998.89,Automated,https://github.com/MohamedGalal-2/DEPI-Software-Tester-Graduation-Project/blob/main/automation-framework/src/test/java/tests/ui/HomePageTest.java,21/3/2025,
+Test Case,Ensure the search bar is visible on all pages,TC-263,Search bar should be present on all pages,None,Open various pages and check for search bar,Search bar should be present on all pages,The search bar is found thorugh every page in the website as it should be.,High,Passed,UI,Search,mohamed.gallall12@gmail.com,Windows 11 V. 23H2 Build 22631.5039 + Chrome V. 134.0.6998.89,Manual,,15/3/2025,
+Test Case,Verify search functionality with relevant keywords,TC-264,Relevant search results should be displayed,The system must have products with searchable keywords.,Enter product-related keywords and click search,Relevant search results should be displayed,Relevant search results is displayed,High,Passed,Functional,Search,mohamed.gallall12@gmail.com,Windows 11 V. 23H2 Build 22631.5039 + Chrome V. 134.0.6998.89,Manual,,15/3/2025,
+Test Case,Test search with incorrect keywords,TC-265,A 'No results found' message should be displayed,None,Enter gibberish and click search,A 'No results found' message should be displayed,A 'No results found' message is displayed,Medium,Passed,Functional,Search,mohamed.gallall12@gmail.com,Windows 11 V. 23H2 Build 22631.5039 + Chrome V. 134.0.6998.89,Manual,,15/3/2025,
+Test Case,Ensure autocomplete suggestions appear,TC-266,Suggestions should appear based on input,The system must have a database of searchable terms.,Start typing in the search bar,Suggestions should appear based on input,,High,Duplicated,UI,Search,mohamed.gallall12@gmail.com,,Manual,,,Covered in TC-051
+Test Case,Verify product category filter functionality,TC-267,Results should match the selected category,The system must have categorized products.,Apply category filters on product listing page,Results should match the selected category,,High,Duplicated,Functional,Filters,mohamed.gallall12@gmail.com,Windows 11 V. 23H2 Build 22631.5039 + Chrome V. 134.0.6998.89,Manual,,25/03/2025,Covered in TC-038
+Test Case,Ensure sorting functionality works,TC-268,Products should be sorted correctly,The system must support sorting logic.,"Apply sorting (price low to high, newest first, etc.)",Products should be sorted correctly,,High,Duplicated,Functional,Filters,mohamed.gallall12@gmail.com,Windows 11 V. 23H2 Build 22631.5039 + Chrome V. 134.0.6998.89,Manual,,25/03/2025,Covered in TC-043
+Test Case,Verify add to cart functionality,TC-269,Product should be added to cart with correct details,The product must be available for purchase.,Select a product and click 'Add to Cart',Product should be added to cart with correct details,,High,Duplicated,Functional,Cart,mohamed.gallall12@gmail.com,,,,,Covered in TC-015
+Test Case,Ensure cart updates when quantity is changed,TC-270,Cart should update the price and quantity accordingly,The cart must have at least one product.,Increase/decrease quantity of an item in cart,Cart should update the price and quantity accordingly,,High,Duplicated,Functional,Cart,mohamed.gallall12@gmail.com,,,,,Covered in TC-068
+Test Case,Test cart persistence after page refresh,TC-271,Cart should retain selected items,The system must support persistent carts.,Add items to cart and refresh the page,Cart should retain selected items,,High,Duplicated,Functional,Cart,mohamed.gallall12@gmail.com,,,,,Covered in TC-015
+Test Case,Verify checkout process flow,TC-272,Checkout should complete without errors,The cart must contain at least one product.,Proceed to checkout and enter required details,Checkout should complete without errors,,High,Duplicated,Functional,Checkout,mohamed.gallall12@gmail.com,,,,,Covered in TC-081
+Test Case,Ensure guest checkout is functional,TC-273,Guest checkout should proceed smoothly,Guest checkout must be enabled.,Attempt to check out without logging in,Guest checkout should proceed smoothly,,High,Duplicated,Functional,Checkout,mohamed.gallall12@gmail.com,,,,,Covered in TC-072
+Test Case,Test login/signup before checkout,TC-274,User should be prompted to log in or sign up,"User is not logged in.
+At least one product is added to the cart.","1. Navigate to the Cart page.
+2. Click on the Checkout button.
+3. Click on the register button besides the checkout as a guest button.
+4. Fill in the registration form with valid details.
+5. Submit the registration form.
+6. Verify that the user is logged in successfully.
+7. Proceed to the checkout form and fill in the required details.
+8. Verify that the order is placed successfully and a confirmation message is displayed.","User is prompted to log in or register before proceeding to checkout. After registration, the user should be redirected to the checkout page. The order is successfully placed.","The system correctly prompted the user to log in/sign up. Registration was successful, and the user was redirected to checkout. The checkout process completed successfully, and an order confirmation was received.",High,Passed,Functional,Checkout,mohamed.gallall12@gmail.com,Windows 11 V. 23H2 Build 22631.5039 + Chrome V. 134.0.6998.89,Manual,,17/3/2025,
+Test Case,Validate payment gateway integration,TC-275,Payment should be processed successfully,The system must have an integrated payment gateway.,Enter valid payment details and submit,Payment should be processed successfully,,High,Duplicated,Functional,Payments,mohamed.gallall12@gmail.com,,,,,Covered in TC-095
+Test Case,Ensure invalid payment is handled properly,TC-276,Proper error message should be displayed,An invalid payment method must be used.,Enter incorrect card details,Proper error message should be displayed,,High,Duplicated,Functional,Payments,mohamed.gallall12@gmail.com,,,,,Covered in TC-012
+Test Case,Check order confirmation email,TC-277,Email should be received with order details,The system must support order confirmation emails.,Complete a purchase and check email,Email should be received with order details,,High,Duplicated,Functional,Orders,mohamed.gallall12@gmail.com,,,,,Covered in TC-092
+Test Case,Validate responsiveness on mobile devices,TC-278,Layout should adjust correctly,None,Open website on different screen sizes,Layout should adjust correctly,,High,Duplicated,UI,UI/UX,mohamed.gallall12@gmail.com,Windows 11 V. 23H2 Build 22631.5039 + Chrome V. 134.0.6998.89,Manual,,25/03/2025,Covered in TC-158 & TC-159
+Test Case,Test broken links across the site,TC-280,This test verifies that all links on the website are functional and do not return 404 errors or other broken link issues.,None,"1. Open the website homepage.
+2. Click on multiple internal and external links across different pages.
+3. Check if any of them return 404 errors or fail to load.
+4. Validate if redirected links are pointing to the correct destinations.",No broken links should be found. All links should be accessible and working correctly without any errors.,"No broken links were found, and all tested links worked as expected.",High,Passed,Functional,General,mohamed.gallall12@gmail.com,Windows 11 V. 23H2 Build 22631.5039 + Chrome V. 134.0.6998.89,Manual,,25/03/2025,
+Test Case,Verify wishlist functionality,TC-281,Product should be saved in wishlist,The user must be logged in (if wishlist is account-based).,Add a product to the wishlist and check later,Product should be saved in wishlist,,Medium,Duplicated,Functional,Wishlist,mohamed.gallall12@gmail.com,,,,,Covered in TC-078
+Test Case,Ensure social media sharing works,TC-282,This test ensures that users can share product pages using integrated social media sharing buttons. The test verifies that clicking each sharing button opens the corresponding social media platform with the correct product link preloaded.,Social media integration must be enabled.,"1. Navigate to the product page.
+2. Scroll down to the social media sharing buttons section.
+3. Click on each social media share button (e.g., Messenger, Facebook, Email, Reddit, WhatsApp).
+4. Verify that a new tab/window opens for each platform.
+5. Ensure the product link is preloaded in the share window.
+6. Close the share window and repeat for the next platform.",Clicking a social media share button opens the respective platform's sharing interface. The product link is preloaded in the share text. The sharing options work without errors or broken links.,"The social media buttons were visible and clickable. Clicking each button opened the corresponding platform’s share interface. The correct product URL was preloaded in each sharing popup. No errors, missing buttons, or incorrect redirections were encountered.",Low,Passed,Functional,Product-Page,mohamed.gallall12@gmail.com,Windows 11 V. 23H2 Build 22631.5039 + Chrome V. 134.0.6998.89,Automated,https://github.com/MohamedGalal-2/DEPI-Software-Tester-Graduation-Project/blob/main/automation-framework/src/test/java/tests/ui/ProductPageTest.java,21/03/2025,
+Test Case,Check return and refund process,TC-283,Return process should follow correct steps,A completed order must exist.,Attempt to return a purchased item,Return process should follow correct steps,,High,Duplicated,Functional,Orders,mohamed.gallall12@gmail.com,,,,,Covered in TC-089
+Test Case,Validate user reviews and ratings,TC-284,Review should be posted successfully,The system must support reviews and ratings.,Submit a product review and check if it appears,Review should be posted successfully,,Medium,Duplicated,Functional,Reviews,mohamed.gallall12@gmail.com,,,,,Covered in TC-061
+Test Case,Ensure account management features work,TC-285,"This test verifies that account management features function correctly. The user should be able to update their profile details, such as name, password, or other available fields. The changes should be saved successfully and persist after refreshing or reloading the page.",The user must be logged in.,"1. The user successfully logs into their account.
+2. The user navigates to the account management/profile settings page.
+3. The user modifies profile details (e.g., name, password, or other available fields).
+4. After clicking the ""Save"" or ""Update"" button:
+A confirmation message appears (e.g., ""Your profile has been updated successfully."").
+5. The updated information is correctly reflected in the profile section.
+6. Refreshing or reloading the page retains the changes.","The user navigates to the account management/profile settings page. The user modifies profile details (e.g., name, password, or other fields).","The user successfully updates their profile details. A confirmation message appears (e.g., ""Your profile has been updated successfully.""). The modified information is displayed correctly in the profile section.",High,Passed,Functional,Authentication,mohamed.gallall12@gmail.com,Windows 11 V. 23H2 Build 22631.5039 + Chrome V. 134.0.6998.89,Manual,,21/3/2025,
+Test Case,Check multi-language support,TC-286,Verify that the website supports multiple languages and translations work correctly.,The system must have multi-language functionality enabled.,"1. Navigate to the website.
+2. Locate the language switcher in the header, footer, or settings.
+3. Change the website language to an available alternative (e.g., Arabic, French, Spanish).
+4. Verify that the translations are accurate and applied across all pages.
+5. Check key UI elements, such as navigation menus, product descriptions, buttons, and messages.
+6. Switch back to the default language and confirm the transition works smoothly.","The language should change correctly, and translations should be applied across all sections of the website.",Not Available (The multi-language functionality is missing or not working).,Medium,Blocked,UI,UI/UX,mohamed.gallall12@gmail.com,Windows 11 V. 23H2 Build 22631.5039 + Chrome V. 134.0.6998.89,Manual,,25/03/2025,
+Test Case,Verify session timeout for security,TC-287,User should be logged out after timeout,The system must have a session timeout policy configured.,Log in and stay inactive for a while,User should be logged out after timeout,,High,Duplicated,Security,Security,mohamed.gallall12@gmail.com,,,,,Covered in TC-128
+Test Case,Verify GDPR compliance for user data storage,TC-288,Ensure that personal data is securely stored and managed in compliance with GDPR regulations.,The system must handle personal data storage. A test account should be created or available for verification.,"1. Register a new user account on the system.
+2. Submit personal information such as name, email, and password.
+3. Inspect the database or storage mechanism used for user data.
+4. Verify if personal data (e.g., passwords, email addresses, or other sensitive information) is encrypted or hashed.","Personal data should be securely stored and managed (e.g., encrypted, hashed, or following GDPR-compliant practices).","Personal data is stored in plain text, violating GDPR compliance.",High,Failed,Compliance,Compliance,mohamed.gallall12@gmail.com,Windows 11 V. 23H2 Build 22631.5039 + Chrome V. 134.0.6998.89,Manual,,25/03/2025,
+Test Case,Ensure GDPR-compliant cookie consent banner,TC-289,Verify that the website displays a GDPR-compliant cookie consent banner with options to accept or reject cookies.,The site must have a cookie consent feature.,"1. Open a web browser (Chrome, Firefox, Edge, etc.).
+2. Open Incognito/Private Mode to simulate a first-time visit.
+3. Navigate to the website's homepage.
+4. Observe that no cookie consent banner is displayed, and cookies may be stored without user consent.","A cookie consent banner should appear when the user first visits the website.
+- The banner should include:
+- A clear message explaining cookie usage.
+- Accept and Reject options.
+- A link to the cookie policy for more details.
+No non-essential cookies should be stored before user consent is given.","No cookie consent banner appears. Cookies may be stored without explicit user consent, violating GDPR regulations.",High,Failed,Compliance,Compliance,mohamed.gallall12@gmail.com,Windows 11 V. 23H2 Build 22631.5039 + Chrome V. 134.0.6998.89,Manual,,25/03/2025,
+Test Case,Test user rights to delete personal data,TC-290,Verify that the system allows users to delete their personal data in compliance with GDPR regulations.,The system must support data deletion requests.,"1. Log in to the website using a test user account.
+2. Navigate to the account settings or privacy settings section.
+3. Look for an option to delete the account and associated data.
+4. Attempt to delete the account and confirm the action.
+5. Verify if the account and all personal data are removed from the system.
+6. Try logging in again with the same credentials to ensure the data is completely deleted.","The user should have a clear option to delete their account and personal data. Once deleted, the account and all associated data should be permanently removed and no longer accessible.",No option to delete user data was found.,High,Failed,Compliance,Compliance,mohamed.gallall12@gmail.com,Windows 11 V. 23H2 Build 22631.5039 + Chrome V. 134.0.6998.89,Manual,,25/03/2025,
+Test Case,Verify compliance with PCI-DSS for payments,TC-291,Ensure that payment transactions comply with PCI-DSS standards by verifying encryption and secure processing.,The system must have PCI-DSS compliance implemented.,"1. Navigate to the checkout/payment page of the website.
+2. Enter valid credit card details (test card if applicable).
+3. Initiate a transaction and monitor the network traffic for encryption (using browser DevTools).
+4. Verify if credit card details are encrypted before submission.
+5. Check if the payment gateway redirects securely (HTTPS with TLS 1.2/1.3).
+6. Confirm if sensitive card data is not stored in plaintext in the system.","Payment details should be encrypted during transmission.
+The system should use secure payment gateways compliant with PCI-DSS.
+Credit card data should never be stored in plaintext in the database.",Credit card details were transmitted without encryption.,High,Failed,Compliance,Compliance,mohamed.gallall12@gmail.com,Windows 11 V. 23H2 Build 22631.5039 + Chrome V. 134.0.6998.89,Manual,,25/03/2025,
+Test Case,Ensure HTTPS security protocol is enforced,TC-292,All pages should load with HTTPS enabled,The website must support HTTPS.,"1. Navigate to the different pages of the website (using a list of URLs like the ones in the previous test case).
+2. Check the URL: Ensure that the URL starts with https://.
+3. Verify that the padlock icon (secure connection) is displayed on each page to confirm the use of HTTPS.
+","All pages should load with HTTPS enabled, and the padlock icon should be visible for secure connection verification.","Navigated to multiple URLs from the website The HTTPS was Enforced. All pages loaded with HTTPS automatically, even if the initial URL did not have HTTPS in the browser's address bar. When visiting the HTTP versions of these URLs, the browser redirected to HTTPS (enforced by the server). The padlock icon was found and displayed on all the pages, confirming that the connection was secure.",High,Passed,Compliance,Security,mohamed.gallall12@gmail.com,Windows 11 V. 23H2 Build 22631.5039 + Chrome V. 134.0.6998.89,Automated,https://github.com/MohamedGalal-2/DEPI-Software-Tester-Graduation-Project/blob/main/automation-framework/src/test/java/tests/ui/SecurityTest.java,19/3/2025,
+Test Case,Validate password security requirements,TC-293,System should enforce strong password rules,The system must enforce password rules.,Try setting a weak password during registration,System should enforce strong password rules,,High,Duplicated,Compliance,Security,mohamed.gallall12@gmail.com,,,,,Covered in TC-034
+Test Case,Verify two-factor authentication (2FA),TC-294,Login should require the additional authentication step,The system must support 2FA.,Enable 2FA and attempt login,Login should require the additional authentication step,,High,Duplicated,Compliance,Security,mohamed.gallall12@gmail.com,,,,,Covered in TC-131
+Test Case,Validate compliance with local taxation laws,TC-295,Ensure that the system correctly applies local tax rates based on the user's location.,The system must apply local tax rules.,"1. Navigate to the website's checkout page.
+2. Add an item to the cart and proceed to billing details.
+3. Enter an address from a location where taxes should be applied.
+4. Review the tax calculations on the payment summary.
+5. Compare the applied tax rate with official local tax regulations.
+6. Confirm if the correct tax amount is included in the final total.","The system should apply the correct tax rate based on the user's location.
+The total amount should include the calculated tax value.",Taxes were not applied (always 0%).,Medium,Failed,Compliance,Compliance,mohamed.gallall12@gmail.com,Windows 11 V. 23H2 Build 22631.5039 + Chrome V. 134.0.6998.89,Manual,,25/03/2025,
+Test Case,Ensure proper invoicing for purchases,TC-296,Invoice should contain legally required details,The system must generate invoices.,Complete a purchase and download invoice,Invoice should contain legally required details,,Medium,Duplicated,Compliance,Orders,mohamed.gallall12@gmail.com,Windows 11 V. 23H2 Build 22631.5039 + Chrome V. 134.0.6998.89,Manual,,25/03/2025,Covered in TC-102
+Test Case,Test age restriction enforcement,TC-297,Validate that the system enforces age verification before allowing checkout for age-restricted products.,The system must have age-restricted products.,"1. Navigate to the product catalog.
+2. Search for an age-restricted product.
+3. Add the product to the cart.
+4. Proceed to checkout.
+5. Observe if the system prompts for age verification.","- The system should prompt users to verify their age before checkout.
+- If the user does not meet the age requirement, the system should prevent the purchase.","No age-restricted products exist in the system, preventing age verification from being tested.",Low,Blocked,Compliance,Compliance,mohamed.gallall12@gmail.com,,Manual,,22/03/2025,
+Test Case,Ensure terms & conditions are accessible,TC-299,"Verify that the Terms & Conditions (T&C) page is clearly visible, accessible, and mandatory for users before proceeding to checkout.",The website must have terms & conditions available.,"1. Navigate to the homepage of the website.
+2. Locate the Terms & Conditions link (typically in the footer or during checkout).
+3. Click on the link and verify if the T&C page loads properly.
+4. Attempt to proceed to checkout without accepting the T&C.
+5. Accept the T&C and verify if the checkout process continues.","The Terms & Conditions page should be clearly visible and accessible.
+Users should be required to accept the T&C before proceeding to checkout.","The T&C are accessible, and users must accept them before proceeding to checkout.",Low,Passed,Compliance,Compliance,mohamed.gallall12@gmail.com,Windows 11 V. 23H2 Build 22631.5039 + Chrome V. 134.0.6998.89,Manual,,25/03/2025,
+Test Case,Validate data encryption for sensitive user details,TC-300,Data should be encrypted during transmission,The system must support data encryption.,Inspect network traffic when submitting personal data,Data should be encrypted during transmission,,High,Duplicated,Compliance,Security,mohamed.gallall12@gmail.com,,,,,Covered in TC-091
+Test Case,Check compliance with anti-fraud measures,TC-301,System should detect and prevent fraudulent activities,The system must have fraud detection mechanisms.,Attempt multiple failed logins or card transactions,System should detect and prevent fraudulent activities,,High,Duplicated,Compliance,Security,mohamed.gallall12@gmail.com,,,,,Covered in TC-027
+Test Case,Ensure user consent for marketing emails,TC-302,Verify that users explicitly opt in for marketing emails instead of being automatically subscribed.,User must be presented with an option to opt in/out.,"1. Navigate to the registration page.
+2. Fill in the required details and check for a marketing email subscription option.
+3. Verify if the opt-in checkbox is present and unchecked by default.
+4. Complete the registration process.
+5. Check the email preferences section of the user account.
+6. Verify whether the user receives marketing emails only if they opted in.","Users should have a clear and explicit choice to subscribe to marketing emails.
+The subscription should not be pre-selected by default.",There is an option to subscribe to the newsletter.,Medium,Passed,Compliance,Compliance,mohamed.gallall12@gmail.com,Windows 11 V. 23H2 Build 22631.5039 + Chrome V. 134.0.6998.89,Manual,,25/03/2025,
+Test Case,Verify empty cart message when no items are in the cart,TC-077,"Verify that the correct message ""Your Shopping Cart is empty!"" is displayed when there are no items in the cart.",The cart must be empty.,"1. Navigate to the cart page.
+2. Verify if the cart is empty and the correct message is displayed.","The message ""Your Shopping Cart is empty!"" should be displayed when there are no items in the cart.","The message ""Your Shopping Cart is empty!"" was correctly displayed when the cart was empty.",Low,Passed,UI,Cart,mohamed.gallall12@gmail.com,Windows 11 V. 23H2 Build 22631.5039 + Chrome V. 134.0.6998.89,Automated,https://github.com/MohamedGalal-2/DEPI-Software-Tester-Graduation-Project/blob/main/automation-framework/src/test/java/tests/ui/CartTest.java,18/3/2025,
+Test Case,Test compliance with international shipping laws,TC-304,Ensure that the system blocks shipments to restricted locations as per international shipping laws.,International shipping must be available.,"1. Navigate to the checkout page.
+2. Add a restricted item to the cart.
+3. Enter a shipping address in a restricted location.
+4. Attempt to proceed with the shipment.
+5. Observe if the system blocks the transaction.","The system should prevent the shipment to restricted locations.
+A clear error message should be displayed informing the user.",The system successfully blocked the shipment to restricted locations.,Medium,Passed,Compliance,Compliance,mohamed.gallall12@gmail.com,Windows 11 V. 23H2 Build 22631.5039 + Chrome V. 134.0.6998.89,Manual,,25/03/2025,
+Test Case,Validate compliance with local currency regulations,TC-305,Ensure that prices are displayed in the correct currency based on the selected country.,The system must support multiple currencies.,"1. Navigate to the website and go to the pricing section.
+2. Select different countries from the location settings.
+3. Verify if the displayed currency updates correctly based on the selected country.
+4. Check if the prices remain accurate in the selected currency.
+5. Ensure that no currency-related errors appear on the page.","Prices should be displayed in the correct currency based on the selected country.
+The system should support all required local currencies without errors.",Dollar and Euro are available as currency options.,Medium,Passed,Compliance,Compliance,mohamed.gallall12@gmail.com,Windows 11 V. 23H2 Build 22631.5039 + Chrome V. 134.0.6998.89,Manual,,25/03/2025,
+Test Case,Verify entering incorrect address details prevents checkout,TC-080,Verify entering incorrect address details prevents checkout.,The checkout system must validate address fields.,"1. Open the browser and navigate to nopCommerce demo site.
+2. Add a product to the cart.
+3. Proceed to checkout.
+4. Enter invalid or incomplete billing details.","Order is placed successfully.
+The confirmation page displays the message: ""Your order has been successfully processed!""
+An Order Number is generated and displayed.","An error message appeared as expected, preventing checkout.",High,Passed,Functional,Checkout,mohamed.gallall12@gmail.com,Windows 11 V. 23H2 Build 22631.5039 + Chrome V. 134.0.6998.89,Automated,https://github.com/MohamedGalal-2/DEPI-Software-Tester-Graduation-Project/blob/main/automation-framework/src/test/java/tests/ui/CheckoutTest.java,17/3/2025,
+Test Case,Verify compliance with COPPA for underage users,TC-307,Ensure that underage users (below the legally required age) are prevented from registering in compliance with COPPA (Children’s Online Privacy Protection Act) and similar regulations.,The system must allow account creation for underage users.,"1. Navigate to the registration page.
+2. Attempt to create an account without providing an age or date of birth.
+3. Observe if the system prompts for age verification.
+4. If not prompted, complete the registration process.
+5. Check if underage users can successfully create an account.","The system should ask for the user’s date of birth or age.
+If the user is underage, registration should be blocked or require parental consent.","The system does not ask for the user's age, allowing potential underage registrations.",High,Failed,Compliance,Compliance,mohamed.gallall12@gmail.com,Windows 11 V. 23H2 Build 22631.5039 + Chrome V. 134.0.6998.89,Manual,,25/03/2025,
+Test Case,Check copyright compliance for product images,TC-308,Ensure that all product images used on the platform are properly licensed or credited to comply with copyright laws.,Product images must be sourced from third-party providers or copyrighted sources.,"1. Navigate to the product listing pages on the website.
+2. Inspect the product images and descriptions for watermarks, copyrights, or credits.
+3. Cross-check whether the images come from licensed or authorized sources.
+4. Check for any missing attributions or signs of unauthorized use.
+5. Verify that no copyrighted images are used without proper permission.","All product images should be properly licensed, credited, or sourced legally.",All images are properly licensed and credited.,Medium,Passed,Compliance,Compliance,mohamed.gallall12@gmail.com,Windows 11 V. 23H2 Build 22631.5039 + Chrome V. 134.0.6998.89,Manual,,25/03/2025,
+Test Case,Test product labeling compliance,TC-309,Ensure that all products have correct labeling and safety warnings as per regulatory requirements.,Products must have labels stored in the system.,"1. Navigate to the product details page for multiple items.
+2. Inspect the product descriptions for required labeling information.
+3. Verify that safety warnings, material composition, and regulatory notices are correctly listed.
+4. Check if any required disclosure (such as age restrictions or hazard warnings) is missing.
+5. Confirm that all labels comply with relevant regulations.","Each product should have correct labeling, safety warnings, and required disclosures.",All products have proper labeling and safety warnings.,Medium,Passed,Compliance,Compliance,mohamed.gallall12@gmail.com,Windows 11 V. 23H2 Build 22631.5039 + Chrome V. 134.0.6998.89,Manual,,25/03/2025,
+Test Case,Ensure compliance with anti-money laundering (AML) regulations,TC-310,"This test verifies that the financial transaction system follows AML regulations by identifying, flagging, and investigating suspicious activities such as high-value transactions, rapid transfers, and unusual payment patterns.",The system must handle financial transactions.,"1. Initiate a high-value transaction on the platform.
+2. Use suspicious transaction patterns, such as:
+- Large sum transfers.
+- Multiple transactions from different accounts to the same recipient.
+- Rapid successive transactions.
+3. Complete the transaction and observe the system response.
+4. No alert, flagging, or investigation is triggered.","The system should detect suspicious transactions and either:
+- Flag the transaction for review.
+- Request additional verification.
+- Temporarily hold or block the transaction.",The system processes the transaction without any AML checks or flags.,High,Failed,Compliance,Compliance,mohamed.gallall12@gmail.com,Windows 11 V. 23H2 Build 22631.5039 + Chrome V. 134.0.6998.89,Manual,,25/03/2025,
+Test Case,Validate user rights to download personal data,TC-311,"This test checks whether users can request and receive an export of their stored personal data in a structured, commonly used, and machine-readable format (e.g., JSON, CSV, or PDF).",The system must store personal user data.,"1. Navigate to the account settings page.
+2. Look for an option to request/download personal data.
+3. Attempt to request or download the data.
+4. Verify if the system provides the data in a readable format.","The system should allow users to request and download their stored data in a structured, readable format.",No option available to download personal data.,High,Failed,Compliance,Compliance,mohamed.gallall12@gmail.com,Windows 11 V. 23H2 Build 22631.5039 + Chrome V. 134.0.6998.89,Manual,,25/03/2025,
+Test Case,Verify transaction success message appears,TC-086,A success message is displayed after payment,Verify success message after a successful payment is appearing.,"1. Navigate to the login page and log in with valid credentials.
+2. Add a product to the cart.
+3. Proceed to checkout and select the payment method (e.g., Credit Card).
+4. Enter valid payment details and confirm the payment.
+5. After confirming the order, check for the success message confirming the payment and order completion.","The success message after a successful payment is appearing, indecating the confirmation that their transaction was successful.","The success message after a successful payment is not appearing, preventing the user from receiving confirmation that their transaction was successful. This impacts user experience by not providing feedback on successful order placement.",High,Failed,UI,Payments,mohamed.gallall12@gmail.com,Windows 11 V. 23H2 Build 22631.5039 + Chrome V. 134.0.6998.89,Manual,,18/3/2025,
+Test Case,Verify proper disclaimers for medical/health-related products,TC-313,Ensure that health-related products listed on the website include proper disclaimers to comply with legal and safety regulations.,Medical/health-related products must be listed on the website.,"1. Navigate to the product catalog.
+2. Search for medical/health-related products.
+3. Open the product pages and check for required disclaimers.
+4. Verify that the disclaimers are clearly visible and meet regulatory requirements.","Medical/health-related products should be available on the website, and each product should display clear disclaimers regarding its intended use, risks, and legal considerations.",No medical or health-related products are listed on the website.,Low,Blocked,Compliance,Compliance,mohamed.gallall12@gmail.com,Windows 11 V. 23H2 Build 22631.5039 + Chrome V. 134.0.6998.89,Manual,,25/03/2025,
+Test Case,Ensure compliance with energy labeling regulations,TC-314,Verify that electronic appliances listed on the website display energy efficiency labels as required by law.,Products subject to energy labeling regulations must be listed.,"1. Navigate to the product catalog and search for electronic appliances.
+2. Open the product pages of relevant appliances.
+3. Check if energy labels are displayed alongside the product details.
+4. Verify that the labels include efficiency ratings and required compliance information.",All electronic appliances should display proper energy labeling as per regulatory requirements.,No energy labels are shown on any electronic appliances.,Low,Failed,Compliance,Compliance,mohamed.gallall12@gmail.com,Windows 11 V. 23H2 Build 22631.5039 + Chrome V. 134.0.6998.89,Manual,,25/03/2025,
+Test Case,Verify website compatibility across different browsers,TC-315,Website should render and function correctly on all browsers,None,"Open website in Chrome, Firefox, Edge, Safari",Website should render and function correctly on all browsers,,High,Duplicated,Mobile & Cross-Browser Testing ,UI/UX,mohamed.gallall12@gmail.com,Windows 11 V. 23H2 Build 22631.5039 + Chrome V. 134.0.6998.89,Manual,,25/03/2025,Covered in TC-154 & TC-155 & TC-156
+Test Case,Test website functionality on mobile devices,TC-316,All elements should function correctly,None,Open site on iOS and Android devices,All elements should function correctly,,High,Duplicated,Mobile & Cross-Browser Testing ,UI/UX,mohamed.gallall12@gmail.com,Windows 11 V. 23H2 Build 22631.5039 + Chrome V. 134.0.6998.89,Manual,,25/03/2025,Covered in TC-158 & TC-159 & TC-160
+Test Case,Check compatibility with different operating systems,TC-317,Check compatibility with different operating systems,None,"1. Open the website on Windows 11 V. 23H2 Build 22631.5039 using Chrome V. 134.0.6998.89.
+2. Navigate through different pages and interact with core functionalities.
+3. Open the website on Ubuntu 24.04.2 LTS using Firefox V. 136.0.1.
+4. Repeat navigation and interaction steps to verify consistency.
+5. Check layout, responsiveness, interactive elements (buttons, forms), and performance on both OS environments.","The website should function properly across Windows and Linux environments.
+Layout, responsiveness, and performance should remain consistent.
+No major UI/UX discrepancies or functional issues should occur between OS platforms.","The website performed as expected across both Windows and Linux.
+No major differences or UI breakages were observed.
+Navigation, responsiveness, and interactive elements worked consistently.",Medium,Passed,Mobile & Cross-Browser Testing ,UI/UX,mohamed.gallall12@gmail.com,Windows 11 V. 23H2 Build 22631.5039 + Chrome V. 134.0.6998.89 & Ubuntu 24.04.2 LTS + Firefox V. 136.0.1,Manual,,25/03/2025,
+Test Case,Validate touch screen functionality,TC-318,All elements should respond correctly to touch,The device must support touch input.,Use a touch device to interact with the website,All elements should respond correctly to touch,,Medium,Duplicated,Mobile & Cross-Browser Testing ,UI/UX,mohamed.gallall12@gmail.com,Windows 11 V. 23H2 Build 22631.5039 + Chrome V. 134.0.6998.89,Manual,,25/03/2025,Covered in TC-160
+Test Case,Verify checkout process on different browsers,TC-320,Checkout should function properly on all supported browsers,The system must support a checkout process.,Complete a purchase on multiple browsers,Checkout should function properly on all supported browsers,,High,Duplicated,Mobile & Cross-Browser Testing ,Checkout,mohamed.gallall12@gmail.com,,,,25/03/2025,Covered in TC-158 & TC-159 & TC-160
+Test Case,Test website compatibility with JavaScript enabled/disabled,TC-321,Website should degrade gracefully without breaking,None,"1. Open the website with JavaScript enabled and navigate through different sections.
+2. Disable JavaScript in the browser settings (Chrome → Developer Tools → Disable JavaScript).
+3. Reload the website and try interacting with various components.
+4. Test critical functionalities (e.g., navigation, forms, buttons, search, checkout).
+5. Observe if the website remains usable without major UI/UX breaks.","Website should degrade gracefully without breaking the entire functionality.
+Essential content should still be accessible (text, images, links).
+Proper fallback messages should be displayed for JavaScript-dependent features.
+Basic navigation should work even with JavaScript disabled.","Website remained functional with minor UI adjustments.
+Text content, images, and basic navigation were still accessible.
+Some interactive elements (dropdowns, dynamic forms, modals) did not work, but they displayed appropriate fallback messages.
+No major layout issues or critical functionalities being blocked.",Low,Passed,Mobile & Cross-Browser Testing ,UI/UX,mohamed.gallall12@gmail.com,Windows 11 V. 23H2 Build 22631.5039 + Chrome V. 134.0.6998.89,Manual,,25/03/2025,
+Test Case,Ensure media content loads correctly,TC-322,Media should display and function correctly,"The website must have media content (images, videos, etc.).",Play videos and view images across devices,Media should display and function correctly,,Medium,Duplicated,Mobile & Cross-Browser Testing ,UI/UX,mohamed.gallall12@gmail.com,Windows 11 V. 23H2 Build 22631.5039 + Chrome V. 134.0.6998.89,Manual,,25/03/2025,Covered in TC-337
+Test Case,Validate font rendering across browsers,TC-323,Font styles should remain consistent,None,Compare text appearance in different browsers,Font styles should remain consistent,,Medium,Duplicated,UI,UI/UX,mohamed.gallall12@gmail.com,Windows 11 V. 23H2 Build 22631.5039 + Chrome V. 134.0.6998.89,Manual,,25/03/2025,Covered in TC-154 & TC-155 & TC-156
+Test Case,Test hover and click interactions on different input devices,TC-324,All interactive elements should work as expected,None,"Use mouse, keyboard, and touchscreen to interact",All interactive elements should work as expected,,Low,Duplicated,Mobile & Cross-Browser Testing ,UI/UX,mohamed.gallall12@gmail.com,Windows 11 V. 23H2 Build 22631.5039 + Chrome V. 134.0.6998.89,Manual,,25/03/2025,Covered in TC-160
+Test Case,Verify form submissions on different browsers,TC-325,Form data should be submitted correctly,The website must have forms to submit.,Fill and submit forms in multiple browsers,Form data should be submitted correctly,,High,Duplicated,Mobile & Cross-Browser Testing ,UI/UX,mohamed.gallall12@gmail.com,Windows 11 V. 23H2 Build 22631.5039 + Chrome V. 134.0.6998.89,Manual,,25/03/2025,Covered in TC-154 & TC-155 & TC-156
+Test Case,Test website loading behavior with browser extensions,TC-326,Ensure that the website functions correctly and does not break when browser extensions such as ad-blockers and security plugins are enabled.,Browser extensions must be installed.,"1. Install and enable popular ad-blockers and security extensions (e.g., AdBlock Plus, uBlock Origin, HTTPS Everywhere).
+2. Load the website and navigate through different pages.
+3. Test core functionalities like login, checkout, and form submissions.","The website should load and function correctly without breaking, even with extensions enabled.","The website loaded properly, and all functionalities worked as expected. No UI glitches, broken elements, or disrupted workflows were observed.
+
+",Low,Passed,Mobile & Cross-Browser Testing ,Performance,mohamed.gallall12@gmail.com,Windows 11 V. 23H2 Build 22631.5039 + Chrome V. 134.0.6998.89,Manual,,25/03/2025,
+Test Case,Ensure pop-ups and modals work correctly,TC-327,Pop-ups should display and close correctly,The website must use pop-ups or modals.,"1. Open the website in Windows 11 (Chrome 134.0.6998.89).
+2. Navigate to different sections that trigger pop-ups or modals (e.g., login, confirmation messages, promotional banners).
+3. Verify that pop-ups appear correctly when triggered.
+4. Attempt to close the pop-up using the close button (‘X’) or clicking outside the modal.
+5. Repeat the test in different browsers (e.g., Chrome, Firefox) to check compatibility.
+6. Check responsiveness on different screen sizes (desktop, tablet, mobile)","Pop-ups and modals should display properly when triggered.
+Users should be able to close the pop-ups using the close button or by clicking outside.
+Pop-ups should not overlap or break the layout.
+Functionality should be consistent across different browsers.","Pop-ups and modals displayed correctly when triggered.
+All pop-ups closed smoothly using the close button and clicking outside.
+No layout-breaking issues were found.
+Pop-ups worked consistently across Chrome and Firefox without visual glitches.
+
+",Medium,Passed,Mobile & Cross-Browser Testing ,UI/UX,mohamed.gallall12@gmail.com,Windows 11 V. 23H2 Build 22631.5039 + Chrome V. 134.0.6998.89,Manual,,25/03/2025,
+Test Case,Validate multi-tab browsing behavior,TC-328,Ensure that sessions are maintained properly when the site is accessed in multiple tabs.,None,"1. Open the website in a browser tab and log in.
+2. Open multiple new tabs with the same website.
+3. Perform different actions in each tab (e.g., navigation, form submission, logout).
+4. Verify that the session remains active across tabs unless logged out.
+5. Logout in one tab and check if other tabs also reflect the logout state.",Sessions should be maintained properly across multiple tabs unless logged out.,"Sessions were maintained properly across multiple tabs, and logging out in one tab ended the session in others.",Low,Passed,Mobile & Cross-Browser Testing ,UI/UX,mohamed.gallall12@gmail.com,Windows 11 V. 23H2 Build 22631.5039 + Chrome V. 134.0.6998.89,Manual,,25/03/2025,
+Test Case,Verify cache and cookies handling across browsers,TC-329,Ensure that the website functions correctly even after clearing cache and cookies in the browser.,None,"1. Open the website and navigate through various pages.
+2. Clear cache and cookies from the browser settings.
+3. Reload the website and attempt key interactions such as login, checkout, and form submission.","The website should load correctly, retain functionality, and work without issues after clearing cache and cookies.","The website reloaded properly after clearing cache and cookies. Login, navigation, and key features worked as expected without requiring unnecessary re-authentication or encountering broken elements.",High,Passed,Mobile & Cross-Browser Testing ,Performance,mohamed.gallall12@gmail.com,Windows 11 V. 23H2 Build 22631.5039 + Chrome V. 134.0.6998.89,Manual,,25/03/2025,
+Test Case,Test PDF and document downloads,TC-331,Documents should download and open properly,The website must have downloadable PDF or document files.,"Attempt to download invoices, guides, etc.",Documents should download and open properly,,Medium,Duplicated,Mobile & Cross-Browser Testing ,UI/UX,mohamed.gallall12@gmail.com,Windows 11 V. 23H2 Build 22631.5039 + Chrome V. 134.0.6998.89,Manual,,25/03/2025,Covered in TC-103
+Test Case,Verify return policy compliance,TC-298,Return should be processed as per policy terms,The system must have return policies defined.,Request a product return within allowed period,Return should be processed as per policy terms,,Medium,Duplicated,Compliance,Orders,mohamed.gallall12@gmail.com,Windows 11 V. 23H2 Build 22631.5039 + Chrome V. 134.0.6998.89,Manual,,25/03/2025,Covered in TC-089
+Test Case,Verify animations and transitions in different browsers,TC-333,Animations should play smoothly,The website must use animations and transitions.,Observe animated elements on multiple browsers,Animations should play smoothly,,Medium,Duplicated,UI,UI/UX,mohamed.gallall12@gmail.com,Windows 11 V. 23H2 Build 22631.5039 + Chrome V. 134.0.6998.89,Manual,,25/03/2025,Covered in TC-154 & TC-155 & TC-156
+Test Case,Test multilingual support across devices,TC-334,Translations should load correctly,The system must support multiple languages.,Switch languages on desktop and mobile,Translations should load correctly,,Medium,Duplicated,Mobile & Cross-Browser Testing ,UI/UX,mohamed.gallall12@gmail.com,Windows 11 V. 23H2 Build 22631.5039 + Chrome V. 134.0.6998.89,Manual,,25/03/2025,Covered in TC-286
+Test Case,Check website behavior in incognito/private mode,TC-335,Website should function normally when accessed in incognito or private mode.,None,"1. Open the website in incognito/private mode on different browsers (e.g., Chrome, Firefox, Edge).
+2. Verify that the website loads without issues.
+3. Perform standard interactions on the website (e.g., browsing, searching, logging in, adding items to the cart, etc.).
+4. Ensure that the website does not show any errors or degraded behavior in private mode.","The website should load without errors and should function as expected in private mode. No issues with logging in, browsing, or accessing features.","The website loaded successfully in incognito mode on all tested browsers without any issues. All site functionalities worked as expected, including logging in, navigating through pages, and adding items to the cart. No errors or degraded behavior were observed.
+",Low,Passed,Security,Security,mohamed.gallall12@gmail.com,Windows 11 V. 23H2 Build 22631.5039 + Chrome V. 134.0.6998.89,Manual,,19/3/2025,
+Test Case,Validate data persistence across sessions,TC-336,"Ensure that user sessions, preferences, or stored actions persist correctly after closing and reopening the browser.",User actions or preferences must persist between sessions.,"1. Log into the website.
+2. Perform actions such as navigating to settings, adding items to the cart, or adjusting preferences.
+3. Close the browser completely.
+4. Reopen the browser and revisit the website.
+5. Verify if the session persists and stored data remains intact.","The session should remain active where applicable (e.g., if ""Remember Me"" is enabled), and saved actions such as cart items or settings should persist.","The user session persisted as expected where applicable, and preferences like theme settings and saved items in the cart were retained. However, reauthentication was required for security-sensitive areas like account settings.",Medium,Passed,Mobile & Cross-Browser Testing ,Performance,mohamed.gallall12@gmail.com,Windows 11 V. 23H2 Build 22631.5039 + Chrome V. 134.0.6998.89,Manual,,25/03/2025,
+Test Case,Ensure third-party integrations work properly,TC-337,"Ensure that all third-party services (payment, analytics, and social media integrations) function correctly.",The system must have third-party integrations enabled.,"1. Payment Integration Test:
+- Initiate a test transaction using a third-party payment provider.
+- Verify if the payment is processed correctly and reflected in the order.
+2. Analytics Integration Test
+- Check if user activities (page views, clicks, and events) are being tracked correctly in the analytics dashboard.
+3. Social Media Integration Test
+- Share a product or content on a social media platform and verify successful posting.
+","All third-party integrations (payment, analytics, and social media) should function without errors.","Payment, analytics, and social media integrations work correctly.",High,Passed,Mobile & Cross-Browser Testing ,Integrations,mohamed.gallall12@gmail.com,Windows 11 V. 23H2 Build 22631.5039 + Chrome V. 134.0.6998.89,Manual,,25/03/2025,
+Test Case,Verify site behavior when JavaScript errors occur,TC-339,Website should handle errors gracefully,JavaScript error conditions must be simulated.,Introduce minor JS errors using developer tools,Website should handle errors gracefully,,Medium,Duplicated,Mobile & Cross-Browser Testing ,UI/UX,mohamed.gallall12@gmail.com,Windows 11 V. 23H2 Build 22631.5039 + Chrome V. 134.0.6998.89,Manual,,25/03/2025,Covered in TC-321
+Test Case,Check website scaling on ultra-high resolution displays,TC-341,UI should scale correctly without distortion,The device must have an ultra-high resolution display.,"1. Open the website on a 4K monitor using Windows 11 (Chrome 134.0.6998.89).
+2. Verify that all UI elements, text, and images scale correctly without distortion.
+3. Check for any misalignment, overlapping elements, or pixelation.
+4. Test responsiveness by resizing the browser window.
+5. Open the website on a MacBook with a Retina display and repeat the above checks.",UI should scale correctly without distortion,"The UI should scale properly without breaking, distorting, or misaligning.
+Text and images should appear sharp and clear on 4K and Retina screens.
+No overlapping or cut-off elements should be present.
+Website should remain responsive when resizing the window.",Medium,Passed,UI,UI/UX,mohamed.gallall12@gmail.com,Windows 11 V. 23H2 Build 22631.5039 + Chrome V. 134.0.6998.89,Manual,,25/03/2025,
+Test Case,Verify Header Links Functionality,TC-342,"This test case verifies that the main header navigation links on the website (Register, Login, Wishlist, and Shopping Cart) are visible, clickable, and direct users to their respective pages. The test ensures that each page loads properly after clicking the link.","The website must be accessible.
+The header navigation links must be present on the page.","1. Navigate to the website.
+2. Retrieve the header links from the configuration file.
+3. Verify that the following links are displayed and clickable:
+Register / Login / Wishlist / Shopping Cart
+4. Click each link and wait for the respective page to load.
+5. Validate that the page is loaded by checking for the presence of content.",All header links are displayed and clickable. Each link navigates to the correct page. The page loads successfully with visible content.,All header links were successfully verified and clickable. Each link navigated to the correct page and loaded properly. The test case passed successfully.,Medium,Passed,UI,Homepage,mohamed.gallall12@gmail.com,Windows 11 V. 23H2 Build 22631.5039 + Chrome V. 134.0.6998.89,Automated,https://github.com/MohamedGalal-2/DEPI-Software-Tester-Graduation-Project/blob/main/automation-framework/src/test/java/tests/ui/HomePageTest.java,18/03/25,

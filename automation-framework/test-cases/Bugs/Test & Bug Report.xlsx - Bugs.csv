@@ -1,0 +1,322 @@
+Issue,Summary,Test Case,Bug ID,Description,Steps to Reproduce,Expected Result,Actual Result,Severity,Priority ,Reproducibility ,Affected Component/Module,Test Environment,Bug Reporter,Defect Type,Bug Source,Comments
+Bug,Payment transaction is processed successfully despite insufficient funds,TC-095,Bug-013,Payment transaction is processed successfully despite insufficient funds,"1. Navigate to the payment page during checkout.
+2. Select Credit Card as the payment method.
+3. Enter the following payment details:
+- Cardholder Name: Maegan Rolfson
+- Card Number: 3595 9729 7313 9459
+- Expiry Date: 10/2029
+- CVV: 469
+4. Click Confirm Order to process the payment.
+5. Observe the order confirmation page.","The transaction should fail due to insufficient funds. The user should receive an appropriate error message such as: ""Your payment could not be processed due to insufficient funds. Please use a different payment method.""
+The system should not allow the transaction to be completed.","The transaction was processed successfully despite the card having insufficient funds.
+No error message was displayed to the user. The order was completed, and a success message appeared: ""Your order has been successfully processed!""",Critical,Urgent,Always,Payments,Windows 11 V. 23H2 Build 22631.5039 + Chrome V. 134.0.6998.89,mohamed.gallall12@gmail.com,Functional,Automated Testing,"Attachment:
+https://drive.google.com/file/d/12MeCSe-fYX7zDsSMhWzvAR32dqYiu9f5/view?usp=drive_link"
+Bug,Missing Security Settings Options in User Account,TC-124,Bug-015,"Upon testing the security settings update feature in the user’s account, it was found that there are no available security settings, except for the ability to change the password. The expected functionality for managing additional security settings, such as two-factor authentication (2FA) or account recovery options, is missing.","1. Login to the user account with valid credentials.
+2. Navigate to the ""My Account"" section.
+3. Check for available security settings options.
+4. Verify if it is possible to update security settings beyond changing the password (such as enabling two-factor authentication, modifying account recovery options, etc.).","The user should be able to find and update security settings in their account, including:
+- Enabling two-factor authentication.
+- Modifying account recovery options (e.g., backup email, security questions).
+- Changing the password.","The only available security-related option is the ability to change the password.
+No other security settings (such as two-factor authentication or account recovery options) are present or updatable.
+This limits the security management for the account.",Critical,Urgent,Always,Security,Windows 11 V. 23H2 Build 22631.5039 + Chrome V. 134.0.6998.89,mohamed.gallall12@gmail.com,Security,Manual Testing,"Attachment:
+https://drive.google.com/file/d/1tC5oCkNZK8Un-ZoNbbFS5fDDfkUeKVu1/view?usp=drive_link"
+Bug,XSS Vulnerability Reflection in Email Field,TC-126,Bug-016,"While performing an XSS vulnerability test on the login page (email input field), the system fails to sanitize the input. When XSS payloads such as <script>alert('XSS')</script> or <img src='x' onerror='alert(1)'/> are entered into the email field, they are reflected back into the field after form submission, demonstrating that the input is not sanitized.","1. Navigate to the login page: https://demo.nopcommerce.com/login.
+2. In the email field, enter any of the following XSS payloads:
+<script>alert('XSS')</script>
+<img src='x' onerror='alert(1)'/>
+<svg/onload=alert(1)>
+<body onload=alert('XSS')>
+<a href='javascript:alert(1)'>Click me</a>
+3. Submit the form.
+4. Observe that the payload is reflected in the email input field on the next page.","The XSS payloads should be sanitized and should not appear in the email input field.
+The system should not trigger any JavaScript alerts or execute malicious scripts.","The XSS payloads are reflected in the email input field after the form submission.
+The malicious scripts (e.g., <script>alert('XSS')</script>) are not sanitized and are visible on the page.",Critical,Urgent,Always,Security,Windows 11 V. 23H2 Build 22631.5039 + Chrome V. 134.0.6998.89,mohamed.gallall12@gmail.com,Security,Automated Testing,"This is a critical security vulnerability. If exploited, it could allow an attacker to execute arbitrary JavaScript in the user's browser, potentially leading to session hijacking, data theft, or other malicious actions.
+
+Attachment:
+https://drive.google.com/file/d/1IAd1iwcvmwcD5GwCm_D_lgHJb4_xlq6P/view?usp=drive_link"
+Bug,CSRF Token Validation Failed on Login Page,TC-127,Bug-017,"The system allows a login attempt to proceed without a valid CSRF token. When attempting a login without a CSRF token, the system should reject the request and show an error message indicating that the CSRF token is missing or invalid. However, in this case, the system allowed the login attempt to succeed, bypassing CSRF protection.","1. Navigate to the login page.
+2. Get the CSRF token
+Retrieve the CSRF token from the login page (usually hidden in a form field named __RequestVerificationToken).
+3. Attempt to submit the login form without the CSRF token.
+4. Remove the CSRF token from the form using JavaScript.
+5. Submit the form.
+6. Verify the error message.","The system should block the login attempt due to the absence of the CSRF token, showing an appropriate error message indicating that the CSRF token is either missing or invalid.","The login was successful despite the CSRF token being removed, which means that the CSRF protection did not trigger as expected. This caused the test to fail with the message:",Critical,Urgent,Always,Security,Windows 11 V. 23H2 Build 22631.5039 + Chrome V. 134.0.6998.89,mohamed.gallall12@gmail.com,Security,Automated Testing,"This issue can lead to security vulnerabilities where attackers can bypass the CSRF protection mechanism, making unauthorized requests, which may compromise user data and system integrity."
+Bug,Missing OTP Verification for Account Changes and 2FA,TC-131,Bug-020,"The system does not require OTP verification for changes to sensitive account details, such as password or email address. Additionally, there is no support for two-factor authentication (2FA) on account changes, including payment methods.","1. Log in to the application with valid credentials.
+2. Navigate to the account settings section.
+3. Attempt to change either the email or the password.
+4. No OTP verification prompt appears, and the user is able to make the changes without additional security measures.
+","The system should require OTP verification for any sensitive changes, such as updating the password or email. The user should be prompted to enter an OTP before the change is completed. Two-factor authentication (2FA) should be enabled, and OTPs should be sent via email or SMS for verification.
+",No OTP verification or two-factor authentication is triggered when changing sensitive account information. The user can change the password or email without any security verification.,Critical,Urgent,Always,Security,Windows 11 V. 23H2 Build 22631.5039 + Chrome V. 134.0.6998.89,mohamed.gallall12@gmail.com,Security,Manual Testing,"The absence of OTP verification or two-factor authentication for sensitive account changes poses a significant security risk. If an attacker gains access to an account, they could change key account information without any secondary verification."
+Bug,Payment Gateway Security - Lack of Encryption for Card Details,TC-091,Bug-026,"The payment gateway does not encrypt sensitive payment details (card information). Card details are stored in plaintext, violating security standards and posing a risk of data leakage.","1. Navigate to the website’s payment gateway page.
+2. Add items to the cart and proceed to checkout.
+3. Enter payment details (e.g., card information).
+4. Submit the payment.",The card details should be encrypted before submission. The system should use secure HTTPS protocols for the payment transaction. Sensitive information such as card numbers should never be stored in plaintext or visible in logs.,"The card details are not encrypted, and they are stored in plaintext, violating security best practices. No encryption method (such as SSL/TLS or AES) is implemented to protect sensitive data.",Critical,Urgent,Always,Security,Windows 11 V. 23H2 Build 22631.5039 + Chrome V. 134.0.6998.89,mohamed.gallall12@gmail.com,Security,Automated Testing,"- This issue exposes sensitive user data, such as credit card numbers, to potential unauthorized access or breach.
+- Non-compliance with PCI DSS standards, which is crucial for any platform handling sensitive financial transactions.
+
+Attachment:
+https://drive.google.com/file/d/1MyYU-Y0KFyv8TqvHyg9sLqYPikOjZ-or/view?usp=drive_link"
+Bug,Password reset link not sent for valid registered email,TC-029,Bug-029,The password reset functionality failed to send a reset link when a valid registered email address was entered. No email was received after submitting the request.,"1. Navigate to the login page.
+2. Click on the ""Forgot Password"" link.
+3. Enter a valid registered email address.
+4. Submit the password reset request.","A password reset link should be sent to the entered registered email address.
+","No password reset email was received, and no confirmation was provided indicating the email was sent.",Blocker,Urgent,Always,Authentication,Windows 11 V. 23H2 Build 22631.5039 + Chrome V. 134.0.6998.89,mohamed.gallall12@gmail.com,Functional,Manual Testing,
+Bug,"Missing activation feature, allowing login without account activation.",TC-033,Bug-031,"The system lacks the necessary checks to prevent login before account activation. The account is automatically activated upon registration, and the user is able to log in without an activation step.","1. Register a new account with valid credentials (email).
+2. Attempt to log in with the registered credentials before any activation process (email).",The system should prevent login and display an error message stating that the account is not activated yet.,"There is no activation feature implemented. The account is automatically activated upon registration, and the user is able to log in immediately without any activation process.",Critical,Urgent,Always,Authentication,Windows 11 V. 23H2 Build 22631.5039 + Chrome V. 134.0.6998.89,mohamed.gallall12@gmail.com,Functional,Manual Testing,
+Bug,Personal Data Stored in Plain Text (GDPR Non-Compliance),TC-288,Bug-038,"During the verification of GDPR compliance for user data storage, it was discovered that personal data (such as usernames, email addresses, and passwords) is stored in plain text within the database. This violates GDPR regulations and poses a significant security risk.","1. Register a new user account on the platform.
+2. Submit personal details such as Name, Email, and Password.
+3. Access the database and inspect the stored data.
+4. Observe that personal data is stored as plain text instead of being encrypted or hashed.","Personal data should be securely stored using encryption (AES, RSA, etc.) or hashed (bcrypt, Argon2, scrypt, etc.) to ensure GDPR compliance.","Personal data (emails, passwords, etc.) is stored in plain text, making it vulnerable to security breaches.",Critical,Urgent,Always,Compliance,Windows 11 V. 23H2 Build 22631.5039 + Chrome V. 134.0.6998.89,mohamed.gallall12@gmail.com,Functional,Manual Testing,
+Bug,Payment Processing Fails PCI-DSS Compliance Due to Lack of Encryption,TC-291,Bug-041,"The payment processing system fails PCI-DSS compliance due to unencrypted credit card transactions. Payment details are transmitted without proper encryption, which poses a severe security and regulatory risk.","1. Navigate to the checkout/payment page of the website.
+2. Enter valid credit card details (test card if applicable).
+3. Initiate a transaction and monitor the network traffic for encryption (using browser DevTools).
+4. Verify if credit card details are encrypted before submission.
+5. Check if the payment gateway redirects securely (HTTPS with TLS 1.2/1.3).
+6. Confirm if sensitive card data is not stored in plaintext in the system.","Payment details should be encrypted during transmission.
+The system should use secure payment gateways compliant with PCI-DSS.
+Credit card data should never be stored in plaintext in the database.",Credit card details were transmitted without encryption.,Critical,Urgent,Always,Compliance,Windows 11 V. 23H2 Build 22631.5039 + Chrome V. 134.0.6998.89,mohamed.gallall12@gmail.com,Security,Manual Testing,
+Bug,System does not flag or investigate suspicious financial transactions (AML Non-Compliance),TC-310,Bug-044,"The system fails to comply with Anti-Money Laundering (AML) regulations, as it does not flag or investigate high-value transactions with suspicious patterns. When attempting a transaction that meets typical red-flag indicators (e.g., large sums, rapid transactions, multiple accounts), the system processes the payment without any warnings, holds, or investigations.","1. Initiate a high-value transaction on the platform.
+2. Use suspicious transaction patterns, such as:
+- Large sum transfers.
+- Multiple transactions from different accounts to the same recipient.
+- Rapid successive transactions.
+3. Complete the transaction and observe the system response.
+4. No alert, flagging, or investigation is triggered.","The system should detect suspicious transactions and either:
+- Flag the transaction for review.
+- Request additional verification.
+- Temporarily hold or block the transaction.",The system processes the transaction without any AML checks or flags.,Critical,Urgent,Always,Compliance,Windows 11 V. 23H2 Build 22631.5039 + Chrome V. 134.0.6998.89,mohamed.gallall12@gmail.com,Security,Manual Testing,
+Bug,Missing Rating Filter,TC-040,Bug-001,"The rating filter is not available on the search results page, even though it's mentioned in the SRS.","1. Navigate to the camera-photo category page.
+2. Look for the rating filter in the sidebar (or expected location).
+3. Observe that no such filter is present.",The rating filter should be available on the search page to allow users to filter products by customer ratings.,The rating filter is missing from the search results page.,Minor,Medium,Always,Search,Windows 11 V. 23H2 Build 22631.5039 + Chrome V. 134.0.6998.89,mohamed.gallall12@gmail.com,Missing Feature,Manual Testing,"The feature is specified in the SRS but is not implemented. Needs confirmation if it was intentionally excluded or missed during development.
+
+Attachment:
+https://drive.google.com/drive/folders/1kJy9GIMHIesaqWQhf93P9Dt6j2bNssyx"
+Bug,Verify refund process for an order,TC-089,Bug-010,"No refund option was available on the order details page after placing a valid order, and the system did not provide any feedback indicating the absence of a refund functionality. The absence of a refund option prevents testing the refund process, and there was no alternative solution or message regarding how to initiate a refund.","1. Place a valid order.
+2. Navigate to the order details page.
+3. Check for the refund option.
+4. Verify the system handles refund requests correctly (if refund option exists).
+5. Check if the refund is reflected in the transaction.","If a refund option exists, it should be available on the order details page. The system should process refunds correctly and reflect them in the transaction. The user should receive a confirmation message for the refund. If no refund option exists, the system should display a clear message indicating that refunds are not supported or provide alternative instructions for initiating a refund (e.g., contacting customer support).","The order was placed successfully, and the order details page loaded with visible details. However, no refund option was available. The system did not display any message or error indicating the absence of a refund functionality, making it impossible to test the refund process or verify the transaction reflection of a refund.",Blocker,High,Always,Payments,Windows 11 V. 23H2 Build 22631.5039 + Chrome V. 134.0.6998.89,mohamed.gallall12@gmail.com,Missing Feature,Manual Testing,"Attachment: 
+https://drive.google.com/file/d/19AHhWHlraqDs3CZW8Acj7YfrhcHWMrVy/view?usp=drive_link"
+Bug,Verify Canceled Order Refunds the Payment,TC-090,Bug-011,"When testing the cancellation and refund process for an order, the expected refund option was not available in the system. This prevents the user from initiating a refund or cancellation for a placed order, which directly impacts the expected functionality of order management and payment processing.","1. Place a valid order.
+2. Navigate to the order details page after the order is placed.
+3. Check for the refund or cancellation option.
+4. If available, verify that the refund or cancellation process is functional and reflected in the transaction.
+5. If not available, verify that a clear message is displayed indicating the absence of the refund option, or provide an alternative solution (e.g., contact customer support).
+","If a refund option exists, the user should be able to initiate the refund process, and the system should successfully process and reflect the refund in the transaction. If the refund option does not exist, the system should display a message clearly stating that refunds are not available or provide instructions for contacting customer support.","The order was placed successfully, and the order confirmation was received. The order details page loaded correctly, and the order details were visible. However, no refund or canceling option was available on the order details page.The system did not show any error message or indication that the refund functionality was missing. As a result, the refund process could not be tested, and no transaction reflection of a refund was possible.
+",Critical,High,Always,Payments,Windows 11 V. 23H2 Build 22631.5039 + Chrome V. 134.0.6998.89,mohamed.gallall12@gmail.com,Missing Feature,Manual Testing,"Attachment: 
+https://drive.google.com/file/d/19AHhWHlraqDs3CZW8Acj7YfrhcHWMrVy/view?usp=drive_link"
+Bug,Deletion Functionality Missing,TC-123,Bug-014,"The functionality to delete a user account is missing from the platform. There is no option to delete an account in the ""My Account"" section, which prevents users from deleting their accounts permanently.","1. Login to the user account.
+2. Navigate to the ""My Account"" section.
+3. Locate the option for ""Delete Account"" or similar functionality.
+4. Verify the account deletion.","The user should be able to delete their account permanently, and upon attempting to log in again, they should be unable to access their account.","The account deletion functionality is not available on the platform. The expected feature is not present, and no option to delete the account can be found in the account settings.
+No action was taken for account deletion due to the absence of the relevant functionality.",Major,Medium,Always,Security,Windows 11 V. 23H2 Build 22631.5039 + Chrome V. 134.0.6998.89,mohamed.gallall12@gmail.com,Missing Feature,Manual Testing,Attachment: https://drive.google.com/file/d/12PTOR4S6zGSadvSTabsNQYDLeQsC53vI
+Bug,Login Activity History Feature is Missing,TC-139,Bug-023,"The Login Activity History feature, which should allow users to view their recent login activities, is not available in the system. There is no section in the user dashboard or profile that shows login history or any associated details like timestamps, IP addresses, or device/browser information. Additionally, no message indicating the absence of the feature is displayed.","1. Login to the application.
+2. Navigate to the user dashboard or profile.
+3. Look for any section related to Login Activity History.
+4. Verify if there is any information or log regarding recent logins.
+","""The user should see a log of recent login activity, displaying the following information:
+- Date and time of each login.
+- The device or browser used.
+- IP address or location information (optional).
+- The status of each login attempt (successful or failed).
+
+If no login history is available, the system should either:
+- Display a message like """"No login history available"""" or """"Login history not found.""""
+- Provide a means for the user to view their recent activity (if it's stored in the backend but not displayed).""",The feature is not available. No login activity section is present. No message indicating that the feature is missing is shown.,Major,Medium,Always,Security,Windows 11 V. 23H2 Build 22631.5039 + Chrome V. 134.0.6998.89,mohamed.gallall12@gmail.com,Missing Feature,Manual Testing,"This is a security concern because without a login history feature, users cannot monitor their login activity or detect unauthorized access. This functionality is essential to track potential account compromises.
+
+Attachment:
+https://drive.google.com/file/d/1tC5oCkNZK8Un-ZoNbbFS5fDDfkUeKVu1/view?usp=drive_link"
+Bug,Verify adding an out-of-stock product to the cart cannot be executed as no out-of-stock products are available in the inventory.,TC-022,Bug-027,"The system is designed to prevent the addition of out-of-stock products to the cart and display an appropriate message. However, the test case cannot proceed because no product in the inventory is marked as out of stock. As a result, the validation for this scenario cannot be tested.","1. Navigate to the product catalog or inventory page.
+2. Try to add an out-of-stock product to the cart.","The system should display a message and prevent adding the out-of-stock product to the cart. A message like ""This product is currently out of stock"" or similar should appear.","There are no out-of-stock products available for testing, and the scenario cannot be tested.",Minor,Low,Always,Inventory,Windows 11 V. 23H2 Build 22631.5039 + Chrome V. 134.0.6998.89,mohamed.gallall12@gmail.com,Missing Feature,Manual Testing,
+Bug,Verify stock availability status is displayed,TC-056,Bug-028,"The system is expected to display the stock availability status (e.g., ""In Stock"" or ""Out of Stock"") on the product page. However, this feature is not implemented or available on the current version of the website, which prevents the test case from being executed.","1. Navigate to the product page for any item on the website.
+2. Check for the display of stock availability status.
+Observe the system should show the stock status (e.g., ""In Stock"", ""Out of Stock"", or ""Limited Availability"").","The stock availability status should be clearly displayed on the product page for all products. The status should accurately reflect whether the product is in stock, out of stock, or has limited availability.",The stock availability feature is not available or visible on the product pages. No stock status is shown for any product.,Major,High,Always,Inventory,Windows 11 V. 23H2 Build 22631.5039 + Chrome V. 134.0.6998.89,mohamed.gallall12@gmail.com,Missing Feature,Manual Testing,"Attacment:
+https://drive.google.com/file/d/199ShU2WxFWvmdU6LpD8C-5NU80tuukHM/view?usp=drive_link"
+Bug,Missing Cookie Consent Banner (GDPR Non-Compliance),TC-289,Bug-039,"Upon visiting the website for the first time, no cookie consent banner is displayed. This violates GDPR compliance, which mandates that users must be informed about cookie usage and provided with options to accept or reject cookies before they are stored on their device.","1. Open a web browser (Chrome, Firefox, Edge, etc.).
+2. Open Incognito/Private Mode to simulate a first-time visit.
+3. Navigate to the website's homepage.
+4. Observe that no cookie consent banner is displayed, and cookies may be stored without user consent.","A cookie consent banner should appear when the user first visits the website.
+- The banner should include:
+- A clear message explaining cookie usage.
+- Accept and Reject options.
+- A link to the cookie policy for more details.
+No non-essential cookies should be stored before user consent is given.","No cookie consent banner appears. Cookies may be stored without explicit user consent, violating GDPR regulations.",Critical,High,Always,Compliance,Windows 11 V. 23H2 Build 22631.5039 + Chrome V. 134.0.6998.89,mohamed.gallall12@gmail.com,Missing Feature,Manual Testing,
+Bug,User Data Cannot Be Deleted (GDPR Non-Compliance),TC-290,Bug-040,"Users are unable to delete their accounts and personal data. The system lacks a feature to permanently remove user data, violating GDPR Article 17 (Right to Erasure).","1. Log in to the website using a test user account.
+2. Navigate to account settings or privacy settings.
+3. Search for an option to delete the account and data.
+4. Observe that no option exists to delete personal data.","A user-friendly option should be available to delete the account and associated data.
+Deleted user data should be permanently removed from all databases and backups.
+The system should notify the user of successful account deletion.","No option exists for users to delete their personal data.
+Personal data remains stored indefinitely, violating GDPR regulations.",Critical,High,Always,Compliance,Windows 11 V. 23H2 Build 22631.5039 + Chrome V. 134.0.6998.89,mohamed.gallall12@gmail.com,Missing Feature,Manual Testing,
+Bug,Taxes Are Always 0% Regardless of User Location,TC-295,Bug-042,"The system fails to apply local taxation rules during checkout. Regardless of the user's location, the applied tax rate remains 0%, which violates local tax compliance laws.","1. Navigate to the website's checkout page.
+2. Add an item to the cart and proceed to billing details.
+3. Enter an address from a location where taxes should be applied.
+4. Review the tax calculations on the payment summary.
+5. Compare the applied tax rate with official local tax regulations.
+6. Confirm if the correct tax amount is included in the final total.","The system should apply the correct tax rate based on the user's location.
+The total amount should include the calculated tax value.",Taxes were not applied (always 0%).,Major,Medium,Always,Compliance,Windows 11 V. 23H2 Build 22631.5039 + Chrome V. 134.0.6998.89,mohamed.gallall12@gmail.com,Missing Feature,Manual Testing,
+Bug,System does not verify the age of users during registration (COPPA Non-Compliance),TC-307,Bug-043,"The system does not comply with COPPA (Children’s Online Privacy Protection Act) as it fails to verify the age of users during registration. When attempting to create an account, the registration process does not prompt for date of birth or any age verification mechanism. This oversight allows underage users (below 13 in the U.S. and 16 in the EU) to register without restrictions, potentially violating data protection laws and exposing the platform to legal and privacy risks.","1. Navigate to the registration page.
+2. Attempt to create an account without providing an age or date of birth.
+3. Observe if the system prompts for age verification.
+4. If not prompted, complete the registration process.
+5. Check if underage users can successfully create an account.","The system should ask for the user’s date of birth or age.
+If the user is underage, registration should be blocked or require parental consent.","The system does not ask for the user's age, allowing potential underage registrations.",Critical,High,Always,Compliance,Windows 11 V. 23H2 Build 22631.5039 + Chrome V. 134.0.6998.89,mohamed.gallall12@gmail.com,Missing Feature,Manual Testing,
+Bug,"The search functionality returns results for some keywords but fails for others, leading to inconsistent user experience.",TC-041,Bug-002,"	The search feature does not consistently return relevant results. Some keywords produce accurate results, while others yield no results or incorrect items. This affects product discoverability and usability.","1. Navigate to the website.
+2. Locate the search bar.
+3. Enter different keywords related to available products.
+4. Click the Search button.
+5. Observe the search results.",The search function should return relevant results for all valid keywords.,"Some keywords return correct results, while others produce no results or irrelevant items.",Critical,High,Sometimes,Search,Windows 11 V. 23H2 Build 22631.5039 + Chrome V. 134.0.6998.89,mohamed.gallall12@gmail.com,Functional,Manual Testing,Attachment: https://drive.google.com/drive/folders/1EwuZ82GaLOHhODBt7pqHwh0BYDF0nTAU
+Bug,Shipping cost remains $0.00 for all shipping options,TC-074,Bug-003,"When selecting different shipping options on the checkout page, all available shipping options show a cost of $0.00, which is incorrect. The expected behavior is that each shipping option should have a different cost, but the cost does not update based on the selected option.","1. Navigate to the nopCommerce demo site.
+2. Navigate to the product page (e.g., Adobe Photoshop).
+3. Add the product to the cart.
+4. Click the ""Checkout as a guest"" button.
+5. Accept the terms of service.
+6. Click on the ""Checkout"" button.
+7. Fill in the checkout form.
+8. Select one of the shipping options (Ground, Next Day Air, or 2nd Day Air).
+9. Observe if the price changes.","The shipping cost should update based on the selected shipping option, with different costs for Ground, Next Day Air, and 2nd Day Air.","All three shipping options (Ground, Next Day Air, and 2nd Day Air) are displayed with a cost of $0.00, which is incorrect. Despite selecting different options, the shipping cost remains $0.00.",Critical,High,Always,Checkout,Windows 11 V. 23H2 Build 22631.5039 + Chrome V. 134.0.6998.89,mohamed.gallall12@gmail.com,Functional,Manual Testing,"Attachment:
+https://drive.google.com/file/d/1HnR-f72tnYW_WhQ4FCGqREf1RUfxP1nK"
+Bug,Taxes are not being applied during checkout,TC-075,Bug-004," Taxes are not calculated and applied correctly based on the user’s location during the checkout process. The expected behavior is that tax should be calculated based on the configured tax rules, but no tax is applied in the current scenario.","1. Navigate to the product page on the demo site.
+2. Add a product to the cart.
+3. Proceed to the checkout page.
+4. Fill in the checkout form with a valid shipping address that is subject to tax.
+5. Observe the tax calculation section during checkout.",Tax should be applied correctly based on the configured tax rules for the location provided in the checkout form.,"No tax is applied during checkout, and the tax amount remains $0.00.",Critical,High,Always,Checkout,Windows 11 V. 23H2 Build 22631.5039 + Chrome V. 134.0.6998.89,mohamed.gallall12@gmail.com,Functional,Manual Testing,Attachment: https://drive.google.com/file/d/1NZthOY5-QAp7kujzB6ZTxz8GNspLUgVX
+Bug,Estimated delivery date is not displayed during checkout,TC-079,Bug-005,"The checkout process does not display an estimated delivery date for any of the available shipping methods. The expected behavior is that the estimated delivery date should be shown based on the selected shipping method, but no delivery time is displayed.","1. Navigate to the product page on the demo site.
+2. Add a product to the cart.
+3. Proceed to checkout.
+4. Fill in the checkout form with a valid shipping address.
+5. Select a shipping method (e.g., Ground, Next Day Air, or 2nd Day Air).
+6. Observe whether an estimated delivery date is displayed.",The estimated delivery date should be displayed based on the selected shipping method.,No estimated delivery date is shown for any shipping method.,Major,High,Always,Checkout,Windows 11 V. 23H2 Build 22631.5039 + Chrome V. 134.0.6998.89,mohamed.gallall12@gmail.com,Functional,Manual Testing,Attachment: https://drive.google.com/file/d/1NZthOY5-QAp7kujzB6ZTxz8GNspLUgVX
+Bug,"""Buy Now"" Button Missing from Product Page",TC-181,Bug-006,"The ""Buy Now"" button, which is expected to allow users to proceed directly to checkout from the product page, is missing. Instead, users only have the ""Add to Cart"" button, requiring additional steps to complete a purchase. This issue impacts the checkout experience by forcing users to navigate through the cart instead of allowing a one-click purchase.","	1. Navigate to a product page on the website.
+2. Look for the ""Buy Now"" button.
+3. Observe that only the ""Add to Cart"" button is available.","A ""Buy Now"" button should be present to allow users to proceed directly to checkout.","The ""Buy Now"" button is missing, preventing direct checkout from the product page.
+",Major,High,Always,Checkout,Windows 11 V. 23H2 Build 22631.5039 + Chrome V. 134.0.6998.89,mohamed.gallall12@gmail.com,UI,Manual Testing,"Attachment:
+https://drive.google.com/file/d/1SbGOyUTyiuomHmjL5FsUsN7FNhXUH8kY/view?usp=drive_link"
+Bug,Payment via PayPal & COD are not available.,TC-083 & TC-084,Bug-007,"The PayPal & COD payment options are not available on the website despite it being expected as a valid payment method. Only Credit Card and Check/Money Order are available, which blocks the test for verifying PayPal & COD  payments functionality.","1. Navigate to the Login Page and log in with valid credentials.
+2. Add a product to the cart.
+3. Proceed to the Checkout page.
+4. Check the available payment methods during the checkout process.
+5. Observe that PayPal & COD are not listed as a payment option.",PayPal & COD should be available as a payment method for the user to select and process the payment.,"PayPal & COD are not available, and only Credit Card and Check/Money Order options are provided.",Blocker,High,Always,Payments,Windows 11 V. 23H2 Build 22631.5039 + Chrome V. 134.0.6998.89,mohamed.gallall12@gmail.com,Functional,Automated Testing,Attachment: https://drive.google.com/file/d/1_8SUoBKXkMgGQtXuy9lTCjWHQRcI9_IJ
+Bug,Verify transaction success message appears,TC-086,Bug-008,"The success message after a successful payment is not appearing, preventing the user from receiving confirmation that their transaction was successful. This impacts user experience by not providing feedback on successful order placement.","1. Navigate to the login page and log in with valid credentials.
+2. Add a product to the cart.
+3. Proceed to checkout and select the payment method (e.g., Credit Card).
+4. Enter valid payment details and confirm the payment.
+5. After confirming the order, check for the success message confirming the payment and order completion.","The success message after a successful payment is appearing, indecating the confirmation that their transaction was successful.","The success message after a successful payment is not appearing, preventing the user from receiving confirmation that their transaction was successful. This impacts user experience by not providing feedback on successful order placement.",Minor,Medium,Always,Payments,Windows 11 V. 23H2 Build 22631.5039 + Chrome V. 134.0.6998.89,mohamed.gallall12@gmail.com,UI,Manual Testing,Attachment: https://drive.google.com/file/d/1FhxTZ0GfDlN0qWyPaCTX00yy27uwBHzw
+Bug,Verify Duplicate Payment Prevention,TC-088,Bug-009,"The system does not prevent duplicate payment requests after the first payment is processed. The payment button is not disabled after a successful payment, and the system allows a second payment attempt to be processed, leading to a duplicate payment. No error message is displayed when attempting to make a duplicate payment.","1. Make a payment.
+2. Enter payment details.
+3. Submit the payment.
+4. Verify the system prevents duplicate payments.
+5. Verify payment status.
+6. Ensure appropriate error message if duplicate payment occurs.","After the first payment, the payment button should either be disabled or prevent further interactions. The backend should reject any additional payment attempts for the same order, either by returning a specific error or ignoring further attempts. If a duplicate payment attempt is made, the user should receive a clear error message like: ""Duplicate payment attempt detected for this order."" The UI should prevent additional submissions.","The first payment was processed successfully. After submitting the first payment, a second payment attempt was made. The payment button was not disabled, and the system allowed the second payment to be processed without any error or message blocking it. The system did not prevent the duplicate payment, and the order was processed with two payments. No appropriate error message was displayed when the duplicate payment was attempted.",Critical,High,Always,Payments,Windows 11 V. 23H2 Build 22631.5039 + Chrome V. 134.0.6998.89,mohamed.gallall12@gmail.com,Security,Automated Testing,"Attachment:
+https://drive.google.com/file/d/1PwSPKkrcJhI9_mvFzJyJF0acrmr5Z0jN/view?usp=drive_link"
+Bug,Verify Payment Confirmation Email is Sent,TC-092,Bug-012,"After successfully completing a payment, the system did not send a payment confirmation email to the user's registered email address. This issue prevents users from receiving transaction details, which is crucial for confirming payment status and maintaining trust in the payment system.","1. Complete a payment using one of the available payment methods (e.g., Credit Card, PayPal, etc.).
+2. Check the registered email inbox for the payment confirmation email.
+3. Verify whether the email contains the required transaction details, including:
+- Order ID
+- Payment amount
+- Confirmation of successful payment
+- Any other relevant transaction details","A payment confirmation email should be sent to the registered email address immediately after the payment is successfully processed. The email should contain all relevant payment details, including the order ID, payment amount, and confirmation message.","No payment confirmation email was received after completing the payment. No error message or notification was displayed to indicate a failure in sending the email. Users are left without confirmation of their transaction, potentially causing confusion or mistrust in the payment process.",Major,Medium,Always,Payments,Windows 11 V. 23H2 Build 22631.5039 + Chrome V. 134.0.6998.89,mohamed.gallall12@gmail.com,Security,Manual Testing,
+Bug,Multiple Active Sessions Allowed for One User,TC-130,Bug-018,The system allows the user to log in from multiple devices and maintains multiple active sessions for the same user. This violates the security principle of only allowing one active session per user at a time.,"1. Log in to the application from one device (Mobile - Chrome).
+2. Log in to the application from a second device (Desktop - Chrome).
+3. Log in to the application from a third device (Desktop - Edge).
+4. The user remains logged in on all devices simultaneously, which should not happen.",Only one active session should be allowed per user. Logging in from a new device should terminate the session on any previous device.,"The user is able to log in from three devices simultaneously, and all sessions remain active.",Critical,High,Always,Security,Windows 11 V. 23H2 Build 22631.5039 + Chrome V. 134.0.6998.89,mohamed.gallall12@gmail.com,Security,Manual Testing,"Attachments:
+https://drive.google.com/file/d/1ZDPVa1KAP2LQUC4eKuWaNLGY87R82P_P/view?usp=drive_link
+
+Allowing multiple active sessions per user poses a significant security risk. It can lead to unauthorized access if an attacker gains access to one of the sessions. The user may also unknowingly leave sessions open on other devices, which may expose their account to risks."
+Bug,Session Timeout Does Not Trigger After Inactivity,TC-128,Bug-019,"The system fails to log out the user after a set period of inactivity. Even if the user remains idle for a long time, the session remains active, which poses a security risk.","1. Log in to the application with valid credentials.
+2. Stay idle and do not interact with the application for the entire inactivity period (e.g., 15 minutes).
+3. After the inactivity period, attempt to interact with the page or refresh it.
+4. The user is still logged in, and the session does not expire.","The system should log out the user after the predefined inactivity period, and any subsequent actions should prompt the user to log in again.","The user is still logged in after the inactivity period, and the session remains active without automatic logout.",Major,Medium,Always,Security,Windows 11 V. 23H2 Build 22631.5039 + Chrome V. 134.0.6998.89,mohamed.gallall12@gmail.com,Security,Manual Testing,
+Bug,No Email Verification are Sent,TC-134,Bug-021,"The system does not send a verification email upon account creation, preventing users from verifying their accounts. Additionally, there is no mechanism to enforce email verification before logging in.
+","1. Navigate to the registration page.
+2. Enter a valid email and password to create an account.
+3. Submit the registration form.
+4. Check the registered email inbox.
+5. No email is received for account verification.
+","The system should send a verification email upon account creation. Users should be required to verify their email before accessing their accounts. If a verification link expires, the system should reject it and allow users to request a new one.",No verification email is sent upon account creation. Users can log in without email verification. There is no mechanism to handle expired links since emails are never sent.,Critical,High,Always,Security,Windows 11 V. 23H2 Build 22631.5039 + Chrome V. 134.0.6998.89,mohamed.gallall12@gmail.com,Security,Manual Testing,"The failure to send verification emails prevents users from verifying their accounts, leading to potential security risks, including unauthorized access and fake accounts. If email verification is not enforced, attackers could create multiple unverified accounts without restriction.
+"
+Bug,Verify Security Headers Are Correctly Implemented,TC-137,Bug-022,"Critical security headers are correctly implemented, but there are several vulnerabilities:
+Content-Security-Policy (CSP) is too permissive, allowing potentially dangerous sources.
+The Server header exposes sensitive information about the server (Cloudflare).
+Security headers like X-Frame-Options, X-Content-Type-Options, HSTS, Referrer-Policy, and Permissions-Policy are correctly configured.","Open Google Chrome, Mozilla Firefox, or Microsoft Edge.
+Navigate to the website: https://demo.nopcommerce.com or the target application.
+Open Developer Tools (press F12 in Chrome/Firefox or Ctrl + Shift + I).
+Go to the Network tab.
+Refresh the page and click on the first network request (typically the main page).
+Navigate to the Headers section and inspect the Response Headers for security-related headers.","Content-Security-Policy (CSP) should restrict sources for scripts, images, media, etc.
+X-Frame-Options should be set to prevent clickjacking.
+X-Content-Type-Options should be set to prevent MIME sniffing.
+Strict-Transport-Security (HSTS) should be set to enforce HTTPS connections.
+Referrer-Policy should be appropriately configured to control referrer information sent.
+Permissions-Policy should restrict unnecessary browser features.
+Server Header should be hidden or masked to prevent exposing sensitive server details.","- Most security headers are properly implemented (X-Frame-Options, X-Content-Type-Options, HSTS, Referrer-Policy, Permissions-Policy).
+- Content-Security-Policy (CSP) is too permissive (Allows * in connect-src, font-src, frame-src, img-src, media-src).
+- Server Header is Exposed (cloudflare)
+",Critical,High,Always,Security,Windows 11 V. 23H2 Build 22631.5039 + Chrome V. 134.0.6998.89,mohamed.gallall12@gmail.com,Security,Manual Testing,
+Bug,Account not locked after multiple failed login attempts,TC-027,Bug-024,"The system failed to enforce the account lockout policy after a defined number of failed login attempts. Despite multiple incorrect login attempts, the account was not locked, and the user was still able to log in, violating the security policy intended to prevent brute-force attacks.","1. Go to the login page of the website.
+2. Attempt to log in with incorrect credentials (e.g., invalid username or password).
+3. Repeat step 2 more than the defined number of times (usually 3-5 attempts, depending on the system configuration).
+4. After the failed attempts, try to log in again.","After the defined number of failed login attempts, the account should be locked, preventing further login attempts and notifying the user that the account is temporarily locked.","After multiple failed login attempts, the account remained unlocked, and the user was able to log in without restriction.",Critical,High,Always,Security,Windows 11 V. 23H2 Build 22631.5039 + Chrome V. 134.0.6998.89,mohamed.gallall12@gmail.com,Security,Automated Testing,"This bug compromises security by allowing brute-force attacks. It is crucial for the system to enforce account lockout policies to protect against unauthorized access attempts.
+
+Attachment:
+https://drive.google.com/file/d/1tvtL0hbrdK1BRE60d3IMov1FjIgU7HP-/view?usp=drive_link"
+Bug,Error message not displayed for weak password during registration,TC-034,Bug-025,"The system fails to display an error message when a user tries to register with a weak password that doesn't meet the defined strength requirements (e.g., lacking uppercase letters, numbers, or sufficient length).","1. Navigate to the registration page of the website.
+2. Enter a weak password that does not meet the strength criteria (e.g., no uppercase letters, no numbers, or too short).
+3. Submit the registration form.","An error message should be displayed, notifying the user that the password does not meet the required strength criteria.","The user is allowed to proceed with the registration despite entering a weak password, and no error message is shown.",Critical,High,Always,Security,Windows 11 V. 23H2 Build 22631.5039 + Chrome V. 134.0.6998.89,mohamed.gallall12@gmail.com,Security,Automated Testing,"This bug allows users to register with weak passwords, posing a significant security risk to user accounts and data integrity.
+
+Attachment:
+https://drive.google.com/file/d/1rN2C9UVMuDZ2c_suS1VAdWyBButrqvI4/view?usp=drive_link"
+Bug,No activation feature implemented for SMS verification during registration.,TC-032,Bug-030,The system does not have the OTP activation feature for mobile phone registrations. The account is activated immediately after registration without the need for SMS verification.,"1. Navigate to the registration page.
+2. Register a new account using a valid phone number.
+3. The system should send an OTP (One-Time Password) via SMS.
+4. Enter the received OTP in the provided field.
+5. Attempt to log in with the registered credentials.",The system should send an OTP via SMS and require the user to enter it to activate the account.,There is no SMS-based OTP activation feature implemented on the website. The account was activated automatically upon registration without requiring an OTP.,Major,High,Always,Authentication,Windows 11 V. 23H2 Build 22631.5039 + Chrome V. 134.0.6998.89,mohamed.gallall12@gmail.com,Functional,Manual Testing,
+Bug,Loyalty Points Not Updating After Checkout,TC-125,Bug-032,Loyalty points are reset to zero after completing checkout,"1. Log in to the user account.
+2. Add a product to the cart.
+3. Proceed to checkout.
+4. Verify the loyalty points displayed in the checkout summary.
+5. Complete the checkout process.
+6. Navigate to the user profile and check the loyalty points balance.","Loyalty points should be displayed correctly in the checkout summary. After completing checkout, the user should receive the correct amount of loyalty points based on the purchase.","Loyalty points are correctly shown in the checkout summary and on the product page. After checkout, the user receives 0 points instead of the expected amount. When checking the user profile, the loyalty points balance incorrectly displays 0 points.",Major,Medium,Always,Loyalty-Program,Windows 11 V. 23H2 Build 22631.5039 + Chrome V. 134.0.6998.89,mohamed.gallall12@gmail.com,Functional,Manual Testing,
+Bug,Order Delivery Notification Feature Not Available,TC-110,Bug-033,Order delivery notifications are missing from the system,"1. Place an order.
+2. Wait for the order to be marked as ""Delivered.""
+3. Check the notifications section in the user account.","The user should receive a notification when the order is delivered.
+","The order delivery notification feature is not available in the system.
+",Major,Medium,Always,Notifications,Windows 11 V. 23H2 Build 22631.5039 + Chrome V. 134.0.6998.89,mohamed.gallall12@gmail.com,Functional,Manual Testing,
+Bug,Notification Settings Feature Not Available,TC-119,Bug-034,Unable to update and save notification preferences,"1. Log in to the user account.
+2. Navigate to the notification settings page.
+3. Attempt to change notification preferences.
+4. Save the changes.
+5. Log out and log back in to verify if preferences are retained.","The user should be able to modify and save their notification preferences successfully.
+","The notification settings feature is not available in the system.
+",Major,Medium,Always,Notifications,Windows 11 V. 23H2 Build 22631.5039 + Chrome V. 134.0.6998.89,mohamed.gallall12@gmail.com,Functional,Manual Testing,
+Bug,Subscription Preferences Feature Not Available,TC-120,Bug-035,Unable to update subscription preferences,"1. Log in to the user account.
+2. Navigate to the subscription preferences section.
+3. Attempt to modify subscription preferences.
+4. Save the changes.
+5. Log out and log back in to verify if preferences are retained.","The user should be able to update and save their subscription preferences.
+",Unable to update subscription preferences,Minor,Low,Always,Notifications,Windows 11 V. 23H2 Build 22631.5039 + Chrome V. 134.0.6998.89,mohamed.gallall12@gmail.com,Functional,Manual Testing,
+Bug,No Active Promo Codes Available for Testing,TC-071,Bug-036,"No active promo codes available, preventing discount validation","1. Add a product to the cart.
+2. Apply a valid promo code.
+3. Verify if the discount is applied and the total price updates.","A valid promo code should apply a discount, updating the total price accordingly.","No active promo codes are available in the system, preventing the test from being executed.",Blocker,High,Always,Promotions,Windows 11 V. 23H2 Build 22631.5039 + Chrome V. 134.0.6998.89,mohamed.gallall12@gmail.com,Functional,Automated Testing,"Attachment:
+https://drive.google.com/file/d/15V-t6sDpiGBaBtc9uCste1KfxA8BLeqa/view?usp=drive_link"
+Bug,Missing Age Restriction Enforcement,TC-297,Bug-037,The system does not enforce age verification because there are no age-restricted products available on the platform. This prevents compliance testing for legal and regulatory requirements regarding restricted product sales.,"1. Navigate to the product catalog.
+2. Search for any age-restricted product (e.g., alcohol, tobacco, or other regulated items).
+3. Attempt to add a product to the cart and proceed to checkout.",The system should have age-restricted products available. Users attempting to purchase age-restricted products should be prompted to verify their age before checkout.,"No age-restricted products exist in the system, preventing age verification testing.",Minor,Medium,Always,Compliance,Windows 11 V. 23H2 Build 22631.5039 + Chrome V. 134.0.6998.89,mohamed.gallall12@gmail.com,Functional,Manual Testing,
+Bug,User Cannot Download Their Stored Personal Data (GDPR Violation),TC-311,Bug-045,"The system does not provide an option for users to request or download their stored personal data, violating GDPR regulations. Users should have the right to export their stored data in a readable format (e.g., JSON, CSV, or PDF).","1. Navigate to the account settings page.
+2. Search for an option to request or download personal data.
+3. No such option is available.","Users should be able to request and download their stored data in a structured, readable format.",No option exists for users to request or download their personal data.,Major,High,Always,Compliance,Windows 11 V. 23H2 Build 22631.5039 + Chrome V. 134.0.6998.89,mohamed.gallall12@gmail.com,Security,Manual Testing,
+Bug,Missing Energy Labels on Electronic Appliances,TC-314,Bug-046,"The website fails to display required energy labels for electronic appliances, violating energy efficiency compliance laws.","1. Navigate to the product catalog and search for electronic appliances.
+2. Open the product pages of relevant appliances.
+3. Check if energy labels are displayed alongside the product details.
+4. Verify that the labels include efficiency ratings and required compliance information.",All electronic appliances should display proper energy labeling as per regulatory requirements.,No energy labels are shown on any electronic appliances.,Major,Medium,Always,Compliance,Windows 11 V. 23H2 Build 22631.5039 + Chrome V. 134.0.6998.89,mohamed.gallall12@gmail.com,UI,Manual Testing,
+Bug,Multi-language support is missing or not functioning correctly,TC-286,Bug-047,"The website does not provide multi-language support or fails to switch languages properly. When attempting to change the language using the language switcher, one of the following issues occurs:
+- The option to change the language is missing.
+- Language selection does not apply changes across the website.
+- Some sections remain untranslated, showing only the default language.","1. Navigate to the website’s homepage.
+2. Locate the language switcher (if available).
+3. Select an alternative language (e.g., Arabic, French, Spanish).
+4. Observe if the website updates accordingly.
+5. Check navigation menus, product descriptions, buttons, and error messages for correct translation.
+6. Attempt to switch back to the default language and verify if the transition is smooth.","The website should fully support multiple languages, updating UI elements, content, and messages accurately upon selection.","Language selection is either missing or does not apply changes across all pages.
+Some UI elements remain in the default language.
+Translations may be incomplete or missing for specific sections.",Major,Medium,Always,UI/UX,Windows 11 V. 23H2 Build 22631.5039 + Chrome V. 134.0.6998.89,mohamed.gallall12@gmail.com,UI,Manual Testing,
