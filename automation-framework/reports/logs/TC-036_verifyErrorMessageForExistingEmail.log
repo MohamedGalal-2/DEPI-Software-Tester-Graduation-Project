@@ -456,3 +456,25 @@ Session ID: a4e3a8263ffee9014e86578f9c4e5c38
 2025-03-22 22:15:46 [main] INFO  listeners.TestListener - ✅ Test PASSED: verifyErrorMessageForExistingEmail (Duration: 17231ms)
 2025-03-22 22:15:46 [main] INFO  TC-036_verifyErrorMessageForExistingEmail - Closing the browser for test: verifyErrorMessageForExistingEmail
 2025-03-22 22:15:46 [main] INFO  TC-036_verifyErrorMessageForExistingEmail - Browser closed.
+2025-05-06 09:00:49 [main] INFO  TC-036_verifyErrorMessageForExistingEmail - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-05-06 09:00:49 [main] INFO  TC-036_verifyErrorMessageForExistingEmail - Logger initialized
+2025-05-06 09:00:49 [main] INFO  TC-036_verifyErrorMessageForExistingEmail - Starting test setup for: verifyErrorMessageForExistingEmail (🔢 Test Case ID: TC-036)
+2025-05-06 09:01:06 [main] INFO  TC-036_verifyErrorMessageForExistingEmail - Navigated to the site: https://demo.nopcommerce.com
+2025-05-06 09:01:06 [main] INFO  TC-036_verifyErrorMessageForExistingEmail - Injected cookie: cf_clearance
+2025-05-06 09:01:06 [main] INFO  TC-036_verifyErrorMessageForExistingEmail - Injected cookie: _ga
+2025-05-06 09:01:06 [main] INFO  TC-036_verifyErrorMessageForExistingEmail - Injected cookie: .Nop.Antiforgery
+2025-05-06 09:01:06 [main] INFO  TC-036_verifyErrorMessageForExistingEmail - Injected cookie: .Nop.Customer
+2025-05-06 09:01:06 [main] INFO  TC-036_verifyErrorMessageForExistingEmail - Injected cookie: .Nop.Culture
+2025-05-06 09:01:06 [main] INFO  TC-036_verifyErrorMessageForExistingEmail - Injected cookie: _ga_SCT41TW89V
+2025-05-06 09:01:07 [main] INFO  TC-036_verifyErrorMessageForExistingEmail - Page refreshed with bypassed cookies.
+2025-05-06 09:01:07 [main] INFO  TC-036_verifyErrorMessageForExistingEmail - 🟢 Starting test: verifyErrorMessageForExistingEmail (🔢 Test Case ID: TC-036)
+2025-05-06 09:01:07 [main] INFO  utils.MainFunctionalities - Navigating to registration page.
+2025-05-06 09:01:13 [main] INFO  utils.MainFunctionalities - Clicking 'Register' button.
+2025-05-06 09:01:15 [main] INFO  TC-036_verifyErrorMessageForExistingEmail - User successfully registered.
+2025-05-06 09:01:16 [main] INFO  utils.MainFunctionalities - Navigating to registration page.
+2025-05-06 09:01:20 [main] INFO  utils.MainFunctionalities - Clicking 'Register' button.
+2025-05-06 09:01:22 [main] INFO  TC-036_verifyErrorMessageForExistingEmail - Verified error message for existing email.
+2025-05-06 09:01:22 [main] INFO  listeners.TestListener - ✅ Test PASSED: verifyErrorMessageForExistingEmail (Duration: 15301ms)
+2025-05-06 09:01:22 [main] INFO  TC-036_verifyErrorMessageForExistingEmail - Closing the browser for test: verifyErrorMessageForExistingEmail
+2025-05-06 09:01:22 [main] INFO  TC-036_verifyErrorMessageForExistingEmail - Browser closed.

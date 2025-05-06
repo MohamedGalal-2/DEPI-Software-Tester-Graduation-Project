@@ -1,0 +1,93 @@
+{
+	"id": "07a7b30c-8352-4b27-9e2c-20898de44a8a",
+	"name": "demo.nopcommerce.com",
+	"timestamp": "2025-04-20T16:30:21.678Z",
+	"collection_id": "42547254-1d77c2a1-967a-4b96-a671-abcd32a67360",
+	"folder_id": 0,
+	"environment_id": "42547254-e7aca7a6-36af-46d6-8416-82fb2b7645c5",
+	"totalPass": 4,
+	"delay": 0,
+	"persist": true,
+	"status": "finished",
+	"startedAt": "2025-04-20T16:30:20.142Z",
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "2e9253d5-f881-4e85-8250-ad232622cd13",
+			"name": "Get the RequestVerificationToken",
+			"url": "https://demo.nopcommerce.com/register?returnUrl=%2F",
+			"time": 812,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				812
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "1a7da84e-336e-4223-bef7-0bce146cb188",
+			"name": "TC-200 Verify user can successfully register",
+			"url": "https://demo.nopcommerce.com/register?returnUrl=%2F",
+			"time": 241,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status Code is 200": true,
+				"Check if response is JSON or HTML": true,
+				"Check for errors in response": true,
+				"Check for success message or data": true
+			},
+			"testPassFailCounts": {
+				"Status Code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Check if response is JSON or HTML": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Check for errors in response": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Check for success message or data": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				241
+			],
+			"allTests": [
+				{
+					"Status Code is 200": true,
+					"Check if response is JSON or HTML": true,
+					"Check for errors in response": true,
+					"Check for success message or data": true
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 1053,
+	"collection": {
+		"requests": [
+			{
+				"id": "2e9253d5-f881-4e85-8250-ad232622cd13",
+				"method": "GET"
+			},
+			{
+				"id": "1a7da84e-336e-4223-bef7-0bce146cb188",
+				"method": "POST"
+			}
+		]
+	}
+}

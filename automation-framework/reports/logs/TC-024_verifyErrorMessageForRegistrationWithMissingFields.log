@@ -161,3 +161,7 @@
 2025-03-22 22:52:06 [main] INFO  TC-024_verifyErrorMessageForRegistrationWithMissingFields - Error messages for missing mandatory fields are displayed.
 2025-03-22 22:52:06 [main] INFO  TC-024_verifyErrorMessageForRegistrationWithMissingFields - Closing the browser for test: verifyErrorMessageForRegistrationWithMissingFields
 2025-03-22 22:52:07 [main] INFO  TC-024_verifyErrorMessageForRegistrationWithMissingFields - Browser closed.
+2025-05-06 09:01:22 [main] INFO  TC-024_verifyErrorMessageForRegistrationWithMissingFields - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-05-06 09:01:22 [main] INFO  TC-024_verifyErrorMessageForRegistrationWithMissingFields - Logger initialized
+2025-05-06 09:01:22 [main] INFO  TC-024_verifyErrorMessageForRegistrationWithMissingFields - Starting test setup for: verifyErrorMessageForRegistrationWithMissingFields (🔢 Test Case ID: TC-024)
