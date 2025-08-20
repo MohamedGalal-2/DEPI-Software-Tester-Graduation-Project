@@ -46,3 +46,8 @@ node_modules/
 
 reports/logs/json_log.log
 report/logs/old_logs/json_log.log
+
+
+reports/extent-reports
+
+reports/Done/**/reports
