@@ -8,7 +8,7 @@ The framework also supports JIRA for test management, ensuring smooth collaborat
 
 We will be testing the following website: [nopcommerce demo](https://demo.nopcommerce.com/)
 
-## 💑 Table of Contents
+## 📚 Table of Contents
 - [📌 Project Overview](#-project-overview)
 - [🚀 Features](#-features)
 - [🏧 Project Structure](#-project-structure)
