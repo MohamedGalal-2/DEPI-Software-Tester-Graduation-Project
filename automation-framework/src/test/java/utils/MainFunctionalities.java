@@ -34,7 +34,6 @@ public class MainFunctionalities extends BaseTest {
     private final String changePasswordUrl = "https://demo.nopcommerce.com/customer/changepassword";
     private final String myAccountUrl = "https://demo.nopcommerce.com/customer/info";
 
-
     public void login(String username, String password) throws InterruptedException {
         // Step 1: Navigate to the login page
         driver.get(loginUrl);

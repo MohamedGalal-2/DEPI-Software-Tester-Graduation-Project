@@ -231,3 +231,59 @@ Session ID: 71b94d49b0d388adbe3675a73bd9147d
 2025-05-06 09:00:48 [main] INFO  listeners.TestListener - ✅ Test PASSED: verifySocialMediaSharing (Duration: 17977ms)
 2025-05-06 09:00:49 [main] INFO  TC-282_verifySocialMediaSharing - Closing the browser for test: verifySocialMediaSharing
 2025-05-06 09:00:49 [main] INFO  TC-282_verifySocialMediaSharing - Browser closed.
+2025-05-12 23:03:20 [main] INFO  TC-282_verifySocialMediaSharing - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-05-12 23:03:20 [main] INFO  TC-282_verifySocialMediaSharing - Logger initialized
+2025-05-12 23:03:20 [main] INFO  TC-282_verifySocialMediaSharing - Starting test setup for: verifySocialMediaSharing (🔢 Test Case ID: TC-282)
+2025-05-12 23:03:47 [main] INFO  TC-282_verifySocialMediaSharing - Navigated to the site: https://demo.nopcommerce.com
+2025-05-12 23:03:47 [main] INFO  TC-282_verifySocialMediaSharing - Injected cookie: cf_clearance
+2025-05-12 23:03:47 [main] INFO  TC-282_verifySocialMediaSharing - Injected cookie: _ga
+2025-05-12 23:03:47 [main] INFO  TC-282_verifySocialMediaSharing - Injected cookie: .Nop.Antiforgery
+2025-05-12 23:03:47 [main] INFO  TC-282_verifySocialMediaSharing - Injected cookie: .Nop.Customer
+2025-05-12 23:03:47 [main] INFO  TC-282_verifySocialMediaSharing - Injected cookie: .Nop.Culture
+2025-05-12 23:03:47 [main] INFO  TC-282_verifySocialMediaSharing - Injected cookie: _ga_SCT41TW89V
+2025-05-12 23:03:48 [main] INFO  TC-282_verifySocialMediaSharing - Page refreshed with bypassed cookies.
+2025-05-12 23:03:48 [main] INFO  TC-282_verifySocialMediaSharing - 🟢 Starting test: verifySocialMediaSharing (🔢 Test Case ID: TC-282)
+2025-05-12 23:03:49 [main] INFO  TC-282_verifySocialMediaSharing - Navigated to product page: Fahrenheit 451 by Ray Bradbury
+2025-05-12 23:03:52 [main] INFO  TC-282_verifySocialMediaSharing - Detected social media platforms: [facebook, twitter, email, whatsapp, sharethis]
+2025-05-12 23:03:52 [main] INFO  TC-282_verifySocialMediaSharing - Clicked share button for: facebook
+2025-05-12 23:03:53 [main] INFO  TC-282_verifySocialMediaSharing - Successfully navigated to facebook share page: https://www.facebook.com/sharer.php?t=Fahrenheit%20451%20by%20Ray%20Bradbury&u=https%3A%2F%2Fdemo.nopcommerce.com%2Ffahrenheit-451-by-ray-bradbury
+2025-05-12 23:03:55 [main] INFO  TC-282_verifySocialMediaSharing - Clicked share button for: twitter
+2025-05-12 23:03:58 [main] INFO  TC-282_verifySocialMediaSharing - Successfully navigated to twitter share page: https://x.com/intent/post?text=Fahrenheit%20451%20by%20Ray%20Bradbury&url=https%3A%2F%2Fdemo.nopcommerce.com%2Ffahrenheit-451-by-ray-bradbury
+2025-05-12 23:04:01 [main] WARN  TC-282_verifySocialMediaSharing - Failed to verify sharing for a platform: Cannot invoke "String.startsWith(String)" because "mailtoLink" is null, but continuing.
+2025-05-12 23:04:01 [main] INFO  TC-282_verifySocialMediaSharing - Clicked share button for: whatsapp
+2025-05-12 23:04:07 [main] INFO  TC-282_verifySocialMediaSharing - Successfully navigated to whatsapp share page: https://web.whatsapp.com/send?text=https%3A%2F%2Fdemo.nopcommerce.com%2Ffahrenheit-451-by-ray-bradbury
+2025-05-12 23:04:09 [main] INFO  TC-282_verifySocialMediaSharing - Clicked share button for: sharethis
+2025-05-12 23:04:12 [main] WARN  TC-282_verifySocialMediaSharing - Share window did not open for sharethis, but continuing.
+2025-05-12 23:04:12 [main] INFO  TC-282_verifySocialMediaSharing - Social media sharing test completed successfully, marking as passed.
+2025-05-12 23:04:12 [main] INFO  listeners.TestListener - ✅ Test PASSED: verifySocialMediaSharing (Duration: 24313ms)
+2025-05-12 23:04:12 [main] INFO  TC-282_verifySocialMediaSharing - Closing the browser for test: verifySocialMediaSharing
+2025-05-12 23:04:13 [main] INFO  TC-282_verifySocialMediaSharing - Browser closed.
+2025-05-14 21:15:39 [main] INFO  TC-282_verifySocialMediaSharing - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-05-14 21:15:39 [main] INFO  TC-282_verifySocialMediaSharing - Logger initialized
+2025-05-14 21:15:39 [main] INFO  TC-282_verifySocialMediaSharing - Starting test setup for: verifySocialMediaSharing (🔢 Test Case ID: TC-282)
+2025-05-14 21:15:58 [main] INFO  TC-282_verifySocialMediaSharing - Navigated to the site: https://demo.nopcommerce.com
+2025-05-14 21:15:58 [main] INFO  TC-282_verifySocialMediaSharing - Injected cookie: _ga
+2025-05-14 21:15:58 [main] INFO  TC-282_verifySocialMediaSharing - Injected cookie: cf_clearance
+2025-05-14 21:15:58 [main] INFO  TC-282_verifySocialMediaSharing - Injected cookie: .Nop.Antiforgery
+2025-05-14 21:15:58 [main] INFO  TC-282_verifySocialMediaSharing - Injected cookie: .Nop.Customer
+2025-05-14 21:15:58 [main] INFO  TC-282_verifySocialMediaSharing - Injected cookie: .Nop.Culture
+2025-05-14 21:15:58 [main] INFO  TC-282_verifySocialMediaSharing - Injected cookie: _ga_SCT41TW89V
+2025-05-14 21:15:59 [main] INFO  TC-282_verifySocialMediaSharing - Page refreshed with bypassed cookies.
+2025-05-14 21:15:59 [main] INFO  TC-282_verifySocialMediaSharing - 🟢 Starting test: verifySocialMediaSharing (🔢 Test Case ID: TC-282)
+2025-05-14 21:16:01 [main] INFO  TC-282_verifySocialMediaSharing - Navigated to product page: Fahrenheit 451 by Ray Bradbury
+2025-05-14 21:16:02 [main] INFO  TC-282_verifySocialMediaSharing - Detected social media platforms: [facebook, twitter, email, whatsapp, sharethis]
+2025-05-14 21:16:02 [main] INFO  TC-282_verifySocialMediaSharing - Clicked share button for: facebook
+2025-05-14 21:16:04 [main] INFO  TC-282_verifySocialMediaSharing - Successfully navigated to facebook share page: https://www.facebook.com/sharer.php?t=Fahrenheit%20451%20by%20Ray%20Bradbury&u=https%3A%2F%2Fdemo.nopcommerce.com%2Ffahrenheit-451-by-ray-bradbury
+2025-05-14 21:16:07 [main] INFO  TC-282_verifySocialMediaSharing - Clicked share button for: twitter
+2025-05-14 21:16:10 [main] INFO  TC-282_verifySocialMediaSharing - Successfully navigated to twitter share page: https://x.com/intent/post?text=Fahrenheit%20451%20by%20Ray%20Bradbury&url=https%3A%2F%2Fdemo.nopcommerce.com%2Ffahrenheit-451-by-ray-bradbury
+2025-05-14 21:16:12 [main] WARN  TC-282_verifySocialMediaSharing - Failed to verify sharing for a platform: Cannot invoke "String.startsWith(String)" because "mailtoLink" is null, but continuing.
+2025-05-14 21:16:12 [main] INFO  TC-282_verifySocialMediaSharing - Clicked share button for: whatsapp
+2025-05-14 21:16:21 [main] INFO  TC-282_verifySocialMediaSharing - Successfully navigated to whatsapp share page: https://web.whatsapp.com/
+2025-05-14 21:16:24 [main] INFO  TC-282_verifySocialMediaSharing - Clicked share button for: sharethis
+2025-05-14 21:16:26 [main] WARN  TC-282_verifySocialMediaSharing - Share window did not open for sharethis, but continuing.
+2025-05-14 21:16:26 [main] INFO  TC-282_verifySocialMediaSharing - Social media sharing test completed successfully, marking as passed.
+2025-05-14 21:16:26 [main] INFO  listeners.TestListener - ✅ Test PASSED: verifySocialMediaSharing (Duration: 26640ms)
+2025-05-14 21:16:26 [main] INFO  TC-282_verifySocialMediaSharing - Closing the browser for test: verifySocialMediaSharing
+2025-05-14 21:16:26 [main] INFO  TC-282_verifySocialMediaSharing - Browser closed.

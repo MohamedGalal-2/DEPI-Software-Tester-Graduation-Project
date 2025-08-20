@@ -87,3 +87,41 @@
 2025-03-23 05:19:38 [main] INFO  listeners.TestListener - ✅ Test PASSED: validateHomepageRedirection (Duration: 4619ms)
 2025-03-23 05:19:38 [main] INFO  TC-262_validateHomepageRedirection - Closing the browser for test: validateHomepageRedirection
 2025-03-23 05:19:38 [main] INFO  TC-262_validateHomepageRedirection - Browser closed.
+2025-05-14 18:27:01 [main] INFO  TC-262_validateHomepageRedirection - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-05-14 18:27:01 [main] INFO  TC-262_validateHomepageRedirection - Logger initialized
+2025-05-14 18:27:01 [main] INFO  TC-262_validateHomepageRedirection - Starting test setup for: validateHomepageRedirection (🔢 Test Case ID: TC-262)
+2025-05-14 18:27:29 [main] INFO  TC-262_validateHomepageRedirection - Navigated to the site: https://demo.nopcommerce.com
+2025-05-14 18:27:29 [main] INFO  TC-262_validateHomepageRedirection - Injected cookie: cf_clearance
+2025-05-14 18:27:29 [main] INFO  TC-262_validateHomepageRedirection - Injected cookie: _ga
+2025-05-14 18:27:29 [main] INFO  TC-262_validateHomepageRedirection - Injected cookie: .Nop.Antiforgery
+2025-05-14 18:27:29 [main] INFO  TC-262_validateHomepageRedirection - Injected cookie: .Nop.Customer
+2025-05-14 18:27:29 [main] INFO  TC-262_validateHomepageRedirection - Injected cookie: .Nop.Culture
+2025-05-14 18:27:29 [main] INFO  TC-262_validateHomepageRedirection - Injected cookie: _ga_SCT41TW89V
+2025-05-14 18:27:30 [main] INFO  TC-262_validateHomepageRedirection - Page refreshed with bypassed cookies.
+2025-05-14 18:27:30 [main] INFO  TC-262_validateHomepageRedirection - 🟢 Starting test: validateHomepageRedirection (🔢 Test Case ID: TC-262)
+2025-05-14 18:27:31 [main] INFO  TC-262_validateHomepageRedirection - Navigated to the Computers category page.
+2025-05-14 18:27:32 [main] INFO  TC-262_validateHomepageRedirection - Clicked on the homepage logo.
+2025-05-14 18:27:35 [main] INFO  TC-262_validateHomepageRedirection - Successfully redirected to the homepage.
+2025-05-14 18:27:35 [main] INFO  listeners.TestListener - ✅ Test PASSED: validateHomepageRedirection (Duration: 4737ms)
+2025-05-14 18:27:35 [main] INFO  TC-262_validateHomepageRedirection - Closing the browser for test: validateHomepageRedirection
+2025-05-14 18:27:35 [main] INFO  TC-262_validateHomepageRedirection - Browser closed.
+2025-05-14 21:03:49 [main] INFO  TC-262_validateHomepageRedirection - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-05-14 21:03:49 [main] INFO  TC-262_validateHomepageRedirection - Logger initialized
+2025-05-14 21:03:49 [main] INFO  TC-262_validateHomepageRedirection - Starting test setup for: validateHomepageRedirection (🔢 Test Case ID: TC-262)
+2025-05-14 21:04:11 [main] INFO  TC-262_validateHomepageRedirection - Navigated to the site: https://demo.nopcommerce.com
+2025-05-14 21:04:11 [main] INFO  TC-262_validateHomepageRedirection - Injected cookie: _ga
+2025-05-14 21:04:11 [main] INFO  TC-262_validateHomepageRedirection - Injected cookie: cf_clearance
+2025-05-14 21:04:11 [main] INFO  TC-262_validateHomepageRedirection - Injected cookie: .Nop.Antiforgery
+2025-05-14 21:04:11 [main] INFO  TC-262_validateHomepageRedirection - Injected cookie: .Nop.Customer
+2025-05-14 21:04:11 [main] INFO  TC-262_validateHomepageRedirection - Injected cookie: .Nop.Culture
+2025-05-14 21:04:11 [main] INFO  TC-262_validateHomepageRedirection - Injected cookie: _ga_SCT41TW89V
+2025-05-14 21:04:12 [main] INFO  TC-262_validateHomepageRedirection - Page refreshed with bypassed cookies.
+2025-05-14 21:04:12 [main] INFO  TC-262_validateHomepageRedirection - 🟢 Starting test: validateHomepageRedirection (🔢 Test Case ID: TC-262)
+2025-05-14 21:04:14 [main] INFO  TC-262_validateHomepageRedirection - Navigated to the Computers category page.
+2025-05-14 21:04:15 [main] INFO  TC-262_validateHomepageRedirection - Clicked on the homepage logo.
+2025-05-14 21:04:17 [main] INFO  TC-262_validateHomepageRedirection - Successfully redirected to the homepage.
+2025-05-14 21:04:17 [main] INFO  listeners.TestListener - ✅ Test PASSED: validateHomepageRedirection (Duration: 4778ms)
+2025-05-14 21:04:17 [main] INFO  TC-262_validateHomepageRedirection - Closing the browser for test: validateHomepageRedirection
+2025-05-14 21:04:17 [main] INFO  TC-262_validateHomepageRedirection - Browser closed.

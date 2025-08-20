@@ -1,1 +1,5 @@
 Meetings/**/*.mp4
+
+automation-framework/reports/extent-reports
+
+automation-framework/reports/Done/**/reports

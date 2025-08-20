@@ -74,7 +74,6 @@ public class SeleniumHelper {
         wait.until(ExpectedConditions.attributeContains(element, attribute, expectedValue));
     }
 
-
     // Get the current page title
     public String getPageTitle() {
         return driver.getTitle();
@@ -94,7 +93,6 @@ public class SeleniumHelper {
     public List<WebElement> waitForAllElementsPresence(By locator) {
         return wait.until(ExpectedConditions.presenceOfAllElementsLocatedBy(locator));
     }
-
 
     // Wait for an element to be clickable
     public WebElement waitForClickable(By locator) {

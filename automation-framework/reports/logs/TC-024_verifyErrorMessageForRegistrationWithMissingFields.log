@@ -165,3 +165,41 @@
 ===================================================================================== NEW TEST RUN =====================================================================================
 2025-05-06 09:01:22 [main] INFO  TC-024_verifyErrorMessageForRegistrationWithMissingFields - Logger initialized
 2025-05-06 09:01:22 [main] INFO  TC-024_verifyErrorMessageForRegistrationWithMissingFields - Starting test setup for: verifyErrorMessageForRegistrationWithMissingFields (🔢 Test Case ID: TC-024)
+2025-05-12 23:04:46 [main] INFO  TC-024_verifyErrorMessageForRegistrationWithMissingFields - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-05-12 23:04:46 [main] INFO  TC-024_verifyErrorMessageForRegistrationWithMissingFields - Logger initialized
+2025-05-12 23:04:46 [main] INFO  TC-024_verifyErrorMessageForRegistrationWithMissingFields - Starting test setup for: verifyErrorMessageForRegistrationWithMissingFields (🔢 Test Case ID: TC-024)
+2025-05-12 23:05:04 [main] INFO  TC-024_verifyErrorMessageForRegistrationWithMissingFields - Navigated to the site: https://demo.nopcommerce.com
+2025-05-12 23:05:04 [main] INFO  TC-024_verifyErrorMessageForRegistrationWithMissingFields - Injected cookie: _ga
+2025-05-12 23:05:04 [main] INFO  TC-024_verifyErrorMessageForRegistrationWithMissingFields - Injected cookie: cf_clearance
+2025-05-12 23:05:04 [main] INFO  TC-024_verifyErrorMessageForRegistrationWithMissingFields - Injected cookie: .Nop.Antiforgery
+2025-05-12 23:05:04 [main] INFO  TC-024_verifyErrorMessageForRegistrationWithMissingFields - Injected cookie: .Nop.Customer
+2025-05-12 23:05:04 [main] INFO  TC-024_verifyErrorMessageForRegistrationWithMissingFields - Injected cookie: .Nop.Culture
+2025-05-12 23:05:04 [main] INFO  TC-024_verifyErrorMessageForRegistrationWithMissingFields - Injected cookie: _ga_SCT41TW89V
+2025-05-12 23:05:04 [main] INFO  TC-024_verifyErrorMessageForRegistrationWithMissingFields - Page refreshed with bypassed cookies.
+2025-05-12 23:05:04 [main] INFO  TC-024_verifyErrorMessageForRegistrationWithMissingFields - 🟢 Starting test: verifyErrorMessageForRegistrationWithMissingFields (🔢 Test Case ID: TC-024)
+2025-05-12 23:05:05 [main] INFO  utils.MainFunctionalities - Navigating to registration page.
+2025-05-12 23:05:09 [main] INFO  utils.MainFunctionalities - Clicking 'Register' button.
+2025-05-12 23:05:18 [main] INFO  TC-024_verifyErrorMessageForRegistrationWithMissingFields - Error messages for missing mandatory fields are displayed.
+2025-05-12 23:05:18 [main] INFO  listeners.TestListener - ✅ Test PASSED: verifyErrorMessageForRegistrationWithMissingFields (Duration: 13020ms)
+2025-05-12 23:05:18 [main] INFO  TC-024_verifyErrorMessageForRegistrationWithMissingFields - Closing the browser for test: verifyErrorMessageForRegistrationWithMissingFields
+2025-05-12 23:05:18 [main] INFO  TC-024_verifyErrorMessageForRegistrationWithMissingFields - Browser closed.
+2025-05-14 21:17:01 [main] INFO  TC-024_verifyErrorMessageForRegistrationWithMissingFields - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-05-14 21:17:01 [main] INFO  TC-024_verifyErrorMessageForRegistrationWithMissingFields - Logger initialized
+2025-05-14 21:17:01 [main] INFO  TC-024_verifyErrorMessageForRegistrationWithMissingFields - Starting test setup for: verifyErrorMessageForRegistrationWithMissingFields (🔢 Test Case ID: TC-024)
+2025-05-14 21:17:38 [main] INFO  TC-024_verifyErrorMessageForRegistrationWithMissingFields - Navigated to the site: https://demo.nopcommerce.com
+2025-05-14 21:17:38 [main] INFO  TC-024_verifyErrorMessageForRegistrationWithMissingFields - Injected cookie: _ga
+2025-05-14 21:17:38 [main] INFO  TC-024_verifyErrorMessageForRegistrationWithMissingFields - Injected cookie: cf_clearance
+2025-05-14 21:17:38 [main] INFO  TC-024_verifyErrorMessageForRegistrationWithMissingFields - Injected cookie: .Nop.Antiforgery
+2025-05-14 21:17:38 [main] INFO  TC-024_verifyErrorMessageForRegistrationWithMissingFields - Injected cookie: .Nop.Customer
+2025-05-14 21:17:38 [main] INFO  TC-024_verifyErrorMessageForRegistrationWithMissingFields - Injected cookie: .Nop.Culture
+2025-05-14 21:17:38 [main] INFO  TC-024_verifyErrorMessageForRegistrationWithMissingFields - Injected cookie: _ga_SCT41TW89V
+2025-05-14 21:17:39 [main] INFO  TC-024_verifyErrorMessageForRegistrationWithMissingFields - Page refreshed with bypassed cookies.
+2025-05-14 21:17:39 [main] INFO  TC-024_verifyErrorMessageForRegistrationWithMissingFields - 🟢 Starting test: verifyErrorMessageForRegistrationWithMissingFields (🔢 Test Case ID: TC-024)
+2025-05-14 21:17:40 [main] INFO  utils.MainFunctionalities - Navigating to registration page.
+2025-05-14 21:17:44 [main] INFO  utils.MainFunctionalities - Clicking 'Register' button.
+2025-05-14 21:17:55 [main] INFO  TC-024_verifyErrorMessageForRegistrationWithMissingFields - Error messages for missing mandatory fields are displayed.
+2025-05-14 21:17:55 [main] INFO  listeners.TestListener - ✅ Test PASSED: verifyErrorMessageForRegistrationWithMissingFields (Duration: 15897ms)
+2025-05-14 21:17:55 [main] INFO  TC-024_verifyErrorMessageForRegistrationWithMissingFields - Closing the browser for test: verifyErrorMessageForRegistrationWithMissingFields
+2025-05-14 21:17:55 [main] INFO  TC-024_verifyErrorMessageForRegistrationWithMissingFields - Browser closed.

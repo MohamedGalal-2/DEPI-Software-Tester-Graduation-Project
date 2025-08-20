@@ -167,3 +167,47 @@
 2025-03-23 05:20:52 [main] INFO  listeners.TestListener - ✅ Test PASSED: verifyCategoryNavigation (Duration: 13983ms)
 2025-03-23 05:20:52 [main] INFO  TC-046_verifyCategoryNavigation - Closing the browser for test: verifyCategoryNavigation
 2025-03-23 05:20:53 [main] INFO  TC-046_verifyCategoryNavigation - Browser closed.
+2025-05-14 18:28:04 [main] INFO  TC-046_verifyCategoryNavigation - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-05-14 18:28:04 [main] INFO  TC-046_verifyCategoryNavigation - Logger initialized
+2025-05-14 18:28:04 [main] INFO  TC-046_verifyCategoryNavigation - Starting test setup for: verifyCategoryNavigation (🔢 Test Case ID: TC-046)
+2025-05-14 18:28:20 [main] INFO  TC-046_verifyCategoryNavigation - Navigated to the site: https://demo.nopcommerce.com
+2025-05-14 18:28:20 [main] INFO  TC-046_verifyCategoryNavigation - Injected cookie: _ga
+2025-05-14 18:28:20 [main] INFO  TC-046_verifyCategoryNavigation - Injected cookie: cf_clearance
+2025-05-14 18:28:20 [main] INFO  TC-046_verifyCategoryNavigation - Injected cookie: .Nop.Antiforgery
+2025-05-14 18:28:20 [main] INFO  TC-046_verifyCategoryNavigation - Injected cookie: .Nop.Customer
+2025-05-14 18:28:20 [main] INFO  TC-046_verifyCategoryNavigation - Injected cookie: .Nop.Culture
+2025-05-14 18:28:20 [main] INFO  TC-046_verifyCategoryNavigation - Injected cookie: _ga_SCT41TW89V
+2025-05-14 18:28:21 [main] INFO  TC-046_verifyCategoryNavigation - Page refreshed with bypassed cookies.
+2025-05-14 18:28:21 [main] INFO  TC-046_verifyCategoryNavigation - 🟢 Starting test: verifyCategoryNavigation (🔢 Test Case ID: TC-046)
+2025-05-14 18:28:21 [main] INFO  utils.MainFunctionalities - Navigating to home page.
+2025-05-14 18:28:24 [main] INFO  utils.MainFunctionalities - Clicked on 'Electronics' category.
+2025-05-14 18:28:26 [main] INFO  utils.MainFunctionalities - Verified category page loads correctly.
+2025-05-14 18:28:29 [main] INFO  utils.MainFunctionalities - Clicked on subcategory.cellPhonessubcategory.
+2025-05-14 18:28:31 [main] INFO  utils.MainFunctionalities - Verified subcategory page loads correctly.
+2025-05-14 18:28:34 [main] INFO  utils.MainFunctionalities - Verified products are displayed correctly.
+2025-05-14 18:28:34 [main] INFO  listeners.TestListener - ✅ Test PASSED: verifyCategoryNavigation (Duration: 12870ms)
+2025-05-14 18:28:34 [main] INFO  TC-046_verifyCategoryNavigation - Closing the browser for test: verifyCategoryNavigation
+2025-05-14 18:28:34 [main] INFO  TC-046_verifyCategoryNavigation - Browser closed.
+2025-05-14 21:04:46 [main] INFO  TC-046_verifyCategoryNavigation - 
+===================================================================================== NEW TEST RUN =====================================================================================
+2025-05-14 21:04:46 [main] INFO  TC-046_verifyCategoryNavigation - Logger initialized
+2025-05-14 21:04:46 [main] INFO  TC-046_verifyCategoryNavigation - Starting test setup for: verifyCategoryNavigation (🔢 Test Case ID: TC-046)
+2025-05-14 21:05:03 [main] INFO  TC-046_verifyCategoryNavigation - Navigated to the site: https://demo.nopcommerce.com
+2025-05-14 21:05:03 [main] INFO  TC-046_verifyCategoryNavigation - Injected cookie: cf_clearance
+2025-05-14 21:05:03 [main] INFO  TC-046_verifyCategoryNavigation - Injected cookie: _ga
+2025-05-14 21:05:03 [main] INFO  TC-046_verifyCategoryNavigation - Injected cookie: .Nop.Antiforgery
+2025-05-14 21:05:03 [main] INFO  TC-046_verifyCategoryNavigation - Injected cookie: .Nop.Customer
+2025-05-14 21:05:03 [main] INFO  TC-046_verifyCategoryNavigation - Injected cookie: .Nop.Culture
+2025-05-14 21:05:03 [main] INFO  TC-046_verifyCategoryNavigation - Injected cookie: _ga_SCT41TW89V
+2025-05-14 21:05:04 [main] INFO  TC-046_verifyCategoryNavigation - Page refreshed with bypassed cookies.
+2025-05-14 21:05:04 [main] INFO  TC-046_verifyCategoryNavigation - 🟢 Starting test: verifyCategoryNavigation (🔢 Test Case ID: TC-046)
+2025-05-14 21:05:05 [main] INFO  utils.MainFunctionalities - Navigating to home page.
+2025-05-14 21:05:08 [main] INFO  utils.MainFunctionalities - Clicked on 'Electronics' category.
+2025-05-14 21:05:11 [main] INFO  utils.MainFunctionalities - Verified category page loads correctly.
+2025-05-14 21:05:13 [main] INFO  utils.MainFunctionalities - Clicked on subcategory.cellPhonessubcategory.
+2025-05-14 21:05:16 [main] INFO  utils.MainFunctionalities - Verified subcategory page loads correctly.
+2025-05-14 21:05:17 [main] INFO  utils.MainFunctionalities - Verified products are displayed correctly.
+2025-05-14 21:05:17 [main] INFO  listeners.TestListener - ✅ Test PASSED: verifyCategoryNavigation (Duration: 13362ms)
+2025-05-14 21:05:17 [main] INFO  TC-046_verifyCategoryNavigation - Closing the browser for test: verifyCategoryNavigation
+2025-05-14 21:05:17 [main] INFO  TC-046_verifyCategoryNavigation - Browser closed.
